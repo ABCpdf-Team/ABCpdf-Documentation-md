@@ -1,0 +1,20 @@
+---
+title: "unembedcomplexfonts"
+css: "abcpdf-docs.css"
+---
+
+# UnembedComplexFonts Property
+
+| Type | Default | Read Only | Description | 
+| --- | --- | --- | --- |
+| **[C#]** ```csharp bool ``` [Visual Basic] `Boolean` | true | No | Whether to unembed complex Unicode based fonts where possible. | 
+
+## Notes
+
+Whether to unembed complex Unicode based fonts fonts where possible.
+
+This option is relatively complex and expensive but this type of embedded font tends to be large so the size reduction obtained can be significant.
+
+## Example
+
+None.

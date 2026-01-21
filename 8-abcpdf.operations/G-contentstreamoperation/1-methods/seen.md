@@ -1,0 +1,35 @@
+---
+title: "seen"
+css: "abcpdf-docs.css"
+---
+
+# Seen Function
+
+Determines if the object provided has previously been processed by this operation.
+
+## Syntax
+
+**[C#]**
+
+```csharp
+bool Seen(IndirectObject io)
+```
+
+<span class=language>[Visual Basic]</span>  
+
+            `Sub Seen(io As IndirectObject) As Boolean`
+			
+## Params
+
+| Name | Description | 
+| --- | --- |
+| io | The object to test against. | 
+| return | Whether the object has been seen. | 
+
+## Notes
+
+Determines if the object provided has previously been processed by this operation.
+
+## Example
+
+None.

@@ -1,0 +1,37 @@
+---
+title: "addrect"
+css: "abcpdf-docs.css"
+---
+
+# AddRect Function
+
+Add a rectangle to the current page.
+
+## Syntax
+
+**[C#]**
+
+```csharp
+int AddRect(bool filled)
+```
+
+<span class=language>[Visual
+            Basic]</span>  
+
+            `Function AddRect(filled As Boolean) As Integer`
+## Params
+
+| Name | Description | 
+| --- | --- |
+| filled | Whether to fill the rectangle rather than simply outline it. | 
+| return | The Object ID of the newly added Graphic Object. | 
+
+## Notes
+
+Add a rectangle drawn in the current [color](../2-properties/color.md) at the current [width](../2-properties/width.md) and with the current [options](../2-properties/options.md). The rectangle may be outlined or filled.
+
+Note that this is subtly different from the way that FrameRect works. When a rectangle is framed the line goes around the outside of the rectangle. When a rectangle is added the line is centered on the rectangle - so half is inside and half is outside.
+
+## Example
+
+None.

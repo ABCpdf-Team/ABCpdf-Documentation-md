@@ -1,0 +1,100 @@
+---
+title: "resize"
+css: "abcpdf-docs.css"
+---
+
+# Resize Function
+
+Resizes the image.
+
+## Syntax
+
+**[C#]**
+
+```csharp
+void Resize(int width, int height)
+void Resize(int width, int height, Interpolation interpolation)
+```
+
+**[Visual Basic]**
+
+```
+Sub Resize(width As Integer, height As Integer)
+Sub Resize(width As Integer, height As Integer, interpolation As Interpolation)
+```
+`may throw Exception()`
+
+## Params
+
+| Name | Description | 
+| --- | --- |
+| width | The destination width for the image. | 
+| height | The destination height for the image. | 
+| interpolation | The type of interpolation to be used when resizing the image. The default value is Auto. | 
+
+## Notes
+
+Resizes the image to a specified width and height using a specified interpolation method.
+
+The interpolation parameter should be viewed as a request rather than a command because not all types of interpolation can be used on all types of image. If the method you specify is not appropriate then ABCpdf will automatically select a suitable alternative.
+
+After an image has been resized it is no longer compressed. You may wish to compress it using the [StreamObject.Compress](../../streamobject/1-methods/compress.md) method.
+
+The Interpolation enumeration may take the following values:
+
+- Auto
+- NearestNeighbor
+- Linear
+- Cubic
+- Super
+- Lanczos
+
+The Auto setting allows ABCpdf to automatically choose an appropriate interpolation algorithm given the type of image and the type of scaling. If you are aiming to maximize quality this is the setting you should use.
+
+The nearest neighbor algorithm is the fastest but also the lowest quality method. It simply finds the nearest pixel in the source image and maps it through to the destination image. However it is also the only method which can be used for Indexed color images.
+
+The Linear, Cubic and Lanzcos methods are progressively higher quality methods based around a weighted average of pixels from the source image. However they are also progressively slower. The Lanzcos function used is the three lobed variety.
+
+The Linear, Cubic and Lanzcos methods use weighted averages from a limited number of pixels in the source image. For large size reductions this may result in information from some pixels in the source image being completely discarded. The super method aims to work around this issue by increasing coverage to all the pixels in the source image. It only works if an image is being reduced in both height and width.
+
+This function is optimized for resizing one, three and four component images at precisions of eight or sixteen bits per component.
+
+## Example
+
+Here we resize all the images in a document to a quarter of their previous resolution.
+
+[C#]
+
+```csharp
+using var doc = new Doc();
+doc.Read(Server.MapPath("../Rez/spaceshuttle.pdf"));
+foreach (IndirectObject io in doc.ObjectSoup) {
+  if (io is PixMap) {
+    var pm = (PixMap)io;
+    pm.Realize(); // eliminate indexed color images
+    pm.Resize(pm.Width / 4, pm.Height / 4);
+  }
+}
+doc.Save(Server.MapPath("pixmapresize.pdf"));
+```
+
+**[Visual Basic]**
+
+```vbnet
+Using doc As New Doc()
+  doc.Read(Server.MapPath("../Rez/spaceshuttle.pdf"))
+  For Each io As IndirectObject In doc.ObjectSoup
+    If TypeOf io Is PixMap Then
+      Dim pm As PixMap = DirectCast(io, PixMap)
+      pm.Realize()
+      ' eliminate indexed color images
+      pm.Resize(pm.Width / 4, pm.Height / 4)
+    End If
+  Next
+  doc.Save(Server.MapPath("pixmapresize.pdf"))
+End Using
+```
+
+![](../../../images/pdf/shuttle_p1.png) spaceshuttle.pdf [page 1]
+
+![](../../../images/pdf/pixmapresize.pdf.png) pixmapresize.pdf [page 1]

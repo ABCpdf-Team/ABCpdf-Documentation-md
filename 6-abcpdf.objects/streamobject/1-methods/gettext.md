@@ -1,0 +1,35 @@
+---
+title: "gettext"
+css: "abcpdf-docs.css"
+---
+
+# GetText Function
+
+Get the content of the stream as a string.
+
+## Syntax
+
+**[C#]**
+
+```csharp
+string GetText()
+```
+
+**[Visual Basic]**
+
+`Function GetText() As String`
+## Params
+
+| Name | Description | 
+| --- | --- |
+| return | The content of the stream as a string. | 
+
+## Notes
+
+Get the content of the stream in string format.
+
+You will generally want to ensure your stream is decompressed before using this function.
+
+## Example
+
+None.

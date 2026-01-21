@@ -1,0 +1,18 @@
+---
+title: "textstart"
+css: "abcpdf-docs.css"
+---
+
+# TextStart Property
+
+| Type | Default | Read Only | Description | 
+| --- | --- | --- | --- |
+| **[C#]** ```csharp int ``` [Visual Basic] `Integer` | n/a | Yes | The offset to the first character drawn onto this layer. | 
+
+## Notes
+
+The offset to the first character (in the [FullText](fulltext.md)) to be drawn onto this layer.
+
+## Example
+
+None.

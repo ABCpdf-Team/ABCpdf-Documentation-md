@@ -1,0 +1,40 @@
+---
+title: "1-xtransform"
+css: "abcpdf-docs.css"
+---
+
+# XTransform &nbsp;Constructor
+
+XTransform Constructor.
+
+## Syntax
+
+**[C#]** ```csharp XTransform() XTransform(string text) XTransform(double[] entries) XTransform(Matrix matrix) XTransform(double m11, double m12, double m21, double m22, double tx, double ty) XTransform(XRect src, XRect dst) ``` [Visual Basic] ``` Sub New Sub New(text As String) Sub New(entries As Double()) Sub New(entries As Matrix) Sub New(m11 As Double, m12 As Double, m21 As Double, m22 As Double, tx As Double, ty As Double) Sub New(src As XRect, dst As XRect) ```
+
+## Params
+
+| Name | Description | 
+| --- | --- |
+| text | A string defining the initial rectangle in the format returned by the String property. | 
+| matrix | A System.Drawing.Drawing2D Matrix object specifying the values for the transform. | 
+| entries | An array of doubles specifying the values for the matrix. These are in the order m11, m12, m21, m22, tx and ty. | 
+| m11 | Matrix entry 1,1. | 
+| m12 | Matrix entry 1,2. | 
+| m21 | Matrix entry 2,1. | 
+| m22 | Matrix entry 2,2. | 
+| tx | The x translation to be applied. | 
+| ty | The y translation to be applied. | 
+| src | The source rectangle. | 
+| dst | The source rectangle. | 
+
+## Notes
+
+These methods construct an XTransform object.
+
+The default constructor creates an identity transform.
+
+The constructor which takes two rectangles creates a transform which maps the source rectangle to the destination rectangle using positive scale values.
+
+## Example
+
+None.

@@ -1,0 +1,22 @@
+---
+title: "02-infoauthor"
+css: "abcpdf-docs.css"
+---
+
+# InfoAuthor Property
+
+| Type | Default Value | Read Only | Description | 
+| --- | --- | --- | --- |
+| **[C#]** ```csharp string ``` [Visual Basic] `string` | null | No | The Author entry within the Metadata | 
+
+## Notes
+
+The Author entry within the [Metadata](../default.md).
+
+This corresponds to the dc:creator entry.
+
+The PDF 2.0 Specification states that this corresponds to the dc:author entry, but this seems to be a mistake since all related specifications and indeed all examples in the PDF 2.0 specification use the dc:creator.
+
+## Example
+
+Also see example code in: [Catalog Metadata Property](../../catalog/2-properties/metadata.md).

@@ -1,0 +1,38 @@
+---
+title: "addcheckbox"
+css: "abcpdf-docs.css"
+---
+
+# AddCheckbox Function
+
+Add check box form field.
+
+## Syntax
+
+**[C#]**
+
+```csharp
+Field AddCheckbox(XRect rect, string name, bool value)
+```
+
+<span class=language>[Visual Basic]</span>  
+
+            `Function AddCheckbox(rect As XRect, name As string, value As bool) As Field`
+			
+## Params
+
+| Name | Description | 
+| --- | --- |
+| rect | Rectangle of the form field | 
+| name | Name of the form field | 
+| value | Initial value | 
+| return | Form field object | 
+
+## Notes
+
+Add check box form field.
+
+## Example
+
+See the Annotations example project.
+  Also see example code in: [ABCpdf Fields, Markup and Movies Example](../../../4-examples/18-annotations.md).

@@ -1,0 +1,33 @@
+---
+title: "applicationisrunning"
+css: "abcpdf-docs.css"
+---
+
+# ApplicationIsRunning Function
+
+Gets a value indicating whether an import application is running for this XpsImportOperation.
+
+## Syntax
+
+**[C#]**
+
+```csharp
+bool ApplicationIsRunning(ImportApplicationType app)
+```
+
+<span class=language>[Visual Basic]</span>  
+`Function ApplicationIsRunning(app As ImportApplicationType) As Boolean`
+## Params
+
+| Name | Description | 
+| --- | --- |
+| app | The import application. | 
+| return | Whether the application is running. | 
+
+## Notes
+
+This function indicates whether an application is running for this XpsImportOperation when the process reuse for the application is enabled with [EnableApplicationReuse](enableapplicationreuse.md).
+
+## Example
+
+None.

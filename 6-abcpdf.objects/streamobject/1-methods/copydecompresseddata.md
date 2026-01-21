@@ -1,0 +1,52 @@
+---
+title: "copydecompresseddata"
+css: "abcpdf-docs.css"
+---
+
+# CopyDecompressedData Function
+
+Copy the decompressed binary content of the stream into a byte array.
+
+## Syntax
+
+**[C#]**
+
+```csharp
+int CopyDecompressedData()
+int CopyDecompressedData(byte[] destination)
+int CopyDecompressedData(byte[] destination, int startIndex)
+int CopyDecompressedData(byte[] destination, int startIndex, int maxLength)
+```
+
+<span class=language>[Visual
+            Basic]</span>  
+
+```
+Function CopyDecompressedData() As Integer
+Function CopyDecompressedData(destination() As Byte) As Integer
+Function CopyDecompressedData(destination() As Byte, startIndex as Integer) As Integer
+Function CopyDecompressedData(destination() As Byte, startIndex as Integer, maxLength As Integer) As Integer
+```
+
+## Params
+
+| Name | Description | 
+| --- | --- |
+| destination | The destination byte array. Default is null. | 
+| startIndex | The index in the byte array at which the first byte should be written. Default is 0. | 
+| maxLength | The maximum number of bytes that should be written. Default is Int.MaxValue. | 
+| return | The length of the decompressed data that has been written to the array. If the destination is null then this returns the length that would have been written if a destination had been provided. | 
+
+## Notes
+
+Copy the decompressed binary content of the stream into a byte array.
+
+This method does not alter the content of the StreamObject so it is an efficient way of getting the decompressed data without altering the document.
+
+If the data could not be decompressed then an exception will be raised.
+
+The decompressed data is cached so that multiple calls to this function are efficient. For this reason calling this value with a null destination is an efficient way of determining the length of the decompressed stream.
+
+## Example
+
+None.

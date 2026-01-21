@@ -1,0 +1,18 @@
+---
+title: "01-signername"
+css: "abcpdf-docs.css"
+---
+
+# SignerName Property
+
+| Type | Default Value | Read Only | Description | 
+| --- | --- | --- | --- |
+| **[C#]** ```csharp string ``` [Visual Basic] `string` | null | Yes | The name of the signer of the signature as specified on the signer's certificate. | 
+
+## Notes
+
+The name of the signer of the signature as specified on the signer's certificate.
+            
+## Example
+
+None.

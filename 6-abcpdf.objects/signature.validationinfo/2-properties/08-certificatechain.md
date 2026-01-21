@@ -1,0 +1,18 @@
+---
+title: "08-certificatechain"
+css: "abcpdf-docs.css"
+---
+
+# CertificateChain Property
+
+| Type | Default Value | Read Only | Description | 
+| --- | --- | --- | --- |
+| **[C#]** ```csharp X509Chain ``` [Visual Basic] `X509Chain` | null | Yes | The X509Chain as used to validate the signature. | 
+
+## Notes
+
+The X509Chain as used to validate the signature.
+            
+## Example
+
+None.

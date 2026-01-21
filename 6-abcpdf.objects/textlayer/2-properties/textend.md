@@ -1,0 +1,18 @@
+---
+title: "textend"
+css: "abcpdf-docs.css"
+---
+
+# TextEnd Property
+
+| Type | Default | Read Only | Description | 
+| --- | --- | --- | --- |
+| **[C#]** ```csharp int ``` [Visual Basic] `Integer` | n/a | Yes | The offset to the last character drawn onto this layer. | 
+
+## Notes
+
+The offset to the last character (in the [FullText](fulltext.md)) to be drawn onto this layer.
+
+## Example
+
+None.

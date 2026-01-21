@@ -1,0 +1,35 @@
+---
+title: "runjs"
+css: "abcpdf-docs.css"
+---
+
+# RunJS Function
+
+Run JavaScript code.
+
+## Syntax
+
+**[C#]**
+
+```csharp
+string RunJS(string js, JSOptions options)
+```
+
+<span class=language>[Visual
+            Basic]</span>  
+`Function RunJS(js As String, options As JSOptions) As String`
+## Params
+
+| Name | Description | 
+| --- | --- |
+| js | The JavaScript code to be executed. The method does nothing if it is null/Nothing or empty. | 
+| options | The options. If it is null, a default will be used. | 
+| return | The result of the execution converted to string. | 
+
+## Notes
+
+This method runs the JavaScript code against the PDF document. For example, you can execute actions that are executed when an annotation is clicked on by running the JavaScript code obtained with doc.GetInfo(annot.ID, "/A/JS:Text").
+
+## Example
+
+See the [JSOptions.SetUp](../../../8-abcpdf.javascript/jsoptions/3-events/setup.md) event.

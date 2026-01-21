@@ -1,0 +1,36 @@
+---
+title: "getint"
+css: "abcpdf-docs.css"
+---
+
+# GetInt Function
+
+Gets the integer value from the Atom if it is a NumAtom.
+
+## Syntax
+
+**[C#]**
+
+```csharp
+static int GetInt(Atom atom)
+```
+
+**[Visual Basic]**
+
+`Shared Function GetInt(atom As Atom) As Integer`
+## Params
+
+| Name | Description | 
+| --- | --- |
+| atom | The Atom to get the integer from. | 
+| return | The returned integer. | 
+
+## Notes
+
+Get the integer value from the supplied Atom if it is a NumAtom.
+
+If the atom is not a NumAtom or if it is null then zero will be returned.
+
+## Example
+
+None.

@@ -1,0 +1,20 @@
+---
+title: "fontlinegap"
+css: "abcpdf-docs.css"
+---
+
+# FontLineGap Property
+
+| Type | Default Value | Read Only | Description | 
+| --- | --- | --- | --- |
+| **[C#]** ```csharp int ``` [Visual Basic] `Integer` | n/a | Yes | The line gap for the glyphs in this font | 
+
+## Notes
+
+The line gap for the glyphs in this font.
+
+This corresponds to the sTypoLineGap entry in the 'OS/2' TrueType table.
+
+## Example
+
+None.

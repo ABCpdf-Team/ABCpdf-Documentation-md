@@ -1,0 +1,18 @@
+---
+title: "03-index"
+css: "abcpdf-docs.css"
+---
+
+# Index Property
+
+| Type | Default Value | Read Only | Description | 
+| --- | --- | --- | --- |
+| **[C#]** ```csharp int ``` [Visual Basic] `Integer` | 0 | No | Gets or sets the item - the ArrayAtom index - which represents the current item being validated. | 
+
+## Notes
+
+Gets or sets the item - the ArrayAtom index - which represents the current item being validated.
+
+## Example
+
+None.

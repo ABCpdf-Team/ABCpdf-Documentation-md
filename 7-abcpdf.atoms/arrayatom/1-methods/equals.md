@@ -1,0 +1,36 @@
+---
+title: "equals"
+css: "abcpdf-docs.css"
+---
+
+# Equals Function
+
+Test whether the two ArrayAtoms are the same
+
+## Syntax
+
+**[C#]**
+
+```csharp
+bool Equals(ArrayAtom other)
+```
+
+<span class=language>[Visual
+            Basic]</span>  
+
+            `Function Equals(other As ArrayAtom) As Boolean`
+## Params
+
+| Name | Description | 
+| --- | --- |
+| other | The ArrayAtom to test against. | 
+
+## Notes
+
+Test whether the two ArrayAtoms are the same.
+
+Two ArrayAtoms are judged to be equal if they have the same number of Atoms contained within them and each Atom in one array is equal to the corresponding Atom in the other array.
+
+## Example
+
+None.

@@ -1,0 +1,20 @@
+---
+title: "fontascender"
+css: "abcpdf-docs.css"
+---
+
+# FontAscender Property
+
+| Type | Default Value | Read Only | Description | 
+| --- | --- | --- | --- |
+| **[C#]** ```csharp int ``` [Visual Basic] `Integer` |  | Yes | The ascender for the glyphs in this font | 
+
+## Notes
+
+The ascender for the glyphs in this font.
+
+This corresponds to the sTypoAscender entry in the 'OS/2' TrueType table.
+
+## Example
+
+None.

@@ -1,0 +1,39 @@
+---
+title: "15-tonamedictionary"
+css: "abcpdf-docs.css"
+---
+
+# ToNameDictionary Function
+
+Attempts to convert a DictAtom into a Dictionary of names, resolving any references as necessary.
+
+## Syntax
+
+**[C#]**
+
+```csharp
+virtual Dictionary ToNameDictionary(Atom atom)
+```
+
+<span class=language>[Visual Basic]</span>  
+
+            `Overridable Function ToNameDictionary(atom As Atom) As Dictionary`
+			
+## Params
+
+| Name | Description | 
+| --- | --- |
+| atom | The DictAtom from which to obtain the values. | 
+| return | The dictionary. | 
+
+## Notes
+
+Attempts to convert a DictAtom into a Dictionary of names, resolving any references as necessary.
+
+If the atom does not resolve to an DictAtom, then the return value will be null.
+
+Any entries which could not be coverted to the correct type will be null.
+
+## Example
+
+None.

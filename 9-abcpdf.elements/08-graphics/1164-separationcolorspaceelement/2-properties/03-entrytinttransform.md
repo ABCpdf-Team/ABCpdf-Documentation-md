@@ -1,0 +1,26 @@
+---
+title: "03-entrytinttransform"
+css: "abcpdf-docs.css"
+---
+
+# EntryTintTransform Property
+
+| Type | Default Value | Read Only | Description | 
+| --- | --- | --- | --- |
+| **[C#]** ```csharp FunctionElement ``` [Visual Basic] `FunctionElement` | null | No | This property represents the tint transform function. | 
+
+## Notes
+
+This property represents the tint transform function.
+
+The function is used to map color values in the Separation color space into color values in the [EntryAlternateColorSpace](02-entryalternatecolorspace.md) color space.
+
+The function should be called with the tint value and should return a number of components in the alternate color space.
+
+For definitive details see:.
+
+[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; page 156.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=164)
+
+## Example
+
+None.

@@ -1,0 +1,44 @@
+---
+title: "02-getpagenumber"
+css: "abcpdf-docs.css"
+---
+
+# GetPageNumber Function
+
+Get the page number for a particular page object.
+
+## Syntax
+
+**[C#]**
+
+```csharp
+int GetPageNumber(Page page)
+int GetPageNumber(int pageID)
+```
+
+<span class=language>[Visual Basic]</span>  
+
+```
+Sub GetPageNumber(page As Page) As int
+Sub GetPageNumber(pageID As int) As int
+```
+			
+## Params
+
+| Name | Description | 
+| --- | --- |
+| page | The Page object. | 
+| pageID | The Page IndirectObject ID. | 
+| return | The page number. | 
+
+## Notes
+
+Gets the page number for a particular page object.
+
+The object can be specified either using a Page object or an IndirectObject ID.
+
+The page number is a one based index - the first page is number one.
+
+## Example
+
+None.

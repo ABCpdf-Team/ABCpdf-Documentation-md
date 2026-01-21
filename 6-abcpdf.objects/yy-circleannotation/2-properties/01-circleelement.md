@@ -1,0 +1,19 @@
+---
+title: "01-circleelement"
+css: "abcpdf-docs.css"
+---
+
+# CircleElement Property
+
+| Type | Default Value | Read Only | Description | 
+| --- | --- | --- | --- |
+| **[C#]** ```csharp CircleAnnotationElement ``` [Visual Basic] `CircleAnnotationElement` | null | Yes | Get the specific Annotation Element. | 
+
+## Notes
+
+Get the specific Annotation Element.
+
+## Example
+
+None.
+            Also see example code in: [ABCpdf Fields, Markup and Movies Example](../../../4-examples/18-annotations.md).

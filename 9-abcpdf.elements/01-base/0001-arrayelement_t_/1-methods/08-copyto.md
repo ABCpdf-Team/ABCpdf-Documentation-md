@@ -1,0 +1,37 @@
+---
+title: "08-copyto"
+css: "abcpdf-docs.css"
+---
+
+# CopyTo Function
+
+Copies the [Elements](../../1086-element/default.md) into an array.
+
+## Syntax
+
+**[C#]**
+
+```csharp
+virtual void CopyTo(T[] array, int index)
+```
+
+<span class=language>[Visual Basic]</span>  
+
+            `Overridable Function CopyTo(array() As T, index As int) As void`
+			
+## Params
+
+| Name | Description | 
+| --- | --- |
+| array | The array that is the destination for the elements. | 
+| index | The zero-based index at which copying begins. | 
+
+## Notes
+
+Copies the [Elements](../../1086-element/default.md) into an array.
+
+Copies the elements of the collection to an array starting at a particular index.
+
+## Example
+
+None.
