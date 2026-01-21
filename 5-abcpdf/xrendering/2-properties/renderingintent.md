@@ -3,27 +3,32 @@ title: "renderingintent"
 css: "abcpdf-docs.css"
 ---
 
-# RenderingIntent Property
-
+|  |  | RenderingIntent Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp RenderingIntent ``` [Visual Basic]`RenderingIntent` | RelativeColorimetric | No | Gets or sets the default rendering intent. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| The default rendering intent for the operation. The rendering intent determines how out of gamut colors are handled. The following options are available: Perceptual RelativeColorimetric Saturation AbsoluteColorimetric The perceptual model maps the entire gamut of the source color space into the destination one and is good for photographic type images. The saturation model is good for diagrams, cartoons or posterized images where distinctiveness of color is more important than precise color fidelity. The colorimetric methods remap only those colors which are out of gamut. The relative one keeps the color values the same while allowing the brightness to vary. The absolute colorimetric method uses the closest color at the gamut boundary. In general you will want to use a perceptual intent when mapping from a large gamut color space (e.g. RGB) to a narrow one (e.g. CMYK). In general you will want to use a relative colorimetric intent when mapping between similar color spaces (e.g. RGB to RGB or CMYK to CMYK). |  |  | 
+| --- | --- | --- |
 
-The default rendering intent for the operation.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-The rendering intent determines how out of gamut colors are handled. The following options are available:
-
-- Perceptual
-- RelativeColorimetric
-- Saturation
-- AbsoluteColorimetric
-
-The perceptual model maps the entire gamut of the source color space into the destination one and is good for photographic type images. The saturation model is good for diagrams, cartoons or posterized images where distinctiveness of color is more important than precise color fidelity. The colorimetric methods remap only those colors which are out of gamut. The relative one keeps the color values the same while allowing the brightness to vary. The absolute colorimetric method uses the closest color at the gamut boundary.
-
-In general you will want to use a perceptual intent when mapping from a large gamut color space (e.g. RGB) to a narrow one (e.g. CMYK). In general you will want to use a relative colorimetric intent when mapping between similar color spaces (e.g. RGB to RGB or CMYK to CMYK).
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

@@ -3,32 +3,52 @@ title: "02-clearcache"
 css: "abcpdf-docs.css"
 ---
 
-# ClearCache Function
+|  |  | ClearCache Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Clear the GetResource lookup cache. |  |  | 
 
-Clear the [GetResource](01-resorcerer.md) lookup cache.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp virtual void ClearCache() ``` [Visual Basic] ``` Overridable Function ClearCache() As void ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-virtual void ClearCache()
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `Overridable Function ClearCache() As void`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | none |  | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Clear the GetResource lookup cache. |  |  | 
+| --- | --- | --- |
 
-Clear the [GetResource](01-resorcerer.md) lookup cache.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

@@ -3,18 +3,32 @@ title: "streamoffset"
 css: "abcpdf-docs.css"
 ---
 
-# StreamOffset Property
-
+|  |  | StreamOffset Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp int ``` [Visual Basic] `Integer` | n/a | Yes | The offset within the content stream to the start of the drawing operation that contains this fragment. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| The offset within the content stream to the start of the drawing operation that contains this fragment. Each TextFragment spans a part of a PDF stream drawing operator. This property provides the offset within the uncompressed stream, to the start of that drawing operator. |  |  | 
+| --- | --- | --- |
 
-The offset within the content stream to the start of the drawing operation that contains this fragment.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-Each TextFragment spans a part of a PDF stream drawing operator. This property provides the offset within the uncompressed stream, to the start of that drawing operator.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

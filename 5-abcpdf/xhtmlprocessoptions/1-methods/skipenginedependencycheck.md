@@ -3,33 +3,61 @@ title: "skipenginedependencycheck"
 css: "abcpdf-docs.css"
 ---
 
-# SkipEngineDependencyCheck Method
+|  |  | SkipEngineDependencyCheck Method |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Skip the check of engine-dependent options that are set since last HTML import. |  |  | 
 
-Skip the check of engine-dependent options that are set since last HTML import.
+</td>
+  </tr>
+  <tr>
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Syntax</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top">
+      
+| **[C#]** ```csharp void SkipEngineDependencyCheck() ``` [Visual Basic] ``` Sub SkipEngineDependencyCheck() ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-void SkipEngineDependencyCheck()
-```
-
-**[Visual Basic]**
-
-`Sub SkipEngineDependencyCheck()`
-## Params
-
+</td>
+  </tr>
+  <tr>
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Params</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top">
+      
 | Name | Description | 
 | --- | --- |
 | none |  | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top">
+      
+| This skips the check of engine-dependent options to avoid an exception. The values of engine-dependent options should be set after Engine has been set because the value applies only to the selected engine. To make sure that the set engine-dependent options is applied to the engine that is used for HTML import or process pool operation (e.g. StartPool), the HTML import or process pool operation checks for the equality of the set values and the values for the newly specified engine. MaxProcesses depends on the selected engine. |  |  | 
+| --- | --- | --- |
 
-This skips the check of engine-dependent options to avoid an exception. The values of engine-dependent options should be set after [Engine](../../xhtmloptions/2-properties/1-engine.md) has been set because the value applies only to the selected engine. To make sure that the set engine-dependent options is applied to the engine that is used for HTML import or process pool operation (e.g. [StartPool](startpool.md)), the HTML import or process pool operation checks for the equality of the set values and the values for the newly specified engine.
+</td>
+  </tr>
+  <tr>
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top">
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-[MaxProcesses](../2-properties/1-maxprocesses.md) depends on the selected engine.
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

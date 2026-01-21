@@ -3,34 +3,39 @@ title: "08-entryencoding"
 css: "abcpdf-docs.css"
 ---
 
-# EntryEncoding Property
-
+|  |  | EntryEncoding Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp Element ``` [Visual Basic] `Element` | null | No | Represents the "Encoding" entry of the truetype font dictionary object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "Encoding" entry of the truetype font dictionary object. It is an optional entry defined as part of the PDF 1.0 specification. This property may contain one of two different types:. 1) A string representing a PDF name object. This item may take one of the following valid values:. MacRomanEncodingMacExpertEncodingWinAnsiEncoding. 2) An EncodingElement. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; page 257. |  |  | 
+| --- | --- | --- |
 
-Represents the "Encoding" entry of the truetype font dictionary object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is an optional entry defined as part of the PDF 1.0 specification.
-
-This property may contain one of two different types:.
-
-1) A string representing a PDF name object.
-
-This item may take one of the following valid values:.
-
-- MacRomanEncoding
-- MacExpertEncoding
-- WinAnsiEncoding
-
-.2) An [EncodingElement](../../1271-encodingelement/default.md).
-
-For definitive details see:.
-
-[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; page 257.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=265)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

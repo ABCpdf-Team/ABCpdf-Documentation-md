@@ -3,36 +3,52 @@ title: "01-pathrule"
 css: "abcpdf-docs.css"
 ---
 
-# PathRule Function
+|  |  | PathRule Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Path access rule constructor. |  |  | 
 
-Path access rule constructor.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp PathRule() PathRule(string pattern, AccessType access) ``` [Visual Basic] ``` PathRule() PathRule(string pattern, AccessType access) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-PathRule()
-PathRule(string pattern, AccessType access)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-```
-PathRule()
-PathRule(string pattern, AccessType access)
-```
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | none |  | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Path access rule constructor. |  |  | 
+| --- | --- | --- |
 
-Path access rule constructor.
-            
-## Example
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-None.
+</TD></TR></TBODY></TABLE>

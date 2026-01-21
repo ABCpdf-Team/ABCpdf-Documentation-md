@@ -3,26 +3,39 @@ title: "01-entryta"
 css: "abcpdf-docs.css"
 ---
 
-# EntryTA Property
-
+|  |  | EntryTA Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp RichMediaAnnotationElement ``` [Visual Basic] `RichMediaAnnotationElement` | null | No | Represents the "TA" entry of the rich-media-execute action object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "TA" entry of the rich-media-execute action object. It is a required entry defined as part of the PDF 1.7 Extension Level 3 specification. It contains a RichMediaAnnotationElement. For definitive details see:. Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 8.48a, page 40. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 222, page 523. |  |  | 
+| --- | --- | --- |
 
-Represents the "TA" entry of the rich-media-execute action object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is a required entry defined as part of the PDF 1.7 Extension Level 3 specification.
-
-It contains a [RichMediaAnnotationElement](../../2077-richmediaannotationelement/default.md).
-
-For definitive details see:.
-
-[Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 8.48a, page 40.](http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/adobe_supplement_iso32000.pdf#page=40)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 222, page 523.](https://www.iso.org/standard/63534.md)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

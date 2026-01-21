@@ -3,35 +3,52 @@ title: "04-removeat"
 css: "abcpdf-docs.css"
 ---
 
-# RemoveAt Function
+|  |  | RemoveAt Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Removes the Element at the specified index. |  |  | 
 
-Removes the [Element](../../1086-element/default.md) at the specified index.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp virtual void RemoveAt(int index) ``` [Visual Basic] ``` Overridable Function RemoveAt(index As int) As void ``` `ArgumentOutOfRangeException: Thrown if the index provided is not valid.` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-virtual void RemoveAt(int index)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `Overridable Function RemoveAt(index As int) As void`
-			`ArgumentOutOfRangeException: Thrown if the index provided is not valid.`
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | index | The zero-based index of the item to remove. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Removes the Element at the specified index. When an Element is removed the items that follow the removed item, move up to occupy the vacated spot. |  |  | 
+| --- | --- | --- |
 
-Removes the [Element](../../1086-element/default.md) at the specified index.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-When an [Element](../../1086-element/default.md) is removed the items that follow the removed item, move up to occupy the vacated spot.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

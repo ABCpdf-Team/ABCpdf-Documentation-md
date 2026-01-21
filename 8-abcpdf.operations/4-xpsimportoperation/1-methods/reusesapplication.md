@@ -3,33 +3,53 @@ title: "reusesapplication"
 css: "abcpdf-docs.css"
 ---
 
-# ReusesApplication Function
+|  |  | ReusesApplication Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Gets a value indicating whether an import application process is to be kept running and reused. |  |  | 
 
-Gets a value indicating whether an import application process is to be kept running and reused.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp bool ReusesApplication(ApplicationType app) ``` [Visual Basic]`Function ReusesApplication(app As ImportApplicationType) As Boolean` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-bool ReusesApplication(ApplicationType app)
-```
-
-<span class=language>[Visual Basic]</span>  
-`Function ReusesApplication(app As ImportApplicationType) As Boolean`
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | app | The import application. | 
 | return | Whether the application process is to be kept running and reused. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| This function returns the reuse status of an application. The reuse status can be changed with EnableApplicationReuse. |  |  | 
+| --- | --- | --- |
 
-This function returns the reuse status of an application.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-The reuse status can be changed with [EnableApplicationReuse](enableapplicationreuse.md).
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

@@ -3,24 +3,39 @@ title: "12-entryncodewordcol"
 css: "abcpdf-docs.css"
 ---
 
-# EntryNCodeWordCol Property
-
+|  |  | EntryNCodeWordCol Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp double? ``` [Visual Basic] `Double?` | null | No | Represents the "nCodeWordCol" entry of the papermetadata generation parameters dictionary object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "nCodeWordCol" entry of the papermetadata generation parameters dictionary object. It is defined as part of the PDF 1.0 specification. It contains a double representing a PDF numeric object. For definitive details see:. Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 8.39b, page 47. |  |  | 
+| --- | --- | --- |
 
-Represents the "nCodeWordCol" entry of the papermetadata generation parameters dictionary object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is defined as part of the PDF 1.0 specification.
-
-It contains a double representing a PDF numeric object.
-
-For definitive details see:.
-
-[Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 8.39b, page 47.](http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/adobe_supplement_iso32000.pdf#page=47)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

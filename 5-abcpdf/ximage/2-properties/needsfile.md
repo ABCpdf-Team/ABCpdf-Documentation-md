@@ -3,16 +3,32 @@ title: "needsfile"
 css: "abcpdf-docs.css"
 ---
 
-# NeedsFile Property
-
+|  |  | NeedsFile Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp bool ``` [Visual Basic]`Boolean` | See description. | Yes | Whether the file needs to exist. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| This property is true if the object has been created with an XReadOptions with ReadModule that uses an Operation (whether Operation is actually null or not) and the file specified is required to exist as long as the object is not cleared, disposed of, or garbage-collected. The object does not delete the file when it is disposed of. |  |  | 
+| --- | --- | --- |
 
-This property is true if the object has been created with an [XReadOptions](../../xreadoptions/default.md) with [ReadModule](../../xreadoptions/2-properties/1-readmodule.md) that uses an [Operation](../../xreadoptions/2-properties/operation.md) (whether [Operation](../../xreadoptions/2-properties/operation.md) is actually null or not) and the file specified is required to exist as long as the object is not cleared, disposed of, or garbage-collected. The object does not delete the file when it is disposed of.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

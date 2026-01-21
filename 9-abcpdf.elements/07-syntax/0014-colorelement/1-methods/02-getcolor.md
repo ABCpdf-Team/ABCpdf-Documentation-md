@@ -3,32 +3,52 @@ title: "02-getcolor"
 css: "abcpdf-docs.css"
 ---
 
-# GetColor Function
+|  |  | GetColor Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Get the contents of this ColorElement as an XColor. |  |  | 
 
-Get the contents of this [ColorElement](../default.md) as an XColor.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp virtual XColor GetColor() ``` [Visual Basic] ``` Overridable Function GetColor() As XColor ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-virtual XColor GetColor()
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `Overridable Function GetColor() As XColor`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | return | A new XColor with values corresponding to the contents of this ColorElement. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Get the contents of this ColorElement as an XColor. |  |  | 
+| --- | --- | --- |
 
-Get the contents of this [ColorElement](../default.md) as an XColor.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

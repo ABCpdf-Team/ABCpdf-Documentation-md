@@ -3,16 +3,28 @@ title: "setrgb"
 css: "abcpdf-docs.css"
 ---
 
-# SetRgb Function
+|  |  | SetRgb Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Set the color to an RGB value. |  |  | 
 
-Set the color to an RGB value.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp void SetRgb(int red, int green, int blue) void SetRgb(int red, int green, int blue, int alpha) void SetRgb(double red, double green, double blue) void SetRgb(double red, double green, double blue, double alpha) ``` [Visual Basic] ``` Sub SetRgb(red As Integer, green As Integer, blue As Integer) Sub SetRgb(red As Integer, green As Integer, blue As Integer, alpha as Integer) Sub SetRgb(red As Double, green As Double, blue As Double) Sub SetRgb(red As Double, green As Double, blue As Double, alpha as Double) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]** ```csharp void SetRgb(int red, int green, int blue) void SetRgb(int red, int green, int blue, int alpha) void SetRgb(double red, double green, double blue) void SetRgb(double red, double green, double blue, double alpha) ``` [Visual Basic] ``` Sub SetRgb(red As Integer, green As Integer, blue As Integer) Sub SetRgb(red As Integer, green As Integer, blue As Integer, alpha as Integer) Sub SetRgb(red As Double, green As Double, blue As Double) Sub SetRgb(red As Double, green As Double, blue As Double, alpha as Double) ```
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | red | The amount of red (0 to 255). | 
@@ -20,12 +32,26 @@ Set the color to an RGB value.
 | blue | The amount of blue (0 to 255). | 
 | alpha | The level of opacity from transparent through to fully opaque (0 to 255). | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Set the color to RGB and provide a value for it. Optionally set the alpha value to specify a transparency level. If this parameter is omitted the color is set to fully opaque - no transparency. |  |  | 
+| --- | --- | --- |
 
-Set the color to RGB and provide a value for it.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Also see example code in: Doc AddXObject Function, Doc String Property, Page GetBitmap Function, ImageOperation GetImageProperties Function. |  |  | 
+| --- | --- | --- |
 
-Optionally set the alpha value to specify a transparency level. If this parameter is omitted the color is set to fully opaque - no transparency.
-
-## Example
-
-Also see example code in: [Doc AddXObject Function](../../doc/1-methods/addxobject.md), [Doc String Property](../../doc/2-properties/string.md), [Page GetBitmap Function](../../../6-abcpdf.objects/page/1-methods/getbitmap.md), [ImageOperation GetImageProperties Function](../../../8-abcpdf.operations/9-imageoperation/1-methods/getimageproperties.md).
+</TD></TR></TBODY></TABLE>

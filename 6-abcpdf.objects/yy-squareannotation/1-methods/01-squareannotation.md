@@ -3,23 +3,28 @@ title: "01-squareannotation"
 css: "abcpdf-docs.css"
 ---
 
-# SquareAnnotation Function
+|  |  | SquareAnnotation Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Add square annotation to the current page of the doc. |  |  | 
 
-Add square annotation to the current page of the doc.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp SquareAnnotation(Doc doc, XRect rect, XColor borderColor, XColor fillColor) ``` [Visual Basic] ``` SquareAnnotation(doc As Doc, rect As XRect, borderColor As XColor, fillColor As XColor) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-SquareAnnotation(Doc doc, XRect rect, XColor borderColor, XColor fillColor)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `SquareAnnotation(doc As Doc, rect As XRect, borderColor As XColor, fillColor As XColor)`			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | doc | Doc | 
@@ -27,10 +32,26 @@ SquareAnnotation(Doc doc, XRect rect, XColor borderColor, XColor fillColor)
 | borderColor | Border color | 
 | fillColor | Fill color | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Add square annotation to the current page of the doc. |  |  | 
+| --- | --- | --- |
 
-Add square annotation to the current page of the doc.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

@@ -3,45 +3,54 @@ title: "stampformxobjects"
 css: "abcpdf-docs.css"
 ---
 
-# StampFormXObjects Function
+|  |  | StampFormXObjects Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Removes all Form XObjects from the page by embedding them into the page content |  |  | 
 
-Removes all Form XObjects from the page by embedding them into the page content
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp int StampFormXObjects(bool force) int StampFormXObjects(bool force, int levels) ``` [Visual Basic] ``` Function StampFormXObjects(force As Boolean) As Integer Function StampFormXObjects(force As Boolean, levels As Integer) As Integer ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-int StampFormXObjects(bool force)
-int StampFormXObjects(bool force, int levels)
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-
-```
-Function StampFormXObjects(force As Boolean) As Integer
-Function StampFormXObjects(force As Boolean, levels As Integer) As Integer
-```
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | force | Whether to stamp FormXObjects that may cause a change in the page appearance. | 
 | levels | The maximum number of levels of nested FormXObjects that should be flattened. | 
 | return | The number of FormXObjects removed from the page. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Removes all Form XObjects from the page by embedding them into the content. Most Form XObjects can be embedded in the page with no difference in page appearance. However Form XObjects such as transparency groups contain structures which cannot be represented any other way. These structures are uncommon in most documents but they do occur. In this situation you need to decide whether a change in page appearance is acceptable and that the objects should be forcibly embedded. The alternative is to skip these objects and embed only those that will not affect the page appearance. The levels parameter allows you to determine the level of nesting which should be removed. The number refers to the maximum number of iterations that should be performed. At each iteration the Form XObjects referenced by the page are flattened into the page. However if those Form XObjects themselves reference other Form XObjects then those will then become page level Form XObjects. Hence there can be a number of rounds of flattening. By default the sequence is repeated until there are no Form XObjects left. However sometimes it can be useful to be more selective and this can be controlled using this parameter. |  |  | 
+| --- | --- | --- |
 
-Removes all [Form XObjects](../../formxobject/default.md) from the page by embedding them into the content.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Also see example code in: AccessibilityOperation AccessibilityOperation Constructor. |  |  | 
+| --- | --- | --- |
 
-Most Form XObjects can be embedded in the page with no difference in page appearance. However Form XObjects such as transparency groups contain structures which cannot be represented any other way. These structures are uncommon in most documents but they do occur.
-
-In this situation you need to decide whether a change in page appearance is acceptable and that the objects should be forcibly embedded. The alternative is to skip these objects and embed only those that will not affect the page appearance.
-
-The levels parameter allows you to determine the level of nesting which should be removed. The number refers to the maximum number of iterations that should be performed. At each iteration the Form XObjects referenced by the page are flattened into the page. However if those Form XObjects themselves reference other Form XObjects then those will then become page level Form XObjects. Hence there can be a number of rounds of flattening. By default the sequence is repeated until there are no Form XObjects left. However sometimes it can be useful to be more selective and this can be controlled using this parameter.
-
-## Example
-
-Also see example code in: [AccessibilityOperation AccessibilityOperation Constructor](../../../8-abcpdf.operations/C-accessibilityoperation/1-methods/1-accessibilityoperation.md).
+</TD></TR></TBODY></TABLE>

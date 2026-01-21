@@ -3,24 +3,28 @@ title: "addtextfield"
 css: "abcpdf-docs.css"
 ---
 
-# AddTextField Function
+|  |  | AddTextField Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Add text field. |  |  | 
 
-Add text field.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp Field AddTextField(XRect rect, string name, string inText) ``` [Visual Basic] ``` Function AddTextField(rect As XRect, name As string, text As string) As Field ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-Field AddTextField(XRect rect, string name, string inText)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `Function AddTextField(rect As XRect, name As string, text As string) As Field`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | rect | Rectangle of the form field | 
@@ -28,11 +32,26 @@ Field AddTextField(XRect rect, string name, string inText)
 | text | Initial value | 
 | return | Form field object | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Add text field. |  |  | 
+| --- | --- | --- |
 
-Add text field.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| See the Annotations example project. None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-See the Annotations example project.
-  None.
+</TD></TR></TBODY></TABLE>

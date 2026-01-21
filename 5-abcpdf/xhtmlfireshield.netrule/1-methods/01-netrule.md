@@ -3,36 +3,52 @@ title: "01-netrule"
 css: "abcpdf-docs.css"
 ---
 
-# NetRule Function
+|  |  | NetRule Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Network access rule constructor. |  |  | 
 
-Network access rule constructor.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp NetRule() NetRule(IPAddress lo, IPAddress hi, AccessType access) ``` [Visual Basic] ``` NetRule() NetRule(IPAddress lo, IPAddress hi, AccessType access) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-NetRule()
-NetRule(IPAddress lo, IPAddress hi, AccessType access)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-```
-NetRule()
-NetRule(IPAddress lo, IPAddress hi, AccessType access)
-```
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | none |  | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Network access rule constructor. |  |  | 
+| --- | --- | --- |
 
-Network access rule constructor.
-            
-## Example
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-None.
+</TD></TR></TBODY></TABLE>

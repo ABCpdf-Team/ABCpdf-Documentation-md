@@ -3,32 +3,52 @@ title: "tojsobject"
 css: "abcpdf-docs.css"
 ---
 
-# ToJSObject Method
+|  |  | ToJSObject Method |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Gets an object from this value using the standard JavaScript conversion. |  |  | 
 
-Gets an object from this value using the standard JavaScript conversion.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp JSValue ToJSObject() ``` [Visual Basic]`Function ToJSObject() As JSValue` `may throw Exception()` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-JSValue ToJSObject()
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-`Function ToJSObject() As JSValue``may throw Exception()`
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | return | The converted object. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| The method returns a JavaScript object using the standard JavaScript conversion. |  |  | 
+| --- | --- | --- |
 
-The method returns a JavaScript object using the standard JavaScript conversion.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

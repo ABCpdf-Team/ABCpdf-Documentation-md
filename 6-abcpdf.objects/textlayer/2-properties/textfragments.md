@@ -3,20 +3,39 @@ title: "textfragments"
 css: "abcpdf-docs.css"
 ---
 
-# TextFragments Property
-
+|  |  | TextFragments Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp IListTextFragment> ``` [Visual Basic] `IListTextFragment>` | n/a | Yes | The TextFragments describing the precise layout of this text layer | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The TextFragments describing the precise layout of this text layer. The properties of this object can be used to establish precise metrics for each of the items of text in the layer. The operation is created the first time this property is accessed and it is cached thereafter. To reduce memory use, you may wish to call ClearTextOperation after you have established the precise metrics that you require. |  |  | 
+| --- | --- | --- |
 
-The [TextFragments](../../../8-abcpdf.operations/8-textfragment/default.md) describing the precise layout of this text layer.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-The properties of this object can be used to establish precise metrics for each of the items of text in the layer.
-
-The operation is created the first time this property is accessed and it is cached thereafter. To reduce memory use, you may wish to call [ClearTextOperation](../1-methods/cleartextoperation.md) after you have established the precise metrics that you require.
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

@@ -3,42 +3,52 @@ title: "05-getpage"
 css: "abcpdf-docs.css"
 ---
 
-# GetPage Function
+|  |  | GetPage Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Get the Page object for this particular structure element. |  |  | 
 
-Get the Page object for this particular structure element.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp GetPage(this StructureElementElement element) GetPage(this StructureElementElement element, Accessibility.Structure structure) ``` [Visual Basic] ``` GetPage(this StructureElementElement element) GetPage(this StructureElementElement element, Accessibility.Structure structure) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-GetPage(this StructureElementElement element)
-GetPage(this StructureElementElement element, Accessibility.Structure structure)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-```
-GetPage(this StructureElementElement element)
-GetPage(this StructureElementElement element, Accessibility.Structure structure)
-```
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | return | The page. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Get the Page object for this particular structure element. In the event that there is no specified page the function will look up through the parent hierarchy to find one. If still no page is found it will scan through the hierarchy assigning pages to all the elements and then return one. In the unlikely event that no page can be found, it will return null. |  |  | 
+| --- | --- | --- |
 
-Get the Page object for this particular structure element.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-In the event that there is no specified page the function will look up through the parent hierarchy to find one.
-
-If still no page is found it will scan through the hierarchy assigning pages to all the elements and then return one.
-
-In the unlikely event that no page can be found, it will return null.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

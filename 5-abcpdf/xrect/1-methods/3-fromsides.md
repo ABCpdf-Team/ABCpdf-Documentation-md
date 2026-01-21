@@ -3,23 +3,28 @@ title: "3-fromsides"
 css: "abcpdf-docs.css"
 ---
 
-# FromSides Function
+|  |  | FromSides Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Creates an XRect from the coordinates of two diagonally opposite corners. |  |  | 
 
-Creates an XRect from the coordinates of two diagonally opposite corners.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp static XRect FromSides(double xMin, double yMin, double xMax, double yMax) ``` [Visual Basic] ``` Shared Function FromSides(xMin As Double, yMin As Double, xMax As Double, yMax As Double) As XRect ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-static XRect FromSides(double xMin, double yMin, double xMax, double yMax)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-              `Shared Function FromSides(xMin As Double, yMin As Double, xMax As Double, yMax As Double) As XRect`
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | xMin | The minimum x coordinate. | 
@@ -27,12 +32,26 @@ static XRect FromSides(double xMin, double yMin, double xMax, double yMax)
 | xMax | The maximum x coordinate. | 
 | yMax | The maximum y coordinate. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| This method constructs an XRect object from the coordinates of two diagonally opposite corners. If the minimum x values are larger than the minimum x values then the XRect will have a negative width. Similarly if the minimum y values are larger than the maximum y values then the XRect will have a negative height. |  |  | 
+| --- | --- | --- |
 
-This method constructs an XRect object from the coordinates of two diagonally opposite corners.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-If the minimum x values are larger than the minimum x values then the XRect will have a negative width. Similarly if the minimum y values are larger than the maximum y values then the XRect will have a negative height.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

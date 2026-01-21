@@ -3,35 +3,52 @@ title: "1-objectsoupsubset"
 css: "abcpdf-docs.css"
 ---
 
-# ObjectSoupSubset Constructor
+|  |  | ObjectSoupSubset Constructor |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Construct an ObjectSoupSubset. |  |  | 
 
-Construct an ObjectSoupSubset.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp ObjectSoupSubset(ObjectSoup soup) ``` [Visual Basic] ``` Sub New(soup As ObjectSoup) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-ObjectSoupSubset(ObjectSoup soup)
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-`Sub New(soup As ObjectSoup)`
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | soup | The soup from which objects will be selected. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Create an ObjectSoupSubset. An ObjectSoupSubset is specific to a particular ObjectSoup and may only contain IndirectObjects from that soup. For this reason you should specify the soup in question at the point of construction. If later you attempt to add objects from a different soup then an exception will be raised. |  |  | 
+| --- | --- | --- |
 
-Create an ObjectSoupSubset.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-An ObjectSoupSubset is specific to a particular ObjectSoup and may only contain [IndirectObjects](../../1-indirectobject/default.md) from that soup.
-
-For this reason you should specify the soup in question at the point of construction. If later you attempt to add objects from a different soup then an exception will be raised.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

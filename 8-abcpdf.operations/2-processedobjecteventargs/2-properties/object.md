@@ -3,16 +3,32 @@ title: "object"
 css: "abcpdf-docs.css"
 ---
 
-# Object Property
-
+|  |  | Object Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp IndirectObject ``` [Visual Basic]`IndirectObject` | n/a | Yes | Gets the IndirectObject which has just been processed. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| The IndirectObject which has just been processed. |  |  | 
+| --- | --- | --- |
 
-The IndirectObject which has just been processed.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| See the RecolorOperation.Recolor method. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-See the [RecolorOperation.Recolor](../../3-recoloroperation/1-methods/recolor.md) method.
+</TD></TR></TBODY></TABLE>

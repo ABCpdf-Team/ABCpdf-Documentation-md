@@ -3,14 +3,51 @@ title: "default"
 css: "abcpdf-docs.css"
 ---
 
-# NameOrNumberTree&lt;TKey, TVal&gt; Class
+|  |  | NameOrNumberTree Class |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Abstract Name or Number Tree Base Class. ``` System.Object WebSupergoo.ABCpdf13.Elements.NameOrNumberTree ``` `Implements: IDictionary, System.Collections.IDictionary` |  |  | 
 
-Abstract Name or Number Tree Base Class.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp; </td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Method | Description | 
+| --- | --- |
+| NameOrNumberTree | NameOrNumberTree constructor. | 
+| ContainsValue | Determines whether the Tree contains a specific value. | 
 
-``` System.Object WebSupergoo.ABCpdf13.Elements.NameOrNumberTree ```
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp; </td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Property | Description | 
+| --- | --- |
+| ElementType | The Type of elements within the Tree. | 
+| Keys | Gets a collection containing the keys. | 
+| Values | Gets a collection containing the values. | 
 
-`Implements: IDictionary, System.Collections.IDictionary`
-
-## Method Description NameOrNumberTree&lt;TKey, TVal&gt; NameOrNumberTree constructor. ContainsValue Determines whether the Tree contains a specific value. &nbsp;
-
-## Property Description ElementType The Type of elements within the Tree. Keys Gets a collection containing the keys. Values Gets a collection containing the values.
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td>&nbsp; </td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

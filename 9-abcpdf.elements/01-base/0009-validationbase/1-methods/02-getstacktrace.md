@@ -3,38 +3,52 @@ title: "02-getstacktrace"
 css: "abcpdf-docs.css"
 ---
 
-# GetStackTrace Function
+|  |  | GetStackTrace Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Gets the stack trace. |  |  | 
 
-Gets the stack trace.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp virtual string GetStackTrace() ``` [Visual Basic] ``` Overridable Function GetStackTrace() As string ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-virtual string GetStackTrace()
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `Overridable Function GetStackTrace() As string`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | return | A string containing the stack trace. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Gets the stack trace. Validation is a recursive process. One Element validates each of its child Elements. Each of those in turn validate their children. In the event that an inconsistency is found, it useful to know how the current Element was arrived at. This property allows you to get the current stack trace stack including all parents up to the root. |  |  | 
+| --- | --- | --- |
 
-Gets the stack trace.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-[Validation](../../0007-validation/default.md) is a recursive process. One [Element](../../1086-element/default.md) validates each of its child [Elements](../../1086-element/default.md). Each of those in turn validate their children.
-
-In the event that an inconsistency is found, it useful to know how the current [Element](../../1086-element/default.md) was arrived at.
-
-This property allows you to get the current stack trace stack including all parents up to the root.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

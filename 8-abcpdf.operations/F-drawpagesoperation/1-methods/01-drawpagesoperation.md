@@ -3,33 +3,53 @@ title: "01-drawpagesoperation"
 css: "abcpdf-docs.css"
 ---
 
-# DrawPagesOperation Function
+|  |  | DrawPagesOperation Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| CopyPagesOperation constructor |  |  | 
 
-CopyPagesOperation constructor
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp DrawPagesOperation(Doc sourceDoc, Doc destinationDoc) ``` [Visual Basic] ``` DrawPagesOperation(sourceDoc As Doc, destinationDoc As Doc) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-DrawPagesOperation(Doc sourceDoc, Doc destinationDoc)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `DrawPagesOperation(sourceDoc As Doc, destinationDoc As Doc)`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | sourceDoc | The document from which pages will be taken. | 
 | destinationDoc | The document onto which pages will be drawn. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| CopyPagesOperation constructor. |  |  | 
+| --- | --- | --- |
 
-CopyPagesOperation constructor.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

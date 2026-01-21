@@ -3,26 +3,39 @@ title: "03-entryheight"
 css: "abcpdf-docs.css"
 ---
 
-# EntryHeight Property
-
+|  |  | EntryHeight Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp RichMediaDimensionsElement ``` [Visual Basic] `RichMediaDimensionsElement` | null | No | Represents the "Height" entry of the richmediawindow dictionary object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "Height" entry of the richmediawindow dictionary object. It is an optional entry defined as part of the PDF 1.7 Extension Level 3 specification. It contains a RichMediaDimensionsElement. For definitive details see:. Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 9.50e, page 84. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 339, page 702. |  |  | 
+| --- | --- | --- |
 
-Represents the "Height" entry of the richmediawindow dictionary object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is an optional entry defined as part of the PDF 1.7 Extension Level 3 specification.
-
-It contains a [RichMediaDimensionsElement](../../2084-richmediadimensionselement/default.md).
-
-For definitive details see:.
-
-[Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 9.50e, page 84.](http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/adobe_supplement_iso32000.pdf#page=84)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 339, page 702.](https://www.iso.org/standard/63534.md)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

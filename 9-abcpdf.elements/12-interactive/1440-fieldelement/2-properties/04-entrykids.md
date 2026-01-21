@@ -3,30 +3,39 @@ title: "04-entrykids"
 css: "abcpdf-docs.css"
 ---
 
-# EntryKids Property
-
+|  |  | EntryKids Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp ArrayElementFieldElement> ``` [Visual Basic] `ArrayElementFieldElement>` | null | No | Represents the "Kids" entry of the field dictionary object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "Kids" entry of the field dictionary object. It is defined as part of the PDF 1.0 specification. It contains an array which contains FieldElements. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 220, page 433. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 226, page 527. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 222, page 434. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 228, page 529. |  |  | 
+| --- | --- | --- |
 
-Represents the "Kids" entry of the field dictionary object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is defined as part of the PDF 1.0 specification.
-
-It contains an array which contains [FieldElements](../default.md).
-
-For definitive details see:.
-
-[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 220, page 433.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=441)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 226, page 527.](https://www.iso.org/standard/63534.md)
-
-[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 222, page 434.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=442)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 228, page 529.](https://www.iso.org/standard/63534.md)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

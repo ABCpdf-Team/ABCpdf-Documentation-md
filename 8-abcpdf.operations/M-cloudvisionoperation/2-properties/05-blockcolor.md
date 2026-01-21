@@ -3,16 +3,39 @@ title: "05-blockcolor"
 css: "abcpdf-docs.css"
 ---
 
-# BlockColor Property
-
+|  |  | BlockColor Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp XColor ``` [Visual Basic] `XColor` | null | No | Whether to outline blocks using a particular color. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Whether to outline blocks using a particular color. The default is null which means no outlines will be drawn. |  |  | 
+| --- | --- | --- |
 
-Whether to outline blocks using a particular color. The default is null which means no outlines will be drawn.
-            
-## Example
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-None.
+</td>
+  </tr>
+</table>

@@ -3,34 +3,52 @@ title: "04-getbbox"
 css: "abcpdf-docs.css"
 ---
 
-# GetBBox Function
+|  |  | GetBBox Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Get the bounding box for the structure element. |  |  | 
 
-Get the bounding box for the structure element.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp GetBBox(this StructureElementElement element) ``` [Visual Basic] ``` GetBBox(this StructureElementElement element) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-GetBBox(this StructureElementElement element)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `GetBBox(this StructureElementElement element)`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | return | The bounding box. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Get the bounding box for the structure element. Will return null if there is no bounding box. |  |  | 
+| --- | --- | --- |
 
-Get the bounding box for the structure element.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-Will return null if there is no bounding box.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

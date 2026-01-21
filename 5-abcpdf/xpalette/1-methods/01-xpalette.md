@@ -3,33 +3,52 @@ title: "01-xpalette"
 css: "abcpdf-docs.css"
 ---
 
-# XPalette Function
+|  |  | XPalette Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| XPalette constructor |  |  | 
 
-[XPalette](../default.md) constructor
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp XPalette() ``` [Visual Basic] ``` Sub New ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-XPalette()
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `Sub New`			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | none |  | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| XPalette constructor. Create a default Adaptive palette with 256 colors. |  |  | 
+| --- | --- | --- |
 
-[XPalette](../default.md) constructor.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-Create a default Adaptive palette with 256 colors.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

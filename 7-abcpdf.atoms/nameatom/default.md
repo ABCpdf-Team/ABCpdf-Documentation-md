@@ -3,12 +3,52 @@ title: "default"
 css: "abcpdf-docs.css"
 ---
 
-# NameAtom Class
+|  |  | NameAtom Class |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| An Atom representing a name. ``` System.Object WebSupergoo.ABCpdf13.Atoms.Atom WebSupergoo.ABCpdf13.Atoms.NameAtom ``` |  |  | 
 
-An Atom representing a name.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp; </td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Method | Description | 
+| --- | --- |
+| Equals | Test whether the two NameAtoms are the same. | 
+| Encode | Encode text into a PDF name. | 
+| NameAtom | Construct a NameAtom. | 
+|  | inherited methods... | 
 
-``` System.Object WebSupergoo.ABCpdf13.Atoms.Atom WebSupergoo.ABCpdf13.Atoms.NameAtom ```
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp; </td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Property | Description | 
+| --- | --- |
+| Text | The text of the name. | 
+|  | inherited properties... | 
 
-## Method Description Equals Test whether the two NameAtoms are the same. Encode Encode text into a PDF name. NameAtom Construct a NameAtom. &nbsp; inherited methods... &nbsp;
-
-## Property Description Text The text of the name. &nbsp; inherited properties...
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td>&nbsp; </td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

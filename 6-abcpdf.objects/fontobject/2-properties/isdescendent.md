@@ -3,18 +3,34 @@ title: "isdescendent"
 css: "abcpdf-docs.css"
 ---
 
-# IsDescendent Property
-
+|  |  | IsDescendent Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp bool ``` [Visual Basic] `bool` | n/a | Yes | Whether the font is a descendent of a complex composite font. | 
 
-## Notes
+<DIV>&nbsp;</DIV>
+            <DIV>&nbsp;</DIV>
+            <DIV>&nbsp;</DIV></TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Whether the font is a descendent of a complex composite font. Composite fonts are typically used for non-ASCII characters and complex writing systems. |  |  | 
+| --- | --- | --- |
 
-Whether the font is a descendent of a complex composite font.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-Composite fonts are typically used for non-ASCII characters and complex writing systems.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

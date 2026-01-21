@@ -3,16 +3,39 @@ title: "16-progressmax"
 css: "abcpdf-docs.css"
 ---
 
-# ProgressMax Property
-
+|  |  | ProgressMax Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp int ``` [Visual Basic] `Integer` | 0 | Yes | The total number of operation tasks to be completed. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The total number of operation tasks to be completed. |  |  | 
+| --- | --- | --- |
 
-The total number of operation tasks to be completed.
-            
-## Example
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-None.
+</td>
+  </tr>
+</table>

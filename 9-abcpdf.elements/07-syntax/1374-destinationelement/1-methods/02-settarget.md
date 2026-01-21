@@ -3,36 +3,53 @@ title: "02-settarget"
 css: "abcpdf-docs.css"
 ---
 
-# SetTarget Function
+|  |  | SetTarget Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Sets the page and type for the destination. |  |  | 
 
-Sets the page and type for the destination.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp virtual void SetTarget(PageObjectElement page, DestinationType type) ``` [Visual Basic] ``` Overridable Function SetTarget(page As PageObjectElement, type As DestinationType) As void ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-virtual void SetTarget(PageObjectElement page, DestinationType type)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `Overridable Function SetTarget(page As PageObjectElement, type As DestinationType) As void`			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | page | The destination page. | 
 | type | The type of destination. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Sets the page and type for the destination. As part of this process other destination parameters are set to defaults. See EntryType for details of the types that can be provided. |  |  | 
+| --- | --- | --- |
 
-Sets the page and type for the destination.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-As part of this process other destination parameters are set to defaults.
-
-See [EntryType](../2-properties/02-entrytype.md) for details of the types that can be provided.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

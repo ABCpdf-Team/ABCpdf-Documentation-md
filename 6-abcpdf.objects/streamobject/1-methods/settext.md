@@ -3,33 +3,61 @@ title: "settext"
 css: "abcpdf-docs.css"
 ---
 
-# SetText Function
+|  |  | SetText Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Set the content of the stream as a string. |  |  | 
 
-Set the content of the stream as a string.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Syntax</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| **[C#]** ```csharp void SetText(string value) ``` [Visual Basic] ``` Sub SetText(value As String)) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-void SetText(string value)
-```
-
-**[Visual Basic]**
-
-`Sub SetText(value As String))`
-## Params
-
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Params</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
 | Name | Description | 
 | --- | --- |
 | value | The content of the stream as a string. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Get the content of the stream in string format. Compression settings are unaltered. For this reason you may wish to call ClearData before using SetData. |  |  | 
+| --- | --- | --- |
 
-Get the content of the stream in string format.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Also see example code in: Page MakeFormXObject Function. |  |  | 
+| --- | --- | --- |
 
-Compression settings are unaltered. For this reason you may wish to call [ClearData](cleardata.md) before using SetData.
-
-## Example
-
-Also see example code in: [Page MakeFormXObject Function](../../page/1-methods/makeformxobject.md).
+</td>
+  </tr>
+</table>

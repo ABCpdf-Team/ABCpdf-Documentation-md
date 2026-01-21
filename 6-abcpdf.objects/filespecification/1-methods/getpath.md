@@ -3,43 +3,53 @@ title: "getpath"
 css: "abcpdf-docs.css"
 ---
 
-# GetPath Function
+|  |  | GetPath Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Get the path to the file for the specified platform |  |  | 
 
-Get the path to the file for the specified platform
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp string GetPath(string platform) ``` [Visual Basic] ``` Function GetPath(platform As String) As String ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-string GetPath(string platform)
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-
-            `Function GetPath(platform As String) As String`
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | platform | The platform name. | 
 | return | The file path. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| This method is provided for low level control over obsolete entries contained in old PDF documents. So in general you should be using the Rationalize method and the Uri property rather than this method. A FileSpecification may hold multiple paths to a file. Each path is specific to a platform such as Mac, Windows or Unix. For further details see the Platform property. This function allolws you to retrieve the path for the specified platform. If there is no matching path then null will be returned. |  |  | 
+| --- | --- | --- |
 
-This method is provided for low level control over obsolete entries contained in old PDF documents.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-So in general you should be using the [Rationalize](rationalize.md) method and the [Uri](../2-properties/uri.md) property rather than this method.
-
-A FileSpecification may hold multiple paths to a file.
-
-Each path is specific to a platform such as Mac, Windows or Unix. For further details see the [Platform](../2-properties/platform.md) property.
-
-This function allolws you to retrieve the path for the specified platform.
-
-If there is no matching path then null will be returned.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

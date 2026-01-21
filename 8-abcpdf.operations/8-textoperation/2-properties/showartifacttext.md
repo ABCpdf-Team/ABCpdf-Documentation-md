@@ -3,20 +3,32 @@ title: "showartifacttext"
 css: "abcpdf-docs.css"
 ---
 
-# ShowArtifactText Property
-
+|  |  | ShowArtifactText Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp bool ``` [Visual Basic] `Boolean` | true | No | Whether to show text content that is marked as an artifact. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Whether to show text content that is marked as an artifact. By default all text is returned, including text that may not be relevant to the user because it is tagged as an artifact. In cases where you are extracting text you may wish to ignore artifacts since, by definition, they are irrelevant. In cases where you are changing text you typically want to include artifacts as, while they offer no semantic information, they still have an appearance that may need updating. Using this setting you control whether you want this text returned by GetText. |  |  | 
+| --- | --- | --- |
 
-Whether to show text content that is marked as an artifact.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-By default all text is returned, including text that may not be relevant to the user because it is tagged as an artifact. In cases where you are extracting text you may wish to ignore artifacts since, by definition, they are irrelevant. In cases where you are changing text you typically want to include artifacts as, while they offer no semantic information, they still have an appearance that may need updating.
-
-Using this setting you control whether you want this text returned by [GetText](../1-methods/gettext.md).
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

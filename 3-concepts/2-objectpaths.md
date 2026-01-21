@@ -3,106 +3,10 @@ title: "2-objectpaths"
 css: "abcpdf-docs.css"
 ---
 
-# Object Paths
-
-Adobe Portable Document Format (PDF) files are made of a number of objects. Objects may describe a page, a resource, a sequence of drawing operations an image or many other components as required by the document.
-
-Every object has a unique Object ID numbered from one upwards. The ID zero refers to the Empty Object which is an object required internally within ABCpdf. ID -1 refers to the document trailer. The root of the document hierarchy can be accessed using the [Doc.Root](../5-abcpdf/doc/2-properties/root.md) property or the [ObjectSoup.Catalog](../6-abcpdf.objects/2-objectsoup/2-properties/3-catalog.md).
-
-You can use the [GetInfo](../5-abcpdf/doc/1-methods/getinfo.md) and [SetInfo](../5-abcpdf/doc/1-methods/setinfo.md) methods to directly manipulate any PDF object in your document. However, this is not advisable unless you are reasonably familiar with the Adobe PDF Specification.
-
-Under normal situations, ABCpdf ensures that your documents are internally consistent. Using the SetInfo method with Dictionaries, Values or Paths allows great flexibility in modifying documents but also allows you to create invalid or corrupt documents.
-
-## Dictionaries
-
-If your object is a dictionary, you can specify a particular dictionary entry for replacement or insertion (dictionary entries always begin with a slash '/' character). So if you wanted to change the type of an annotation, you might use the following code:
-
-[C#]
-
-```csharp
-theDoc.SetInfo(theID, "/Subtype", "(Stamp)");
-```
-
-**[Visual Basic]**
-
-```vbnet
-theDoc.SetInfo(theID, "/Subtype", "(Stamp)")
-```
-
-## Values
-
-Alternatively, you can use the 'Value' selector to specify a replacement for the entire object. However, if you do this, you must ensure that the type of your new object is the same as the type of your old one - you cannot replace a number with a string. For example.
-
-[C#]
-
-```csharp
-theDoc.SetInfo(theID, "Value", ">");
-```
-
-**[Visual Basic]**
-
-```vbnet
-theDoc.SetInfo(theID, "Value", ">")
-```
-
-## Paths
-
-Specifications can be chained together to form complete paths. Dictionary entries are specified by preceding the entry name with a slash. Array items are specified using square brackets containing the index of the item you wish to reference (starting at zero).
-
-For example, the code below would return the first item in the MediaBox array.
-
-[C#]
-
-```csharp
-theDoc.GetInfo(theID, "/MediaBox[0]");
-```
-
-**[Visual Basic]**
-
-```vbnet
-theDoc.GetInfo(theID, "/MediaBox[0]")
-```
-
-And the code below would return the count entry of the parent of the object.
-
-[C#]
-
-```csharp
-theDoc.GetInfo(theID, "/Parent/Count");
-```
-
-**[Visual Basic]**
-
-```vbnet
-theDoc.GetInfo(theID, "/Parent/Count")
-```
-
-## References
-
-Sometimes, you may wish to find a reference to a particular object. Sometimes, you may wish to skip through the reference and jump straight into the object itself.
-
-You can do this using an asterisk to de-reference an object within a path. If the object is a reference, it will be de-referenced; if it is not, then the operator will be ignored.
-
-For example, the code below might be used to return the content stream of the first page of a document.
-
-[C#]
-
-```csharp
-theDoc.GetInfo(theDoc.Root, "/Pages*/Kids*[0]*/Contents");
-```
-
-**[Visual Basic]**
-
-```vbnet
-theDoc.GetInfo(theDoc.Root, "/Pages*/Kids*[0]*/Contents")
-```
-
-## SetInfo
-
-You can use [SetInfo](../5-abcpdf/doc/1-methods/setinfo.md) to insert values specified by paths. You can specify the type of object to be inserted by appending an identifier to the path.
-
-| Object Type | Description | 
-| --- | --- |
+|  |  | Object Paths |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Adobe Portable Document Format (PDF) files are made of a number of objects. Objects may describe a page, a resource, a sequence of drawing operations an image or many other components as required by the document. Every object has a unique Object ID numbered from one upwards. The ID zero refers to the Empty Object which is an object required internally within ABCpdf. ID -1 refers to the document trailer. The root of the document hierarchy can be accessed using the Doc.Root property or the ObjectSoup.Catalog. You can use the GetInfo and SetInfo methods to directly manipulate any PDF object in your document. However, this is not advisable unless you are reasonably familiar with the Adobe PDF Specification. Under normal situations, ABCpdf ensures that your documents are internally consistent. Using the SetInfo method with Dictionaries, Values or Paths allows great flexibility in modifying documents but also allows you to create invalid or corrupt documents. ## Dictionaries If your object is a dictionary, you can specify a particular dictionary entry for replacement or insertion (dictionary entries always begin with a slash '/' character). So if you wanted to change the type of an annotation, you might use the following code: [C#] ```csharp theDoc.SetInfo(theID, "/Subtype", "(Stamp)"); ``` [Visual Basic] ```vbnet theDoc.SetInfo(theID, "/Subtype", "(Stamp)") ``` ## Values Alternatively, you can use the 'Value' selector to specify a replacement for the entire object. However, if you do this, you must ensure that the type of your new object is the same as the type of your old one - you cannot replace a number with a string. For example. [C#] ```csharp theDoc.SetInfo(theID, "Value", ">"); ``` [Visual Basic] ```vbnet theDoc.SetInfo(theID, "Value", ">") ``` ## Paths Specifications can be chained together to form complete paths. Dictionary entries are specified by preceding the entry name with a slash. Array items are specified using square brackets containing the index of the item you wish to reference (starting at zero). For example, the code below would return the first item in the MediaBox array. [C#] ```csharp theDoc.GetInfo(theID, "/MediaBox[0]"); ``` [Visual Basic] ```vbnet theDoc.GetInfo(theID, "/MediaBox[0]") ``` And the code below would return the count entry of the parent of the object. [C#] ```csharp theDoc.GetInfo(theID, "/Parent/Count"); ``` [Visual Basic] ```vbnet theDoc.GetInfo(theID, "/Parent/Count") ``` ## References Sometimes, you may wish to find a reference to a particular object. Sometimes, you may wish to skip through the reference and jump straight into the object itself. You can do this using an asterisk to de-reference an object within a path. If the object is a reference, it will be de-referenced; if it is not, then the operator will be ignored. For example, the code below might be used to return the content stream of the first page of a document. [C#] ```csharp theDoc.GetInfo(theDoc.Root, "/Pages*/Kids*[0]*/Contents"); ``` [Visual Basic] ```vbnet theDoc.GetInfo(theDoc.Root, "/Pages*/Kids*[0]*/Contents") ``` ## SetInfo You can use SetInfo to insert values specified by paths. You can specify the type of object to be inserted by appending an identifier to the path. Object Type | Description | 
 | :Bool | A Boolean value. | 
 | :Name | A name value. | 
 | :Num | A numeric value | 
@@ -119,59 +23,19 @@ You can use [SetInfo](../5-abcpdf/doc/1-methods/setinfo.md) to insert values spe
 
 Suppose you wanted to insert an annotation into the page annotations array. The following code will find the page entry named "/Annots" (or it will create it if it doesn't exist). It will then ensure that this entry references an array, and it will insert a reference Atom at the beginning (item zero) of the array.
 
-[C#]
-
-```csharp
-theDoc.SetInfo(theDoc.Page, "/Annots[0]:Ref", theID);
-```
-
-**[Visual Basic]**
-
-```vbnet
-theDoc.SetInfo(theDoc.Page, "/Annots[0]:Ref", theID)
-```
+[C#] ```csharp theDoc.SetInfo(theDoc.Page, "/Annots[0]:Ref", theID); ``` [Visual Basic] ```vbnet theDoc.SetInfo(theDoc.Page, "/Annots[0]:Ref", theID) ```
 
 Alternatively, if you want to insert your annotation at the end of the array, just leave out the array index:
 
-[C#]
-
-```csharp
-theDoc.SetInfo(theDoc.Page, "/Annots[]:Ref", theID);
-```
-
-**[Visual Basic]**
-
-```vbnet
-theDoc.SetInfo(theDoc.Page, "/Annots[]:Ref", theID)
-```
+[C#] ```csharp theDoc.SetInfo(theDoc.Page, "/Annots[]:Ref", theID); ``` [Visual Basic] ```vbnet theDoc.SetInfo(theDoc.Page, "/Annots[]:Ref", theID) ```
 
 You can also locate items in an array from the end. Use -1 for the last item, -2 for the second last item, and so on.
 
-[C#]
-
-```csharp
-theDoc.GetInfo(theDoc.Page, "/Annots[-1]:Ref");
-```
-
-**[Visual Basic]**
-
-```vbnet
-theDoc.GetInfo(theDoc.Page, "/Annots[-1]:Ref")
-```
+[C#] ```csharp theDoc.GetInfo(theDoc.Page, "/Annots[-1]:Ref"); ``` [Visual Basic] ```vbnet theDoc.GetInfo(theDoc.Page, "/Annots[-1]:Ref") ```
 
 Insertions can be complex. The next example gets the entry called "/Font", which contains a dictionary. This dictionary includes an element called "/Names", which contains an array. The call inserts the Name object "/Helvetica" at the start of this array.
 
-[C#]
-
-```csharp
-theDoc.SetInfo(theID, "/Font/Names[0]:Name", "Helvetica");
-```
-
-**[Visual Basic]**
-
-```vbnet
-theDoc.SetInfo(theID, "/Font/Names[0]:Name", "Helvetica")
-```
+[C#] ```csharp theDoc.SetInfo(theID, "/Font/Names[0]:Name", "Helvetica"); ``` [Visual Basic] ```vbnet theDoc.SetInfo(theID, "/Font/Names[0]:Name", "Helvetica") ```
 
 ## GetInfo
 
@@ -190,14 +54,8 @@ You can use [GetInfo](../5-abcpdf/doc/1-methods/getinfo.md) to query values spec
 
 For example, the code below could return the rect of the page CropBox.
 
-[C#]
+[C#] ```csharp theDoc.GetInfo(theID, "/CropBox:Rect"); ``` [Visual Basic] ```vbnet theDoc.GetInfo(theID, "/CropBox:Rect") ```
 
-```csharp
-theDoc.GetInfo(theID, "/CropBox:Rect");
-```
-
-**[Visual Basic]**
-
-```vbnet
-theDoc.GetInfo(theID, "/CropBox:Rect")
-```
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>

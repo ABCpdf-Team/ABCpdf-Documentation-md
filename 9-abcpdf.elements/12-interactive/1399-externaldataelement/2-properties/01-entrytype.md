@@ -3,34 +3,39 @@ title: "01-entrytype"
 css: "abcpdf-docs.css"
 ---
 
-# EntryType Property
-
+|  |  | EntryType Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp string ``` [Visual Basic] `string` | null | No | Represents the "Type" entry of the external data dictionary object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "Type" entry of the external data dictionary object. It is an optional entry defined as part of the PDF 1.0 specification. It contains a string representing a PDF name object. If provided, this item must always take the value "ExData". For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 170, page 391. Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 8.21, page 38. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 332, page 695. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 173, page 477. Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 9.39g, page 76. |  |  | 
+| --- | --- | --- |
 
-Represents the "Type" entry of the external data dictionary object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is an optional entry defined as part of the PDF 1.0 specification.
-
-It contains a string representing a PDF name object.
-
-If provided, this item must always take the value "ExData".
-
-For definitive details see:.
-
-[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 170, page 391.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=399)
-
-[Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 8.21, page 38.](http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/adobe_supplement_iso32000.pdf#page=38)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 332, page 695.](https://www.iso.org/standard/63534.md)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 173, page 477.](https://www.iso.org/standard/63534.md)
-
-[Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 9.39g, page 76.](http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/adobe_supplement_iso32000.pdf#page=76)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

@@ -3,27 +3,32 @@ title: "conformance"
 css: "abcpdf-docs.css"
 ---
 
-# Conformance Property
-
+|  |  | Conformance Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp PdfConformance ``` [Visual Basic]`PdfConformance` | Pdf | No | The PDF conformance to be applied. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| This property specifies the conformance of the output PDF. It can take any of the following values: Pdf – PDF conformance. PdfA1b - PDF/A Part 1 Level B conformance. PdfA1a - PDF/A Part 1 Level A conformance. PdfA2b - PDF/A Part 2 Level B conformance. PdfA2u - PDF/A Part 2 Level U conformance. PdfA2a - PDF/A Part 2 Level A conformance. |  |  | 
+| --- | --- | --- |
 
-This property specifies the conformance of the output PDF.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| See the Save method. Also see example code in: PdfConformityOperation Save Function. |  |  | 
+| --- | --- | --- |
 
-It can take any of the following values:
-
-- Pdf – PDF conformance.
-- PdfA1b - PDF/A Part 1 Level B conformance.
-- PdfA1a - PDF/A Part 1 Level A conformance.
-- PdfA2b - PDF/A Part 2 Level B conformance.
-- PdfA2u - PDF/A Part 2 Level U conformance.
-- PdfA2a - PDF/A Part 2 Level A conformance.
-
-## Example
-
-See the [Save](../1-methods/save.md) method.
-
-Also see example code in: [PdfConformityOperation Save Function](../1-methods/save.md).
+</TD></TR></TBODY></TABLE>

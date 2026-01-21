@@ -3,20 +3,32 @@ title: "tag"
 css: "abcpdf-docs.css"
 ---
 
-# Tag Property
-
+|  |  | Tag Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp object ``` [Visual Basic]`Object` | n/a | No | Gets or sets an object which can be used to save data about the event. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Gets or sets an object which can be used to save data about the event. This can be useful if you need to pass information from a ProcessingObject event to a ProcessedObject event. |  |  | 
+| --- | --- | --- |
 
-Gets or sets an object which can be used to save data about the event.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| See the RecolorOperation.Recolor method. Also see example code in: RecolorOperation Recolor Function, XpsImportOperation Import Function, SwfImportOperation Import Function. |  |  | 
+| --- | --- | --- |
 
-This can be useful if you need to pass information from a [ProcessingObject](../../1-operation/3-events/1-processingobject.md) event to a [ProcessedObject](../../1-operation/3-events/2-processedobject.md) event.
-
-## Example
-
-See the [RecolorOperation.Recolor](../../3-recoloroperation/1-methods/recolor.md) method.
-
-Also see example code in: [RecolorOperation Recolor Function](../../3-recoloroperation/1-methods/recolor.md), [XpsImportOperation Import Function](../../4-xpsimportoperation/1-methods/import.md), [SwfImportOperation Import Function](../../5-swfimportoperation/1-methods/import.md).
+</TD></TR></TBODY></TABLE>

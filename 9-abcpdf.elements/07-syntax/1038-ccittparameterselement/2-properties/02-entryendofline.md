@@ -3,28 +3,39 @@ title: "02-entryendofline"
 css: "abcpdf-docs.css"
 ---
 
-# EntryEndOfLine Property
-
+|  |  | EntryEndOfLine Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp bool? ``` [Visual Basic] `Boolean?` | null | No | Represents the "EndOfLine" entry of the ccittfax parameters object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "EndOfLine" entry of the ccittfax parameters object. It is an optional entry defined as part of the PDF 1.0 specification. It contains a bool representing a PDF boolean object. The PDF specification states that this item assumes a value of false if no value has been provided. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 11, page 31. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 11, page 43. |  |  | 
+| --- | --- | --- |
 
-Represents the "EndOfLine" entry of the ccittfax parameters object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is an optional entry defined as part of the PDF 1.0 specification.
-
-It contains a bool representing a PDF boolean object.
-
-The PDF specification states that this item assumes a value of false if no value has been provided.
-
-For definitive details see:.
-
-[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 11, page 31.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=39)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 11, page 43.](https://www.iso.org/standard/63534.md)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

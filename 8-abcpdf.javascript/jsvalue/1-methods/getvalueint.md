@@ -3,32 +3,52 @@ title: "getvalueint"
 css: "abcpdf-docs.css"
 ---
 
-# GetValueInt Method
+|  |  | GetValueInt Method |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Gets the Int32 value of this value converted to number using the standard JavaScript conversion. |  |  | 
 
-Gets the Int32 value of this value converted to number using the standard JavaScript conversion.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp int GetValueInt() ``` [Visual Basic]`Function GetValueInt() As Integer` `may throw Exception()` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-int GetValueInt()
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-`Function GetValueInt() As Integer``may throw Exception()`
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | return | The Int32 value of the converted value. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| The method is the chain of ToJSNumber and GetNumberInt without intermediate object creation. |  |  | 
+| --- | --- | --- |
 
-The method is the chain of [ToJSNumber](tojsnumber.md) and [GetNumberInt](getnumberint.md) without intermediate object creation.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

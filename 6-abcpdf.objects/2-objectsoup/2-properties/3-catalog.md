@@ -3,18 +3,39 @@ title: "3-catalog"
 css: "abcpdf-docs.css"
 ---
 
-# Catalog Property
-
+|  |  | Catalog Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp Catalog ``` [Visual Basic] `Catalog` | n/a | Yes | The Catalog for the document. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The Catalog for the document. The Catalog is the root of the whole PDF document. It contains information on the root Pages object and the Outline object. |  |  | 
+| --- | --- | --- |
 
-The [Catalog](../../catalog/default.md) for the document.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Also see example code in: Catalog Metadata Property, FileSpecification FileSpecification Function. |  |  | 
+| --- | --- | --- |
 
-The Catalog is the root of the whole PDF document. It contains information on the root [Pages](../../pages/default.md) object and the [Outline](../../outline/default.md) object.
-
-## Example
-
-Also see example code in: [Catalog Metadata Property](../../catalog/2-properties/metadata.md), [FileSpecification FileSpecification Function](../../filespecification/1-methods/filespecification.md).
+</td>
+  </tr>
+</table>

@@ -3,20 +3,39 @@ title: "08-infomoddate"
 css: "abcpdf-docs.css"
 ---
 
-# InfoModDate Property
-
+|  |  | InfoModDate Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp string ``` [Visual Basic] `string` | null | No | The ModDate entry within the Metadata | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The ModDate entry within the Metadata. This corresponds to the xmp:ModifyDate entry. Use StringAtom.StringToDate and DateToString to convert between DateTime and string formats. |  |  | 
+| --- | --- | --- |
 
-The ModDate entry within the [Metadata](../default.md).
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-This corresponds to the xmp:ModifyDate entry.
-
-Use [StringAtom.StringToDate](file:///C|/WSG/Projects/ABCpdf/Docs/PDF10000/Manual/7-abcpdf.atoms/stringatom/1-methods/stringtodate.md) and DateToString to convert between DateTime and string formats.
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

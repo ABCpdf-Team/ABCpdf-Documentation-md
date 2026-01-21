@@ -3,20 +3,32 @@ title: "1-doc"
 css: "abcpdf-docs.css"
 ---
 
-# Doc&nbsp;Property
-
+|  |  | Doc Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp Doc ``` [Visual Basic]`Doc` | null | No | The target PDF document. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| The document used by the import operation. This is where the flash movie frames are imported into. This property must not be null before the ProcessingObject event of ProcessingSourceType.ImageFrame returns/is handled. |  |  | 
+| --- | --- | --- |
 
-The document used by the import operation. This is where the flash movie frames are imported into.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| See the Import method. Also see example code in: ProcessingInfo FrameNumber Property, SwfImportOperation Import Function. |  |  | 
+| --- | --- | --- |
 
-This property must not be null before the [ProcessingObject](../../1-operation/3-events/1-processingobject.md) event of ProcessingSourceType.ImageFrame returns/is handled.
-
-## Example
-
-See the [Import](../1-methods/import.md) method.
-
-Also see example code in: [ProcessingInfo FrameNumber Property](../../2-processinginfo/2-properties/framenumber.md), [SwfImportOperation Import Function](../1-methods/import.md).
+</TD></TR></TBODY></TABLE>

@@ -3,22 +3,39 @@ title: "blue"
 css: "abcpdf-docs.css"
 ---
 
-# Blue Property
-
+|  |  | Blue Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp int ``` [Visual Basic] `Integer` | 0 | No | The blue component. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Allows you to get or set the blue component. RGB color components can range from 0 to 255. Querying this property does not change the ColorSpace. This means you can obtain approximate RGB values for CMYK or Grayscale colors. However if you change the value of this property the color will automatically be converted to RGB. |  |  | 
+| --- | --- | --- |
 
-Allows you to get or set the blue component.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Also see example code in: Doc FillRect Function. |  |  | 
+| --- | --- | --- |
 
-RGB color components can range from 0 to 255.
-
-Querying this property does not change the [ColorSpace](colorspace.md). This means you can obtain approximate RGB values for CMYK or Grayscale colors.
-
-However if you change the value of this property the color will automatically be converted to RGB.
-
-## Example
-
-Also see example code in: [Doc FillRect Function](../../doc/1-methods/fillrect.md).
+</td>
+  </tr>
+</table>

@@ -3,22 +3,39 @@ title: "green"
 css: "abcpdf-docs.css"
 ---
 
-# Green Property
-
+|  |  | Green Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp int ``` [Visual Basic] `Integer` | 0 | No | The green component. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Allows you to get or set the green component. RGB color components can range from 0 to 255. Querying this property does not change the ColorSpace. This means you can obtain approximate RGB values for CMYK or Grayscale colors. However if you change the value of this property the color will automatically be converted to RGB. |  |  | 
+| --- | --- | --- |
 
-Allows you to get or set the green component.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-RGB color components can range from 0 to 255.
-
-Querying this property does not change the [ColorSpace](colorspace.md). This means you can obtain approximate RGB values for CMYK or Grayscale colors.
-
-However if you change the value of this property the color will automatically be converted to RGB.
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

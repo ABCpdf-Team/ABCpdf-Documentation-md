@@ -3,35 +3,53 @@ title: "fromnums"
 css: "abcpdf-docs.css"
 ---
 
-# FromNums Function
+|  |  | FromNums Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Create an ArrayAtom of NumAtoms from a list of numbers. |  |  | 
 
-Create an ArrayAtom of NumAtoms from a list of numbers.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp static ArrayAtom FromNums(IList items) ``` [Visual Basic] ``` Shared Function FromNums(items as IList(Of Double)) As ArrayAtom ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-static ArrayAtom FromNums(IList items)
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-
-            `Shared Function FromNums(items as IList(Of Double)) As ArrayAtom`
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | items | The list of numbers. | 
 | return | The resulting ArrayAtom. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Create an ArrayAtom of NumAtoms from a list of numbers. If the provided list is null then the return value will be null. |  |  | 
+| --- | --- | --- |
 
-Create an ArrayAtom of NumAtoms from a list of numbers.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-If the provided list is null then the return value will be null.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

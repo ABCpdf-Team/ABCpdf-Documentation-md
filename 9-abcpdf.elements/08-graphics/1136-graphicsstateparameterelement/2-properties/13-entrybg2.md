@@ -3,32 +3,39 @@ title: "13-entrybg2"
 css: "abcpdf-docs.css"
 ---
 
-# EntryBG2 Property
-
+|  |  | EntryBG2 Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp Element ``` [Visual Basic] `Element` | null | No | Represents the "BG2" entry of the graphics state parameter dictionary object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "BG2" entry of the graphics state parameter dictionary object. It is an optional entry defined as part of the PDF 1.3 specification. This property may contain one of two different types:. 1) A string representing a PDF name object. If provided, this item must always take the value "Default". 2) A FunctionElement. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 58, page 129. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 57, page 163. |  |  | 
+| --- | --- | --- |
 
-Represents the "BG2" entry of the graphics state parameter dictionary object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is an optional entry defined as part of the PDF 1.3 specification.
-
-This property may contain one of two different types:.
-
-1) A string representing a PDF name object.
-
-If provided, this item must always take the value "Default".
-
-2) A [FunctionElement](../../../07-syntax/1101-functionelement/default.md).
-
-For definitive details see:.
-
-[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 58, page 129.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=137)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 57, page 163.](https://www.iso.org/standard/63534.md)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

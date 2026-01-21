@@ -3,35 +3,39 @@ title: "13-entryprintscaling"
 css: "abcpdf-docs.css"
 ---
 
-# EntryPrintScaling Property
-
+|  |  | EntryPrintScaling Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp string ``` [Visual Basic] `string` | null | No | Represents the "PrintScaling" entry of the viewer preferences dictionary object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "PrintScaling" entry of the viewer preferences dictionary object. It is an optional entry defined as part of the PDF 1.6 specification. It contains a string representing a PDF name object. The PDF specification states that this item assumes a value of "AppDefault" if no value has been provided. This item may take one of the following valid values:. NoneAppDefault For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 150, page 364. Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 8.1, page 28. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 147, page 437. |  |  | 
+| --- | --- | --- |
 
-Represents the "PrintScaling" entry of the viewer preferences dictionary object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is an optional entry defined as part of the PDF 1.6 specification.
-
-It contains a string representing a PDF name object.
-
-The PDF specification states that this item assumes a value of "AppDefault" if no value has been provided.
-
-This item may take one of the following valid values:.
-
-- None
-- AppDefault
-
-For definitive details see:.
-
-[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 150, page 364.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=372)
-
-[Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 8.1, page 28.](http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/adobe_supplement_iso32000.pdf#page=28)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 147, page 437.](https://www.iso.org/standard/63534.md)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

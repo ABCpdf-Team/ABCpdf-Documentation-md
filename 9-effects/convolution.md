@@ -3,12 +3,20 @@ title: "convolution"
 css: "abcpdf-docs.css"
 ---
 
-# Convolution Effect
+|  |  | Convolution Effect |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| The Convolution Effect allows you to produce a range of effects by specifying a set of convolution kernels. A simple explanation is given here but you may wish to refer to other sources for complete descriptions of convolution and how you can use it. |  |  | 
 
-The Convolution Effect allows you to produce a range of effects by specifying a set of convolution kernels. A simple explanation is given here but you may wish to refer to other sources for complete descriptions of convolution and how you can use it.
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../images/steel-pin.gif)  
 
-## Settings
-
+    Settings</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
 | Name | Default | Description | 
 | --- | --- | --- |
 | Width | 3 pixels | The width of the filter to be applied. | 
@@ -18,104 +26,82 @@ The Convolution Effect allows you to produce a range of effects by specifying a 
 | Number | 2 | The number of kernels to apply. | 
 | Values | See desc. | The values for the kernels in a comma delimited list. The items in the list may be integers or floating point numbers. The default value is: "-1,0,1,-2,0,2,-1,0,1,1,2,1,0,0,0,-1,-2,-1" | 
 
-## Workings
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../images/steel-pin.gif)  
 
-Convolution is a general purpose filter effect for images. It works by determining the value of a central pixel by adding the weighted values of all its neighbors together. The weights applied to each pixel are determined by what is called a convolution kernel.
-
-So if you want to take the average of all the immediate neighbors of a central pixel you would specify an equally weighted convolution kernel. Note that the total sum of all the weights is one so that the overall brightness of the image is not affected by the convolution. Note that the anchor point is highlighted to show which pixel should be regarded as central.
-
-| 0.1111 | 0.1111 | 0.1111 | 
-| --- | --- | --- |
+    Workings</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Convolution is a general purpose filter effect for images. It works by determining the value of a central pixel by adding the weighted values of all its neighbors together. The weights applied to each pixel are determined by what is called a convolution kernel. So if you want to take the average of all the immediate neighbors of a central pixel you would specify an equally weighted convolution kernel. Note that the total sum of all the weights is one so that the overall brightness of the image is not affected by the convolution. Note that the anchor point is highlighted to show which pixel should be regarded as central. | 0.1111 | 0.1111 | 0.1111 | 
+| --- | --- | --- | --- |
 | 0.1111 | 0.1112 | 0.1111 | 
 | 0.1111 | 0.1111 | 0.1111 | 
 
-If you wanted to take the average of the pixels immediately above, below and to the sides of the central pixel, and you wanted to exclude the central pixel itself, you would specify the following kernel.
+</td>
+              </tr>
+            </table>
+            If you wanted to take the average of the pixels immediately above, below and to the sides of the central pixel, and you wanted to exclude the central pixel itself, you would specify the following kernel.
 
-| 0.0000 | 0.2500 | 0.0000 | 
-| --- | --- | --- |
+|  | 0.0000 | 0.2500 | 0.0000 | 
+| --- | --- | --- | --- |
 | 0.2500 | 0.0000 | 0.2500 | 
 | 0.0000 | 0.2500 | 0.0000 | 
 
-Although a three square kernel with the anchor at the center is most common, you can use other shapes of kernel. For example the following convolution will shift the entire image left by one pixel.
+</td>
+              </tr>
+            </table>
+            Although a three square kernel with the anchor at the center is most common, you can use other shapes of kernel. For example the following convolution will shift the entire image left by one pixel.
 
-| 0.0000 | 1.0000 | 
-| --- | --- |
+|  | 0.0000 | 1.0000 | 
+| --- | --- | --- |
 
-When you specify values you specify them from left to right and then from top to bottom. You can specify more than one filter at a time and the results will be added together.
+</td>
+              </tr>
+            </table>
+            When you specify values you specify them from left to right and then from top to bottom. You can specify more than one filter at a time and the results will be added together.
 
 The default kernel is a standard Sobel edge detector. This contains two filters - one vertical, one horizontal - to be applied and then added together. The two kernel values are:
 
-| -1 | 0 | 1 | 
-| --- | --- | --- |
+|  | -1 | 0 | 1 | 
+| --- | --- | --- | --- |
 | -2 | 0 | 2 | 
 | -1 | 0 | 1 | 
 
+</td>
+                <td width="60">&nbsp;</td>
+                <td>
 | 1 | 2 | 1 | 
 | --- | --- | --- |
 | 0 | 0 | 0 | 
 | -1 | -2 | -1 | 
 
-## Example
+</td>
+              </tr>
+            </table>
 
-The following examples show the effect of the default kernel - a Sobel Edge Detector.
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../images/steel-pin.gif)  
 
-[C#]
+    Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The following examples show the effect of the default kernel - a Sobel Edge Detector. [C#] ```csharp void function() { using (Doc doc = new Doc()) { AddImagePage(doc, img3); // original image doc.Rendering.Save("EffectConvolution.jpg"); using (ImageLayer layer = AddImagePage(doc, img3)) { using (EffectOperation effect = new EffectOperation("Convolution")) { // the default is a Sobel Edge Detector effect.Apply(layer.PixMap); } } doc.Rendering.Save("EffectConvolutionDefault.jpg"); using (ImageLayer layer = AddImagePage(doc, img3)) { using (EffectOperation effect = new EffectOperation("Convolution")) { // the following is a high intensity sharpen filter double[] k = new double[] { 0, -1, 0, -1, 5, -1, 0, -1, 0 }; effect.Parameters["Number"].Value = 1; effect.Parameters["Values"].Values = k; effect.Apply(layer.PixMap); } } doc.Rendering.Save("EffectConvolutionSharpen.jpg"); } } ``` [Visual Basic] ```vbnet Sub ... Using doc As New Doc() AddImagePage(doc, img3) ' original image doc.Rendering.Save("EffectConvolution.jpg") Using layer As ImageLayer = AddImagePage(doc, img3) Using effect As New EffectOperation("Convolution") ' the default is a Sobel Edge Detector effect.Apply(layer.PixMap) End Using End Using doc.Rendering.Save("EffectConvolutionDefault.jpg") Using layer As ImageLayer = AddImagePage(doc, img3) Using effect As New EffectOperation("Convolution") ' the following is a high intensity sharpen filter Dim k As Double() = New Double() {0, -1, 0, -1, 5, -1, _ 0, -1, 0} effect.Parameters("Number").Value = 1 effect.Parameters("Values").Values = k effect.Apply(layer.PixMap) End Using End Using doc.Rendering.Save("EffectConvolutionSharpen.jpg") End Using End Sub ``` Original Image After Convolution Applied |  |  | 
+| --- | --- | --- |
 
-```csharp
-void function() {
-  using (Doc doc = new Doc()) {
-    AddImagePage(doc, img3); // original image
-    doc.Rendering.Save("EffectConvolution.jpg");
-    using (ImageLayer layer = AddImagePage(doc, img3)) {
-      using (EffectOperation effect = new EffectOperation("Convolution")) {
-        // the default is a Sobel Edge Detector
-        effect.Apply(layer.PixMap);
-      }
-    }
-    doc.Rendering.Save("EffectConvolutionDefault.jpg");
-    using (ImageLayer layer = AddImagePage(doc, img3)) {
-      using (EffectOperation effect = new EffectOperation("Convolution")) {
-        // the following is a high intensity sharpen filter
-        double[] k = new double[] { 0, -1, 0, -1, 5, -1, 0, -1, 0 };
-        effect.Parameters["Number"].Value = 1;
-        effect.Parameters["Values"].Values = k;
-        effect.Apply(layer.PixMap);
-      }
-    }
-    doc.Rendering.Save("EffectConvolutionSharpen.jpg");
-  }
-}
-```
-
-<span class=language>[Visual Basic]</span>
-```vbnet
-Sub ...
-  Using doc As New Doc()
-    AddImagePage(doc, img3)
-    ' original image
-    doc.Rendering.Save("EffectConvolution.jpg")
-    Using layer As ImageLayer = AddImagePage(doc, img3)
-      Using effect As New EffectOperation("Convolution")
-        ' the default is a Sobel Edge Detector
-        effect.Apply(layer.PixMap)
-      End Using
-    End Using
-    doc.Rendering.Save("EffectConvolutionDefault.jpg")
-    Using layer As ImageLayer = AddImagePage(doc, img3)
-      Using effect As New EffectOperation("Convolution")
-        ' the following is a high intensity sharpen filter
-        Dim k As Double() = New Double() {0, -1, 0, -1, 5, -1, _
-          0, -1, 0}
-        effect.Parameters("Number").Value = 1
-        effect.Parameters("Values").Values = k
-        effect.Apply(layer.PixMap)
-      End Using
-    End Using
-    doc.Rendering.Save("EffectConvolutionSharpen.jpg")
-  End Using
-End Sub
-```
-
-![](images/astroflag.jpg) Original Image
-
-![](images/convolution/sobel.jpg) After Convolution Applied
+    </td>
+  </tr>
+</table>

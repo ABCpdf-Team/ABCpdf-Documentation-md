@@ -3,32 +3,52 @@ title: "tojsnumber"
 css: "abcpdf-docs.css"
 ---
 
-# ToJSNumber Method
+|  |  | ToJSNumber Method |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Gets a number from this value using the standard JavaScript conversion. |  |  | 
 
-Gets a number from this value using the standard JavaScript conversion.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp JSValue ToJSNumber() ``` [Visual Basic]`Function ToJSNumber() As JSValue` `may throw Exception()` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-JSValue ToJSNumber()
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-`Function ToJSNumber() As JSValue``may throw Exception()`
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | return | The converted number. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| The method returns a JavaScript number using the standard JavaScript conversion. |  |  | 
+| --- | --- | --- |
 
-The method returns a JavaScript number using the standard JavaScript conversion.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

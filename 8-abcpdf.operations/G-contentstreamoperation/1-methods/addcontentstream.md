@@ -3,32 +3,52 @@ title: "addcontentstream"
 css: "abcpdf-docs.css"
 ---
 
-# AddContentStream Function
+|  |  | AddContentStream Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Adds a content stream to this operations. |  |  | 
 
-Adds a content stream to this operations.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp void AddContentStream(StreamObject stream) ``` [Visual Basic] ``` Function AddContentStream(stream As StreamObject) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-void AddContentStream(StreamObject stream)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `Function AddContentStream(stream As StreamObject)`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | stream | The stream to add. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Adds a content stream to this operations. |  |  | 
+| --- | --- | --- |
 
-Adds a content stream to this operations.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

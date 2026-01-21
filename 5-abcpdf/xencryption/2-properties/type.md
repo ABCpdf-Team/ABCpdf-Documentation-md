@@ -3,46 +3,60 @@ title: "type"
 css: "abcpdf-docs.css"
 ---
 
-# Type Property
-
+|  |  | Type Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp int ``` [Visual Basic] `Integer` | 0 | No | The level of encryption to use. | 
 
-## Notes
-
-This property determines the level of encryption used when saving the document. The default value of zero indicates that no encryption will be used.
-
-Higher levels of encryption provide higher levels of security and more flexibility in applying permissions but also require more recent versions of Adobe Acrobat to view. The table below details valid combinations.
-
-The PDF 2.0 standard deprecates a number of these options as being potentially insecure. The recommended set for PDF 2.0 compliant documents is Type 5 with [SetCryptMethods](../1-methods/setcryptmethods.md) AESV3.
-
-| Type Value | 0 | 1 | 2 | 4 | 5 | 
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| This property determines the level of encryption used when saving the document. The default value of zero indicates that no encryption will be used. Higher levels of encryption provide higher levels of security and more flexibility in applying permissions but also require more recent versions of Adobe Acrobat to view. The table below details valid combinations. The PDF 2.0 standard deprecates a number of these options as being potentially insecure. The recommended set for PDF 2.0 compliant documents is Type 5 with SetCryptMethods AESV3. Type Value | 0 | 1 | 2 | 4 | 5 | 
 | --- | --- | --- | --- | --- | --- |
 | Acrobat Version Required | Any | 2.0 | 5.0 | 7.0 / X - see below | 9.0 / X - see below | 
 | Encryption Key Length (bits) | None | 40 | 128 | 128 | 256 | 
 | Encryption Algorithm | Identity | RC4 | RC4 | Identity/RC4/AES | Identity/AES | 
-| Can Assemble |  |  | 
-| Can Change |  | 
-| Can Copy |  | 
-| Can Edit |  | 
-| Can Extract |  |  | 
-| Can Fill Forms |  |  | 
-| Can Print |  | 
-| Can Print Hi |  |  | 
+| Can Assemble |  |  |  |  |  | 
+| Can Change |  |  |  |  |  | 
+| Can Copy |  |  |  |  |  | 
+| Can Edit |  |  |  |  |  | 
+| Can Extract |  |  |  |  |  | 
+| Can Fill Forms |  |  |  |  |  | 
+| Can Print |  |  |  |  |  | 
+| Can Print Hi |  |  |  |  |  | 
 
 On a technical level Acrobat 9 supported 256 bit AES encryption. However there were a number of security flaws in the specification and Adobe released an update to resolve these using PDF 1.7 Extension Level 8. Since we felf it important that the encryption be secure, we produce AES 256 documents conforming to this later specification - hence only readable by Acrobat X and later.
 
-AES 256 Support in Acrobat.
+| AES 256 Support in Acrobat. On a technical level Acrobat 7 supported 128 bit AES and Acrobat 9 supported 256 bit AES encryption. However there were security flaws in the specification as relates to the way passwords were handled. For this reason Adobe released an update to resolve these - PDF 1.7 Extension Level 8 - requiring Acrobat X. The specification for this was never formally published but it became part of the PDF 2.0 specification. Since we feel it important that encryption be secure, we produce AES 128 and AES 256 documents conforming to this later specification - hence only readable by Acrobat X and later. | 
+| --- |
 
-On a technical level Acrobat 7 supported 128 bit AES and Acrobat 9 supported 256 bit AES encryption. However there were security flaws in the specification as relates to the way passwords were handled.
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| See the Doc.Encryption property and the SetCryptMethods method. Also see example code in: Doc Encryption Property, XEncryption SetCryptMethods Function. |  |  | 
+| --- | --- | --- |
 
-For this reason Adobe released an update to resolve these - PDF 1.7 Extension Level 8 - requiring Acrobat X. The specification for this was never formally published but it became part of the PDF 2.0 specification.
-
-Since we feel it important that encryption be secure, we produce AES 128 and AES 256 documents conforming to this later specification - hence only readable by Acrobat X and later.
-
-## Example
-
-See the [Doc.Encryption](../../doc/2-properties/encryption.md) property and the [SetCryptMethods](../1-methods/setcryptmethods.md) method.
-
-Also see example code in: [Doc Encryption Property](../../doc/2-properties/encryption.md), [XEncryption SetCryptMethods Function](../1-methods/setcryptmethods.md).
+</td>
+  </tr>
+</table>

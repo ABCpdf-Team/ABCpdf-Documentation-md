@@ -3,32 +3,39 @@ title: "03-entrym3dref"
 css: "abcpdf-docs.css"
 ---
 
-# EntryM3DREF Property
-
+|  |  | EntryM3DREF Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp D3DMeasurementElement ``` [Visual Basic] `D3DMeasurementElement` | null | No | Represents the "M3DREF" entry of the external data dictionary object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "M3DREF" entry of the external data dictionary object. It is a required entry defined as part of the PDF 1.7 Extension Level 3 specification. It contains a D3DMeasurementElement. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 170, page 391. Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 8.21, page 38. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 332, page 695. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 173, page 477. Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 9.39g, page 76. |  |  | 
+| --- | --- | --- |
 
-Represents the "M3DREF" entry of the external data dictionary object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is a required entry defined as part of the PDF 1.7 Extension Level 3 specification.
-
-It contains a [D3DMeasurementElement](../../../13-multimedia/2062-d3dmeasurementelement/default.md).
-
-For definitive details see:.
-
-[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 170, page 391.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=399)
-
-[Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 8.21, page 38.](http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/adobe_supplement_iso32000.pdf#page=38)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 332, page 695.](https://www.iso.org/standard/63534.md)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 173, page 477.](https://www.iso.org/standard/63534.md)
-
-[Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 9.39g, page 76.](http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/adobe_supplement_iso32000.pdf#page=76)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

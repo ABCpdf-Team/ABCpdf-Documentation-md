@@ -3,28 +3,39 @@ title: "09-entryalternatepresentations"
 css: "abcpdf-docs.css"
 ---
 
-# EntryAlternatePresentations Property
-
+|  |  | EntryAlternatePresentations Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp NameTreeNodeElementSlideshowElement> ``` [Visual Basic] `NameTreeNodeElementSlideshowElement>` | null | No | Represents the "AlternatePresentations" entry of the name dictionary object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "AlternatePresentations" entry of the name dictionary object. It is an optional entry defined as part of the PDF 1.4 specification. It was deprecated in PDF 2.0. It contains a NameTreeNodeElement containing SlideshowElements. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 31, page 81. Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 3.28, page 23. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 32, page 109. |  |  | 
+| --- | --- | --- |
 
-Represents the "AlternatePresentations" entry of the name dictionary object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is an optional entry defined as part of the PDF 1.4 specification. It was deprecated in PDF 2.0.
-
-It contains a [NameTreeNodeElement](../../1097-nametreenodeelement_t_/default.md) containing [SlideshowElements](../../../13-multimedia/1518-slideshowelement/default.md).
-
-For definitive details see:.
-
-[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 31, page 81.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=89)
-
-[Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 3.28, page 23.](http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/adobe_supplement_iso32000.pdf#page=23)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 32, page 109.](https://www.iso.org/standard/63534.md)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

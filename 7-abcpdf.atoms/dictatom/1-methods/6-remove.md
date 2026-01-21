@@ -3,31 +3,52 @@ title: "6-remove"
 css: "abcpdf-docs.css"
 ---
 
-# Remove Function
+|  |  | Remove Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Remove an element from the dictionary. |  |  | 
 
-Remove an element from the dictionary.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp void Remove(string name) ``` [Visual Basic] ``` Sub Remove(name As String) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-void Remove(string name)
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-`Sub Remove(name As String)`
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | name | The name of the element to be removed. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Remove the element with the specified name from the dictionary. |  |  | 
+| --- | --- | --- |
 
-Remove the element with the specified name from the dictionary.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

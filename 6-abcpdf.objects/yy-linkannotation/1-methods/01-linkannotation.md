@@ -3,33 +3,53 @@ title: "01-linkannotation"
 css: "abcpdf-docs.css"
 ---
 
-# LinkAnnotation Function
+|  |  | LinkAnnotation Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Add link annotation to the current page of the doc. |  |  | 
 
-Add link annotation to the current page of the doc.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp LinkAnnotation(Doc doc, XRect rect) ``` [Visual Basic] ``` LinkAnnotation(doc As Doc, rect As XRect) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-LinkAnnotation(Doc doc, XRect rect)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `LinkAnnotation(doc As Doc, rect As XRect)`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | doc | Doc | 
 | rect | Annotation rectangle | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Add link annotation to the current page of the doc. |  |  | 
+| --- | --- | --- |
 
-Add link annotation to the current page of the doc.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

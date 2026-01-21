@@ -3,35 +3,53 @@ title: "08-replacetext"
 css: "abcpdf-docs.css"
 ---
 
-# ReplaceText Function
+|  |  | ReplaceText Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Replace one item of text with another. |  |  | 
 
-Replace one item of text with another.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp void ReplaceText(List items, string text) ``` [Visual Basic] ``` Function ReplaceText(items As List, text As string) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-void ReplaceText(List items, string text)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `Function ReplaceText(items As List, text As string)`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | items | The text to be replaced. | 
 | text | The new text which will be substituted in. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Replace one item of text with another. The items of text to be replaced are identified using structure elements. |  |  | 
+| --- | --- | --- |
 
-Replace one item of text with another.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-The items of text to be replaced are identified using structure elements.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

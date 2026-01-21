@@ -3,35 +3,53 @@ title: "09-remove"
 css: "abcpdf-docs.css"
 ---
 
-# Remove Function
+|  |  | Remove Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Removes an Element from the array. |  |  | 
 
-Removes an [Element](../../1086-element/default.md) from the array.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp virtual bool Remove(T value) ``` [Visual Basic] ``` Overridable Function Remove(value As T) As Boolean ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-virtual bool Remove(T value)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `Overridable Function Remove(value As T) As Boolean`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | value | The Element to remove. | 
 | return | True if the Element is removed, otherwise false. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Removes an Element from the array. When an Element is removed, the items that follow the removed item move up to occupy the vacated spot. |  |  | 
+| --- | --- | --- |
 
-Removes an [Element](../../1086-element/default.md) from the array.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-When an [Element](../../1086-element/default.md) is removed, the items that follow the removed item move up to occupy the vacated spot.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

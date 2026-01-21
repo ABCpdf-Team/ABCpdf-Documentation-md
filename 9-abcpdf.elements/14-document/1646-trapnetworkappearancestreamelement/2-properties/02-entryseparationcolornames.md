@@ -3,26 +3,39 @@ title: "02-entryseparationcolornames"
 css: "abcpdf-docs.css"
 ---
 
-# EntrySeparationColorNames Property
-
+|  |  | EntrySeparationColorNames Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp IList ``` [Visual Basic] `IList` | null | No | Represents the "SeparationColorNames" entry of the trap network appearance stream object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "SeparationColorNames" entry of the trap network appearance stream object. It is an optional entry defined as part of the PDF 1.0 specification. It contains an array which contains strings, representing PDF name objects. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 367, page 638. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 404, page 821. |  |  | 
+| --- | --- | --- |
 
-Represents the "SeparationColorNames" entry of the trap network appearance stream object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is an optional entry defined as part of the PDF 1.0 specification.
-
-It contains an array which contains strings, representing PDF name objects.
-
-For definitive details see:.
-
-[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 367, page 638.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=646)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 404, page 821.](https://www.iso.org/standard/63534.md)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

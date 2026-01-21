@@ -3,12 +3,50 @@ title: "default"
 css: "abcpdf-docs.css"
 ---
 
-# PopupAnnotation Class
+|  |  | PopupAnnotation Class |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Popup annotation. ``` System.Object WebSupergoo.ABCpdf13.Objects.IndirectObject WebSupergoo.ABCpdf13.Objects.Annotation WebSupergoo.ABCpdf13.Objects.PopupAnnotation ``` |  |  | 
 
-Popup annotation.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp; </td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Method | Description | 
+| --- | --- |
+| PopupAnnotation | Add popup annotation to the current page of the doc. | 
+|  | inherited methods... | 
 
-``` System.Object WebSupergoo.ABCpdf13.Objects.IndirectObject WebSupergoo.ABCpdf13.Objects.Annotation WebSupergoo.ABCpdf13.Objects.PopupAnnotation ```
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top">&nbsp; </td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Property | Description | 
+| --- | --- |
+| PopUpElement | Get the specific Annotation Element. | 
+|  | inherited properties... | 
 
-## Method Description PopupAnnotation Add popup annotation to the current page of the doc. inherited methods... &nbsp;
-
-## Property Description PopUpElement Get the specific Annotation Element. inherited properties...
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td>&nbsp; </td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>

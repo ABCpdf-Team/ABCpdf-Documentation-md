@@ -3,18 +3,39 @@ title: "03-keys"
 css: "abcpdf-docs.css"
 ---
 
-# Keys Property
-
+|  |  | Keys Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp KeyCollection ``` [Visual Basic] `KeyCollection` | null | Yes | Gets a collection containing the keys. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Gets a collection containing the keys. DictElement.KeyCollection implements ICollection and ICollection. |  |  | 
+| --- | --- | --- |
 
-Gets a collection containing the keys.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-DictElement.KeyCollection implements ICollection and ICollection.
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

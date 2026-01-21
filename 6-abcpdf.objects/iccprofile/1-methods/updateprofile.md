@@ -3,34 +3,52 @@ title: "updateprofile"
 css: "abcpdf-docs.css"
 ---
 
-# UpdateProfile Function
+|  |  | UpdateProfile Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Updates this object to reflect the values contained within the embedded ICC color profile data |  |  | 
 
-Updates this object to reflect the values contained within the embedded ICC color profile data
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp bool UpdateProfile() ``` [Visual Basic] ``` Overridable UpdateProfile() As Boolean ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-bool UpdateProfile()
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-
-            `Overridable UpdateProfile() As Boolean`
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | return | Whether the operation was successful. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Updates this object to reflect the values contained within the embedded ICC color profile data. If the ICC profile was absent or corrupt then the return value will be false. |  |  | 
+| --- | --- | --- |
 
-Updates this object to reflect the values contained within the embedded ICC color profile data.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-If the ICC profile was absent or corrupt then the return value will be false.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

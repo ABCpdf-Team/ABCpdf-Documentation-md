@@ -3,34 +3,22 @@ title: "htmlembedcallback"
 css: "abcpdf-docs.css"
 ---
 
-# HtmlEmbedCallback Property
-
+|  |  | HtmlEmbedCallback Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp HtmlEmbedCallback ``` [Visual Basic]`HtmlEmbedCallback` | null | No | The multicast delegate to be called when embedding an object while HTML rendering is taking place. | 
 
-## Notes
-
-This delegate is called when embedding an object.
-
-Objects embedded in HTML, such as those with the embed HTML tags, will trigger the callback if they are of certain content types. This callback provides a way to change the parameters of the embedded objects.
-
-The definition of the HtmlEmbedCallback multicast delegate is as follows.
-
-[C#]
-
-```csharp
-delegate void HtmlEmbedCallback(Doc doc, HtmlEmbedInfo info);
-```
-
-<span class=language>[Visual&nbsp;Basic]</span>
-```vbnet
-Delegate Sub HtmlEmbedCallback(doc As Doc, info As HtmlEmbedInfo);
-```
-
-doc is the target Doc for the added HTML. The properties of HtmlEmbedInfo are as follows:
-
-| Property of HtmlEmbedInfo | Type | Default Value | Read Only | Description | 
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| This delegate is called when embedding an object. Objects embedded in HTML, such as those with the embed HTML tags, will trigger the callback if they are of certain content types. This callback provides a way to change the parameters of the embedded objects. The definition of the HtmlEmbedCallback multicast delegate is as follows. [C#] ```csharp delegate void HtmlEmbedCallback(Doc doc, HtmlEmbedInfo info); ``` [Visual Basic] ```vbnet Delegate Sub HtmlEmbedCallback(doc As Doc, info As HtmlEmbedInfo); ``` doc is the target Doc for the added HTML. The properties of HtmlEmbedInfo are as follows: Property of HtmlEmbedInfo | Type | Default Value | Read Only | Description | 
 | --- | --- | --- | --- | --- |
 | Url | [C#] ``` string ``` [Visual Basic] ``` String ``` | n/a | Yes | The URL of the embedded object. | 
 | BaseUrl | [C#] ``` string ``` [Visual Basic] ``` String ``` | n/a | Yes | The base URL for resolving relative URLs. This could be the URL of the HTML or the URL from the base tag. | 
@@ -42,7 +30,7 @@ Parameters depends on EmbedType as follows:
 
 | EmbedType | EmbedType Description | ParameterNamesAreCaseSensitive | Parameters | 
 | --- | --- | --- | --- |
-| None | No content. This value is not used. | 
+| None | No content. This value is not used. |  |  | 
 | Swf | SWF files | true if the version of the SWF file is 7 or above. | Parameters contains those in the FlashVars parameter and the parameters in the URL of the SWF file. | 
 
 The values in HtmlParameterDictionary are of type HtmlParameter.
@@ -54,52 +42,18 @@ The values in HtmlParameterDictionary are of type HtmlParameter.
 | None | No conversion. | 
 | UrlToTextFileContent | Sets the value to the text content of the file pointed to by Value as a URL. | 
 
-</td></tr></tbody></table>
-## Example
+</TD></TR></TBODY></TABLE>
 
-The following example shows the effect that this parameter has on HTML rendering.
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| The following example shows the effect that this parameter has on HTML rendering. [C#] ```csharp using var doc = new Doc(); string uri = "https://www.websupergoo.com/"; // Set up the callback doc.HtmlOptions.HtmlEmbedCallback = (Doc d, HtmlEmbedInfo info) => { if (info.EmbedType == HtmlEmbedType.Swf) { HtmlParameter param; if (info.Parameters.TryGetValue("dataURL", out param)) { info.Parameters.Remove("dataURL"); param.Conversion = HtmlParameterConversionType.UrlToTextFileContent; info.Parameters["dataXML"] = param; } } }; // Render html page doc.AddImageUrl(uri); // Save the document doc.Save(Server.MapPath("HtmlOptionsEmbedCallback.pdf")); ``` [Visual Basic] ```vbnet Using doc As New Doc() Dim theURL As String = "https://www.websupergoo.com/" ' Set up the callback doc.HtmlOptions.HtmlEmbedCallback = Function(d As Doc, info As HtmlEmbedInfo) If info.EmbedType = HtmlEmbedType.Swf Then Dim param As HtmlParameter If info.Parameters.TryGetValue("dataURL", param) Then info.Parameters.Remove("dataURL") param.Conversion = HtmlParameterConversionType.UrlToTextFileContent info.Parameters("dataXML") = param End If End If End Function ' Render html page doc.AddImageUrl(theURL) ' Save the document doc.Save(Server.MapPath("HtmlOptionsEmbedCallback.pdf")) End Using ``` |  |  | 
+| --- | --- | --- |
 
-[C#]
-
-```csharp
-using var doc = new Doc();
-string uri = "https://www.websupergoo.com/";
-// Set up the callback
-doc.HtmlOptions.HtmlEmbedCallback = (Doc d, HtmlEmbedInfo info) => {
-  if (info.EmbedType == HtmlEmbedType.Swf) {
-    HtmlParameter param;
-    if (info.Parameters.TryGetValue("dataURL", out param)) {
-      info.Parameters.Remove("dataURL");
-      param.Conversion = HtmlParameterConversionType.UrlToTextFileContent;
-      info.Parameters["dataXML"] = param;
-    }
-  }
-};
-// Render html page
-doc.AddImageUrl(uri);
-// Save the document
-doc.Save(Server.MapPath("HtmlOptionsEmbedCallback.pdf"));
-```
-
-<span class=language>[Visual Basic]</span>
-```vbnet
-Using doc As New Doc()
-  Dim theURL As String = "https://www.websupergoo.com/"
-  ' Set up the callback
-  doc.HtmlOptions.HtmlEmbedCallback = Function(d As Doc, info As HtmlEmbedInfo)
-  If info.EmbedType = HtmlEmbedType.Swf Then
-    Dim param As HtmlParameter
-    If info.Parameters.TryGetValue("dataURL", param) Then
-      info.Parameters.Remove("dataURL")
-      param.Conversion = HtmlParameterConversionType.UrlToTextFileContent
-      info.Parameters("dataXML") = param
-    End If
-  End If
-
-  End Function
-  ' Render html page
-  doc.AddImageUrl(theURL)
-  ' Save the document
-  doc.Save(Server.MapPath("HtmlOptionsEmbedCallback.pdf"))
-End Using
-```
+</TD></TR></TBODY></TABLE>

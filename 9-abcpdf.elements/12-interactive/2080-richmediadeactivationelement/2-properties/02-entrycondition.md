@@ -3,34 +3,39 @@ title: "02-entrycondition"
 css: "abcpdf-docs.css"
 ---
 
-# EntryCondition Property
-
+|  |  | EntryCondition Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp string ``` [Visual Basic] `string` | null | No | Represents the "Condition" entry of the richmediadeactivation dictionary object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "Condition" entry of the richmediadeactivation dictionary object. It is an optional entry defined as part of the PDF 1.7 Extension Level 3 specification. It contains a string representing a PDF name object. The PDF specification states that this item assumes a value of "XD" if no value has been provided. This item may take one of the following valid values:. XDPCPI For definitive details see:. Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 9.50b, page 80. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 336, page 699. |  |  | 
+| --- | --- | --- |
 
-Represents the "Condition" entry of the richmediadeactivation dictionary object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is an optional entry defined as part of the PDF 1.7 Extension Level 3 specification.
-
-It contains a string representing a PDF name object.
-
-The PDF specification states that this item assumes a value of "XD" if no value has been provided.
-
-This item may take one of the following valid values:.
-
-- XD
-- PC
-- PI
-
-For definitive details see:.
-
-[Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 9.50b, page 80.](http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/adobe_supplement_iso32000.pdf#page=80)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 336, page 699.](https://www.iso.org/standard/63534.md)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

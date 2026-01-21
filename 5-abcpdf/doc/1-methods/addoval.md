@@ -3,64 +3,53 @@ title: "addoval"
 css: "abcpdf-docs.css"
 ---
 
-# AddOval Function
+|  |  | AddOval Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Adds an oval to the current page. |  |  | 
 
-Adds an oval to the current page.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp int AddOval(bool filled) ``` [Visual Basic]`Function AddOval(filled As Boolean) As Integer` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-int AddOval(bool filled)
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-`Function AddOval(filled As Boolean) As Integer`
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | filled | Whether to fill the oval rather than simply outline it. | 
 | return | The Object ID of the newly added Graphic Object. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Adds an oval to the current page. The oval is drawn in the current color at the current width and with the current options. It is scaled to fill the current rectangle. The oval may be outlined or filled. The AddOval function returns the Object ID of the newly added Graphic Object. |  |  | 
+| --- | --- | --- |
 
-Adds an oval to the current page. The oval is drawn in the current [color](../2-properties/color.md) at the current [width](../2-properties/width.md) and with the current [options](../2-properties/options.md). It is scaled to fill the current [rectangle](../2-properties/rect.md). The oval may be outlined or filled.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| The following code adds two ovals to a document. The outline oval is semi-transparent. [C#] ```csharp using var doc = new Doc(); doc.Width = 80; doc.Rect.Inset(50, 50); doc.Color.String = "255 0 0"; doc.AddOval(true); doc.Color.String = "0 255 0 128"; doc.AddOval(false); doc.Save(Server.MapPath("docaddoval.pdf")); ``` [Visual Basic] ```vbnet Using doc As New Doc() doc.Width = 80 doc.Rect.Inset(50, 50) doc.Color.String = "255 0 0" doc.AddOval(True) doc.Color.String = "0 255 0 128" doc.AddOval(False) doc.Save(Server.MapPath("docaddoval.pdf")) End Using ``` docaddoval.pdf Also see example code in: XColor Components Property, ColorSpace Gamma Property, ColorSpace WhitePoint Property, SwfImportOperation Import Function. |  |  | 
+| --- | --- | --- |
 
-The AddOval function returns the Object ID of the newly added Graphic Object.
-
-## Example
-
-The following code adds two ovals to a document. The outline oval is semi-transparent.
-
-[C#]
-
-```csharp
-using var doc = new Doc();
-doc.Width = 80;
-doc.Rect.Inset(50, 50);
-doc.Color.String = "255 0 0";
-doc.AddOval(true);
-doc.Color.String = "0 255 0 128";
-doc.AddOval(false);
-doc.Save(Server.MapPath("docaddoval.pdf"));
-```
-
-<span class=language>[Visual Basic]</span>
-```vbnet
-Using doc As New Doc()
-  doc.Width = 80
-  doc.Rect.Inset(50, 50)
-  doc.Color.String = "255 0 0"
-  doc.AddOval(True)
-  doc.Color.String = "0 255 0 128"
-  doc.AddOval(False)
-  doc.Save(Server.MapPath("docaddoval.pdf"))
-End Using
-```
-
-![](../../../images/pdf/docaddoval.pdf.png)docaddoval.pdf
-
-Also see example code in: [XColor Components Property](../../xcolor/2-properties/components.md), [ColorSpace Gamma Property](../../../6-abcpdf.objects/colorspace/2-properties/gamma.md), [ColorSpace WhitePoint Property](../../../6-abcpdf.objects/colorspace/2-properties/whitepoint.md), [SwfImportOperation Import Function](../../../8-abcpdf.operations/5-swfimportoperation/1-methods/import.md).
+</TD></TR></TBODY></TABLE>

@@ -3,98 +3,39 @@ title: "defaulthalftone"
 css: "abcpdf-docs.css"
 ---
 
-# DefaultHalftone Property
-
+|  |  | DefaultHalftone Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp string ``` [Visual Basic] `String` | "Spot,30,100,CosineDot" | No | Halftone type and options. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Specifies the default halftone type and options. The default halftone remains in effect until an embedded halftone screen is encountered. The Type can be: Spot ErrorDiffusion OrderedDither Threshold If the type is Spot then an angle in degrees, frequency and spot function can also be specified. These should be separated by commas with no extraneous spaces. The spot functions available are: SimpleDot InvertedSimpleDot DoubleDot InvertedDoubleDot CosineDot Double InvertedDouble Line LineX LineY Round Ellipse EllipseA InvertedEllipseA EllipseB EllipseC InvertedEllipseC Square Cross Rhomboid Diamond If the type is Threshold you should specify a value - for example "'threshold=60". This is used when calculating the value of a black and white pixel. If the grey level l is greater than the threshold the pixel will be black otherwise it will be white. For full details of how Halftones work you should see the Adobe PDF Specification available from the Adobe web site. |  |  | 
+| --- | --- | --- |
 
-Specifies the default halftone type and options.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The following example shows the effect that this parameter has on PDF rendering. [C#] ```csharp using var doc = new Doc(); using var image = new XImage(); image.SetFile(Server.MapPath("../mypics/Shuttle.jpg")); doc.Rect.String = image.Selection.String; doc.AddImage(image); // Save rendered image as black and white picture using Line spot function doc.Rendering.UseEmbeddedHalftone = false; doc.Rendering.DotsPerInch = 50; doc.Rendering.ColorSpace = XRendering.ColorSpaceType.Gray; doc.Rendering.BitsPerChannel = 1; doc.Rendering.DefaultHalftone = "Spot,30,100,Line"; doc.Rendering.Save(Server.MapPath("RenderingHalftoneLine.png")); // Save rendered image as black and white picture using Diamond spot function doc.Rendering.DefaultHalftone = "Spot,0,100,Diamond"; doc.Rendering.Save(Server.MapPath("RenderingHalftoneDiamond.png")); ``` [Visual Basic] ```vbnet Using doc As New Doc() Dim image As New XImage() image.SetFile(Server.MapPath("../mypics/Shuttle.jpg")) doc.Rect.String = image.Selection.[String] doc.AddImage(image) ' Save rendered image as black and white picture using Line spot function doc.Rendering.UseEmbeddedHalftone = False doc.Rendering.DotsPerInch = 50 doc.Rendering.ColorSpace = XRendering.ColorSpaceType.Gray doc.Rendering.BitsPerChannel = 1 doc.Rendering.DefaultHalftone = "Spot,30,100,Line" doc.Rendering.Save(Server.MapPath("RenderingHalftoneLine.png")) ' Save rendered image as black and white picture using Diamond spot function doc.Rendering.DefaultHalftone = "Spot,0,100,Diamond" doc.Rendering.Save(Server.MapPath("RenderingHalftoneDiamond.png")) End Using ``` RenderingHalftoneLine.png RenderingHalftoneDiamond.png |  |  | 
+| --- | --- | --- |
 
-The default halftone remains in effect until an embedded halftone screen is encountered.
-
-The Type can be:
-
-- Spot
-- ErrorDiffusion
-- OrderedDither
-- Threshold
-
-If the type is Spot then an angle in degrees, frequency and spot function can also be specified. These should be separated by commas with no extraneous spaces. The spot functions available are:
-
-- SimpleDot
-- InvertedSimpleDot
-- DoubleDot
-- InvertedDoubleDot
-- CosineDot
-- Double
-- InvertedDouble
-- Line
-- LineX
-- LineY
-- Round
-- Ellipse
-- EllipseA
-- InvertedEllipseA
-- EllipseB
-- EllipseC
-- InvertedEllipseC
-- Square
-- Cross
-- Rhomboid
-- Diamond
-
-If the type is Threshold you should specify a value - for example "'threshold=60". This is used when calculating the value of a black and white pixel. If the grey level l is greater than the threshold the pixel will be black otherwise it will be white.
-
-For full details of how Halftones work you should see the Adobe PDF Specification available from the Adobe web site.
-
-## Example
-
-The following example shows the effect that this parameter has on PDF rendering.
-
-[C#]
-
-```csharp
-using var doc = new Doc();
-using var image = new XImage();
-image.SetFile(Server.MapPath("../mypics/Shuttle.jpg"));
-doc.Rect.String = image.Selection.String;
-doc.AddImage(image);
-// Save rendered image as black and white picture using Line spot function
-doc.Rendering.UseEmbeddedHalftone = false;
-doc.Rendering.DotsPerInch = 50;
-doc.Rendering.ColorSpace = XRendering.ColorSpaceType.Gray;
-doc.Rendering.BitsPerChannel = 1;
-doc.Rendering.DefaultHalftone = "Spot,30,100,Line";
-doc.Rendering.Save(Server.MapPath("RenderingHalftoneLine.png"));
-// Save rendered image as black and white picture using Diamond spot function
-doc.Rendering.DefaultHalftone = "Spot,0,100,Diamond";
-doc.Rendering.Save(Server.MapPath("RenderingHalftoneDiamond.png"));
-```
-
-**[Visual Basic]**
-
-```vbnet
-Using doc As New Doc()
-  Dim image As New XImage()
-  image.SetFile(Server.MapPath("../mypics/Shuttle.jpg"))
-  doc.Rect.String = image.Selection.[String]
-  doc.AddImage(image)
-  ' Save rendered image as black and white picture using Line spot function
-  doc.Rendering.UseEmbeddedHalftone = False
-  doc.Rendering.DotsPerInch = 50
-  doc.Rendering.ColorSpace = XRendering.ColorSpaceType.Gray
-  doc.Rendering.BitsPerChannel = 1
-  doc.Rendering.DefaultHalftone = "Spot,30,100,Line"
-  doc.Rendering.Save(Server.MapPath("RenderingHalftoneLine.png"))
-  ' Save rendered image as black and white picture using Diamond spot function
-  doc.Rendering.DefaultHalftone = "Spot,0,100,Diamond"
-  doc.Rendering.Save(Server.MapPath("RenderingHalftoneDiamond.png"))
-End Using
-```
-
-![](../../../images/pdf/RenderingHalftoneLine.png) RenderingHalftoneLine.png
-
-![](../../../images/pdf/RenderingHalftoneDiamond.png) RenderingHalftoneDiamond.png
+</td>
+  </tr>
+</table>

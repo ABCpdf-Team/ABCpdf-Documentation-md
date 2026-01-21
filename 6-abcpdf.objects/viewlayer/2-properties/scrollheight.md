@@ -3,18 +3,39 @@ title: "scrollheight"
 css: "abcpdf-docs.css"
 ---
 
-# ScrollHeight Property
-
+|  |  | ScrollHeight Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp int ``` [Visual Basic] `Integer` | n/a | Yes | The scroll height of the image in pixels. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The scroll height of the image. It is the same scroll height value as retrieved using script inside HTML. |  |  | 
+| --- | --- | --- |
 
-The scroll height of the image.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is the same scroll height value as retrieved using script inside HTML.
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

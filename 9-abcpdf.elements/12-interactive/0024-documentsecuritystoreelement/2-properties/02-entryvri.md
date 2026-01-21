@@ -3,24 +3,39 @@ title: "02-entryvri"
 css: "abcpdf-docs.css"
 ---
 
-# EntryVRI Property
-
+|  |  | EntryVRI Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp Element ``` [Visual Basic] `Element` | null | No | Represents the "VRI" entry of the document security store dictionary object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "VRI" entry of the document security store dictionary object. It is an optional entry defined as part of the PDF 2.0 specification. It contains an Element. For definitive details see:. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 261, page 583. |  |  | 
+| --- | --- | --- |
 
-Represents the "VRI" entry of the document security store dictionary object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is an optional entry defined as part of the PDF 2.0 specification.
-
-It contains an [Element](../../../01-base/1086-element/default.md).
-
-For definitive details see:.
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 261, page 583.](https://www.iso.org/standard/63534.md)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

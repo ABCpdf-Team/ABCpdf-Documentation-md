@@ -3,26 +3,39 @@ title: "01-entryjbig2globals"
 css: "abcpdf-docs.css"
 ---
 
-# EntryJBIG2Globals Property
-
+|  |  | EntryJBIG2Globals Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp StreamElement ``` [Visual Basic] `StreamElement` | null | No | Represents the "JBIG2Globals" entry of the jbig2 parameters object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "JBIG2Globals" entry of the jbig2 parameters object. It is an optional entry defined as part of the PDF 1.0 specification. It contains a StreamElement. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 12, page 32. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 12, page 46. |  |  | 
+| --- | --- | --- |
 
-Represents the "JBIG2Globals" entry of the jbig2 parameters object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is an optional entry defined as part of the PDF 1.0 specification.
-
-It contains a [StreamElement](../../1028-streamelement/default.md).
-
-For definitive details see:.
-
-[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 12, page 32.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=40)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 12, page 46.](https://www.iso.org/standard/63534.md)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

@@ -3,33 +3,53 @@ title: "03-setcolor"
 css: "abcpdf-docs.css"
 ---
 
-# SetColor Function
+|  |  | SetColor Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Set the contents of this ColorElement using an XColor. |  |  | 
 
-Set the contents of this [ColorElement](../default.md) using an XColor.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp virtual XColor SetColor(XColor color) ``` [Visual Basic] ``` Overridable Function SetColor(color As XColor) As XColor ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-virtual XColor SetColor(XColor color)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `Overridable Function SetColor(color As XColor) As XColor`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | color | The XColor containing values to be inserted into this ColorElement | 
 | return | The XColor that was passed in. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Set the contents of this ColorElement using an XColor. |  |  | 
+| --- | --- | --- |
 
-Set the contents of this [ColorElement](../default.md) using an XColor.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

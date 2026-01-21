@@ -3,35 +3,53 @@ title: "addrect"
 css: "abcpdf-docs.css"
 ---
 
-# AddRect Function
+|  |  | AddRect Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Add a rectangle to the current page. |  |  | 
 
-Add a rectangle to the current page.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp int AddRect(bool filled) ``` [Visual Basic] ``` Function AddRect(filled As Boolean) As Integer ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-int AddRect(bool filled)
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-
-            `Function AddRect(filled As Boolean) As Integer`
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | filled | Whether to fill the rectangle rather than simply outline it. | 
 | return | The Object ID of the newly added Graphic Object. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Add a rectangle drawn in the current color at the current width and with the current options. The rectangle may be outlined or filled. Note that this is subtly different from the way that FrameRect works. When a rectangle is framed the line goes around the outside of the rectangle. When a rectangle is added the line is centered on the rectangle - so half is inside and half is outside. |  |  | 
+| --- | --- | --- |
 
-Add a rectangle drawn in the current [color](../2-properties/color.md) at the current [width](../2-properties/width.md) and with the current [options](../2-properties/options.md). The rectangle may be outlined or filled.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-Note that this is subtly different from the way that FrameRect works. When a rectangle is framed the line goes around the outside of the rectangle. When a rectangle is added the line is centered on the rectangle - so half is inside and half is outside.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

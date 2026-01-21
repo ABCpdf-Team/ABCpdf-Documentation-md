@@ -3,20 +3,44 @@ title: "05-size"
 css: "abcpdf-docs.css"
 ---
 
-# Size Property
-
+|  |  | Size Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
-| **[C#]** ```csharp int ``` [Visual Basic] `Integer` | 256 | No | The target number of colors in the palette. | 
+| **[C#]** ```csharp int ``` [Visual Basic] ``` Integer ``` | 256 | No | The target number of colors in the palette. | 
 
-## Notes
+</td>
 
-The target number of colors in the palette.
+            <td width="60">&nbsp;</td>
 
-The valid range for this property is between 2 and 256.
+            <td>&nbsp;</td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
 
-The target is a maximum. The actual number of colors that will appear in the palette will depend on the [Definition](01-definition.md) and also perhaps on the content of the image.
+    <tr>
+      <td class="sectheader" valign="top">![](../../../images/steel-pin.gif)  
 
-## Example
+      Notes</td>
 
-None.
+      <td width="14">&nbsp;</td>
+
+      <td valign="top">
+        
+| The target number of colors in the palette. The valid range for this property is between 2 and 256. The target is a maximum. The actual number of colors that will appear in the palette will depend on the Definition and also perhaps on the content of the image. |  |  | 
+| --- | --- | --- |
+
+</td>
+    </tr>
+      <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
+
+</TD></TR>
+  </tbody></table>

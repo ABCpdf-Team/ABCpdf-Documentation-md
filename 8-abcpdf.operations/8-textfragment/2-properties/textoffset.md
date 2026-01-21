@@ -3,22 +3,32 @@ title: "textoffset"
 css: "abcpdf-docs.css"
 ---
 
-# TextOffset Property
-
+|  |  | TextOffset Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp int ``` [Visual Basic] `Int32` | n/a | Yes | The offset to the the Text of this fragment. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| The character offset in the RawText to the the Text of this fragment. Each TextFragment spans a part of a PDF stream drawing operator. The part may be the entire of the text drawn by the operator or it may be a section of the text within that operator. This property reflects the offset to the Text of the TextFragment - the selected portion within the RawText of the TextFragment. An offset may be needed because the Text may not be unique within the RawText. For example a TextFragment may represent the letter 'a' in a text operator which draws "abracadabra". Without the offset there is no way to know which 'a' the fragment refers to. |  |  | 
+| --- | --- | --- |
 
-The character offset in the [RawText](rawtext.md) to the the [Text](text.md) of this fragment.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-Each TextFragment spans a part of a PDF stream drawing operator. The part may be the entire of the text drawn by the operator or it may be a section of the text within that operator.
-
-This property reflects the offset to the Text of the TextFragment - the selected portion within the RawText of the TextFragment. An offset may be needed because the Text may not be unique within the RawText.
-
-For example a TextFragment may represent the letter 'a' in a text operator which draws "abracadabra". Without the offset there is no way to know which 'a' the fragment refers to.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

@@ -3,29 +3,28 @@ title: "measuretext"
 css: "abcpdf-docs.css"
 ---
 
-# MeasureText Function
+|  |  | MeasureText Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Measure the length of a block of text without adding it to the page. |  |  | 
 
-Measure the length of a block of text without adding it to the page.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp double MeasureText(string text) double MeasureText(string text, double fontSize, double charSpacing, double wordSpacing, bool italic, bool bold, double outline) ``` [Visual Basic] ``` Function MeasureText(text As String) As Double Function MeasureText(text As String, fontSize As Double, charSpacing As Double, wordSpacing As Double, italic As Boolean, bold As Boolean, outline As Double) As Double ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-double MeasureText(string text)
-double MeasureText(string text, double fontSize, double charSpacing, double wordSpacing, bool italic, bool bold, double outline)
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-
-```
-Function MeasureText(text As String) As Double
-Function MeasureText(text As String, fontSize As Double, charSpacing As Double, wordSpacing As Double, italic As Boolean, bold As Boolean, outline As Double) As Double
-```
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | text | The text to be measured. | 
@@ -37,16 +36,26 @@ Function MeasureText(text As String, fontSize As Double, charSpacing As Double, 
 | outline | The size of any outline to be applied to the font. | 
 | return | The width of the text in the units provided. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| This function is used to measure the length of a block of text using the current Font but does not support complex glyphs and fonts with vertical text direction (FontObject.WritingMode). This method is unit agnostic so you can use whatever units you like and the result will be returned in terms of those units. However typically you would provide point based measurements to provide a point based length. If the text is placed at a horizontal position x and w is the value this function returns, the bounding interval will be [x - outline / 2, x - outline / 2 + w]. You need to ensure that the font you are using supports the characters you are using otherwise an exception will be thrown. You may wish to use the FontObject.VetText function to check your text if you are using standard font encodings such as Latin. |  |  | 
+| --- | --- | --- |
 
-This function is used to measure the length of a block of text using the current [Font](../2-properties/font.md) but does not support complex glyphs and fonts with vertical text direction ([FontObject.WritingMode](../../../6-abcpdf.objects/fontobject/2-properties/writingmode.md)).
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-This method is unit agnostic so you can use whatever units you like and the result will be returned in terms of those units. However typically you would provide point based measurements to provide a point based length.
-
-If the text is placed at a horizontal position x and w is the value this function returns, the bounding interval will be [x - outline / 2, x - outline / 2 + w].
-
-You need to ensure that the font you are using supports the characters you are using otherwise an exception will be thrown. You may wish to use the [FontObject.VetText](../../../6-abcpdf.objects/fontobject/1-methods/vettext.md) function to check your text if you are using standard font encodings such as Latin.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

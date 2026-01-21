@@ -3,19 +3,17 @@ title: "openofficeparameters"
 css: "abcpdf-docs.css"
 ---
 
-# OpenOfficeParameters Property
-
+|  |  | OpenOfficeParameters Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp ListDictionary ``` [Visual Basic]`ListDictionary` | false | No | OpenOffice.org PDF conversion control parameters. | 
 
-## Notes
+</TD><TD width=60>&nbsp;</TD><TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR> 
+<TR> <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD><TD width=14>&nbsp;</TD><TD vAlign=top> 
 
-This property is used by the OpenOffice.org import module. It is used to pass custom parameters to OpenOffice.org for precise control over the PDF conversion process.
-
-The parameters are a set of named objects. The names and object types vary between versions of OpenOffice.org but ABCpdf defaults to a base set that is appropriate for most conversions.
-
-| Name | Description | Type | Value | 
+| This property is used by the OpenOffice.org import module. It is used to pass custom parameters to OpenOffice.org for precise control over the PDF conversion process.The parameters are a set of named objects. The names and object types vary between versions of OpenOffice.org but ABCpdf defaults to a base set that is appropriate for most conversions. Name | Description | Type | Value | 
 | --- | --- | --- | --- |
 | UseLosslessCompression | Lossless compression of images. All pixels are preserved. | Boolean | false | 
 | Quality | Quality level for JPEG compression. | Int32 | 90 | 
@@ -29,6 +27,11 @@ The parameters are a set of named objects. The names and object types vary betwe
 
 More details and other options can be found on the [OpenOffice.org web site](http://wiki.services.openoffice.org/wiki/API/Tutorials/PDF_export).
 
-## Example
+</TD><TD width=60>&nbsp;</TD><TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR> 
+<TR> <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD><TD width=14>&nbsp;</TD><TD vAlign=top> 
 
-None.
+| None. |  |  | 
+| --- | --- | --- |
+
+</TD></TR></TBODY></TABLE>

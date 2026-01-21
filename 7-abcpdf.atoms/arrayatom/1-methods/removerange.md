@@ -3,38 +3,53 @@ title: "removerange"
 css: "abcpdf-docs.css"
 ---
 
-# RemoveRange Function
+|  |  | RemoveRange Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Removes a range of elements from the source array |  |  | 
 
-Removes a range of elements from the source array
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp void RemoveRange(int index, int count) ``` [Visual Basic] ``` Sub RemoveRange(index As Integer, count As Integer) ``` `may throw Exception()` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-void RemoveRange(int index, int count)
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-
-            `Sub RemoveRange(index As Integer, count As Integer)``may throw Exception()`
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | index | The zero-based index specifying the first element. | 
 | count | The number of elements to be removed. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Removes a range of elements from the source array. If the index is equal to the Count then the elements are added to the end of the array. If the index or count is invalid then an exception will be raised. |  |  | 
+| --- | --- | --- |
 
-Removes a range of elements from the source array.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-If the index is equal to the [Count](../2-properties/count.md) then the elements are added to the end of the array.
-
-If the index or count is invalid then an exception will be raised.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

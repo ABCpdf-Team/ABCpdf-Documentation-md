@@ -3,20 +3,39 @@ title: "saveoptions"
 css: "abcpdf-docs.css"
 ---
 
-# SaveOptions Property
-
+|  |  | SaveOptions Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp XSaveOptions ``` [Visual Basic] `XSaveOptions` | n/a | No | The save options and control. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| This property allows you control over the way that PDF documents are saved or streamed. The properties of this object may be used to control the way that the Save and GetData methods work. See the XSaveOptions object for further details. |  |  | 
+| --- | --- | --- |
 
-This property allows you control over the way that PDF documents are saved or streamed.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Also see example code in: XSaveOptions Template Property, XSaveOptions WritePageSeparator Property, XSaveTemplateData SetMeasureResolution Function, FileSpecification FileSpecification Function. |  |  | 
+| --- | --- | --- |
 
-The properties of this object may be used to control the way that the [Save](../1-methods/save.md) and [GetData](../1-methods/getdata.md) methods work.
-
-See the [XSaveOptions](../../xsaveoptions/default.md) object for further details.
-
-## Example
-
-Also see example code in: [XSaveOptions Template Property](../../xsaveoptions/2-properties/template.md), [XSaveOptions WritePageSeparator Property](../../xsaveoptions/2-properties/writepageseparator.md), [XSaveTemplateData SetMeasureResolution Function](../../xsavetemplatedata/1-methods/setmeasureresolution.md), [FileSpecification FileSpecification Function](../../../6-abcpdf.objects/filespecification/1-methods/filespecification.md).
+</td>
+  </tr>
+</table>

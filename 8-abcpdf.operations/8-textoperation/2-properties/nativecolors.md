@@ -3,16 +3,39 @@ title: "nativecolors"
 css: "abcpdf-docs.css"
 ---
 
-# NativeColors Property
-
+|  |  | NativeColors Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp bool ``` [Visual Basic] `Boolean` | false | No | Whether to provide native colors such as CMYK, separations and spot colors, or whether to convert all colors to RGB | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Whether to provide native colors such as CMYK, separations and spot colors, or whether to convert all colors to RGB. |  |  | 
+| --- | --- | --- |
 
-Whether to provide native colors such as CMYK, separations and spot colors, or whether to convert all colors to RGB.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</td>
+  </tr>
+</table>

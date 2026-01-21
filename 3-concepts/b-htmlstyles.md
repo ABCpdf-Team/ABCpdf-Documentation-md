@@ -3,64 +3,40 @@ title: "b-htmlstyles"
 css: "abcpdf-docs.css"
 ---
 
-# Styled Text
+|  |  | Styled Text |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+|  |  |  | 
 
-## Basics
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../images/steel-pin.gif)  
+Basics</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| ABCpdf allows a range of HTML support for use when inserting multi-styled text. This can make it much easier to design documents and it can reduce the quantity of code required. The HTML support offered here does not cover the entire HTML specification. It covers a limited range of the HTML specification as is required for styled text. It also extends the HTML specification to allow you to precisely control elements of style not covered by HTML. |  |  | 
+| --- | --- | --- |
 
-ABCpdf allows a range of HTML support for use when inserting multi-styled text. This can make it much easier to design documents and it can reduce the quantity of code required.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../images/steel-pin.gif)  
+Chars</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| ABCpdf lets you use Unicode text. So you can use Styled Text with any language from English to Korean to Japanese. Normal character entities are standard HTML and hence use the Latin 1 character set. For example '&#153;' equates to the trademark sign. For convenience you can also specify hex and octal character entities. For example '&#65;', '&#x0041;' and '&#o0101;' all equate to lower case 'a'. Hex and octal character entities are assumed to be expressed in the Unicode character set. For most situations this will make no difference. However you should note that, above character 127, there are differences between the Latin 1 and the Unicode character set. For example the trademark symbol which is character 153 in Latin 1 is 8482 in Unicode. If you require fine control over hyphenation you can make use of the soft hyphen character – '&shy;'. This character is invisible and indicates a point at which a chunk of text may reasonably be broken. |  |  | 
+| --- | --- | --- |
 
-The HTML support offered here does not cover the entire HTML specification. It covers a limited range of the HTML specification as is required for styled text. It also extends the HTML specification to allow you to precisely control elements of style not covered by HTML.
-
-## Chars
-
-ABCpdf lets you use Unicode text. So you can use Styled Text with any language from English to Korean to Japanese.
-
-Normal character entities are standard HTML and hence use the Latin 1 character set. For example '&#153;' equates to the trademark sign.
-
-For convenience you can also specify hex and octal character entities. For example '&#65;', '&#x0041;' and '&#o0101;' all equate to lower case 'a'. Hex and octal character entities are assumed to be expressed in the Unicode character set.
-
-For most situations this will make no difference. However you should note that, above character 127, there are differences between the Latin 1 and the Unicode character set. For example the trademark symbol which is character 153 in Latin 1 is 8482 in Unicode.
-
-If you require fine control over hyphenation you can make use of the soft hyphen character – '&shy;'. This character is invisible and indicates a point at which a chunk of text may reasonably be broken.
-
-## Tags
-
-You can add styled text to your documents using the [AddTextStyled](../5-abcpdf/doc/1-methods/addtextstyled.md) method. ABCpdf supports the following HTML tags and Attributes.
-
-- [](#head)
-- [](#body)
-- [](#br)
-- [](#p)
-- [to](#h1)
-- [](#list)
-- [](#ul)
-- [](#ol)
-- [](#li)
-- [](#a)
-- [](#b)
-- [](#i)
-- [](#u)
-- [](#strike)
-- [](#sup)
-- [](#sub)
-- [](#font)
-- [](#stylerun)
-- [](#blockquote)
-- [](#pre)
-- [](#leader)
-
-## 
-
-This tag is used to delimit the head of an HTML document. All content in the head is ignored.
-
-This tag does not accept any attributes.
-
-## 
-
-This tag is used to mark the body of an HTML document. The body is a type of stylerun and so it accepts the same attributes as a [stylerun](#stylerun) tag. It also accepts the following additional attributes.
-
-| Attribute | Notes | 
-| --- | --- |
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../images/steel-pin.gif)  
+Tags</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+|  | You can add styled text to your documents using the AddTextStyled method. ABCpdf supports the following HTML tags and Attributes. to ## This tag is used to delimit the head of an HTML document. All content in the head is ignored. This tag does not accept any attributes. ## This tag is used to mark the body of an HTML document. The body is a type of stylerun and so it accepts the same attributes as a stylerun tag. It also accepts the following additional attributes. Attribute | Notes | 
+| --- | --- | --- |
 | link | The color for links (anchors) in subsequent content. Colors are generally specified as RGB in hexadecimal notation (e.g. color="#FF0000") or as one of the sixteen standard color names (e.g. color=red"). You can specify grayscale colors by supplying only one component (e.g. color="#80") and CMYK colors by supplying four (e.g. color="#10203040"). CMYK component ranges between 0 and 100 inclusively so the hexadecimal representation is between 00 and 64. You can specify high precision colors by passing an array of floating point numbers prepended by an at sign. Each number represents a component intensity in the range zero to one (e.g. color="@ 0.244 0.122 0.342"). The number of components indicates whether the color space is grayscale, RGB or CMYK (e.g. color="@ 0.123 0.246 0.999 0.025" would be CMYK). An alpha value can be indicated by prepending an 'a' to one of the components. The default link color is RGB blue. | 
 | vpos | The vertical positioning for the block of text. Changing this attribute is identical to changing the XTextStyle.VPos property. | 
 
@@ -258,4 +234,6 @@ The tag accepts the following attributes.
 | hpos | Specifies the alignment for the leaders. The align and hpos tags are mutually incompatible. As such, specifying an hpos will automatically set the align to false. A block of leaders may not exactly fill the gap between the item of text on the left and the item of text on the right. This setting controls how the block is aligned within this gap. It works in the same way as the XTextStyle.HPos property. So to center your block of leaders between the two items of text you would set the value to 0.5. By default the hpos is blank. | 
 | padding | Specifies any padding for the leaders. By default leaders will fit exactly into the gap between the header text and the page number. However it can be useful to be able to extend the leaders a little. The padding is a distance measured in points, by which the leader will be extended. The effect of this is to push the page numbers out and past the Doc.Rect.Right. The main text remains in the Doc.Rect but the numbers are shifted to the right. By default the padding is zero. | 
 
-</div>
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>

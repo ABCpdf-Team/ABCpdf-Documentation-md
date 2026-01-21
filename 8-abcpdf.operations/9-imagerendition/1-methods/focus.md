@@ -3,36 +3,52 @@ title: "focus"
 css: "abcpdf-docs.css"
 ---
 
-# Focus Function
+|  |  | Focus Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Focus the document on the location of the image placement. |  |  | 
 
-Focus the document on the location of the image placement.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp void Focus() ``` [Visual Basic] `Sub Focus()` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-void Focus()
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-
-            `Sub Focus()`
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | none |  | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Focus the document on the location of the image placement. After calling this function you can add content overlaying the image rendition. For example you might call Doc.FrameRect to frame it. Because images are always drawn using a transformation matrix rather than a Rect you will probably need to reduce the size of any lines or text to values smaller than one. |  |  | 
+| --- | --- | --- |
 
-Focus the document on the location of the image placement.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-After calling this function you can add content overlaying the image rendition. For example you might call [Doc.FrameRect](../../../5-abcpdf/doc/1-methods/framerect.md) to frame it.
-
-Because images are always drawn using a transformation matrix rather than a Rect you will probably need to reduce the size of any lines or text to values smaller than one.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

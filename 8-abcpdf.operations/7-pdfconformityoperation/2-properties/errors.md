@@ -3,18 +3,32 @@ title: "errors"
 css: "abcpdf-docs.css"
 ---
 
-# Errors Property
-
+|  |  | Errors Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp IList ``` [Visual Basic]`IList(Of String)` | null | Yes | The features within the document which could not be made conformant. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| To make a document conformant, it may need to be changed. However, not all features that are non-compliant can be changed. After the document has been changed, this property contains a list of the features within the document which could not be made conformant. |  |  | 
+| --- | --- | --- |
 
-To make a document conformant, it may need to be changed. However, not all features that are non-compliant can be changed.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| See the Save method. |  |  | 
+| --- | --- | --- |
 
-After the document has been changed, this property contains a list of the features within the document which could not be made conformant.
-
-## Example
-
-See the [Save](../1-methods/save.md) method.
+</TD></TR></TBODY></TABLE>

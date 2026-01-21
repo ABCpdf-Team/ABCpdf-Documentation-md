@@ -3,34 +3,52 @@ title: "01-structure"
 css: "abcpdf-docs.css"
 ---
 
-# Structure Function
+|  |  | Structure Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Create a new Structure based on the content in a doc. |  |  | 
 
-Create a new [Structure](../default.md) based on the content in a doc.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp Structure(Doc doc) ``` [Visual Basic] ``` Structure(doc As Doc) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-Structure(Doc doc)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `Structure(doc As Doc)`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | doc | The doc to read. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Create a new Structure based on the content in a doc. After creating this object you should check the Root property to deterimine if a document structure has been found. |  |  | 
+| --- | --- | --- |
 
-Create a new [Structure](../default.md) based on the content in a doc.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-After creating this object you should check the [Root](../2-properties/02-root.md) property to deterimine if a document structure has been found.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

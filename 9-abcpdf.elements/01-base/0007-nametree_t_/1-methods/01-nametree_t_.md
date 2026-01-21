@@ -3,32 +3,52 @@ title: "01-nametree_t_"
 css: "abcpdf-docs.css"
 ---
 
-# NameTree&lt;T&gt; Function
+|  |  | NameTree Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| NameTree constructor. |  |  | 
 
-[NameTree](../default.md) constructor.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp NameTree(NameTreeNodeElement root) ``` [Visual Basic] ``` NameTree(root As NameTreeNodeElement) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-NameTree(NameTreeNodeElement root)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `NameTree(root As NameTreeNodeElement)`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | root | The root node for the tree. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| NameTree constructor. |  |  | 
+| --- | --- | --- |
 
-[NameTree](../default.md) constructor.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

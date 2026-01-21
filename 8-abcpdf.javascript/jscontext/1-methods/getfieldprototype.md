@@ -3,32 +3,52 @@ title: "getfieldprototype"
 css: "abcpdf-docs.css"
 ---
 
-# GetFieldPrototype Method
+|  |  | GetFieldPrototype Method |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Gets the Field prototype object. |  |  | 
 
-Gets the Field prototype object.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp JSValue GetFieldPrototype() ``` [Visual Basic]`Function GetFieldPrototype() As JSValue` `may throw Exception()` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-JSValue GetFieldPrototype()
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-`Function GetFieldPrototype() As JSValue``may throw Exception()`
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | return | The Field prototype object. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| The method returns the Field prototype object, which you can use to define any missing property or method. |  |  | 
+| --- | --- | --- |
 
-The method returns the Field prototype object, which you can use to define any missing property or method.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| See the JSOptions.SetUp event. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-See the [JSOptions.SetUp](../../jsoptions/3-events/setup.md) event.
+</TD></TR></TBODY></TABLE>

@@ -3,36 +3,53 @@ title: "gethttpstatuscode"
 css: "abcpdf-docs.css"
 ---
 
-# GetHttpStatusCode Method
+|  |  | GetHttpStatusCode Method |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Retrieves the HTTP status code. |  |  | 
 
-Retrieves the HTTP status code.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp int GetHttpStatusCode(int id) ``` [Visual Basic]`Function GetHttpStatusCode(id As Integer) As Integer` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-int GetHttpStatusCode(int id)
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-`Function GetHttpStatusCode(id As Integer) As Integer`
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | id | The Object ID of the web page to be accessed. | 
 | return | The HTTP status code or zero if not available. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Use this method to retrieve the HTTP status code if the URL uses the HTTP protocol. The ID should be obtained from a call to Doc.AddImageUrl. If the PageLoadMethod property is WebBrowserNavigate, only error status codes are available. Non-error status codes, such as 200, are not available. |  |  | 
+| --- | --- | --- |
 
-Use this method to retrieve the HTTP status code if the URL uses the HTTP protocol.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-The ID should be obtained from a call to [Doc.AddImageUrl](../../doc/1-methods/addimageurl.md).
-
-If the [PageLoadMethod](../2-properties/pageloadmethod.md) property is WebBrowserNavigate, only error status codes are available. Non-error status codes, such as 200, are not available.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

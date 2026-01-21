@@ -3,24 +3,52 @@ title: "setrandom"
 css: "abcpdf-docs.css"
 ---
 
-# SetRandom Function
+|  |  | SetRandom Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Set the color to a random opaque value in the current color space. |  |  | 
 
-Set the color to a random opaque value in the current color space.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp void SetRandom() ``` [Visual Basic] `Sub SetRandom()` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]** ```csharp void SetRandom() ``` [Visual Basic] `Sub SetRandom()`
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | None |  | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Set the color to a random opaque value in the current color space. |  |  | 
+| --- | --- | --- |
 
-Set the color to a random opaque value in the current color space.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

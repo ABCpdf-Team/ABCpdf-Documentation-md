@@ -3,32 +3,39 @@ title: "15-entryuri"
 css: "abcpdf-docs.css"
 ---
 
-# EntryURI Property
-
+|  |  | EntryURI Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp CatalogUriElement ``` [Visual Basic] `CatalogUriElement` | null | No | Represents the "URI" entry of the catalog dictionary object. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Represents the "URI" entry of the catalog dictionary object. It is an optional entry defined as part of the PDF 1.1 specification. It contains a CatalogUriElement. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 28, page 74. Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 3.25, page 23. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 29, page 99. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 242, page 458. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 245, page 555. |  |  | 
+| --- | --- | --- |
 
-Represents the "URI" entry of the catalog dictionary object.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-It is an optional entry defined as part of the PDF 1.1 specification.
-
-It contains a [CatalogUriElement](../../../12-interactive/1432-catalogurielement/default.md).
-
-For definitive details see:.
-
-[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 28, page 74.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=82)
-
-[Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 3.25, page 23.](http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/adobe_supplement_iso32000.pdf#page=23)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 29, page 99.](https://www.iso.org/standard/63534.md)
-
-[The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 242, page 458.](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf#page=466)
-
-[The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 245, page 555.](https://www.iso.org/standard/63534.md)
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

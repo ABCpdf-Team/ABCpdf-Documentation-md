@@ -3,172 +3,39 @@ title: "widths"
 css: "abcpdf-docs.css"
 ---
 
-# Widths Property
-
+|  |  | Widths Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp IDictionary ``` [Visual Basic] `IDictionary` | n/a | Yes | The widths of the characters in the font. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The character widths for all the characters in the font. The array is indexable by Unicode value. For example to find the width of a space (ASCII 32) you would simply reference item 32 in the collection. The values are measured in in 1000ths of a PDF unit. Font subsetting can result in characters being partially or completely removed from a font. ABCpdf will attempt to ensure that the Widths collection only contains entries for valid characters. However sometimes it is difficult to tell and as such you cannot rely on a character being present simply because it has a width. |  |  | 
+| --- | --- | --- |
 
-The character widths for all the characters in the font.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The example below shows how to add text on a curve and text flowing round a circle. [C#] ```csharp string font = "Comic Sans MS"; string text = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae..."; string theTitle = "Commentarii de Bello Gallico"; using var doc = new Doc(); doc.FontSize = 36; doc.TextStyle.Kerning = XTextStyle.KerningType.None; doc.Font = doc.EmbedFont(font, LanguageType.Latin, false, true, false); // add some radial text in the top middle of the page double cx = doc.MediaBox.Width * 0.5; double cy = doc.MediaBox.Height * 0.6; double r = doc.MediaBox.Width * 0.3; CurvedText.AddRadial(doc, text, cx, cy, r, 225, true, false); // add some curved text to a rectangle double width = doc.MeasureText(theTitle); doc.Rect.SetRect(100, 100, width, doc.FontSize * 1.5); doc.FrameRect(); CurvedText.AddCurved(doc, theTitle); // save doc.Save(Server.MapPath("ExampleCurvedText.pdf")); ``` [Visual Basic] ```vbnet Dim theFont As String = "Comic Sans MS" Dim theText As String = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae..." Dim theTitle As String = "Commentarii de Bello Gallico" Using doc As New Doc() doc.FontSize = 36 doc.TextStyle.Kerning = XTextStyle.KerningType.None doc.Font = doc.EmbedFont(theFont, LanguageType.Latin, False, True, False) ' add some radial text in the top middle of the page Dim cx As Double = doc.MediaBox.Width * 0.5 Dim cy As Double = doc.MediaBox.Height * 0.6 Dim r As Double = doc.MediaBox.Width * 0.3 CurvedText.AddRadial(doc, theText, cx, cy, r, 225, _ True, False) ' add some curved text to a rectangle Dim width As Double = doc.MeasureText(theTitle) doc.Rect.SetRect(100, 100, width, doc.FontSize * 1.5) doc.FrameRect() CurvedText.AddCurved(doc, theTitle) ' save doc.Save(Server.MapPath("ExampleCurvedText.pdf")) End Using ``` [C#] ```csharp class CurvedText { public static void AddCurved(Doc doc, string text) { double halfWidth = doc.Rect.Width / 2; double height = doc.Rect.Height - doc.TextStyle.Size; double radius = ((halfWidth * halfWidth) + (height * height)) / (2 * height); double centerX = doc.Rect.Left + halfWidth; double centerY = doc.Rect.Bottom + radius + doc.TextStyle.Size; double alpha = Math.Asin(halfWidth / radius) - Math.PI; AddRadial(doc, text, centerX, centerY, radius, RadiansToDegrees(alpha), true, false); } public static void AddRadial(Doc doc, string text, double centerX, double centerY, double radius, double startAngleDegrees, bool inside, bool clockwise) { var font = doc.ObjectSoup[doc.Font] as FontObject; var widths = font.Widths; int n = text.Length; double a = DegreesToRadians(startAngleDegrees); double fontWidthToRadians = doc.TextStyle.Size / (radius * 1000); doc.Rect.String = doc.MediaBox.String; for (int i = 0; i [Visual Basic] ```vbnet Private Class CurvedText Public Shared Sub AddCurved(doc As Doc, text As String) Dim halfWidth As Double = doc.Rect.Width / 2 Dim height As Double = doc.Rect.Height - doc.TextStyle.Size Dim radius As Double = ((halfWidth * halfWidth) + (height * height)) / (2 * height) Dim centerX As Double = doc.Rect.Left + halfWidth Dim centerY As Double = doc.Rect.Bottom + radius + doc.TextStyle.Size Dim alpha As Double = Math.Asin(halfWidth / radius) - Math.PI AddRadial(doc, text, centerX, centerY, radius, RadiansToDegrees(alpha), _ True, False) End Sub Public Shared Sub AddRadial(doc As Doc, text As String, centerX As Double, centerY As Double, radius As Double, startAngleDegrees As Double, _ inside As Boolean, clockwise As Boolean) Dim font As FontObject = TryCast(doc.ObjectSoup(doc.Font), FontObject) Dim widths As IDictionary(Of Char, Integer) = font.Widths Dim n As Integer = text.Length Dim a As Double = DegreesToRadians(startAngleDegrees) Dim fontWidthToRadians As Double = doc.TextStyle.Size / (radius * 1000) doc.Rect.String = doc.MediaBox.[String] Dim i As Integer = 0 While i ExampleCurvedText.pdf |  |  | 
+| --- | --- | --- |
 
-The array is indexable by Unicode value. For example to find the width of a space (ASCII 32) you would simply reference item 32 in the collection. The values are measured in in 1000ths of a PDF unit.
-
-Font subsetting can result in characters being partially or completely removed from a font. ABCpdf will attempt to ensure that the Widths collection only contains entries for valid characters. However sometimes it is difficult to tell and as such you cannot rely on a character being present simply because it has a width.
-
-## Example
-
-The example below shows how to add text on a curve and text flowing round a circle.
-
-[C#]
-
-```csharp
-string font = "Comic Sans MS";
-string text = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae...";
-string theTitle = "Commentarii de Bello Gallico";
-using var doc = new Doc();
-doc.FontSize = 36;
-doc.TextStyle.Kerning = XTextStyle.KerningType.None;
-doc.Font = doc.EmbedFont(font, LanguageType.Latin, false, true, false);
-// add some radial text in the top middle of the page
-double cx = doc.MediaBox.Width * 0.5;
-double cy = doc.MediaBox.Height * 0.6;
-double r = doc.MediaBox.Width * 0.3;
-CurvedText.AddRadial(doc, text, cx, cy, r, 225, true, false);
-// add some curved text to a rectangle
-double width = doc.MeasureText(theTitle);
-doc.Rect.SetRect(100, 100, width, doc.FontSize * 1.5);
-doc.FrameRect();
-CurvedText.AddCurved(doc, theTitle);
-// save
-doc.Save(Server.MapPath("ExampleCurvedText.pdf"));
-```
-
-<span class=language>[Visual Basic]</span>
-```vbnet
-Dim theFont As String = "Comic Sans MS"
-Dim theText As String = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae..."
-Dim theTitle As String = "Commentarii de Bello Gallico"
-Using doc As New Doc()
-  doc.FontSize = 36
-  doc.TextStyle.Kerning = XTextStyle.KerningType.None
-  doc.Font = doc.EmbedFont(theFont, LanguageType.Latin, False, True, False)
-  ' add some radial text in the top middle of the page
-  Dim cx As Double = doc.MediaBox.Width * 0.5
-  Dim cy As Double = doc.MediaBox.Height * 0.6
-  Dim r As Double = doc.MediaBox.Width * 0.3
-  CurvedText.AddRadial(doc, theText, cx, cy, r, 225, _
-    True, False)
-  ' add some curved text to a rectangle
-  Dim width As Double = doc.MeasureText(theTitle)
-  doc.Rect.SetRect(100, 100, width, doc.FontSize * 1.5)
-  doc.FrameRect()
-  CurvedText.AddCurved(doc, theTitle)
-  ' save
-  doc.Save(Server.MapPath("ExampleCurvedText.pdf"))
-End Using
-```
-
-[C#]
-
-```csharp
-class CurvedText {
-  public static void AddCurved(Doc doc, string text) {
-    double halfWidth = doc.Rect.Width / 2;
-    double height = doc.Rect.Height - doc.TextStyle.Size;
-    double radius = ((halfWidth * halfWidth) + (height * height)) / (2 * height);
-    double centerX = doc.Rect.Left + halfWidth;
-    double centerY = doc.Rect.Bottom + radius + doc.TextStyle.Size;
-    double alpha = Math.Asin(halfWidth / radius) - Math.PI;
-    AddRadial(doc, text, centerX, centerY, radius, RadiansToDegrees(alpha), true, false);
-  }
-
-  public static void AddRadial(Doc doc, string text, double centerX, double centerY, double radius, double startAngleDegrees, bool inside, bool clockwise) {
-    var font = doc.ObjectSoup[doc.Font] as FontObject;
-    var widths = font.Widths;
-    int n = text.Length;
-    double a = DegreesToRadians(startAngleDegrees);
-    double fontWidthToRadians = doc.TextStyle.Size / (radius * 1000);
-    doc.Rect.String = doc.MediaBox.String;
-    for (int i = 0; i < n; i++) {
-      // work out position
-      double x = centerX + (Math.Sin(a) * radius);
-      double y = centerY + (Math.Cos(a) * radius);
-      // add a character
-      doc.Pos.X = x;
-      doc.Pos.Y = y;
-      doc.Transform.Reset();
-      double charRotation = inside ? RadiansToDegrees(-a) + 180 : RadiansToDegrees(-a);
-      doc.Transform.Rotate(charRotation, x, y);
-      doc.AddText(text[i].ToString());
-      // increment angle
-      double da = Convert.ToDouble(widths[text[i]]) * fontWidthToRadians;
-      a += clockwise ? da : -da;
-    }
-    doc.Transform.Reset();
-  }
-
-  private static double DegreesToRadians(double degrees) {
-    return degrees * Math.PI / 180;
-  }
-
-  private static double RadiansToDegrees(double radians) {
-    return radians * 180 / Math.PI;
-  }
-}
-```
-
-<span class=language>[Visual Basic]</span>
-```vbnet
-Private Class CurvedText
-  Public Shared Sub AddCurved(doc As Doc, text As String)
-    Dim halfWidth As Double = doc.Rect.Width / 2
-    Dim height As Double = doc.Rect.Height - doc.TextStyle.Size
-    Dim radius As Double = ((halfWidth * halfWidth) + (height * height)) / (2 * height)
-    Dim centerX As Double = doc.Rect.Left + halfWidth
-    Dim centerY As Double = doc.Rect.Bottom + radius + doc.TextStyle.Size
-    Dim alpha As Double = Math.Asin(halfWidth / radius) - Math.PI
-    AddRadial(doc, text, centerX, centerY, radius, RadiansToDegrees(alpha), _
-      True, False)
-  End Sub
-
-  Public Shared Sub AddRadial(doc As Doc, text As String, centerX As Double, centerY As Double, radius As Double, startAngleDegrees As Double, _
-    inside As Boolean, clockwise As Boolean)
-    Dim font As FontObject = TryCast(doc.ObjectSoup(doc.Font), FontObject)
-    Dim widths As IDictionary(Of Char, Integer) = font.Widths
-    Dim n As Integer = text.Length
-    Dim a As Double = DegreesToRadians(startAngleDegrees)
-    Dim fontWidthToRadians As Double = doc.TextStyle.Size / (radius * 1000)
-    doc.Rect.String = doc.MediaBox.[String]
-    Dim i As Integer = 0
-    While i < n
-      ' work out position
-      Dim x As Double = centerX + (Math.Sin(a) * radius)
-      Dim y As Double = centerY + (Math.Cos(a) * radius)
-      ' add a character
-      doc.Pos.X = x
-      doc.Pos.Y = y
-      doc.Transform.Reset()
-      Dim charRotation As Double = If(inside, RadiansToDegrees(-a) + 180, RadiansToDegrees(-a))
-      doc.Transform.Rotate(charRotation, x, y)
-      doc.AddText(text(i).ToString())
-      ' increment angle
-      Dim da As Double = Convert.ToDouble(widths(text(i))) * fontWidthToRadians
-      a += If(clockwise, da, -da)
-      System.Math.Max(System.Threading.Interlocked.Increment(i),i - 1)
-    End While
-    doc.Transform.Reset()
-  End Sub
-
-  Private Shared Function DegreesToRadians(degrees As Double) As Double
-    Return degrees * Math.PI / 180
-  End Function
-
-  Private Shared Function RadiansToDegrees(radians As Double) As Double
-    Return radians * 180 / Math.PI
-  End Function
-End Class
-```
-
-![](../../../images/pdf/ExampleCurvedText.pdf.png) ExampleCurvedText.pdf
+</td>
+  </tr>
+</table>

@@ -3,29 +3,28 @@ title: "fromcmyk"
 css: "abcpdf-docs.css"
 ---
 
-# FromCmyk Function
+|  |  | FromCmyk Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Create an XColor given a set of CMYK component values. |  |  | 
 
-Create an XColor given a set of CMYK component values.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp static XColor FromCmyk(int cyan, int magenta, int yellow, int black) static XColor FromCmyk(double cyan, double magenta, double yellow, double black) ``` [Visual Basic] ``` Shared Function FromCmyk(cyan As Integer, magenta As Integer, yellow As Integer, black As Integer) As XColor Shared Function FromCmyk(cyan As Double, magenta As Double, yellow As Double, black As Double) As XColor ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-static XColor FromCmyk(int cyan, int magenta, int yellow, int black)
-static XColor FromCmyk(double cyan, double magenta, double yellow, double black)
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-
-```
-Shared Function FromCmyk(cyan As Integer, magenta As Integer, yellow As Integer, black As Integer) As XColor
-Shared Function FromCmyk(cyan As Double, magenta As Double, yellow As Double, black As Double) As XColor
-```
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | cyan | The amount of cyan (0 to 100) | 
@@ -34,10 +33,26 @@ Shared Function FromCmyk(cyan As Double, magenta As Double, yellow As Double, bl
 | black | The amount of black (0 to 100) | 
 | return | The resulting XColor. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Create an XColor given a set of CMYK component values ranging between zero and 100. |  |  | 
+| --- | --- | --- |
 
-Create an XColor given a set of CMYK component values ranging between zero and 100.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

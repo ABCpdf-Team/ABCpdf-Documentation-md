@@ -3,81 +3,32 @@ title: "2-forchrome"
 css: "abcpdf-docs.css"
 ---
 
-# ForChrome Property
-
+|  |  | ForChrome Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp IHtmlChromeOptions ``` [Visual Basic] `IHtmlChromeOptions` | n/a | Yes | An object that provides access to only the HTML options supported by the ABCChrome engine. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| The HTML options supported by the ABCChrome engine. ### Supported methods EndTasks GetHttpStatusCode GetScriptReturn GetTagIDs GetTagRects GetTagUntransformedRects LinkPages ### Supported properties AddForms AddLinks AddTags AddIDs AddNames BaseURI BrowserWidth FireShield HideBackground InitialWidth IgnoreCertificateErrors Media OnLoadScript ProcessOptions RepaintDelay RepaintTimeout RetryCount Timeout UseScript UseProxyServer |  |  | 
+| --- | --- | --- |
 
-The HTML options supported by the ABCChrome engine.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| [C#] ```csharp using var doc = new Doc(); doc.HtmlOptions.Engine = EngineType.Chrome123; doc.HtmlOptions.ForChrome.AddLinks = true; // You can store a reference to the filter to reduce code repetition var options = doc.HtmlOptions.ForChrome; options.UseScript = false; options.AddTags = true; doc.AddImageUrl("http://www.websupergoo.com"); doc.Save(Server.MapPath("wsg1.pdf")); ``` [Visual Basic] ```vbnet Using doc As New Doc() doc.HtmlOptions.Engine = EngineType.Chrome123 doc.HtmlOptions.ForChrome.AddLinks = True ' You can store a reference to the filter to reduce code repetition Dim options As IHtmlChromeOptions = doc.HtmlOptions.ForChrome options.UseScript = False options.AddTags = True doc.AddImageUrl("http://www.websupergoo.com") doc.Save(Server.MapPath("wsg1.pdf")) End Using ``` |  |  | 
+| --- | --- | --- |
 
-### Supported methods
-
-- [EndTasks](../1-methods/endtasks.md)
-- [GetHttpStatusCode](../1-methods/gethttpstatuscode.md)
-- [GetScriptReturn](../1-methods/getscriptreturn.md)
-- [GetTagIDs](../1-methods/gettagids.md)
-- [GetTagRects](../1-methods/gettagrects.md)
-- [GetTagUntransformedRects](../1-methods/gettaguntransformedrects.md)
-- [LinkPages](../1-methods/linkpages.md)
-
-### Supported properties
-
-- [AddForms](addforms.md)
-- [AddLinks](addlinks.md)
-- [AddTags](addtags.md)
-- [AddIDs](addids.md)
-- [AddNames](addnames.md)
-- [BaseURI](baseuri.md)
-- [BrowserWidth](browserwidth.md)
-- [FireShield](fireshield.md)
-- [HideBackground](hidebackground.md)
-- [InitialWidth](initialwidth.md)
-- [IgnoreCertificateErrors](ignorecertificateerrors.md)
-- [Media](media.md)
-- [OnLoadScript](onloadscript.md)
-- [ProcessOptions](processoptions.md)
-- [RepaintDelay](repaintdelay.md)
-- [RepaintTimeout](repainttimeout.md)
-- [RetryCount](retrycount.md)
-- [Timeout](timeout.md)
-- [UseScript](usescript.md)
-- [UseProxyServer](useproxyserver.md)
-
-## Example
-
-[C#]
-
-```csharp
-using var doc = new Doc();
-doc.HtmlOptions.Engine = EngineType.Chrome123;
-doc.HtmlOptions.ForChrome.AddLinks = true;
-
-// You can store a reference to the filter to reduce code repetition
-var options = doc.HtmlOptions.ForChrome;
-
-options.UseScript = false;
-options.AddTags = true;
-
-doc.AddImageUrl("http://www.websupergoo.com");
-doc.Save(Server.MapPath("wsg1.pdf"));
-```
-
-<span class=language>[Visual Basic]</span>
-```vbnet
-Using doc As New Doc()
-  doc.HtmlOptions.Engine = EngineType.Chrome123
-  doc.HtmlOptions.ForChrome.AddLinks = True
-
-  ' You can store a reference to the filter to reduce code repetition
-  Dim options As IHtmlChromeOptions = doc.HtmlOptions.ForChrome
-
-  options.UseScript = False
-  options.AddTags = True
-
-  doc.AddImageUrl("http://www.websupergoo.com")
-  doc.Save(Server.MapPath("wsg1.pdf"))
-End Using
-```
+</TD></TR></TBODY></TABLE>

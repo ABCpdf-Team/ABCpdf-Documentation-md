@@ -3,20 +3,39 @@ title: "fontlinespacing"
 css: "abcpdf-docs.css"
 ---
 
-# FontLineSpacing Property
-
+|  |  | FontLineSpacing Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp int ``` [Visual Basic] `Integer` | n/a | Yes | The line spacing for the glyphs in this font | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The line spacing for the glyphs in this font. This broadly reflects the distance in 1000ths between the bottom of the lowest descender and the top of the highest ascender on two subsequent lines. We follow Microsoft best practice on this metric and vary the calculations depending on whether bit 7 of the fsSelection entry in the 'OS/2' TrueType table is set or not. However it is worth noting that many items of software including Microsoft flagship products do not.The PDF format only supports a limited range of metrics so FontObjects read from PDF may contain some approximations compared with 'live' FontObjects which have been added using the Doc.AddFont or Doc.EmbedFont methods. |  |  | 
+| --- | --- | --- |
 
-The line spacing for the glyphs in this font.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-This broadly reflects the distance in 1000ths between the bottom of the lowest descender and the top of the highest ascender on two subsequent lines. We follow Microsoft best practice on this metric and vary the calculations depending on whether bit 7 of the fsSelection entry in the 'OS/2' TrueType table is set or not. However it is worth noting that many items of software including Microsoft flagship products do not.
-
-The PDF format only supports a limited range of metrics so FontObjects read from PDF may contain some approximations compared with 'live' FontObjects which have been added using the Doc.AddFont or Doc.EmbedFont methods.
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>

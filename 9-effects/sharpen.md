@@ -3,111 +3,62 @@ title: "sharpen"
 css: "abcpdf-docs.css"
 ---
 
-# Sharpen Effect
+|  |  | Sharpen Effect |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| The Sharpen filter enhances edges using a simple algorithm. This is very fast to compute but can produce artificially over-sharp or over-noisy images if not used carefully. |  |  | 
 
-The Sharpen filter enhances edges using a simple algorithm. This is very fast to compute but can produce artificially over-sharp or over-noisy images if not used carefully.
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../images/steel-pin.gif)  
 
-## Settings
-
+    Settings</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
 | Name | Default | Description | 
 | --- | --- | --- |
 | None |  |  | 
 
-## Workings
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../images/steel-pin.gif)  
 
-The Sharpen Filter uses a simple three square convolution to enhance edges.
-
-The matrix for this convolution is:
-
-| -0.125 | -0.125 | -0.125 | 
-| --- | --- | --- |
+    Workings</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The Sharpen Filter uses a simple three square convolution to enhance edges. The matrix for this convolution is: | -0.125 | -0.125 | -0.125 | 
+| --- | --- | --- | --- |
 | -0.125 | +2.000 | -0.125 | 
 | -0.125 | -0.125 | -0.125 | 
 
-## Example
+</td>
+              </tr>
+            </table>
 
-The following examples show the effect of a Sharpen filter applied to a number of different images. Note that because JPEG compression has been used to compress these images some of the fine detail applied by the effect is not visible.
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../images/steel-pin.gif)  
 
-[C#]
+    Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The following examples show the effect of a Sharpen filter applied to a number of different images. Note that because JPEG compression has been used to compress these images some of the fine detail applied by the effect is not visible. [C#] ```csharp void function() { using (Doc doc = new Doc()) { AddImagePage(doc, img5); // original image doc.Rendering.Save("EffectSharpen1a.jpg"); using (ImageLayer layer = AddImagePage(doc, img5)) { using (EffectOperation effect = new EffectOperation("Sharpen")) { effect.Apply(layer.PixMap); } } doc.Rendering.Save("EffectSharpen1b.jpg"); AddImagePage(doc, img3); // original image doc.Rendering.Save("EffectSharpen2a.jpg"); using (ImageLayer layer = AddImagePage(doc, img3)) { using (EffectOperation effect = new EffectOperation("Sharpen")) { effect.Apply(layer.PixMap); } } doc.Rendering.Save("EffectSharpen2b.jpg"); AddImagePage(doc, img6); // original image doc.Rendering.Save("EffectSharpen3a.jpg"); using (ImageLayer layer = AddImagePage(doc, img6)) { using (EffectOperation effect = new EffectOperation("Sharpen")) { effect.Apply(layer.PixMap); } } doc.Rendering.Save("EffectSharpen3b.jpg"); } } ``` [Visual Basic] ```vbnet Sub ... Using doc As New Doc() AddImagePage(doc, img5) ' original image doc.Rendering.Save("EffectSharpen1a.jpg") Using layer As ImageLayer = AddImagePage(doc, img5) Using effect As New EffectOperation("Sharpen") effect.Apply(layer.PixMap) End Using End Using doc.Rendering.Save("EffectSharpen1b.jpg") AddImagePage(doc, img3) ' original image doc.Rendering.Save("EffectSharpen2a.jpg") Using layer As ImageLayer = AddImagePage(doc, img3) Using effect As New EffectOperation("Sharpen") effect.Apply(layer.PixMap) End Using End Using doc.Rendering.Save("EffectSharpen2b.jpg") AddImagePage(doc, img6) ' original image doc.Rendering.Save("EffectSharpen3a.jpg") Using layer As ImageLayer = AddImagePage(doc, img6) Using effect As New EffectOperation("Sharpen") effect.Apply(layer.PixMap) End Using End Using doc.Rendering.Save("EffectSharpen3b.jpg") End Using End Sub ``` Original Image before Sharpen Filter After Sharpen Filter Applied. Original Image before Sharpen Filter After Sharpen Filter Applied. Note that as well as enhancing edges the effect has also enhanced 'mosquito noise' artifacts from the JPEG compression used on the original image. These are especially visible around the legs of the astronaut. Original Image before Sharpen Filter After Sharpen Filter Applied. Note that the main effect here has been to enhance noise rather than improve quality. |  |  | 
+| --- | --- | --- |
 
-```csharp
-void function() {
-  using (Doc doc = new Doc()) {
-    AddImagePage(doc, img5); // original image
-    doc.Rendering.Save("EffectSharpen1a.jpg");
-    using (ImageLayer layer = AddImagePage(doc, img5)) {
-      using (EffectOperation effect = new EffectOperation("Sharpen")) {
-        effect.Apply(layer.PixMap);
-      }
-    }
-    doc.Rendering.Save("EffectSharpen1b.jpg");
-    AddImagePage(doc, img3); // original image
-    doc.Rendering.Save("EffectSharpen2a.jpg");
-    using (ImageLayer layer = AddImagePage(doc, img3)) {
-      using (EffectOperation effect = new EffectOperation("Sharpen")) {
-        effect.Apply(layer.PixMap);
-      }
-    }
-    doc.Rendering.Save("EffectSharpen2b.jpg");
-    AddImagePage(doc, img6); // original image
-    doc.Rendering.Save("EffectSharpen3a.jpg");
-    using (ImageLayer layer = AddImagePage(doc, img6)) {
-      using (EffectOperation effect = new EffectOperation("Sharpen")) {
-        effect.Apply(layer.PixMap);
-      }
-    }
-    doc.Rendering.Save("EffectSharpen3b.jpg");
-  }
-}
-```
-
-<span class=language>[Visual Basic]</span>
-```vbnet
-Sub ...
-  Using doc As New Doc()
-    AddImagePage(doc, img5)
-    ' original image
-    doc.Rendering.Save("EffectSharpen1a.jpg")
-    Using layer As ImageLayer = AddImagePage(doc, img5)
-      Using effect As New EffectOperation("Sharpen")
-        effect.Apply(layer.PixMap)
-      End Using
-    End Using
-    doc.Rendering.Save("EffectSharpen1b.jpg")
-    AddImagePage(doc, img3)
-    ' original image
-    doc.Rendering.Save("EffectSharpen2a.jpg")
-    Using layer As ImageLayer = AddImagePage(doc, img3)
-      Using effect As New EffectOperation("Sharpen")
-        effect.Apply(layer.PixMap)
-      End Using
-    End Using
-    doc.Rendering.Save("EffectSharpen2b.jpg")
-    AddImagePage(doc, img6)
-    ' original image
-    doc.Rendering.Save("EffectSharpen3a.jpg")
-    Using layer As ImageLayer = AddImagePage(doc, img6)
-      Using effect As New EffectOperation("Sharpen")
-        effect.Apply(layer.PixMap)
-      End Using
-    End Using
-    doc.Rendering.Save("EffectSharpen3b.jpg")
-  End Using
-End Sub
-```
-
-![](images/bouy2.jpg) Original Image before Sharpen Filter
-
-![](images/sharpen/bouy.jpg) After Sharpen Filter Applied.
-
-![](images/astroflag.jpg) Original Image before Sharpen Filter
-
-![](images/sharpen/astroflag.jpg) After Sharpen Filter Applied.
-
-Note that as well as enhancing edges the effect has also enhanced 'mosquito noise' artifacts from the JPEG compression used on the original image. These are especially visible around the legs of the astronaut.
-
-![](images/bouy.jpg) Original Image before Sharpen Filter
-
-![](images/sharpen/noisybouy.jpg) After Sharpen Filter Applied.
-
-Note that the main effect here has been to enhance noise rather than improve quality.
+    </td>
+  </tr>
+</table>

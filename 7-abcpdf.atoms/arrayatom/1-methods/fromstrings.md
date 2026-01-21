@@ -3,35 +3,53 @@ title: "fromstrings"
 css: "abcpdf-docs.css"
 ---
 
-# FromStrings Function
+|  |  | FromStrings Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Create an ArrayAtom of StringAtoms from a list of strings. |  |  | 
 
-Create an ArrayAtom of StringAtoms from a list of strings.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp static ArrayAtom FromStrings(IList items) ``` [Visual Basic] ``` Shared Function FromStrings(items as IList(Of String)) As ArrayAtom ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-static ArrayAtom FromStrings(IList items)
-```
-
-<span class=language>[Visual
-            Basic]</span>  
-
-            `Shared Function FromStrings(items as IList(Of String)) As ArrayAtom`
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | items | The list of strings. | 
 | return | The resulting ArrayAtom. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Create an ArrayAtom of StringAtoms from a list of strings. If the provided list is null then the return value will be null. |  |  | 
+| --- | --- | --- |
 
-Create an ArrayAtom of StringAtoms from a list of strings.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-If the provided list is null then the return value will be null.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

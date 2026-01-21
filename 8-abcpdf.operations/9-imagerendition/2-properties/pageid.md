@@ -3,18 +3,32 @@ title: "pageid"
 css: "abcpdf-docs.css"
 ---
 
-# PageID Property
-
+|  |  | PageID Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp int ``` [Visual Basic] `Integer` | n/a | Yes | The ID of the Page on which the image is placed. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| The ID of the Page on which the image is placed. You can assign this ID to the Doc.Page or you can use it with the ObjectSoup to retrieve a Page object. |  |  | 
+| --- | --- | --- |
 
-The ID of the Page on which the image is placed.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-You can assign this ID to the [Doc.Page](../../../5-abcpdf/doc/2-properties/page.md) or you can use it with the [ObjectSoup](../../../6-abcpdf.objects/2-objectsoup/default.md) to retrieve a [Page](../../../6-abcpdf.objects/page/default.md) object.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

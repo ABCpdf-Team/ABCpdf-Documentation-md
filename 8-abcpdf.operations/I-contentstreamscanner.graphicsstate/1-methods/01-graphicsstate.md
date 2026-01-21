@@ -3,32 +3,52 @@ title: "01-graphicsstate"
 css: "abcpdf-docs.css"
 ---
 
-# GraphicsState Function
+|  |  | GraphicsState Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Create a new GraphicsState initialized to default values. |  |  | 
 
-Create a new [GraphicsState](../default.md) initialized to default values.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp GraphicsState() ``` [Visual Basic] ``` GraphicsState() ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-GraphicsState()
-```
-
-<span class=language>[Visual Basic]</span>  
-
-            `GraphicsState()`
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | none |  | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Create a new GraphicsState initialized to default values. |  |  | 
+| --- | --- | --- |
 
-Create a new [GraphicsState](../default.md) initialized to default values.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

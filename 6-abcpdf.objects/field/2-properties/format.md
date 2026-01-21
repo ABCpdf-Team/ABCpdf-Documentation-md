@@ -3,39 +3,26 @@ title: "format"
 css: "abcpdf-docs.css"
 ---
 
-# Format Property
-
+|  |  | Format Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp string ``` [Visual Basic] `String` | See description. | Yes | The field format. | 
 
-## Notes
-
-The format for this field.
-
-The PDF specification does not define how fields should be formatted. Acrobat uses a set of standard JavaScripts to perform field formatting.
-
-This property reflects the JavaScript formatting function which is being used and the values which are being passed to it. A typical value might be:
-
-```jscript
-AFNumber_Format(2, 3, 0, 0, "", true);
-```
-
-This defines a number format with two decimal places. Other typical formatting functions you will see include AFPercent_Format, AFSpecial_Format, AFDate_Format and AFTime_Format.
-
-For a definitive guide to these formatting functions you should see the JavaScripts which come installed with your version of Acrobat. However as of early 2019, the following are defined.
-
-```jscript
-AFNumber_Format(decimals, separator, negative, unused, currency, prepend);
-AFPercent_Format(decimals, separator);
-AFSpecial_Format(special_type)
-AFDate_Format(date_type)
-AFDate_FormatEx(date_time_format)
-AFTime_Format(time_type)
-AFTime_FormatEx(date_time_format)
-```
-
-| Name | Description | Example | 
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The format for this field. The PDF specification does not define how fields should be formatted. Acrobat uses a set of standard JavaScripts to perform field formatting. This property reflects the JavaScript formatting function which is being used and the values which are being passed to it. A typical value might be: ```jscript AFNumber_Format(2, 3, 0, 0, "", true); ``` This defines a number format with two decimal places. Other typical formatting functions you will see include AFPercent_Format, AFSpecial_Format, AFDate_Format and AFTime_Format. For a definitive guide to these formatting functions you should see the JavaScripts which come installed with your version of Acrobat. However as of early 2019, the following are defined. ```jscript AFNumber_Format(decimals, separator, negative, unused, currency, prepend); AFPercent_Format(decimals, separator); AFSpecial_Format(special_type) AFDate_Format(date_type) AFDate_FormatEx(date_time_format) AFTime_Format(time_type) AFTime_FormatEx(date_time_format) ``` Name | Description | Example | 
 | --- | --- | --- |
 | decimals | The number of figures to display after the decimal point. eg for "2" the output might be "1,234.567". | For th | 
 | separator | A number indicating the style of separators for thousands and decimal points. 0 - Thousands separated using commas and decimals separated using a period. eg "1,234.56" 1 - Decimals separated using a period. eg "1234.56" 2 - Thousands separated using periods and decimals separated using a comma. eg "1.234,56" 3 - Decimals separated using a comma. eg "1234,56" |  | 
@@ -48,6 +35,22 @@ AFTime_FormatEx(date_time_format)
 | time_type | A number indicating a format style used to indicate a time. See date_time_format below for details of the format. 0 - "HH:MM" 1 - "h:MM tt" 2 - "HH:MM:ss" 3 - "h:MM:ss tt" |  | 
 | date_time_format | A string indicating style used to format a date or time. See date_type above for examples of the types of styles you can use. The "m" and "mm" sequences indicate the month using a one and two digit number respectively - the former being of limited use. The "mmm" and "mmmm" sequence indicates the month using a short three character and full name respectively. The "d" and "dd" sequences indicates the ordinal day of the month (the former being of limited use) while the "ddd" and "dddd" sequences indicate the day of the week using a short three character and full name respectively. The "yy" indicates the short form of the year and the "yyyy" selector indicates the long form of the year. The "h", "hh", "H" and "HH" sequences indicate the hours. The upper case versions work on the twenty-four hour clock and the lower case ones on the twelve hour clock. The one character selectors indicate the hour using one character (obviously of limited use) and the two character selectors indicate it using two characters. The "MM" selector indicates the number of minutes past the current hour. The "s" and "ss" selectors indicate the number of seconds past the current minute. The former uses one digit - of limited use - and the latter uses two. The "t" and "tt" indicate the time relative to the meridiem - am or pm - using one digit or two characters respectively. |  | 
 
-## Example
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-None.
+</td>
+  </tr>
+</table>

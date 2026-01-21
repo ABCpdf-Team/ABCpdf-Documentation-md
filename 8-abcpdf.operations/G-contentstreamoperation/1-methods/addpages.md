@@ -3,32 +3,28 @@ title: "addpages"
 css: "abcpdf-docs.css"
 ---
 
-# AddPages Function
+|  |  | AddPages Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Add and scan selected pages from the document. |  |  | 
 
-Add and scan selected pages from the document.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp void AddPages() void AddPages(int pageNumber) void AddPages(int startPageNumber, int endPageNumber) void AddPages(int pageNumber, StreamObject[] layers) ``` [Visual Basic] ``` Sub AddPages() Sub AddPages(pageNumber As Integer) Sub AddPages(startPageNumber As Integer, endPageNumber As Integer) Sub AddPages(pageNumber As Integer, layers as StreamObject()) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-void AddPages()
-void AddPages(int pageNumber)
-void AddPages(int startPageNumber, int endPageNumber)
-void AddPages(int pageNumber, StreamObject[] layers)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-```
-Sub AddPages()
-Sub AddPages(pageNumber As Integer)
-Sub AddPages(startPageNumber As Integer, endPageNumber As Integer)
-Sub AddPages(pageNumber As Integer, layers as StreamObject())
-```
-			
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | pageNumber | The number of the page to be processed. This is a one based index. | 
@@ -36,12 +32,26 @@ Sub AddPages(pageNumber As Integer, layers as StreamObject())
 | endPageNumber | The number of the last page to be processed. This is a one based index. | 
 | layers | The layers to be scanned. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Add and scan selected pages from the document. If no arguments are supplied then all pages will be added. |  |  | 
+| --- | --- | --- |
 
-Add and scan selected pages from the document.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-If no arguments are supplied then all pages will be added.
-
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

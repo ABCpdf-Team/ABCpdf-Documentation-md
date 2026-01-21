@@ -3,24 +3,39 @@ title: "dotsperinch"
 css: "abcpdf-docs.css"
 ---
 
-# DotsPerInch Property
-
+|  |  | DotsPerInch Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp double ``` [Visual Basic] `Double` | 72.0 | No | The output resolution in dots per inch (DPI). | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| This property determines the resolution of the output image. Because PDF documents specify distances in physical units (typically points) a resolution unit is needed to convert these physical units to pixel based units. For example a document 612 points wide rendered at 144 DPI will result in an output image 1224 pixels wide. Changing this property will change the values of both the DotsPerInchX and DotsPerInchY properties. |  |  | 
+| --- | --- | --- |
 
-This property determines the resolution of the output image.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| See the DefaultHalftone property. Also see example code in: ABCpdf PDF Rendering Example, XRendering AntiAliasPolygons Property, XRendering AntiAliasText Property, XRendering ColorSpace Property, XRendering DefaultHalftone Property, XRendering IccCmyk Property, XRendering Overprint Property, XRendering SaveQuality Property, Page GetBitmap Function, Page Thumbnail Property, PixMap GetBitmap Function, RenderOperation Save Function. |  |  | 
+| --- | --- | --- |
 
-Because PDF documents specify distances in physical units (typically points) a resolution unit is needed to convert these physical units to pixel based units.
-
-For example a document 612 points wide rendered at 144 DPI will result in an output image 1224 pixels wide.
-
-Changing this property will change the values of both the [DotsPerInchX](dotsperinchx.md) and [DotsPerInchY](dotsperinchy.md) properties.
-
-## Example
-
-See the [DefaultHalftone](defaulthalftone.md) property.
-
-Also see example code in: [ABCpdf PDF Rendering Example](../../../4-examples/19-rendering.md), [XRendering AntiAliasPolygons Property](antialiaspolygons.md), [XRendering AntiAliasText Property](antialiastext.md), [XRendering ColorSpace Property](colorspace.md), [XRendering DefaultHalftone Property](defaulthalftone.md), [XRendering IccCmyk Property](icccmyk.md), [XRendering Overprint Property](overprint.md), [XRendering SaveQuality Property](savequality.md), [Page GetBitmap Function](../../../6-abcpdf.objects/page/1-methods/getbitmap.md), [Page Thumbnail Property](../../../6-abcpdf.objects/page/2-properties/thumbnail.md), [PixMap GetBitmap Function](../../../6-abcpdf.objects/pixmap/1-methods/getbitmap.md), [RenderOperation Save Function](../../../8-abcpdf.operations/6-renderoperation/1-methods/save.md).
+</td>
+  </tr>
+</table>

@@ -3,31 +3,61 @@ title: "getlayers"
 css: "abcpdf-docs.css"
 ---
 
-# GetLayers Function
+|  |  | GetLayers Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Gets all the content Layers for the page. |  |  | 
 
-Gets all the content Layers for the page.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Syntax</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| **[C#]** ```csharp StreamObject[] GetLayers() ``` [Visual Basic] ``` Function GetLayers() As StreamObject() ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-StreamObject[] GetLayers()
-```
-
-**[Visual Basic]**
-
-`Function GetLayers() As StreamObject()`
-## Params
-
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Params</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
 | Name | Description | 
 | --- | --- |
 | return | An array of all the content Layers on the page. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td width="11">&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| Gets all the content Layers for the page. |  |  | 
+| --- | --- | --- |
 
-Gets all the content [Layers](../../layer/default.md) for the page.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</td>
+  </tr>
+</table>

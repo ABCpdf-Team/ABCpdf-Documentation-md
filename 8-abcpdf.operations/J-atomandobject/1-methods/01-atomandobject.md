@@ -3,37 +3,53 @@ title: "01-atomandobject"
 css: "abcpdf-docs.css"
 ---
 
-# AtomAndObject Function
+|  |  | AtomAndObject Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Create an AtomAndObject. |  |  | 
 
-Create an [AtomAndObject](../default.md).
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp AtomAndObject(Atom atom, IndirectObject obj) AtomAndObject() ``` [Visual Basic] ``` AtomAndObject(atom As Atom, obj As IndirectObject) AtomAndObject() ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-AtomAndObject(Atom atom, IndirectObject obj)
-AtomAndObject()
-```
-
-<span class=language>[Visual Basic]</span>  
-
-```
-AtomAndObject(atom As Atom, obj As IndirectObject)
-AtomAndObject()
-```
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | atom | The Atom. | 
 | obj | The IndirectObject. | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Create an AtomAndObject. |  |  | 
+| --- | --- | --- |
 
-Create an [AtomAndObject](../default.md).
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-## Example
-
-None.
+</TD></TR></TBODY></TABLE>

@@ -3,36 +3,52 @@ title: "01-rewriterule"
 css: "abcpdf-docs.css"
 ---
 
-# RewriteRule Function
+|  |  | RewriteRule Function |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
+| Path rewrite rule constructor. |  |  | 
 
-Path rewrite rule constructor.
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Syntax</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| **[C#]** ```csharp RewriteRule() RewriteRule(string regex) ``` [Visual Basic] ``` RewriteRule() RewriteRule(string regex) ``` |  |  | 
+| --- | --- | --- |
 
-## Syntax
-
-**[C#]**
-
-```csharp
-RewriteRule()
-RewriteRule(string regex)
-```
-
-<span class=language>[Visual Basic]</span>  
-
-```
-RewriteRule()
-RewriteRule(string regex)
-```
-
-## Params
-
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Params</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
 | Name | Description | 
 | --- | --- |
 | none |  | 
 
-## Notes
+</TD>
+          <TD width=60>&nbsp;</TD>
+          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Notes</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| Path rewrite rule constructor. |  |  | 
+| --- | --- | --- |
 
-Path rewrite rule constructor.
-            
-## Example
+</TD></TR>
+  <TR>
+    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
+Example</TD>
+    <TD width=14>&nbsp;</TD>
+    <TD vAlign=top>
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-None.
+</TD></TR></TBODY></TABLE>

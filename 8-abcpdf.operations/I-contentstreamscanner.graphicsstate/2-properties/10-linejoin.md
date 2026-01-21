@@ -3,22 +3,39 @@ title: "10-linejoin"
 css: "abcpdf-docs.css"
 ---
 
-# LineJoin Property
-
+|  |  | LineJoin Property |  |  | 
+| --- | --- | --- | --- | --- |
+|  |  |  | 
 | Type | Default Value | Read Only | Description | 
-| --- | --- | --- | --- |
 | **[C#]** ```csharp LineJoin ``` [Visual Basic] `LineJoin` | null | No | The line join between segments of stroked paths. | 
 
-## Notes
+</td>
+          <td width="60">&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Notes</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| The line join between segments of stroked paths. The LineJoin enumeration may take the following values: Miter - Miter join. Round - Round join. Bevel - Bevel join. |  |  | 
+| --- | --- | --- |
 
-The line join between segments of stroked paths.
+</td>
+  </tr>
+  <tr> 
+    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
+Example</td>
+    <td width="14">&nbsp;</td>
+    <td valign="top"> 
+      
+| None. |  |  | 
+| --- | --- | --- |
 
-The LineJoin enumeration may take the following values:
-
-- Miter - Miter join.
-- Round - Round join.
-- Bevel - Bevel join.
-
-## Example
-
-None.
+</td>
+  </tr>
+</table>
