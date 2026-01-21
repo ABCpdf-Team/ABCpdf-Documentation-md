@@ -1,3 +1,8 @@
+---
+title: "monochromeimagedpi"
+css: "abcpdf-docs.css"
+---
+
 # MonochromeImageDpi Property
 
 | Type | Default | Read Only | Description | 

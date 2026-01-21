@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # PixMap Class
 
 A bitmap based image.

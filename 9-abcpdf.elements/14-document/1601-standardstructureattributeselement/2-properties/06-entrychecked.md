@@ -1,3 +1,8 @@
+---
+title: "06-entrychecked"
+css: "abcpdf-docs.css"
+---
+
 # EntryChecked Property
 
 | Type | Default Value | Read Only | Description | 

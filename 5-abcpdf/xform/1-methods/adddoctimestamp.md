@@ -1,3 +1,8 @@
+---
+title: "adddoctimestamp"
+css: "abcpdf-docs.css"
+---
+
 # AddDocTimestamp Function
 
 Adds a Signature field compatible with a DocTimeStamp.

@@ -1,3 +1,8 @@
+---
+title: "01-entrybu"
+css: "abcpdf-docs.css"
+---
+
 # EntryBU Property
 
 | Type | Default Value | Read Only | Description | 

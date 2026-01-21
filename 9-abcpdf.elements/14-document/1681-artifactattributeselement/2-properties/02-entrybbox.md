@@ -1,3 +1,8 @@
+---
+title: "02-entrybbox"
+css: "abcpdf-docs.css"
+---
+
 # EntryBBox Property
 
 | Type | Default Value | Read Only | Description | 

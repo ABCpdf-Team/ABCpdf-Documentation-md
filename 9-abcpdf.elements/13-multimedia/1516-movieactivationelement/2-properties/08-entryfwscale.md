@@ -1,3 +1,8 @@
+---
+title: "08-entryfwscale"
+css: "abcpdf-docs.css"
+---
+
 # EntryFWScale Property
 
 | Type | Default Value | Read Only | Description | 

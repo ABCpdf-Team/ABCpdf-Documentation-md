@@ -1,3 +1,8 @@
+---
+title: "25-entrytabs"
+css: "abcpdf-docs.css"
+---
+
 # EntryTabs Property
 
 | Type | Default Value | Read Only | Description | 

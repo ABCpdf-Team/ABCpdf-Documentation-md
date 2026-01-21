@@ -1,3 +1,8 @@
+---
+title: "05-entryprimarytext"
+css: "abcpdf-docs.css"
+---
+
 # EntryPrimaryText Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "10-entryspaceafter"
+css: "abcpdf-docs.css"
+---
+
 # EntrySpaceAfter Property
 
 | Type | Default Value | Read Only | Description | 

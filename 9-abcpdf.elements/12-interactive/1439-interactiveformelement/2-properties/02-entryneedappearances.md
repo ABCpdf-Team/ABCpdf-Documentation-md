@@ -1,3 +1,8 @@
+---
+title: "02-entryneedappearances"
+css: "abcpdf-docs.css"
+---
+
 # EntryNeedAppearances Property
 
 | Type | Default Value | Read Only | Description | 

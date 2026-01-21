@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # D3DPerpendicularMeasurementElement Class
 
 This class represents the 3D perpendicular dimension measurement. This is definitively detailed in:.

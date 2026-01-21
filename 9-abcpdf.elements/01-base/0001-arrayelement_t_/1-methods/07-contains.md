@@ -1,3 +1,8 @@
+---
+title: "07-contains"
+css: "abcpdf-docs.css"
+---
+
 # Contains Function
 
 Determines whether the array contains a specific [Element](../../1086-element/default.md).

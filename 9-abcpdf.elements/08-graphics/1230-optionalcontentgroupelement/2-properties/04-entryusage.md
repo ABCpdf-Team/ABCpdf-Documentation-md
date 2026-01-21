@@ -1,3 +1,8 @@
+---
+title: "04-entryusage"
+css: "abcpdf-docs.css"
+---
+
 # EntryUsage Property
 
 | Type | Default Value | Read Only | Description | 

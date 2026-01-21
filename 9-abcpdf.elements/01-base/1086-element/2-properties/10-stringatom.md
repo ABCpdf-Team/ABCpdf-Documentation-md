@@ -1,3 +1,8 @@
+---
+title: "10-stringatom"
+css: "abcpdf-docs.css"
+---
+
 # StringAtom Property
 
 | Type | Default Value | Read Only | Description | 

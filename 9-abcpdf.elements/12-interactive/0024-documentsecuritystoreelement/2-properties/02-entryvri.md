@@ -1,3 +1,8 @@
+---
+title: "02-entryvri"
+css: "abcpdf-docs.css"
+---
+
 # EntryVRI Property
 
 | Type | Default Value | Read Only | Description | 

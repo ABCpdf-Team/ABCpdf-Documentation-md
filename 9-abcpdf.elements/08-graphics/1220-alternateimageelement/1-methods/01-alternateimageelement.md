@@ -1,3 +1,8 @@
+---
+title: "01-alternateimageelement"
+css: "abcpdf-docs.css"
+---
+
 # AlternateImageElement Function
 
 Create a new [AlternateImageElement](../default.md).

@@ -1,3 +1,8 @@
+---
+title: "03-advance"
+css: "abcpdf-docs.css"
+---
+
 # Advance Function
 
 Advances the text position by an amount - typically the width of a glyph.

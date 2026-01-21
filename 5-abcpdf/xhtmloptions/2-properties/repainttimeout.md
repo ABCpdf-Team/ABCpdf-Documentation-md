@@ -1,3 +1,8 @@
+---
+title: "repainttimeout"
+css: "abcpdf-docs.css"
+---
+
 # RepaintTimeout Property
 
 | Type | Default Value | Read Only | Description | 

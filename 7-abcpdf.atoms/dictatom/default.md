@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # DictAtom Class
 
 An Atom containing a dictionary of other Atoms indexed by name.

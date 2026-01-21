@@ -1,3 +1,8 @@
+---
+title: "01-nametree_t_"
+css: "abcpdf-docs.css"
+---
+
 # NameTree&lt;T&gt; Function
 
 [NameTree](../default.md) constructor.

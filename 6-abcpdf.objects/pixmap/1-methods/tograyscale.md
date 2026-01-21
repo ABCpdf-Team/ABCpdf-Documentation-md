@@ -1,3 +1,8 @@
+---
+title: "tograyscale"
+css: "abcpdf-docs.css"
+---
+
 # ToGrayscale Function
 
 Converts the image to grayscale.

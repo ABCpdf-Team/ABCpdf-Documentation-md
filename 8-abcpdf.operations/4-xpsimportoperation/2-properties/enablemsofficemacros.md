@@ -1,3 +1,8 @@
+---
+title: "enablemsofficemacros"
+css: "abcpdf-docs.css"
+---
+
 # EnableMSOfficeMacros Property
 
 | Type | Default | Read Only | Description | 

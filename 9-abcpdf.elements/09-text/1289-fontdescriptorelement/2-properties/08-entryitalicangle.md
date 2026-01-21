@@ -1,3 +1,8 @@
+---
+title: "08-entryitalicangle"
+css: "abcpdf-docs.css"
+---
+
 # EntryItalicAngle Property
 
 | Type | Default Value | Read Only | Description | 

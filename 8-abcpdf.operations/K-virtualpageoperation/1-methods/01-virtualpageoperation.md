@@ -1,3 +1,8 @@
+---
+title: "01-virtualpageoperation"
+css: "abcpdf-docs.css"
+---
+
 # VirtualPageOperation Function
 
 Create a [VirtualPageOperation](../default.md).

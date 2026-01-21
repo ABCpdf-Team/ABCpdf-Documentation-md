@@ -1,3 +1,8 @@
+---
+title: "01-mediaoffsetelement"
+css: "abcpdf-docs.css"
+---
+
 # MediaOffsetElement Function
 
 Create a new [MediaOffsetElement](../default.md).

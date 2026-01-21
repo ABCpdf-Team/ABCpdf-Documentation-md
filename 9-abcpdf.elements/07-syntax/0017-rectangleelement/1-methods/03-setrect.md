@@ -1,3 +1,8 @@
+---
+title: "03-setrect"
+css: "abcpdf-docs.css"
+---
+
 # SetRect Function
 
 Set the contents of this [RectangleElement](../default.md) using an XRect.

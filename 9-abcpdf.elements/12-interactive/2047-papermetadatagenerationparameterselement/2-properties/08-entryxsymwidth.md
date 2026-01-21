@@ -1,3 +1,8 @@
+---
+title: "08-entryxsymwidth"
+css: "abcpdf-docs.css"
+---
+
 # EntryXSymWidth Property
 
 | Type | Default Value | Read Only | Description | 

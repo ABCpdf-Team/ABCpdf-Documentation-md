@@ -1,3 +1,8 @@
+---
+title: "1-reducesizeoperation"
+css: "abcpdf-docs.css"
+---
+
 # ReduceSizeOperation Constructor
 
 ReduceSizeOperation Constructor.

@@ -1,3 +1,8 @@
+---
+title: "02-entrydefaultforprinting"
+css: "abcpdf-docs.css"
+---
+
 # EntryDefaultForPrinting Property
 
 | Type | Default Value | Read Only | Description | 

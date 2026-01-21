@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # Type5ShadingElement Class
 
 This class represents the type 5 shading dictionary. This is definitively detailed in:.

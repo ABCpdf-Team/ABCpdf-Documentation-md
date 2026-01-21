@@ -1,3 +1,8 @@
+---
+title: "indirect"
+css: "abcpdf-docs.css"
+---
+
 # Indirect Property
 
 | Type | Default | Read Only | Description | 

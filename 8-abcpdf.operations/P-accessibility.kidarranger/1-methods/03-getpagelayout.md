@@ -1,3 +1,8 @@
+---
+title: "03-getpagelayout"
+css: "abcpdf-docs.css"
+---
+
 # GetPageLayout Function
 
 Get a set of areas corresponding to a standard page layout.

@@ -1,3 +1,8 @@
+---
+title: "compressccitt"
+css: "abcpdf-docs.css"
+---
+
 # CompressCcitt Function
 
 Compresses the image using CCITT compression.

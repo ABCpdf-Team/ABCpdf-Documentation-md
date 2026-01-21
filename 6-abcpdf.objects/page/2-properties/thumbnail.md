@@ -1,3 +1,8 @@
+---
+title: "thumbnail"
+css: "abcpdf-docs.css"
+---
+
 # Thumbnail Property
 
 | Type | Default Value | Read Only | Description | 

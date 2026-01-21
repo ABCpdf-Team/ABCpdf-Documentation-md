@@ -1,3 +1,8 @@
+---
+title: "02-entrymainimage"
+css: "abcpdf-docs.css"
+---
+
 # EntryMainImage Property
 
 | Type | Default Value | Read Only | Description | 

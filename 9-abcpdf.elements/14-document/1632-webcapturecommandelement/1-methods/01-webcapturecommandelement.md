@@ -1,3 +1,8 @@
+---
+title: "01-webcapturecommandelement"
+css: "abcpdf-docs.css"
+---
+
 # WebCaptureCommandElement Function
 
 Create a new [WebCaptureCommandElement](../default.md).

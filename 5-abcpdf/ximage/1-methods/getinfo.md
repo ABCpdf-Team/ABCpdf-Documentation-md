@@ -1,3 +1,8 @@
+---
+title: "getinfo"
+css: "abcpdf-docs.css"
+---
+
 # GetInfo Function
 
 Gets internal information from the image.

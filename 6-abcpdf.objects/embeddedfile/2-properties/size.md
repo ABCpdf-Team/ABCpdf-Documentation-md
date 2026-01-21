@@ -1,3 +1,8 @@
+---
+title: "size"
+css: "abcpdf-docs.css"
+---
+
 # Size Property
 
 | Type | Default Value | Read Only | Description | 

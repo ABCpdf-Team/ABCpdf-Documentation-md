@@ -1,3 +1,8 @@
+---
+title: "06-entryresources"
+css: "abcpdf-docs.css"
+---
+
 # EntryResources Property
 
 | Type | Default Value | Read Only | Description | 

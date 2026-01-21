@@ -1,3 +1,8 @@
+---
+title: "16-entrydevdepgs_tr"
+css: "abcpdf-docs.css"
+---
+
 # EntryDevDepGS_TR Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "stringtodate"
+css: "abcpdf-docs.css"
+---
+
 # StringToDate Function
 
 Convert a standard PDF date string into a DateTime.

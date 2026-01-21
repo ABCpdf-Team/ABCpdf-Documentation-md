@@ -1,3 +1,8 @@
+---
+title: "14-entrydevdepgs_op"
+css: "abcpdf-docs.css"
+---
+
 # EntryDevDepGS_OP Property
 
 | Type | Default Value | Read Only | Description | 

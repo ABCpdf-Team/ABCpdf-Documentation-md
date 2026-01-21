@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # EffectParameter Class
 
 A named parameter to be applied to an effect.

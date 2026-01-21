@@ -1,3 +1,8 @@
+---
+title: "01-linearizationparameterelement"
+css: "abcpdf-docs.css"
+---
+
 # LinearizationParameterElement Function
 
 Create a new [LinearizationParameterElement](../default.md).

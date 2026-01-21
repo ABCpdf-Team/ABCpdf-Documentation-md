@@ -1,3 +1,8 @@
+---
+title: "01-richmediapositionelement"
+css: "abcpdf-docs.css"
+---
+
 # RichMediaPositionElement Function
 
 Create a new [RichMediaPositionElement](../default.md).

@@ -1,3 +1,8 @@
+---
+title: "01-postscriptxobjectelement"
+css: "abcpdf-docs.css"
+---
+
 # PostScriptXObjectElement Function
 
 Create a new [PostScriptXObjectElement](../default.md).

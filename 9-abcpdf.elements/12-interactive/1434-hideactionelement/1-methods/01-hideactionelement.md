@@ -1,3 +1,8 @@
+---
+title: "01-hideactionelement"
+css: "abcpdf-docs.css"
+---
+
 # HideActionElement Function
 
 Create a new [HideActionElement](../default.md).

@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # BoxColorInformationElement Class
 
 This class represents the box colour information dictionary. This is definitively detailed in:.

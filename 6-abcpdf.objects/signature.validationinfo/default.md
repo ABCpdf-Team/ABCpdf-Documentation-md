@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # ValidationInfo Class
 
 The validation properties of a PDF signature.

@@ -1,3 +1,8 @@
+---
+title: "02-entryuf"
+css: "abcpdf-docs.css"
+---
+
 # EntryUF Property
 
 | Type | Default Value | Read Only | Description | 

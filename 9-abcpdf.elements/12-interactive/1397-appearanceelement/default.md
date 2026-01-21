@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # AppearanceElement Class
 
 This class represents the appearance dictionary. This is definitively detailed in:.

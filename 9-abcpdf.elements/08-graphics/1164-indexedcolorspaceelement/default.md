@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # IndexedColorSpaceElement Class
 
 This class represents an indexed color space.

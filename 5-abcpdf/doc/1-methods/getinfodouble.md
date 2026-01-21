@@ -1,3 +1,8 @@
+---
+title: "getinfodouble"
+css: "abcpdf-docs.css"
+---
+
 # GetInfoDouble Function
 
 Gets numeric information about an object.

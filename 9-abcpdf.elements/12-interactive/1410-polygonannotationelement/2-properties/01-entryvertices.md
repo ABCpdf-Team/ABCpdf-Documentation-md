@@ -1,3 +1,8 @@
+---
+title: "01-entryvertices"
+css: "abcpdf-docs.css"
+---
+
 # EntryVertices Property
 
 | Type | Default Value | Read Only | Description | 

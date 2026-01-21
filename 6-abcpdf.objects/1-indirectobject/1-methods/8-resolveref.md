@@ -1,3 +1,8 @@
+---
+title: "8-resolveref"
+css: "abcpdf-docs.css"
+---
+
 # ResolveRef Function
 
 Resolves any indirect references and returns the final RefAtom.

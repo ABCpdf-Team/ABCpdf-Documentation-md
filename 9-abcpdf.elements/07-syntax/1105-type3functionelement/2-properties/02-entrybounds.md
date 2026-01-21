@@ -1,3 +1,8 @@
+---
+title: "02-entrybounds"
+css: "abcpdf-docs.css"
+---
+
 # EntryBounds Property
 
 | Type | Default Value | Read Only | Description | 

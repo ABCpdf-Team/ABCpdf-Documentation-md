@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # SeparationColorSpaceElement Class
 
 This class represents a separation color space.

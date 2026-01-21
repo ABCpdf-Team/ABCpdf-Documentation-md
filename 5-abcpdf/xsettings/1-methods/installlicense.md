@@ -1,3 +1,8 @@
+---
+title: "installlicense"
+css: "abcpdf-docs.css"
+---
+
 # InstallLicense Method
 
 Install a license.

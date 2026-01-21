@@ -1,3 +1,8 @@
+---
+title: "01-timespanelement"
+css: "abcpdf-docs.css"
+---
+
 # TimespanElement Function
 
 Create a new [TimespanElement](../default.md).

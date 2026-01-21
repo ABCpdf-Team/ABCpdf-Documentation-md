@@ -1,3 +1,8 @@
+---
+title: "03-entrya"
+css: "abcpdf-docs.css"
+---
+
 # EntryA Property
 
 | Type | Default Value | Read Only | Description | 

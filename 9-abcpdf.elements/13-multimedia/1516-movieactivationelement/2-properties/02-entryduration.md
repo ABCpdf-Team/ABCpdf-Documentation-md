@@ -1,3 +1,8 @@
+---
+title: "02-entryduration"
+css: "abcpdf-docs.css"
+---
+
 # EntryDuration Property
 
 | Type | Default Value | Read Only | Description | 

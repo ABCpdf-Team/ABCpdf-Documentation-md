@@ -1,3 +1,8 @@
+---
+title: "03-entryrecordlevel"
+css: "abcpdf-docs.css"
+---
+
 # EntryRecordLevel Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "textspanindex"
+css: "abcpdf-docs.css"
+---
+
 # TextSpanIndex Property
 
 | Type | Default | Read Only | Description | 

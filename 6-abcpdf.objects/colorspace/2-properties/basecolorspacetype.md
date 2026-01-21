@@ -1,3 +1,8 @@
+---
+title: "basecolorspacetype"
+css: "abcpdf-docs.css"
+---
+
 # BaseColorSpaceType Property
 
 | Type | Default | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "40-textknockout"
+css: "abcpdf-docs.css"
+---
+
 # TextKnockout Property
 
 | Type | Default Value | Read Only | Description | 

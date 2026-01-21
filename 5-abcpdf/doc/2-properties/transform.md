@@ -1,3 +1,8 @@
+---
+title: "transform"
+css: "abcpdf-docs.css"
+---
+
 # Transform Property
 
 | Type | Default | Read Only | Description | 
@@ -54,4 +59,4 @@ End Using
 
 ![](../../../images/pdf/doctransform.pdf.png) doctransform.pdf
 
-Also see example code in: [ABCpdf Landscape Example](../../../4-examples/08-landscape.md), [Doc AddGrid Function](../1-methods/addgrid.md), [Doc AddXObject Function](../1-methods/addxobject.md), [XTransform Invert Function](../../xtransform/1-methods/invert.md), [XTransform Magnify Function](../../xtransform/1-methods/magnify.md), [XTransform Reset Function](../../xtransform/1-methods/reset.md), [XTransform Rotate Function](../../xtransform/1-methods/rotate.md), [XTransform Skew Function](../../xtransform/1-methods/skew.md), [XTransform Translate Function](../../xtransform/1-methods/translate.md), [XTransform AngleUnit�Property](../../xtransform/2-properties/angleunit.md), [FontObject Widths Property](../../../6-abcpdf.objects/fontobject/2-properties/widths.md), [Page GetBitmap Function](../../../6-abcpdf.objects/page/1-methods/getbitmap.md), [Page MakeFormXObject Function](../../../6-abcpdf.objects/page/1-methods/makeformxobject.md), [Page Rotation Property](../../../6-abcpdf.objects/page/2-properties/rotation.md), [XpsImportOperation Import Function](../../../8-abcpdf.operations/4-xpsimportoperation/1-methods/import.md).
+Also see example code in: [ABCpdf Landscape Example](../../../4-examples/08-landscape.md), [Doc AddGrid Function](../1-methods/addgrid.md), [Doc AddXObject Function](../1-methods/addxobject.md), [XTransform Invert Function](../../xtransform/1-methods/invert.md), [XTransform Magnify Function](../../xtransform/1-methods/magnify.md), [XTransform Reset Function](../../xtransform/1-methods/reset.md), [XTransform Rotate Function](../../xtransform/1-methods/rotate.md), [XTransform Skew Function](../../xtransform/1-methods/skew.md), [XTransform Translate Function](../../xtransform/1-methods/translate.md), [XTransform AngleUnit Property](../../xtransform/2-properties/angleunit.md), [FontObject Widths Property](../../../6-abcpdf.objects/fontobject/2-properties/widths.md), [Page GetBitmap Function](../../../6-abcpdf.objects/page/1-methods/getbitmap.md), [Page MakeFormXObject Function](../../../6-abcpdf.objects/page/1-methods/makeformxobject.md), [Page Rotation Property](../../../6-abcpdf.objects/page/2-properties/rotation.md), [XpsImportOperation Import Function](../../../8-abcpdf.operations/4-xpsimportoperation/1-methods/import.md).

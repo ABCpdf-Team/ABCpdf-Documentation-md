@@ -1,3 +1,8 @@
+---
+title: "streamobject"
+css: "abcpdf-docs.css"
+---
+
 # StreamObject Property
 
 | Type | Default | Read Only | Description | 

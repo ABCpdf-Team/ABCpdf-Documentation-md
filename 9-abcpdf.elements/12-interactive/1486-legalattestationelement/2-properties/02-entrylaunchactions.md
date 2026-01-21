@@ -1,3 +1,8 @@
+---
+title: "02-entrylaunchactions"
+css: "abcpdf-docs.css"
+---
+
 # EntryLaunchActions Property
 
 | Type | Default Value | Read Only | Description | 

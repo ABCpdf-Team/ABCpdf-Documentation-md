@@ -1,3 +1,8 @@
+---
+title: "convertannotations"
+css: "abcpdf-docs.css"
+---
+
 # ConvertAnnotations Property
 
 | Type | Default Value | Read Only | Description | 

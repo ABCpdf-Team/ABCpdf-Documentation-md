@@ -1,3 +1,8 @@
+---
+title: "09-entrycolspan"
+css: "abcpdf-docs.css"
+---
+
 # EntryColSpan Property
 
 | Type | Default Value | Read Only | Description | 

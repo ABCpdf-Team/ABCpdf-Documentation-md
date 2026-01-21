@@ -1,3 +1,8 @@
+---
+title: "26-halftone"
+css: "abcpdf-docs.css"
+---
+
 # Halftone Property
 
 | Type | Default Value | Read Only | Description | 

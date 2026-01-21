@@ -1,3 +1,8 @@
+---
+title: "05-entrylastchar"
+css: "abcpdf-docs.css"
+---
+
 # EntryLastChar Property
 
 | Type | Default Value | Read Only | Description | 

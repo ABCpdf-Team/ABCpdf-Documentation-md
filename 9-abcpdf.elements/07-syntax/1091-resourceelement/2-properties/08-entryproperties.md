@@ -1,3 +1,8 @@
+---
+title: "08-entryproperties"
+css: "abcpdf-docs.css"
+---
+
 # EntryProperties Property
 
 | Type | Default Value | Read Only | Description | 

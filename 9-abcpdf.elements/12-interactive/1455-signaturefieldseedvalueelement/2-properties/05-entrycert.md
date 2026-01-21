@@ -1,3 +1,8 @@
+---
+title: "05-entrycert"
+css: "abcpdf-docs.css"
+---
+
 # EntryCert Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "03-entrylookup"
+css: "abcpdf-docs.css"
+---
+
 # EntryLookup Property
 
 | Type | Default Value | Read Only | Description | 

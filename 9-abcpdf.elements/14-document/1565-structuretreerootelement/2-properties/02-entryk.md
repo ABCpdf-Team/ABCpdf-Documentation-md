@@ -1,3 +1,8 @@
+---
+title: "02-entryk"
+css: "abcpdf-docs.css"
+---
+
 # EntryK Property
 
 | Type | Default Value | Read Only | Description | 

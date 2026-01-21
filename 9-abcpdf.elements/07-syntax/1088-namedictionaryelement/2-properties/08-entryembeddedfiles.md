@@ -1,3 +1,8 @@
+---
+title: "08-entryembeddedfiles"
+css: "abcpdf-docs.css"
+---
+
 # EntryEmbeddedFiles Property
 
 | Type | Default Value | Read Only | Description | 

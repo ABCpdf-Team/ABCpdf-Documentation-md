@@ -1,3 +1,8 @@
+---
+title: "01-mediadurationelement"
+css: "abcpdf-docs.css"
+---
+
 # MediaDurationElement Function
 
 Create a new [MediaDurationElement](../default.md).

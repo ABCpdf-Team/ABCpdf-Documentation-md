@@ -1,3 +1,8 @@
+---
+title: "05-entryirt"
+css: "abcpdf-docs.css"
+---
+
 # EntryIRT Property
 
 | Type | Default Value | Read Only | Description | 

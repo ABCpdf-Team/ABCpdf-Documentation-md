@@ -1,3 +1,8 @@
+---
+title: "4-clone"
+css: "abcpdf-docs.css"
+---
+
 # Clone Function
 
 Create a deep copy of the current IndirectObject.

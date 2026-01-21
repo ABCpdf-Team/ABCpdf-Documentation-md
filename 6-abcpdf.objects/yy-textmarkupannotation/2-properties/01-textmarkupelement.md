@@ -1,3 +1,8 @@
+---
+title: "01-textmarkupelement"
+css: "abcpdf-docs.css"
+---
+
 # TextMarkupElement Property
 
 | Type | Default Value | Read Only | Description | 

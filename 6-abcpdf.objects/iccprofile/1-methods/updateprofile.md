@@ -1,3 +1,8 @@
+---
+title: "updateprofile"
+css: "abcpdf-docs.css"
+---
+
 # UpdateProfile Function
 
 Updates this object to reflect the values contained within the embedded ICC color profile data

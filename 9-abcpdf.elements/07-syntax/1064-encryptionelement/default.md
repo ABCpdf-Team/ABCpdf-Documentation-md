@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # EncryptionElement Class
 
 This class represents the encryption dictionary. This is definitively detailed in:.

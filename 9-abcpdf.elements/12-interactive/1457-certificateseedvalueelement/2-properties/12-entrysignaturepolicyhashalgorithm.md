@@ -1,3 +1,8 @@
+---
+title: "12-entrysignaturepolicyhashalgorithm"
+css: "abcpdf-docs.css"
+---
+
 # EntrySignaturePolicyHashAlgorithm Property
 
 | Type | Default Value | Read Only | Description | 

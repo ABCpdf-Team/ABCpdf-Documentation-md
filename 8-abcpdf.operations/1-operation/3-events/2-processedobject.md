@@ -1,3 +1,8 @@
+---
+title: "2-processedobject"
+css: "abcpdf-docs.css"
+---
+
 # ProcessedObject Event
 
 Occurs just after an IndirectObject has been processed.

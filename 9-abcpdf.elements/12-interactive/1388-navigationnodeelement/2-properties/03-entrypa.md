@@ -1,3 +1,8 @@
+---
+title: "03-entrypa"
+css: "abcpdf-docs.css"
+---
+
 # EntryPA Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "getnamedseparations"
+css: "abcpdf-docs.css"
+---
+
 # GetNamedSeparations Function
 
 Gets all the named separations referenced by the page.

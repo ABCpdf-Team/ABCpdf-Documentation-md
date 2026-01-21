@@ -1,3 +1,8 @@
+---
+title: "04-entryfitwindow"
+css: "abcpdf-docs.css"
+---
+
 # EntryFitWindow Property
 
 | Type | Default Value | Read Only | Description | 

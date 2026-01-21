@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # BoolAtom Class
 
 An Atom containing a Boolean value.

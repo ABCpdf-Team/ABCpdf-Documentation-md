@@ -1,3 +1,8 @@
+---
+title: "framerate"
+css: "abcpdf-docs.css"
+---
+
 # FrameRate Property
 
 | Type | Default | Read Only | Description | 

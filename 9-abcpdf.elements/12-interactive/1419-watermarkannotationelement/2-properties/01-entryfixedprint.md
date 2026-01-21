@@ -1,3 +1,8 @@
+---
+title: "01-entryfixedprint"
+css: "abcpdf-docs.css"
+---
+
 # EntryFixedPrint Property
 
 | Type | Default Value | Read Only | Description | 

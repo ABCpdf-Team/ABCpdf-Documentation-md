@@ -1,3 +1,8 @@
+---
+title: "09-entrypagelayout"
+css: "abcpdf-docs.css"
+---
+
 # EntryPageLayout Property
 
 | Type | Default Value | Read Only | Description | 

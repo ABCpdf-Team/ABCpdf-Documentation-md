@@ -1,3 +1,8 @@
+---
+title: "setinfo"
+css: "abcpdf-docs.css"
+---
+
 # SetInfo Function
 
 Sets information about an object.

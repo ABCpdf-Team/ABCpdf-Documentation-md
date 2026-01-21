@@ -1,3 +1,8 @@
+---
+title: "09-entrytrapped"
+css: "abcpdf-docs.css"
+---
+
 # EntryTrapped Property
 
 | Type | Default Value | Read Only | Description | 

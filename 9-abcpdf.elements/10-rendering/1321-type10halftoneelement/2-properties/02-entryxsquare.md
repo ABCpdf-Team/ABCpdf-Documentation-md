@@ -1,3 +1,8 @@
+---
+title: "02-entryxsquare"
+css: "abcpdf-docs.css"
+---
+
 # EntryXsquare Property
 
 | Type | Default Value | Read Only | Description | 

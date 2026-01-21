@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # AlternateImageElement Class
 
 This class represents the alternate image dictionary. This is definitively detailed in:.

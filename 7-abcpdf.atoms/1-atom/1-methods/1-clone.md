@@ -1,3 +1,8 @@
+---
+title: "1-clone"
+css: "abcpdf-docs.css"
+---
+
 # Clone Function
 
 Creates a deep copy of the current Atom.

@@ -1,3 +1,8 @@
+---
+title: "04-entryfb"
+css: "abcpdf-docs.css"
+---
+
 # EntryFB Property
 
 | Type | Default Value | Read Only | Description | 

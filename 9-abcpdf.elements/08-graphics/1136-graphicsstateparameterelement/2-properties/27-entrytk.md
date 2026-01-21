@@ -1,3 +1,8 @@
+---
+title: "27-entrytk"
+css: "abcpdf-docs.css"
+---
+
 # EntryTK Property
 
 | Type | Default Value | Read Only | Description | 

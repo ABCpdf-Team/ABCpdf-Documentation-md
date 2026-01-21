@@ -1,3 +1,8 @@
+---
+title: "5-whatscool"
+css: "abcpdf-docs.css"
+---
+
 # What's Cool?
 
 ABCpdf gets up close and personal! Because it goes Direct to PDF it's incredibly fast. Because ABCpdf doesn't rely on any other software it can be completely multithreaded without any unpleasant bottlenecks.

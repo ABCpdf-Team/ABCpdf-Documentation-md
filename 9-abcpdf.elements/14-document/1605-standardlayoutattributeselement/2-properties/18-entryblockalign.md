@@ -1,3 +1,8 @@
+---
+title: "18-entryblockalign"
+css: "abcpdf-docs.css"
+---
+
 # EntryBlockAlign Property
 
 | Type | Default Value | Read Only | Description | 

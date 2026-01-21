@@ -1,3 +1,8 @@
+---
+title: "04-entrycaption"
+css: "abcpdf-docs.css"
+---
+
 # EntryCaption Property
 
 | Type | Default Value | Read Only | Description | 

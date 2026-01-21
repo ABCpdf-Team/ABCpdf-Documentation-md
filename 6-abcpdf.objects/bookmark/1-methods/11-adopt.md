@@ -1,3 +1,8 @@
+---
+title: "11-adopt"
+css: "abcpdf-docs.css"
+---
+
 # Adopt Method
 
 Adopt a specified Bookmark.

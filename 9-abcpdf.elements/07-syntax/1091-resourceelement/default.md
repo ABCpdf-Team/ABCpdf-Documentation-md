@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # ResourceElement Class
 
 This class represents the resource dictionary. This is definitively detailed in:.

@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # EmbeddedFileParameterElement Class
 
 This class represents the embedded file parameter dictionary. This is definitively detailed in:.

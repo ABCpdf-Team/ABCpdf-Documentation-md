@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # SeparationElement Class
 
 This class represents the separation dictionary. This is definitively detailed in:.

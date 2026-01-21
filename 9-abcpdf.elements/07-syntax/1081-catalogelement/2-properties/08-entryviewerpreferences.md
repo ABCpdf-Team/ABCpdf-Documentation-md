@@ -1,3 +1,8 @@
+---
+title: "08-entryviewerpreferences"
+css: "abcpdf-docs.css"
+---
+
 # EntryViewerPreferences Property
 
 | Type | Default Value | Read Only | Description | 

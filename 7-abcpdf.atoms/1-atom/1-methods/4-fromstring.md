@@ -1,3 +1,8 @@
+---
+title: "4-fromstring"
+css: "abcpdf-docs.css"
+---
+
 # FromString Function
 
 Create an appropriate type of Atom from a raw PDF string representation.

@@ -1,3 +1,8 @@
+---
+title: "01-optionalcontentusageprintelement"
+css: "abcpdf-docs.css"
+---
+
 # OptionalContentUsagePrintElement Function
 
 Create a new [OptionalContentUsagePrintElement](../default.md).

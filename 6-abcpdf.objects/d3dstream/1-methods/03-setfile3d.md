@@ -1,3 +1,8 @@
+---
+title: "03-setfile3d"
+css: "abcpdf-docs.css"
+---
+
 # SetFile3D Function
 
 Set the 3D content of the stream from data embedded in a file.

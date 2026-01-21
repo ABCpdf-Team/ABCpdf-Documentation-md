@@ -1,3 +1,8 @@
+---
+title: "01-entrymin"
+css: "abcpdf-docs.css"
+---
+
 # EntryMin Property
 
 | Type | Default Value | Read Only | Description | 

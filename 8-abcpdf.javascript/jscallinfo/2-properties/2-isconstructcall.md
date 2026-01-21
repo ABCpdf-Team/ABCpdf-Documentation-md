@@ -1,3 +1,8 @@
+---
+title: "2-isconstructcall"
+css: "abcpdf-docs.css"
+---
+
 # IsConstructCall Property
 
 | Type | Default Value | Read Only | Description | 

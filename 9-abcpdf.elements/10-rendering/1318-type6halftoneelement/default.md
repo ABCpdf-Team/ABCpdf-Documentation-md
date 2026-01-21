@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # Type6HalftoneElement Class
 
 This class represents the type 6 halftone dictionary. This is definitively detailed in:.

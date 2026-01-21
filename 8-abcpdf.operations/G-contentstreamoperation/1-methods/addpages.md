@@ -1,3 +1,8 @@
+---
+title: "addpages"
+css: "abcpdf-docs.css"
+---
+
 # AddPages Function
 
 Add and scan selected pages from the document.

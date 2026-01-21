@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # ShadingElement Class
 
 This class represents the shading dictionary. This is definitively detailed in:.

@@ -1,3 +1,8 @@
+---
+title: "02-entryxn"
+css: "abcpdf-docs.css"
+---
+
 # EntryXN Property
 
 | Type | Default Value | Read Only | Description | 

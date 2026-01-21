@@ -1,3 +1,8 @@
+---
+title: "10-entryecc"
+css: "abcpdf-docs.css"
+---
+
 # EntryECC Property
 
 | Type | Default Value | Read Only | Description | 

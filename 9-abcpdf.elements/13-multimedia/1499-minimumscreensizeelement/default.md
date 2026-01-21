@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # MinimumScreenSizeElement Class
 
 This class represents the minimum screen size dictionary. This is definitively detailed in:.

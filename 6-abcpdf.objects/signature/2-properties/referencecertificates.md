@@ -1,3 +1,8 @@
+---
+title: "referencecertificates"
+css: "abcpdf-docs.css"
+---
+
 # ReferenceCertificates Property
 
 | Type | Default Value | Read Only | Description | 

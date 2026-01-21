@@ -1,3 +1,8 @@
+---
+title: "05-object"
+css: "abcpdf-docs.css"
+---
+
 # Object Property
 
 | Type | Default Value | Read Only | Description | 

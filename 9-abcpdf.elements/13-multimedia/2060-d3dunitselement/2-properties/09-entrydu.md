@@ -1,3 +1,8 @@
+---
+title: "09-entrydu"
+css: "abcpdf-docs.css"
+---
+
 # EntryDU Property
 
 | Type | Default Value | Read Only | Description | 

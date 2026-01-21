@@ -1,3 +1,8 @@
+---
+title: "07-entrydsm"
+css: "abcpdf-docs.css"
+---
+
 # EntryDSm Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "issecure"
+css: "abcpdf-docs.css"
+---
+
 # IsSecure Property
 
 | Type | Default Value | Read Only | Description | 

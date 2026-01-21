@@ -1,3 +1,8 @@
+---
+title: "6-indexof"
+css: "abcpdf-docs.css"
+---
+
 # IndexOf Function
 
 Determines the index of a specific object.

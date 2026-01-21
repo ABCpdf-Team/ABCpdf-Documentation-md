@@ -1,3 +1,8 @@
+---
+title: "09-entrycolortype"
+css: "abcpdf-docs.css"
+---
+
 # EntryColorType Property
 
 | Type | Default Value | Read Only | Description | 

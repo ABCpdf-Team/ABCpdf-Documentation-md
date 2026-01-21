@@ -1,3 +1,8 @@
+---
+title: "09-reportnotindirectobject"
+css: "abcpdf-docs.css"
+---
+
 # ReportNotIndirectObject Function
 
 Called to report an object which should be indirect but is not.

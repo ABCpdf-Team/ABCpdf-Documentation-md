@@ -1,3 +1,8 @@
+---
+title: "09-entryclrf"
+css: "abcpdf-docs.css"
+---
+
 # EntryClrF Property
 
 | Type | Default Value | Read Only | Description | 

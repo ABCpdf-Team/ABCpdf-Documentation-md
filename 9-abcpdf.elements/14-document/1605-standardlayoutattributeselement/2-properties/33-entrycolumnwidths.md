@@ -1,3 +1,8 @@
+---
+title: "33-entrycolumnwidths"
+css: "abcpdf-docs.css"
+---
+
 # EntryColumnWidths Property
 
 | Type | Default Value | Read Only | Description | 

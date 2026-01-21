@@ -1,3 +1,8 @@
+---
+title: "setpath"
+css: "abcpdf-docs.css"
+---
+
 # SetPath Function
 
 Set the path to the file for the specified platform

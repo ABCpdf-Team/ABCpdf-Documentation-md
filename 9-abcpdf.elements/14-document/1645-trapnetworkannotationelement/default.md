@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # TrapNetworkAnnotationElement Class
 
 This class represents the trap network annotation. This is definitively detailed in:.

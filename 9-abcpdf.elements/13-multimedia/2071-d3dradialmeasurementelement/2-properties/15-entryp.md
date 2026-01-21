@@ -1,3 +1,8 @@
+---
+title: "15-entryp"
+css: "abcpdf-docs.css"
+---
+
 # EntryP Property
 
 | Type | Default Value | Read Only | Description | 

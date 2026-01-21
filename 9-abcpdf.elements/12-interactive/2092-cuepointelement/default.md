@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # CuePointElement Class
 
 This class represents the cuepoint dictionary. This is definitively detailed in:.

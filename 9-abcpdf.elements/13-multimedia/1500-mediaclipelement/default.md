@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # MediaClipElement Class
 
 This class represents the media clip dictionary. This is definitively detailed in:.

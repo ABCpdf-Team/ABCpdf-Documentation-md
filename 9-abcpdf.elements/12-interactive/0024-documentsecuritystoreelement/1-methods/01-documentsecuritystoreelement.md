@@ -1,3 +1,8 @@
+---
+title: "01-documentsecuritystoreelement"
+css: "abcpdf-docs.css"
+---
+
 # DocumentSecurityStoreElement Function
 
 Create a new [DocumentSecurityStoreElement](../default.md).

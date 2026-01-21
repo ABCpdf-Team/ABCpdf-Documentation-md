@@ -1,3 +1,8 @@
+---
+title: "05-entrysymbology"
+css: "abcpdf-docs.css"
+---
+
 # EntrySymbology Property
 
 | Type | Default Value | Read Only | Description | 

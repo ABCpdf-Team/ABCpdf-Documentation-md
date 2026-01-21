@@ -1,3 +1,8 @@
+---
+title: "autolevels"
+css: "abcpdf-docs.css"
+---
+
 # AutoLevels Effect
 
 AutoLevels automatically adjusts brightness and contrast to produce a balanced image with a good range of color intensities. In doing so it performs a function very much like the Levels effect, automatically deriving settings based on the image provided.

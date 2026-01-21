@@ -1,3 +1,8 @@
+---
+title: "29-alphaisshape"
+css: "abcpdf-docs.css"
+---
+
 # AlphaIsShape Property
 
 | Type | Default Value | Read Only | Description | 

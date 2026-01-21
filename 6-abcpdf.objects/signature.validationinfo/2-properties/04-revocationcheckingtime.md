@@ -1,3 +1,8 @@
+---
+title: "04-revocationcheckingtime"
+css: "abcpdf-docs.css"
+---
+
 # RevocationCheckingTime Property
 
 | Type | Default Value | Read Only | Description | 

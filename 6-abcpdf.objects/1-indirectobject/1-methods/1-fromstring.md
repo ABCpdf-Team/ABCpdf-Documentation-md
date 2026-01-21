@@ -1,3 +1,8 @@
+---
+title: "1-fromstring"
+css: "abcpdf-docs.css"
+---
+
 # FromString Function
 
 Construct an appropriate type of IndirectObject given a string value.

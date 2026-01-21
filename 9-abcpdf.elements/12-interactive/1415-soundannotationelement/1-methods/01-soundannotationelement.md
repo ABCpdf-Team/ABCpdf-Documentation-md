@@ -1,3 +1,8 @@
+---
+title: "01-soundannotationelement"
+css: "abcpdf-docs.css"
+---
+
 # SoundAnnotationElement Function
 
 Create a new [SoundAnnotationElement](../default.md).

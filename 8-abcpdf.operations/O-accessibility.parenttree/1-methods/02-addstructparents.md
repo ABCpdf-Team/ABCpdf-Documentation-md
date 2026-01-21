@@ -1,3 +1,8 @@
+---
+title: "02-addstructparents"
+css: "abcpdf-docs.css"
+---
+
 # AddStructParents Function
 
 Add a new StructParents to the tree.

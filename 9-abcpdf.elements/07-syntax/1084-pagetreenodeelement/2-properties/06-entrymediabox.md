@@ -1,3 +1,8 @@
+---
+title: "06-entrymediabox"
+css: "abcpdf-docs.css"
+---
+
 # EntryMediaBox Property
 
 | Type | Default Value | Read Only | Description | 

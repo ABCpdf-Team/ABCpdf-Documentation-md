@@ -1,3 +1,8 @@
+---
+title: "08-entrypmd"
+css: "abcpdf-docs.css"
+---
+
 # EntryPMD Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "01-calgraycolorspaceelement"
+css: "abcpdf-docs.css"
+---
+
 # CalGrayColorSpaceElement Function
 
 Create a new [CalGrayColorSpaceElement](../default.md).

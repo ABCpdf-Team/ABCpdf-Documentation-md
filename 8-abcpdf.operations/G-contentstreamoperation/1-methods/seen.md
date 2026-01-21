@@ -1,3 +1,8 @@
+---
+title: "seen"
+css: "abcpdf-docs.css"
+---
+
 # Seen Function
 
 Determines if the object provided has previously been processed by this operation.

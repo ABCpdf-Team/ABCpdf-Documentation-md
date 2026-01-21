@@ -1,3 +1,8 @@
+---
+title: "customsignerargumenttype"
+css: "abcpdf-docs.css"
+---
+
 # CustomSignerArgumentType Property
 
 | Type | Default Value | Read Only | Description | 

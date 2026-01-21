@@ -1,3 +1,8 @@
+---
+title: "01-polylineannotationelement"
+css: "abcpdf-docs.css"
+---
+
 # PolylineAnnotationElement Function
 
 Create a new [PolylineAnnotationElement](../default.md).

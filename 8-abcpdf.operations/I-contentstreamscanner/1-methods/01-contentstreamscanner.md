@@ -1,3 +1,8 @@
+---
+title: "01-contentstreamscanner"
+css: "abcpdf-docs.css"
+---
+
 # ContentStreamScanner Function
 
 Create a new [ContentStreamScanner](../default.md).

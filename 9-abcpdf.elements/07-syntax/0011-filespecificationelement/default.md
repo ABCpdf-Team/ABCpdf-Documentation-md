@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # FileSpecificationElement Class
 
 This class represents the file specification dictionary. This is definitively detailed in:.

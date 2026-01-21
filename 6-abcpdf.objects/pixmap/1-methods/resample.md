@@ -1,3 +1,8 @@
+---
+title: "resample"
+css: "abcpdf-docs.css"
+---
+
 # Resample Function
 
 Changes the number of bits per color component.

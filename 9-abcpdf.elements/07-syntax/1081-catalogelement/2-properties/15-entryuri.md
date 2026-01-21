@@ -1,3 +1,8 @@
+---
+title: "15-entryuri"
+css: "abcpdf-docs.css"
+---
+
 # EntryURI Property
 
 | Type | Default Value | Read Only | Description | 

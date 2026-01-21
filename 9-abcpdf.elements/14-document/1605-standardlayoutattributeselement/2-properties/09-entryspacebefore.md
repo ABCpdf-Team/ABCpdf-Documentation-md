@@ -1,3 +1,8 @@
+---
+title: "09-entryspacebefore"
+css: "abcpdf-docs.css"
+---
+
 # EntrySpaceBefore Property
 
 | Type | Default Value | Read Only | Description | 

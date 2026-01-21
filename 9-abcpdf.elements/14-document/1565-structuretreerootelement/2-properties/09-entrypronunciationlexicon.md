@@ -1,3 +1,8 @@
+---
+title: "09-entrypronunciationlexicon"
+css: "abcpdf-docs.css"
+---
+
 # EntryPronunciationLexicon Property
 
 | Type | Default Value | Read Only | Description | 

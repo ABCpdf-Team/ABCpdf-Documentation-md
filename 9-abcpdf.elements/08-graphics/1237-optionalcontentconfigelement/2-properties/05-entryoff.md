@@ -1,3 +1,8 @@
+---
+title: "05-entryoff"
+css: "abcpdf-docs.css"
+---
+
 # EntryOFF Property
 
 | Type | Default Value | Read Only | Description | 

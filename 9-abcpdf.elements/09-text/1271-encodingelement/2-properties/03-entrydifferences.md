@@ -1,3 +1,8 @@
+---
+title: "03-entrydifferences"
+css: "abcpdf-docs.css"
+---
+
 # EntryDifferences Property
 
 | Type | Default Value | Read Only | Description | 

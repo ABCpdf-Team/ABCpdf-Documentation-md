@@ -1,3 +1,8 @@
+---
+title: "8-remove"
+css: "abcpdf-docs.css"
+---
+
 # Remove Function
 
 Removes an object from the Soup.

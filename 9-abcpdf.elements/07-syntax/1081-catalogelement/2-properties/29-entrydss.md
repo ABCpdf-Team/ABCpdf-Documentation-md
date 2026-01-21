@@ -1,3 +1,8 @@
+---
+title: "29-entrydss"
+css: "abcpdf-docs.css"
+---
+
 # EntryDSS Property
 
 | Type | Default Value | Read Only | Description | 

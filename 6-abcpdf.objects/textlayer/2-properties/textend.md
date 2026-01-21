@@ -1,3 +1,8 @@
+---
+title: "textend"
+css: "abcpdf-docs.css"
+---
+
 # TextEnd Property
 
 | Type | Default | Read Only | Description | 

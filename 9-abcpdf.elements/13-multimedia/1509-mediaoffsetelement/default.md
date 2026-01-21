@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # MediaOffsetElement Class
 
 This class represents the media offset dictionary. This is definitively detailed in:.

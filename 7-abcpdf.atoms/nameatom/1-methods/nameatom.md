@@ -1,3 +1,8 @@
+---
+title: "nameatom"
+css: "abcpdf-docs.css"
+---
+
 # NameAtom Constructor
 
 Construct a NameAtom.

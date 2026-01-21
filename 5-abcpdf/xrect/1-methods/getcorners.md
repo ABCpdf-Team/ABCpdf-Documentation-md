@@ -1,3 +1,8 @@
+---
+title: "getcorners"
+css: "abcpdf-docs.css"
+---
+
 # GetCorners Function
 
 Get the four corners of the rectangle.

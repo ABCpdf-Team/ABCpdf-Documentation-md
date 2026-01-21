@@ -1,3 +1,8 @@
+---
+title: "contains"
+css: "abcpdf-docs.css"
+---
+
 # Contains Function
 
 Determine if this rectangle contains a specified point or rectangle.

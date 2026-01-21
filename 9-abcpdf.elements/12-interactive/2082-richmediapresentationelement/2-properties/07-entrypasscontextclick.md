@@ -1,3 +1,8 @@
+---
+title: "07-entrypasscontextclick"
+css: "abcpdf-docs.css"
+---
+
 # EntryPassContextClick Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "1-setproperty"
+css: "abcpdf-docs.css"
+---
+
 # SetProperty Method
 
 Sets this object's property.

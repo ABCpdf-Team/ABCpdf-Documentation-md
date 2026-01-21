@@ -1,3 +1,8 @@
+---
+title: "11-entryprintarea"
+css: "abcpdf-docs.css"
+---
+
 # EntryPrintArea Property
 
 | Type | Default Value | Read Only | Description | 

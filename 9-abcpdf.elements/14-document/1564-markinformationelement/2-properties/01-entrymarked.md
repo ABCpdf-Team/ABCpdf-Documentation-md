@@ -1,3 +1,8 @@
+---
+title: "01-entrymarked"
+css: "abcpdf-docs.css"
+---
+
 # EntryMarked Property
 
 | Type | Default Value | Read Only | Description | 

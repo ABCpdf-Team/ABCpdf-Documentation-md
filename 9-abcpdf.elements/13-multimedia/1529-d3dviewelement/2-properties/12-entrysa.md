@@ -1,3 +1,8 @@
+---
+title: "12-entrysa"
+css: "abcpdf-docs.css"
+---
+
 # EntrySA Property
 
 | Type | Default Value | Read Only | Description | 

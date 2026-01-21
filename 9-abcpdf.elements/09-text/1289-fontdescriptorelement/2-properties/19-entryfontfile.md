@@ -1,3 +1,8 @@
+---
+title: "19-entryfontfile"
+css: "abcpdf-docs.css"
+---
+
 # EntryFontFile Property
 
 | Type | Default Value | Read Only | Description | 

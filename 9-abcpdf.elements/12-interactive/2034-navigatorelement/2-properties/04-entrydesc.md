@@ -1,3 +1,8 @@
+---
+title: "04-entrydesc"
+css: "abcpdf-docs.css"
+---
+
 # EntryDesc Property
 
 | Type | Default Value | Read Only | Description | 

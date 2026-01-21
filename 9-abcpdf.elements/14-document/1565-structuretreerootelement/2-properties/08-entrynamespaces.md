@@ -1,3 +1,8 @@
+---
+title: "08-entrynamespaces"
+css: "abcpdf-docs.css"
+---
+
 # EntryNamespaces Property
 
 | Type | Default Value | Read Only | Description | 

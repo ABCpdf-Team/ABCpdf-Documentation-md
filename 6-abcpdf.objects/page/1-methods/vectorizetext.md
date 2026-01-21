@@ -1,3 +1,8 @@
+---
+title: "vectorizetext"
+css: "abcpdf-docs.css"
+---
+
 # VectorizeText Function
 
 Replaces the text on the page with glyph outlines.

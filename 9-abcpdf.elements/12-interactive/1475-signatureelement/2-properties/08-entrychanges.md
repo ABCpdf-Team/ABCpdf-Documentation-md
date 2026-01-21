@@ -1,3 +1,8 @@
+---
+title: "08-entrychanges"
+css: "abcpdf-docs.css"
+---
+
 # EntryChanges Property
 
 | Type | Default Value | Read Only | Description | 

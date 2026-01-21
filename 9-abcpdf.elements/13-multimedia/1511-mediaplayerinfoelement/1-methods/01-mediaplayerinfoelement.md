@@ -1,3 +1,8 @@
+---
+title: "01-mediaplayerinfoelement"
+css: "abcpdf-docs.css"
+---
+
 # MediaPlayerInfoElement Function
 
 Create a new [MediaPlayerInfoElement](../default.md).

@@ -1,3 +1,8 @@
+---
+title: "16-entryma"
+css: "abcpdf-docs.css"
+---
+
 # EntryMA Property
 
 | Type | Default Value | Read Only | Description | 

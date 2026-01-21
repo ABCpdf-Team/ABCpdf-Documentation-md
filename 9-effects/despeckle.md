@@ -1,3 +1,8 @@
+---
+title: "despeckle"
+css: "abcpdf-docs.css"
+---
+
 # Despeckle Effect
 
 The Despeckle filter removes noise from images without blurring edges. It attempts to detect complex areas and leave these intact while smoothing areas where noise will be noticeable.

@@ -1,3 +1,8 @@
+---
+title: "4-jstrue"
+css: "abcpdf-docs.css"
+---
+
 # JSTrue Property
 
 | Type | Default Value | Read Only | Description | 

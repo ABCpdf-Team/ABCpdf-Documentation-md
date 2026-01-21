@@ -1,3 +1,8 @@
+---
+title: "12-refresh"
+css: "abcpdf-docs.css"
+---
+
 # Refresh Method
 
 Refresh and reload the document Bookmarks.

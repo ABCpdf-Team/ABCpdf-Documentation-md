@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # MediaClipDataMhBeElement Class
 
 This class represents the media clip data mh/be dictionary. This is definitively detailed in:.

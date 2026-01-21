@@ -1,3 +1,8 @@
+---
+title: "06-entrycv"
+css: "abcpdf-docs.css"
+---
+
 # EntryCV Property
 
 | Type | Default Value | Read Only | Description | 

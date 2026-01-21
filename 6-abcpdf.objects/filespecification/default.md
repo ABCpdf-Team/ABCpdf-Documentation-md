@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # FileSpecification Class
 
 A file specification represents the name and location of a file and optionally may also include references to embedded data.

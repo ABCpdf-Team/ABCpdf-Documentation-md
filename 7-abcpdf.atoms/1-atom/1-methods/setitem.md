@@ -1,3 +1,8 @@
+---
+title: "setitem"
+css: "abcpdf-docs.css"
+---
+
 # SetItem Function
 
 Adds a specified item to the Atom if it is of a type which contains other Atoms.

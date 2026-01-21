@@ -1,3 +1,8 @@
+---
+title: "04-strokecolor"
+css: "abcpdf-docs.css"
+---
+
 # StrokeColor Property
 
 | Type | Default Value | Read Only | Description | 

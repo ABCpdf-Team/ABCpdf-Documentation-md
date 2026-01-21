@@ -1,3 +1,8 @@
+---
+title: "select"
+css: "abcpdf-docs.css"
+---
+
 # Select Function
 
 Select a range of text in the document.

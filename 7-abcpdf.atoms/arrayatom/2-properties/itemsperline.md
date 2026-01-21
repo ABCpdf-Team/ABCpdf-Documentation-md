@@ -1,3 +1,8 @@
+---
+title: "itemsperline"
+css: "abcpdf-docs.css"
+---
+
 # ItemsPerLine Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "insertrange"
+css: "abcpdf-docs.css"
+---
+
 # InsertRange Method
 
 Inserts the certificate objects to this collection for those whose values are not already present.

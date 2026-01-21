@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # FloatingWindowParametersElement Class
 
 This class represents the floating window parameters dictionary. This is definitively detailed in:.

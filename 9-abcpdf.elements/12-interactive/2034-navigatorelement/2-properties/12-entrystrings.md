@@ -1,3 +1,8 @@
+---
+title: "12-entrystrings"
+css: "abcpdf-docs.css"
+---
+
 # EntryStrings Property
 
 | Type | Default Value | Read Only | Description | 

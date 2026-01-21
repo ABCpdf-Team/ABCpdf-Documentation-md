@@ -1,3 +1,8 @@
+---
+title: "doccount"
+css: "abcpdf-docs.css"
+---
+
 # DocCount Property
 
 | Type | Default | Read Only | Description | 

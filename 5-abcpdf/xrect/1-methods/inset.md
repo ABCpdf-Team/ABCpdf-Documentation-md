@@ -1,3 +1,8 @@
+---
+title: "inset"
+css: "abcpdf-docs.css"
+---
+
 # Inset Function
 
 Insets the edges of the rectangle.

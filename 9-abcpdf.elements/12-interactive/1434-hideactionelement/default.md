@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # HideActionElement Class
 
 This class represents the hide action. This is definitively detailed in:.

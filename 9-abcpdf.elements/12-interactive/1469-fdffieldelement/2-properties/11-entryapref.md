@@ -1,3 +1,8 @@
+---
+title: "11-entryapref"
+css: "abcpdf-docs.css"
+---
+
 # EntryAPRef Property
 
 | Type | Default Value | Read Only | Description | 

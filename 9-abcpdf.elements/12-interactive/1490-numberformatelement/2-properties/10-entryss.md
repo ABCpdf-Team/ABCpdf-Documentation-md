@@ -1,3 +1,8 @@
+---
+title: "10-entryss"
+css: "abcpdf-docs.css"
+---
+
 # EntrySS Property
 
 | Type | Default Value | Read Only | Description | 

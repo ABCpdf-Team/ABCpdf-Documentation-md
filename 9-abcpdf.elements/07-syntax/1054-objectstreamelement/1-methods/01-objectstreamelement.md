@@ -1,3 +1,8 @@
+---
+title: "01-objectstreamelement"
+css: "abcpdf-docs.css"
+---
+
 # ObjectStreamElement Function
 
 Create a new [ObjectStreamElement](../default.md).

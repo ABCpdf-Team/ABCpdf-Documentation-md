@@ -1,3 +1,8 @@
+---
+title: "compressascii85"
+css: "abcpdf-docs.css"
+---
+
 # CompressAscii85 Function
 
 Compress the data in the stream using ASCII 85 encoding.

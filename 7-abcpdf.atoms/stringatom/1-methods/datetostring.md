@@ -1,3 +1,8 @@
+---
+title: "datetostring"
+css: "abcpdf-docs.css"
+---
+
 # DateToString Function
 
 Convert a DateTime into a standard PDF date string.

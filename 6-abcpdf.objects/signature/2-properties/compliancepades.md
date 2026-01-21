@@ -1,3 +1,8 @@
+---
+title: "compliancepades"
+css: "abcpdf-docs.css"
+---
+
 # CompliancePades Property
 
 | Type | Default Value | Read Only | Description | 

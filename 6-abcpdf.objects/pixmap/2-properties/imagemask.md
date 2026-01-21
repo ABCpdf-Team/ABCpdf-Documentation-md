@@ -1,3 +1,8 @@
+---
+title: "imagemask"
+css: "abcpdf-docs.css"
+---
+
 # ImageMask Property
 
 | Type | Default | Read Only | Description | 

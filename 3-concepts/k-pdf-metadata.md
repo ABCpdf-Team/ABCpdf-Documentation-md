@@ -1,3 +1,8 @@
+---
+title: "k-pdf-metadata"
+css: "abcpdf-docs.css"
+---
+
 # PDF Metadata Representation and Info Store
 
 ## Intro

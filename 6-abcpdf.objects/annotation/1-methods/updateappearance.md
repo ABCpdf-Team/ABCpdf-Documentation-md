@@ -1,3 +1,8 @@
+---
+title: "updateappearance"
+css: "abcpdf-docs.css"
+---
+
 # UpdateAppearance Function
 
 Update the Appearance Stream for this annotation.

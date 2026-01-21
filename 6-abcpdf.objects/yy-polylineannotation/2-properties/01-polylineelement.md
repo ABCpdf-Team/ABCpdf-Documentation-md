@@ -1,3 +1,8 @@
+---
+title: "01-polylineelement"
+css: "abcpdf-docs.css"
+---
+
 # PolylineElement Property
 
 | Type | Default Value | Read Only | Description | 

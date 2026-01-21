@@ -1,3 +1,8 @@
+---
+title: "6-equals"
+css: "abcpdf-docs.css"
+---
+
 # Equals Method
 
 Determines whether the specified object is strictly equal to this object.

@@ -1,3 +1,8 @@
+---
+title: "type0samplecount"
+css: "abcpdf-docs.css"
+---
+
 # Type0SampleCount Property
 
 | Type | Default | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # CatalogElement Class
 
 This class represents the catalog dictionary. This is definitively detailed in:.

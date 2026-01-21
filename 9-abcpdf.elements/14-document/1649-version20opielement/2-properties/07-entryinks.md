@@ -1,3 +1,8 @@
+---
+title: "07-entryinks"
+css: "abcpdf-docs.css"
+---
+
 # EntryInks Property
 
 | Type | Default Value | Read Only | Description | 

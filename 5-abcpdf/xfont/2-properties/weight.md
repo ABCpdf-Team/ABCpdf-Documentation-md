@@ -1,3 +1,8 @@
+---
+title: "weight"
+css: "abcpdf-docs.css"
+---
+
 # Weight Property
 
 | Type | Default | Read Only | Description | 

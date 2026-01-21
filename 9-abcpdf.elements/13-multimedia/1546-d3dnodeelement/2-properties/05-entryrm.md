@@ -1,3 +1,8 @@
+---
+title: "05-entryrm"
+css: "abcpdf-docs.css"
+---
+
 # EntryRM Property
 
 | Type | Default Value | Read Only | Description | 

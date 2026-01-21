@@ -1,3 +1,8 @@
+---
+title: "log"
+css: "abcpdf-docs.css"
+---
+
 # Log Property
 
 | Type | Default Value | Read Only | Description | 

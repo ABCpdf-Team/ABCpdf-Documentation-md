@@ -1,3 +1,8 @@
+---
+title: "03-toint32"
+css: "abcpdf-docs.css"
+---
+
 # ToInt32 Function
 
 Attempts to get an int from the specified entry in a DictAtom or ArrayAtom resolving any references as necessary.

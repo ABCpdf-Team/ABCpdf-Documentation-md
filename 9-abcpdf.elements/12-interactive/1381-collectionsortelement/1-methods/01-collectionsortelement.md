@@ -1,3 +1,8 @@
+---
+title: "01-collectionsortelement"
+css: "abcpdf-docs.css"
+---
+
 # CollectionSortElement Function
 
 Create a new [CollectionSortElement](../default.md).

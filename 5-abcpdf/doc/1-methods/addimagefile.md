@@ -1,3 +1,8 @@
+---
+title: "addimagefile"
+css: "abcpdf-docs.css"
+---
+
 # AddImageFile Function
 
 Extract an image from a file and add it to the current page.

@@ -1,3 +1,8 @@
+---
+title: "02-entrymsg"
+css: "abcpdf-docs.css"
+---
+
 # EntryMsg Property
 
 | Type | Default Value | Read Only | Description | 

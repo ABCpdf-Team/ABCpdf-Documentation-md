@@ -1,3 +1,8 @@
+---
+title: "htmlembedcallback"
+css: "abcpdf-docs.css"
+---
+
 # HtmlEmbedCallback Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "04-entryparams"
+css: "abcpdf-docs.css"
+---
+
 # EntryParams Property
 
 | Type | Default Value | Read Only | Description | 

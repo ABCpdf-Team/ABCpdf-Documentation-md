@@ -1,3 +1,8 @@
+---
+title: "issubset"
+css: "abcpdf-docs.css"
+---
+
 # IsSubset Property
 
 | Type | Default | Read Only | Description | 

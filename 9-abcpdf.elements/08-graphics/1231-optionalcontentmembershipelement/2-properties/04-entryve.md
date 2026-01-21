@@ -1,3 +1,8 @@
+---
+title: "04-entryve"
+css: "abcpdf-docs.css"
+---
+
 # EntryVE Property
 
 | Type | Default Value | Read Only | Description | 

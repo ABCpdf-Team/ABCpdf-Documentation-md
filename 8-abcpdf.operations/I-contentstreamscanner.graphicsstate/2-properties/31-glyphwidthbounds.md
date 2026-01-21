@@ -1,3 +1,8 @@
+---
+title: "31-glyphwidthbounds"
+css: "abcpdf-docs.css"
+---
+
 # GlyphWidthBounds Property
 
 | Type | Default Value | Read Only | Description | 

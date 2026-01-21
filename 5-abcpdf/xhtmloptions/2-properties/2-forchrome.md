@@ -1,3 +1,8 @@
+---
+title: "2-forchrome"
+css: "abcpdf-docs.css"
+---
+
 # ForChrome Property
 
 | Type | Default Value | Read Only | Description | 

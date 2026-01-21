@@ -1,3 +1,8 @@
+---
+title: "06-clear"
+css: "abcpdf-docs.css"
+---
+
 # Clear Function
 
 Removes all items from the array.

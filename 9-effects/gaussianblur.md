@@ -1,3 +1,8 @@
+---
+title: "gaussianblur"
+css: "abcpdf-docs.css"
+---
+
 # Gaussian Blur Effect
 
 A Gaussian Blur is a general purpose blur filter. This removes fine image detail and noise leaving only larger scale changes. Gaussian Blurs produce a very pure smoothing effect without side effects.

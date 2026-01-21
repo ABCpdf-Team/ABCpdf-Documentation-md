@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # RectilinearMeasureElement Class
 
 This class represents the rectilinear measure dictionary. This is definitively detailed in:.

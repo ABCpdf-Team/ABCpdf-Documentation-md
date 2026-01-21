@@ -1,3 +1,8 @@
+---
+title: "01-renditionmhbeelement"
+css: "abcpdf-docs.css"
+---
+
 # RenditionMhBeElement Function
 
 Create a new [RenditionMhBeElement](../default.md).

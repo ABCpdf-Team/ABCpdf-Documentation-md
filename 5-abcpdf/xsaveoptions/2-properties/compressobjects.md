@@ -1,3 +1,8 @@
+---
+title: "compressobjects"
+css: "abcpdf-docs.css"
+---
+
 # CompressObjects Property
 
 | Type | Default Value | Read Only | Description | 

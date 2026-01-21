@@ -1,3 +1,8 @@
+---
+title: "01-userpropertiesattributeselement"
+css: "abcpdf-docs.css"
+---
+
 # UserPropertiesAttributesElement Function
 
 Create a new [UserPropertiesAttributesElement](../default.md).

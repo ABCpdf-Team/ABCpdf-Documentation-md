@@ -1,3 +1,8 @@
+---
+title: "unload"
+css: "abcpdf-docs.css"
+---
+
 # Unload&nbsp;Function
 
 Unloads a font so that it is no longer available.

@@ -1,3 +1,8 @@
+---
+title: "01-entrypredictor"
+css: "abcpdf-docs.css"
+---
+
 # EntryPredictor Property
 
 | Type | Default Value | Read Only | Description | 

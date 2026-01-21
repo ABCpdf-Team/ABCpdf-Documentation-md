@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # D3DLinearMeasurementElement Class
 
 This class represents the 3D linear dimension measurement. This is definitively detailed in:.

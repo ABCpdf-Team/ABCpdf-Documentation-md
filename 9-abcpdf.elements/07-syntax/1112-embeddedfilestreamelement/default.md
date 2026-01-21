@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # EmbeddedFileStreamElement Class
 
 This class represents the embedded file stream dictionary. This is definitively detailed in:.

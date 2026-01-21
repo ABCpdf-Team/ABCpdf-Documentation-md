@@ -1,3 +1,8 @@
+---
+title: "13-entryimagetype"
+css: "abcpdf-docs.css"
+---
+
 # EntryImageType Property
 
 | Type | Default Value | Read Only | Description | 

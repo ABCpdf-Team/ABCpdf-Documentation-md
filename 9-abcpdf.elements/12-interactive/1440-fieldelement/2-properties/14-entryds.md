@@ -1,3 +1,8 @@
+---
+title: "14-entryds"
+css: "abcpdf-docs.css"
+---
+
 # EntryDS Property
 
 | Type | Default Value | Read Only | Description | 

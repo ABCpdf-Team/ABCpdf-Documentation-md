@@ -1,3 +1,8 @@
+---
+title: "04-entryzoom"
+css: "abcpdf-docs.css"
+---
+
 # EntryZoom Property
 
 | Type | Default Value | Read Only | Description | 

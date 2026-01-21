@@ -1,3 +1,8 @@
+---
+title: "10-entryembeddedfdfs"
+css: "abcpdf-docs.css"
+---
+
 # EntryEmbeddedFDFs Property
 
 | Type | Default Value | Read Only | Description | 

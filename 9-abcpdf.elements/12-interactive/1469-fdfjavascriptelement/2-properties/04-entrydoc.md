@@ -1,3 +1,8 @@
+---
+title: "04-entrydoc"
+css: "abcpdf-docs.css"
+---
+
 # EntryDoc Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # Metadata Class
 
 An XMP Metadata stream.

@@ -1,3 +1,8 @@
+---
+title: "19-entrybm"
+css: "abcpdf-docs.css"
+---
+
 # EntryBM Property
 
 | Type | Default Value | Read Only | Description | 

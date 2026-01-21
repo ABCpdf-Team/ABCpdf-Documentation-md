@@ -1,3 +1,8 @@
+---
+title: "addxobject"
+css: "abcpdf-docs.css"
+---
+
 # AddXObject Function
 
 Add a Form or Image XObject to the current page.

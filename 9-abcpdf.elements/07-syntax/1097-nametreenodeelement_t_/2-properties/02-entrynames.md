@@ -1,3 +1,8 @@
+---
+title: "02-entrynames"
+css: "abcpdf-docs.css"
+---
+
 # EntryNames Property
 
 | Type | Default Value | Read Only | Description | 

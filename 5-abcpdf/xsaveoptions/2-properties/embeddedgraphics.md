@@ -1,3 +1,8 @@
+---
+title: "embeddedgraphics"
+css: "abcpdf-docs.css"
+---
+
 # EmbeddedGraphics Property
 
 | Type | Default Value | Read Only | Description | 

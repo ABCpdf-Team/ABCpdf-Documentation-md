@@ -1,3 +1,8 @@
+---
+title: "08-entryalternateimages"
+css: "abcpdf-docs.css"
+---
+
 # EntryAlternateImages Property
 
 | Type | Default Value | Read Only | Description | 

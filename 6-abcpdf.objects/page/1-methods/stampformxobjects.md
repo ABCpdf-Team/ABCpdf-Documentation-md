@@ -1,3 +1,8 @@
+---
+title: "stampformxobjects"
+css: "abcpdf-docs.css"
+---
+
 # StampFormXObjects Function
 
 Removes all Form XObjects from the page by embedding them into the page content

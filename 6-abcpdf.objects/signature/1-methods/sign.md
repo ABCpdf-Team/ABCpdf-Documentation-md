@@ -1,3 +1,8 @@
+---
+title: "sign"
+css: "abcpdf-docs.css"
+---
+
 # Sign Method
 
 Sign the digital signature using a private key and password.

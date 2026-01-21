@@ -1,3 +1,8 @@
+---
+title: "bitsperchannel"
+css: "abcpdf-docs.css"
+---
+
 # BitsPerChannel Property
 
 | Type | Default Value | Read Only | Description | 

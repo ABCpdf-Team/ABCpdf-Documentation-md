@@ -1,3 +1,8 @@
+---
+title: "linearize"
+css: "abcpdf-docs.css"
+---
+
 # Linearize Property
 
 | Type | Default Value | Read Only | Description | 

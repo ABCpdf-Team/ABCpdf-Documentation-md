@@ -1,3 +1,8 @@
+---
+title: "04-item(intindex)"
+css: "abcpdf-docs.css"
+---
+
 # Item(int index) Property
 
 | Type | Default Value | Read Only | Description | 

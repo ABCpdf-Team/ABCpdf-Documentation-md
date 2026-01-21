@@ -1,3 +1,8 @@
+---
+title: "01-floatdigits"
+css: "abcpdf-docs.css"
+---
+
 # FloatDigits Property
 
 | Type | Default Value | Read Only | Description | 

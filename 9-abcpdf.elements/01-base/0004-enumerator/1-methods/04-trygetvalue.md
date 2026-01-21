@@ -1,3 +1,8 @@
+---
+title: "04-trygetvalue"
+css: "abcpdf-docs.css"
+---
+
 # TryGetValue Function
 
 Gets the value associated with the specified key.

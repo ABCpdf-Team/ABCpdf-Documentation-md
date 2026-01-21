@@ -1,3 +1,8 @@
+---
+title: "03-equals"
+css: "abcpdf-docs.css"
+---
+
 # Equals Function
 
 Test whether the two [Elements](../default.md) are the same.

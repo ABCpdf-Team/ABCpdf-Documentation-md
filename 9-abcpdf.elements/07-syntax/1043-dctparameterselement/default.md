@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # DctParametersElement Class
 
 This class represents the dct parameters. This is definitively detailed in:.

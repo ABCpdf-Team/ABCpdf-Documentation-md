@@ -1,3 +1,8 @@
+---
+title: "21-wpftables"
+css: "abcpdf-docs.css"
+---
+
 # WPF Tables Example
 
 This example shows how to import Windows Presentation Foundation (WPF) Extensible Application Markup Language (XAML) tables into a PDF document. Each table has been specified in a XAML file.

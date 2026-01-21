@@ -1,3 +1,8 @@
+---
+title: "08-othertransfercount"
+css: "abcpdf-docs.css"
+---
+
 # OtherTransferCount Property
 
 | Type | Default Value | Read Only | Description | 

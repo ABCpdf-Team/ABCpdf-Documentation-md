@@ -1,3 +1,8 @@
+---
+title: "01-richmediawindowelement"
+css: "abcpdf-docs.css"
+---
+
 # RichMediaWindowElement Function
 
 Create a new [RichMediaWindowElement](../default.md).

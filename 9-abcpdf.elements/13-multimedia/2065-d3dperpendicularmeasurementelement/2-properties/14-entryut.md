@@ -1,3 +1,8 @@
+---
+title: "14-entryut"
+css: "abcpdf-docs.css"
+---
+
 # EntryUT Property
 
 | Type | Default Value | Read Only | Description | 

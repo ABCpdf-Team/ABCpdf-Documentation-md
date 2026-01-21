@@ -1,3 +1,8 @@
+---
+title: "11-entrytp"
+css: "abcpdf-docs.css"
+---
+
 # EntryTP Property
 
 | Type | Default Value | Read Only | Description | 

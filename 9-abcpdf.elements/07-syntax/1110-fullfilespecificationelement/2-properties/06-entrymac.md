@@ -1,3 +1,8 @@
+---
+title: "06-entrymac"
+css: "abcpdf-docs.css"
+---
+
 # EntryMac Property
 
 | Type | Default Value | Read Only | Description | 

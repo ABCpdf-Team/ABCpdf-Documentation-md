@@ -1,3 +1,8 @@
+---
+title: "bitspercomponent"
+css: "abcpdf-docs.css"
+---
+
 # BitsPerComponent Property
 
 | Type | Default | Read Only | Description | 

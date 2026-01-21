@@ -1,3 +1,8 @@
+---
+title: "addpage"
+css: "abcpdf-docs.css"
+---
+
 # AddPage Function
 
 Adds a page to the current document.

@@ -1,3 +1,8 @@
+---
+title: "06-entrybe"
+css: "abcpdf-docs.css"
+---
+
 # EntryBE Property
 
 | Type | Default Value | Read Only | Description | 

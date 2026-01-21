@@ -1,3 +1,8 @@
+---
+title: "04-entrycolumns"
+css: "abcpdf-docs.css"
+---
+
 # EntryColumns Property
 
 | Type | Default Value | Read Only | Description | 

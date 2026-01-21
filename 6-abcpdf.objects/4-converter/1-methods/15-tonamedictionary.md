@@ -1,3 +1,8 @@
+---
+title: "15-tonamedictionary"
+css: "abcpdf-docs.css"
+---
+
 # ToNameDictionary Function
 
 Attempts to convert a DictAtom into a Dictionary of names, resolving any references as necessary.

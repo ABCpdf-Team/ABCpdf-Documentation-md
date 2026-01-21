@@ -1,3 +1,8 @@
+---
+title: "04-entrywidth2"
+css: "abcpdf-docs.css"
+---
+
 # EntryWidth2 Property
 
 | Type | Default Value | Read Only | Description | 

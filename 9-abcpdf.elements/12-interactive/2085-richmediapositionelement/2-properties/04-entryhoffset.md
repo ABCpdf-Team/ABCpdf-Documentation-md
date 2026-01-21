@@ -1,3 +1,8 @@
+---
+title: "04-entryhoffset"
+css: "abcpdf-docs.css"
+---
+
 # EntryHOffset Property
 
 | Type | Default Value | Read Only | Description | 

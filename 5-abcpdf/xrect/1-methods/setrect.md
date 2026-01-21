@@ -1,3 +1,8 @@
+---
+title: "setrect"
+css: "abcpdf-docs.css"
+---
+
 # SetRect Function
 
 Sets the location and size of the rectangle.

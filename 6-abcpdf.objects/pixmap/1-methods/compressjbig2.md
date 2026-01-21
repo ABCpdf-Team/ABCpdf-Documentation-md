@@ -1,3 +1,8 @@
+---
+title: "compressjbig2"
+css: "abcpdf-docs.css"
+---
+
 # CompressJbig2 Function
 
 Compresses the image using JBIG2 compression.

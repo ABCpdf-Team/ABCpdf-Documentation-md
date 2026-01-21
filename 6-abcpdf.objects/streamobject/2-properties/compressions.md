@@ -1,3 +1,8 @@
+---
+title: "compressions"
+css: "abcpdf-docs.css"
+---
+
 # Compressions Property
 
 | Type | Default | Read Only | Description | 

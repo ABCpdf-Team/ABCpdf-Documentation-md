@@ -1,3 +1,8 @@
+---
+title: "06-entrydi"
+css: "abcpdf-docs.css"
+---
+
 # EntryDi Property
 
 | Type | Default Value | Read Only | Description | 

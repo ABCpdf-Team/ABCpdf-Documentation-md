@@ -1,3 +1,8 @@
+---
+title: "openportfolios"
+css: "abcpdf-docs.css"
+---
+
 # OpenPortfolios Property
 
 | Type | Default Value | Read Only | Description | 

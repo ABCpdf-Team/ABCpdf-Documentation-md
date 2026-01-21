@@ -1,3 +1,8 @@
+---
+title: "14-entryactualtext"
+css: "abcpdf-docs.css"
+---
+
 # EntryActualText Property
 
 | Type | Default Value | Read Only | Description | 

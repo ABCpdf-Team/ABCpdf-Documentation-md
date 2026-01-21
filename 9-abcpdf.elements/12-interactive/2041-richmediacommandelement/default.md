@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # RichMediaCommandElement Class
 
 This class represents the richmediacommand dictionary. This is definitively detailed in:.

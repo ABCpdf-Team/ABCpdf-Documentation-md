@@ -1,3 +1,8 @@
+---
+title: "register"
+css: "abcpdf-docs.css"
+---
+
 # Register Method
 
 Register and install a trial license.

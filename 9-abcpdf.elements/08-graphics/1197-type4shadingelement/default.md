@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # Type4ShadingElement Class
 
 This class represents the type 4 shading dictionary. This is definitively detailed in:.

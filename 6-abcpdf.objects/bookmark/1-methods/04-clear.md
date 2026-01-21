@@ -1,3 +1,8 @@
+---
+title: "04-clear"
+css: "abcpdf-docs.css"
+---
+
 # Clear Function
 
 Removes all Bookmarks from the list.

@@ -1,3 +1,8 @@
+---
+title: "01-projectionannotationelement"
+css: "abcpdf-docs.css"
+---
+
 # ProjectionAnnotationElement Function
 
 Create a new [ProjectionAnnotationElement](../default.md).

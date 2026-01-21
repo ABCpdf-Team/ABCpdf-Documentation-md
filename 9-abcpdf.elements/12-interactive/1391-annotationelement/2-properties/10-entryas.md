@@ -1,3 +1,8 @@
+---
+title: "10-entryas"
+css: "abcpdf-docs.css"
+---
+
 # EntryAS Property
 
 | Type | Default Value | Read Only | Description | 

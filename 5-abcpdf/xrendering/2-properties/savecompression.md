@@ -1,3 +1,8 @@
+---
+title: "savecompression"
+css: "abcpdf-docs.css"
+---
+
 # SaveCompression Property
 
 | Type | Default Value | Read Only | Description | 

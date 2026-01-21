@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # GeospatialMeasureElement Class
 
 This class represents the geospatial measure dictionary. This is definitively detailed in:.

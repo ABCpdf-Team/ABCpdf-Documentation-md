@@ -1,3 +1,8 @@
+---
+title: "03-entryalternate"
+css: "abcpdf-docs.css"
+---
+
 # EntryAlternate Property
 
 | Type | Default Value | Read Only | Description | 

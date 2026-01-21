@@ -1,3 +1,8 @@
+---
+title: "AnnotationElement"
+css: "abcpdf-docs.css"
+---
+
 # AnnotationElement Property
 
 | Type | Default Value | Read Only | Description | 

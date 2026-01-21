@@ -1,3 +1,8 @@
+---
+title: "antialiastext"
+css: "abcpdf-docs.css"
+---
+
 # AntiAliasText Property
 
 | Type | Default Value | Read Only | Description | 

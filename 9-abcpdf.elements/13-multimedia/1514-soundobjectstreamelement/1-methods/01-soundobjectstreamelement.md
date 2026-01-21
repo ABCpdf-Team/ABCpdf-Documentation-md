@@ -1,3 +1,8 @@
+---
+title: "01-soundobjectstreamelement"
+css: "abcpdf-docs.css"
+---
+
 # SoundObjectStreamElement Function
 
 Create a new [SoundObjectStreamElement](../default.md).

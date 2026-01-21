@@ -1,3 +1,8 @@
+---
+title: "01-entrypcm"
+css: "abcpdf-docs.css"
+---
+
 # EntryPCM Property
 
 | Type | Default Value | Read Only | Description | 

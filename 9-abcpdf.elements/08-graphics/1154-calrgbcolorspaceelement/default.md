@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # CalRGBColorSpaceElement Class
 
 This class represents the calibrated RGB color space.

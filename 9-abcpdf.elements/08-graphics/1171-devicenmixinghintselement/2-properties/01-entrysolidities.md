@@ -1,3 +1,8 @@
+---
+title: "01-entrysolidities"
+css: "abcpdf-docs.css"
+---
+
 # EntrySolidities Property
 
 | Type | Default Value | Read Only | Description | 

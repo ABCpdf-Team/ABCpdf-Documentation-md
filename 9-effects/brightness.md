@@ -1,3 +1,8 @@
+---
+title: "brightness"
+css: "abcpdf-docs.css"
+---
+
 # Brightness Effect
 
 The Brightness effect can be used to lighten the image or to darken it.

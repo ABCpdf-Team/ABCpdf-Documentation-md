@@ -1,3 +1,8 @@
+---
+title: "addrect"
+css: "abcpdf-docs.css"
+---
+
 # AddRect Function
 
 Add a rectangle to the current page.

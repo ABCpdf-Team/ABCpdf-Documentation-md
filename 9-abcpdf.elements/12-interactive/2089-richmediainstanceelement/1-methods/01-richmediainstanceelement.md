@@ -1,3 +1,8 @@
+---
+title: "01-richmediainstanceelement"
+css: "abcpdf-docs.css"
+---
+
 # RichMediaInstanceElement Function
 
 Create a new [RichMediaInstanceElement](../default.md).

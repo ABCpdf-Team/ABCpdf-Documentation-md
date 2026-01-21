@@ -1,3 +1,8 @@
+---
+title: "9-getenumerator"
+css: "abcpdf-docs.css"
+---
+
 # GetEnumerator Function
 
 Get an enumerator for the dictionary.

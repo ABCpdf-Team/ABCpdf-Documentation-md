@@ -1,3 +1,8 @@
+---
+title: "05-entrytb"
+css: "abcpdf-docs.css"
+---
+
 # EntryTB Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "wordspacing"
+css: "abcpdf-docs.css"
+---
+
 # WordSpacing Property
 
 | Type | Default | Read Only | Description | 

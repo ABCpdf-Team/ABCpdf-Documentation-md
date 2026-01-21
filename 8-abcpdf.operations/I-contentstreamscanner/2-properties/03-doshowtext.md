@@ -1,3 +1,8 @@
+---
+title: "03-doshowtext"
+css: "abcpdf-docs.css"
+---
+
 # DoShowText Property
 
 | Type | Default Value | Read Only | Description | 

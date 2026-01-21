@@ -1,3 +1,8 @@
+---
+title: "02-entryhalign"
+css: "abcpdf-docs.css"
+---
+
 # EntryHAlign Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "05-deletion"
+css: "abcpdf-docs.css"
+---
+
 # Deletion Example
 
 This example shows how to delete pages from a PDF document.

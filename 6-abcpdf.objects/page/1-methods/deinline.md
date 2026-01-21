@@ -1,3 +1,8 @@
+---
+title: "deinline"
+css: "abcpdf-docs.css"
+---
+
 # DeInline Function
 
 Makes any inline images into external images.

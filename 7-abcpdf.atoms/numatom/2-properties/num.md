@@ -1,3 +1,8 @@
+---
+title: "num"
+css: "abcpdf-docs.css"
+---
+
 # Num Property
 
 | Type | Default | Read Only | Description | 

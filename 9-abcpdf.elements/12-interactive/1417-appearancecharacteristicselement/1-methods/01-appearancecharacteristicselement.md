@@ -1,3 +1,8 @@
+---
+title: "01-appearancecharacteristicselement"
+css: "abcpdf-docs.css"
+---
+
 # AppearanceCharacteristicsElement Function
 
 Create a new [AppearanceCharacteristicsElement](../default.md).

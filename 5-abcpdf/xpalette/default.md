@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # XPalette Class
 
 A palette of different colors that may be used.

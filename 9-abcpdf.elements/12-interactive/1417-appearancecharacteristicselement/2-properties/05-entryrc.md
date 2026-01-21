@@ -1,3 +1,8 @@
+---
+title: "05-entryrc"
+css: "abcpdf-docs.css"
+---
+
 # EntryRC Property
 
 | Type | Default Value | Read Only | Description | 

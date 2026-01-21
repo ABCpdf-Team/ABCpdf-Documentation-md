@@ -1,3 +1,8 @@
+---
+title: "09-numatom"
+css: "abcpdf-docs.css"
+---
+
 # NumAtom Property
 
 | Type | Default Value | Read Only | Description | 

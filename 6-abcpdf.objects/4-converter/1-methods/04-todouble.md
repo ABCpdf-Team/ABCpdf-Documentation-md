@@ -1,3 +1,8 @@
+---
+title: "04-todouble"
+css: "abcpdf-docs.css"
+---
+
 # ToDouble Function
 
 Attempts to get a double from the specified entry in a DictAtom or ArrayAtom resolving any references as necessary.

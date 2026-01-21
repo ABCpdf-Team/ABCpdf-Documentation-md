@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # CollectionSchemaElement Class
 
 This class represents the collection schema dictionary. This is definitively detailed in:.

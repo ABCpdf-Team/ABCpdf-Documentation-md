@@ -1,3 +1,8 @@
+---
+title: "01-xpalette"
+css: "abcpdf-docs.css"
+---
+
 # XPalette Function
 
 [XPalette](../default.md) constructor

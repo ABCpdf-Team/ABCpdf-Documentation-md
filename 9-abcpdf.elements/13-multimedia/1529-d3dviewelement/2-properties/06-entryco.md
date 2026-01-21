@@ -1,3 +1,8 @@
+---
+title: "06-entryco"
+css: "abcpdf-docs.css"
+---
+
 # EntryCO Property
 
 | Type | Default Value | Read Only | Description | 

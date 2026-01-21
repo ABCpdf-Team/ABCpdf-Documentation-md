@@ -1,3 +1,8 @@
+---
+title: "gettagids"
+css: "abcpdf-docs.css"
+---
+
 # GetTagIDs Function
 
 Gets an array of the HTML IDs of tagged visible items.

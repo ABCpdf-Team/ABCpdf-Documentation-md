@@ -1,3 +1,8 @@
+---
+title: "06-reportunknownentryname"
+css: "abcpdf-docs.css"
+---
+
 # ReportUnknownEntryName Function
 
 Called to report an entry with an unrecognized name.

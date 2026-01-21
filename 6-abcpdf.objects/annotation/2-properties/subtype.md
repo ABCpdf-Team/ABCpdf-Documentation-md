@@ -1,3 +1,8 @@
+---
+title: "subtype"
+css: "abcpdf-docs.css"
+---
+
 # SubType Property
 
 | Type | Default | Read Only | Description | 

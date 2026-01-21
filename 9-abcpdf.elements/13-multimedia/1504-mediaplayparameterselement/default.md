@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # MediaPlayParametersElement Class
 
 This class represents the media play parameters dictionary. This is definitively detailed in:.

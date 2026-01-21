@@ -1,3 +1,8 @@
+---
+title: "getverticalmetric"
+css: "abcpdf-docs.css"
+---
+
 # GetVerticalMetric Function
 
 Get the vertical metric for a character.

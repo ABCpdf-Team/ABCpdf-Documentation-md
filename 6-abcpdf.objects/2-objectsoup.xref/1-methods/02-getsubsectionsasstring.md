@@ -1,3 +1,8 @@
+---
+title: "02-getsubsectionsasstring"
+css: "abcpdf-docs.css"
+---
+
 # GetSubsectionsAsString Function
 
 Returns the cross-reference subsections as a string.

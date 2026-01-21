@@ -1,3 +1,8 @@
+---
+title: "03-entrycardbackground"
+css: "abcpdf-docs.css"
+---
+
 # EntryCardBackground Property
 
 | Type | Default Value | Read Only | Description | 

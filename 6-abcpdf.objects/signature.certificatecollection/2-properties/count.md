@@ -1,3 +1,8 @@
+---
+title: "count"
+css: "abcpdf-docs.css"
+---
+
 # Count Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "26-entryrequirements"
+css: "abcpdf-docs.css"
+---
+
 # EntryRequirements Property
 
 | Type | Default Value | Read Only | Description | 

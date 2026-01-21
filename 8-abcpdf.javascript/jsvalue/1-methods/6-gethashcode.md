@@ -1,3 +1,8 @@
+---
+title: "6-gethashcode"
+css: "abcpdf-docs.css"
+---
+
 # GetHashCode Method
 
 Gets a hash code of this JavaScript value.

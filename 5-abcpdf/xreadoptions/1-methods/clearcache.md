@@ -1,3 +1,8 @@
+---
+title: "clearcache"
+css: "abcpdf-docs.css"
+---
+
 # ClearCache Function
 
 Clear cached data and terminate worker threads and worker processes for a read module.

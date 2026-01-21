@@ -1,3 +1,8 @@
+---
+title: "10-reportincorrectitemtype"
+css: "abcpdf-docs.css"
+---
+
 # ReportIncorrectItemType Function
 
 Called to report an object which is of the wrong type.

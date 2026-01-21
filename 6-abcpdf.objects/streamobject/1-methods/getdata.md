@@ -1,3 +1,8 @@
+---
+title: "getdata"
+css: "abcpdf-docs.css"
+---
+
 # GetData Function
 
 Get the raw binary content of the stream.

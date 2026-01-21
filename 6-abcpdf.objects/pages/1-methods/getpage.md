@@ -1,3 +1,8 @@
+---
+title: "getpage"
+css: "abcpdf-docs.css"
+---
+
 # GetPage Function
 
 Performs a fast lookup to retrieve a particular Page from this node tree

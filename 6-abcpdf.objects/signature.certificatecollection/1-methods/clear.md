@@ -1,3 +1,8 @@
+---
+title: "clear"
+css: "abcpdf-docs.css"
+---
+
 # Clear Method
 
 Removes all contained certificate objects.

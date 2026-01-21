@@ -1,3 +1,8 @@
+---
+title: "03-entrytrl"
+css: "abcpdf-docs.css"
+---
+
 # EntryTRL Property
 
 | Type | Default Value | Read Only | Description | 

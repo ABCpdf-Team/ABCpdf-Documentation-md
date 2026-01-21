@@ -1,3 +1,8 @@
+---
+title: "setalpha"
+css: "abcpdf-docs.css"
+---
+
 # SetAlpha Function
 
 Sets a constant alpha value (0-255) for this image.

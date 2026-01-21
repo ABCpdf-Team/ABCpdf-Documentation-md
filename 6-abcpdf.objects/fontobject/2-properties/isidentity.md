@@ -1,3 +1,8 @@
+---
+title: "isidentity"
+css: "abcpdf-docs.css"
+---
+
 # IsIdentity Property
 
 | Type | Default Value | Read Only | Description | 

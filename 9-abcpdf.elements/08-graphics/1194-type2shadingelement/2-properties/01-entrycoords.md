@@ -1,3 +1,8 @@
+---
+title: "01-entrycoords"
+css: "abcpdf-docs.css"
+---
+
 # EntryCoords Property
 
 | Type | Default Value | Read Only | Description | 

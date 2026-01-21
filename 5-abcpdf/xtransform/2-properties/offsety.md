@@ -1,3 +1,8 @@
+---
+title: "offsety"
+css: "abcpdf-docs.css"
+---
+
 # OffsetY Property
 
 | Type | Default | Read Only | Description | 

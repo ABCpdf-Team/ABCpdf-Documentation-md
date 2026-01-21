@@ -1,3 +1,8 @@
+---
+title: "02-entryadbe"
+css: "abcpdf-docs.css"
+---
+
 # EntryADBE Property
 
 | Type | Default Value | Read Only | Description | 

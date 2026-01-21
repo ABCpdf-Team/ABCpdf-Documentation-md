@@ -1,3 +1,8 @@
+---
+title: "32-entrydpart"
+css: "abcpdf-docs.css"
+---
+
 # EntryDPart Property
 
 | Type | Default Value | Read Only | Description | 

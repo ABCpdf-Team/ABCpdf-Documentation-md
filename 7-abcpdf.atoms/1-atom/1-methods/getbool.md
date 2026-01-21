@@ -1,3 +1,8 @@
+---
+title: "getbool"
+css: "abcpdf-docs.css"
+---
+
 # GetBool Function
 
 Gets the Boolean value from the Atom if it is a BoolAtom.

@@ -1,3 +1,8 @@
+---
+title: "09-entryxsymheight"
+css: "abcpdf-docs.css"
+---
+
 # EntryXSymHeight Property
 
 | Type | Default Value | Read Only | Description | 

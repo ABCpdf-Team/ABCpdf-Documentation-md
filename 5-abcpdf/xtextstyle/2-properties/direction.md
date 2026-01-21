@@ -1,3 +1,8 @@
+---
+title: "direction"
+css: "abcpdf-docs.css"
+---
+
 # Direction Property
 
 | Type | Default Value | Read Only | Description | 

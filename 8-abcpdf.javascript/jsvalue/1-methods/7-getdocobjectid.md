@@ -1,3 +1,8 @@
+---
+title: "7-getdocobjectid"
+css: "abcpdf-docs.css"
+---
+
 # GetDocObjectID Method
 
 Gets the object ID of the IndirectObject in the PDF document.

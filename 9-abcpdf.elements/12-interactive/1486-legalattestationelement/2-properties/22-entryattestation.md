@@ -1,3 +1,8 @@
+---
+title: "22-entryattestation"
+css: "abcpdf-docs.css"
+---
+
 # EntryAttestation Property
 
 | Type | Default Value | Read Only | Description | 

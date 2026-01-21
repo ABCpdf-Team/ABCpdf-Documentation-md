@@ -1,3 +1,8 @@
+---
+title: "01-imagexobjectelement"
+css: "abcpdf-docs.css"
+---
+
 # ImageXObjectElement Function
 
 Create a new [ImageXObjectElement](../default.md).

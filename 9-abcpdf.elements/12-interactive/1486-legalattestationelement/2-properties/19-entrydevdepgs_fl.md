@@ -1,3 +1,8 @@
+---
+title: "19-entrydevdepgs_fl"
+css: "abcpdf-docs.css"
+---
+
 # EntryDevDepGS_FL Property
 
 | Type | Default Value | Read Only | Description | 

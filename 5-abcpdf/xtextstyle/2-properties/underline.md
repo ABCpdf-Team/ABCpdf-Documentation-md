@@ -1,3 +1,8 @@
+---
+title: "underline"
+css: "abcpdf-docs.css"
+---
+
 # Underline Property
 
 | Type | Default | Read Only | Description | 
@@ -39,4 +44,4 @@ End Using
 
 ![](../../../images/pdf/styleunderline.pdf.png) styleunderline.pdf
 
-Also see example code in: [XTransform AngleUnit�Property](../../xtransform/2-properties/angleunit.md).
+Also see example code in: [XTransform AngleUnit Property](../../xtransform/2-properties/angleunit.md).

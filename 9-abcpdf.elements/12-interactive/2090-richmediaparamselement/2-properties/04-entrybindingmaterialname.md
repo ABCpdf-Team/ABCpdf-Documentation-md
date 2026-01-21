@@ -1,3 +1,8 @@
+---
+title: "04-entrybindingmaterialname"
+css: "abcpdf-docs.css"
+---
+
 # EntryBindingMaterialName Property
 
 | Type | Default Value | Read Only | Description | 

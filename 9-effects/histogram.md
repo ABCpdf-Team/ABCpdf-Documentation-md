@@ -1,3 +1,8 @@
+---
+title: "histogram"
+css: "abcpdf-docs.css"
+---
+
 # Histogram Effect
 
 Histogram is a image diagnostic rather than an image effect. When you apply the Histogram effect color levels are calculated and returned via the settings. The image is unaffected.

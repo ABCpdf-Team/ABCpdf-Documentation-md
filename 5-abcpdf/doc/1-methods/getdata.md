@@ -1,3 +1,8 @@
+---
+title: "getdata"
+css: "abcpdf-docs.css"
+---
+
 # GetData Function
 
 Saves a document to memory.

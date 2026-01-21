@@ -1,3 +1,8 @@
+---
+title: "23-entrylineheight"
+css: "abcpdf-docs.css"
+---
+
 # EntryLineHeight Property
 
 | Type | Default Value | Read Only | Description | 

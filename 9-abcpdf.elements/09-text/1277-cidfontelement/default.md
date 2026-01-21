@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # CIDFontElement Class
 
 This class represents the cidfont dictionary. This is definitively detailed in:.

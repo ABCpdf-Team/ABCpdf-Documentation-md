@@ -1,3 +1,8 @@
+---
+title: "07-toindirectobject"
+css: "abcpdf-docs.css"
+---
+
 # ToIndirectObject Function
 
 Attempts to get an IndirectObject from the specified entry in a DictAtom or ArrayAtom resolving any references as necessary.

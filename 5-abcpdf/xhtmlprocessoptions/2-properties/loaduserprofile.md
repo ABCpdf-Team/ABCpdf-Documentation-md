@@ -1,3 +1,8 @@
+---
+title: "loaduserprofile"
+css: "abcpdf-docs.css"
+---
+
 # LoadUserProfile Property
 
 | Type | Default Value | Read Only | Description | 

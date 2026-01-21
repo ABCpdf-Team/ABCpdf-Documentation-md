@@ -1,3 +1,8 @@
+---
+title: "04-entryoverlaytext"
+css: "abcpdf-docs.css"
+---
+
 # EntryOverlayText Property
 
 | Type | Default Value | Read Only | Description | 

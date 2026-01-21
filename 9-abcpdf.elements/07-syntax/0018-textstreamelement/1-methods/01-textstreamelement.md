@@ -1,3 +1,8 @@
+---
+title: "01-textstreamelement"
+css: "abcpdf-docs.css"
+---
+
 # TextStreamElement Function
 
 Create a new [TextStreamElement](../default.md).

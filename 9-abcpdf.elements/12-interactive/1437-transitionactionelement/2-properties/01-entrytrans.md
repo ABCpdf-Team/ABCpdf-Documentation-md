@@ -1,3 +1,8 @@
+---
+title: "01-entrytrans"
+css: "abcpdf-docs.css"
+---
+
 # EntryTrans Property
 
 | Type | Default Value | Read Only | Description | 

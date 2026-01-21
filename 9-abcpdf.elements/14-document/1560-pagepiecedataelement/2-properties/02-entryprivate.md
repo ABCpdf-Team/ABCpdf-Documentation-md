@@ -1,3 +1,8 @@
+---
+title: "02-entryprivate"
+css: "abcpdf-docs.css"
+---
+
 # EntryPrivate Property
 
 | Type | Default Value | Read Only | Description | 

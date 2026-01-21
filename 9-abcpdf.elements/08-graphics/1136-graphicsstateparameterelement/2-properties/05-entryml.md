@@ -1,3 +1,8 @@
+---
+title: "05-entryml"
+css: "abcpdf-docs.css"
+---
+
 # EntryML Property
 
 | Type | Default Value | Read Only | Description | 

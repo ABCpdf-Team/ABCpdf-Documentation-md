@@ -1,3 +1,8 @@
+---
+title: "29-entryvp"
+css: "abcpdf-docs.css"
+---
+
 # EntryVP Property
 
 | Type | Default Value | Read Only | Description | 

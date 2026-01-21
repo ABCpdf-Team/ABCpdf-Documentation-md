@@ -1,3 +1,8 @@
+---
+title: "14-entryr"
+css: "abcpdf-docs.css"
+---
+
 # EntryR Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "32-textcharacterspacing"
+css: "abcpdf-docs.css"
+---
+
 # TextCharacterSpacing Property
 
 | Type | Default Value | Read Only | Description | 

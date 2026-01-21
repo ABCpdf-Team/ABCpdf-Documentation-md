@@ -1,3 +1,8 @@
+---
+title: "macresfork"
+css: "abcpdf-docs.css"
+---
+
 # MacResFork Property
 
 | Type | Default Value | Read Only | Description | 

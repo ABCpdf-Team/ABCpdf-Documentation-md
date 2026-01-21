@@ -1,3 +1,8 @@
+---
+title: "07-entrypadding"
+css: "abcpdf-docs.css"
+---
+
 # EntryPadding Property
 
 | Type | Default Value | Read Only | Description | 

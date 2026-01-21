@@ -1,3 +1,8 @@
+---
+title: "02-entrycolorants"
+css: "abcpdf-docs.css"
+---
+
 # EntryColorants Property
 
 | Type | Default Value | Read Only | Description | 

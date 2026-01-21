@@ -1,3 +1,8 @@
+---
+title: "20-entryptdata"
+css: "abcpdf-docs.css"
+---
+
 # EntryPtData Property
 
 | Type | Default Value | Read Only | Description | 

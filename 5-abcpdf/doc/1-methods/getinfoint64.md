@@ -1,3 +1,8 @@
+---
+title: "getinfoint64"
+css: "abcpdf-docs.css"
+---
+
 # GetInfoInt64 Function
 
 Gets numeric information about an object.

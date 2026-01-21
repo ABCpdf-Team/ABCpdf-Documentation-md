@@ -1,3 +1,8 @@
+---
+title: "fromximage"
+css: "abcpdf-docs.css"
+---
+
 # FromXImage Function
 
 PixMap static constructor

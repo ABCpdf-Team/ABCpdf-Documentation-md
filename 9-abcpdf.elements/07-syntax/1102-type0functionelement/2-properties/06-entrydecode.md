@@ -1,3 +1,8 @@
+---
+title: "06-entrydecode"
+css: "abcpdf-docs.css"
+---
+
 # EntryDecode Property
 
 | Type | Default Value | Read Only | Description | 

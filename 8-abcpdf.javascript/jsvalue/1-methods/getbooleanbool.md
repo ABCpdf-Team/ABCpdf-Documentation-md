@@ -1,3 +1,8 @@
+---
+title: "getbooleanbool"
+css: "abcpdf-docs.css"
+---
+
 # GetBooleanBool Method
 
 Gets the Boolean value of this Boolean value.

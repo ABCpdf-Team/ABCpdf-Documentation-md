@@ -1,3 +1,8 @@
+---
+title: "gettext"
+css: "abcpdf-docs.css"
+---
+
 # GetText Function
 
 Gets the Text value from the Atom if it is a StringAtom.

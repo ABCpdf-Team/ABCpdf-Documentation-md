@@ -1,3 +1,8 @@
+---
+title: "01-caretannotationelement"
+css: "abcpdf-docs.css"
+---
+
 # CaretAnnotationElement Function
 
 Create a new [CaretAnnotationElement](../default.md).

@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # TransitionActionElement Class
 
 This class represents the transition action. This is definitively detailed in:.

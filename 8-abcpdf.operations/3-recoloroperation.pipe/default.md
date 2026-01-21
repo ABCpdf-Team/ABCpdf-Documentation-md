@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # RecolorOperation.Pipe Class
 
 A color pipe used to convert color components from one color space to another.

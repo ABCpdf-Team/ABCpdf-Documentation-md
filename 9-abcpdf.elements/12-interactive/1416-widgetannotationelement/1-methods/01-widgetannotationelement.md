@@ -1,3 +1,8 @@
+---
+title: "01-widgetannotationelement"
+css: "abcpdf-docs.css"
+---
+
 # WidgetAnnotationElement Function
 
 Create a new [WidgetAnnotationElement](../default.md).

@@ -1,3 +1,8 @@
+---
+title: "05-entryfontweight"
+css: "abcpdf-docs.css"
+---
+
 # EntryFontWeight Property
 
 | Type | Default Value | Read Only | Description | 

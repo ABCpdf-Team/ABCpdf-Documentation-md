@@ -1,3 +1,8 @@
+---
+title: "01-stampannotation"
+css: "abcpdf-docs.css"
+---
+
 # StampAnnotation Function
 
 Add stamp annotation to the current page of the doc.

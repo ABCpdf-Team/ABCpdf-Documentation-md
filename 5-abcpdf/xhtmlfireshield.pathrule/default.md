@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # PathRule Class
 
 A FireShield rule for path access control.

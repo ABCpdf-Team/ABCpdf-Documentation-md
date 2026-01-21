@@ -1,3 +1,8 @@
+---
+title: "04-image"
+css: "abcpdf-docs.css"
+---
+
 # Image Example
 
 This example shows how to create a simple PDF displaying an image.

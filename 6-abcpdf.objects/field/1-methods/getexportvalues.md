@@ -1,3 +1,8 @@
+---
+title: "getexportvalues"
+css: "abcpdf-docs.css"
+---
+
 # GetExportValues Function
 
 Gets the export values for this field.

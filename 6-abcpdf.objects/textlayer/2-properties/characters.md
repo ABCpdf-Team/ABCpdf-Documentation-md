@@ -1,3 +1,8 @@
+---
+title: "characters"
+css: "abcpdf-docs.css"
+---
+
 # Characters Property
 
 | Type | Default | Read Only | Description | 

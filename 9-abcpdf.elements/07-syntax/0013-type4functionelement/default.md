@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # Type4FunctionElement Class
 
 This class represents the type 4 function dictionary. This is definitively detailed in:.

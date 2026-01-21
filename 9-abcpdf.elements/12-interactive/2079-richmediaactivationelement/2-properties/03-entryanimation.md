@@ -1,3 +1,8 @@
+---
+title: "03-entryanimation"
+css: "abcpdf-docs.css"
+---
+
 # EntryAnimation Property
 
 | Type | Default Value | Read Only | Description | 

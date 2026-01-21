@@ -1,3 +1,8 @@
+---
+title: "substitutions"
+css: "abcpdf-docs.css"
+---
+
 # Substitutions Property
 
 | Type | Default | Read Only | Description | 

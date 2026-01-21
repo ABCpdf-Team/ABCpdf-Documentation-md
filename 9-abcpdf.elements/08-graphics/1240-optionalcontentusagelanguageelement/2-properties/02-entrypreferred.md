@@ -1,3 +1,8 @@
+---
+title: "02-entrypreferred"
+css: "abcpdf-docs.css"
+---
+
 # EntryPreferred Property
 
 | Type | Default Value | Read Only | Description | 

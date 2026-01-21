@@ -1,3 +1,8 @@
+---
+title: "01-entrysize"
+css: "abcpdf-docs.css"
+---
+
 # EntrySize Property
 
 | Type | Default Value | Read Only | Description | 

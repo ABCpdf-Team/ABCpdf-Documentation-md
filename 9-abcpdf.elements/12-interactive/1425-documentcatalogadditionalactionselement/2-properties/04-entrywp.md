@@ -1,3 +1,8 @@
+---
+title: "04-entrywp"
+css: "abcpdf-docs.css"
+---
+
 # EntryWP Property
 
 | Type | Default Value | Read Only | Description | 

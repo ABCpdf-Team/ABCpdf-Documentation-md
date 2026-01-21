@@ -1,3 +1,8 @@
+---
+title: "1-opatom"
+css: "abcpdf-docs.css"
+---
+
 # OpAtom Function
 
 Create an operator atom for a string

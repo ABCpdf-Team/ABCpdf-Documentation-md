@@ -1,3 +1,8 @@
+---
+title: "01-rubberstampannotationelement"
+css: "abcpdf-docs.css"
+---
+
 # RubberStampAnnotationElement Function
 
 Create a new [RubberStampAnnotationElement](../default.md).

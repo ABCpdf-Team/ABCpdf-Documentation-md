@@ -1,3 +1,8 @@
+---
+title: "19-softmask"
+css: "abcpdf-docs.css"
+---
+
 # SoftMask Property
 
 | Type | Default Value | Read Only | Description | 

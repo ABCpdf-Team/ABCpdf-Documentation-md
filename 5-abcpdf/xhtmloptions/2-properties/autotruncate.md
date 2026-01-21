@@ -1,3 +1,8 @@
+---
+title: "autotruncate"
+css: "abcpdf-docs.css"
+---
+
 # AutoTruncate Property
 
 | Type | Default Value | Read Only | Description | 

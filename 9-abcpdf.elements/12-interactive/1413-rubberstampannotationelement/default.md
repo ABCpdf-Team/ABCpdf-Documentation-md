@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # RubberStampAnnotationElement Class
 
 This class represents the rubber stamp annotation. This is definitively detailed in:.

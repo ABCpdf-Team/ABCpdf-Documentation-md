@@ -1,3 +1,8 @@
+---
+title: "03-entrygamma"
+css: "abcpdf-docs.css"
+---
+
 # EntryGamma Property
 
 | Type | Default Value | Read Only | Description | 

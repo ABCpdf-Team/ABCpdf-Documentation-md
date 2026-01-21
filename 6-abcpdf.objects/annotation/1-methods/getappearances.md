@@ -1,3 +1,8 @@
+---
+title: "getappearances"
+css: "abcpdf-docs.css"
+---
+
 # GetAppearances Function
 
 Gets all the appearances of the annotation.

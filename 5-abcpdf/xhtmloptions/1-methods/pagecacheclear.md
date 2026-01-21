@@ -1,3 +1,8 @@
+---
+title: "pagecacheclear"
+css: "abcpdf-docs.css"
+---
+
 # PageCacheClear Method
 
 Clears the HTML page cache.

@@ -1,3 +1,8 @@
+---
+title: "04-entrypages"
+css: "abcpdf-docs.css"
+---
+
 # EntryPages Property
 
 | Type | Default Value | Read Only | Description | 

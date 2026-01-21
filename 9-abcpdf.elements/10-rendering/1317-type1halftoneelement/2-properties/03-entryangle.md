@@ -1,3 +1,8 @@
+---
+title: "03-entryangle"
+css: "abcpdf-docs.css"
+---
+
 # EntryAngle Property
 
 | Type | Default Value | Read Only | Description | 

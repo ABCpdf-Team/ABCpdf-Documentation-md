@@ -1,3 +1,8 @@
+---
+title: "useembeddedhalftone"
+css: "abcpdf-docs.css"
+---
+
 # UseEmbeddedHalftone Property
 
 | Type | Default Value | Read Only | Description | 

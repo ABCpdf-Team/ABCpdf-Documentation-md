@@ -1,3 +1,8 @@
+---
+title: "01-structureelementelement"
+css: "abcpdf-docs.css"
+---
+
 # StructureElementElement Function
 
 Create a new [StructureElementElement](../default.md).

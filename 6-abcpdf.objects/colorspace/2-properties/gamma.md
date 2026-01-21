@@ -1,3 +1,8 @@
+---
+title: "gamma"
+css: "abcpdf-docs.css"
+---
+
 # Gamma Property
 
 | Type | Default Value | Read Only | Description | 

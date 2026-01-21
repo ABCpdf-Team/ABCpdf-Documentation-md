@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # D3DAngularMeasurementElement Class
 
 This class represents the 3D angular dimension measurement. This is definitively detailed in:.

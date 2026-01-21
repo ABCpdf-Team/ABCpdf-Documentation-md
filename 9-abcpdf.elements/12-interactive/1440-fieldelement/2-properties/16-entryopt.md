@@ -1,3 +1,8 @@
+---
+title: "16-entryopt"
+css: "abcpdf-docs.css"
+---
+
 # EntryOpt Property
 
 | Type | Default Value | Read Only | Description | 

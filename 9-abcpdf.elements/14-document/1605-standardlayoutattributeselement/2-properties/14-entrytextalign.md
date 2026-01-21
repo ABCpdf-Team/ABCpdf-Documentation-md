@@ -1,3 +1,8 @@
+---
+title: "14-entrytextalign"
+css: "abcpdf-docs.css"
+---
+
 # EntryTextAlign Property
 
 | Type | Default Value | Read Only | Description | 

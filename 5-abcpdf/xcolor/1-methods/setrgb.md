@@ -1,3 +1,8 @@
+---
+title: "setrgb"
+css: "abcpdf-docs.css"
+---
+
 # SetRgb Function
 
 Set the color to an RGB value.

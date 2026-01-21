@@ -1,3 +1,8 @@
+---
+title: "01-validationbase"
+css: "abcpdf-docs.css"
+---
+
 # ValidationBase Function
 
 Initializes a new instance of the [ValidationBase](../default.md) class.

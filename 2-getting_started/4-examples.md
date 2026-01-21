@@ -1,3 +1,8 @@
+---
+title: "4-examples"
+css: "abcpdf-docs.css"
+---
+
 # Examples
 
 There are many code examples in the documentation. These cover common tasks like [adding text](../5-abcpdf/doc/1-methods/addtextstyled.md), [flowing text](../4-examples/02-textflow.md) and [adding images](../4-examples/04-image.md).

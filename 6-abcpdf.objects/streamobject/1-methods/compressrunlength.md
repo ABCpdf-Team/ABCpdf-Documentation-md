@@ -1,3 +1,8 @@
+---
+title: "compressrunlength"
+css: "abcpdf-docs.css"
+---
+
 # CompressRunLength Function
 
 Compress the data in the stream using run length encoding.

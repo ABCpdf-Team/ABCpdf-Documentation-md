@@ -1,3 +1,8 @@
+---
+title: "02-getrect"
+css: "abcpdf-docs.css"
+---
+
 # GetRect Function
 
 Get the contents of this [RectangleElement](../default.md) as an XRect.

@@ -1,3 +1,8 @@
+---
+title: "framerect"
+css: "abcpdf-docs.css"
+---
+
 # FrameRect Function
 
 Adds a rectangular frame to the current page.

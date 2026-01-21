@@ -1,3 +1,8 @@
+---
+title: "15-entrystructparent"
+css: "abcpdf-docs.css"
+---
+
 # EntryStructParent Property
 
 | Type | Default Value | Read Only | Description | 

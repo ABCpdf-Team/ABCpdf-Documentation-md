@@ -1,3 +1,8 @@
+---
+title: "setcolor"
+css: "abcpdf-docs.css"
+---
+
 # SetColor Function
 
 Sets the color.

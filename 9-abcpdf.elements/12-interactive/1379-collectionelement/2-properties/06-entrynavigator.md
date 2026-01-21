@@ -1,3 +1,8 @@
+---
+title: "06-entrynavigator"
+css: "abcpdf-docs.css"
+---
+
 # EntryNavigator Property
 
 | Type | Default Value | Read Only | Description | 

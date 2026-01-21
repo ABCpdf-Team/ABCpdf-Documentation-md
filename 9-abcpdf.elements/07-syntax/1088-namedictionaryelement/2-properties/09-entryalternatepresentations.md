@@ -1,3 +1,8 @@
+---
+title: "09-entryalternatepresentations"
+css: "abcpdf-docs.css"
+---
+
 # EntryAlternatePresentations Property
 
 | Type | Default Value | Read Only | Description | 

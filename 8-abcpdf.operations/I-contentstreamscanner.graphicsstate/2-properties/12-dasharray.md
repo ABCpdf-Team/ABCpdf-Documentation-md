@@ -1,3 +1,8 @@
+---
+title: "12-dasharray"
+css: "abcpdf-docs.css"
+---
+
 # DashArray Property
 
 | Type | Default Value | Read Only | Description | 

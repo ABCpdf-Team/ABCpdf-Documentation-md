@@ -1,3 +1,8 @@
+---
+title: "delete"
+css: "abcpdf-docs.css"
+---
+
 # Delete Function
 
 Deletes an object previously added to the document.

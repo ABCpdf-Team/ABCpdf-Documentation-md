@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # PolylineAnnotationElement Class
 
 This class represents the polyline annotation. This is definitively detailed in:.

@@ -1,3 +1,8 @@
+---
+title: "charspacing"
+css: "abcpdf-docs.css"
+---
+
 # CharSpacing Property
 
 | Type | Default | Read Only | Description | 

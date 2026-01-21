@@ -1,3 +1,8 @@
+---
+title: "getstream"
+css: "abcpdf-docs.css"
+---
+
 # GetStream Function
 
 Get the conforming document as raw data stream.

@@ -1,3 +1,8 @@
+---
+title: "coercevector"
+css: "abcpdf-docs.css"
+---
+
 # CoerceVector Property
 
 | Type | Default Value | Read Only | Description | 

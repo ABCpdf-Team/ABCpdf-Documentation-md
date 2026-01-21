@@ -1,3 +1,8 @@
+---
+title: "12-toint32dictionary"
+css: "abcpdf-docs.css"
+---
+
 # ToInt32Dictionary Function
 
 Attempts to convert a DictAtom into a Dictionary of ints, resolving any references as necessary.

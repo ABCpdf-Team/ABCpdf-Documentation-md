@@ -1,3 +1,8 @@
+---
+title: "02-tagged"
+css: "abcpdf-docs.css"
+---
+
 # Tagged Property
 
 | Type | Default Value | Read Only | Description | 

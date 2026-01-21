@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # Type3FontElement Class
 
 This class represents the type 3 font dictionary. This is definitively detailed in:.

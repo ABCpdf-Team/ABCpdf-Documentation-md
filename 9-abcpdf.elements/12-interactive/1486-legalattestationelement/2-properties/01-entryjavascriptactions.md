@@ -1,3 +1,8 @@
+---
+title: "01-entryjavascriptactions"
+css: "abcpdf-docs.css"
+---
+
 # EntryJavaScriptActions Property
 
 | Type | Default Value | Read Only | Description | 

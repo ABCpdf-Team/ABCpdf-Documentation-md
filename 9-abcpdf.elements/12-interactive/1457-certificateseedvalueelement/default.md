@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # CertificateSeedValueElement Class
 
 This class represents the certificate seed value dictionary. This is definitively detailed in:.

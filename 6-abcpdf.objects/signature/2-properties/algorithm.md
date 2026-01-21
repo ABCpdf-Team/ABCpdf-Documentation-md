@@ -1,3 +1,8 @@
+---
+title: "algorithm"
+css: "abcpdf-docs.css"
+---
+
 # Algorithm Property
 
 | Type | Default Value | Read Only | Description | 

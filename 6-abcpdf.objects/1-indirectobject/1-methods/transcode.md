@@ -1,3 +1,8 @@
+---
+title: "transcode"
+css: "abcpdf-docs.css"
+---
+
 # Transcode Function
 
 Transcodes and reloads the IndirectObject

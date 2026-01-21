@@ -1,3 +1,8 @@
+---
+title: "paged"
+css: "abcpdf-docs.css"
+---
+
 # Paged Property
 
 | Type | Default Value | Read Only | Description | 

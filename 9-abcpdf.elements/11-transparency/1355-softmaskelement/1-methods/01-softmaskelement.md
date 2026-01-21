@@ -1,3 +1,8 @@
+---
+title: "01-softmaskelement"
+css: "abcpdf-docs.css"
+---
+
 # SoftMaskElement Function
 
 Create a new [SoftMaskElement](../default.md).

@@ -1,3 +1,8 @@
+---
+title: "kids"
+css: "abcpdf-docs.css"
+---
+
 # Kids Property
 
 | Type | Default Value | Read Only | Description | 

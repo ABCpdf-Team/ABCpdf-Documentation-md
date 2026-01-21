@@ -1,3 +1,8 @@
+---
+title: "03-entryextensions"
+css: "abcpdf-docs.css"
+---
+
 # EntryExtensions Property
 
 | Type | Default Value | Read Only | Description | 

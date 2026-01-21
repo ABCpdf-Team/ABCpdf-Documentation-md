@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # RecolorOperation Class
 
 An operation used to recolor PDF documents.

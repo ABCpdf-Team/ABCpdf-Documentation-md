@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # ImageRendition Class
 
 A class that represents one image placement in a document.

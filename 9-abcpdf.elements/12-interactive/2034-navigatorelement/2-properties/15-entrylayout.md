@@ -1,3 +1,8 @@
+---
+title: "15-entrylayout"
+css: "abcpdf-docs.css"
+---
+
 # EntryLayout Property
 
 | Type | Default Value | Read Only | Description | 

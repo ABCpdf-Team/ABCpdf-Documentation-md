@@ -1,3 +1,8 @@
+---
+title: "getstring"
+css: "abcpdf-docs.css"
+---
+
 # GetString Method
 
 Gets the String value of this string.

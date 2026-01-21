@@ -1,3 +1,8 @@
+---
+title: "iscertification"
+css: "abcpdf-docs.css"
+---
+
 # IsCertification Property
 
 | Type | Default Value | Read Only | Description | 

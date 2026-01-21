@@ -1,3 +1,8 @@
+---
+title: "07-reportincorrectentryvalue"
+css: "abcpdf-docs.css"
+---
+
 # ReportIncorrectEntryValue Function
 
 Called to report an entry with an incorrect value.

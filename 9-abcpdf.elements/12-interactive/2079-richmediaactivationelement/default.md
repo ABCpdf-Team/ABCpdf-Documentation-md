@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # RichMediaActivationElement Class
 
 This class represents the richmediaactivation dictionary. This is definitively detailed in:.

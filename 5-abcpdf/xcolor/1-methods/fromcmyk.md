@@ -1,3 +1,8 @@
+---
+title: "fromcmyk"
+css: "abcpdf-docs.css"
+---
+
 # FromCmyk Function
 
 Create an XColor given a set of CMYK component values.

@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # ColorSpace Class
 
 A color space for an object such as a [PixMap](../pixmap/default.md).

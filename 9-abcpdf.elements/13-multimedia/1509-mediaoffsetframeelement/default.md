@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # MediaOffsetFrameElement Class
 
 This class represents the media offset frame dictionary. This is definitively detailed in:.

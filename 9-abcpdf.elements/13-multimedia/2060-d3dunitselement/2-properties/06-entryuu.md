@@ -1,3 +1,8 @@
+---
+title: "06-entryuu"
+css: "abcpdf-docs.css"
+---
+
 # EntryUU Property
 
 | Type | Default Value | Read Only | Description | 

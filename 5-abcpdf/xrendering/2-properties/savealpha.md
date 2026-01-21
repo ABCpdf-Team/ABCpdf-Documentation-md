@@ -1,3 +1,8 @@
+---
+title: "savealpha"
+css: "abcpdf-docs.css"
+---
+
 # SaveAlpha Property
 
 | Type | Default Value | Read Only | Description | 

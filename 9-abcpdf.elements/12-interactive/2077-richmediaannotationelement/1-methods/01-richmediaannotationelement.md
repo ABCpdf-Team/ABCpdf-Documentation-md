@@ -1,3 +1,8 @@
+---
+title: "01-richmediaannotationelement"
+css: "abcpdf-docs.css"
+---
+
 # RichMediaAnnotationElement Function
 
 Create a new [RichMediaAnnotationElement](../default.md).

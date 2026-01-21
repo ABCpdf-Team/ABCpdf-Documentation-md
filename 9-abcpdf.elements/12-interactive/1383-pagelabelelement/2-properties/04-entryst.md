@@ -1,3 +1,8 @@
+---
+title: "04-entryst"
+css: "abcpdf-docs.css"
+---
+
 # EntrySt Property
 
 | Type | Default Value | Read Only | Description | 

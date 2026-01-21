@@ -1,3 +1,8 @@
+---
+title: "resize"
+css: "abcpdf-docs.css"
+---
+
 # Resize Function
 
 Resizes the rectangle.

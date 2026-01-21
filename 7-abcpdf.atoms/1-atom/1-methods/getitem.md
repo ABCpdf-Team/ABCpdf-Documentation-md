@@ -1,3 +1,8 @@
+---
+title: "getitem"
+css: "abcpdf-docs.css"
+---
+
 # GetItem Function
 
 Gets the specified item from the Atom if it is of a type which contains other Atoms.

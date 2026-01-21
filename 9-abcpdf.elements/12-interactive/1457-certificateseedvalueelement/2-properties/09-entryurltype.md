@@ -1,3 +1,8 @@
+---
+title: "09-entryurltype"
+css: "abcpdf-docs.css"
+---
+
 # EntryURLType Property
 
 | Type | Default Value | Read Only | Description | 

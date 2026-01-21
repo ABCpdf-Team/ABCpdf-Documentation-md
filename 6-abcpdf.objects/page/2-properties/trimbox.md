@@ -1,3 +1,8 @@
+---
+title: "trimbox"
+css: "abcpdf-docs.css"
+---
+
 # TrimBox Property
 
 | Type | Default Value | Read Only | Description | 

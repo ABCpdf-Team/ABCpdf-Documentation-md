@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # XPoint Class
 
 Represents a point in two-dimensional space. When first created the object defaults to the origin "0 0" which is at the bottom left of the space.

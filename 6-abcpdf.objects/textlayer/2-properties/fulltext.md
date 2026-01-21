@@ -1,3 +1,8 @@
+---
+title: "fulltext"
+css: "abcpdf-docs.css"
+---
+
 # FullText Property
 
 | Type | Default | Read Only | Description | 

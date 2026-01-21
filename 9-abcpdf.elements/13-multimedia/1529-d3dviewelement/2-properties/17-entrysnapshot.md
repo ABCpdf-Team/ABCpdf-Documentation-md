@@ -1,3 +1,8 @@
+---
+title: "17-entrysnapshot"
+css: "abcpdf-docs.css"
+---
+
 # EntrySnapshot Property
 
 | Type | Default Value | Read Only | Description | 

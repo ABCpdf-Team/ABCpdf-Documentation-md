@@ -1,3 +1,8 @@
+---
+title: "fontembed"
+css: "abcpdf-docs.css"
+---
+
 # FontEmbed Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "8-legalrequirements"
+css: "abcpdf-docs.css"
+---
+
 # Legal Requirements
 
 Adobe claims Intellectual Property rights over the Adobe PDF specification and we aim to ensure that those rights are upheld.

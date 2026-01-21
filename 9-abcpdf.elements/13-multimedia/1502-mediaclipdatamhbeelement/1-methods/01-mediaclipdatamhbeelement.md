@@ -1,3 +1,8 @@
+---
+title: "01-mediaclipdatamhbeelement"
+css: "abcpdf-docs.css"
+---
+
 # MediaClipDataMhBeElement Function
 
 Create a new [MediaClipDataMhBeElement](../default.md).

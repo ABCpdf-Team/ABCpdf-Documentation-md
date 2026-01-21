@@ -1,3 +1,8 @@
+---
+title: "02-entryts"
+css: "abcpdf-docs.css"
+---
+
 # EntryTS Property
 
 | Type | Default Value | Read Only | Description | 

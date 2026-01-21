@@ -1,3 +1,8 @@
+---
+title: "04-entrytime"
+css: "abcpdf-docs.css"
+---
+
 # EntryTime Property
 
 | Type | Default Value | Read Only | Description | 

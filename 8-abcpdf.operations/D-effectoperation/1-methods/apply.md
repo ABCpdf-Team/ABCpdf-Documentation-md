@@ -1,3 +1,8 @@
+---
+title: "apply"
+css: "abcpdf-docs.css"
+---
+
 # Apply Function
 
 Apply the effect to an image.

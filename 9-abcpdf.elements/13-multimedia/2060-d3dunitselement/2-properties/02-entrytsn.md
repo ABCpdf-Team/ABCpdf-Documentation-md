@@ -1,3 +1,8 @@
+---
+title: "02-entrytsn"
+css: "abcpdf-docs.css"
+---
+
 # EntryTSn Property
 
 | Type | Default Value | Read Only | Description | 

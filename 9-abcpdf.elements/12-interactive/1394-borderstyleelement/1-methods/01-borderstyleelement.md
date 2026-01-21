@@ -1,3 +1,8 @@
+---
+title: "01-borderstyleelement"
+css: "abcpdf-docs.css"
+---
+
 # BorderStyleElement Function
 
 Create a new [BorderStyleElement](../default.md).

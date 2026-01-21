@@ -1,3 +1,8 @@
+---
+title: "showclippedtext"
+css: "abcpdf-docs.css"
+---
+
 # ShowClippedText Property
 
 | Type | Default | Read Only | Description | 

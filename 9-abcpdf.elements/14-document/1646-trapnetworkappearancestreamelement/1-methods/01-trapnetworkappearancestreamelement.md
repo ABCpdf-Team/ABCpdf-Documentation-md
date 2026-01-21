@@ -1,3 +1,8 @@
+---
+title: "01-trapnetworkappearancestreamelement"
+css: "abcpdf-docs.css"
+---
+
 # TrapNetworkAppearanceStreamElement Function
 
 Create a new [TrapNetworkAppearanceStreamElement](../default.md).

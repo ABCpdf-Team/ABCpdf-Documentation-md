@@ -1,3 +1,8 @@
+---
+title: "12-entryappearancefilter"
+css: "abcpdf-docs.css"
+---
+
 # EntryAppearanceFilter Property
 
 | Type | Default Value | Read Only | Description | 

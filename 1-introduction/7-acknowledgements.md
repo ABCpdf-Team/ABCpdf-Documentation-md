@@ -1,3 +1,8 @@
+---
+title: "7-acknowledgements"
+css: "abcpdf-docs.css"
+---
+
 # Acknowledgements
 
 ABCpdf incorporates a variety of freely available and open source software. Many thanks to the authors and contributors.
@@ -58,7 +63,7 @@ Copyright (C) 1995-2002 Jean-loup Gailly and Mark Adler
 
 ## FreeType
 
-Portions of this software are copyright � 1996-2002 The FreeType Project (www.freetype.org). All rights reserved.
+Portions of this software are copyright © 1996-2002 The FreeType Project (www.freetype.org). All rights reserved.
 
 ## Little cms
 
@@ -303,7 +308,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## HarfBuzz
 
-Copyright � 2010,2011,2012 Google, Inc. Copyright � 2012 Mozilla Foundation Copyright � 2011 Codethink Limited Copyright � 2008,2010 Nokia Corporation and/or its subsidiary(-ies) Copyright � 2009 Keith Stribley Copyright � 2009 Martin Hosken and SIL International Copyright � 2007 Chris Wilson Copyright � 2006 Behdad Esfahbod Copyright � 2005 David Turner Copyright � 2004,2007,2008,2009,2010 Red Hat, Inc. Copyright � 1998-2004 David Turner and Werner Lemberg
+Copyright © 2010,2011,2012 Google, Inc. Copyright © 2012 Mozilla Foundation Copyright © 2011 Codethink Limited Copyright © 2008,2010 Nokia Corporation and/or its subsidiary(-ies) Copyright © 2009 Keith Stribley Copyright © 2009 Martin Hosken and SIL International Copyright © 2007 Chris Wilson Copyright © 2006 Behdad Esfahbod Copyright © 2005 David Turner Copyright © 2004,2007,2008,2009,2010 Red Hat, Inc. Copyright © 1998-2004 David Turner and Werner Lemberg
 
 This is part of HarfBuzz, a text shaping library.
 

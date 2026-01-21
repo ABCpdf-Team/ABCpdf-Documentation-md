@@ -1,3 +1,8 @@
+---
+title: "regenerateunicode"
+css: "abcpdf-docs.css"
+---
+
 # RegenerateUnicode Property
 
 | Type | Default | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "03-setcolor"
+css: "abcpdf-docs.css"
+---
+
 # SetColor Function
 
 Set the contents of this [ColorElement](../default.md) using an XColor.

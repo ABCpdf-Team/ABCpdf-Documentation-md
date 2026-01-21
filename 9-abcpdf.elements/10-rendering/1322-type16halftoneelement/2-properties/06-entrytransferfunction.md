@@ -1,3 +1,8 @@
+---
+title: "06-entrytransferfunction"
+css: "abcpdf-docs.css"
+---
+
 # EntryTransferFunction Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "13-entryopenaction"
+css: "abcpdf-docs.css"
+---
+
 # EntryOpenAction Property
 
 | Type | Default Value | Read Only | Description | 

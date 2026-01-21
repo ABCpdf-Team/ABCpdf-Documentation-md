@@ -1,3 +1,8 @@
+---
+title: "02-cloudyeffect"
+css: "abcpdf-docs.css"
+---
+
 # CloudyEffect Property
 
 | Type | Default Value | Read Only | Description | 

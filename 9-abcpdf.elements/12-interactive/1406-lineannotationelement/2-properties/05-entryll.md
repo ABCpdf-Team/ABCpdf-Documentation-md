@@ -1,3 +1,8 @@
+---
+title: "05-entryll"
+css: "abcpdf-docs.css"
+---
+
 # EntryLL Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "10-entryif"
+css: "abcpdf-docs.css"
+---
+
 # EntryIF Property
 
 | Type | Default Value | Read Only | Description | 

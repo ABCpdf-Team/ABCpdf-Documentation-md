@@ -1,3 +1,8 @@
+---
+title: "isdescendent"
+css: "abcpdf-docs.css"
+---
+
 # IsDescendent Property
 
 | Type | Default | Read Only | Description | 

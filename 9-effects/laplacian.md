@@ -1,3 +1,8 @@
+---
+title: "laplacian"
+css: "abcpdf-docs.css"
+---
+
 # Laplacian Effect
 
 The Laplacian filter is used for detection of edges in an image. It highlights areas in which intensity changes rapidly producing a picture of all the edges in an image.

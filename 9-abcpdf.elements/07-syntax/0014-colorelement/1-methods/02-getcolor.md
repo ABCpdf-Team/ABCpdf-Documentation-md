@@ -1,3 +1,8 @@
+---
+title: "02-getcolor"
+css: "abcpdf-docs.css"
+---
+
 # GetColor Function
 
 Get the contents of this [ColorElement](../default.md) as an XColor.

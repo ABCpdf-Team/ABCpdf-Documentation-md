@@ -1,3 +1,8 @@
+---
+title: "29-entryhto"
+css: "abcpdf-docs.css"
+---
+
 # EntryHTO Property
 
 | Type | Default Value | Read Only | Description | 

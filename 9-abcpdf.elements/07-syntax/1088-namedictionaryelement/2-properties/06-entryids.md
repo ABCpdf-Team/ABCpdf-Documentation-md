@@ -1,3 +1,8 @@
+---
+title: "06-entryids"
+css: "abcpdf-docs.css"
+---
+
 # EntryIDS Property
 
 | Type | Default Value | Read Only | Description | 

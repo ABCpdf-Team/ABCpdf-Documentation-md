@@ -1,3 +1,8 @@
+---
+title: "getinfodate"
+css: "abcpdf-docs.css"
+---
+
 # GetInfoDate Function
 
 Gets date information about an object.

@@ -1,3 +1,8 @@
+---
+title: "05-entryxobject"
+css: "abcpdf-docs.css"
+---
+
 # EntryXObject Property
 
 | Type | Default Value | Read Only | Description | 

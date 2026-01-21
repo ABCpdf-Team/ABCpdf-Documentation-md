@@ -1,3 +1,8 @@
+---
+title: "01-richmediadimensionselement"
+css: "abcpdf-docs.css"
+---
+
 # RichMediaDimensionsElement Function
 
 Create a new [RichMediaDimensionsElement](../default.md).

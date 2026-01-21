@@ -1,3 +1,8 @@
+---
+title: "06-purge"
+css: "abcpdf-docs.css"
+---
+
 # Purge Function
 
 The tagged structure of the document references items displayed on the page.

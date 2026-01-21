@@ -1,3 +1,8 @@
+---
+title: "01-nettransfercount"
+css: "abcpdf-docs.css"
+---
+
 # NetTransferCount Property
 
 | Type | Default Value | Read Only | Description | 

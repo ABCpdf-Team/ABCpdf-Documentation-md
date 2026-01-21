@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # MeasureElement Class
 
 This class represents the measure dictionary. This is definitively detailed in:.

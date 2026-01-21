@@ -1,3 +1,8 @@
+---
+title: "wordaffinity"
+css: "abcpdf-docs.css"
+---
+
 # WordAffinity Property
 
 | Type | Default | Read Only | Description | 

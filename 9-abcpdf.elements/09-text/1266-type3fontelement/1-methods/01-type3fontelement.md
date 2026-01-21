@@ -1,3 +1,8 @@
+---
+title: "01-type3fontelement"
+css: "abcpdf-docs.css"
+---
+
 # Type3FontElement Function
 
 Create a new [Type3FontElement](../default.md).

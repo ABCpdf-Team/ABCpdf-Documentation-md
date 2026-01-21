@@ -1,3 +1,8 @@
+---
+title: "02-entryformtype"
+css: "abcpdf-docs.css"
+---
+
 # EntryFormType Property
 
 | Type | Default Value | Read Only | Description | 

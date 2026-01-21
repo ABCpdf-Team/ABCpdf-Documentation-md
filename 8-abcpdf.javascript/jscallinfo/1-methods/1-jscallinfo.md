@@ -1,3 +1,8 @@
+---
+title: "1-jscallinfo"
+css: "abcpdf-docs.css"
+---
+
 # JSCallInfo Constructor
 
 Creates a new JavaScript call information object.

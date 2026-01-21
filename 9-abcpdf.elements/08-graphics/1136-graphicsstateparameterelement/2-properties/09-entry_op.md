@@ -1,3 +1,8 @@
+---
+title: "09-entry_op"
+css: "abcpdf-docs.css"
+---
+
 # Entry_op Property
 
 | Type | Default Value | Read Only | Description | 

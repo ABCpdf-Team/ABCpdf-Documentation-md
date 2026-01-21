@@ -1,3 +1,8 @@
+---
+title: "03-entryro"
+css: "abcpdf-docs.css"
+---
+
 # EntryRO Property
 
 | Type | Default Value | Read Only | Description | 

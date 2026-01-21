@@ -1,3 +1,8 @@
+---
+title: "fileextension"
+css: "abcpdf-docs.css"
+---
+
 # FileExtension Property
 
 | Type | Default Value | Read Only | Description | 

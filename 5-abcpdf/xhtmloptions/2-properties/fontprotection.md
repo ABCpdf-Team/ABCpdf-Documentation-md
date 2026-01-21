@@ -1,3 +1,8 @@
+---
+title: "fontprotection"
+css: "abcpdf-docs.css"
+---
+
 # FontProtection Property
 
 | Type | Default Value | Read Only | Description | 

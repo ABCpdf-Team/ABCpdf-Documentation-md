@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # D3DLightingSchemeElement Class
 
 This class represents the 3D lighting scheme dictionary. This is definitively detailed in:.

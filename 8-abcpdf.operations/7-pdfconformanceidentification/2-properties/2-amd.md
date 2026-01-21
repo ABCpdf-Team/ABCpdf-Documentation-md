@@ -1,3 +1,8 @@
+---
+title: "2-amd"
+css: "abcpdf-docs.css"
+---
+
 # Amd Property
 
 | Type | Default | Read Only | Description | 

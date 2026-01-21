@@ -1,3 +1,8 @@
+---
+title: "14-entrynr"
+css: "abcpdf-docs.css"
+---
+
 # EntryNR Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "dpix"
+css: "abcpdf-docs.css"
+---
+
 # DpiX Property
 
 | Type | Default | Read Only | Description | 

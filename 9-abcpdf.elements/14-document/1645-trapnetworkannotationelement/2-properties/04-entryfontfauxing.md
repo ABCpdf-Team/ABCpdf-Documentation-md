@@ -1,3 +1,8 @@
+---
+title: "04-entryfontfauxing"
+css: "abcpdf-docs.css"
+---
+
 # EntryFontFauxing Property
 
 | Type | Default Value | Read Only | Description | 

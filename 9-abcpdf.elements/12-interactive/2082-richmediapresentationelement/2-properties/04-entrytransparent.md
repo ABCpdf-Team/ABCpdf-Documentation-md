@@ -1,3 +1,8 @@
+---
+title: "04-entrytransparent"
+css: "abcpdf-docs.css"
+---
+
 # EntryTransparent Property
 
 | Type | Default Value | Read Only | Description | 

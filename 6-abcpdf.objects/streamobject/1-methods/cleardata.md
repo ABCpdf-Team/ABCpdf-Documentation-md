@@ -1,3 +1,8 @@
+---
+title: "cleardata"
+css: "abcpdf-docs.css"
+---
+
 # ClearData Function
 
 Clear the data and compression settings for the stream.

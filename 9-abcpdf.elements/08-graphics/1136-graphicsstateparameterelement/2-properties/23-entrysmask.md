@@ -1,3 +1,8 @@
+---
+title: "23-entrysmask"
+css: "abcpdf-docs.css"
+---
+
 # EntrySMask Property
 
 | Type | Default Value | Read Only | Description | 

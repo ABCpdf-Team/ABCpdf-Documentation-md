@@ -1,3 +1,8 @@
+---
+title: "13-entryinitialfields"
+css: "abcpdf-docs.css"
+---
+
 # EntryInitialFields Property
 
 | Type | Default Value | Read Only | Description | 

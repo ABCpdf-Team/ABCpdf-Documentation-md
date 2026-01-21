@@ -1,3 +1,8 @@
+---
+title: "compact"
+css: "abcpdf-docs.css"
+---
+
 # Compact Function
 
 Compact and compress the document.

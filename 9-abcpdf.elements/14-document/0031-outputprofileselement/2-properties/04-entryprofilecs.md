@@ -1,3 +1,8 @@
+---
+title: "04-entryprofilecs"
+css: "abcpdf-docs.css"
+---
+
 # EntryProfileCS Property
 
 | Type | Default Value | Read Only | Description | 

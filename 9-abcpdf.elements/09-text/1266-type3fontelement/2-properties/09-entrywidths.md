@@ -1,3 +1,8 @@
+---
+title: "09-entrywidths"
+css: "abcpdf-docs.css"
+---
+
 # EntryWidths Property
 
 | Type | Default Value | Read Only | Description | 

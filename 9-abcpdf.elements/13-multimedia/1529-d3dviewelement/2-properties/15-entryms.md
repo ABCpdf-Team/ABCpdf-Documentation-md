@@ -1,3 +1,8 @@
+---
+title: "15-entryms"
+css: "abcpdf-docs.css"
+---
+
 # EntryMS Property
 
 | Type | Default Value | Read Only | Description | 

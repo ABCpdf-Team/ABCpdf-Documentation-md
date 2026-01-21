@@ -1,3 +1,8 @@
+---
+title: "findfooters"
+css: "abcpdf-docs.css"
+---
+
 # FindFooters Property
 
 | Type | Default | Read Only | Description | 

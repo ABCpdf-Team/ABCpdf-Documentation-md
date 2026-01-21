@@ -1,3 +1,8 @@
+---
+title: "06-entrysubj"
+css: "abcpdf-docs.css"
+---
+
 # EntrySubj Property
 
 | Type | Default Value | Read Only | Description | 

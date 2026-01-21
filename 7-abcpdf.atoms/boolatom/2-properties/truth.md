@@ -1,3 +1,8 @@
+---
+title: "truth"
+css: "abcpdf-docs.css"
+---
+
 # Truth Property
 
 | Type | Default | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "05-entrygpts"
+css: "abcpdf-docs.css"
+---
+
 # EntryGPTS Property
 
 | Type | Default Value | Read Only | Description | 

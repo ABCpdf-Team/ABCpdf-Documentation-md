@@ -1,3 +1,8 @@
+---
+title: "13-entrygroup"
+css: "abcpdf-docs.css"
+---
+
 # EntryGroup Property
 
 | Type | Default Value | Read Only | Description | 

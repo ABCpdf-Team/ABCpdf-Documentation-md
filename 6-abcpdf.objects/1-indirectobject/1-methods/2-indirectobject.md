@@ -1,3 +1,8 @@
+---
+title: "2-indirectobject"
+css: "abcpdf-docs.css"
+---
+
 # IndirectObject Constructor
 
 IndirectObject Constructor.

@@ -1,3 +1,8 @@
+---
+title: "03-entrydeactivation"
+css: "abcpdf-docs.css"
+---
+
 # EntryDeactivation Property
 
 | Type | Default Value | Read Only | Description | 

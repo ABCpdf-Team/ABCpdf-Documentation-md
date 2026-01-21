@@ -1,3 +1,8 @@
+---
+title: "encodingtochar"
+css: "abcpdf-docs.css"
+---
+
 # EncodingToChar Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "6-globalobject"
+css: "abcpdf-docs.css"
+---
+
 # GlobalObject Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "addimagebitmap"
+css: "abcpdf-docs.css"
+---
+
 # AddImageBitmap Function
 
 Adds a System.Drawing.Bitmap to the current page.

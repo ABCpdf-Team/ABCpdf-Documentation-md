@@ -1,3 +1,8 @@
+---
+title: "29-entryglyphorientationvertical"
+css: "abcpdf-docs.css"
+---
+
 # EntryGlyphOrientationVertical Property
 
 | Type | Default Value | Read Only | Description | 

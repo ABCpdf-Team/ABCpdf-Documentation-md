@@ -1,3 +1,8 @@
+---
+title: "03-addpage"
+css: "abcpdf-docs.css"
+---
+
 # AddPage Function
 
 Add one page of the document for processing.

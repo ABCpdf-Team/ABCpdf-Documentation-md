@@ -1,3 +1,8 @@
+---
+title: "05-infocreator"
+css: "abcpdf-docs.css"
+---
+
 # InfoCreator Property
 
 | Type | Default Value | Read Only | Description | 

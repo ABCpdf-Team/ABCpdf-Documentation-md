@@ -1,3 +1,8 @@
+---
+title: "01-standardstructureattributeselement"
+css: "abcpdf-docs.css"
+---
+
 # StandardStructureAttributesElement Function
 
 Create a new [StandardStructureAttributesElement](../default.md).

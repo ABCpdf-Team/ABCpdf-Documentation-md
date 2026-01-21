@@ -1,3 +1,8 @@
+---
+title: "08-entryresolution"
+css: "abcpdf-docs.css"
+---
+
 # EntryResolution Property
 
 | Type | Default Value | Read Only | Description | 

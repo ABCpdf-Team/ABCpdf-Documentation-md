@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # NamespaceElement Class
 
 This class represents the namespace dictionary. This is definitively detailed in:.

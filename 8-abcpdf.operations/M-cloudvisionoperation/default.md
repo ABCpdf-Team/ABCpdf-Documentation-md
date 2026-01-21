@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # CloudVisionOperation Class
 
 Google Cloud Vision API utilities.

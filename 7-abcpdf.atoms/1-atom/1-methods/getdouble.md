@@ -1,3 +1,8 @@
+---
+title: "getdouble"
+css: "abcpdf-docs.css"
+---
+
 # GetDouble Function
 
 Gets the double value from the Atom if it is a NumAtom.

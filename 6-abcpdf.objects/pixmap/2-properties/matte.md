@@ -1,3 +1,8 @@
+---
+title: "matte"
+css: "abcpdf-docs.css"
+---
+
 # Matte Property
 
 | Type | Default Value | Read Only | Description | 

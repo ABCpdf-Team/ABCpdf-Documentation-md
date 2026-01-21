@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # RichMediaWindowElement Class
 
 This class represents the richmediawindow dictionary. This is definitively detailed in:.

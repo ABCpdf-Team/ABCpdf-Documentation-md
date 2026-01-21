@@ -1,3 +1,8 @@
+---
+title: "08-entryincludedimagedimensions"
+css: "abcpdf-docs.css"
+---
+
 # EntryIncludedImageDimensions Property
 
 | Type | Default Value | Read Only | Description | 

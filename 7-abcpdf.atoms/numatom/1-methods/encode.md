@@ -1,3 +1,8 @@
+---
+title: "encode"
+css: "abcpdf-docs.css"
+---
+
 # Encode Function
 
 Encode a number into a PDF string. This format may be needed for direct insertion into a content stream.

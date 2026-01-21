@@ -1,3 +1,8 @@
+---
+title: "strike2"
+css: "abcpdf-docs.css"
+---
+
 # Strike2 Property
 
 | Type | Default | Read Only | Description | 

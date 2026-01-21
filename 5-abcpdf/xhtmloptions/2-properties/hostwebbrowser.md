@@ -1,3 +1,8 @@
+---
+title: "hostwebbrowser"
+css: "abcpdf-docs.css"
+---
+
 # HostWebBrowser Property
 
 | Type | Default Value | Read Only | Description | 

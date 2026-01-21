@@ -1,3 +1,8 @@
+---
+title: "03-entryauthevent"
+css: "abcpdf-docs.css"
+---
+
 # EntryAuthEvent Property
 
 | Type | Default Value | Read Only | Description | 

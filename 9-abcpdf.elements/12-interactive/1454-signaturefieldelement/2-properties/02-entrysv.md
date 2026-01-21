@@ -1,3 +1,8 @@
+---
+title: "02-entrysv"
+css: "abcpdf-docs.css"
+---
+
 # EntrySV Property
 
 | Type | Default Value | Read Only | Description | 

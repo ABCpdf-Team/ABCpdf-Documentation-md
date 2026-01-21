@@ -1,3 +1,8 @@
+---
+title: "01-mediascreenparametersmhbeelement"
+css: "abcpdf-docs.css"
+---
+
 # MediaScreenParametersMhBeElement Function
 
 Create a new [MediaScreenParametersMhBeElement](../default.md).

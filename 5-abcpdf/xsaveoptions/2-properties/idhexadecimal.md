@@ -1,3 +1,8 @@
+---
+title: "idhexadecimal"
+css: "abcpdf-docs.css"
+---
+
 # IDHexadecimal Property
 
 | Type | Default Value | Read Only | Description | 

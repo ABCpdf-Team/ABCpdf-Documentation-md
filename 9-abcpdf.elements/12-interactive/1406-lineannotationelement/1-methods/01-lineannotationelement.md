@@ -1,3 +1,8 @@
+---
+title: "01-lineannotationelement"
+css: "abcpdf-docs.css"
+---
+
 # LineAnnotationElement Function
 
 Create a new [LineAnnotationElement](../default.md).

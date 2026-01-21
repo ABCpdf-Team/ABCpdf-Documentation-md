@@ -1,3 +1,8 @@
+---
+title: "openofficeparameters"
+css: "abcpdf-docs.css"
+---
+
 # OpenOfficeParameters Property
 
 | Type | Default | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "02-entryft"
+css: "abcpdf-docs.css"
+---
+
 # EntryFT Property
 
 | Type | Default Value | Read Only | Description | 

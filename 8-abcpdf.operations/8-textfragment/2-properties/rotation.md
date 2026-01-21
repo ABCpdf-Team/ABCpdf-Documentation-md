@@ -1,3 +1,8 @@
+---
+title: "rotation"
+css: "abcpdf-docs.css"
+---
+
 # Rotation Property
 
 | Type | Default | Read Only | Description | 

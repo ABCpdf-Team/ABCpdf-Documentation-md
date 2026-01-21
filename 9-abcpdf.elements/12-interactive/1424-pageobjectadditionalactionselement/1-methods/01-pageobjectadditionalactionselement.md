@@ -1,3 +1,8 @@
+---
+title: "01-pageobjectadditionalactionselement"
+css: "abcpdf-docs.css"
+---
+
 # PageObjectAdditionalActionsElement Function
 
 Create a new [PageObjectAdditionalActionsElement](../default.md).

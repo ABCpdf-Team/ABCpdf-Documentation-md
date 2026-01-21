@@ -1,3 +1,8 @@
+---
+title: "01-entrylinearized"
+css: "abcpdf-docs.css"
+---
+
 # EntryLinearized Property
 
 | Type | Default Value | Read Only | Description | 

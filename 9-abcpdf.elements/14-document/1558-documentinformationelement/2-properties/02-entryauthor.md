@@ -1,3 +1,8 @@
+---
+title: "02-entryauthor"
+css: "abcpdf-docs.css"
+---
+
 # EntryAuthor Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # D3DAnnotationExternalDataElement Class
 
 This class represents the external data dictionary used to markup 3D annotations. This is definitively detailed in:.

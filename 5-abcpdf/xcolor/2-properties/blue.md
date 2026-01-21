@@ -1,3 +1,8 @@
+---
+title: "blue"
+css: "abcpdf-docs.css"
+---
+
 # Blue Property
 
 | Type | Default | Read Only | Description | 

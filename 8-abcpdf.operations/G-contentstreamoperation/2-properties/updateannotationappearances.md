@@ -1,3 +1,8 @@
+---
+title: "updateannotationappearances"
+css: "abcpdf-docs.css"
+---
+
 # UpdateAnnotationAppearances Property
 
 | Type | Default Value | Read Only | Description | 

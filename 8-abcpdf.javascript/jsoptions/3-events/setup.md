@@ -1,3 +1,8 @@
+---
+title: "setup"
+css: "abcpdf-docs.css"
+---
+
 # SetUp Event
 
 Occurs after the JavaScript engine is initialized and before the specified JavaScript code is executed.

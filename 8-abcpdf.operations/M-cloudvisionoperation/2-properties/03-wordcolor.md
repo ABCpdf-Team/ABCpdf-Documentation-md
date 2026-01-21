@@ -1,3 +1,8 @@
+---
+title: "03-wordcolor"
+css: "abcpdf-docs.css"
+---
+
 # WordColor Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "IsTrusted"
+css: "abcpdf-docs.css"
+---
+
 # IsTrusted Property
 
 | Type | Default Value | Read Only | Description | 

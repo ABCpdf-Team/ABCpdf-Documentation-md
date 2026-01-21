@@ -1,3 +1,8 @@
+---
+title: "01-lzwparameterselement"
+css: "abcpdf-docs.css"
+---
+
 # LzwParametersElement Function
 
 Create a new [LzwParametersElement](../default.md).

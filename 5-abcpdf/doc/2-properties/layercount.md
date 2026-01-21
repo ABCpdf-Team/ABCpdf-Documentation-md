@@ -1,3 +1,8 @@
+---
+title: "layercount"
+css: "abcpdf-docs.css"
+---
+
 # LayerCount Property
 
 | Type | Default | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "5-gethashcode"
+css: "abcpdf-docs.css"
+---
+
 # GetHashCode Function
 
 A hash code for the Atom.

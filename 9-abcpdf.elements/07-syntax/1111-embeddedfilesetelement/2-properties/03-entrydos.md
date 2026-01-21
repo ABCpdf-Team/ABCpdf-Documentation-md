@@ -1,3 +1,8 @@
+---
+title: "03-entrydos"
+css: "abcpdf-docs.css"
+---
+
 # EntryDOS Property
 
 | Type | Default Value | Read Only | Description | 

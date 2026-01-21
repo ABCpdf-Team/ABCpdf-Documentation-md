@@ -1,3 +1,8 @@
+---
+title: "01-calrgbcolorspaceattributeselement"
+css: "abcpdf-docs.css"
+---
+
 # CalRGBColorSpaceAttributesElement Function
 
 Create a new [CalRGBColorSpaceAttributesElement](../default.md).

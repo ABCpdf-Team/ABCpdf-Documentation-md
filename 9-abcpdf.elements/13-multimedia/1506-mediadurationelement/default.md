@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # MediaDurationElement Class
 
 This class represents the media duration dictionary. This is definitively detailed in:.

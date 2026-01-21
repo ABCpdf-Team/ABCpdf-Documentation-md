@@ -1,3 +1,8 @@
+---
+title: "03-entrytinttransform"
+css: "abcpdf-docs.css"
+---
+
 # EntryTintTransform Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "02-entryactivation"
+css: "abcpdf-docs.css"
+---
+
 # EntryActivation Property
 
 | Type | Default Value | Read Only | Description | 

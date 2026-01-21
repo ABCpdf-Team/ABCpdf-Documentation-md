@@ -1,3 +1,8 @@
+---
+title: "addimage"
+css: "abcpdf-docs.css"
+---
+
 # AddImage Function
 
 Adds an image to the current page.

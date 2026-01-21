@@ -1,3 +1,8 @@
+---
+title: "04-entrylength3"
+css: "abcpdf-docs.css"
+---
+
 # EntryLength3 Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "01-devicenmixinghintselement"
+css: "abcpdf-docs.css"
+---
+
 # DeviceNMixingHintsElement Function
 
 Create a new [DeviceNMixingHintsElement](../default.md).

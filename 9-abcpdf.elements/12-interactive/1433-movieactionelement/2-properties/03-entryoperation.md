@@ -1,3 +1,8 @@
+---
+title: "03-entryoperation"
+css: "abcpdf-docs.css"
+---
+
 # EntryOperation Property
 
 | Type | Default Value | Read Only | Description | 

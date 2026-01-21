@@ -1,3 +1,8 @@
+---
+title: "07-entrygeo"
+css: "abcpdf-docs.css"
+---
+
 # EntryGEO Property
 
 | Type | Default Value | Read Only | Description | 

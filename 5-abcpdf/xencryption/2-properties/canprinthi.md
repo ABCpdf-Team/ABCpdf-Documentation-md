@@ -1,3 +1,8 @@
+---
+title: "canprinthi"
+css: "abcpdf-docs.css"
+---
+
 # CanPrintHi Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # ArrayAtom Class
 
 An Atom containing an array of other Atoms.

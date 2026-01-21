@@ -1,3 +1,8 @@
+---
+title: "09-removeat"
+css: "abcpdf-docs.css"
+---
+
 # RemoveAt Method
 
 Remove the Bookmark at the specified location.

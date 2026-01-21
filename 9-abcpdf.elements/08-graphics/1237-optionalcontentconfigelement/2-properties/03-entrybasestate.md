@@ -1,3 +1,8 @@
+---
+title: "03-entrybasestate"
+css: "abcpdf-docs.css"
+---
+
 # EntryBaseState Property
 
 | Type | Default Value | Read Only | Description | 

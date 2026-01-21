@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # CollectionColorsElement Class
 
 This class represents the collection colors dictionary. This is definitively detailed in:.

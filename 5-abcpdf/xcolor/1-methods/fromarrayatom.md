@@ -1,3 +1,8 @@
+---
+title: "fromarrayatom"
+css: "abcpdf-docs.css"
+---
+
 # FromArrayAtom Function
 
 Create an XColor from an ArrayAtom of NumAtoms containing PDF color values.

@@ -1,3 +1,8 @@
+---
+title: "3-equals"
+css: "abcpdf-docs.css"
+---
+
 # Equals Function
 
 Test whether the two Atoms are the same.

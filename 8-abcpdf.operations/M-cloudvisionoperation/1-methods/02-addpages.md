@@ -1,3 +1,8 @@
+---
+title: "02-addpages"
+css: "abcpdf-docs.css"
+---
+
 # AddPages Function
 
 Add all the pages of the document for processing.

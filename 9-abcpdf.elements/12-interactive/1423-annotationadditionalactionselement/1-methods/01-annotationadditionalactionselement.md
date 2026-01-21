@@ -1,3 +1,8 @@
+---
+title: "01-annotationadditionalactionselement"
+css: "abcpdf-docs.css"
+---
+
 # AnnotationAdditionalActionsElement Function
 
 Create a new [AnnotationAdditionalActionsElement](../default.md).

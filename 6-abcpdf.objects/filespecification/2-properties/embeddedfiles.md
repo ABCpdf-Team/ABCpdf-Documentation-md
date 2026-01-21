@@ -1,3 +1,8 @@
+---
+title: "embeddedfiles"
+css: "abcpdf-docs.css"
+---
+
 # EmbeddedFiles Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "02-entryaspect"
+css: "abcpdf-docs.css"
+---
+
 # EntryAspect Property
 
 | Type | Default Value | Read Only | Description | 

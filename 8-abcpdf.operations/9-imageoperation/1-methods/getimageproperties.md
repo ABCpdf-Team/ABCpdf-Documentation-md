@@ -1,3 +1,8 @@
+---
+title: "getimageproperties"
+css: "abcpdf-docs.css"
+---
+
 # GetImageProperties Function
 
 Get the image information for all the raster images.

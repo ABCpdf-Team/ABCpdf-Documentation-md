@@ -1,3 +1,8 @@
+---
+title: "02-entrydpartrootnode"
+css: "abcpdf-docs.css"
+---
+
 # EntryDPartRootNode Property
 
 | Type | Default Value | Read Only | Description | 

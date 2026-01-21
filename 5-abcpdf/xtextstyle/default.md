@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # XTextStyle Class
 
 Represents the style used when adding text.

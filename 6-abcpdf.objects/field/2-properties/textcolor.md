@@ -1,3 +1,8 @@
+---
+title: "textcolor"
+css: "abcpdf-docs.css"
+---
+
 # TextColor Property
 
 | Type | Default Value | Read Only | Description | 

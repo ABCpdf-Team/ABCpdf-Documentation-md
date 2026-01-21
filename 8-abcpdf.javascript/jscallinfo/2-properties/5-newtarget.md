@@ -1,3 +1,8 @@
+---
+title: "5-newtarget"
+css: "abcpdf-docs.css"
+---
+
 # NewTarget Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "antialiaspolygons"
+css: "abcpdf-docs.css"
+---
+
 # AntiAliasPolygons Property
 
 | Type | Default Value | Read Only | Description | 

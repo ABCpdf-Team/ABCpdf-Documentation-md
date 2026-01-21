@@ -1,3 +1,8 @@
+---
+title: "03-entrycolorspace"
+css: "abcpdf-docs.css"
+---
+
 # EntryColorSpace Property
 
 | Type | Default Value | Read Only | Description | 

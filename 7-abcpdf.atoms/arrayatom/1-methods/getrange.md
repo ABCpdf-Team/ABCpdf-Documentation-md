@@ -1,3 +1,8 @@
+---
+title: "getrange"
+css: "abcpdf-docs.css"
+---
+
 # GetRange Function
 
 Creates a shallow copy of a range of elements in the source array

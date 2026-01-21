@@ -1,3 +1,8 @@
+---
+title: "05-entrycharprocs"
+css: "abcpdf-docs.css"
+---
+
 # EntryCharProcs Property
 
 | Type | Default Value | Read Only | Description | 

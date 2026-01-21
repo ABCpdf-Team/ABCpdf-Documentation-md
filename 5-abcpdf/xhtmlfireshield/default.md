@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # XHtmlFireShield Class
 
 The FireShield settings that dynamically determine the file access that should be allowed for HTML conversion.

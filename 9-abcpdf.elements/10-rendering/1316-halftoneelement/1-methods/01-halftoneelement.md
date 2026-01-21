@@ -1,3 +1,8 @@
+---
+title: "01-halftoneelement"
+css: "abcpdf-docs.css"
+---
+
 # HalftoneElement Function
 
 Create a new [HalftoneElement](../default.md).

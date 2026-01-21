@@ -1,3 +1,8 @@
+---
+title: "canextract"
+css: "abcpdf-docs.css"
+---
+
 # CanExtract Property
 
 | Type | Default Value | Read Only | Description | 

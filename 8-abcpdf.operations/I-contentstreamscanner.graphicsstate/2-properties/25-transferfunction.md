@@ -1,3 +1,8 @@
+---
+title: "25-transferfunction"
+css: "abcpdf-docs.css"
+---
+
 # TransferFunction Property
 
 | Type | Default Value | Read Only | Description | 

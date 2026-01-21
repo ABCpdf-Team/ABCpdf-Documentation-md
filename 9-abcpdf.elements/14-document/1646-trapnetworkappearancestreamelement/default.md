@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # TrapNetworkAppearanceStreamElement Class
 
 This class represents the trap network appearance stream. This is definitively detailed in:.

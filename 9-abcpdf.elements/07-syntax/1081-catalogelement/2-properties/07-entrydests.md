@@ -1,3 +1,8 @@
+---
+title: "07-entrydests"
+css: "abcpdf-docs.css"
+---
+
 # EntryDests Property
 
 | Type | Default Value | Read Only | Description | 

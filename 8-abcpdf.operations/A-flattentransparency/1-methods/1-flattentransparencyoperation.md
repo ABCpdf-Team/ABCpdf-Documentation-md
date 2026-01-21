@@ -1,3 +1,8 @@
+---
+title: "1-flattentransparencyoperation"
+css: "abcpdf-docs.css"
+---
+
 # FlattenTransparencyOperation Constructor
 
 FlattenTransparencyOperation Constructor.

@@ -1,3 +1,8 @@
+---
+title: "applicationfolder"
+css: "abcpdf-docs.css"
+---
+
 # ApplicationFolder Property
 
 | Type | Default | Read Only | Description | 

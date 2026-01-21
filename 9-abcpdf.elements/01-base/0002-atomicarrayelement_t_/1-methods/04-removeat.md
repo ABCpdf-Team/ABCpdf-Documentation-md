@@ -1,3 +1,8 @@
+---
+title: "04-removeat"
+css: "abcpdf-docs.css"
+---
+
 # RemoveAt Function
 
 Removes the item at the specified index.

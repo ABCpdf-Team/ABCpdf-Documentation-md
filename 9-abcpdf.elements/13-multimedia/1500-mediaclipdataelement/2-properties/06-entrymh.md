@@ -1,3 +1,8 @@
+---
+title: "06-entrymh"
+css: "abcpdf-docs.css"
+---
+
 # EntryMH Property
 
 | Type | Default Value | Read Only | Description | 

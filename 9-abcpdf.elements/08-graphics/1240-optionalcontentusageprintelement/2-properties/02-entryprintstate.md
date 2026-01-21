@@ -1,3 +1,8 @@
+---
+title: "02-entryprintstate"
+css: "abcpdf-docs.css"
+---
+
 # EntryPrintState Property
 
 | Type | Default Value | Read Only | Description | 

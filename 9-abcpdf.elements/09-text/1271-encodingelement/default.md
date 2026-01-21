@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # EncodingElement Class
 
 This class represents the encoding dictionary. This is definitively detailed in:.

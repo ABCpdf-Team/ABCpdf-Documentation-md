@@ -1,3 +1,8 @@
+---
+title: "5-contains"
+css: "abcpdf-docs.css"
+---
+
 # Contains Function
 
 Determines whether the dictionary contains an element with a specific name.

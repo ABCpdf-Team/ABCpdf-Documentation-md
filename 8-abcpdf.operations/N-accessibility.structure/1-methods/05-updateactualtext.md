@@ -1,3 +1,8 @@
+---
+title: "05-updateactualtext"
+css: "abcpdf-docs.css"
+---
+
 # UpdateActualText Function
 
 The logical structure can contain a copy of text which is drawn on the page.

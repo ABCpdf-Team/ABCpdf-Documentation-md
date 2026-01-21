@@ -1,3 +1,8 @@
+---
+title: "07-arrayatom"
+css: "abcpdf-docs.css"
+---
+
 # ArrayAtom Property
 
 | Type | Default Value | Read Only | Description | 

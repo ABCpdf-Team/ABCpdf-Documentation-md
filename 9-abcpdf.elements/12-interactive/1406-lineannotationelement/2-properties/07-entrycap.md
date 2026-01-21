@@ -1,3 +1,8 @@
+---
+title: "07-entrycap"
+css: "abcpdf-docs.css"
+---
+
 # EntryCap Property
 
 | Type | Default Value | Read Only | Description | 

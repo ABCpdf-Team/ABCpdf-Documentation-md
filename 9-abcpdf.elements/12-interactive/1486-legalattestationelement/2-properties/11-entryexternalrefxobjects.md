@@ -1,3 +1,8 @@
+---
+title: "11-entryexternalrefxobjects"
+css: "abcpdf-docs.css"
+---
+
 # EntryExternalRefXobjects Property
 
 | Type | Default Value | Read Only | Description | 

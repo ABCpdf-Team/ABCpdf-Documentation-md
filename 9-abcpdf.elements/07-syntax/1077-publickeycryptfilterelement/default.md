@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # PublicKeyCryptFilterElement Class
 
 This class represents the public-key security handler crypt filter. This is definitively detailed in:.

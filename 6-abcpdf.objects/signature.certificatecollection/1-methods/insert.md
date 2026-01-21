@@ -1,3 +1,8 @@
+---
+title: "insert"
+css: "abcpdf-docs.css"
+---
+
 # Insert Method
 
 Inserts the certificate object to this collection if its value is not already present.

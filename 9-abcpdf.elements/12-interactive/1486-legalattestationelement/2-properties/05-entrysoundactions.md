@@ -1,3 +1,8 @@
+---
+title: "05-entrysoundactions"
+css: "abcpdf-docs.css"
+---
+
 # EntrySoundActions Property
 
 | Type | Default Value | Read Only | Description | 

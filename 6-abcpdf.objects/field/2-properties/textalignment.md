@@ -1,3 +1,8 @@
+---
+title: "textalignment"
+css: "abcpdf-docs.css"
+---
+
 # TextAlignment Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "skiprevisions"
+css: "abcpdf-docs.css"
+---
+
 # SkipRevisions Property
 
 | Type | Default | Read Only | Description | 

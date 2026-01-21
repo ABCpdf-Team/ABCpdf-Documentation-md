@@ -1,3 +1,8 @@
+---
+title: "04-copytags"
+css: "abcpdf-docs.css"
+---
+
 # CopyTags Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "01-entryta"
+css: "abcpdf-docs.css"
+---
+
 # EntryTA Property
 
 | Type | Default Value | Read Only | Description | 

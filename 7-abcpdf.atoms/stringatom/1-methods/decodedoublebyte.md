@@ -1,3 +1,8 @@
+---
+title: "decodedoublebyte"
+css: "abcpdf-docs.css"
+---
+
 # DecodeDoubleByte Function
 
 Decode a double byte PDF encoded string into a plain string format

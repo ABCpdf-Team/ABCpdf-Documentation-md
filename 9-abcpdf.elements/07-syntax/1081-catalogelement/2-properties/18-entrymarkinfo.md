@@ -1,3 +1,8 @@
+---
+title: "18-entrymarkinfo"
+css: "abcpdf-docs.css"
+---
+
 # EntryMarkInfo Property
 
 | Type | Default Value | Read Only | Description | 

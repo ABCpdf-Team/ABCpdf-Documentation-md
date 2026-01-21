@@ -1,3 +1,8 @@
+---
+title: "01-richmediadeactivationelement"
+css: "abcpdf-docs.css"
+---
+
 # RichMediaDeactivationElement Function
 
 Create a new [RichMediaDeactivationElement](../default.md).

@@ -1,3 +1,8 @@
+---
+title: "equals"
+css: "abcpdf-docs.css"
+---
+
 # Equals Function
 
 Test whether the two DictAtoms are the same

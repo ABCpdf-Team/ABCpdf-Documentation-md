@@ -1,3 +1,8 @@
+---
+title: "magnify"
+css: "abcpdf-docs.css"
+---
+
 # Magnify Function
 
 Magnifies the rectangle.

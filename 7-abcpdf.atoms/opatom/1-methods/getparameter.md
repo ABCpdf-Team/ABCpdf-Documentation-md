@@ -1,3 +1,8 @@
+---
+title: "getparameter"
+css: "abcpdf-docs.css"
+---
+
 # GetParameter Function
 
 Gets the parameter associated with the OpAtom at the specified index and validates that the atom is of the correct type

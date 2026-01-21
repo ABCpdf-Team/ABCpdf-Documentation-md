@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # DocumentInformationElement Class
 
 This class represents the document information dictionary. This is definitively detailed in:.

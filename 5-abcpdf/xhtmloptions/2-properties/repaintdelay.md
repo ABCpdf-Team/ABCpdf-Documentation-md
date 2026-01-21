@@ -1,3 +1,8 @@
+---
+title: "repaintdelay"
+css: "abcpdf-docs.css"
+---
+
 # RepaintDelay Property
 
 | Type | Default Value | Read Only | Description | 

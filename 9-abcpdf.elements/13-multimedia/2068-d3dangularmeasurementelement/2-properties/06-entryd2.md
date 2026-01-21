@@ -1,3 +1,8 @@
+---
+title: "06-entryd2"
+css: "abcpdf-docs.css"
+---
+
 # EntryD2 Property
 
 | Type | Default Value | Read Only | Description | 

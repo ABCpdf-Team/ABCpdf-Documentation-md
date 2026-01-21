@@ -1,3 +1,8 @@
+---
+title: "05-entryvoffset"
+css: "abcpdf-docs.css"
+---
+
 # EntryVOffset Property
 
 | Type | Default Value | Read Only | Description | 

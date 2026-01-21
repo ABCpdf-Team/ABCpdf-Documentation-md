@@ -1,3 +1,8 @@
+---
+title: "11-entrythumb"
+css: "abcpdf-docs.css"
+---
+
 # EntryThumb Property
 
 | Type | Default Value | Read Only | Description | 

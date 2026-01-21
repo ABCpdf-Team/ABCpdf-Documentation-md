@@ -1,3 +1,8 @@
+---
+title: "linkpages"
+css: "abcpdf-docs.css"
+---
+
 # LinkPages Method
 
 Convert external links to internal links wherever possible.

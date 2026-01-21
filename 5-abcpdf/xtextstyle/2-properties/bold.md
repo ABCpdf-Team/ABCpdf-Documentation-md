@@ -1,3 +1,8 @@
+---
+title: "bold"
+css: "abcpdf-docs.css"
+---
+
 # Bold Property
 
 | Type | Default | Read Only | Description | 

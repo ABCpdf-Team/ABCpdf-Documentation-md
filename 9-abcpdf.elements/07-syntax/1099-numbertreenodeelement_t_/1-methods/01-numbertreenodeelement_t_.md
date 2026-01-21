@@ -1,3 +1,8 @@
+---
+title: "01-numbertreenodeelement_t_"
+css: "abcpdf-docs.css"
+---
+
 # NumberTreeNodeElement&lt;T&gt; Function
 
 Create a new [NumberTreeNodeElement](../default.md).

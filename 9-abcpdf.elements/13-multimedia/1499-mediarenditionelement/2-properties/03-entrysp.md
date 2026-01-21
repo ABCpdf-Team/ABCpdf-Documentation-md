@@ -1,3 +1,8 @@
+---
+title: "03-entrysp"
+css: "abcpdf-docs.css"
+---
+
 # EntrySP Property
 
 | Type | Default Value | Read Only | Description | 

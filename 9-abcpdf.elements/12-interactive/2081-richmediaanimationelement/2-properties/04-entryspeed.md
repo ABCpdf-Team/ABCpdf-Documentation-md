@@ -1,3 +1,8 @@
+---
+title: "04-entryspeed"
+css: "abcpdf-docs.css"
+---
+
 # EntrySpeed Property
 
 | Type | Default Value | Read Only | Description | 

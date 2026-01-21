@@ -1,3 +1,8 @@
+---
+title: "01-type1patternelement"
+css: "abcpdf-docs.css"
+---
+
 # Type1PatternElement Function
 
 Create a new [Type1PatternElement](../default.md).

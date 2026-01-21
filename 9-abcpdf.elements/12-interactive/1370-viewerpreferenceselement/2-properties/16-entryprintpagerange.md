@@ -1,3 +1,8 @@
+---
+title: "16-entryprintpagerange"
+css: "abcpdf-docs.css"
+---
+
 # EntryPrintPageRange Property
 
 | Type | Default Value | Read Only | Description | 

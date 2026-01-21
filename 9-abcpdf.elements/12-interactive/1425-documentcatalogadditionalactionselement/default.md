@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # DocumentCatalogAdditionalActionsElement Class
 
 This class represents the document catalog additional-actions dictionary. This is definitively detailed in:.

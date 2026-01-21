@@ -1,3 +1,8 @@
+---
+title: "05-t_current"
+css: "abcpdf-docs.css"
+---
+
 # T&gt; Current Property
 
 | Type | Default Value | Read Only | Description | 

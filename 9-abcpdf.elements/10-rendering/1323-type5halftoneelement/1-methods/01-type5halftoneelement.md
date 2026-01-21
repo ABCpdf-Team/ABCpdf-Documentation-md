@@ -1,3 +1,8 @@
+---
+title: "01-type5halftoneelement"
+css: "abcpdf-docs.css"
+---
+
 # Type5HalftoneElement Function
 
 Create a new [Type5HalftoneElement](../default.md).

@@ -1,3 +1,8 @@
+---
+title: "01-d3dlightingschemeelement"
+css: "abcpdf-docs.css"
+---
+
 # D3DLightingSchemeElement Function
 
 Create a new [D3DLightingSchemeElement](../default.md).

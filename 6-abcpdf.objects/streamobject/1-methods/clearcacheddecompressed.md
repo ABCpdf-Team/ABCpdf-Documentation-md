@@ -1,3 +1,8 @@
+---
+title: "clearcacheddecompressed"
+css: "abcpdf-docs.css"
+---
+
 # ClearCachedDecompressed Function
 
 Clear the cached, decompressed data for the stream.

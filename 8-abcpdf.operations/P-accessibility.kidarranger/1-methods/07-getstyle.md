@@ -1,3 +1,8 @@
+---
+title: "07-getstyle"
+css: "abcpdf-docs.css"
+---
+
 # GetStyle Function
 
 Gets the text style for this structure element.

@@ -1,3 +1,8 @@
+---
+title: "loadglobals"
+css: "abcpdf-docs.css"
+---
+
 # LoadGlobals Property
 
 | Type | Default Value | Read Only | Description | 

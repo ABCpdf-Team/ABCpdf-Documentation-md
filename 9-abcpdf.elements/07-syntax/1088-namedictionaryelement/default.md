@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # NameDictionaryElement Class
 
 This class represents the name dictionary. This is definitively detailed in:.

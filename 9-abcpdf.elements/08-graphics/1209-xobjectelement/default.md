@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # XObjectElement Class
 
 This class represents the xobject. This is definitively detailed in:.

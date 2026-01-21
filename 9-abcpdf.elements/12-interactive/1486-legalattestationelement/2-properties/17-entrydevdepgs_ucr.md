@@ -1,3 +1,8 @@
+---
+title: "17-entrydevdepgs_ucr"
+css: "abcpdf-docs.css"
+---
+
 # EntryDevDepGS_UCR Property
 
 | Type | Default Value | Read Only | Description | 

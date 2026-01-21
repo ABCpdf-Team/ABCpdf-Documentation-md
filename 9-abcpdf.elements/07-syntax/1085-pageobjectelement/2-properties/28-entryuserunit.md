@@ -1,3 +1,8 @@
+---
+title: "28-entryuserunit"
+css: "abcpdf-docs.css"
+---
+
 # EntryUserUnit Property
 
 | Type | Default Value | Read Only | Description | 

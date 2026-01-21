@@ -1,3 +1,8 @@
+---
+title: "01-entrywc"
+css: "abcpdf-docs.css"
+---
+
 # EntryWC Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "installtriallicense"
+css: "abcpdf-docs.css"
+---
+
 # InstallTrialLicense Method
 
 Install a trial license

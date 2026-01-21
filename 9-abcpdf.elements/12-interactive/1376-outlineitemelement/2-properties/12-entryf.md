@@ -1,3 +1,8 @@
+---
+title: "12-entryf"
+css: "abcpdf-docs.css"
+---
+
 # EntryF Property
 
 | Type | Default Value | Read Only | Description | 

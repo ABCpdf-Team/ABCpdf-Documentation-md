@@ -1,3 +1,8 @@
+---
+title: "02-entryhival"
+css: "abcpdf-docs.css"
+---
+
 # EntryHiVal Property
 
 | Type | Default Value | Read Only | Description | 

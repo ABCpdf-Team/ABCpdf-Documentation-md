@@ -1,3 +1,8 @@
+---
+title: "setgray"
+css: "abcpdf-docs.css"
+---
+
 # SetGray Function
 
 Set the color to a grayscale value.

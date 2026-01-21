@@ -1,3 +1,8 @@
+---
+title: "fontsize"
+css: "abcpdf-docs.css"
+---
+
 # FontSize Property
 
 | Type | Default | Read Only | Description | 

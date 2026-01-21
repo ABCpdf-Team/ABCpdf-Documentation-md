@@ -1,3 +1,8 @@
+---
+title: "01-boxstyleelement"
+css: "abcpdf-docs.css"
+---
+
 # BoxStyleElement Function
 
 Create a new [BoxStyleElement](../default.md).

@@ -1,3 +1,8 @@
+---
+title: "12-shadingpatterns"
+css: "abcpdf-docs.css"
+---
+
 # ShadingPatterns Property
 
 | Type | Default Value | Read Only | Description | 

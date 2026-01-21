@@ -1,3 +1,8 @@
+---
+title: "07-entryuser"
+css: "abcpdf-docs.css"
+---
+
 # EntryUser Property
 
 | Type | Default Value | Read Only | Description | 

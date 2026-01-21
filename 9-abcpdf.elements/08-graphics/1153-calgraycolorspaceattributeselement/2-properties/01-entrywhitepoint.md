@@ -1,3 +1,8 @@
+---
+title: "01-entrywhitepoint"
+css: "abcpdf-docs.css"
+---
+
 # EntryWhitePoint Property
 
 | Type | Default Value | Read Only | Description | 

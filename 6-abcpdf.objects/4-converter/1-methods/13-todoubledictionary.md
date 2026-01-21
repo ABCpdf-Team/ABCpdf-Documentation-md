@@ -1,3 +1,8 @@
+---
+title: "13-todoubledictionary"
+css: "abcpdf-docs.css"
+---
+
 # ToDoubleDictionary Function
 
 Attempts to convert a DictAtom into a Dictionary of doubles, resolving any references as necessary.

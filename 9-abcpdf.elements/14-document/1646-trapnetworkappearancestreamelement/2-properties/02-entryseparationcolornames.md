@@ -1,3 +1,8 @@
+---
+title: "02-entryseparationcolornames"
+css: "abcpdf-docs.css"
+---
+
 # EntrySeparationColorNames Property
 
 | Type | Default Value | Read Only | Description | 

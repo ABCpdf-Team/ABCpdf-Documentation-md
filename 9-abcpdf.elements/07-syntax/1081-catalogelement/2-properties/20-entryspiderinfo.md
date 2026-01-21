@@ -1,3 +1,8 @@
+---
+title: "20-entryspiderinfo"
+css: "abcpdf-docs.css"
+---
+
 # EntrySpiderInfo Property
 
 | Type | Default Value | Read Only | Description | 

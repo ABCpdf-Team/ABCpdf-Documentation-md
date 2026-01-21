@@ -1,3 +1,8 @@
+---
+title: "01-linkannotationelement"
+css: "abcpdf-docs.css"
+---
+
 # LinkAnnotationElement Function
 
 Create a new [LinkAnnotationElement](../default.md).

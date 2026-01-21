@@ -1,3 +1,8 @@
+---
+title: "07-entryi"
+css: "abcpdf-docs.css"
+---
+
 # EntryI Property
 
 | Type | Default Value | Read Only | Description | 

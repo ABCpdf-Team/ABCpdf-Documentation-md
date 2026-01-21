@@ -1,3 +1,8 @@
+---
+title: "08-copyto"
+css: "abcpdf-docs.css"
+---
+
 # CopyTo Function
 
 Copies the [Elements](../../1086-element/default.md) into an array.

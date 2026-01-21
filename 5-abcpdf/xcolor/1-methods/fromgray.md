@@ -1,3 +1,8 @@
+---
+title: "fromgray"
+css: "abcpdf-docs.css"
+---
+
 # FromGray Function
 
 Create an XColor from a grayscale value.

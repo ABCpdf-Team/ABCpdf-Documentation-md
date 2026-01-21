@@ -1,3 +1,8 @@
+---
+title: "07-replaceimages"
+css: "abcpdf-docs.css"
+---
+
 # ReplaceImages Function
 
 Replace a set of images with a new one.

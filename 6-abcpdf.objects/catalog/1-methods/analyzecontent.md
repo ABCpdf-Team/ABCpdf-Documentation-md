@@ -1,3 +1,8 @@
+---
+title: "analyzecontent"
+css: "abcpdf-docs.css"
+---
+
 # AnalyzeContent Function
 
 Perform whole document analysis of page contents.

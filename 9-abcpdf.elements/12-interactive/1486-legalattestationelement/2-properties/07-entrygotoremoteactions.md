@@ -1,3 +1,8 @@
+---
+title: "07-entrygotoremoteactions"
+css: "abcpdf-docs.css"
+---
+
 # EntryGoToRemoteActions Property
 
 | Type | Default Value | Read Only | Description | 

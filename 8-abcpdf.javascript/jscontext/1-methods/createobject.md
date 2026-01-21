@@ -1,3 +1,8 @@
+---
+title: "createobject"
+css: "abcpdf-docs.css"
+---
+
 # CreateObject Method
 
 Creates a JavaScript object.

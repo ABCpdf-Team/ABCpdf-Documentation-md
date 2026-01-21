@@ -1,3 +1,8 @@
+---
+title: "12-minimumsize"
+css: "abcpdf-docs.css"
+---
+
 # MinimumSize Property
 
 | Type | Default Value | Read Only | Description | 

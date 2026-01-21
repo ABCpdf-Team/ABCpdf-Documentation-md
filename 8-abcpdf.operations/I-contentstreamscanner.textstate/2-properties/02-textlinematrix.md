@@ -1,3 +1,8 @@
+---
+title: "02-textlinematrix"
+css: "abcpdf-docs.css"
+---
+
 # TextLineMatrix Property
 
 | Type | Default Value | Read Only | Description | 

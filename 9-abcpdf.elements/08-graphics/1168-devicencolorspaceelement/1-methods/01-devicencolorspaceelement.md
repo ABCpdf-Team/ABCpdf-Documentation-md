@@ -1,3 +1,8 @@
+---
+title: "01-devicencolorspaceelement"
+css: "abcpdf-docs.css"
+---
+
 # DeviceNColorSpaceElement Function
 
 Create a new [DeviceNColorSpaceElement](../default.md).

@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # SoundAnnotationElement Class
 
 This class represents the sound annotation. This is definitively detailed in:.

@@ -1,3 +1,8 @@
+---
+title: "02-entrydirection"
+css: "abcpdf-docs.css"
+---
+
 # EntryDirection Property
 
 | Type | Default Value | Read Only | Description | 

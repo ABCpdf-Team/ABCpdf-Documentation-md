@@ -1,3 +1,8 @@
+---
+title: "14-entryucr"
+css: "abcpdf-docs.css"
+---
+
 # EntryUCR Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "getpositionandlength"
+css: "abcpdf-docs.css"
+---
+
 # GetPositionAndLength Function
 
 Gets the position and length of an operator and the parameters that it takes.

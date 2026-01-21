@@ -1,3 +1,8 @@
+---
+title: "05-entrynavigationpane"
+css: "abcpdf-docs.css"
+---
+
 # EntryNavigationPane Property
 
 | Type | Default Value | Read Only | Description | 

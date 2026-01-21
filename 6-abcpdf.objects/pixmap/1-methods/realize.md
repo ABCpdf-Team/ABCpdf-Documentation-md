@@ -1,3 +1,8 @@
+---
+title: "realize"
+css: "abcpdf-docs.css"
+---
+
 # Realize Function
 
 Converts the image to component color.

@@ -1,3 +1,8 @@
+---
+title: "04-entrypdu"
+css: "abcpdf-docs.css"
+---
+
 # EntryPDU Property
 
 | Type | Default Value | Read Only | Description | 

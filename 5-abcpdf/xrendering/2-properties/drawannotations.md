@@ -1,3 +1,8 @@
+---
+title: "drawannotations"
+css: "abcpdf-docs.css"
+---
+
 # DrawAnnotations Property
 
 | Type | Default Value | Read Only | Description | 

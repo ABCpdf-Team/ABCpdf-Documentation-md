@@ -1,3 +1,8 @@
+---
+title: "18-entryca"
+css: "abcpdf-docs.css"
+---
+
 # EntryCA Property
 
 | Type | Default Value | Read Only | Description | 

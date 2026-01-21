@@ -1,3 +1,8 @@
+---
+title: "save"
+css: "abcpdf-docs.css"
+---
+
 # Save Function
 
 Saves the PixMap to stream attempting to preserve resolution, color space and depth as far as the output format allows

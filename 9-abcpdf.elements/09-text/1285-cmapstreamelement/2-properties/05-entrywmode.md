@@ -1,3 +1,8 @@
+---
+title: "05-entrywmode"
+css: "abcpdf-docs.css"
+---
+
 # EntryWMode Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "validasint64"
+css: "abcpdf-docs.css"
+---
+
 # ValidAsInt64 Property
 
 | Type | Default Value | Read Only | Description | 

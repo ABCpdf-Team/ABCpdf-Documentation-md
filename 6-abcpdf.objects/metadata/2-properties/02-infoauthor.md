@@ -1,3 +1,8 @@
+---
+title: "02-infoauthor"
+css: "abcpdf-docs.css"
+---
+
 # InfoAuthor Property
 
 | Type | Default Value | Read Only | Description | 

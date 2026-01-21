@@ -1,3 +1,8 @@
+---
+title: "03-entryconfigurations"
+css: "abcpdf-docs.css"
+---
+
 # EntryConfigurations Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "02-entrytid"
+css: "abcpdf-docs.css"
+---
+
 # EntryTID Property
 
 | Type | Default Value | Read Only | Description | 

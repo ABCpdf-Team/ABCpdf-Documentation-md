@@ -1,3 +1,8 @@
+---
+title: "18-entryannots"
+css: "abcpdf-docs.css"
+---
+
 # EntryAnnots Property
 
 | Type | Default Value | Read Only | Description | 

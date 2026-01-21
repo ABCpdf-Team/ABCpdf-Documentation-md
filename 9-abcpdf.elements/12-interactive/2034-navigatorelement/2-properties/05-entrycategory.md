@@ -1,3 +1,8 @@
+---
+title: "05-entrycategory"
+css: "abcpdf-docs.css"
+---
+
 # EntryCategory Property
 
 | Type | Default Value | Read Only | Description | 

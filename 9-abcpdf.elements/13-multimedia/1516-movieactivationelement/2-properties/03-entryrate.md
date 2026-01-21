@@ -1,3 +1,8 @@
+---
+title: "03-entryrate"
+css: "abcpdf-docs.css"
+---
+
 # EntryRate Property
 
 | Type | Default Value | Read Only | Description | 

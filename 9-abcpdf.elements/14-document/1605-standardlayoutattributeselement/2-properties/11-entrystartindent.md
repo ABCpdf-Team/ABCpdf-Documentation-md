@@ -1,3 +1,8 @@
+---
+title: "11-entrystartindent"
+css: "abcpdf-docs.css"
+---
+
 # EntryStartIndent Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "fontascent"
+css: "abcpdf-docs.css"
+---
+
 # FontAscent Property
 
 | Type | Default Value | Read Only | Description | 

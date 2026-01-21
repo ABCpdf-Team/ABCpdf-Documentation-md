@@ -1,3 +1,8 @@
+---
+title: "stringatom"
+css: "abcpdf-docs.css"
+---
+
 # StringAtom Constructor
 
 Construct a StringAtom.

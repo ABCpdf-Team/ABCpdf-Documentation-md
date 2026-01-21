@@ -1,3 +1,8 @@
+---
+title: "getdata"
+css: "abcpdf-docs.css"
+---
+
 # GetData Function
 
 Get the conforming document as raw data.

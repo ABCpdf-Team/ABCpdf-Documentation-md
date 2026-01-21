@@ -1,3 +1,8 @@
+---
+title: "fontbbox"
+css: "abcpdf-docs.css"
+---
+
 # FontBBox Property
 
 | Type | Default Value | Read Only | Description | 

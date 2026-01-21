@@ -1,3 +1,8 @@
+---
+title: "1-objectsoupsubset"
+css: "abcpdf-docs.css"
+---
+
 # ObjectSoupSubset Constructor
 
 Construct an ObjectSoupSubset.

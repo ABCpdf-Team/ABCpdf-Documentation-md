@@ -1,3 +1,8 @@
+---
+title: "dpiy"
+css: "abcpdf-docs.css"
+---
+
 # DpiY Property
 
 | Type | Default | Read Only | Description | 

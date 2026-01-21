@@ -1,3 +1,8 @@
+---
+title: "08-entrydsn"
+css: "abcpdf-docs.css"
+---
+
 # EntryDSn Property
 
 | Type | Default Value | Read Only | Description | 

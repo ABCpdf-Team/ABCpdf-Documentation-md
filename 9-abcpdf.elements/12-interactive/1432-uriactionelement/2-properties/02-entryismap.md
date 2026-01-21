@@ -1,3 +1,8 @@
+---
+title: "02-entryismap"
+css: "abcpdf-docs.css"
+---
+
 # EntryIsMap Property
 
 | Type | Default Value | Read Only | Description | 

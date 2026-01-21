@@ -1,3 +1,8 @@
+---
+title: "findheaders"
+css: "abcpdf-docs.css"
+---
+
 # FindHeaders Property
 
 | Type | Default | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "08-linewidth"
+css: "abcpdf-docs.css"
+---
+
 # LineWidth Property
 
 | Type | Default Value | Read Only | Description | 

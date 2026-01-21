@@ -1,3 +1,8 @@
+---
+title: "05-entryencryptionrevision"
+css: "abcpdf-docs.css"
+---
+
 # EntryEncryptionRevision Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "01-geospatialmeasureelement"
+css: "abcpdf-docs.css"
+---
+
 # GeospatialMeasureElement Function
 
 Create a new [GeospatialMeasureElement](../default.md).

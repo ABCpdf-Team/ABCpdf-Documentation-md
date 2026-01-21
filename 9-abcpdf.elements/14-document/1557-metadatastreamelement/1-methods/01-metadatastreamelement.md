@@ -1,3 +1,8 @@
+---
+title: "01-metadatastreamelement"
+css: "abcpdf-docs.css"
+---
+
 # MetadataStreamElement Function
 
 Create a new [MetadataStreamElement](../default.md).

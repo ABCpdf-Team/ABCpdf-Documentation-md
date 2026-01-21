@@ -1,3 +1,8 @@
+---
+title: "defaultrect"
+css: "abcpdf-docs.css"
+---
+
 # DefaultRect Property
 
 | Type | Default | Read Only | Description | 

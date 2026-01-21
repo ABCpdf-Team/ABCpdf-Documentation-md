@@ -1,3 +1,8 @@
+---
+title: "09-textshowing"
+css: "abcpdf-docs.css"
+---
+
 # TextShowing Property
 
 | Type | Default Value | Read Only | Description | 

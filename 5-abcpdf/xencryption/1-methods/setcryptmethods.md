@@ -1,3 +1,8 @@
+---
+title: "setcryptmethods"
+css: "abcpdf-docs.css"
+---
+
 # SetCryptMethods Function
 
 Sets the crypt methods for encryption levels of [type](../2-properties/type.md) 4 or above.

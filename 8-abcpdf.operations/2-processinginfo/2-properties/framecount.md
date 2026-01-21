@@ -1,3 +1,8 @@
+---
+title: "framecount"
+css: "abcpdf-docs.css"
+---
+
 # FrameCount Property
 
 | Type | Default | Read Only | Description | 

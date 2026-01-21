@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # FreeTextAnnotationElement Class
 
 This class represents the free text annotation. This is definitively detailed in:.

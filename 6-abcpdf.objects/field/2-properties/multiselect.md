@@ -1,3 +1,8 @@
+---
+title: "multiselect"
+css: "abcpdf-docs.css"
+---
+
 # MultiSelect Property
 
 | Type | Default Value | Read Only | Description | 

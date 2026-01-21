@@ -1,3 +1,8 @@
+---
+title: "namedseparation"
+css: "abcpdf-docs.css"
+---
+
 # NamedSeparation Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "01-certificateseedvalueelement"
+css: "abcpdf-docs.css"
+---
+
 # CertificateSeedValueElement Function
 
 Create a new [CertificateSeedValueElement](../default.md).

@@ -1,3 +1,8 @@
+---
+title: "2-backgroundregion"
+css: "abcpdf-docs.css"
+---
+
 # BackgroundRegion&nbsp;Property
 
 | Type | Default | Read Only | Description | 

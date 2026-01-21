@@ -1,3 +1,8 @@
+---
+title: "02-entryopen"
+css: "abcpdf-docs.css"
+---
+
 # EntryOpen Property
 
 | Type | Default Value | Read Only | Description | 

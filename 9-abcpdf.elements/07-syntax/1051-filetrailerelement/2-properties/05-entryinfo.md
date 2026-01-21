@@ -1,3 +1,8 @@
+---
+title: "05-entryinfo"
+css: "abcpdf-docs.css"
+---
+
 # EntryInfo Property
 
 | Type | Default Value | Read Only | Description | 

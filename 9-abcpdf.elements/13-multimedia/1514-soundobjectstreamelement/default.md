@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # SoundObjectStreamElement Class
 
 This class represents the sound object stream. This is definitively detailed in:.

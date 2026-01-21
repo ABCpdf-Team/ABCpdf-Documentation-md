@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # StringAtom Class
 
 An Atom representing a text value.

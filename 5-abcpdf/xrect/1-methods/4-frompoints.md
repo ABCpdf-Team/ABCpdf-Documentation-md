@@ -1,3 +1,8 @@
+---
+title: "4-frompoints"
+css: "abcpdf-docs.css"
+---
+
 # FromPoints Function
 
 Create the smallest XRect that encloses all the points supplied.

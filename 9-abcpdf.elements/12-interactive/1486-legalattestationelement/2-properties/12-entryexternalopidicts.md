@@ -1,3 +1,8 @@
+---
+title: "12-entryexternalopidicts"
+css: "abcpdf-docs.css"
+---
+
 # EntryExternalOPIdicts Property
 
 | Type | Default Value | Read Only | Description | 

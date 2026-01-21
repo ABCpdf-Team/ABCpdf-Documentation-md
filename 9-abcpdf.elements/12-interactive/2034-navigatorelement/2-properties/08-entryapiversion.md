@@ -1,3 +1,8 @@
+---
+title: "08-entryapiversion"
+css: "abcpdf-docs.css"
+---
+
 # EntryAPIVersion Property
 
 | Type | Default Value | Read Only | Description | 

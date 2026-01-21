@@ -1,3 +1,8 @@
+---
+title: "01-atomicarrayelement_t_"
+css: "abcpdf-docs.css"
+---
+
 # AtomicArrayElement&lt;T&gt; Function
 
 Create a new [AtomicArrayElement](../default.md).

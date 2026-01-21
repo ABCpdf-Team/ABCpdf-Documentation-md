@@ -1,3 +1,8 @@
+---
+title: "09-entrylastmodified"
+css: "abcpdf-docs.css"
+---
+
 # EntryLastModified Property
 
 | Type | Default Value | Read Only | Description | 

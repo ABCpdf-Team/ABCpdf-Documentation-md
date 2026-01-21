@@ -1,3 +1,8 @@
+---
+title: "08-entrytx"
+css: "abcpdf-docs.css"
+---
+
 # EntryTX Property
 
 | Type | Default Value | Read Only | Description | 

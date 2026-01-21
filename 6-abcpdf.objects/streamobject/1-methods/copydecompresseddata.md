@@ -1,3 +1,8 @@
+---
+title: "copydecompresseddata"
+css: "abcpdf-docs.css"
+---
+
 # CopyDecompressedData Function
 
 Copy the decompressed binary content of the stream into a byte array.

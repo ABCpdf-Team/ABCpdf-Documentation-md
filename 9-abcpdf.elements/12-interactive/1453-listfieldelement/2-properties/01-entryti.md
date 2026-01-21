@@ -1,3 +1,8 @@
+---
+title: "01-entryti"
+css: "abcpdf-docs.css"
+---
+
 # EntryTI Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "getname"
+css: "abcpdf-docs.css"
+---
+
 # GetName Function
 
 Gets the Name value from the Atom if it is a NameAtom.

@@ -1,3 +1,8 @@
+---
+title: "28-entryrubyposition"
+css: "abcpdf-docs.css"
+---
+
 # EntryRubyPosition Property
 
 | Type | Default Value | Read Only | Description | 

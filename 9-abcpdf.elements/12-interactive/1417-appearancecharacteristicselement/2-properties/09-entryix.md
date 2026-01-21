@@ -1,3 +1,8 @@
+---
+title: "09-entryix"
+css: "abcpdf-docs.css"
+---
+
 # EntryIX Property
 
 | Type | Default Value | Read Only | Description | 

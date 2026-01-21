@@ -1,3 +1,8 @@
+---
+title: "04-pathpainting"
+css: "abcpdf-docs.css"
+---
+
 # PathPainting Property
 
 | Type | Default Value | Read Only | Description | 

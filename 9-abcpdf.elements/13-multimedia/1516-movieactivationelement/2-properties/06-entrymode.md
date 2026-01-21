@@ -1,3 +1,8 @@
+---
+title: "06-entrymode"
+css: "abcpdf-docs.css"
+---
+
 # EntryMode Property
 
 | Type | Default Value | Read Only | Description | 

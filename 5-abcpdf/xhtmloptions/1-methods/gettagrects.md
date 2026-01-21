@@ -1,3 +1,8 @@
+---
+title: "gettagrects"
+css: "abcpdf-docs.css"
+---
+
 # GetTagRects Function
 
 Gets an array of the locations of tagged visible items.

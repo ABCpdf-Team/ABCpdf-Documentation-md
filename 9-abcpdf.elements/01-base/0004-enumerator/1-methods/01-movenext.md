@@ -1,3 +1,8 @@
+---
+title: "01-movenext"
+css: "abcpdf-docs.css"
+---
+
 # MoveNext Function
 
 Advances the enumerator to the next element of the [DictElement](../../0003-dictelement_t_/default.md).

@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # PageContents Class
 
 Operation to analyse and manipulate the text in a set of pages.

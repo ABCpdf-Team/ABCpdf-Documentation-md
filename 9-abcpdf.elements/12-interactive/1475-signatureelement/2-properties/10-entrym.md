@@ -1,3 +1,8 @@
+---
+title: "10-entrym"
+css: "abcpdf-docs.css"
+---
+
 # EntryM Property
 
 | Type | Default Value | Read Only | Description | 

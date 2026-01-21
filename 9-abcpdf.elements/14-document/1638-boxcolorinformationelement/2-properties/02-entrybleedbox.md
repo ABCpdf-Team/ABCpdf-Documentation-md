@@ -1,3 +1,8 @@
+---
+title: "02-entrybleedbox"
+css: "abcpdf-docs.css"
+---
+
 # EntryBleedBox Property
 
 | Type | Default Value | Read Only | Description | 

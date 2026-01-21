@@ -1,3 +1,8 @@
+---
+title: "05-entryea"
+css: "abcpdf-docs.css"
+---
+
 # EntryEA Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "setrandom"
+css: "abcpdf-docs.css"
+---
+
 # SetRandom Function
 
 Set the color to a random opaque value in the current color space.

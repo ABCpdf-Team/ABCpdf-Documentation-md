@@ -1,3 +1,8 @@
+---
+title: "removeat"
+css: "abcpdf-docs.css"
+---
+
 # RemoveAt Method
 
 Removes the certificate object at the specified index.

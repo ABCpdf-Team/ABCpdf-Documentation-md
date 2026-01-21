@@ -1,3 +1,8 @@
+---
+title: "01-entryinklist"
+css: "abcpdf-docs.css"
+---
+
 # EntryInkList Property
 
 | Type | Default Value | Read Only | Description | 

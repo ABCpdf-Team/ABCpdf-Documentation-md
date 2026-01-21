@@ -1,3 +1,8 @@
+---
+title: "magnify"
+css: "abcpdf-docs.css"
+---
+
 # Magnify Function
 
 Scale about a locked anchor point.

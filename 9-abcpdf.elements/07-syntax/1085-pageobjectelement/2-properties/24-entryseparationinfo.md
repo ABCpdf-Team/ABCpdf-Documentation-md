@@ -1,3 +1,8 @@
+---
+title: "24-entryseparationinfo"
+css: "abcpdf-docs.css"
+---
+
 # EntrySeparationInfo Property
 
 | Type | Default Value | Read Only | Description | 

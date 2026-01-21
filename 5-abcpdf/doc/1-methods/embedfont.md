@@ -1,3 +1,8 @@
+---
+title: "embedfont"
+css: "abcpdf-docs.css"
+---
+
 # EmbedFont Function
 
 Embeds a font into the document.

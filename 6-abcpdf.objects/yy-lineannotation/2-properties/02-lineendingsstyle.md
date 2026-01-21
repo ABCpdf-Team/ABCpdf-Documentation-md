@@ -1,3 +1,8 @@
+---
+title: "02-lineendingsstyle"
+css: "abcpdf-docs.css"
+---
+
 # LineEndingsStyle Property
 
 | Type | Default Value | Read Only | Description | 

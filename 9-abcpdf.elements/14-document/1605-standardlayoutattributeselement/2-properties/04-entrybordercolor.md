@@ -1,3 +1,8 @@
+---
+title: "04-entrybordercolor"
+css: "abcpdf-docs.css"
+---
+
 # EntryBorderColor Property
 
 | Type | Default Value | Read Only | Description | 

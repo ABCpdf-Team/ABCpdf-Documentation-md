@@ -1,3 +1,8 @@
+---
+title: "3-deleteproperty"
+css: "abcpdf-docs.css"
+---
+
 # DeleteProperty Method
 
 Deletes this object's property.

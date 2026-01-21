@@ -1,3 +1,8 @@
+---
+title: "07-entryfontbbox"
+css: "abcpdf-docs.css"
+---
+
 # EntryFontBBox Property
 
 | Type | Default Value | Read Only | Description | 

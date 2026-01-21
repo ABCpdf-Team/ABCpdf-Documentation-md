@@ -1,3 +1,8 @@
+---
+title: "02-entryblackpoint"
+css: "abcpdf-docs.css"
+---
+
 # EntryBlackPoint Property
 
 | Type | Default Value | Read Only | Description | 

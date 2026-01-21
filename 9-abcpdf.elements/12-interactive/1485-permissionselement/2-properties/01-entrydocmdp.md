@@ -1,3 +1,8 @@
+---
+title: "01-entrydocmdp"
+css: "abcpdf-docs.css"
+---
+
 # EntryDocMDP Property
 
 | Type | Default Value | Read Only | Description | 

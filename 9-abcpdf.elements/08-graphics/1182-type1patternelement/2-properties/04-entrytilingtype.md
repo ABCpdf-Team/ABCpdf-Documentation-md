@@ -1,3 +1,8 @@
+---
+title: "04-entrytilingtype"
+css: "abcpdf-docs.css"
+---
+
 # EntryTilingType Property
 
 | Type | Default Value | Read Only | Description | 

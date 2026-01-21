@@ -1,3 +1,8 @@
+---
+title: "10-type3fonts"
+css: "abcpdf-docs.css"
+---
+
 # Type3Fonts Property
 
 | Type | Default Value | Read Only | Description | 

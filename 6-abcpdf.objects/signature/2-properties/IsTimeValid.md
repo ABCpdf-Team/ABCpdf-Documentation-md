@@ -1,3 +1,8 @@
+---
+title: "IsTimeValid"
+css: "abcpdf-docs.css"
+---
+
 # IsTimeValid Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "hasarea"
+css: "abcpdf-docs.css"
+---
+
 # HasArea Property
 
 | Type | Default | Read Only | Description | 

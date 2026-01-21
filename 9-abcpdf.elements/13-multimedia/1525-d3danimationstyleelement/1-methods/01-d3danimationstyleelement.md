@@ -1,3 +1,8 @@
+---
+title: "01-d3danimationstyleelement"
+css: "abcpdf-docs.css"
+---
+
 # D3DAnimationStyleElement Function
 
 Create a new [D3DAnimationStyleElement](../default.md).

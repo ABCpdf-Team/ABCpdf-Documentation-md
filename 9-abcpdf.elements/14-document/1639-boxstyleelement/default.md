@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # BoxStyleElement Class
 
 This class represents the box style dictionary. This is definitively detailed in:.

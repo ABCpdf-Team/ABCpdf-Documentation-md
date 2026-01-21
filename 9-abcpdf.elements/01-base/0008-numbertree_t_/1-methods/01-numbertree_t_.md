@@ -1,3 +1,8 @@
+---
+title: "01-numbertree_t_"
+css: "abcpdf-docs.css"
+---
+
 # NumberTree&lt;T&gt; Function
 
 [NumberTree](../default.md) constructor.

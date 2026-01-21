@@ -1,3 +1,8 @@
+---
+title: "measuretext"
+css: "abcpdf-docs.css"
+---
+
 # MeasureText Function
 
 Measure the length of a block of text without adding it to the page.

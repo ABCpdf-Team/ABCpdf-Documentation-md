@@ -1,3 +1,8 @@
+---
+title: "resizeimages"
+css: "abcpdf-docs.css"
+---
+
 # ResizeImages Property
 
 | Type | Default Value | Read Only | Description | 

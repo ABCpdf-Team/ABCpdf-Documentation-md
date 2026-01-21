@@ -1,3 +1,8 @@
+---
+title: "rotate"
+css: "abcpdf-docs.css"
+---
+
 # Rotate Function
 
 Rotate about a locked anchor point (angle in degrees).
@@ -64,4 +69,4 @@ End Using
 
 ![](../../../images/pdf/rotate.pdf.png)rotate.pdf
 
-Also see example code in: [ABCpdf Landscape Example](../../../4-examples/08-landscape.md), [Doc AddGrid Function](../../doc/1-methods/addgrid.md), [Doc AddXObject Function](../../doc/1-methods/addxobject.md), [Doc Transform Property](../../doc/2-properties/transform.md), [XTransform Invert Function](invert.md), [XTransform Reset Function](reset.md), [XTransform AngleUnit�Property](../2-properties/angleunit.md), [FontObject Widths Property](../../../6-abcpdf.objects/fontobject/2-properties/widths.md), [Page Rotation Property](../../../6-abcpdf.objects/page/2-properties/rotation.md), [XpsImportOperation Import Function](../../../8-abcpdf.operations/4-xpsimportoperation/1-methods/import.md).
+Also see example code in: [ABCpdf Landscape Example](../../../4-examples/08-landscape.md), [Doc AddGrid Function](../../doc/1-methods/addgrid.md), [Doc AddXObject Function](../../doc/1-methods/addxobject.md), [Doc Transform Property](../../doc/2-properties/transform.md), [XTransform Invert Function](invert.md), [XTransform Reset Function](reset.md), [XTransform AngleUnit Property](../2-properties/angleunit.md), [FontObject Widths Property](../../../6-abcpdf.objects/fontobject/2-properties/widths.md), [Page Rotation Property](../../../6-abcpdf.objects/page/2-properties/rotation.md), [XpsImportOperation Import Function](../../../8-abcpdf.operations/4-xpsimportoperation/1-methods/import.md).

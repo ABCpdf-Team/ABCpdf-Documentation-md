@@ -1,3 +1,8 @@
+---
+title: "gettext"
+css: "abcpdf-docs.css"
+---
+
 # GetText Function
 
 Get all the text in the page contents.

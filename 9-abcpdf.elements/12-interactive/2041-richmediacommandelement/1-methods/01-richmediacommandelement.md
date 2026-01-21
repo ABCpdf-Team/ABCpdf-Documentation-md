@@ -1,3 +1,8 @@
+---
+title: "01-richmediacommandelement"
+css: "abcpdf-docs.css"
+---
+
 # RichMediaCommandElement Function
 
 Create a new [RichMediaCommandElement](../default.md).

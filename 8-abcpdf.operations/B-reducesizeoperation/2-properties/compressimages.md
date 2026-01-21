@@ -1,3 +1,8 @@
+---
+title: "compressimages"
+css: "abcpdf-docs.css"
+---
+
 # CompressImages Property
 
 | Type | Default | Read Only | Description | 

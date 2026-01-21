@@ -1,3 +1,8 @@
+---
+title: "httpadditionalheaders"
+css: "abcpdf-docs.css"
+---
+
 # HttpAdditionalHeaders Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "02-equals"
+css: "abcpdf-docs.css"
+---
+
 # Equals Function
 
 Test whether the two [D3DStream](../default.md) objects are the same.

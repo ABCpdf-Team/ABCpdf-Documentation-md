@@ -1,3 +1,8 @@
+---
+title: "01-type0functionelement"
+css: "abcpdf-docs.css"
+---
+
 # Type0FunctionElement Function
 
 Create a new [Type0FunctionElement](../default.md).

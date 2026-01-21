@@ -1,3 +1,8 @@
+---
+title: "fieldrotation"
+css: "abcpdf-docs.css"
+---
+
 # FieldRotation Property
 
 | Type | Default Value | Read Only | Description | 

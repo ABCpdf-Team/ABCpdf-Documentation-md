@@ -1,3 +1,8 @@
+---
+title: "05-entryfirst"
+css: "abcpdf-docs.css"
+---
+
 # EntryFirst Property
 
 | Type | Default Value | Read Only | Description | 

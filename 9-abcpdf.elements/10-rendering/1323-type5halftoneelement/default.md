@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # Type5HalftoneElement Class
 
 This class represents the type 5 halftone dictionary. This is definitively detailed in:.

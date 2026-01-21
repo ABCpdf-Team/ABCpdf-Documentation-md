@@ -1,3 +1,8 @@
+---
+title: "defaulthalftone"
+css: "abcpdf-docs.css"
+---
+
 # DefaultHalftone Property
 
 | Type | Default Value | Read Only | Description | 

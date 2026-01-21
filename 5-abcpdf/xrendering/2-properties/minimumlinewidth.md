@@ -1,3 +1,8 @@
+---
+title: "minimumlinewidth"
+css: "abcpdf-docs.css"
+---
+
 # MinimumLineWidth Property
 
 | Type | Default Value | Read Only | Description | 

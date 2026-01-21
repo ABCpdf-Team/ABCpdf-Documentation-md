@@ -1,3 +1,8 @@
+---
+title: "06-entrynm"
+css: "abcpdf-docs.css"
+---
+
 # EntryNM Property
 
 | Type | Default Value | Read Only | Description | 

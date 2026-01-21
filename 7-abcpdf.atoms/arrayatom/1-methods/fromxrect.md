@@ -1,3 +1,8 @@
+---
+title: "fromxrect"
+css: "abcpdf-docs.css"
+---
+
 # FromXRect Function
 
 Create an ArrayAtom from a XRect representation

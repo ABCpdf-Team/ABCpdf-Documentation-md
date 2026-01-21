@@ -1,3 +1,8 @@
+---
+title: "italic"
+css: "abcpdf-docs.css"
+---
+
 # Italic Property
 
 | Type | Default | Read Only | Description | 

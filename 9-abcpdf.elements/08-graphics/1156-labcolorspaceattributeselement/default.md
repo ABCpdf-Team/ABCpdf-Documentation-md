@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # LabColorSpaceAttributesElement Class
 
 This class represents the lab colour space dictionary. This is definitively detailed in:.

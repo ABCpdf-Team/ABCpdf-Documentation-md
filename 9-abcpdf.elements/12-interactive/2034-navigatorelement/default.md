@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # NavigatorElement Class
 
 This class represents the navigator dictionary. This is definitively detailed in:.

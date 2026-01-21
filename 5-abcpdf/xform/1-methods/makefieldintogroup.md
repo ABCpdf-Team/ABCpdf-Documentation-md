@@ -1,3 +1,8 @@
+---
+title: "makefieldintogroup"
+css: "abcpdf-docs.css"
+---
+
 # MakeFieldIntoGroup Function
 
 Make duplicate fields into synchronized groups.

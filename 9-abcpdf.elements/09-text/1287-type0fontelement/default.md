@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # Type0FontElement Class
 
 This class represents the type 0 font dictionary. This is definitively detailed in:.

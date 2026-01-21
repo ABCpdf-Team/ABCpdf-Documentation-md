@@ -1,3 +1,8 @@
+---
+title: "encodedoublebyte"
+css: "abcpdf-docs.css"
+---
+
 # EncodeDoubleByte Function
 
 Encode a string into a format for use in a content stream using a composite font with a double byte CMap.

@@ -1,3 +1,8 @@
+---
+title: "getdata"
+css: "abcpdf-docs.css"
+---
+
 # GetData Function
 
 The byte array representation of the Atom as it would appear in a PDF

@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # RemoteGoToActionElement Class
 
 This class represents the remote go-to action. This is definitively detailed in:.

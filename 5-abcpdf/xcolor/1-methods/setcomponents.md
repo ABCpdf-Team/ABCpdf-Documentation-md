@@ -1,3 +1,8 @@
+---
+title: "setcomponents"
+css: "abcpdf-docs.css"
+---
+
 # SetComponents Function
 
 Set the color to a set of ColorSpace PDF components

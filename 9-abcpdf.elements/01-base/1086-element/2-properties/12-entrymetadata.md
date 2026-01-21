@@ -1,3 +1,8 @@
+---
+title: "12-entrymetadata"
+css: "abcpdf-docs.css"
+---
+
 # EntryMetadata Property
 
 | Type | Default Value | Read Only | Description | 

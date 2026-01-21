@@ -1,3 +1,8 @@
+---
+title: "disablevectorcoercion"
+css: "abcpdf-docs.css"
+---
+
 # DisableVectorCoercion Property
 
 | Type | Default Value | Read Only | Description | 

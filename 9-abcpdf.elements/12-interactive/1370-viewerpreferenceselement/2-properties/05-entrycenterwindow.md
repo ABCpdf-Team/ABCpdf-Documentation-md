@@ -1,3 +1,8 @@
+---
+title: "05-entrycenterwindow"
+css: "abcpdf-docs.css"
+---
+
 # EntryCenterWindow Property
 
 | Type | Default Value | Read Only | Description | 

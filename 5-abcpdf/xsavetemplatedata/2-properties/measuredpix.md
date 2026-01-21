@@ -1,3 +1,8 @@
+---
+title: "measuredpix"
+css: "abcpdf-docs.css"
+---
+
 # MeasureDpiX Property
 
 | Type | Default | Read Only | Description | 

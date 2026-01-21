@@ -1,3 +1,8 @@
+---
+title: "10-entryspectraldata"
+css: "abcpdf-docs.css"
+---
+
 # EntrySpectralData Property
 
 | Type | Default Value | Read Only | Description | 

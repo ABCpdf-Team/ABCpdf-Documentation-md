@@ -1,3 +1,8 @@
+---
+title: "01-entrytsm"
+css: "abcpdf-docs.css"
+---
+
 # EntryTSm Property
 
 | Type | Default Value | Read Only | Description | 

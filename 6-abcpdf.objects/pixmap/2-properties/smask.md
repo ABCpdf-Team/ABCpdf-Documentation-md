@@ -1,3 +1,8 @@
+---
+title: "smask"
+css: "abcpdf-docs.css"
+---
+
 # SMask Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "11-entryborder"
+css: "abcpdf-docs.css"
+---
+
 # EntryBorder Property
 
 | Type | Default Value | Read Only | Description | 

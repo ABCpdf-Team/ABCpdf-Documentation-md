@@ -1,3 +1,8 @@
+---
+title: "24-entrylang"
+css: "abcpdf-docs.css"
+---
+
 # EntryLang Property
 
 | Type | Default Value | Read Only | Description | 

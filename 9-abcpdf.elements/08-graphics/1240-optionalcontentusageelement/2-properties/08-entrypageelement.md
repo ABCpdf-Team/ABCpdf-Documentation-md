@@ -1,3 +1,8 @@
+---
+title: "08-entrypageelement"
+css: "abcpdf-docs.css"
+---
+
 # EntryPageElement Property
 
 | Type | Default Value | Read Only | Description | 

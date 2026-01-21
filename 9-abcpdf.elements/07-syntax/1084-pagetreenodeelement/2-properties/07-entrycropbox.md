@@ -1,3 +1,8 @@
+---
+title: "07-entrycropbox"
+css: "abcpdf-docs.css"
+---
+
 # EntryCropBox Property
 
 | Type | Default Value | Read Only | Description | 

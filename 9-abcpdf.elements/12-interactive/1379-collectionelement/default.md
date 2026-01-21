@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # CollectionElement Class
 
 This class represents the collection dictionary. This is definitively detailed in:.

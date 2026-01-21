@@ -1,3 +1,8 @@
+---
+title: "includecolor"
+css: "abcpdf-docs.css"
+---
+
 # IncludeColor Property
 
 | Type | Default | Read Only | Description | 

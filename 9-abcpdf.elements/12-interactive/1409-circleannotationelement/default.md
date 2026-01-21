@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # CircleAnnotationElement Class
 
 This class represents the circle annotation. This is definitively detailed in:.

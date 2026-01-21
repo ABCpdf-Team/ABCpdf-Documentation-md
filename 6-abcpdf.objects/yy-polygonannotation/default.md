@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # PolygonAnnotation Class
 
 Polygon annotation.

@@ -1,3 +1,8 @@
+---
+title: "backgroundcolor"
+css: "abcpdf-docs.css"
+---
+
 # BackgroundColor Property
 
 | Type | Default | Read Only | Description | 

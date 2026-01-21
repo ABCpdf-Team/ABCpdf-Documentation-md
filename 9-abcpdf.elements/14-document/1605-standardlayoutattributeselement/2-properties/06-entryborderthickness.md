@@ -1,3 +1,8 @@
+---
+title: "06-entryborderthickness"
+css: "abcpdf-docs.css"
+---
+
 # EntryBorderThickness Property
 
 | Type | Default Value | Read Only | Description | 

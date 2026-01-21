@@ -1,3 +1,8 @@
+---
+title: "killapplication"
+css: "abcpdf-docs.css"
+---
+
 # KillApplication Function
 
 Terminates a running import application.

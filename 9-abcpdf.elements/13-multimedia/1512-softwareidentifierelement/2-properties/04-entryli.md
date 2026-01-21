@@ -1,3 +1,8 @@
+---
+title: "04-entryli"
+css: "abcpdf-docs.css"
+---
+
 # EntryLI Property
 
 | Type | Default Value | Read Only | Description | 

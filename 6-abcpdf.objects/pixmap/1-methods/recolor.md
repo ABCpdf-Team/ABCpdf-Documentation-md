@@ -1,3 +1,8 @@
+---
+title: "recolor"
+css: "abcpdf-docs.css"
+---
+
 # Recolor Function
 
 Converts the image from one color space to another.

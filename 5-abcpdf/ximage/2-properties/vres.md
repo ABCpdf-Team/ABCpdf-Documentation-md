@@ -1,3 +1,8 @@
+---
+title: "vres"
+css: "abcpdf-docs.css"
+---
+
 # VRes Property
 
 | Type | Default | Read Only | Description | 

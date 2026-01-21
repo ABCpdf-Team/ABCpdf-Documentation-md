@@ -1,3 +1,8 @@
+---
+title: "excludedconformity"
+css: "abcpdf-docs.css"
+---
+
 # ExcludedConformity Property
 
 | Type | Default | Read Only | Description | 

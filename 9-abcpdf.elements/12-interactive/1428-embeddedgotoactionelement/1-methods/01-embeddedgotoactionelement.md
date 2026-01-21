@@ -1,3 +1,8 @@
+---
+title: "01-embeddedgotoactionelement"
+css: "abcpdf-docs.css"
+---
+
 # EmbeddedGoToActionElement Function
 
 Create a new [EmbeddedGoToActionElement](../default.md).

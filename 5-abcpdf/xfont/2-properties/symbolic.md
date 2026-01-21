@@ -1,3 +1,8 @@
+---
+title: "symbolic"
+css: "abcpdf-docs.css"
+---
+
 # Symbolic Property
 
 | Type | Default | Read Only | Description | 

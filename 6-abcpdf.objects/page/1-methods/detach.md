@@ -1,3 +1,8 @@
+---
+title: "detach"
+css: "abcpdf-docs.css"
+---
+
 # Detach Function
 
 Detaches a content stream from the page.

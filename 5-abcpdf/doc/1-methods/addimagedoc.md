@@ -1,3 +1,8 @@
+---
+title: "addimagedoc"
+css: "abcpdf-docs.css"
+---
+
 # AddImageDoc Function
 
 Draw a page from one PDF document onto the current page of this document.

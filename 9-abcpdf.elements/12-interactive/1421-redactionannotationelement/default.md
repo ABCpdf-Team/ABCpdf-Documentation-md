@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # RedactionAnnotationElement Class
 
 This class represents the redaction annotation. This is definitively detailed in:.

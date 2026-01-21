@@ -1,3 +1,8 @@
+---
+title: "checkglyphs"
+css: "abcpdf-docs.css"
+---
+
 # CheckGlyphs Property
 
 | Type | Default Value | Read Only | Description | 

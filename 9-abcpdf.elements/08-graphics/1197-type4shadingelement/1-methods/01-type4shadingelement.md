@@ -1,3 +1,8 @@
+---
+title: "01-type4shadingelement"
+css: "abcpdf-docs.css"
+---
+
 # Type4ShadingElement Function
 
 Create a new [Type4ShadingElement](../default.md).

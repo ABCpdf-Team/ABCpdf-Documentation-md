@@ -1,3 +1,8 @@
+---
+title: "03-extractstructure"
+css: "abcpdf-docs.css"
+---
+
 # ExtractStructure Function
 
 Extract the structure in an HTML-like format that can be displayed in a browser.

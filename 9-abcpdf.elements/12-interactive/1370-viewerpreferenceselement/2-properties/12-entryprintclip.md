@@ -1,3 +1,8 @@
+---
+title: "12-entryprintclip"
+css: "abcpdf-docs.css"
+---
+
 # EntryPrintClip Property
 
 | Type | Default Value | Read Only | Description | 

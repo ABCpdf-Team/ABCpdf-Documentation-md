@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # MediaOffsetTimeElement Class
 
 This class represents the media offset time dictionary. This is definitively detailed in:.

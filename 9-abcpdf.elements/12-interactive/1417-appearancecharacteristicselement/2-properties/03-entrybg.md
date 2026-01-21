@@ -1,3 +1,8 @@
+---
+title: "03-entrybg"
+css: "abcpdf-docs.css"
+---
+
 # EntryBG Property
 
 | Type | Default Value | Read Only | Description | 

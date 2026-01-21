@@ -1,3 +1,8 @@
+---
+title: "16-smoothness"
+css: "abcpdf-docs.css"
+---
+
 # Smoothness Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "01-remotegotoactionelement"
+css: "abcpdf-docs.css"
+---
+
 # RemoteGoToActionElement Function
 
 Create a new [RemoteGoToActionElement](../default.md).

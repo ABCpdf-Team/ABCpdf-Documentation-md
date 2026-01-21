@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # CollectionSplitElement Class
 
 This class represents the collection split dictionary. This is definitively detailed in:.

@@ -1,3 +1,8 @@
+---
+title: "alpha"
+css: "abcpdf-docs.css"
+---
+
 # Alpha Property
 
 | Type | Default | Read Only | Description | 

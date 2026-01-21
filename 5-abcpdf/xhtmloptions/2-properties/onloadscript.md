@@ -1,3 +1,8 @@
+---
+title: "onloadscript"
+css: "abcpdf-docs.css"
+---
+
 # OnLoadScript Property
 
 | Type | Default Value | Read Only | Description | 

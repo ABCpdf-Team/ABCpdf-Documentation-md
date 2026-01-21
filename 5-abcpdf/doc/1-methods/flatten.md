@@ -1,3 +1,8 @@
+---
+title: "flatten"
+css: "abcpdf-docs.css"
+---
+
 # Flatten Function
 
 Flattens and compresses the current page.

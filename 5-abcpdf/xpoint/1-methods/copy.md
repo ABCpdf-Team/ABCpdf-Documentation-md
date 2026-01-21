@@ -1,3 +1,8 @@
+---
+title: "copy"
+css: "abcpdf-docs.css"
+---
+
 # Copy Function
 
 Copies a series of X and Y coordinates between arrays of doubles and arrays of XPoints

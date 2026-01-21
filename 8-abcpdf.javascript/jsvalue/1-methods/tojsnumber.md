@@ -1,3 +1,8 @@
+---
+title: "tojsnumber"
+css: "abcpdf-docs.css"
+---
+
 # ToJSNumber Method
 
 Gets a number from this value using the standard JavaScript conversion.

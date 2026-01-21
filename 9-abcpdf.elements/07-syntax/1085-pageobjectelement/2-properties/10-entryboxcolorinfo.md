@@ -1,3 +1,8 @@
+---
+title: "10-entryboxcolorinfo"
+css: "abcpdf-docs.css"
+---
+
 # EntryBoxColorInfo Property
 
 | Type | Default Value | Read Only | Description | 

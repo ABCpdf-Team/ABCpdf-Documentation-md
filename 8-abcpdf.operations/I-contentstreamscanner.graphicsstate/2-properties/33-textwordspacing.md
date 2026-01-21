@@ -1,3 +1,8 @@
+---
+title: "33-textwordspacing"
+css: "abcpdf-docs.css"
+---
+
 # TextWordSpacing Property
 
 | Type | Default Value | Read Only | Description | 

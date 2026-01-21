@@ -1,3 +1,8 @@
+---
+title: "09-entryascent"
+css: "abcpdf-docs.css"
+---
+
 # EntryAscent Property
 
 | Type | Default Value | Read Only | Description | 

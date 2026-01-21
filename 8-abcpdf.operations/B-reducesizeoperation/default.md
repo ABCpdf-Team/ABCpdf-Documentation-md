@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # ReduceSizeOperation Class
 
 Operation to reduce the size of a document.

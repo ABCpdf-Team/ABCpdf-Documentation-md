@@ -1,3 +1,8 @@
+---
+title: "fromcomponents"
+css: "abcpdf-docs.css"
+---
+
 # FromComponents Function
 
 Create an XColor from a set of PDF components in the generic ColorSpace color space.

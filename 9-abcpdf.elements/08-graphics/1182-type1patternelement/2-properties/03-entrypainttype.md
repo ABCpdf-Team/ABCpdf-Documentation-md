@@ -1,3 +1,8 @@
+---
+title: "03-entrypainttype"
+css: "abcpdf-docs.css"
+---
+
 # EntryPaintType Property
 
 | Type | Default Value | Read Only | Description | 

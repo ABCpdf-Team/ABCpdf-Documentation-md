@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # StandardEncryptionElement Class
 
 This class represents the standard security handler encryption dictionary. This is definitively detailed in:.

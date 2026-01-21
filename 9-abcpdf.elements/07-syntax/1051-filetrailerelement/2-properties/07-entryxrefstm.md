@@ -1,3 +1,8 @@
+---
+title: "07-entryxrefstm"
+css: "abcpdf-docs.css"
+---
+
 # EntryXRefStm Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "getvaluedouble"
+css: "abcpdf-docs.css"
+---
+
 # GetValueDouble Method
 
 Gets the Double value of this value converted to number using the standard JavaScript conversion.

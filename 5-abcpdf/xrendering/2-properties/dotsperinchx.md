@@ -1,3 +1,8 @@
+---
+title: "dotsperinchx"
+css: "abcpdf-docs.css"
+---
+
 # DotsPerInchX Property
 
 | Type | Default Value | Read Only | Description | 

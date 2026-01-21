@@ -1,3 +1,8 @@
+---
+title: "04-entryic"
+css: "abcpdf-docs.css"
+---
+
 # EntryIC Property
 
 | Type | Default Value | Read Only | Description | 

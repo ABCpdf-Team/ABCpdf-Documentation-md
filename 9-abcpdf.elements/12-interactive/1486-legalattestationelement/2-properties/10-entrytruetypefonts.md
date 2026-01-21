@@ -1,3 +1,8 @@
+---
+title: "10-entrytruetypefonts"
+css: "abcpdf-docs.css"
+---
+
 # EntryTrueTypeFonts Property
 
 | Type | Default Value | Read Only | Description | 

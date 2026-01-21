@@ -1,3 +1,8 @@
+---
+title: "call"
+css: "abcpdf-docs.css"
+---
+
 # Call Method
 
 Calls this function.

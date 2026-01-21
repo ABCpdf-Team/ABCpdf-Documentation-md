@@ -1,3 +1,8 @@
+---
+title: "03-entryhidewindowui"
+css: "abcpdf-docs.css"
+---
+
 # EntryHideWindowUI Property
 
 | Type | Default Value | Read Only | Description | 

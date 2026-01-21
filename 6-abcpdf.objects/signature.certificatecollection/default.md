@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # CertificateCollection Class
 
 Represents a collection of X509Certificate2 objects.

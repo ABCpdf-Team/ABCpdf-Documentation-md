@@ -1,3 +1,8 @@
+---
+title: "10-entryheaders"
+css: "abcpdf-docs.css"
+---
+
 # EntryHeaders Property
 
 | Type | Default Value | Read Only | Description | 

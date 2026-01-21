@@ -1,3 +1,8 @@
+---
+title: "12-entryopi"
+css: "abcpdf-docs.css"
+---
+
 # EntryOPI Property
 
 | Type | Default Value | Read Only | Description | 

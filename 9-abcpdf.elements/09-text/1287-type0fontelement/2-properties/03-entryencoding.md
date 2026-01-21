@@ -1,3 +1,8 @@
+---
+title: "03-entryencoding"
+css: "abcpdf-docs.css"
+---
+
 # EntryEncoding Property
 
 | Type | Default Value | Read Only | Description | 

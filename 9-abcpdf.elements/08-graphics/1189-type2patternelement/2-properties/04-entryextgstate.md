@@ -1,3 +1,8 @@
+---
+title: "04-entryextgstate"
+css: "abcpdf-docs.css"
+---
+
 # EntryExtGState Property
 
 | Type | Default Value | Read Only | Description | 

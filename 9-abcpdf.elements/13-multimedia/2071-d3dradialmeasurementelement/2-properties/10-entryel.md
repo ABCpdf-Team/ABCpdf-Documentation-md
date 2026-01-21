@@ -1,3 +1,8 @@
+---
+title: "10-entryel"
+css: "abcpdf-docs.css"
+---
+
 # EntryEL Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "01-navigatorelement"
+css: "abcpdf-docs.css"
+---
+
 # NavigatorElement Function
 
 Create a new [NavigatorElement](../default.md).

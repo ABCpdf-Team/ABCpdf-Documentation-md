@@ -1,3 +1,8 @@
+---
+title: "colorspacetype"
+css: "abcpdf-docs.css"
+---
+
 # ColorSpaceType Property
 
 | Type | Default | Read Only | Description | 

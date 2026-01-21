@@ -1,3 +1,8 @@
+---
+title: "01-richmediapresentationelement"
+css: "abcpdf-docs.css"
+---
+
 # RichMediaPresentationElement Function
 
 Create a new [RichMediaPresentationElement](../default.md).

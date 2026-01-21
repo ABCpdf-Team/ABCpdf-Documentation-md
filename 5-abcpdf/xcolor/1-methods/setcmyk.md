@@ -1,3 +1,8 @@
+---
+title: "setcmyk"
+css: "abcpdf-docs.css"
+---
+
 # SetCmyk Function
 
 Set the color to an CMYK value.

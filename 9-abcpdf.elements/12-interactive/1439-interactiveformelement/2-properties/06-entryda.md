@@ -1,3 +1,8 @@
+---
+title: "06-entryda"
+css: "abcpdf-docs.css"
+---
+
 # EntryDA Property
 
 | Type | Default Value | Read Only | Description | 

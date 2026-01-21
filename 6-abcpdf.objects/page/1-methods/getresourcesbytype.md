@@ -1,3 +1,8 @@
+---
+title: "getresourcesbytype"
+css: "abcpdf-docs.css"
+---
+
 # GetResourcesByType Function
 
 Get all the resources of a named type, optionally including any used by referenced objects.

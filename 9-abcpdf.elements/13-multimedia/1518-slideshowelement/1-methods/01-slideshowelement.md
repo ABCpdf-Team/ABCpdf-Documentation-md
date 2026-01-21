@@ -1,3 +1,8 @@
+---
+title: "01-slideshowelement"
+css: "abcpdf-docs.css"
+---
+
 # SlideshowElement Function
 
 Create a new [SlideshowElement](../default.md).

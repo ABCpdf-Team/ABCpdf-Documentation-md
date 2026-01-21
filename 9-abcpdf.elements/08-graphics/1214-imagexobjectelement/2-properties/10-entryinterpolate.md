@@ -1,3 +1,8 @@
+---
+title: "10-entryinterpolate"
+css: "abcpdf-docs.css"
+---
+
 # EntryInterpolate Property
 
 | Type | Default Value | Read Only | Description | 

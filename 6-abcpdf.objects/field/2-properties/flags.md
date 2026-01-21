@@ -1,3 +1,8 @@
+---
+title: "flags"
+css: "abcpdf-docs.css"
+---
+
 # Flags Property
 
 | Type | Default Value | Read Only | Description | 

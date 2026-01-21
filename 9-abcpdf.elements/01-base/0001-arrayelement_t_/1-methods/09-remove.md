@@ -1,3 +1,8 @@
+---
+title: "09-remove"
+css: "abcpdf-docs.css"
+---
+
 # Remove Function
 
 Removes an [Element](../../1086-element/default.md) from the array.

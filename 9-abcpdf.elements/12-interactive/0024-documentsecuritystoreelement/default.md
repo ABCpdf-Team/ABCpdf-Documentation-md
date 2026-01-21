@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # DocumentSecurityStoreElement Class
 
 This class represents the document security store dictionary. This is definitively detailed in:.

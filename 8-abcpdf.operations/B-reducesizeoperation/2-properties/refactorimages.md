@@ -1,3 +1,8 @@
+---
+title: "refactorimages"
+css: "abcpdf-docs.css"
+---
+
 # RefactorImages Property
 
 | Type | Default | Read Only | Description | 

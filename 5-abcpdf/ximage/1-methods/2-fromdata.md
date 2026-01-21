@@ -1,3 +1,8 @@
+---
+title: "2-fromdata"
+css: "abcpdf-docs.css"
+---
+
 # FromData Function
 
 Creates an XImage from an array of bytes.

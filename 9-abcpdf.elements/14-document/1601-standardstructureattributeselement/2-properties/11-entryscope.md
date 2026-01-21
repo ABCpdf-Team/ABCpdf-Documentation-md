@@ -1,3 +1,8 @@
+---
+title: "11-entryscope"
+css: "abcpdf-docs.css"
+---
+
 # EntryScope Property
 
 | Type | Default Value | Read Only | Description | 

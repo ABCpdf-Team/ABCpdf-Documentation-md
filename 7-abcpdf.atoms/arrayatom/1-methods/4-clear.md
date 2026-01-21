@@ -1,3 +1,8 @@
+---
+title: "4-clear"
+css: "abcpdf-docs.css"
+---
+
 # Clear Function
 
 Removes all Atoms from the array.

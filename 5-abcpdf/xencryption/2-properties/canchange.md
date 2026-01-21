@@ -1,3 +1,8 @@
+---
+title: "canchange"
+css: "abcpdf-docs.css"
+---
+
 # CanChange Property
 
 | Type | Default Value | Read Only | Description | 

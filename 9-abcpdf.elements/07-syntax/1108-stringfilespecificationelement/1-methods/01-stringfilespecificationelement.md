@@ -1,3 +1,8 @@
+---
+title: "01-stringfilespecificationelement"
+css: "abcpdf-docs.css"
+---
+
 # StringFileSpecificationElement Function
 
 Create a new [StringFileSpecificationElement](../default.md).

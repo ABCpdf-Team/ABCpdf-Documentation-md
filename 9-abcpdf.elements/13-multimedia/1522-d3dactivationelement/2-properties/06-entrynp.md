@@ -1,3 +1,8 @@
+---
+title: "06-entrynp"
+css: "abcpdf-docs.css"
+---
+
 # EntryNP Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "01-d3dcrosssectionelement"
+css: "abcpdf-docs.css"
+---
+
 # D3DCrossSectionElement Function
 
 Create a new [D3DCrossSectionElement](../default.md).

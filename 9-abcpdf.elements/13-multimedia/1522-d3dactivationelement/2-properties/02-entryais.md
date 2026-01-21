@@ -1,3 +1,8 @@
+---
+title: "02-entryais"
+css: "abcpdf-docs.css"
+---
+
 # EntryAIS Property
 
 | Type | Default Value | Read Only | Description | 

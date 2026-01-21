@@ -1,3 +1,8 @@
+---
+title: "includeannotations"
+css: "abcpdf-docs.css"
+---
+
 # IncludeAnnotations Property
 
 | Type | Default | Read Only | Description | 

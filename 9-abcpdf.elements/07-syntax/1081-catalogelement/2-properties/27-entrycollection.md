@@ -1,3 +1,8 @@
+---
+title: "27-entrycollection"
+css: "abcpdf-docs.css"
+---
+
 # EntryCollection Property
 
 | Type | Default Value | Read Only | Description | 

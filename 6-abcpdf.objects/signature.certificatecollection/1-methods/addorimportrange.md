@@ -1,3 +1,8 @@
+---
+title: "addorimportrange"
+css: "abcpdf-docs.css"
+---
+
 # AddOrImportRange Method
 
 Adds the certificate objects or imports the certificates from the files to this collection for those whose values are not already present.

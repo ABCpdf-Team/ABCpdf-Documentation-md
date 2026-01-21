@@ -1,3 +1,8 @@
+---
+title: "06-confidencecolor"
+css: "abcpdf-docs.css"
+---
+
 # ConfidenceColor Property
 
 | Type | Default Value | Read Only | Description | 

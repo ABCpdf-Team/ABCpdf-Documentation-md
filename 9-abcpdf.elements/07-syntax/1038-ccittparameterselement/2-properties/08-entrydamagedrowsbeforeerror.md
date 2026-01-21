@@ -1,3 +1,8 @@
+---
+title: "08-entrydamagedrowsbeforeerror"
+css: "abcpdf-docs.css"
+---
+
 # EntryDamagedRowsBeforeError Property
 
 | Type | Default Value | Read Only | Description | 

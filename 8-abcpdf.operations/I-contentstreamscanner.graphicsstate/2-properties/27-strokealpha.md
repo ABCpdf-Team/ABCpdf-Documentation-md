@@ -1,3 +1,8 @@
+---
+title: "27-strokealpha"
+css: "abcpdf-docs.css"
+---
+
 # StrokeAlpha Property
 
 | Type | Default Value | Read Only | Description | 

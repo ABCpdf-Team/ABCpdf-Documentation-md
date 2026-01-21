@@ -1,3 +1,8 @@
+---
+title: "17-entrynumcopies"
+css: "abcpdf-docs.css"
+---
+
 # EntryNumCopies Property
 
 | Type | Default Value | Read Only | Description | 

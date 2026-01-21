@@ -1,3 +1,8 @@
+---
+title: "04-getbbox"
+css: "abcpdf-docs.css"
+---
+
 # GetBBox Function
 
 Get the bounding box for the structure element.

@@ -1,3 +1,8 @@
+---
+title: "includeoffsets"
+css: "abcpdf-docs.css"
+---
+
 # IncludeOffsets Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "11-entrylockdocument"
+css: "abcpdf-docs.css"
+---
+
 # EntryLockDocument Property
 
 | Type | Default Value | Read Only | Description | 

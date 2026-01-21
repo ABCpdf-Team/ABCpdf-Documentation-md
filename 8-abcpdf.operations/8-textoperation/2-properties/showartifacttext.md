@@ -1,3 +1,8 @@
+---
+title: "showartifacttext"
+css: "abcpdf-docs.css"
+---
+
 # ShowArtifactText Property
 
 | Type | Default | Read Only | Description | 

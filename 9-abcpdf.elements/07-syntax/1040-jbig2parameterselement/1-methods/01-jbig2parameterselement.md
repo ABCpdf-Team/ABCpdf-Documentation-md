@@ -1,3 +1,8 @@
+---
+title: "01-jbig2parameterselement"
+css: "abcpdf-docs.css"
+---
+
 # Jbig2ParametersElement Function
 
 Create a new [Jbig2ParametersElement](../default.md).

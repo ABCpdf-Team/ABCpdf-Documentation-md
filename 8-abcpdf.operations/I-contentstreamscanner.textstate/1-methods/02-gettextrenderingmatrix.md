@@ -1,3 +1,8 @@
+---
+title: "02-gettextrenderingmatrix"
+css: "abcpdf-docs.css"
+---
+
 # GetTextRenderingMatrix Function
 
 Get the current Text Rendering Matrix (Trm).

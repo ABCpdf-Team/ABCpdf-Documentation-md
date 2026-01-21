@@ -1,3 +1,8 @@
+---
+title: "hpos"
+css: "abcpdf-docs.css"
+---
+
 # HPos Property
 
 | Type | Default Value | Read Only | Description | 
@@ -51,4 +56,4 @@ End Using
 
 ![](../../../images/pdf/dochpos.pdf.png) dochpos.pdf
 
-Also see example code in: [ABCpdf Deletion Example](../../../4-examples/05-deletion.md), [ABCpdf Headers and Footers Example](../../../4-examples/06-headers.md), [Doc AddPage Function](../../doc/1-methods/addpage.md), [Doc Append Function](../../doc/1-methods/append.md), [Doc Read Function](../../doc/1-methods/read.md), [Doc RemapPages Method](../../doc/1-methods/remappages.md), [XRendering SaveAlpha Property](../../xrendering/2-properties/savealpha.md), [XTransform AngleUnit�Property](../../xtransform/2-properties/angleunit.md), [XpsImportOperation Import Function](../../../8-abcpdf.operations/4-xpsimportoperation/1-methods/import.md), [SwfImportOperation Import Function](../../../8-abcpdf.operations/5-swfimportoperation/1-methods/import.md).
+Also see example code in: [ABCpdf Deletion Example](../../../4-examples/05-deletion.md), [ABCpdf Headers and Footers Example](../../../4-examples/06-headers.md), [Doc AddPage Function](../../doc/1-methods/addpage.md), [Doc Append Function](../../doc/1-methods/append.md), [Doc Read Function](../../doc/1-methods/read.md), [Doc RemapPages Method](../../doc/1-methods/remappages.md), [XRendering SaveAlpha Property](../../xrendering/2-properties/savealpha.md), [XTransform AngleUnit Property](../../xtransform/2-properties/angleunit.md), [XpsImportOperation Import Function](../../../8-abcpdf.operations/4-xpsimportoperation/1-methods/import.md), [SwfImportOperation Import Function](../../../8-abcpdf.operations/5-swfimportoperation/1-methods/import.md).

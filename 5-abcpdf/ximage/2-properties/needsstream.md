@@ -1,3 +1,8 @@
+---
+title: "needsstream"
+css: "abcpdf-docs.css"
+---
+
 # NeedsStream Property
 
 | Type | Default | Read Only | Description | 

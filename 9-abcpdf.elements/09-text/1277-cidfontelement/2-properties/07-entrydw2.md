@@ -1,3 +1,8 @@
+---
+title: "07-entrydw2"
+css: "abcpdf-docs.css"
+---
+
 # EntryDW2 Property
 
 | Type | Default Value | Read Only | Description | 

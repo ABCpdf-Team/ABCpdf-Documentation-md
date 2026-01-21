@@ -1,3 +1,8 @@
+---
+title: "tojsboolean"
+css: "abcpdf-docs.css"
+---
+
 # ToJSBoolean Method
 
 Gets a Boolean value from this value using the standard JavaScript conversion.

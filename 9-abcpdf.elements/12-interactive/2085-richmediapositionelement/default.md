@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # RichMediaPositionElement Class
 
 This class represents the richmediaposition dictionary. This is definitively detailed in:.

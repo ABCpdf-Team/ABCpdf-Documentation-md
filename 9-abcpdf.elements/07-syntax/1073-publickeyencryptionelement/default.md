@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # PublicKeyEncryptionElement Class
 
 This class represents the public-key security handler encryption dictionary. This is definitively detailed in:.

@@ -1,3 +1,8 @@
+---
+title: "text"
+css: "abcpdf-docs.css"
+---
+
 # Text Property
 
 | Type | Default Value | Read Only | Description | 

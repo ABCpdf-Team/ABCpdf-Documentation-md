@@ -1,3 +1,8 @@
+---
+title: "01-collectionitemelement"
+css: "abcpdf-docs.css"
+---
+
 # CollectionItemElement Function
 
 Create a new [CollectionItemElement](../default.md).

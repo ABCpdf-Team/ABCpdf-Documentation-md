@@ -1,3 +1,8 @@
+---
+title: "04-entryoe"
+css: "abcpdf-docs.css"
+---
+
 # EntryOE Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "05-entrycroprect"
+css: "abcpdf-docs.css"
+---
+
 # EntryCropRect Property
 
 | Type | Default Value | Read Only | Description | 

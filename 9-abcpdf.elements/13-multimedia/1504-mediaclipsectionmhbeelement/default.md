@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # MediaClipSectionMhBeElement Class
 
 This class represents the media clip section mh/be dictionary. This is definitively detailed in:.

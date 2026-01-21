@@ -1,3 +1,8 @@
+---
+title: "02-entrygcs"
+css: "abcpdf-docs.css"
+---
+
 # EntryGCS Property
 
 | Type | Default Value | Read Only | Description | 

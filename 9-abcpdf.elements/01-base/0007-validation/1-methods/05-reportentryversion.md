@@ -1,3 +1,8 @@
+---
+title: "05-reportentryversion"
+css: "abcpdf-docs.css"
+---
+
 # ReportEntryVersion Function
 
 Called to report the entry version.

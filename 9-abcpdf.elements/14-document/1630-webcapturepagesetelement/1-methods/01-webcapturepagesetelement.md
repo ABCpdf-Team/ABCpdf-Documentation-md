@@ -1,3 +1,8 @@
+---
+title: "01-webcapturepagesetelement"
+css: "abcpdf-docs.css"
+---
+
 # WebCapturePageSetElement Function
 
 Create a new [WebCapturePageSetElement](../default.md).

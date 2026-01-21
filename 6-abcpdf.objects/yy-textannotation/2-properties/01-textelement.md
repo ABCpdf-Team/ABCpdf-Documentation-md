@@ -1,3 +1,8 @@
+---
+title: "01-textelement"
+css: "abcpdf-docs.css"
+---
+
 # TextElement Property
 
 | Type | Default Value | Read Only | Description | 

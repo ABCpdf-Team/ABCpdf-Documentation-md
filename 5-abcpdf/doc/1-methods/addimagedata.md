@@ -1,3 +1,8 @@
+---
+title: "addimagedata"
+css: "abcpdf-docs.css"
+---
+
 # AddImageData Function
 
 Extract an image from data and add it to the current page.

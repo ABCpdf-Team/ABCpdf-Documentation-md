@@ -1,3 +1,8 @@
+---
+title: "01-entryrichmediasettings"
+css: "abcpdf-docs.css"
+---
+
 # EntryRichMediaSettings Property
 
 | Type | Default Value | Read Only | Description | 

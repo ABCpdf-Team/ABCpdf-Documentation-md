@@ -1,3 +1,8 @@
+---
+title: "cleartextoperation"
+css: "abcpdf-docs.css"
+---
+
 # ClearTextOperation Function
 
 Removes any cached TextOperation and TextFragments associated with this object

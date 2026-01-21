@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # Type7ShadingElement Class
 
 This class represents the type 7 shading dictionary. This is definitively detailed in:.

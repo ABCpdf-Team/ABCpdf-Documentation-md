@@ -1,3 +1,8 @@
+---
+title: "gray"
+css: "abcpdf-docs.css"
+---
+
 # Gray Property
 
 | Type | Default | Read Only | Description | 

@@ -1,3 +1,8 @@
+---
+title: "default"
+css: "abcpdf-docs.css"
+---
+
 # ArtifactAttributesElement Class
 
 This class represents the artifact attributes. This is definitively detailed in:.

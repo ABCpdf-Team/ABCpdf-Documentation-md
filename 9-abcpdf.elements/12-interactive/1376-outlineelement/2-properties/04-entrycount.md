@@ -1,3 +1,8 @@
+---
+title: "04-entrycount"
+css: "abcpdf-docs.css"
+---
+
 # EntryCount Property
 
 | Type | Default Value | Read Only | Description | 

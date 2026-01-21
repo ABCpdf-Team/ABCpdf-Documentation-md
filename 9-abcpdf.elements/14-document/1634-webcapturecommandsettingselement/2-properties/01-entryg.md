@@ -1,3 +1,8 @@
+---
+title: "01-entryg"
+css: "abcpdf-docs.css"
+---
+
 # EntryG Property
 
 | Type | Default Value | Read Only | Description | 

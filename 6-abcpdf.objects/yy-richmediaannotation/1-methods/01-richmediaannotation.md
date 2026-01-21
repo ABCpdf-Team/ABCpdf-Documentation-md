@@ -1,3 +1,8 @@
+---
+title: "01-richmediaannotation"
+css: "abcpdf-docs.css"
+---
+
 # RichMediaAnnotation Function
 
 Adds rich media to the current page of the doc.

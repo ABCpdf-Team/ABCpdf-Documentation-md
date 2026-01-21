@@ -1,3 +1,8 @@
+---
+title: "focus"
+css: "abcpdf-docs.css"
+---
+
 # Focus Function
 
 Focus the document on the location of the image placement.

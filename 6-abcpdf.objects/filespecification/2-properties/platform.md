@@ -1,3 +1,8 @@
+---
+title: "platform"
+css: "abcpdf-docs.css"
+---
+
 # Platform Property
 
 | Type | Default Value | Read Only | Description | 

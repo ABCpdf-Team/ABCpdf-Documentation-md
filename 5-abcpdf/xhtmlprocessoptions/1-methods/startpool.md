@@ -1,3 +1,8 @@
+---
+title: "startpool"
+css: "abcpdf-docs.css"
+---
+
 # StartPool Method
 
 Start the process pool for the HTML Engine.

@@ -1,3 +1,8 @@
+---
+title: "dispose"
+css: "abcpdf-docs.css"
+---
+
 # Dispose Function
 
 Dispose of the object.

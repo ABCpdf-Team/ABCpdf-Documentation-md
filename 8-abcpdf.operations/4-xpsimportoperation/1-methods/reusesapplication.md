@@ -1,3 +1,8 @@
+---
+title: "reusesapplication"
+css: "abcpdf-docs.css"
+---
+
 # ReusesApplication Function
 
 Gets a value indicating whether an import application process is to be kept running and reused.

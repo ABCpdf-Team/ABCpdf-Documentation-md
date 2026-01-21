@@ -1,3 +1,8 @@
+---
+title: "contrast"
+css: "abcpdf-docs.css"
+---
+
 # Contrast Effect
 
 The Contrast effect can be used to increase or decrease the contrast of an image.
