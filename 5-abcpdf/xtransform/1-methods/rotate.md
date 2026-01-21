@@ -50,7 +50,7 @@ Example</TD>
     <TD width=14>&nbsp;</TD>
     <TD vAlign=top>
       
-| Here we add a number of chunks of text rotated at different angles about the middle of the document. [C#] ```csharp using var doc = new Doc(); doc.FontSize = 48; doc.TextStyle.Indent = 48; for (int i = 1; i [Visual Basic] ```vbnet Using doc As New Doc() doc.FontSize = 48 doc.TextStyle.Indent = 48 Dim i As Integer = 1 While i rotate.pdf Also see example code in: ABCpdf Landscape Example, Doc AddGrid Function, Doc AddXObject Function, Doc Transform Property, XTransform Invert Function, XTransform Reset Function, XTransform AngleUnit Property, FontObject Widths Property, Page Rotation Property, XpsImportOperation Import Function. |  |  | 
+| Here we add a number of chunks of text rotated at different angles about the middle of the document. [C#] ```csharp using var doc = new Doc(); doc.FontSize = 48; doc.TextStyle.Indent = 48; for (int i = 1; i [Visual Basic] ```vbnet Using doc As New Doc() doc.FontSize = 48 doc.TextStyle.Indent = 48 Dim i As Integer = 1 While i rotate.pdf Also see example code in: ABCpdf Landscape Example, Doc AddGrid Function, Doc AddXObject Function, Doc Transform Property, XTransform Invert Function, XTransform Reset Function, XTransform AngleUnit�Property, FontObject Widths Property, Page Rotation Property, XpsImportOperation Import Function. |  |  | 
 | --- | --- | --- |
 
 </TD></TR></TBODY></TABLE>
