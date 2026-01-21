@@ -1,8 +1,3 @@
----
-title: "color"
-css: "abcpdf-docs.css"
----
-
 # Color Property
 
 | Type | Default | Read Only | Description | 

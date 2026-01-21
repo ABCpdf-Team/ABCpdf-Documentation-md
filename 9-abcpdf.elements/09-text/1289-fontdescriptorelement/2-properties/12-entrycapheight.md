@@ -1,8 +1,3 @@
----
-title: "12-entrycapheight"
-css: "abcpdf-docs.css"
----
-
 # EntryCapHeight Property
 
 | Type | Default Value | Read Only | Description | 

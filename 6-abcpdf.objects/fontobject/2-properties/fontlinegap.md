@@ -1,8 +1,3 @@
----
-title: "fontlinegap"
-css: "abcpdf-docs.css"
----
-
 # FontLineGap Property
 
 | Type | Default Value | Read Only | Description | 

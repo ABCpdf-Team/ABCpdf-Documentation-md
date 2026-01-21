@@ -1,8 +1,3 @@
----
-title: "01-collectioncolorselement"
-css: "abcpdf-docs.css"
----
-
 # CollectionColorsElement Function
 
 Create a new [CollectionColorsElement](../default.md).

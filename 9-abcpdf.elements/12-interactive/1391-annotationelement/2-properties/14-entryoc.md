@@ -1,8 +1,3 @@
----
-title: "14-entryoc"
-css: "abcpdf-docs.css"
----
-
 # EntryOC Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "12-entryendindent"
-css: "abcpdf-docs.css"
----
-
 # EntryEndIndent Property
 
 | Type | Default Value | Read Only | Description | 

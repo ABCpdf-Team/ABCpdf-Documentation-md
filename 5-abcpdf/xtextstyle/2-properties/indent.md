@@ -1,8 +1,3 @@
----
-title: "indent"
-css: "abcpdf-docs.css"
----
-
 # Indent Property
 
 | Type | Default | Read Only | Description | 

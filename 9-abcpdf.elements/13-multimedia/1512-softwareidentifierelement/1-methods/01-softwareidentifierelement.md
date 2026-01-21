@@ -1,8 +1,3 @@
----
-title: "01-softwareidentifierelement"
-css: "abcpdf-docs.css"
----
-
 # SoftwareIdentifierElement Function
 
 Create a new [SoftwareIdentifierElement](../default.md).

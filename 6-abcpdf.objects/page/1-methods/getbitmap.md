@@ -1,8 +1,3 @@
----
-title: "getbitmap"
-css: "abcpdf-docs.css"
----
-
 # GetBitmap Function
 
 Render one or more layers on the current page

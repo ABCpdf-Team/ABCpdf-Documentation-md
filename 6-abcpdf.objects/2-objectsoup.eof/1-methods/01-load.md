@@ -1,8 +1,3 @@
----
-title: "01-load"
-css: "abcpdf-docs.css"
----
-
 # Load Function
 
 Loads the file trailer data.

@@ -1,8 +1,3 @@
----
-title: "rationalize"
-css: "abcpdf-docs.css"
----
-
 # Rationalize Function
 
 Removes any obsolescent and redundant entries.

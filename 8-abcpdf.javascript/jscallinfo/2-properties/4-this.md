@@ -1,8 +1,3 @@
----
-title: "4-this"
-css: "abcpdf-docs.css"
----
-
 # This Property
 
 | Type | Default Value | Read Only | Description | 

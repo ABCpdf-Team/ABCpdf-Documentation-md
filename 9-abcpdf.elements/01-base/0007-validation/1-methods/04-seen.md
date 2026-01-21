@@ -1,8 +1,3 @@
----
-title: "04-seen"
-css: "abcpdf-docs.css"
----
-
 # Seen Function
 
 Called to indicate that a particular RefAtom has been seen.

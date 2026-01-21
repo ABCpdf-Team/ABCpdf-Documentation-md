@@ -1,8 +1,3 @@
----
-title: "25-entryfd"
-css: "abcpdf-docs.css"
----
-
 # EntryFD Property
 
 | Type | Default Value | Read Only | Description | 

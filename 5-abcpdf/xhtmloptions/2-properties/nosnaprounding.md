@@ -1,8 +1,3 @@
----
-title: "nosnaprounding"
-css: "abcpdf-docs.css"
----
-
 # NoSnapRounding Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "02-setobj"
-css: "abcpdf-docs.css"
----
-
 # SetOBJ Function
 
 Set the file containing the 3D content.

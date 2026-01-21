@@ -1,8 +1,3 @@
----
-title: "08-textpositioning"
-css: "abcpdf-docs.css"
----
-
 # TextPositioning Property
 
 | Type | Default Value | Read Only | Description | 

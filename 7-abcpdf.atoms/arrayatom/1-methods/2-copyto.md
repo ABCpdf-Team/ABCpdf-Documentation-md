@@ -1,8 +1,3 @@
----
-title: "2-copyto"
-css: "abcpdf-docs.css"
----
-
 # CopyTo Function
 
 Copies the Atoms into an array.

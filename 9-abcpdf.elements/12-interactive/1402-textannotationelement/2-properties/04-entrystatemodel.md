@@ -1,8 +1,3 @@
----
-title: "04-entrystatemodel"
-css: "abcpdf-docs.css"
----
-
 # EntryStateModel Property
 
 | Type | Default Value | Read Only | Description | 

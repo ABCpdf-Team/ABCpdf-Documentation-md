@@ -1,8 +1,3 @@
----
-title: "fieldbordercolor"
-css: "abcpdf-docs.css"
----
-
 # FieldBorderColor Property
 
 | Type | Default Value | Read Only | Description | 

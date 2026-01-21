@@ -1,8 +1,3 @@
----
-title: "01-type3functionelement"
-css: "abcpdf-docs.css"
----
-
 # Type3FunctionElement Function
 
 Create a new [Type3FunctionElement](../default.md).

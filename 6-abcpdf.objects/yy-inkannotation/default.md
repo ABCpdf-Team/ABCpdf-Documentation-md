@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # InkAnnotation Class
 
 Ink annotation.

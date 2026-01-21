@@ -1,8 +1,3 @@
----
-title: "02-entrydevicecolorant"
-css: "abcpdf-docs.css"
----
-
 # EntryDeviceColorant Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "08-toint32array"
-css: "abcpdf-docs.css"
----
-
 # ToInt32Array Function
 
 Attempts to convert an ArrayAtom into an array of ints, resolving any references as necessary.

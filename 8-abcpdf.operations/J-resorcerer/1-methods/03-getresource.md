@@ -1,8 +1,3 @@
----
-title: "03-getresource"
-css: "abcpdf-docs.css"
----
-
 # GetResource Function
 
 Gets a resource from the resources dictionary.

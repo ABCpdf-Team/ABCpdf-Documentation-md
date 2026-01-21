@@ -1,8 +1,3 @@
----
-title: "unembedunusualfonts"
-css: "abcpdf-docs.css"
----
-
 # UnembedUnusualFonts Property
 
 | Type | Default | Read Only | Description | 

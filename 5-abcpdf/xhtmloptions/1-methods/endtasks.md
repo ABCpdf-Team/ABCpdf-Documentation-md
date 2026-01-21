@@ -1,8 +1,3 @@
----
-title: "endtasks"
-css: "abcpdf-docs.css"
----
-
 # EndTasks Method
 
 Ends any HTML Engine worker threads or processes.

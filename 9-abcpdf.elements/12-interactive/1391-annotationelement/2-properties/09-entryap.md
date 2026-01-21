@@ -1,8 +1,3 @@
----
-title: "09-entryap"
-css: "abcpdf-docs.css"
----
-
 # EntryAP Property
 
 | Type | Default Value | Read Only | Description | 

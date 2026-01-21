@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # DictElement&lt;T&gt; Class
 
 The collection of Dictionary Atom names and values.

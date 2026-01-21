@@ -1,8 +1,3 @@
----
-title: "01-launchactionelement"
-css: "abcpdf-docs.css"
----
-
 # LaunchActionElement Function
 
 Create a new [LaunchActionElement](../default.md).

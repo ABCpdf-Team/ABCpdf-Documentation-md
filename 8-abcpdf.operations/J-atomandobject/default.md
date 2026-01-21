@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # AtomAndObject Class
 
 A utility class encompassing an Atom and a related IndirectObject.

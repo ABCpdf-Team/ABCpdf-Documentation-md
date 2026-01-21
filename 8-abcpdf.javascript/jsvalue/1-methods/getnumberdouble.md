@@ -1,8 +1,3 @@
----
-title: "getnumberdouble"
-css: "abcpdf-docs.css"
----
-
 # GetNumberDouble Method
 
 Gets the Double value of this number.

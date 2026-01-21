@@ -1,8 +1,3 @@
----
-title: "01-textfieldannotation"
-css: "abcpdf-docs.css"
----
-
 # TextFieldAnnotation Function
 
 Add textfield annotation to the current page of the doc.

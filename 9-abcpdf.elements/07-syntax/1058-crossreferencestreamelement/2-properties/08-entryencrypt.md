@@ -1,8 +1,3 @@
----
-title: "08-entryencrypt"
-css: "abcpdf-docs.css"
----
-
 # EntryEncrypt Property
 
 | Type | Default Value | Read Only | Description | 

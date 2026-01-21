@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # MediaScreenParametersMhBeElement Class
 
 This class represents the media screen parameters mh/be dictionary. This is definitively detailed in:.

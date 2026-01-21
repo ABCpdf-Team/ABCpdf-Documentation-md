@@ -1,8 +1,3 @@
----
-title: "1-pagecontents"
-css: "abcpdf-docs.css"
----
-
 # PageContents Constructor
 
 PageContents Constructor.

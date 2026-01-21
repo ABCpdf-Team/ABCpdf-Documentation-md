@@ -1,8 +1,3 @@
----
-title: "01-entryregistry"
-css: "abcpdf-docs.css"
----
-
 # EntryRegistry Property
 
 | Type | Default Value | Read Only | Description | 

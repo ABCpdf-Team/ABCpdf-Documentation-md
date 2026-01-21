@@ -1,8 +1,3 @@
----
-title: "01-entrymn"
-css: "abcpdf-docs.css"
----
-
 # EntryMN Property
 
 | Type | Default Value | Read Only | Description | 

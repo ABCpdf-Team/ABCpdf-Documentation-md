@@ -1,8 +1,3 @@
----
-title: "05-entryquadpoints"
-css: "abcpdf-docs.css"
----
-
 # EntryQuadPoints Property
 
 | Type | Default Value | Read Only | Description | 

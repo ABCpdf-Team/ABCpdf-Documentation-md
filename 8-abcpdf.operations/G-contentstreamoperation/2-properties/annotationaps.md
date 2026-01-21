@@ -1,8 +1,3 @@
----
-title: "annotationaps"
-css: "abcpdf-docs.css"
----
-
 # AnnotationAPs Property
 
 | Type | Default Value | Read Only | Description | 

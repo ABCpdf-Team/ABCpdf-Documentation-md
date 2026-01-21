@@ -1,8 +1,3 @@
----
-title: "04-showtext"
-css: "abcpdf-docs.css"
----
-
 # ShowText Function
 
 Show an item of text.

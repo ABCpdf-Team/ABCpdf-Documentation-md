@@ -1,8 +1,3 @@
----
-title: "08-entrycp"
-css: "abcpdf-docs.css"
----
-
 # EntryCP Property
 
 | Type | Default Value | Read Only | Description | 

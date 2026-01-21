@@ -1,8 +1,3 @@
----
-title: "01-structuretreerootelement"
-css: "abcpdf-docs.css"
----
-
 # StructureTreeRootElement Function
 
 Create a new [StructureTreeRootElement](../default.md).

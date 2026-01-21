@@ -1,8 +1,3 @@
----
-title: "04-entryspotfunction"
-css: "abcpdf-docs.css"
----
-
 # EntrySpotFunction Property
 
 | Type | Default Value | Read Only | Description | 

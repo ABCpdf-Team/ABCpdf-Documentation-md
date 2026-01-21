@@ -1,8 +1,3 @@
----
-title: "gethttpstatuscode"
-css: "abcpdf-docs.css"
----
-
 # GetHttpStatusCode Method
 
 Retrieves the HTTP status code.

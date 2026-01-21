@@ -1,8 +1,3 @@
----
-title: "pilcrows"
-css: "abcpdf-docs.css"
----
-
 # Pilcrows Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "compressflate"
-css: "abcpdf-docs.css"
----
-
 # CompressFlate Function
 
 Compress the data in the stream using Flate compression.

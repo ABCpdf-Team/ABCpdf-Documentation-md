@@ -1,8 +1,3 @@
----
-title: "2-hasproperty"
-css: "abcpdf-docs.css"
----
-
 # HasProperty Method
 
 Determines whether this object has a property.

@@ -1,8 +1,3 @@
----
-title: "13-entryprintscaling"
-css: "abcpdf-docs.css"
----
-
 # EntryPrintScaling Property
 
 | Type | Default Value | Read Only | Description | 

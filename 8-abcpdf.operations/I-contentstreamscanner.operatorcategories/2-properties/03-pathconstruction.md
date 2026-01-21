@@ -1,8 +1,3 @@
----
-title: "03-pathconstruction"
-css: "abcpdf-docs.css"
----
-
 # PathConstruction Property
 
 | Type | Default Value | Read Only | Description | 

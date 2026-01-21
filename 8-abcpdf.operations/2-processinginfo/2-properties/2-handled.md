@@ -1,8 +1,3 @@
----
-title: "2-handled"
-css: "abcpdf-docs.css"
----
-
 # Handled Property
 
 | Type | Default | Read Only | Description | 

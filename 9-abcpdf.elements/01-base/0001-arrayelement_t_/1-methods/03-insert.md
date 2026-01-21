@@ -1,8 +1,3 @@
----
-title: "03-insert"
-css: "abcpdf-docs.css"
----
-
 # Insert Function
 
 Inserts an [Element](../../1086-element/default.md) into the array at the specified position.

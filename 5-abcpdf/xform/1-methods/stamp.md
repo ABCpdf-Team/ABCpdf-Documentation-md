@@ -1,8 +1,3 @@
----
-title: "stamp"
-css: "abcpdf-docs.css"
----
-
 # Stamp Method
 
 Stamp all fields into the document.

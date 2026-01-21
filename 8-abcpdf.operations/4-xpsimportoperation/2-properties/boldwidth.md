@@ -1,8 +1,3 @@
----
-title: "boldwidth"
-css: "abcpdf-docs.css"
----
-
 # BoldWidth Property
 
 | Type | Default | Read Only | Description | 

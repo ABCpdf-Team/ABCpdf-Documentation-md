@@ -1,8 +1,3 @@
----
-title: "gettaguntransformedrects"
-css: "abcpdf-docs.css"
----
-
 # GetTagUntransformedRects Function
 
 Gets an array of the locations of tagged visible items before [Doc.Transform](../../doc/2-properties/transform.md) is applied.

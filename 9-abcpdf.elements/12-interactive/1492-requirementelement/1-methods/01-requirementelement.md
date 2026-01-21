@@ -1,8 +1,3 @@
----
-title: "01-requirementelement"
-css: "abcpdf-docs.css"
----
-
 # RequirementElement Function
 
 Create a new [RequirementElement](../default.md).

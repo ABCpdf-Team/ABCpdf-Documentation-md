@@ -1,8 +1,3 @@
----
-title: "01-d3dreferenceelement"
-css: "abcpdf-docs.css"
----
-
 # D3DReferenceElement Function
 
 Create a new [D3DReferenceElement](../default.md).

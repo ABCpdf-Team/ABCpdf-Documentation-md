@@ -1,8 +1,3 @@
----
-title: "01-graphicsstate"
-css: "abcpdf-docs.css"
----
-
 # GraphicsState Function
 
 Create a new [GraphicsState](../default.md) initialized to default values.

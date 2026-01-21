@@ -1,8 +1,3 @@
----
-title: "34-texthorizontalscaling"
-css: "abcpdf-docs.css"
----
-
 # TextHorizontalScaling Property
 
 | Type | Default Value | Read Only | Description | 

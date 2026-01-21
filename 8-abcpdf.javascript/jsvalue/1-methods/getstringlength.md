@@ -1,8 +1,3 @@
----
-title: "getstringlength"
-css: "abcpdf-docs.css"
----
-
 # GetStringLength Method
 
 Gets the length of this string.

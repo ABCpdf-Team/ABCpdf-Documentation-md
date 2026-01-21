@@ -1,8 +1,3 @@
----
-title: "02-entrymk"
-css: "abcpdf-docs.css"
----
-
 # EntryMK Property
 
 | Type | Default Value | Read Only | Description | 

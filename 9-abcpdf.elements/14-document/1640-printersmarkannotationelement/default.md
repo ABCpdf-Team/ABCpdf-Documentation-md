@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # PrintersMarkAnnotationElement Class
 
 This class represents the printer's mark annotation. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "1-vectorizetextoperation"
-css: "abcpdf-docs.css"
----
-
 # VectorizeTextOperation Constructor
 
 VectorizeTextOperation Constructor.

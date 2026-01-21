@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # D3DAnnotationElement Class
 
 This class represents the 3D annotation. This is definitively detailed in:.

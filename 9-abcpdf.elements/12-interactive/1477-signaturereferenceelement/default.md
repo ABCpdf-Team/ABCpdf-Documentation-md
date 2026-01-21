@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # SignatureReferenceElement Class
 
 This class represents the signature reference dictionary. This is definitively detailed in:.

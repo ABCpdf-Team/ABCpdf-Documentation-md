@@ -1,8 +1,3 @@
----
-title: "maximum"
-css: "abcpdf-docs.css"
----
-
 # Maximum Property
 
 | Type | Default Value | Read Only | Description | 

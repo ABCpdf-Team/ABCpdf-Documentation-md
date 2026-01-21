@@ -1,8 +1,3 @@
----
-title: "01-embeddedfontstreamelement"
-css: "abcpdf-docs.css"
----
-
 # EmbeddedFontStreamElement Function
 
 Create a new [EmbeddedFontStreamElement](../default.md).

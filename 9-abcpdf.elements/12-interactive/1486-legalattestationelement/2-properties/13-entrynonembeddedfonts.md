@@ -1,8 +1,3 @@
----
-title: "13-entrynonembeddedfonts"
-css: "abcpdf-docs.css"
----
-
 # EntryNonEmbeddedFonts Property
 
 | Type | Default Value | Read Only | Description | 

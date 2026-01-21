@@ -1,8 +1,3 @@
----
-title: "01-pagelabelelement"
-css: "abcpdf-docs.css"
----
-
 # PageLabelElement Function
 
 Create a new [PageLabelElement](../default.md).

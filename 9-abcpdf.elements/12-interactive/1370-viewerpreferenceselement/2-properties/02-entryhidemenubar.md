@@ -1,8 +1,3 @@
----
-title: "02-entryhidemenubar"
-css: "abcpdf-docs.css"
----
-
 # EntryHideMenubar Property
 
 | Type | Default Value | Read Only | Description | 

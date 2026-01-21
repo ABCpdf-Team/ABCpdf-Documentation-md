@@ -1,8 +1,3 @@
----
-title: "settheme"
-css: "abcpdf-docs.css"
----
-
 # SetTheme Function
 
 Specify whether to use Windows themes or not.

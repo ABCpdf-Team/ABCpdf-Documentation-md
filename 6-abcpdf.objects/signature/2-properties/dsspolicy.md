@@ -1,8 +1,3 @@
----
-title: "dsspolicy"
-css: "abcpdf-docs.css"
----
-
 # DSSPolicy Property
 
 | Type | Default Value | Read Only | Description | 

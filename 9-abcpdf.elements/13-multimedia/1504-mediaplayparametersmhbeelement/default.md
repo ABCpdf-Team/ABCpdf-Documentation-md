@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # MediaPlayParametersMhBeElement Class
 
 This class represents the media play parameters mh/be dictionary. This is definitively detailed in:.

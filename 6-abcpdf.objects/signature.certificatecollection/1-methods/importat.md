@@ -1,8 +1,3 @@
----
-title: "importat"
-css: "abcpdf-docs.css"
----
-
 # ImportAt Method
 
 Imports at the specified position the certificates from the file for those whose values are not already present.

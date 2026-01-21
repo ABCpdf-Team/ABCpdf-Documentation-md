@@ -1,8 +1,3 @@
----
-title: "20-strokeoverprint"
-css: "abcpdf-docs.css"
----
-
 # StrokeOverprint Property
 
 | Type | Default Value | Read Only | Description | 

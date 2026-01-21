@@ -1,8 +1,3 @@
----
-title: "blackpoint"
-css: "abcpdf-docs.css"
----
-
 # BlackPoint Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-parameterelement"
-css: "abcpdf-docs.css"
----
-
 # ParameterElement Function
 
 Create a new [ParameterElement](../default.md).

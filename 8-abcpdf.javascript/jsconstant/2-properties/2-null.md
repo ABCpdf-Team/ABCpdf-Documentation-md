@@ -1,8 +1,3 @@
----
-title: "2-null"
-css: "abcpdf-docs.css"
----
-
 # Null Property
 
 | Type | Default Value | Read Only | Description | 

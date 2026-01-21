@@ -1,8 +1,3 @@
----
-title: "7-insert"
-css: "abcpdf-docs.css"
----
-
 # Insert Function
 
 Inserts an Atom into the array at the specified position.

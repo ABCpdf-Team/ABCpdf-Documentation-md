@@ -1,8 +1,3 @@
----
-title: "6-installation"
-css: "abcpdf-docs.css"
----
-
 # Manual Installation
 
 Under most circumstances, you will want to install ABCpdf .NET using the standard installer and register it using the PDFSettings control panel.

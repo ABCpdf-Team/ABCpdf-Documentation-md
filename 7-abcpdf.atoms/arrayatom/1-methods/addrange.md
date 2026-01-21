@@ -1,8 +1,3 @@
----
-title: "addrange"
-css: "abcpdf-docs.css"
----
-
 # AddRange Function
 
 Adds the elements in the supplied array at the end of this array

@@ -1,8 +1,3 @@
----
-title: "13-entryci"
-css: "abcpdf-docs.css"
----
-
 # EntryCI Property
 
 | Type | Default Value | Read Only | Description | 

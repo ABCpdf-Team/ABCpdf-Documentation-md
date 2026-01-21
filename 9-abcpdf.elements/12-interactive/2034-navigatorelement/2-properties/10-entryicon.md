@@ -1,8 +1,3 @@
----
-title: "10-entryicon"
-css: "abcpdf-docs.css"
----
-
 # EntryIcon Property
 
 | Type | Default Value | Read Only | Description | 

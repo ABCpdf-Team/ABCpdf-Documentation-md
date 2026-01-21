@@ -1,8 +1,3 @@
----
-title: "11-miterlimit"
-css: "abcpdf-docs.css"
----
-
 # MiterLimit Property
 
 | Type | Default Value | Read Only | Description | 

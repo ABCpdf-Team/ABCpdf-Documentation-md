@@ -1,8 +1,3 @@
----
-title: "pos"
-css: "abcpdf-docs.css"
----
-
 # Pos Property
 
 | Type | Default | Read Only | Description | 

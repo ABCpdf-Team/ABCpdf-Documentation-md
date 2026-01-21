@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # SwfParameters Class
 
 Parameters to initialize the SWF machine.

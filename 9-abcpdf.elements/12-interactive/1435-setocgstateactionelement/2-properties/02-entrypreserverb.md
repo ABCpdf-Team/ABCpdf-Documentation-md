@@ -1,8 +1,3 @@
----
-title: "02-entrypreserverb"
-css: "abcpdf-docs.css"
----
-
 # EntryPreserveRB Property
 
 | Type | Default Value | Read Only | Description | 

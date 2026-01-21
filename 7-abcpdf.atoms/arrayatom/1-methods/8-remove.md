@@ -1,8 +1,3 @@
----
-title: "8-remove"
-css: "abcpdf-docs.css"
----
-
 # Remove Function
 
 Removes an Atom from the array.

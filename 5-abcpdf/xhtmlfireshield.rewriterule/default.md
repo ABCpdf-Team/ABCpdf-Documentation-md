@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RewriteRule Class
 
 A FireShield rule for on-the-fly path rewriting.

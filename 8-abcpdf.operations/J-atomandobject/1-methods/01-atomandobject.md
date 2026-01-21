@@ -1,8 +1,3 @@
----
-title: "01-atomandobject"
-css: "abcpdf-docs.css"
----
-
 # AtomAndObject Function
 
 Create an [AtomAndObject](../default.md).

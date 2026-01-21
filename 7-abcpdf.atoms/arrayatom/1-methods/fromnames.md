@@ -1,8 +1,3 @@
----
-title: "fromnames"
-css: "abcpdf-docs.css"
----
-
 # FromNames Function
 
 Create an ArrayAtom of NameAtoms from a list of strings.

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Type1FontElement Class
 
 This class represents the type 1 font dictionary. This is definitively detailed in:.

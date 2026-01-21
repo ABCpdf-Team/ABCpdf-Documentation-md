@@ -1,8 +1,3 @@
----
-title: "addarc"
-css: "abcpdf-docs.css"
----
-
 # AddArc Function
 
 Adds an arc to the current page.

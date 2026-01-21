@@ -1,8 +1,3 @@
----
-title: "clippedtexttolerance"
-css: "abcpdf-docs.css"
----
-
 # ClippedTextTolerance Property
 
 | Type | Default | Read Only | Description | 

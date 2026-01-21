@@ -1,8 +1,3 @@
----
-title: "clone"
-css: "abcpdf-docs.css"
----
-
 # Clone Function
 
 Create a deep copy of this graphics state.

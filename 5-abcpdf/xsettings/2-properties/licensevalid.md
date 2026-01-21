@@ -1,8 +1,3 @@
----
-title: "licensevalid"
-css: "abcpdf-docs.css"
----
-
 # LicenseValid Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-mediaclipsectionelement"
-css: "abcpdf-docs.css"
----
-
 # MediaClipSectionElement Function
 
 Create a new [MediaClipSectionElement](../default.md).

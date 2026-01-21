@@ -1,8 +1,3 @@
----
-title: "01-minimumbitdepthelement"
-css: "abcpdf-docs.css"
----
-
 # MinimumBitDepthElement Function
 
 Create a new [MinimumBitDepthElement](../default.md).

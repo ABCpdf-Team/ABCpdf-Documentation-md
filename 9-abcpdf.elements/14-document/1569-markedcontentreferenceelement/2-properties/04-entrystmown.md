@@ -1,8 +1,3 @@
----
-title: "04-entrystmown"
-css: "abcpdf-docs.css"
----
-
 # EntryStmOwn Property
 
 | Type | Default Value | Read Only | Description | 

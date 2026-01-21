@@ -1,8 +1,3 @@
----
-title: "25-entrytextdecorationthickness"
-css: "abcpdf-docs.css"
----
-
 # EntryTextDecorationThickness Property
 
 | Type | Default Value | Read Only | Description | 

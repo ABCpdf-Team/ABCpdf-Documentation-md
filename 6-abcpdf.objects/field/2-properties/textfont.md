@@ -1,8 +1,3 @@
----
-title: "textfont"
-css: "abcpdf-docs.css"
----
-
 # TextFont Property
 
 | Type | Default Value | Read Only | Description | 

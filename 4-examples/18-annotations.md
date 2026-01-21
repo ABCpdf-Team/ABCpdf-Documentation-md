@@ -1,8 +1,3 @@
----
-title: "18-annotations"
-css: "abcpdf-docs.css"
----
-
 # Fields, Markup and Movies Example
 
 ## Intro

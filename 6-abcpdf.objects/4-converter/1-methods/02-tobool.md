@@ -1,8 +1,3 @@
----
-title: "02-tobool"
-css: "abcpdf-docs.css"
----
-
 # ToBool Function
 
 Attempts to get a boolean from the specified entry in a DictAtom or ArrayAtom resolving any references as necessary.

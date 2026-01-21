@@ -1,8 +1,3 @@
----
-title: "cyan"
-css: "abcpdf-docs.css"
----
-
 # Cyan Property
 
 | Type | Default | Read Only | Description | 

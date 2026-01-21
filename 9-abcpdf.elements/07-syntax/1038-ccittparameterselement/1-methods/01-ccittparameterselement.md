@@ -1,8 +1,3 @@
----
-title: "01-ccittparameterselement"
-css: "abcpdf-docs.css"
----
-
 # CcittParametersElement Function
 
 Create a new [CcittParametersElement](../default.md).

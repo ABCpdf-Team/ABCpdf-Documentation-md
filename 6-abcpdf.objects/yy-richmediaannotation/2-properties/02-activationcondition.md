@@ -1,8 +1,3 @@
----
-title: "02-activationcondition"
-css: "abcpdf-docs.css"
----
-
 # ActivationCondition Property
 
 | Type | Default Value | Read Only | Description | 

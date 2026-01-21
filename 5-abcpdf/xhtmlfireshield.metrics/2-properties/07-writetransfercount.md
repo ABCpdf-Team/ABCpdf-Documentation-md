@@ -1,8 +1,3 @@
----
-title: "07-writetransfercount"
-css: "abcpdf-docs.css"
----
-
 # WriteTransferCount Property
 
 | Type | Default Value | Read Only | Description | 

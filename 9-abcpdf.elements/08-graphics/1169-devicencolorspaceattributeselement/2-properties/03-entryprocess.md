@@ -1,8 +1,3 @@
----
-title: "03-entryprocess"
-css: "abcpdf-docs.css"
----
-
 # EntryProcess Property
 
 | Type | Default Value | Read Only | Description | 

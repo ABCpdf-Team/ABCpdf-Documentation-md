@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RichMediaExecuteActionElement Class
 
 This class represents the rich-media-execute action. This is definitively detailed in:.

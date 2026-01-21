@@ -1,8 +1,3 @@
----
-title: "property"
-css: "abcpdf-docs.css"
----
-
 # [NAME: Open] Property
 
 | Type | Default Value | Read Only | Description | 

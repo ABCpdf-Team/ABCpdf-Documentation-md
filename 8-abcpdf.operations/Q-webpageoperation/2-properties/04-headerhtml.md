@@ -1,8 +1,3 @@
----
-title: "04-headerhtml"
-css: "abcpdf-docs.css"
----
-
 # HeaderHtml Property
 
 | Type | Default Value | Read Only | Description | 

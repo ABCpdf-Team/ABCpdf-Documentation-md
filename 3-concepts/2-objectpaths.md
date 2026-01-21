@@ -1,8 +1,3 @@
----
-title: "2-objectpaths"
-css: "abcpdf-docs.css"
----
-
 # Object Paths
 
 Adobe Portable Document Format (PDF) files are made of a number of objects. Objects may describe a page, a resource, a sequence of drawing operations an image or many other components as required by the document.

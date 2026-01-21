@@ -1,8 +1,3 @@
----
-title: "scrollheight"
-css: "abcpdf-docs.css"
----
-
 # ScrollHeight Property
 
 | Type | Default | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-legalattestationelement"
-css: "abcpdf-docs.css"
----
-
 # LegalAttestationElement Function
 
 Create a new [LegalAttestationElement](../default.md).

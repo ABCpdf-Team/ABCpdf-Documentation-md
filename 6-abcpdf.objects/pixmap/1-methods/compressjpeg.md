@@ -1,8 +1,3 @@
----
-title: "compressjpeg"
-css: "abcpdf-docs.css"
----
-
 # CompressJpeg Function
 
 Compresses the image using JPEG compression.

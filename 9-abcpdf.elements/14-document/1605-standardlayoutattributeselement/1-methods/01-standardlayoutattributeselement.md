@@ -1,8 +1,3 @@
----
-title: "01-standardlayoutattributeselement"
-css: "abcpdf-docs.css"
----
-
 # StandardLayoutAttributesElement Function
 
 Create a new [StandardLayoutAttributesElement](../default.md).

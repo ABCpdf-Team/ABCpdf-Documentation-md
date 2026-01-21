@@ -1,8 +1,3 @@
----
-title: "02-entryafter"
-css: "abcpdf-docs.css"
----
-
 # EntryAfter Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "05-entryffilter"
-css: "abcpdf-docs.css"
----
-
 # EntryFFilter Property
 
 | Type | Default Value | Read Only | Description | 

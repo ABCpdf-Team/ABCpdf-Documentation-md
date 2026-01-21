@@ -1,8 +1,3 @@
----
-title: "14-entryduplex"
-css: "abcpdf-docs.css"
----
-
 # EntryDuplex Property
 
 | Type | Default Value | Read Only | Description | 

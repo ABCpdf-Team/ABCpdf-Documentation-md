@@ -1,8 +1,3 @@
----
-title: "root"
-css: "abcpdf-docs.css"
----
-
 # Root Property
 
 | Type | Default | Read Only | Description | 

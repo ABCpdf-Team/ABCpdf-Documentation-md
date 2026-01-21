@@ -1,8 +1,3 @@
----
-title: "03-item(stringkey)"
-css: "abcpdf-docs.css"
----
-
 # Item(string key) Property
 
 | Type | Default Value | Read Only | Description | 

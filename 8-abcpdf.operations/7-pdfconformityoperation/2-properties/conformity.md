@@ -1,8 +1,3 @@
----
-title: "conformity"
-css: "abcpdf-docs.css"
----
-
 # Conformity Property
 
 | Type | Default | Read Only | Description | 

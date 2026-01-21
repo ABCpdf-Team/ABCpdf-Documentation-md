@@ -1,8 +1,3 @@
----
-title: "unembedfont"
-css: "abcpdf-docs.css"
----
-
 # UnembedFont Function
 
 Unembed the font if this is a simple operation.

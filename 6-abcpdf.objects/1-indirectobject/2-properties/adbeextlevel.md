@@ -1,8 +1,3 @@
----
-title: "adbeextlevel"
-css: "abcpdf-docs.css"
----
-
 # AdbeExtLevel Property
 
 | Type | Default | Read Only | Description | 

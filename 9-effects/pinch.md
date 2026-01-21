@@ -1,8 +1,3 @@
----
-title: "pinch"
-css: "abcpdf-docs.css"
----
-
 # Pinch Effect
 
 The Pinch effect distorts the image as if it had been pinched.

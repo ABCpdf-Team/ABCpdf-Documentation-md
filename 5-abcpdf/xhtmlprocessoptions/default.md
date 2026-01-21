@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # XHtmlProcessOptions Class
 
 Represents the options for new HTML worker processes.

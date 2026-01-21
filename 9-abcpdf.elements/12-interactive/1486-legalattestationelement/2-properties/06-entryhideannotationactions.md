@@ -1,8 +1,3 @@
----
-title: "06-entryhideannotationactions"
-css: "abcpdf-docs.css"
----
-
 # EntryHideAnnotationActions Property
 
 | Type | Default Value | Read Only | Description | 

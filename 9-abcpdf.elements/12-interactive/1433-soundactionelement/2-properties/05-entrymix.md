@@ -1,8 +1,3 @@
----
-title: "05-entrymix"
-css: "abcpdf-docs.css"
----
-
 # EntryMix Property
 
 | Type | Default Value | Read Only | Description | 

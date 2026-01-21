@@ -1,8 +1,3 @@
----
-title: "requestmethod"
-css: "abcpdf-docs.css"
----
-
 # RequestMethod Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "appliedorientation"
-css: "abcpdf-docs.css"
----
-
 # AppliedOrientation Property
 
 | Type | Default | Read Only | Description | 

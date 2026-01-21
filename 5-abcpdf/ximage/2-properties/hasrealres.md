@@ -1,8 +1,3 @@
----
-title: "hasrealres"
-css: "abcpdf-docs.css"
----
-
 # HasRealRes Property
 
 | Type | Default | Read Only | Description | 

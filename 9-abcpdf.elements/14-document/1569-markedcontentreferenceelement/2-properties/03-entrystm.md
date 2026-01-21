@@ -1,8 +1,3 @@
----
-title: "03-entrystm"
-css: "abcpdf-docs.css"
----
-
 # EntryStm Property
 
 | Type | Default Value | Read Only | Description | 

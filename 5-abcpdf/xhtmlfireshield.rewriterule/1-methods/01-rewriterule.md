@@ -1,8 +1,3 @@
----
-title: "01-rewriterule"
-css: "abcpdf-docs.css"
----
-
 # RewriteRule Function
 
 Path rewrite rule constructor.

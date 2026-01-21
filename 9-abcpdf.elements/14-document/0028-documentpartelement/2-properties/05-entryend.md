@@ -1,8 +1,3 @@
----
-title: "05-entryend"
-css: "abcpdf-docs.css"
----
-
 # EntryEnd Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "02-getformxobject"
-css: "abcpdf-docs.css"
----
-
 # GetFormXObject Function
 
 Get the current page as a compressed FormXObject.

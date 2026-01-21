@@ -1,8 +1,3 @@
----
-title: "01-namespaceelement"
-css: "abcpdf-docs.css"
----
-
 # NamespaceElement Function
 
 Create a new [NamespaceElement](../default.md).

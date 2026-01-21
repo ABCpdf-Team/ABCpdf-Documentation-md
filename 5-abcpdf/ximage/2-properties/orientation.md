@@ -1,8 +1,3 @@
----
-title: "orientation"
-css: "abcpdf-docs.css"
----
-
 # Orientation Property
 
 | Type | Default | Read Only | Description | 

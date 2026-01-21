@@ -1,8 +1,3 @@
----
-title: "04-entryparenttree"
-css: "abcpdf-docs.css"
----
-
 # EntryParentTree Property
 
 | Type | Default Value | Read Only | Description | 

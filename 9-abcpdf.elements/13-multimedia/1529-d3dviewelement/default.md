@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # D3DViewElement Class
 
 This class represents the 3D view dictionary. This is definitively detailed in:.

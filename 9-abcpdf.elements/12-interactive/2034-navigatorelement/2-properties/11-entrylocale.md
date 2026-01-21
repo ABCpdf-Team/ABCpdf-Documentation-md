@@ -1,8 +1,3 @@
----
-title: "11-entrylocale"
-css: "abcpdf-docs.css"
----
-
 # EntryLocale Property
 
 | Type | Default Value | Read Only | Description | 

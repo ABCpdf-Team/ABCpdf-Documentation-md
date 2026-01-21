@@ -1,8 +1,3 @@
----
-title: "flatten"
-css: "abcpdf-docs.css"
----
-
 # Flatten Function
 
 Flatten and compress the page content stream.

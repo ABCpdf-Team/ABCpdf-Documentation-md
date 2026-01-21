@@ -1,8 +1,3 @@
----
-title: "10-entrymoddate"
-css: "abcpdf-docs.css"
----
-
 # EntryModDate Property
 
 | Type | Default Value | Read Only | Description | 

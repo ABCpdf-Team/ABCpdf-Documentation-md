@@ -1,8 +1,3 @@
----
-title: "clear"
-css: "abcpdf-docs.css"
----
-
 # Clear Function
 
 Clears the document.

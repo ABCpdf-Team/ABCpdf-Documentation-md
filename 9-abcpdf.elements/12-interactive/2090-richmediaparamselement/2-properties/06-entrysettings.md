@@ -1,8 +1,3 @@
----
-title: "06-entrysettings"
-css: "abcpdf-docs.css"
----
-
 # EntrySettings Property
 
 | Type | Default Value | Read Only | Description | 

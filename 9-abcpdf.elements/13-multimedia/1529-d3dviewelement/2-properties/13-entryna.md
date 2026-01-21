@@ -1,8 +1,3 @@
----
-title: "13-entryna"
-css: "abcpdf-docs.css"
----
-
 # EntryNA Property
 
 | Type | Default Value | Read Only | Description | 

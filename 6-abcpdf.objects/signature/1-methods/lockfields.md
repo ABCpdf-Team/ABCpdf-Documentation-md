@@ -1,8 +1,3 @@
----
-title: "lockfields"
-css: "abcpdf-docs.css"
----
-
 # LockFields Function
 
 Lock document fields to stop them being modified.

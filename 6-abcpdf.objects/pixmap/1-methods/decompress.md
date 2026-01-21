@@ -1,8 +1,3 @@
----
-title: "decompress"
-css: "abcpdf-docs.css"
----
-
 # Decompress Function
 
 Decompress the data in the stream using on-the-fly resizing

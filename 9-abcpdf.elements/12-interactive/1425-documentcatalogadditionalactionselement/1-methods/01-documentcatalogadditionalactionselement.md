@@ -1,8 +1,3 @@
----
-title: "01-documentcatalogadditionalactionselement"
-css: "abcpdf-docs.css"
----
-
 # DocumentCatalogAdditionalActionsElement Function
 
 Create a new [DocumentCatalogAdditionalActionsElement](../default.md).

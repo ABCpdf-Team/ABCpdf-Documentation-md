@@ -1,8 +1,3 @@
----
-title: "remap"
-css: "abcpdf-docs.css"
----
-
 # Remap Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "9-images"
-css: "abcpdf-docs.css"
----
-
 # Image Handling
 
 ## Basics

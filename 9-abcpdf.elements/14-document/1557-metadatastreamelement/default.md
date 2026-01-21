@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # MetadataStreamElement Class
 
 This class represents the metadata stream. This is definitively detailed in:.

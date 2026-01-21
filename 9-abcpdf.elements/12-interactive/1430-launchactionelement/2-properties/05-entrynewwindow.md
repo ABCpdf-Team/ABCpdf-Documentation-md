@@ -1,8 +1,3 @@
----
-title: "05-entrynewwindow"
-css: "abcpdf-docs.css"
----
-
 # EntryNewWindow Property
 
 | Type | Default Value | Read Only | Description | 

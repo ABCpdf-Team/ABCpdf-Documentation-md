@@ -1,8 +1,3 @@
----
-title: "16-entrydur"
-css: "abcpdf-docs.css"
----
-
 # EntryDur Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "showobscuredtext"
-css: "abcpdf-docs.css"
----
-
 # ShowObscuredText Property
 
 | Type | Default | Read Only | Description | 

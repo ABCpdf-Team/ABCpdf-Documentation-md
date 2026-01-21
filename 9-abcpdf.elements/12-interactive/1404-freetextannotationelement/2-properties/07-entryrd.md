@@ -1,8 +1,3 @@
----
-title: "07-entryrd"
-css: "abcpdf-docs.css"
----
-
 # EntryRD Property
 
 | Type | Default Value | Read Only | Description | 

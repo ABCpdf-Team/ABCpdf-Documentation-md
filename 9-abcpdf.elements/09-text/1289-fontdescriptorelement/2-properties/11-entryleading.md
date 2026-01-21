@@ -1,8 +1,3 @@
----
-title: "11-entryleading"
-css: "abcpdf-docs.css"
----
-
 # EntryLeading Property
 
 | Type | Default Value | Read Only | Description | 

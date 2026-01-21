@@ -1,8 +1,3 @@
----
-title: "35-textleading"
-css: "abcpdf-docs.css"
----
-
 # TextLeading Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-optionalcontentpropertieselement"
-css: "abcpdf-docs.css"
----
-
 # OptionalContentPropertiesElement Function
 
 Create a new [OptionalContentPropertiesElement](../default.md).

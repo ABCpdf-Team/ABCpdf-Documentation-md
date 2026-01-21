@@ -1,8 +1,3 @@
----
-title: "fontsubset"
-css: "abcpdf-docs.css"
----
-
 # FontSubset Property
 
 | Type | Default Value | Read Only | Description | 

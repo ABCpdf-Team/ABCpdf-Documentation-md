@@ -1,8 +1,3 @@
----
-title: "read"
-css: "abcpdf-docs.css"
----
-
 # Read Function
 
 Read and validate an existing document.

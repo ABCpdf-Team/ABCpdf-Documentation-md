@@ -1,8 +1,3 @@
----
-title: "06-entrycropfixed"
-css: "abcpdf-docs.css"
----
-
 # EntryCropFixed Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "27-entrypressteps"
-css: "abcpdf-docs.css"
----
-
 # EntryPresSteps Property
 
 | Type | Default Value | Read Only | Description | 

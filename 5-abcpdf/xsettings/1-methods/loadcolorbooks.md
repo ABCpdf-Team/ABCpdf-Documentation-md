@@ -1,8 +1,3 @@
----
-title: "loadcolorbooks"
-css: "abcpdf-docs.css"
----
-
 # LoadColorBooks Method
 
 Load color books for use when rendering spot color images.

@@ -1,8 +1,3 @@
----
-title: "framenumber"
-css: "abcpdf-docs.css"
----
-
 # FrameNumber Property
 
 | Type | Default | Read Only | Description | 

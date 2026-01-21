@@ -1,8 +1,3 @@
----
-title: "getscriptreturn"
-css: "abcpdf-docs.css"
----
-
 # GetScriptReturn Method
 
 Retrieves the client side onload script return value.

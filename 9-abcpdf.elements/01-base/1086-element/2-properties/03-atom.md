@@ -1,8 +1,3 @@
----
-title: "03-atom"
-css: "abcpdf-docs.css"
----
-
 # Atom Property
 
 | Type | Default Value | Read Only | Description | 

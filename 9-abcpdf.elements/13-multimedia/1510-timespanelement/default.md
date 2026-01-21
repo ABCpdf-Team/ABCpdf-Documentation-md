@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # TimespanElement Class
 
 This class represents the timespan dictionary. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "06-infoproducer"
-css: "abcpdf-docs.css"
----
-
 # InfoProducer Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ImageOperation Class
 
 Operation to analyze the placement of raster images (bitmaps) in a document.

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # PagePieceDataElement Class
 
 This class represents the page-piece data dictionary. This is definitively detailed in:.

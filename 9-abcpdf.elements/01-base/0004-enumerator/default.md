@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Enumerator Struct
 
 Enumerates the elements of a Tree.

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ThreadActionElement Class
 
 This class represents the thread action. This is definitively detailed in:.

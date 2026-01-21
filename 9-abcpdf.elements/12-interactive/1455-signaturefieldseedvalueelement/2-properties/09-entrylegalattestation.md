@@ -1,8 +1,3 @@
----
-title: "09-entrylegalattestation"
-css: "abcpdf-docs.css"
----
-
 # EntryLegalAttestation Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "useactivex"
-css: "abcpdf-docs.css"
----
-
 # UseActiveX Property
 
 | Type | Default Value | Read Only | Description | 

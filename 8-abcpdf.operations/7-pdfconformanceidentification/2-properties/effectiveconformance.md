@@ -1,8 +1,3 @@
----
-title: "effectiveconformance"
-css: "abcpdf-docs.css"
----
-
 # EffectiveConformance Property
 
 | Type | Default | Read Only | Description | 

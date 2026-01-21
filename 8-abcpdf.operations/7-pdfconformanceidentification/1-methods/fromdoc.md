@@ -1,8 +1,3 @@
----
-title: "fromdoc"
-css: "abcpdf-docs.css"
----
-
 # FromDoc Function
 
 Gets the conformance identification from a document.

@@ -1,8 +1,3 @@
----
-title: "fromstrings"
-css: "abcpdf-docs.css"
----
-
 # FromStrings Function
 
 Create an ArrayAtom of StringAtoms from a list of strings.

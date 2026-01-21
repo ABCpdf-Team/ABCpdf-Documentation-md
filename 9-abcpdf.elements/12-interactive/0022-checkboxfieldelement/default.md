@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # CheckboxFieldElement Class
 
 This class represents the checkbox field dictionary. This is definitively detailed in:.

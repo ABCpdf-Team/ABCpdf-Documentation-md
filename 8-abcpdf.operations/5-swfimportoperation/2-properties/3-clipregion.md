@@ -1,8 +1,3 @@
----
-title: "3-clipregion"
-css: "abcpdf-docs.css"
----
-
 # ClipRegion&nbsp;Property
 
 | Type | Default | Read Only | Description | 

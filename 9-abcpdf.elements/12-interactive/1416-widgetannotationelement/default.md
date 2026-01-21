@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # WidgetAnnotationElement Class
 
 This class represents the widget annotation. This is definitively detailed in:.

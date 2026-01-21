@@ -1,8 +1,3 @@
----
-title: "05-entrya2"
-css: "abcpdf-docs.css"
----
-
 # EntryA2 Property
 
 | Type | Default Value | Read Only | Description | 

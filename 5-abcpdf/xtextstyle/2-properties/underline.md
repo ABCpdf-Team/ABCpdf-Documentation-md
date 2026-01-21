@@ -1,8 +1,3 @@
----
-title: "underline"
-css: "abcpdf-docs.css"
----
-
 # Underline Property
 
 | Type | Default | Read Only | Description | 

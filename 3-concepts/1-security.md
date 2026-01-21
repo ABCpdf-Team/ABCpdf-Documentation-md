@@ -1,8 +1,3 @@
----
-title: "1-security"
-css: "abcpdf-docs.css"
----
-
 # Security and ABCpdf
 
 ## Inro

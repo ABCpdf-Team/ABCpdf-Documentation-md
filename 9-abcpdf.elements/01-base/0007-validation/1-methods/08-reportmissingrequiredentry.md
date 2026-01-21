@@ -1,8 +1,3 @@
----
-title: "08-reportmissingrequiredentry"
-css: "abcpdf-docs.css"
----
-
 # ReportMissingRequiredEntry Function
 
 Called to report a missing required entry.

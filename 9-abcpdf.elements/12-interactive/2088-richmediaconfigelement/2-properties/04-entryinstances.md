@@ -1,8 +1,3 @@
----
-title: "04-entryinstances"
-css: "abcpdf-docs.css"
----
-
 # EntryInstances Property
 
 | Type | Default Value | Read Only | Description | 

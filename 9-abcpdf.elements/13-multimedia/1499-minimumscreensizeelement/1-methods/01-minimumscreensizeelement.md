@@ -1,8 +1,3 @@
----
-title: "01-minimumscreensizeelement"
-css: "abcpdf-docs.css"
----
-
 # MinimumScreenSizeElement Function
 
 Create a new [MinimumScreenSizeElement](../default.md).

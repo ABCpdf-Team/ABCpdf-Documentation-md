@@ -1,8 +1,3 @@
----
-title: "pages"
-css: "abcpdf-docs.css"
----
-
 # Pages Property
 
 | Type | Default | Read Only | Description | 

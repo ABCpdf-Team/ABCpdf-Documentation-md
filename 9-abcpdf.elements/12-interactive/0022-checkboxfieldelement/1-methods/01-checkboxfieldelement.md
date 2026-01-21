@@ -1,8 +1,3 @@
----
-title: "01-checkboxfieldelement"
-css: "abcpdf-docs.css"
----
-
 # CheckboxFieldElement Function
 
 Create a new [CheckboxFieldElement](../default.md).

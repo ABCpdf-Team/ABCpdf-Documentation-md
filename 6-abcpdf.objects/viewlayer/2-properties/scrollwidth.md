@@ -1,8 +1,3 @@
----
-title: "scrollwidth"
-css: "abcpdf-docs.css"
----
-
 # ScrollWidth Property
 
 | Type | Default | Read Only | Description | 

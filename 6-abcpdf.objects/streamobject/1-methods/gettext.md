@@ -1,8 +1,3 @@
----
-title: "gettext"
-css: "abcpdf-docs.css"
----
-
 # GetText Function
 
 Get the content of the stream as a string.

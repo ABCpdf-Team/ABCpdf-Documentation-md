@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # MediaPlayerInfoElement Class
 
 This class represents the media player info dictionary. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "5-fromatom"
-css: "abcpdf-docs.css"
----
-
 # FromAtom Function
 
 Create an XRect from a standard PDF Rectangle ArrayAtom.

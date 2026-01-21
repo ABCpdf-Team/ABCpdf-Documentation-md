@@ -1,8 +1,3 @@
----
-title: "c-coordinates"
-css: "abcpdf-docs.css"
----
-
 # Other Coordinate Spaces
 
 ## Basics

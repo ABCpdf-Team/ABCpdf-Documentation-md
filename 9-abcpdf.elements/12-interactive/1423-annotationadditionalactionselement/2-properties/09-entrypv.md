@@ -1,8 +1,3 @@
----
-title: "09-entrypv"
-css: "abcpdf-docs.css"
----
-
 # EntryPV Property
 
 | Type | Default Value | Read Only | Description | 

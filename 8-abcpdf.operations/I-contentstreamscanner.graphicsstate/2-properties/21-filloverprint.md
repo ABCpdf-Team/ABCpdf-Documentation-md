@@ -1,8 +1,3 @@
----
-title: "21-filloverprint"
-css: "abcpdf-docs.css"
----
-
 # FillOverprint Property
 
 | Type | Default Value | Read Only | Description | 

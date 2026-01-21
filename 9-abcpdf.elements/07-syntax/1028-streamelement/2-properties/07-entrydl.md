@@ -1,8 +1,3 @@
----
-title: "07-entrydl"
-css: "abcpdf-docs.css"
----
-
 # EntryDL Property
 
 | Type | Default Value | Read Only | Description | 

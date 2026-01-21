@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # GoTo3DViewActionElement Class
 
 This class represents the go-to-3D-view action. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "04-entrycharset"
-css: "abcpdf-docs.css"
----
-
 # EntryCharSet Property
 
 | Type | Default Value | Read Only | Description | 

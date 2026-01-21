@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ProjectedCoordinateSystemElement Class
 
 This class represents the projected coordinate system dictionary. This is definitively detailed in:.

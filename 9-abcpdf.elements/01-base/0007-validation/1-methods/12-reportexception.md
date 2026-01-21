@@ -1,8 +1,3 @@
----
-title: "12-reportexception"
-css: "abcpdf-docs.css"
----
-
 # ReportException Function
 
 Called to report an Exception that was thrown during validation.

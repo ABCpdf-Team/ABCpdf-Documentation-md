@@ -1,8 +1,3 @@
----
-title: "01-outputintentelement"
-css: "abcpdf-docs.css"
----
-
 # OutputIntentElement Function
 
 Create a new [OutputIntentElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "pagewidth"
-css: "abcpdf-docs.css"
----
-
 # PageWidth Property
 
 | Type | Default | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-fdfnamedpagereferenceelement"
-css: "abcpdf-docs.css"
----
-
 # FDFNamedPageReferenceElement Function
 
 Create a new [FDFNamedPageReferenceElement](../default.md).

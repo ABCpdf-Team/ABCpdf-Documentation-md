@@ -1,8 +1,3 @@
----
-title: "fixedpitch"
-css: "abcpdf-docs.css"
----
-
 # FixedPitch Property
 
 | Type | Default | Read Only | Description | 

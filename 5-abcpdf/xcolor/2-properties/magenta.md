@@ -1,8 +1,3 @@
----
-title: "magenta"
-css: "abcpdf-docs.css"
----
-
 # Magenta Property
 
 | Type | Default | Read Only | Description | 

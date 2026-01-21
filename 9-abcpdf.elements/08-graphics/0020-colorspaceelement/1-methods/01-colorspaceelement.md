@@ -1,8 +1,3 @@
----
-title: "01-colorspaceelement"
-css: "abcpdf-docs.css"
----
-
 # ColorSpaceElement Function
 
 Create a new [ColorSpaceElement](../default.md).

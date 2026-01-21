@@ -1,8 +1,3 @@
----
-title: "01-entrystart"
-css: "abcpdf-docs.css"
----
-
 # EntryStart Property
 
 | Type | Default Value | Read Only | Description | 

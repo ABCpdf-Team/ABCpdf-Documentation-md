@@ -1,8 +1,3 @@
----
-title: "fixmetadata"
-css: "abcpdf-docs.css"
----
-
 # FixMetadata Property
 
 | Type | Default | Read Only | Description | 

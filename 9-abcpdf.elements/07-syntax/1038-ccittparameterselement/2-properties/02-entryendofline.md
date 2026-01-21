@@ -1,8 +1,3 @@
----
-title: "02-entryendofline"
-css: "abcpdf-docs.css"
----
-
 # EntryEndOfLine Property
 
 | Type | Default Value | Read Only | Description | 

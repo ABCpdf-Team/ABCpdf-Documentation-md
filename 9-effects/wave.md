@@ -1,8 +1,3 @@
----
-title: "wave"
-css: "abcpdf-docs.css"
----
-
 # Wave Effect
 
 The Wave effect distorts the image as if it had been disturbed by a number of random waves.

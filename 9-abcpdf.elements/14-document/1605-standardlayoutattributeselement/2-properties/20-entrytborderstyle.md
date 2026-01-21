@@ -1,8 +1,3 @@
----
-title: "20-entrytborderstyle"
-css: "abcpdf-docs.css"
----
-
 # EntryTBorderStyle Property
 
 | Type | Default Value | Read Only | Description | 

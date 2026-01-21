@@ -1,8 +1,3 @@
----
-title: "makefieldsunique"
-css: "abcpdf-docs.css"
----
-
 # MakeFieldsUnique&nbsp;Function
 
 Makes shared XForm fields unique.

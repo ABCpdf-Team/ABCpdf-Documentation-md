@@ -1,8 +1,3 @@
----
-title: "15-entryrv"
-css: "abcpdf-docs.css"
----
-
 # EntryRV Property
 
 | Type | Default Value | Read Only | Description | 

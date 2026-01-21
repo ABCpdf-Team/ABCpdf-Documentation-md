@@ -1,8 +1,3 @@
----
-title: "02-entryhalftonetype"
-css: "abcpdf-docs.css"
----
-
 # EntryHalftoneType Property
 
 | Type | Default Value | Read Only | Description | 

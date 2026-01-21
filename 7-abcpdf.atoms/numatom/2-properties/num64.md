@@ -1,8 +1,3 @@
----
-title: "num64"
-css: "abcpdf-docs.css"
----
-
 # Num64 Property
 
 | Type | Default | Read Only | Description | 

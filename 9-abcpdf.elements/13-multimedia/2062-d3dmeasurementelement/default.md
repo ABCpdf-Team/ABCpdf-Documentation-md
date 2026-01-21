@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # D3DMeasurementElement Class
 
 This class represents the 3D measurement dictionary. This is definitively detailed in:.

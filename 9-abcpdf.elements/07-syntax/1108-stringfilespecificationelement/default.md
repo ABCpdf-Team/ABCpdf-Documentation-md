@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # StringFileSpecificationElement Class
 
 This class represents the string file specification.

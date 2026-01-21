@@ -1,8 +1,3 @@
----
-title: "07-state"
-css: "abcpdf-docs.css"
----
-
 # State Property
 
 | Type | Default Value | Read Only | Description | 

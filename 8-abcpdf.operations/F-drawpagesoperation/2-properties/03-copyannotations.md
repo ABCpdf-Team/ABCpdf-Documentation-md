@@ -1,8 +1,3 @@
----
-title: "03-copyannotations"
-css: "abcpdf-docs.css"
----
-
 # CopyAnnotations Property
 
 | Type | Default Value | Read Only | Description | 

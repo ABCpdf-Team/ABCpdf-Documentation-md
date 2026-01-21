@@ -1,8 +1,3 @@
----
-title: "00-enabled"
-css: "abcpdf-docs.css"
----
-
 # Enabled Property
 
 | Type | Default Value | Read Only | Description | 

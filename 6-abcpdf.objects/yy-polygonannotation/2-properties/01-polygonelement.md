@@ -1,8 +1,3 @@
----
-title: "01-polygonelement"
-css: "abcpdf-docs.css"
----
-
 # PolygonElement Property
 
 | Type | Default Value | Read Only | Description | 

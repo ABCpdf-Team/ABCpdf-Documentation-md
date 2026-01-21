@@ -1,8 +1,3 @@
----
-title: "01-papermetadatagenerationparameterselement"
-css: "abcpdf-docs.css"
----
-
 # PaperMetaDataGenerationParametersElement Function
 
 Create a new [PaperMetaDataGenerationParametersElement](../default.md).

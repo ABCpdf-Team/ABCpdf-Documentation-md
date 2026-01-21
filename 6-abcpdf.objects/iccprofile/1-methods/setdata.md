@@ -1,8 +1,3 @@
----
-title: "setdata"
-css: "abcpdf-docs.css"
----
-
 # SetData Function
 
 Set the raw binary content of the stream.

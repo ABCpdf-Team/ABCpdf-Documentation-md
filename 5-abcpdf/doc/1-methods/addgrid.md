@@ -1,8 +1,3 @@
----
-title: "addgrid"
-css: "abcpdf-docs.css"
----
-
 # AddGrid Function
 
 Adds a visible grid to the current page.

@@ -1,8 +1,3 @@
----
-title: "11-reportincorrectnumberofentries"
-css: "abcpdf-docs.css"
----
-
 # ReportIncorrectNumberOfEntries Function
 
 Called to report an array with an incorrect number of entries.

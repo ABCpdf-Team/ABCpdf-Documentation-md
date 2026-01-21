@@ -1,8 +1,3 @@
----
-title: "04-done"
-css: "abcpdf-docs.css"
----
-
 # Done Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "1-textoperation"
-css: "abcpdf-docs.css"
----
-
 # TextOperation Constructor
 
 TextOperation Constructor.

@@ -1,8 +1,3 @@
----
-title: "tojsobject"
-css: "abcpdf-docs.css"
----
-
 # ToJSObject Method
 
 Gets an object from this value using the standard JavaScript conversion.

@@ -1,8 +1,3 @@
----
-title: "08-infomoddate"
-css: "abcpdf-docs.css"
----
-
 # InfoModDate Property
 
 | Type | Default Value | Read Only | Description | 

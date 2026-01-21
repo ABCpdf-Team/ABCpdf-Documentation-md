@@ -1,8 +1,3 @@
----
-title: "02-entrydest"
-css: "abcpdf-docs.css"
----
-
 # EntryDest Property
 
 | Type | Default Value | Read Only | Description | 

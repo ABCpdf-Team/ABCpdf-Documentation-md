@@ -1,8 +1,3 @@
----
-title: "01-functionelement"
-css: "abcpdf-docs.css"
----
-
 # FunctionElement Function
 
 Create a new [FunctionElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "01-popupelement"
-css: "abcpdf-docs.css"
----
-
 # PopUpElement Property
 
 | Type | Default Value | Read Only | Description | 

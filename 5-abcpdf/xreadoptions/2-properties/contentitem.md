@@ -1,8 +1,3 @@
----
-title: "contentitem"
-css: "abcpdf-docs.css"
----
-
 # ContentItem Property
 
 | Type | Default | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Jbig2ParametersElement Class
 
 This class represents the jbig2 parameters. This is definitively detailed in:.

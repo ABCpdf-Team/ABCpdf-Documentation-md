@@ -1,8 +1,3 @@
----
-title: "grayimagedpi"
-css: "abcpdf-docs.css"
----
-
 # GrayImageDpi Property
 
 | Type | Default | Read Only | Description | 

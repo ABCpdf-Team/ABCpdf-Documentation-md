@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # TextLayer Class
 
 A multistyled text layer appearing on a page of the document.

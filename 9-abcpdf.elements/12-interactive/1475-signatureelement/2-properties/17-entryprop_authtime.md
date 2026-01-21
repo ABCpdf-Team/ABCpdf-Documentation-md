@@ -1,8 +1,3 @@
----
-title: "17-entryprop_authtime"
-css: "abcpdf-docs.css"
----
-
 # EntryProp_AuthTime Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-entrystring"
-css: "abcpdf-docs.css"
----
-
 # EntryString Property
 
 | Type | Default Value | Read Only | Description | 

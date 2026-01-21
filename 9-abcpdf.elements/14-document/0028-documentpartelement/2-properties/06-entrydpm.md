@@ -1,8 +1,3 @@
----
-title: "06-entrydpm"
-css: "abcpdf-docs.css"
----
-
 # EntryDPM Property
 
 | Type | Default Value | Read Only | Description | 

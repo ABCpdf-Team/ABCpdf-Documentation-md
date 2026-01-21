@@ -1,8 +1,3 @@
----
-title: "addimagetochain"
-css: "abcpdf-docs.css"
----
-
 # AddImageToChain Function
 
 Adds a new page from a paged HTML or PostScript render.

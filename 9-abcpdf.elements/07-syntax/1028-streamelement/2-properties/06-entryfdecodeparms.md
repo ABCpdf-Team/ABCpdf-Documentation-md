@@ -1,8 +1,3 @@
----
-title: "06-entryfdecodeparms"
-css: "abcpdf-docs.css"
----
-
 # EntryFDecodeParms Property
 
 | Type | Default Value | Read Only | Description | 

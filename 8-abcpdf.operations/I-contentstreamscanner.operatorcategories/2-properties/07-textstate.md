@@ -1,8 +1,3 @@
----
-title: "07-textstate"
-css: "abcpdf-docs.css"
----
-
 # TextState Property
 
 | Type | Default Value | Read Only | Description | 

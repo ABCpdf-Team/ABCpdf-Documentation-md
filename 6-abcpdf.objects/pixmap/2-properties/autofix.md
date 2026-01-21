@@ -1,8 +1,3 @@
----
-title: "autofix"
-css: "abcpdf-docs.css"
----
-
 # AutoFix Property
 
 | Type | Default | Read Only | Description | 

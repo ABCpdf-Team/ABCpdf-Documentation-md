@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # DeveloperExtensionsElement Class
 
 This class represents the developer extensions dictionary. This is definitively detailed in:.

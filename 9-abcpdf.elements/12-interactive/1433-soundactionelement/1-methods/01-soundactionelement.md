@@ -1,8 +1,3 @@
----
-title: "01-soundactionelement"
-css: "abcpdf-docs.css"
----
-
 # SoundActionElement Function
 
 Create a new [SoundActionElement](../default.md).

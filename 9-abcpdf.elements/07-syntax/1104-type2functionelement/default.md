@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Type2FunctionElement Class
 
 This class represents the type 2 function dictionary. This is definitively detailed in:.

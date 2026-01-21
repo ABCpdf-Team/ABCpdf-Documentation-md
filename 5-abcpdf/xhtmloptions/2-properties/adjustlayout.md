@@ -1,8 +1,3 @@
----
-title: "adjustlayout"
-css: "abcpdf-docs.css"
----
-
 # AdjustLayout Property
 
 | Type | Default Value | Read Only | Description | 

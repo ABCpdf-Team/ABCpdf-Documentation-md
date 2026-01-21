@@ -1,8 +1,3 @@
----
-title: "01-documentpartgotoactionelement"
-css: "abcpdf-docs.css"
----
-
 # DocumentPartGoToActionElement Function
 
 Create a new [DocumentPartGoToActionElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "01-screenelement"
-css: "abcpdf-docs.css"
----
-
 # ScreenElement Property
 
 | Type | Default Value | Read Only | Description | 

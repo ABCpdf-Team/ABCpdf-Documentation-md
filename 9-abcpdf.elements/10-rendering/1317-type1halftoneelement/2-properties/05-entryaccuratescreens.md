@@ -1,8 +1,3 @@
----
-title: "05-entryaccuratescreens"
-css: "abcpdf-docs.css"
----
-
 # EntryAccurateScreens Property
 
 | Type | Default Value | Read Only | Description | 

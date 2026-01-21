@@ -1,8 +1,3 @@
----
-title: "certify"
-css: "abcpdf-docs.css"
----
-
 # Certify Function
 
 Make this a certification signature.

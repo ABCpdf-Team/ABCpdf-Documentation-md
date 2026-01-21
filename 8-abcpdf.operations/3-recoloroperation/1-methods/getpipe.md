@@ -1,8 +1,3 @@
----
-title: "getpipe"
-css: "abcpdf-docs.css"
----
-
 # GetPipe Function
 
 Gets a color conversion Pipe which may be used to map colors from one color space to another.

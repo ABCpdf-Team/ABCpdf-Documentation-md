@@ -1,8 +1,3 @@
----
-title: "03-entrydcs"
-css: "abcpdf-docs.css"
----
-
 # EntryDCS Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "fixfonts"
-css: "abcpdf-docs.css"
----
-
 # FixFonts Property
 
 | Type | Default | Read Only | Description | 

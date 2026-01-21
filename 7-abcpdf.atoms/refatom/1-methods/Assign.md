@@ -1,8 +1,3 @@
----
-title: "Assign"
-css: "abcpdf-docs.css"
----
-
 # Assign Function
 
 Set the IndirectObject that the reference should point to.

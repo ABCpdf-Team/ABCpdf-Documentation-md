@@ -1,8 +1,3 @@
----
-title: "reloadpage"
-css: "abcpdf-docs.css"
----
-
 # ReloadPage Property
 
 | Type | Default Value | Read Only | Description | 

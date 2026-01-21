@@ -1,8 +1,3 @@
----
-title: "palettizationtolerance"
-css: "abcpdf-docs.css"
----
-
 # PalettizationTolerance Property
 
 | Type | Default | Read Only | Description | 

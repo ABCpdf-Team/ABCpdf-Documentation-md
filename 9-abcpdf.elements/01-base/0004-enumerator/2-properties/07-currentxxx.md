@@ -1,8 +1,3 @@
----
-title: "07-currentxxx"
-css: "abcpdf-docs.css"
----
-
 # Current Property
 
 | Type | Default Value | Read Only | Description | 

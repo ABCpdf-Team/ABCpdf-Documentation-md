@@ -1,8 +1,3 @@
----
-title: "03-entryrename"
-css: "abcpdf-docs.css"
----
-
 # EntryRename Property
 
 | Type | Default Value | Read Only | Description | 

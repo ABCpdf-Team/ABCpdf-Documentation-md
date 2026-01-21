@@ -1,8 +1,3 @@
----
-title: "05-strokecolorname"
-css: "abcpdf-docs.css"
----
-
 # StrokeColorName Property
 
 | Type | Default Value | Read Only | Description | 

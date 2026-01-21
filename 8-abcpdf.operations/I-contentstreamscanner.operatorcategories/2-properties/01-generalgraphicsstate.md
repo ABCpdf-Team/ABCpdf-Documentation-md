@@ -1,8 +1,3 @@
----
-title: "01-generalgraphicsstate"
-css: "abcpdf-docs.css"
----
-
 # GeneralGraphicsState Property
 
 | Type | Default Value | Read Only | Description | 

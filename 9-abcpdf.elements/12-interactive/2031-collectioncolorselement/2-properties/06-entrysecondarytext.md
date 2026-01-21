@@ -1,8 +1,3 @@
----
-title: "06-entrysecondarytext"
-css: "abcpdf-docs.css"
----
-
 # EntrySecondaryText Property
 
 | Type | Default Value | Read Only | Description | 

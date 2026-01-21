@@ -1,8 +1,3 @@
----
-title: "1-valuetype"
-css: "abcpdf-docs.css"
----
-
 # ValueType Property
 
 | Type | Default Value | Read Only | Description | 

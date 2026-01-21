@@ -1,8 +1,3 @@
----
-title: "1-poolhasstarted"
-css: "abcpdf-docs.css"
----
-
 # PoolHasStarted Property
 
 | Type | Default Value | Read Only | Description | 

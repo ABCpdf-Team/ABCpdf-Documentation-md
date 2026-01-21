@@ -1,8 +1,3 @@
----
-title: "09-linecap"
-css: "abcpdf-docs.css"
----
-
 # LineCap Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "hres"
-css: "abcpdf-docs.css"
----
-
 # HRes Property
 
 | Type | Default | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-entrybase"
-css: "abcpdf-docs.css"
----
-
 # EntryBase Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-entrylistnumbering"
-css: "abcpdf-docs.css"
----
-
 # EntryListNumbering Property
 
 | Type | Default Value | Read Only | Description | 

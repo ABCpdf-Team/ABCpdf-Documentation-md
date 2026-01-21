@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # D3DAnimationStyleElement Class
 
 This class represents the 3D animation style dictionary. This is definitively detailed in:.

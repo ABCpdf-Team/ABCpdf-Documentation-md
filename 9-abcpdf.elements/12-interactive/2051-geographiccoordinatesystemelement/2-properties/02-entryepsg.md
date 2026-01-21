@@ -1,8 +1,3 @@
----
-title: "02-entryepsg"
-css: "abcpdf-docs.css"
----
-
 # EntryEPSG Property
 
 | Type | Default Value | Read Only | Description | 

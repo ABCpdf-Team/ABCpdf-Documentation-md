@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ColorSpaceElement Class
 
 This class represents a color space.

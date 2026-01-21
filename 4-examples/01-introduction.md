@@ -1,8 +1,3 @@
----
-title: "01-introduction"
-css: "abcpdf-docs.css"
----
-
 # Code Samples and Projects
 
 ## Samples

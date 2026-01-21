@@ -1,8 +1,3 @@
----
-title: "01-sorttoptobottom"
-css: "abcpdf-docs.css"
----
-
 # SortTopToBottom Function
 
 Sort the kids of the parent element so that they go in order from the top to the bottom.

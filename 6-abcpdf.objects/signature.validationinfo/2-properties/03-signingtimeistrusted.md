@@ -1,8 +1,3 @@
----
-title: "03-signingtimeistrusted"
-css: "abcpdf-docs.css"
----
-
 # SigningTimeIsTrusted Property
 
 | Type | Default Value | Read Only | Description | 

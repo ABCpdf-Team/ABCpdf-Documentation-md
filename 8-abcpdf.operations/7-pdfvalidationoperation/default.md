@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # PdfValidationOperation Class
 
 Operation to produce conforming PDF files.

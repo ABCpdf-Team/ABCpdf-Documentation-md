@@ -1,8 +1,3 @@
----
-title: "02-entrymax"
-css: "abcpdf-docs.css"
----
-
 # EntryMax Property
 
 | Type | Default Value | Read Only | Description | 

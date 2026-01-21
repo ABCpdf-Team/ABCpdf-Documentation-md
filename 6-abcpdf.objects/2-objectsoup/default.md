@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ObjectSoup Class
 
 A non-traditional collection of [Indirect Objects](../1-indirectobject/default.md) making up the content of a PDF.

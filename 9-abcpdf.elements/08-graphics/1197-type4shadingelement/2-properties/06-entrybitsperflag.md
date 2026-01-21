@@ -1,8 +1,3 @@
----
-title: "06-entrybitsperflag"
-css: "abcpdf-docs.css"
----
-
 # EntryBitsPerFlag Property
 
 | Type | Default Value | Read Only | Description | 

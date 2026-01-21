@@ -1,8 +1,3 @@
----
-title: "recolor"
-css: "abcpdf-docs.css"
----
-
 # Recolor Function
 
 Recolor pages in a document.

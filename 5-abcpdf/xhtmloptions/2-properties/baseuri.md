@@ -1,8 +1,3 @@
----
-title: "baseuri"
-css: "abcpdf-docs.css"
----
-
 # BaseURI Property
 
 | Type | Default Value | Read Only | Description | 

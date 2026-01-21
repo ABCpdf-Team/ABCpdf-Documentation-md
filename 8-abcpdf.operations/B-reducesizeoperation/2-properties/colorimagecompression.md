@@ -1,8 +1,3 @@
----
-title: "colorimagecompression"
-css: "abcpdf-docs.css"
----
-
 # ColorImageCompression Property
 
 | Type | Default | Read Only | Description | 

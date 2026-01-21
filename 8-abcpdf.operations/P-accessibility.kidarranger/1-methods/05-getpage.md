@@ -1,8 +1,3 @@
----
-title: "05-getpage"
-css: "abcpdf-docs.css"
----
-
 # GetPage Function
 
 Get the Page object for this particular structure element.

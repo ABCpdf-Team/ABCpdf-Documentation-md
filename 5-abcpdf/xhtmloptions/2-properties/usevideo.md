@@ -1,8 +1,3 @@
----
-title: "usevideo"
-css: "abcpdf-docs.css"
----
-
 # UseVideo Property
 
 | Type | Default Value | Read Only | Description | 

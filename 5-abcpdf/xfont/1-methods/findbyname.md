@@ -1,8 +1,3 @@
----
-title: "findbyname"
-css: "abcpdf-docs.css"
----
-
 # FindByName Function
 
 Find all the fonts with a given name.

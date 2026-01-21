@@ -1,8 +1,3 @@
----
-title: "15-markedcontent"
-css: "abcpdf-docs.css"
----
-
 # MarkedContent Property
 
 | Type | Default Value | Read Only | Description | 

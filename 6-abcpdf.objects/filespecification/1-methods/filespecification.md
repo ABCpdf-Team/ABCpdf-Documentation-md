@@ -1,8 +1,3 @@
----
-title: "filespecification"
-css: "abcpdf-docs.css"
----
-
 # FileSpecification Function
 
 FileSpecification Constructor

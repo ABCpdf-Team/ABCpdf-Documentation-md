@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # LzwParametersElement Class
 
 This class represents the lzw parameters. This is definitively detailed in:.

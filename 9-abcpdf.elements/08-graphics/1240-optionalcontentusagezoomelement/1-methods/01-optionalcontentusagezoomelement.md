@@ -1,8 +1,3 @@
----
-title: "01-optionalcontentusagezoomelement"
-css: "abcpdf-docs.css"
----
-
 # OptionalContentUsageZoomElement Function
 
 Create a new [OptionalContentUsageZoomElement](../default.md).

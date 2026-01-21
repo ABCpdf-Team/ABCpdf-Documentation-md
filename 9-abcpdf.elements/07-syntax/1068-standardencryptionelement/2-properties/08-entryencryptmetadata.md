@@ -1,8 +1,3 @@
----
-title: "08-entryencryptmetadata"
-css: "abcpdf-docs.css"
----
-
 # EntryEncryptMetadata Property
 
 | Type | Default Value | Read Only | Description | 

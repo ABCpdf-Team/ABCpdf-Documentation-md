@@ -1,8 +1,3 @@
----
-title: "pixmap"
-css: "abcpdf-docs.css"
----
-
 # PixMap Property
 
 | Type | Default | Read Only | Description | 

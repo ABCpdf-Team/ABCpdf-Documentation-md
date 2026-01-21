@@ -1,8 +1,3 @@
----
-title: "01-renditionelement"
-css: "abcpdf-docs.css"
----
-
 # RenditionElement Function
 
 Create a new [RenditionElement](../default.md).

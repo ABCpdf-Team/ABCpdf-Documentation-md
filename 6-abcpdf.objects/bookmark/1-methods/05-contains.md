@@ -1,8 +1,3 @@
----
-title: "05-contains"
-css: "abcpdf-docs.css"
----
-
 # Contains Function
 
 Determines whether the list contains a specific Bookmark.

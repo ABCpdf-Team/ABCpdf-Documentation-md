@@ -1,8 +1,3 @@
----
-title: "01-mediaplayparameterselement"
-css: "abcpdf-docs.css"
----
-
 # MediaPlayParametersElement Function
 
 Create a new [MediaPlayParametersElement](../default.md).

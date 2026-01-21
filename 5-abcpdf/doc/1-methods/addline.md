@@ -1,8 +1,3 @@
----
-title: "addline"
-css: "abcpdf-docs.css"
----
-
 # AddLine Function
 
 Adds a line to the current page.

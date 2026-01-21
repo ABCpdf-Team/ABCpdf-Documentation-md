@@ -1,8 +1,3 @@
----
-title: "04-entryfirstchar"
-css: "abcpdf-docs.css"
----
-
 # EntryFirstChar Property
 
 | Type | Default Value | Read Only | Description | 

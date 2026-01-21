@@ -1,8 +1,3 @@
----
-title: "01-collectionsplitelement"
-css: "abcpdf-docs.css"
----
-
 # CollectionSplitElement Function
 
 Create a new [CollectionSplitElement](../default.md).

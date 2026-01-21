@@ -1,8 +1,3 @@
----
-title: "fromoperator"
-css: "abcpdf-docs.css"
----
-
 # FromOperator Function
 
 Create an XColor given a PDF color operator and a set of Atoms containing the arguments for that operator.

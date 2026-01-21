@@ -1,8 +1,3 @@
----
-title: "08-replacetext"
-css: "abcpdf-docs.css"
----
-
 # ReplaceText Function
 
 Replace one item of text with another.

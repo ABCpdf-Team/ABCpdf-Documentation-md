@@ -1,8 +1,3 @@
----
-title: "06-entryverticesperrow"
-css: "abcpdf-docs.css"
----
-
 # EntryVerticesPerRow Property
 
 | Type | Default Value | Read Only | Description | 

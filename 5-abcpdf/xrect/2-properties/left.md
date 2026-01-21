@@ -1,8 +1,3 @@
----
-title: "left"
-css: "abcpdf-docs.css"
----
-
 # Left Property
 
 | Type | Default | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # D3DReferenceElement Class
 
 This class represents the 3D reference dictionary. This is definitively detailed in:.

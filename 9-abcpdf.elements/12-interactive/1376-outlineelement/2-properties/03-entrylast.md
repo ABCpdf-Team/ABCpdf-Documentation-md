@@ -1,8 +1,3 @@
----
-title: "03-entrylast"
-css: "abcpdf-docs.css"
----
-
 # EntryLast Property
 
 | Type | Default Value | Read Only | Description | 

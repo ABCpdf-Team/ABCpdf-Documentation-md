@@ -1,8 +1,3 @@
----
-title: "02-specialgraphicsstate"
-css: "abcpdf-docs.css"
----
-
 # SpecialGraphicsState Property
 
 | Type | Default Value | Read Only | Description | 

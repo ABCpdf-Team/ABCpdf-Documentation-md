@@ -1,8 +1,3 @@
----
-title: "05-entry3db"
-css: "abcpdf-docs.css"
----
-
 # Entry3DB Property
 
 | Type | Default Value | Read Only | Description | 

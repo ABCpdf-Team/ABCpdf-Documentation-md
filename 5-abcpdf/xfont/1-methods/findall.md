@@ -1,8 +1,3 @@
----
-title: "findall"
-css: "abcpdf-docs.css"
----
-
 # FindAll Function
 
 Find all the fonts currently installed on the system.

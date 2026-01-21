@@ -1,8 +1,3 @@
----
-title: "setfile"
-css: "abcpdf-docs.css"
----
-
 # SetFile Function
 
 Set the raw binary content of the stream using data from a file.

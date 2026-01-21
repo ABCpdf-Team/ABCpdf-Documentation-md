@@ -1,8 +1,3 @@
----
-title: "01-entryexportstate"
-css: "abcpdf-docs.css"
----
-
 # EntryExportState Property
 
 | Type | Default Value | Read Only | Description | 

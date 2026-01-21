@@ -1,8 +1,3 @@
----
-title: "embeddedfont"
-css: "abcpdf-docs.css"
----
-
 # EmbeddedFont Property
 
 | Type | Default | Read Only | Description | 

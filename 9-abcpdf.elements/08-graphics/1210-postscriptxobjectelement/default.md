@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # PostScriptXObjectElement Class
 
 This class represents the postscript xobject dictionary. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # FileTrailerElement Class
 
 This class represents the file trailer dictionary. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "fitin"
-css: "abcpdf-docs.css"
----
-
 # FitIn Function
 
 Fits the rectangle as content inside another rectangle.

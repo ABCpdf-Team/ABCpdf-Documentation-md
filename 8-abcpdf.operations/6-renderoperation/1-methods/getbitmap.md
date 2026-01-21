@@ -1,8 +1,3 @@
----
-title: "getbitmap"
-css: "abcpdf-docs.css"
----
-
 # GetBitmap Function
 
 Renders a page into a bitmap.

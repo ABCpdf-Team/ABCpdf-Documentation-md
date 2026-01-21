@@ -1,8 +1,3 @@
----
-title: "11-entryls"
-css: "abcpdf-docs.css"
----
-
 # EntryLS Property
 
 | Type | Default Value | Read Only | Description | 

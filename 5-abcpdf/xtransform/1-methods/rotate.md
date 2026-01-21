@@ -1,8 +1,3 @@
----
-title: "rotate"
-css: "abcpdf-docs.css"
----
-
 # Rotate Function
 
 Rotate about a locked anchor point (angle in degrees).

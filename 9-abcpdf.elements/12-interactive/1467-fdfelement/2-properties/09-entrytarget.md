@@ -1,8 +1,3 @@
----
-title: "09-entrytarget"
-css: "abcpdf-docs.css"
----
-
 # EntryTarget Property
 
 | Type | Default Value | Read Only | Description | 

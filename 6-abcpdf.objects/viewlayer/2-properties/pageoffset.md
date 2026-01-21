@@ -1,8 +1,3 @@
----
-title: "pageoffset"
-css: "abcpdf-docs.css"
----
-
 # PageOffset Property
 
 | Type | Default | Read Only | Description | 

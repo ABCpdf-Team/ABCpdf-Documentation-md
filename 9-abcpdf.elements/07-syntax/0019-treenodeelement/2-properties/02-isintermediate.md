@@ -1,8 +1,3 @@
----
-title: "02-isintermediate"
-css: "abcpdf-docs.css"
----
-
 # IsIntermediate Property
 
 | Type | Default Value | Read Only | Description | 

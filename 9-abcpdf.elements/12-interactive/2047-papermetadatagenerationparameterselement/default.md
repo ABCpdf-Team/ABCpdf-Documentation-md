@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # PaperMetaDataGenerationParametersElement Class
 
 This class represents the papermetadata generation parameters dictionary. This is definitively detailed in:.

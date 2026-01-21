@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # AtomicArrayElement&lt;T&gt; Class
 
 Class AtomicArrayElement.

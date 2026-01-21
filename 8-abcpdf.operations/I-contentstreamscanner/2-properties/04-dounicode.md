@@ -1,8 +1,3 @@
----
-title: "04-dounicode"
-css: "abcpdf-docs.css"
----
-
 # DoUnicode Property
 
 | Type | Default Value | Read Only | Description | 

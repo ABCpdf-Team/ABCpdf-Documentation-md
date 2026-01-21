@@ -1,8 +1,3 @@
----
-title: "04-entrydis"
-css: "abcpdf-docs.css"
----
-
 # EntryDIS Property
 
 | Type | Default Value | Read Only | Description | 

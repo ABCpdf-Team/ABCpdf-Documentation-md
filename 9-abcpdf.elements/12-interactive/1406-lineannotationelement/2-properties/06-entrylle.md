@@ -1,8 +1,3 @@
----
-title: "06-entrylle"
-css: "abcpdf-docs.css"
----
-
 # EntryLLE Property
 
 | Type | Default Value | Read Only | Description | 

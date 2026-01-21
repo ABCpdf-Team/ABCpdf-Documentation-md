@@ -1,8 +1,3 @@
----
-title: "08-entryxfa"
-css: "abcpdf-docs.css"
----
-
 # EntryXFA Property
 
 | Type | Default Value | Read Only | Description | 

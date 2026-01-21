@@ -1,8 +1,3 @@
----
-title: "08-entryob"
-css: "abcpdf-docs.css"
----
-
 # EntryOB Property
 
 | Type | Default Value | Read Only | Description | 

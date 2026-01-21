@@ -1,8 +1,3 @@
----
-title: "03-entryy"
-css: "abcpdf-docs.css"
----
-
 # EntryY Property
 
 | Type | Default Value | Read Only | Description | 

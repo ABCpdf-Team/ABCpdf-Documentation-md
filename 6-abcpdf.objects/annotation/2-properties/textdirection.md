@@ -1,8 +1,3 @@
----
-title: "textdirection"
-css: "abcpdf-docs.css"
----
-
 # TextDirection Property
 
 | Type | Default Value | Read Only | Description | 

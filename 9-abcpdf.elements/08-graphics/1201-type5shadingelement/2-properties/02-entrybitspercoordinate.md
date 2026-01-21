@@ -1,8 +1,3 @@
----
-title: "02-entrybitspercoordinate"
-css: "abcpdf-docs.css"
----
-
 # EntryBitsPerCoordinate Property
 
 | Type | Default Value | Read Only | Description | 

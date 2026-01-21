@@ -1,8 +1,3 @@
----
-title: "parameters"
-css: "abcpdf-docs.css"
----
-
 # Parameters Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # FolderElement Class
 
 This class represents the folder dictionary. This is definitively detailed in:.

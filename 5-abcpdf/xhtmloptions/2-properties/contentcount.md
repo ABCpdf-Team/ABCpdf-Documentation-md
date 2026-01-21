@@ -1,8 +1,3 @@
----
-title: "contentcount"
-css: "abcpdf-docs.css"
----
-
 # ContentCount Property
 
 | Type | Default Value | Read Only | Description | 

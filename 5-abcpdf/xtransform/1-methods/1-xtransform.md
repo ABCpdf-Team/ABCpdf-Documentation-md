@@ -1,8 +1,3 @@
----
-title: "1-xtransform"
-css: "abcpdf-docs.css"
----
-
 # XTransform &nbsp;Constructor
 
 XTransform Constructor.

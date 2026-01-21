@@ -1,8 +1,3 @@
----
-title: "imagename"
-css: "abcpdf-docs.css"
----
-
 # ImageName Property
 
 | Type | Default Value | Read Only | Description | 

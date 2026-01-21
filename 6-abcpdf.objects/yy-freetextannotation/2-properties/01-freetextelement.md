@@ -1,8 +1,3 @@
----
-title: "01-freetextelement"
-css: "abcpdf-docs.css"
----
-
 # FreeTextElement Property
 
 | Type | Default Value | Read Only | Description | 

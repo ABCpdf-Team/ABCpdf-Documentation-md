@@ -1,8 +1,3 @@
----
-title: "flip"
-css: "abcpdf-docs.css"
----
-
 # Flip Function
 
 Flip the image horizontally or vertically

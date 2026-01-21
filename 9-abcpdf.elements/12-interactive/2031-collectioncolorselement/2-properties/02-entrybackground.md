@@ -1,8 +1,3 @@
----
-title: "02-entrybackground"
-css: "abcpdf-docs.css"
----
-
 # EntryBackground Property
 
 | Type | Default Value | Read Only | Description | 

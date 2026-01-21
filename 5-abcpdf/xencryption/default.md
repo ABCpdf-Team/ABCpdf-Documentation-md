@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # XEncryption Object
 
 Represents the current encryption settings.

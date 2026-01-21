@@ -1,8 +1,3 @@
----
-title: "01-filetrailerelement"
-css: "abcpdf-docs.css"
----
-
 # FileTrailerElement Function
 
 Create a new [FileTrailerElement](../default.md).

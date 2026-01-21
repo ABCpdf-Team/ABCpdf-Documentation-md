@@ -1,8 +1,3 @@
----
-title: "01-pagetreenodeelement"
-css: "abcpdf-docs.css"
----
-
 # PageTreeNodeElement Function
 
 Create a new [PageTreeNodeElement](../default.md).

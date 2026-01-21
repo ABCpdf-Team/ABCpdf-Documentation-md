@@ -1,8 +1,3 @@
----
-title: "postmultiply"
-css: "abcpdf-docs.css"
----
-
 # PostMultiply Function
 
 Post-multiplies this transformation matrix by the supplied transform.

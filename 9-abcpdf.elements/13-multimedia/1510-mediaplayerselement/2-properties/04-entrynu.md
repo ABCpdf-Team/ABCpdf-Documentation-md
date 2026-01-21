@@ -1,8 +1,3 @@
----
-title: "04-entrynu"
-css: "abcpdf-docs.css"
----
-
 # EntryNU Property
 
 | Type | Default Value | Read Only | Description | 

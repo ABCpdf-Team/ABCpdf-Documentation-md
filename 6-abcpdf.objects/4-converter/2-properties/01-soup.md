@@ -1,8 +1,3 @@
----
-title: "01-soup"
-css: "abcpdf-docs.css"
----
-
 # Soup Property
 
 | Type | Default Value | Read Only | Description | 

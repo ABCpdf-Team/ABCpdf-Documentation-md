@@ -1,8 +1,3 @@
----
-title: "01-fieldelement"
-css: "abcpdf-docs.css"
----
-
 # FieldElement Property
 
 | Type | Default Value | Read Only | Description | 

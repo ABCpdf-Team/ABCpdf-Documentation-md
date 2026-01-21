@@ -1,8 +1,3 @@
----
-title: "02-findelementsbytype"
-css: "abcpdf-docs.css"
----
-
 # FindElementsByType Function
 
 Scan through the structure to find all structure elements of a particular type.

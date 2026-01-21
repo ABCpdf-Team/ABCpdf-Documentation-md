@@ -1,8 +1,3 @@
----
-title: "5-jsfalse"
-css: "abcpdf-docs.css"
----
-
 # JSFalse Property
 
 | Type | Default Value | Read Only | Description | 

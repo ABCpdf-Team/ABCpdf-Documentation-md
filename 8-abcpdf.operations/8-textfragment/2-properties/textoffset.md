@@ -1,8 +1,3 @@
----
-title: "textoffset"
-css: "abcpdf-docs.css"
----
-
 # TextOffset Property
 
 | Type | Default | Read Only | Description | 

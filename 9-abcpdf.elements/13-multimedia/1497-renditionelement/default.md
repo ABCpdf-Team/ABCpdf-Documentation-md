@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RenditionElement Class
 
 This class represents the rendition dictionary. This is definitively detailed in:.

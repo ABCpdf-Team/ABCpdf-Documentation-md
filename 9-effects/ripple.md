@@ -1,8 +1,3 @@
----
-title: "ripple"
-css: "abcpdf-docs.css"
----
-
 # Ripple Effect
 
 The Pinch effect distorts the image as if it had been rippled.

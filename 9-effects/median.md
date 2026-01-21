@@ -1,8 +1,3 @@
----
-title: "median"
-css: "abcpdf-docs.css"
----
-
 # Median Effect
 
 The Median filter smoothes images using a fast median algorithm. The median algorithm is particularly good at removing "salt and pepper" noise from images without removing too much fine detail.

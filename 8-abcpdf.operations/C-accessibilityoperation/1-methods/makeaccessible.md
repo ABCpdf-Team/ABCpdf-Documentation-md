@@ -1,8 +1,3 @@
----
-title: "makeaccessible"
-css: "abcpdf-docs.css"
----
-
 # MakeAccessible Function
 
 Tags the document for accessibility.

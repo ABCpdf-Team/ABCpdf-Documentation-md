@@ -1,8 +1,3 @@
----
-title: "08-entryty"
-css: "abcpdf-docs.css"
----
-
 # EntryTY Property
 
 | Type | Default Value | Read Only | Description | 

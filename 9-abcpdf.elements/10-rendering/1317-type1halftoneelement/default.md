@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Type1HalftoneElement Class
 
 This class represents the type 1 halftone dictionary. This is definitively detailed in:.

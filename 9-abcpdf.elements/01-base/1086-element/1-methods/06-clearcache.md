@@ -1,8 +1,3 @@
----
-title: "06-clearcache"
-css: "abcpdf-docs.css"
----
-
 # ClearCache Function
 
 Clears any cached [Element](../default.md) items.

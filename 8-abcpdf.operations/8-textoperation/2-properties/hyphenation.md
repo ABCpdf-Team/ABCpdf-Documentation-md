@@ -1,8 +1,3 @@
----
-title: "hyphenation"
-css: "abcpdf-docs.css"
----
-
 # Hyphenation Property
 
 | Type | Default | Read Only | Description | 

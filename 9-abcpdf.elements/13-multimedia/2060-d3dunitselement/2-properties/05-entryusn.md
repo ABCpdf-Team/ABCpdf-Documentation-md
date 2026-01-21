@@ -1,8 +1,3 @@
----
-title: "05-entryusn"
-css: "abcpdf-docs.css"
----
-
 # EntryUSn Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "compressmetadata"
-css: "abcpdf-docs.css"
----
-
 # CompressMetadata Property
 
 | Type | Default Value | Read Only | Description | 

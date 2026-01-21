@@ -1,8 +1,3 @@
----
-title: "05-entryearlychange"
-css: "abcpdf-docs.css"
----
-
 # EntryEarlyChange Property
 
 | Type | Default Value | Read Only | Description | 

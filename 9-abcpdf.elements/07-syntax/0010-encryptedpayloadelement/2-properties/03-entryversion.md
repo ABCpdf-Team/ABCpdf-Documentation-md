@@ -1,8 +1,3 @@
----
-title: "03-entryversion"
-css: "abcpdf-docs.css"
----
-
 # EntryVersion Property
 
 | Type | Default Value | Read Only | Description | 

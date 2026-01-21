@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ViewParamsElement Class
 
 This class represents the view params dictionary. This is definitively detailed in:.

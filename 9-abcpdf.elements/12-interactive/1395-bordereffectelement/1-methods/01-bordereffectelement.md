@@ -1,8 +1,3 @@
----
-title: "01-bordereffectelement"
-css: "abcpdf-docs.css"
----
-
 # BorderEffectElement Function
 
 Create a new [BorderEffectElement](../default.md).

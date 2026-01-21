@@ -1,8 +1,3 @@
----
-title: "palette"
-css: "abcpdf-docs.css"
----
-
 # Palette Property
 
 | Type | Default Value | Read Only | Description | 

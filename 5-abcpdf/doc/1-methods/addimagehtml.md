@@ -1,8 +1,3 @@
----
-title: "addimagehtml"
-css: "abcpdf-docs.css"
----
-
 # AddImageHtml Function
 
 Renders a web page specified as HTML.

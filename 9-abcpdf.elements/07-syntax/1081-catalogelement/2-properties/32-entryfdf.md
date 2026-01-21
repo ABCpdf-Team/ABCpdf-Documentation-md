@@ -1,8 +1,3 @@
----
-title: "32-entryfdf"
-css: "abcpdf-docs.css"
----
-
 # EntryFDF Property
 
 | Type | Default Value | Read Only | Description | 

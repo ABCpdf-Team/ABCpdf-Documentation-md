@@ -1,8 +1,3 @@
----
-title: "01-importdataactionelement"
-css: "abcpdf-docs.css"
----
-
 # ImportDataActionElement Function
 
 Create a new [ImportDataActionElement](../default.md).

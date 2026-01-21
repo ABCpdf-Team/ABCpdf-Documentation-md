@@ -1,8 +1,3 @@
----
-title: "38-textrenderingmode"
-css: "abcpdf-docs.css"
----
-
 # TextRenderingMode Property
 
 | Type | Default Value | Read Only | Description | 

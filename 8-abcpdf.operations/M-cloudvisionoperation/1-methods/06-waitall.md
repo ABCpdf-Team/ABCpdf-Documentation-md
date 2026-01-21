@@ -1,8 +1,3 @@
----
-title: "06-waitall"
-css: "abcpdf-docs.css"
----
-
 # WaitAll Function
 
 Wait until the operation is completed.

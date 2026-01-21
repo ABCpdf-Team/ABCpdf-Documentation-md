@@ -1,8 +1,3 @@
----
-title: "13-entrysmaskindata"
-css: "abcpdf-docs.css"
----
-
 # EntrySMaskInData Property
 
 | Type | Default Value | Read Only | Description | 

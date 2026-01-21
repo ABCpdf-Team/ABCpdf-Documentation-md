@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # CalGrayColorSpaceElement Class
 
 This class represents the calibrated gray color space.

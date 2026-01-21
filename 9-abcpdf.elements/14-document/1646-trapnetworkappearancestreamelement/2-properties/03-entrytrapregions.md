@@ -1,8 +1,3 @@
----
-title: "03-entrytrapregions"
-css: "abcpdf-docs.css"
----
-
 # EntryTrapRegions Property
 
 | Type | Default Value | Read Only | Description | 

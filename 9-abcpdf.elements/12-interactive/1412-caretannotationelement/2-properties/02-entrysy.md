@@ -1,8 +1,3 @@
----
-title: "02-entrysy"
-css: "abcpdf-docs.css"
----
-
 # EntrySy Property
 
 | Type | Default Value | Read Only | Description | 

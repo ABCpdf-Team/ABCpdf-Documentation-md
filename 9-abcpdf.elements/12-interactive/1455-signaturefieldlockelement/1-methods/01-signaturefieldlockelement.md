@@ -1,8 +1,3 @@
----
-title: "01-signaturefieldlockelement"
-css: "abcpdf-docs.css"
----
-
 # SignatureFieldLockElement Function
 
 Create a new [SignatureFieldLockElement](../default.md).

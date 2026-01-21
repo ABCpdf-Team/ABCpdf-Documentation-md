@@ -1,8 +1,3 @@
----
-title: "isvertical"
-css: "abcpdf-docs.css"
----
-
 # IsVertical Property
 
 | Type | Default | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-checkboxannotation"
-css: "abcpdf-docs.css"
----
-
 # CheckBoxAnnotation Function
 
 Add checkbox annotation to the current page of the doc.

@@ -1,8 +1,3 @@
----
-title: "5-contains"
-css: "abcpdf-docs.css"
----
-
 # Contains Function
 
 Determines whether the Soup contains a specific object.

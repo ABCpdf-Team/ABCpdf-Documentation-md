@@ -1,8 +1,3 @@
----
-title: "01-navigationnodeelement"
-css: "abcpdf-docs.css"
----
-
 # NavigationNodeElement Function
 
 Create a new [NavigationNodeElement](../default.md).

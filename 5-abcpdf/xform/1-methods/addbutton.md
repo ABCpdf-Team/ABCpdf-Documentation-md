@@ -1,8 +1,3 @@
----
-title: "addbutton"
-css: "abcpdf-docs.css"
----
-
 # AddButton Function
 
 Add button field.

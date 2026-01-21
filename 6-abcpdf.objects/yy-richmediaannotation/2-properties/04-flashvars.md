@@ -1,8 +1,3 @@
----
-title: "04-flashvars"
-css: "abcpdf-docs.css"
----
-
 # FlashVars Property
 
 | Type | Default Value | Read Only | Description | 

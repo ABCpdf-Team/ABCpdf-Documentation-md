@@ -1,8 +1,3 @@
----
-title: "02-entry3dv"
-css: "abcpdf-docs.css"
----
-
 # Entry3DV Property
 
 | Type | Default Value | Read Only | Description | 

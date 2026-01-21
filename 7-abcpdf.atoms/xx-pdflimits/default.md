@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # PDFLimits Class
 
 An atom representing a PDF limits.

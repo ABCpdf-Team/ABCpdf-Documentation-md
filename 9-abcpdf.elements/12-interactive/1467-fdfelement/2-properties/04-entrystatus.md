@@ -1,8 +1,3 @@
----
-title: "04-entrystatus"
-css: "abcpdf-docs.css"
----
-
 # EntryStatus Property
 
 | Type | Default Value | Read Only | Description | 

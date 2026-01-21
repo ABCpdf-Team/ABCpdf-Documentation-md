@@ -1,8 +1,3 @@
----
-title: "01-publickeycryptfilterelement"
-css: "abcpdf-docs.css"
----
-
 # PublicKeyCryptFilterElement Function
 
 Create a new [PublicKeyCryptFilterElement](../default.md).

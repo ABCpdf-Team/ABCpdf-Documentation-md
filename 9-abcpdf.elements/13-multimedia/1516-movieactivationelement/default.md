@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # MovieActivationElement Class
 
 This class represents the movie activation dictionary. This is definitively detailed in:.

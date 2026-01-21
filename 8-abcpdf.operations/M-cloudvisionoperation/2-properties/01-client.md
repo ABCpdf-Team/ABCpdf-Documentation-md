@@ -1,8 +1,3 @@
----
-title: "01-client"
-css: "abcpdf-docs.css"
----
-
 # Client Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "makeformxobject"
-css: "abcpdf-docs.css"
----
-
 # MakeFormXObject Function
 
 Makes a FormXObject out of the page.

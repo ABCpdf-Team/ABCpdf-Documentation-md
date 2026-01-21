@@ -1,8 +1,3 @@
----
-title: "04-entrytrapstyles"
-css: "abcpdf-docs.css"
----
-
 # EntryTrapStyles Property
 
 | Type | Default Value | Read Only | Description | 

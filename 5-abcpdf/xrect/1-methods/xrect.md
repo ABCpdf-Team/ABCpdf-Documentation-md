@@ -1,8 +1,3 @@
----
-title: "xrect"
-css: "abcpdf-docs.css"
----
-
 # XRect&nbsp;Constructor
 
 XRect Constructor.

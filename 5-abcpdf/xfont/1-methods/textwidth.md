@@ -1,8 +1,3 @@
----
-title: "textwidth"
-css: "abcpdf-docs.css"
----
-
 # TextWidth&nbsp;Function
 
 Calculate the width of a string of text.

@@ -1,8 +1,3 @@
----
-title: "01-optionalcontentusagepageelement"
-css: "abcpdf-docs.css"
----
-
 # OptionalContentUsagePageElement Function
 
 Create a new [OptionalContentUsagePageElement](../default.md).

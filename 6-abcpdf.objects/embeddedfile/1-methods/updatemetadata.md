@@ -1,8 +1,3 @@
----
-title: "updatemetadata"
-css: "abcpdf-docs.css"
----
-
 # UpdateMetadata Function
 
 Update metadata for the embedded file.

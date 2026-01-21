@@ -1,8 +1,3 @@
----
-title: "15-entrypage"
-css: "abcpdf-docs.css"
----
-
 # EntryPage Property
 
 | Type | Default Value | Read Only | Description | 

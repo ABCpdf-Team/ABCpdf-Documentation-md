@@ -1,8 +1,3 @@
----
-title: "getid"
-css: "abcpdf-docs.css"
----
-
 # GetID Function
 
 Gets the Object ID value from the Atom if it is a RefAtom.

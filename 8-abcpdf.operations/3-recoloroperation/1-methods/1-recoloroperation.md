@@ -1,8 +1,3 @@
----
-title: "1-recoloroperation"
-css: "abcpdf-docs.css"
----
-
 # RecolorOperation Constructor
 
 RecolorOperation Constructor.

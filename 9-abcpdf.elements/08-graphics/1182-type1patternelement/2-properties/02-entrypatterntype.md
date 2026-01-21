@@ -1,8 +1,3 @@
----
-title: "02-entrypatterntype"
-css: "abcpdf-docs.css"
----
-
 # EntryPatternType Property
 
 | Type | Default Value | Read Only | Description | 

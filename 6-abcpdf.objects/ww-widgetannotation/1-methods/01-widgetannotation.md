@@ -1,8 +1,3 @@
----
-title: "01-widgetannotation"
-css: "abcpdf-docs.css"
----
-
 # WidgetAnnotation Function
 
 Add widget annotation to the doc.

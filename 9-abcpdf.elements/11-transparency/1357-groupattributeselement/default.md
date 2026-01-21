@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # GroupAttributesElement Class
 
 This class represents the group attributes dictionary. This is definitively detailed in:.

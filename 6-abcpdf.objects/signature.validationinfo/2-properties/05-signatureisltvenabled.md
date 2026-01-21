@@ -1,8 +1,3 @@
----
-title: "05-signatureisltvenabled"
-css: "abcpdf-docs.css"
----
-
 # SignatureIsLTVEnabled Property
 
 | Type | Default Value | Read Only | Description | 

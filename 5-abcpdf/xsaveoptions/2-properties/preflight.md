@@ -1,8 +1,3 @@
----
-title: "preflight"
-css: "abcpdf-docs.css"
----
-
 # Preflight Property
 
 | Type | Default Value | Read Only | Description | 

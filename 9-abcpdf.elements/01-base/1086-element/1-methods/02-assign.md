@@ -1,8 +1,3 @@
----
-title: "02-assign"
-css: "abcpdf-docs.css"
----
-
 # Assign Function
 
 Assign an IndirectObject to this [Element](../default.md).

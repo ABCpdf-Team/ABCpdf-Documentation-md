@@ -1,8 +1,3 @@
----
-title: "11-tonamearray"
-css: "abcpdf-docs.css"
----
-
 # ToNameArray Function
 
 Attempts to convert an ArrayAtom into an array of names, resolving any references as necessary.

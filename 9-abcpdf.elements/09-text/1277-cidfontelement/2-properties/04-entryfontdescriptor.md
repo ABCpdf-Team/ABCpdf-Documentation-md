@@ -1,8 +1,3 @@
----
-title: "04-entryfontdescriptor"
-css: "abcpdf-docs.css"
----
-
 # EntryFontDescriptor Property
 
 | Type | Default Value | Read Only | Description | 

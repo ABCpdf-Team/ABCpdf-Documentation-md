@@ -1,8 +1,3 @@
----
-title: "7-acknowledgements"
-css: "abcpdf-docs.css"
----
-
 # Acknowledgements
 
 ABCpdf incorporates a variety of freely available and open source software. Many thanks to the authors and contributors.

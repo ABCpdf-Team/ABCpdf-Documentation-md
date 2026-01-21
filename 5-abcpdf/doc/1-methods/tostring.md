@@ -1,8 +1,3 @@
----
-title: "tostring"
-css: "abcpdf-docs.css"
----
-
 # ToString Function
 
 A string representation of the graphic style of the document

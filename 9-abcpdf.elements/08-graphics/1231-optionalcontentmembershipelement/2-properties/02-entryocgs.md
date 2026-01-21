@@ -1,8 +1,3 @@
----
-title: "02-entryocgs"
-css: "abcpdf-docs.css"
----
-
 # EntryOCGs Property
 
 | Type | Default Value | Read Only | Description | 

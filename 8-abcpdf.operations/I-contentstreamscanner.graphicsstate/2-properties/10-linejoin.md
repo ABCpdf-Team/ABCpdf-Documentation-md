@@ -1,8 +1,3 @@
----
-title: "10-linejoin"
-css: "abcpdf-docs.css"
----
-
 # LineJoin Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "ownerpassword"
-css: "abcpdf-docs.css"
----
-
 # OwnerPassword Property
 
 | Type | Default Value | Read Only | Description | 

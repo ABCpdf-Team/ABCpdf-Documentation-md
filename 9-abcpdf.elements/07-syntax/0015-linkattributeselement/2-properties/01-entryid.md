@@ -1,8 +1,3 @@
----
-title: "01-entryid"
-css: "abcpdf-docs.css"
----
-
 # EntryID Property
 
 | Type | Default Value | Read Only | Description | 

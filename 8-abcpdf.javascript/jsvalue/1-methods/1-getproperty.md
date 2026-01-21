@@ -1,8 +1,3 @@
----
-title: "1-getproperty"
-css: "abcpdf-docs.css"
----
-
 # GetProperty Method
 
 Gets this object's property.

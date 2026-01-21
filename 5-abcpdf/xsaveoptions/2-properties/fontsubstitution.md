@@ -1,8 +1,3 @@
----
-title: "fontsubstitution"
-css: "abcpdf-docs.css"
----
-
 # FontSubstitution Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # SquareAnnotationElement Class
 
 This class represents the square annotation. This is definitively detailed in:.

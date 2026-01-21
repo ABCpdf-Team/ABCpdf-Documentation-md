@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # JavaScriptActionElement Class
 
 This class represents the javascript action. This is definitively detailed in:.

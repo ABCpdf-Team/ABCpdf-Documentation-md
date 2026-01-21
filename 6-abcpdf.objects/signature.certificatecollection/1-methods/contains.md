@@ -1,8 +1,3 @@
----
-title: "contains"
-css: "abcpdf-docs.css"
----
-
 # Contains Method
 
 Determines whether this collection contains the certificate object's value.

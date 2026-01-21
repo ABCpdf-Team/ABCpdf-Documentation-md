@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # JSValue Class
 
 JSValue represents a value or an object reference inside the JavaScript engine.

@@ -1,8 +1,3 @@
----
-title: "01-entryit"
-css: "abcpdf-docs.css"
----
-
 # EntryIT Property
 
 | Type | Default Value | Read Only | Description | 

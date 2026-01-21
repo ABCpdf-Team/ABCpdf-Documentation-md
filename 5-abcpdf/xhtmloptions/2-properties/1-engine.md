@@ -1,8 +1,3 @@
----
-title: "1-engine"
-css: "abcpdf-docs.css"
----
-
 # Engine Property
 
 | Type | Default Value | Read Only | Description | 

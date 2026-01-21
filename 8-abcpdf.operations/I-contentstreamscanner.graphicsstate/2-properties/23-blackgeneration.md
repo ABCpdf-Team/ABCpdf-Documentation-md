@@ -1,8 +1,3 @@
----
-title: "23-blackgeneration"
-css: "abcpdf-docs.css"
----
-
 # BlackGeneration Property
 
 | Type | Default Value | Read Only | Description | 

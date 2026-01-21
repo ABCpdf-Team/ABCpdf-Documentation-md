@@ -1,8 +1,3 @@
----
-title: "serif"
-css: "abcpdf-docs.css"
----
-
 # Serif Property
 
 | Type | Default | Read Only | Description | 

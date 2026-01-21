@@ -1,8 +1,3 @@
----
-title: "01-macosfileinformationelement"
-css: "abcpdf-docs.css"
----
-
 # MacOSFileInformationElement Function
 
 Create a new [MacOSFileInformationElement](../default.md).

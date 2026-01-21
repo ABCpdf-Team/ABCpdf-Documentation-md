@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # StandardStructureAttributesElement Class
 
 This class represents the standard structure attributes. This is definitively detailed in:.

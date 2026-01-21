@@ -1,8 +1,3 @@
----
-title: "08-certificatechain"
-css: "abcpdf-docs.css"
----
-
 # CertificateChain Property
 
 | Type | Default Value | Read Only | Description | 

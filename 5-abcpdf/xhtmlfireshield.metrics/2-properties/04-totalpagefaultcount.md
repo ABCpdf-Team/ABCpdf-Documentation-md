@@ -1,8 +1,3 @@
----
-title: "04-totalpagefaultcount"
-css: "abcpdf-docs.css"
----
-
 # TotalPageFaultCount Property
 
 | Type | Default Value | Read Only | Description | 

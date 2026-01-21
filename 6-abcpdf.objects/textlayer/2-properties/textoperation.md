@@ -1,8 +1,3 @@
----
-title: "textoperation"
-css: "abcpdf-docs.css"
----
-
 # TextOperation Property
 
 | Type | Default Value | Read Only | Description | 

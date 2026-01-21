@@ -1,8 +1,3 @@
----
-title: "16-entryafrelationship"
-css: "abcpdf-docs.css"
----
-
 # EntryAFRelationship Property
 
 | Type | Default Value | Read Only | Description | 

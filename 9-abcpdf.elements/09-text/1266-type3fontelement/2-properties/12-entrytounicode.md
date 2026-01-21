@@ -1,8 +1,3 @@
----
-title: "12-entrytounicode"
-css: "abcpdf-docs.css"
----
-
 # EntryToUnicode Property
 
 | Type | Default Value | Read Only | Description | 

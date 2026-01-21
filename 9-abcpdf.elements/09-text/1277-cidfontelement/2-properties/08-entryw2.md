@@ -1,8 +1,3 @@
----
-title: "08-entryw2"
-css: "abcpdf-docs.css"
----
-
 # EntryW2 Property
 
 | Type | Default Value | Read Only | Description | 

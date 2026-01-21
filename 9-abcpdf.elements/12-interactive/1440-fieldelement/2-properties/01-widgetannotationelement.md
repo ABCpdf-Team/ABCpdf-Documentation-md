@@ -1,8 +1,3 @@
----
-title: "01-widgetannotationelement"
-css: "abcpdf-docs.css"
----
-
 # WidgetAnnotationElement Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-entryau"
-css: "abcpdf-docs.css"
----
-
 # EntryAU Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # SlideshowElement Class
 
 This class represents the slideshow dictionary. This is definitively detailed in:.

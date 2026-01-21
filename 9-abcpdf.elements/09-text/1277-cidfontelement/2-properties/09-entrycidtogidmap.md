@@ -1,8 +1,3 @@
----
-title: "09-entrycidtogidmap"
-css: "abcpdf-docs.css"
----
-
 # EntryCIDToGIDMap Property
 
 | Type | Default Value | Read Only | Description | 

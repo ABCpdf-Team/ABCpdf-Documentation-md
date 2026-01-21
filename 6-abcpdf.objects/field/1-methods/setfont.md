@@ -1,8 +1,3 @@
----
-title: "setfont"
-css: "abcpdf-docs.css"
----
-
 # SetFont Function
 
 Sets the font and font size to be used for text

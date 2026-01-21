@@ -1,8 +1,3 @@
----
-title: "key"
-css: "abcpdf-docs.css"
----
-
 # Key Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "browserwidth"
-css: "abcpdf-docs.css"
----
-
 # BrowserWidth Property
 
 | Type | Default Value | Read Only | Description | 

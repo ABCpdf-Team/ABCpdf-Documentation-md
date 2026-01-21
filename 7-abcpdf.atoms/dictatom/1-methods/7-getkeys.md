@@ -1,8 +1,3 @@
----
-title: "7-getkeys"
-css: "abcpdf-docs.css"
----
-
 # GetKeys Function
 
 Get an array of all the names in the dictionary.

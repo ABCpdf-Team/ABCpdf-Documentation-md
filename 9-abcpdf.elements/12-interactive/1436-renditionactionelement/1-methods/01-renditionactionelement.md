@@ -1,8 +1,3 @@
----
-title: "01-renditionactionelement"
-css: "abcpdf-docs.css"
----
-
 # RenditionActionElement Function
 
 Create a new [RenditionActionElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "01-mediascreenparameterselement"
-css: "abcpdf-docs.css"
----
-
 # MediaScreenParametersElement Function
 
 Create a new [MediaScreenParametersElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "numtiffstrips"
-css: "abcpdf-docs.css"
----
-
 # NumTiffStrips Property
 
 | Type | Default Value | Read Only | Description | 

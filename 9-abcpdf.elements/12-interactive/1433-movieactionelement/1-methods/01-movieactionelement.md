@@ -1,8 +1,3 @@
----
-title: "01-movieactionelement"
-css: "abcpdf-docs.css"
----
-
 # MovieActionElement Function
 
 Create a new [MovieActionElement](../default.md).

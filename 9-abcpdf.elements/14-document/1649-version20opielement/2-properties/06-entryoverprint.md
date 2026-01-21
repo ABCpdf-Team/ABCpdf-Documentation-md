@@ -1,8 +1,3 @@
----
-title: "06-entryoverprint"
-css: "abcpdf-docs.css"
----
-
 # EntryOverprint Property
 
 | Type | Default Value | Read Only | Description | 

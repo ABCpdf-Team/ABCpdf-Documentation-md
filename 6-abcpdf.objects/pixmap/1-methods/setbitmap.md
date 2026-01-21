@@ -1,8 +1,3 @@
----
-title: "setbitmap"
-css: "abcpdf-docs.css"
----
-
 # SetBitmap Function
 
 Set the content of the object as a Bitmap

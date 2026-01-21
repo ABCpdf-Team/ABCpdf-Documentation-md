@@ -1,8 +1,3 @@
----
-title: "setcontentdata"
-css: "abcpdf-docs.css"
----
-
 # SetContentData Function
 
 Sets the content data for the page.

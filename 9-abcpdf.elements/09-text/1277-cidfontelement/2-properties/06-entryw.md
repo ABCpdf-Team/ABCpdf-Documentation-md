@@ -1,8 +1,3 @@
----
-title: "06-entryw"
-css: "abcpdf-docs.css"
----
-
 # EntryW Property
 
 | Type | Default Value | Read Only | Description | 

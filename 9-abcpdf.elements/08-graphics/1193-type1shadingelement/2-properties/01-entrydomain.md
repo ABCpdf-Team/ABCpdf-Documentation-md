@@ -1,8 +1,3 @@
----
-title: "01-entrydomain"
-css: "abcpdf-docs.css"
----
-
 # EntryDomain Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "03-caption"
-css: "abcpdf-docs.css"
----
-
 # Caption Property
 
 | Type | Default Value | Read Only | Description | 

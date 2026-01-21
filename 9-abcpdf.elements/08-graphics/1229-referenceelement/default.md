@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ReferenceElement Class
 
 This class represents the reference dictionary. This is definitively detailed in:.

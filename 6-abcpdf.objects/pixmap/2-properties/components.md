@@ -1,8 +1,3 @@
----
-title: "components"
-css: "abcpdf-docs.css"
----
-
 # Components Property
 
 | Type | Default | Read Only | Description | 

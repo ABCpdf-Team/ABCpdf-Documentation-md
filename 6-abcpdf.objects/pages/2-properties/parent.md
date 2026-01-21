@@ -1,8 +1,3 @@
----
-title: "parent"
-css: "abcpdf-docs.css"
----
-
 # Parent Property
 
 | Type | Default | Read Only | Description | 

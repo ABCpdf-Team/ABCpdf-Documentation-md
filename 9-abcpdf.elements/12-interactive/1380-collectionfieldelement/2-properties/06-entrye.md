@@ -1,8 +1,3 @@
----
-title: "06-entrye"
-css: "abcpdf-docs.css"
----
-
 # EntryE Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "05-entryencode"
-css: "abcpdf-docs.css"
----
-
 # EntryEncode Property
 
 | Type | Default Value | Read Only | Description | 

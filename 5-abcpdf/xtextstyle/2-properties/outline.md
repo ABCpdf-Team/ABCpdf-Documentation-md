@@ -1,8 +1,3 @@
----
-title: "outline"
-css: "abcpdf-docs.css"
----
-
 # Outline Property
 
 | Type | Default | Read Only | Description | 

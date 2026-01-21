@@ -1,8 +1,3 @@
----
-title: "01-d3dannotationexternaldataelement"
-css: "abcpdf-docs.css"
----
-
 # D3DAnnotationExternalDataElement Function
 
 Create a new [D3DAnnotationExternalDataElement](../default.md).

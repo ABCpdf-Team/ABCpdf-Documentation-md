@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # BeadElement Class
 
 This class represents the bead dictionary. This is definitively detailed in:.

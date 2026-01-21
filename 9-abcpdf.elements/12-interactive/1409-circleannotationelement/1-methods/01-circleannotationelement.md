@@ -1,8 +1,3 @@
----
-title: "01-circleannotationelement"
-css: "abcpdf-docs.css"
----
-
 # CircleAnnotationElement Function
 
 Create a new [CircleAnnotationElement](../default.md).

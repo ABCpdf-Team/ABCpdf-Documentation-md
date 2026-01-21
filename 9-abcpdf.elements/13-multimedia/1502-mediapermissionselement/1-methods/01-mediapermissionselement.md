@@ -1,8 +1,3 @@
----
-title: "01-mediapermissionselement"
-css: "abcpdf-docs.css"
----
-
 # MediaPermissionsElement Function
 
 Create a new [MediaPermissionsElement](../default.md).

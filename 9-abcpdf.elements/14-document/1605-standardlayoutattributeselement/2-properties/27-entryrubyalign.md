@@ -1,8 +1,3 @@
----
-title: "27-entryrubyalign"
-css: "abcpdf-docs.css"
----
-
 # EntryRubyAlign Property
 
 | Type | Default Value | Read Only | Description | 

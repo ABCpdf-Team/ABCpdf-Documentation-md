@@ -1,8 +1,3 @@
----
-title: "04-entrynext"
-css: "abcpdf-docs.css"
----
-
 # EntryNext Property
 
 | Type | Default Value | Read Only | Description | 

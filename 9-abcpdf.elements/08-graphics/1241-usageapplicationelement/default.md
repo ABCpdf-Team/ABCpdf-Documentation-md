@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # UsageApplicationElement Class
 
 This class represents the usage application dictionary. This is definitively detailed in:.

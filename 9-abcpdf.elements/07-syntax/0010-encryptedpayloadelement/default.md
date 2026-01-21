@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # EncryptedPayloadElement Class
 
 This class represents the encrypted payload dictionary. This is definitively detailed in:.

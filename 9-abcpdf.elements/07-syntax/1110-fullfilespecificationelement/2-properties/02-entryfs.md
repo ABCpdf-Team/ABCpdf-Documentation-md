@@ -1,8 +1,3 @@
----
-title: "02-entryfs"
-css: "abcpdf-docs.css"
----
-
 # EntryFS Property
 
 | Type | Default Value | Read Only | Description | 

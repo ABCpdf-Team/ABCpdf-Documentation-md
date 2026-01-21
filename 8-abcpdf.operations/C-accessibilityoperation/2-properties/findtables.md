@@ -1,8 +1,3 @@
----
-title: "findtables"
-css: "abcpdf-docs.css"
----
-
 # FindTables Property
 
 | Type | Default | Read Only | Description | 

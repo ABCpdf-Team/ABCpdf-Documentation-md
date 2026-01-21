@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # StructureElementElement Class
 
 This class represents the structure element dictionary. This is definitively detailed in:.

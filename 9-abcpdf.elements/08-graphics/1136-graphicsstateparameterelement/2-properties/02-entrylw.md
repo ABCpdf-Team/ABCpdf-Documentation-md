@@ -1,8 +1,3 @@
----
-title: "02-entrylw"
-css: "abcpdf-docs.css"
----
-
 # EntryLW Property
 
 | Type | Default Value | Read Only | Description | 

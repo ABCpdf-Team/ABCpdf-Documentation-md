@@ -1,8 +1,3 @@
----
-title: "17-strokeadjustment"
-css: "abcpdf-docs.css"
----
-
 # StrokeAdjustment Property
 
 | Type | Default Value | Read Only | Description | 

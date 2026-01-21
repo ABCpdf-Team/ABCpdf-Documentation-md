@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # D3DRadialMeasurementElement Class
 
 This class represents the 3D radial dimension measurement. This is definitively detailed in:.

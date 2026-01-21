@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ViewLayer Class
 
 A view onto a larger underlying graphic a portion of which is appearing on a page of the document.

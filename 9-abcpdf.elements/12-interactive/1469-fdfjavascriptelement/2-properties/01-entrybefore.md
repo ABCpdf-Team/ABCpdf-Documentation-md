@@ -1,8 +1,3 @@
----
-title: "01-entrybefore"
-css: "abcpdf-docs.css"
----
-
 # EntryBefore Property
 
 | Type | Default Value | Read Only | Description | 

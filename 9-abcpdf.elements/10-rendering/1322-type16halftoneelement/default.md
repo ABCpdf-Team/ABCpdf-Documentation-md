@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Type16HalftoneElement Class
 
 This class represents the type 16 halftone dictionary. This is definitively detailed in:.

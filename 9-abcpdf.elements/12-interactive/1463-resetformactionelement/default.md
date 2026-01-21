@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ResetFormActionElement Class
 
 This class represents the reset-form action. This is definitively detailed in:.

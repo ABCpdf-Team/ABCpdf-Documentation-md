@@ -1,8 +1,3 @@
----
-title: "add"
-css: "abcpdf-docs.css"
----
-
 # Add Method
 
 Adds the certificate object to this collection if its value is not already present.

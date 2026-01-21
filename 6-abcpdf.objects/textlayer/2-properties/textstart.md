@@ -1,8 +1,3 @@
----
-title: "textstart"
-css: "abcpdf-docs.css"
----
-
 # TextStart Property
 
 | Type | Default | Read Only | Description | 

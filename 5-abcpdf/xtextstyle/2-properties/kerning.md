@@ -1,8 +1,3 @@
----
-title: "kerning"
-css: "abcpdf-docs.css"
----
-
 # Kerning Property
 
 | Type | Default Value | Read Only | Description | 

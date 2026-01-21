@@ -1,8 +1,3 @@
----
-title: "01-entrydocument"
-css: "abcpdf-docs.css"
----
-
 # EntryDocument Property
 
 | Type | Default Value | Read Only | Description | 

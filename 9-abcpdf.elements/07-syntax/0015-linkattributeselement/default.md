@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # LinkAttributesElement Class
 
 This class represents link structure attributes.

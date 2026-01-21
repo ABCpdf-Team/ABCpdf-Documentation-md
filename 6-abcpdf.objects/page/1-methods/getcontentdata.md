@@ -1,8 +1,3 @@
----
-title: "getcontentdata"
-css: "abcpdf-docs.css"
----
-
 # GetContentData Function
 
 Gets the decompressed content data from the page.

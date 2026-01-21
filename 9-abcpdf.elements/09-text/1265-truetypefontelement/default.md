@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # TrueTypeFontElement Class
 
 This class represents the truetype font dictionary. This is definitively detailed in:.

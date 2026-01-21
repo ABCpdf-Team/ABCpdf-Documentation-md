@@ -1,8 +1,3 @@
----
-title: "getfields"
-css: "abcpdf-docs.css"
----
-
 # GetFields Function
 
 Get all the eForm fields in the document.

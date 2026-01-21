@@ -1,8 +1,3 @@
----
-title: "25-entrylegal"
-css: "abcpdf-docs.css"
----
-
 # EntryLegal Property
 
 | Type | Default Value | Read Only | Description | 

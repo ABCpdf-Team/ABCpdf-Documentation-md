@@ -1,8 +1,3 @@
----
-title: "01-d3dcommentnoteelement"
-css: "abcpdf-docs.css"
----
-
 # D3DCommentNoteElement Function
 
 Create a new [D3DCommentNoteElement](../default.md).

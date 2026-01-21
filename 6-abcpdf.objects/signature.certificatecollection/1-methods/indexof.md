@@ -1,8 +1,3 @@
----
-title: "indexof"
-css: "abcpdf-docs.css"
----
-
 # IndexOf Method
 
 Gets the index of the certificate object's value.

@@ -1,8 +1,3 @@
----
-title: "removeunusedimages"
-css: "abcpdf-docs.css"
----
-
 # RemoveUnusedImages Property
 
 | Type | Default Value | Read Only | Description | 

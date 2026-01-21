@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # DocumentPartElement Class
 
 This class represents the dpart dictionary. This is definitively detailed in:.

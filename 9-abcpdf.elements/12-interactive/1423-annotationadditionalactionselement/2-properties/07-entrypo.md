@@ -1,8 +1,3 @@
----
-title: "07-entrypo"
-css: "abcpdf-docs.css"
----
-
 # EntryPO Property
 
 | Type | Default Value | Read Only | Description | 

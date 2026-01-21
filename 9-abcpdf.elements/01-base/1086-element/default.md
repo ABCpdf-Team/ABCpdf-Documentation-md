@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Element Class
 
 An Element is a specialization wrapper around an Atom designed to expose aspects of that Atom in a structured manner.

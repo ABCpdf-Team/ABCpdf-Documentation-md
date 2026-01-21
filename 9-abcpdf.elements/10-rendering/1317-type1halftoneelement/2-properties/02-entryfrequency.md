@@ -1,8 +1,3 @@
----
-title: "02-entryfrequency"
-css: "abcpdf-docs.css"
----
-
 # EntryFrequency Property
 
 | Type | Default Value | Read Only | Description | 

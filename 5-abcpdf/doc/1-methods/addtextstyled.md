@@ -1,8 +1,3 @@
----
-title: "addtextstyled"
-css: "abcpdf-docs.css"
----
-
 # AddTextStyled Function
 
 Adds a block of multi-styled text to the current page.

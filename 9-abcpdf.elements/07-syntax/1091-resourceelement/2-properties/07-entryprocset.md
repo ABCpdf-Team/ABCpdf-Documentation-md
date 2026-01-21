@@ -1,8 +1,3 @@
----
-title: "07-entryprocset"
-css: "abcpdf-docs.css"
----
-
 # EntryProcSet Property
 
 | Type | Default Value | Read Only | Description | 

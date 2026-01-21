@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # DrawPagesOperation Class
 
 Operation to draw pages from one document onto another.

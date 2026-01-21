@@ -1,8 +1,3 @@
----
-title: "1-ID"
-css: "abcpdf-docs.css"
----
-
 # ID Property
 
 | Type | Default | Read Only | Description | 

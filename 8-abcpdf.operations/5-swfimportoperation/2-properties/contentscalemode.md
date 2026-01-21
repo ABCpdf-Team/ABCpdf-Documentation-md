@@ -1,8 +1,3 @@
----
-title: "contentscalemode"
-css: "abcpdf-docs.css"
----
-
 # ContentScaleMode Property
 
 | Type | Default | Read Only | Description | 

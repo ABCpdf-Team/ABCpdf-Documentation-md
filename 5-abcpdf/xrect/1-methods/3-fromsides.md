@@ -1,8 +1,3 @@
----
-title: "3-fromsides"
-css: "abcpdf-docs.css"
----
-
 # FromSides Function
 
 Creates an XRect from the coordinates of two diagonally opposite corners.

@@ -1,8 +1,3 @@
----
-title: "nativewidths"
-css: "abcpdf-docs.css"
----
-
 # NativeWidths Property
 
 | Type | Default Value | Read Only | Description | 

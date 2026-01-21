@@ -1,8 +1,3 @@
----
-title: "fromrgb"
-css: "abcpdf-docs.css"
----
-
 # FromRgb Function
 
 Create an XColor from a set of RGB component values.

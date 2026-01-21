@@ -1,8 +1,3 @@
----
-title: "02-containsvalue"
-css: "abcpdf-docs.css"
----
-
 # ContainsValue Function
 
 Determines whether the [DictElement](../default.md) contains a specific value.

@@ -1,8 +1,3 @@
----
-title: "l-pdf-standards"
-css: "abcpdf-docs.css"
----
-
 # PDF Standards
 
 ## Intro

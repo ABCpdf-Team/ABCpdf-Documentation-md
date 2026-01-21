@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # OptionalContentMembershipElement Class
 
 This class represents the optional content membership dictionary. This is definitively detailed in:.

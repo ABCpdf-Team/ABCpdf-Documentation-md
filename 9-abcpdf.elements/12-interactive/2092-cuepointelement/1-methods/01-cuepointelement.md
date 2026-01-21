@@ -1,8 +1,3 @@
----
-title: "01-cuepointelement"
-css: "abcpdf-docs.css"
----
-
 # CuePointElement Function
 
 Create a new [CuePointElement](../default.md).

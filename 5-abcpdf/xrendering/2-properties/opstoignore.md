@@ -1,8 +1,3 @@
----
-title: "opstoignore"
-css: "abcpdf-docs.css"
----
-
 # OpsToIgnore Property
 
 | Type | Default Value | Read Only | Description | 

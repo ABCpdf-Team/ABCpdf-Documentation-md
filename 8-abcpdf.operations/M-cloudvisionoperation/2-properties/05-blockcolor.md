@@ -1,8 +1,3 @@
----
-title: "05-blockcolor"
-css: "abcpdf-docs.css"
----
-
 # BlockColor Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "sharpen"
-css: "abcpdf-docs.css"
----
-
 # Sharpen Effect
 
 The Sharpen filter enhances edges using a simple algorithm. This is very fast to compute but can produce artificially over-sharp or over-noisy images if not used carefully.

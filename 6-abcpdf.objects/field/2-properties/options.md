@@ -1,8 +1,3 @@
----
-title: "options"
-css: "abcpdf-docs.css"
----
-
 # Options Property
 
 | Type | Default Value | Read Only | Description | 

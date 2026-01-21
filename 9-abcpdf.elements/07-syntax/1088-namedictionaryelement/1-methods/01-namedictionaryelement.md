@@ -1,8 +1,3 @@
----
-title: "01-namedictionaryelement"
-css: "abcpdf-docs.css"
----
-
 # NameDictionaryElement Function
 
 Create a new [NameDictionaryElement](../default.md).

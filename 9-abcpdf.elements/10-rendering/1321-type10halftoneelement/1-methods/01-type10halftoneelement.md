@@ -1,8 +1,3 @@
----
-title: "01-type10halftoneelement"
-css: "abcpdf-docs.css"
----
-
 # Type10HalftoneElement Function
 
 Create a new [Type10HalftoneElement](../default.md).

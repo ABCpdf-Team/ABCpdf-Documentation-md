@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # MediaRenditionElement Class
 
 This class represents the media rendition dictionary. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "23-entrypz"
-css: "abcpdf-docs.css"
----
-
 # EntryPZ Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "02-entrytransformmethod"
-css: "abcpdf-docs.css"
----
-
 # EntryTransformMethod Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "premultiply"
-css: "abcpdf-docs.css"
----
-
 # PreMultiply Function
 
 Pre-multiplies this transformation matrix by the supplied transform.

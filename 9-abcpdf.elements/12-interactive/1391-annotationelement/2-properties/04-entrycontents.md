@@ -1,8 +1,3 @@
----
-title: "04-entrycontents"
-css: "abcpdf-docs.css"
----
-
 # EntryContents Property
 
 | Type | Default Value | Read Only | Description | 

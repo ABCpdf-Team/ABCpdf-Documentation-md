@@ -1,8 +1,3 @@
----
-title: "01-entryc0"
-css: "abcpdf-docs.css"
----
-
 # EntryC0 Property
 
 | Type | Default Value | Read Only | Description | 

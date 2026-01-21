@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # MacOSFileInformationElement Class
 
 This class represents the mac os file information dictionary. This is definitively detailed in:.

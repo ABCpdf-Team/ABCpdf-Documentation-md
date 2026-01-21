@@ -1,8 +1,3 @@
----
-title: "getcertificates"
-css: "abcpdf-docs.css"
----
-
 # GetCertificates Function
 
 Extract the encoded X.509 data of the certificate(s).

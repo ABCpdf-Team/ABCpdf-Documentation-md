@@ -1,8 +1,3 @@
----
-title: "01-richmediaactivationelement"
-css: "abcpdf-docs.css"
----
-
 # RichMediaActivationElement Function
 
 Create a new [RichMediaActivationElement](../default.md).

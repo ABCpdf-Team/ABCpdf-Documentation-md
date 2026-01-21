@@ -1,8 +1,3 @@
----
-title: "10-entrysignaturepolicyoid"
-css: "abcpdf-docs.css"
----
-
 # EntrySignaturePolicyOID Property
 
 | Type | Default Value | Read Only | Description | 

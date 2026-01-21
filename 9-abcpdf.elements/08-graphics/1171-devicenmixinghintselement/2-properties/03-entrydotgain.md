@@ -1,8 +1,3 @@
----
-title: "03-entrydotgain"
-css: "abcpdf-docs.css"
----
-
 # EntryDotGain Property
 
 | Type | Default Value | Read Only | Description | 

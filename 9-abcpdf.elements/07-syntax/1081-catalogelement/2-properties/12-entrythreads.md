@@ -1,8 +1,3 @@
----
-title: "12-entrythreads"
-css: "abcpdf-docs.css"
----
-
 # EntryThreads Property
 
 | Type | Default Value | Read Only | Description | 

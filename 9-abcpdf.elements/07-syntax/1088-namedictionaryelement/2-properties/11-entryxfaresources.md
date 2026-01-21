@@ -1,8 +1,3 @@
----
-title: "11-entryxfaresources"
-css: "abcpdf-docs.css"
----
-
 # EntryXFAResources Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # TransitionElement Class
 
 This class represents the transition dictionary. This is definitively detailed in:.

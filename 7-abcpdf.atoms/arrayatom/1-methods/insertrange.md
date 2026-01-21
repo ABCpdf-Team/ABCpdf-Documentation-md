@@ -1,8 +1,3 @@
----
-title: "insertrange"
-css: "abcpdf-docs.css"
----
-
 # InsertRange Function
 
 Inserts the elements in the supplied array into this array at the specified index

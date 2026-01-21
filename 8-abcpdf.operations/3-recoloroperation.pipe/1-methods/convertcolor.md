@@ -1,8 +1,3 @@
----
-title: "convertcolor"
-css: "abcpdf-docs.css"
----
-
 # ConvertColor Function
 
 Convert color components from the source color space to the destination one.

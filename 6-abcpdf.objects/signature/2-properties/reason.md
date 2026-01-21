@@ -1,8 +1,3 @@
----
-title: "reason"
-css: "abcpdf-docs.css"
----
-
 # Reason Property
 
 | Type | Default Value | Read Only | Description | 

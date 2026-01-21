@@ -1,8 +1,3 @@
----
-title: "22-overprintmode"
-css: "abcpdf-docs.css"
----
-
 # OverprintMode Property
 
 | Type | Default Value | Read Only | Description | 

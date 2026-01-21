@@ -1,8 +1,3 @@
----
-title: "stamp"
-css: "abcpdf-docs.css"
----
-
 # Stamp Function
 
 Stamp this annotation into the page.

@@ -1,8 +1,3 @@
----
-title: "02-entryx"
-css: "abcpdf-docs.css"
----
-
 # EntryX Property
 
 | Type | Default Value | Read Only | Description | 

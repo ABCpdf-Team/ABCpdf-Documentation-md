@@ -1,8 +1,3 @@
----
-title: "01-entryfunctiontype"
-css: "abcpdf-docs.css"
----
-
 # EntryFunctionType Property
 
 | Type | Default Value | Read Only | Description | 

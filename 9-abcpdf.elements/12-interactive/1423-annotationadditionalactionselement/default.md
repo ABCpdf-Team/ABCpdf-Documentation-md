@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # AnnotationAdditionalActionsElement Class
 
 This class represents the annotation additional-actions dictionary. This is definitively detailed in:.

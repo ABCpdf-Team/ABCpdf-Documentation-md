@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RichMediaInstanceElement Class
 
 This class represents the richmediainstance dictionary. This is definitively detailed in:.

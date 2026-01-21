@@ -1,8 +1,3 @@
----
-title: "4-addonlyone"
-css: "abcpdf-docs.css"
----
-
 # AddOnlyOne Function
 
 Add just this object ignoring any objects it may refer to.

@@ -1,8 +1,3 @@
----
-title: "04-entryposter"
-css: "abcpdf-docs.css"
----
-
 # EntryPoster Property
 
 | Type | Default Value | Read Only | Description | 

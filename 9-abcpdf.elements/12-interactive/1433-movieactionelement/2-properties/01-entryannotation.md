@@ -1,8 +1,3 @@
----
-title: "01-entryannotation"
-css: "abcpdf-docs.css"
----
-
 # EntryAnnotation Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # LinearizationParameterElement Class
 
 This class represents the linearization parameter dictionary. This is definitively detailed in:.

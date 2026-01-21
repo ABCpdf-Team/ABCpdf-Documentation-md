@@ -1,8 +1,3 @@
----
-title: "23-entryocproperties"
-css: "abcpdf-docs.css"
----
-
 # EntryOCProperties Property
 
 | Type | Default Value | Read Only | Description | 

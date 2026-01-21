@@ -1,8 +1,3 @@
----
-title: "4-xmlpdf"
-css: "abcpdf-docs.css"
----
-
 # XML to PDF
 
 When ABCpdf was designed a conscious design decision was made not to make it XML based. While XML templates might be an obvious route to take there are problems with this approach.

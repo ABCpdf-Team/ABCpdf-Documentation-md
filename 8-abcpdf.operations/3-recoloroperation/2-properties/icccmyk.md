@@ -1,8 +1,3 @@
----
-title: "icccmyk"
-css: "abcpdf-docs.css"
----
-
 # IccCmyk Property
 
 | Type | Default Value | Read Only | Description | 

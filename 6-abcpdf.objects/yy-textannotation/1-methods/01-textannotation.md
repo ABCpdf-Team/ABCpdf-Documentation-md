@@ -1,8 +1,3 @@
----
-title: "01-textannotation"
-css: "abcpdf-docs.css"
----
-
 # TextAnnotation Function
 
 Add text annotation to the current page of the doc.

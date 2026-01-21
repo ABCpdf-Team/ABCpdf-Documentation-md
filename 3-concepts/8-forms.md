@@ -1,8 +1,3 @@
----
-title: "8-forms"
-css: "abcpdf-docs.css"
----
-
 # Fields and Forms
 
 ## Basics

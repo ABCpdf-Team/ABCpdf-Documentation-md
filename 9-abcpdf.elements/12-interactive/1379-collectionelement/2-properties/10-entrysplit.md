@@ -1,8 +1,3 @@
----
-title: "10-entrysplit"
-css: "abcpdf-docs.css"
----
-
 # EntrySplit Property
 
 | Type | Default Value | Read Only | Description | 

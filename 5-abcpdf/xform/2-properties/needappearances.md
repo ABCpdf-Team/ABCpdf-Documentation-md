@@ -1,8 +1,3 @@
----
-title: "needappearances"
-css: "abcpdf-docs.css"
----
-
 # NeedAppearances Property
 
 | Type | Default Value | Read Only | Description | 

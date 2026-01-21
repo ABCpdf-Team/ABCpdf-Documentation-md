@@ -1,8 +1,3 @@
----
-title: "01-labcolorspaceelement"
-css: "abcpdf-docs.css"
----
-
 # LabColorSpaceElement Function
 
 Create a new [LabColorSpaceElement](../default.md).

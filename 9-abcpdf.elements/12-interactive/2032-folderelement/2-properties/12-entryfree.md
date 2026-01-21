@@ -1,8 +1,3 @@
----
-title: "12-entryfree"
-css: "abcpdf-docs.css"
----
-
 # EntryFree Property
 
 | Type | Default Value | Read Only | Description | 

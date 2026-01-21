@@ -1,8 +1,3 @@
----
-title: "01-beadelement"
-css: "abcpdf-docs.css"
----
-
 # BeadElement Function
 
 Create a new [BeadElement](../default.md).

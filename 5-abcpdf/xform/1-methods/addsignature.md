@@ -1,8 +1,3 @@
----
-title: "addsignature"
-css: "abcpdf-docs.css"
----
-
 # AddSignature Function
 
 Add unsigned signature field.

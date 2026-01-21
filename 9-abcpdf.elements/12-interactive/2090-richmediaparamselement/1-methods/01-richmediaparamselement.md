@@ -1,8 +1,3 @@
----
-title: "01-richmediaparamselement"
-css: "abcpdf-docs.css"
----
-
 # RichMediaParamsElement Function
 
 Create a new [RichMediaParamsElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "leftmargin"
-css: "abcpdf-docs.css"
----
-
 # LeftMargin Property
 
 | Type | Default | Read Only | Description | 

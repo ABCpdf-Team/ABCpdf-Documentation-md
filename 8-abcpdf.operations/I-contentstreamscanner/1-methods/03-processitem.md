@@ -1,8 +1,3 @@
----
-title: "03-processitem"
-css: "abcpdf-docs.css"
----
-
 # ProcessItem Function
 
 [Process](02-process.md) an item in a content stream and update the graphics or text state to reflect the action of the item.

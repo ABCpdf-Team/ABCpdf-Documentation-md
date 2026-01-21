@@ -1,8 +1,3 @@
----
-title: "getappearance"
-css: "abcpdf-docs.css"
----
-
 # GetAppearance Function
 
 Get a particular appearance from the annotation.

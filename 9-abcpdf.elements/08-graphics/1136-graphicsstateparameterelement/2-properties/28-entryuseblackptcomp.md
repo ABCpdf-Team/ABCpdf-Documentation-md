@@ -1,8 +1,3 @@
----
-title: "28-entryuseblackptcomp"
-css: "abcpdf-docs.css"
----
-
 # EntryUseBlackPtComp Property
 
 | Type | Default Value | Read Only | Description | 

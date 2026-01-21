@@ -1,8 +1,3 @@
----
-title: "commit"
-css: "abcpdf-docs.css"
----
-
 # Commit Function
 
 Commit a previously signed signature to the document.

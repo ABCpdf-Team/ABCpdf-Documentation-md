@@ -1,8 +1,3 @@
----
-title: "addpie"
-css: "abcpdf-docs.css"
----
-
 # AddPie Function
 
 Adds a pie slice to the current page.

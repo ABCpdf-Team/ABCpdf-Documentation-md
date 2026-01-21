@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # NamedActionElement Class
 
 This class represents the named action. This is definitively detailed in:.

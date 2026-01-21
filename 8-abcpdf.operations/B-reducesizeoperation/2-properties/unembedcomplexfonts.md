@@ -1,8 +1,3 @@
----
-title: "unembedcomplexfonts"
-css: "abcpdf-docs.css"
----
-
 # UnembedComplexFonts Property
 
 | Type | Default | Read Only | Description | 

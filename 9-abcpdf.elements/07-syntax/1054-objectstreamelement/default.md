@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ObjectStreamElement Class
 
 This class represents the object stream dictionary. This is definitively detailed in:.

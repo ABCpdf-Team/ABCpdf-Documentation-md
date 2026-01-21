@@ -1,8 +1,3 @@
----
-title: "01-webcaptureimagesetelement"
-css: "abcpdf-docs.css"
----
-
 # WebCaptureImageSetElement Function
 
 Create a new [WebCaptureImageSetElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "9-removeat"
-css: "abcpdf-docs.css"
----
-
 # RemoveAt Function
 
 Removes an Atom at a specified position from the array.

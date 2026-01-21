@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # InteractiveFormElement Class
 
 This class represents the interactive form dictionary. This is definitively detailed in:.

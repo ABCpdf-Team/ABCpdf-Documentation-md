@@ -1,8 +1,3 @@
----
-title: "01-viewerpreferenceselement"
-css: "abcpdf-docs.css"
----
-
 # ViewerPreferencesElement Function
 
 Create a new [ViewerPreferencesElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "01-combofieldelement"
-css: "abcpdf-docs.css"
----
-
 # ComboFieldElement Function
 
 Create a new [ComboFieldElement](../default.md).

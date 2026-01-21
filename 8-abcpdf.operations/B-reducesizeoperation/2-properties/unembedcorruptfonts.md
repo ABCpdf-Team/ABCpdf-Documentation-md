@@ -1,8 +1,3 @@
----
-title: "unembedcorruptfonts"
-css: "abcpdf-docs.css"
----
-
 # UnembedCorruptFonts Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-encryptedpayloadelement"
-css: "abcpdf-docs.css"
----
-
 # EncryptedPayloadElement Function
 
 Create a new [EncryptedPayloadElement](../default.md).

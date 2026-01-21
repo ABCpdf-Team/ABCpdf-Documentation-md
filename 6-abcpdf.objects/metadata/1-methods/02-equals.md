@@ -1,8 +1,3 @@
----
-title: "02-equals"
-css: "abcpdf-docs.css"
----
-
 # Equals Function
 
 Test whether the two [Metadata](../default.md) objects are the same

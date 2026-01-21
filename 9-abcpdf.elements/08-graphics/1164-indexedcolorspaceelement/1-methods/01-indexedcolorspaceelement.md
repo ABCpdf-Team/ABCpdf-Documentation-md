@@ -1,8 +1,3 @@
----
-title: "01-indexedcolorspaceelement"
-css: "abcpdf-docs.css"
----
-
 # IndexedColorSpaceElement Function
 
 Create a new [IndexedColorSpaceElement](../default.md).

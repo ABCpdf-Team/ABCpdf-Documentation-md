@@ -1,8 +1,3 @@
----
-title: "04-entryalt"
-css: "abcpdf-docs.css"
----
-
 # EntryAlt Property
 
 | Type | Default Value | Read Only | Description | 

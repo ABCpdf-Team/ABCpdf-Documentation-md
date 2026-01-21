@@ -1,8 +1,3 @@
----
-title: "15-entrypicktraybypdfsize"
-css: "abcpdf-docs.css"
----
-
 # EntryPickTrayByPDFSize Property
 
 | Type | Default Value | Read Only | Description | 

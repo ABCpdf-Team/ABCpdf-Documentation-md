@@ -1,8 +1,3 @@
----
-title: "03-parenttree"
-css: "abcpdf-docs.css"
----
-
 # ParentTree Property
 
 | Type | Default Value | Read Only | Description | 

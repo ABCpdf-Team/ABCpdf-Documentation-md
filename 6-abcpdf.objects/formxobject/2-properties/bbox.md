@@ -1,8 +1,3 @@
----
-title: "bbox"
-css: "abcpdf-docs.css"
----
-
 # BBox Property
 
 | Type | Default Value | Read Only | Description | 

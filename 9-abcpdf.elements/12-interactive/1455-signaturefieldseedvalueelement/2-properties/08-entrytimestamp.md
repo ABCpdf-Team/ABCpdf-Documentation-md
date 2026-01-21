@@ -1,8 +1,3 @@
----
-title: "08-entrytimestamp"
-css: "abcpdf-docs.css"
----
-
 # EntryTimeStamp Property
 
 | Type | Default Value | Read Only | Description | 

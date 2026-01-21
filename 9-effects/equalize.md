@@ -1,8 +1,3 @@
----
-title: "equalize"
-css: "abcpdf-docs.css"
----
-
 # Equalize Effect
 
 Equalize modifies an image to ensure that all levels of brightness are equally well represented. This function is very similar to the AutoLevels effect but is designed to modify brightness rather than color levels.

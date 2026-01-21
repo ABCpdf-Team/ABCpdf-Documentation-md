@@ -1,8 +1,3 @@
----
-title: "05-entryshowcontrols"
-css: "abcpdf-docs.css"
----
-
 # EntryShowControls Property
 
 | Type | Default Value | Read Only | Description | 

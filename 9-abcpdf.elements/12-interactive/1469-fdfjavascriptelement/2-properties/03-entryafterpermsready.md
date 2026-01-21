@@ -1,8 +1,3 @@
----
-title: "03-entryafterpermsready"
-css: "abcpdf-docs.css"
----
-
 # EntryAfterPermsReady Property
 
 | Type | Default Value | Read Only | Description | 

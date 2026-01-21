@@ -1,8 +1,3 @@
----
-title: "01-collectionfieldelement"
-css: "abcpdf-docs.css"
----
-
 # CollectionFieldElement Function
 
 Create a new [CollectionFieldElement](../default.md).

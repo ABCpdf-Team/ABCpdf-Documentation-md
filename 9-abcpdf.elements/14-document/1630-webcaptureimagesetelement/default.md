@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # WebCaptureImageSetElement Class
 
 This class represents the web capture image set. This is definitively detailed in:.

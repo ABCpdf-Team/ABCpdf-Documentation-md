@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # AttributesElement Class
 
 This class represents the attribute object dictionary. This is definitively detailed in:.

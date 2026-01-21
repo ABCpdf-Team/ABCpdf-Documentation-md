@@ -1,8 +1,3 @@
----
-title: "getbitmap"
-css: "abcpdf-docs.css"
----
-
 # GetBitmap Function
 
 Renders the current area of the current page to a Bitmap.

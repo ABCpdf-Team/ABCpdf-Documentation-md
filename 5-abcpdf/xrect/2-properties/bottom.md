@@ -1,8 +1,3 @@
----
-title: "bottom"
-css: "abcpdf-docs.css"
----
-
 # Bottom Property
 
 | Type | Default | Read Only | Description | 

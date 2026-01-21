@@ -1,8 +1,3 @@
----
-title: "01-version20opielement"
-css: "abcpdf-docs.css"
----
-
 # Version20OpiElement Function
 
 Create a new [Version20OpiElement](../default.md).

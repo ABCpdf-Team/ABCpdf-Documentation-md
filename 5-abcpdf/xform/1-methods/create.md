@@ -1,8 +1,3 @@
----
-title: "create"
-css: "abcpdf-docs.css"
----
-
 # Create Function
 
 Create an AcroForm if one does not already exist.

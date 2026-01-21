@@ -1,8 +1,3 @@
----
-title: "03-entryparameter1"
-css: "abcpdf-docs.css"
----
-
 # EntryParameter1 Property
 
 | Type | Default Value | Read Only | Description | 

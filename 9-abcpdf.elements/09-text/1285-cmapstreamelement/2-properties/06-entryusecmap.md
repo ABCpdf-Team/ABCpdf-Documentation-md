@@ -1,8 +1,3 @@
----
-title: "06-entryusecmap"
-css: "abcpdf-docs.css"
----
-
 # EntryUseCMap Property
 
 | Type | Default Value | Read Only | Description | 

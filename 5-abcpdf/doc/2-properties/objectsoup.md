@@ -1,8 +1,3 @@
----
-title: "objectsoup"
-css: "abcpdf-docs.css"
----
-
 # ObjectSoup Property
 
 | Type | Default | Read Only | Description | 

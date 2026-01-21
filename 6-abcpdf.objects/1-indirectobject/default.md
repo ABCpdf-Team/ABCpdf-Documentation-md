@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # IndirectObject Class
 
 A PDF indirect object.

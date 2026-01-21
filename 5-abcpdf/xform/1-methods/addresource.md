@@ -1,8 +1,3 @@
----
-title: "addresource"
-css: "abcpdf-docs.css"
----
-
 # AddResource Function
 
 Add a particular type of resource to the form

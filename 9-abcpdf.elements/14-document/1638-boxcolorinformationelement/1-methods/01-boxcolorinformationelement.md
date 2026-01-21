@@ -1,8 +1,3 @@
----
-title: "01-boxcolorinformationelement"
-css: "abcpdf-docs.css"
----
-
 # BoxColorInformationElement Function
 
 Create a new [BoxColorInformationElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "08-entrytrimbox"
-css: "abcpdf-docs.css"
----
-
 # EntryTrimBox Property
 
 | Type | Default Value | Read Only | Description | 

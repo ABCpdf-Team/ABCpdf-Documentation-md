@@ -1,8 +1,3 @@
----
-title: "widths"
-css: "abcpdf-docs.css"
----
-
 # Widths Property
 
 | Type | Default | Read Only | Description | 

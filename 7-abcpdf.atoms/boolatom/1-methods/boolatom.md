@@ -1,8 +1,3 @@
----
-title: "boolatom"
-css: "abcpdf-docs.css"
----
-
 # BoolAtom Constructor
 
 Construct a BoolAtom.

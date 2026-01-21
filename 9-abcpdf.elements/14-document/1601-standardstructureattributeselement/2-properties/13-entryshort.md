@@ -1,8 +1,3 @@
----
-title: "13-entryshort"
-css: "abcpdf-docs.css"
----
-
 # EntryShort Property
 
 | Type | Default Value | Read Only | Description | 

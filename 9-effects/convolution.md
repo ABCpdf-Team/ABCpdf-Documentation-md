@@ -1,8 +1,3 @@
----
-title: "convolution"
-css: "abcpdf-docs.css"
----
-
 # Convolution Effect
 
 The Convolution Effect allows you to produce a range of effects by specifying a set of convolution kernels. A simple explanation is given here but you may wish to refer to other sources for complete descriptions of convolution and how you can use it.

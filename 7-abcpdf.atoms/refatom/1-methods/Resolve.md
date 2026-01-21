@@ -1,8 +1,3 @@
----
-title: "Resolve"
-css: "abcpdf-docs.css"
----
-
 # Resolve Function
 
 Get the IndirectObject that the reference is pointing to.

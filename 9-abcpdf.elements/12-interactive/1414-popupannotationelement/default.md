@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # PopUpAnnotationElement Class
 
 This class represents the pop-up annotation. This is definitively detailed in:.

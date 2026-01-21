@@ -1,8 +1,3 @@
----
-title: "vettext"
-css: "abcpdf-docs.css"
----
-
 # VetText Function
 
 Make a string of text safe for use in a specified encoding.

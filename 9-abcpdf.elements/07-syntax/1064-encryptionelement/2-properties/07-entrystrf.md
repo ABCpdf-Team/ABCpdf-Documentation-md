@@ -1,8 +1,3 @@
----
-title: "07-entrystrf"
-css: "abcpdf-docs.css"
----
-
 # EntryStrF Property
 
 | Type | Default Value | Read Only | Description | 

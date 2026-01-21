@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # MovieAnnotationElement Class
 
 This class represents the movie annotation. This is definitively detailed in:.

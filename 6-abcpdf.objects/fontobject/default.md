@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # FontObject Class
 
 A specific font as used in the document.

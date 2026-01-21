@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # SignatureFieldLockElement Class
 
 This class represents the signature field lock dictionary. This is definitively detailed in:.

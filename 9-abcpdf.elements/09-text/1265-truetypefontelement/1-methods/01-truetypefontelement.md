@@ -1,8 +1,3 @@
----
-title: "01-truetypefontelement"
-css: "abcpdf-docs.css"
----
-
 # TrueTypeFontElement Function
 
 Create a new [TrueTypeFontElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "01-colorelement"
-css: "abcpdf-docs.css"
----
-
 # ColorElement Function
 
 Create a new [ColorElement](../default.md).

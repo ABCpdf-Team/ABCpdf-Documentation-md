@@ -1,8 +1,3 @@
----
-title: "04-entrymovieactions"
-css: "abcpdf-docs.css"
----
-
 # EntryMovieActions Property
 
 | Type | Default Value | Read Only | Description | 

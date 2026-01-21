@@ -1,8 +1,3 @@
----
-title: "06-entrysignature"
-css: "abcpdf-docs.css"
----
-
 # EntrySignature Property
 
 | Type | Default Value | Read Only | Description | 

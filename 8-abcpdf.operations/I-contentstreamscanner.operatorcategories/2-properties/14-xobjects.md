@@ -1,8 +1,3 @@
----
-title: "14-xobjects"
-css: "abcpdf-docs.css"
----
-
 # XObjects Property
 
 | Type | Default Value | Read Only | Description | 

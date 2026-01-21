@@ -1,8 +1,3 @@
----
-title: "04-entryva"
-css: "abcpdf-docs.css"
----
-
 # EntryVA Property
 
 | Type | Default Value | Read Only | Description | 

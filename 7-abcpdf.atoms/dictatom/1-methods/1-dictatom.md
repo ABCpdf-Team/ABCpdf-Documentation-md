@@ -1,8 +1,3 @@
----
-title: "1-dictatom"
-css: "abcpdf-docs.css"
----
-
 # DictAtom Constructor
 
 Construct a DictAtom.

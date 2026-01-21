@@ -1,8 +1,3 @@
----
-title: "01-mediarenditionelement"
-css: "abcpdf-docs.css"
----
-
 # MediaRenditionElement Function
 
 Create a new [MediaRenditionElement](../default.md).

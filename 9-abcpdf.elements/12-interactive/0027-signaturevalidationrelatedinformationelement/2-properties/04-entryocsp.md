@@ -1,8 +1,3 @@
----
-title: "04-entryocsp"
-css: "abcpdf-docs.css"
----
-
 # EntryOCSP Property
 
 | Type | Default Value | Read Only | Description | 

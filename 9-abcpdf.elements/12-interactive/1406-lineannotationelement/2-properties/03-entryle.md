@@ -1,8 +1,3 @@
----
-title: "03-entryle"
-css: "abcpdf-docs.css"
----
-
 # EntryLE Property
 
 | Type | Default Value | Read Only | Description | 

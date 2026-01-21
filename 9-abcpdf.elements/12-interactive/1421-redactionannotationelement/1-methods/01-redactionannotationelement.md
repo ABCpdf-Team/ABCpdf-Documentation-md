@@ -1,8 +1,3 @@
----
-title: "01-redactionannotationelement"
-css: "abcpdf-docs.css"
----
-
 # RedactionAnnotationElement Function
 
 Create a new [RedactionAnnotationElement](../default.md).

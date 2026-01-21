@@ -1,8 +1,3 @@
----
-title: "02-entrywin"
-css: "abcpdf-docs.css"
----
-
 # EntryWin Property
 
 | Type | Default Value | Read Only | Description | 

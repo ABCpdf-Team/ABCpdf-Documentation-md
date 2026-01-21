@@ -1,8 +1,3 @@
----
-title: "strike"
-css: "abcpdf-docs.css"
----
-
 # Strike Property
 
 | Type | Default | Read Only | Description | 

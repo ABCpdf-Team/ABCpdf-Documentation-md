@@ -1,8 +1,3 @@
----
-title: "addlistboxfield"
-css: "abcpdf-docs.css"
----
-
 # AddListBoxField Function
 
 Add list box form field.

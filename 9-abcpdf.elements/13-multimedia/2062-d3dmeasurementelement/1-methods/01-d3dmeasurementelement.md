@@ -1,8 +1,3 @@
----
-title: "01-d3dmeasurementelement"
-css: "abcpdf-docs.css"
----
-
 # D3DMeasurementElement Function
 
 Create a new [D3DMeasurementElement](../default.md).

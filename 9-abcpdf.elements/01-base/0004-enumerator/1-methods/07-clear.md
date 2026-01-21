@@ -1,8 +1,3 @@
----
-title: "07-clear"
-css: "abcpdf-docs.css"
----
-
 # Clear Function
 
 Removes all keys and values from the dictionary.

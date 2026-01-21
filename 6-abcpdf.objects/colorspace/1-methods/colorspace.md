@@ -1,8 +1,3 @@
----
-title: "colorspace"
-css: "abcpdf-docs.css"
----
-
 # ColorSpace Constructor
 
 Construct a ColorSpace.

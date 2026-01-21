@@ -1,8 +1,3 @@
----
-title: "addimageurl"
-css: "abcpdf-docs.css"
----
-
 # AddImageUrl Function
 
 Renders a web page specified by URL.

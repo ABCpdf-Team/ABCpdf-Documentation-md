@@ -1,8 +1,3 @@
----
-title: "14-entrygraymap"
-css: "abcpdf-docs.css"
----
-
 # EntryGrayMap Property
 
 | Type | Default Value | Read Only | Description | 

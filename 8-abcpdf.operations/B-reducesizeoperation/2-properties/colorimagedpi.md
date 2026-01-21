@@ -1,8 +1,3 @@
----
-title: "colorimagedpi"
-css: "abcpdf-docs.css"
----
-
 # ColorImageDpi Property
 
 | Type | Default | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "improvepagebreakintable"
-css: "abcpdf-docs.css"
----
-
 # ImprovePageBreakInTable Property
 
 | Type | Default Value | Read Only | Description | 

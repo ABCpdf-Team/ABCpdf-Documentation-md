@@ -1,8 +1,3 @@
----
-title: "textstyle"
-css: "abcpdf-docs.css"
----
-
 # TextStyle Property
 
 | Type | Default | Read Only | Description | 

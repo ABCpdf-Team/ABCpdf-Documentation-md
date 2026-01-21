@@ -1,8 +1,3 @@
----
-title: "vpos"
-css: "abcpdf-docs.css"
----
-
 # VPos Property
 
 | Type | Default Value | Read Only | Description | 

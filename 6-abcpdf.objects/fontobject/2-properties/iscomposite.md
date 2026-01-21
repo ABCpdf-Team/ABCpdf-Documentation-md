@@ -1,8 +1,3 @@
----
-title: "iscomposite"
-css: "abcpdf-docs.css"
----
-
 # IsComposite Property
 
 | Type | Default | Read Only | Description | 

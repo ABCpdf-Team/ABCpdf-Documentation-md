@@ -1,8 +1,3 @@
----
-title: "clearcacheddecompressedstreams"
-css: "abcpdf-docs.css"
----
-
 # ClearCachedDecompressedStreams Function
 
 Clears the cached, decompressed data for stream objects.

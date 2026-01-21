@@ -1,8 +1,3 @@
----
-title: "05-tostring"
-css: "abcpdf-docs.css"
----
-
 # ToString Function
 
 Attempts to get a string from the specified entry in a DictAtom or ArrayAtom resolving any references as necessary.

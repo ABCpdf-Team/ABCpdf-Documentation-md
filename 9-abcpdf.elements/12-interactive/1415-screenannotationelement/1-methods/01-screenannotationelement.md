@@ -1,8 +1,3 @@
----
-title: "01-screenannotationelement"
-css: "abcpdf-docs.css"
----
-
 # ScreenAnnotationElement Function
 
 Create a new [ScreenAnnotationElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "1-arrayatom"
-css: "abcpdf-docs.css"
----
-
 # ArrayAtom Constructor
 
 ArrayAtom Constructor.

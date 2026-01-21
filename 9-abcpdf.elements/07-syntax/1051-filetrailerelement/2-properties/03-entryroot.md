@@ -1,8 +1,3 @@
----
-title: "03-entryroot"
-css: "abcpdf-docs.css"
----
-
 # EntryRoot Property
 
 | Type | Default Value | Read Only | Description | 

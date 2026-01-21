@@ -1,8 +1,3 @@
----
-title: "05-entrymcid"
-css: "abcpdf-docs.css"
----
-
 # EntryMCID Property
 
 | Type | Default Value | Read Only | Description | 

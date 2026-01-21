@@ -1,8 +1,3 @@
----
-title: "04-entryfontmatrix"
-css: "abcpdf-docs.css"
----
-
 # EntryFontMatrix Property
 
 | Type | Default Value | Read Only | Description | 

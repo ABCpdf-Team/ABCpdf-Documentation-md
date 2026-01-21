@@ -1,8 +1,3 @@
----
-title: "05-entryform"
-css: "abcpdf-docs.css"
----
-
 # EntryForm Property
 
 | Type | Default Value | Read Only | Description | 

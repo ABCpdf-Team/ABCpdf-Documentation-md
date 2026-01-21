@@ -1,8 +1,3 @@
----
-title: "01-standardencryptionelement"
-css: "abcpdf-docs.css"
----
-
 # StandardEncryptionElement Function
 
 Create a new [StandardEncryptionElement](../default.md).

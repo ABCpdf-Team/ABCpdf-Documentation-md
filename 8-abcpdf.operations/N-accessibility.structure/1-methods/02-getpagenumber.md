@@ -1,8 +1,3 @@
----
-title: "02-getpagenumber"
-css: "abcpdf-docs.css"
----
-
 # GetPageNumber Function
 
 Get the page number for a particular page object.

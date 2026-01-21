@@ -1,8 +1,3 @@
----
-title: "02-entrynums"
-css: "abcpdf-docs.css"
----
-
 # EntryNums Property
 
 | Type | Default Value | Read Only | Description | 

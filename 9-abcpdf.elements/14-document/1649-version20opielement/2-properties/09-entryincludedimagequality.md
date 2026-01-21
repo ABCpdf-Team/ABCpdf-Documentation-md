@@ -1,8 +1,3 @@
----
-title: "09-entryincludedimagequality"
-css: "abcpdf-docs.css"
----
-
 # EntryIncludedImageQuality Property
 
 | Type | Default Value | Read Only | Description | 

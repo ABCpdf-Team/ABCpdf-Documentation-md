@@ -1,8 +1,3 @@
----
-title: "13-pagedhtml"
-css: "abcpdf-docs.css"
----
-
 # Paged HTML Example
 
 This example shows how to import an HTML page into a multi-page PDF document.

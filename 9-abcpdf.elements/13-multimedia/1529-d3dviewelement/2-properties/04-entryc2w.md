@@ -1,8 +1,3 @@
----
-title: "04-entryc2w"
-css: "abcpdf-docs.css"
----
-
 # EntryC2W Property
 
 | Type | Default Value | Read Only | Description | 

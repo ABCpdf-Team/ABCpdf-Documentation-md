@@ -1,8 +1,3 @@
----
-title: "01-mediacriteriaelement"
-css: "abcpdf-docs.css"
----
-
 # MediaCriteriaElement Function
 
 Create a new [MediaCriteriaElement](../default.md).

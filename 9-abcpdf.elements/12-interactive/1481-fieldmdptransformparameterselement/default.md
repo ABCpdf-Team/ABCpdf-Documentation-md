@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # FieldMDPTransformParametersElement Class
 
 This class represents the fieldmdp transform parameters dictionary. This is definitively detailed in:.

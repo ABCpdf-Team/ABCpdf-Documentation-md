@@ -1,8 +1,3 @@
----
-title: "17-entrystructtreeroot"
-css: "abcpdf-docs.css"
----
-
 # EntryStructTreeRoot Property
 
 | Type | Default Value | Read Only | Description | 

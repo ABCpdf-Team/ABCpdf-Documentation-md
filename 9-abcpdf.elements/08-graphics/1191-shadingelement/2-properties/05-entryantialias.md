@@ -1,8 +1,3 @@
----
-title: "05-entryantialias"
-css: "abcpdf-docs.css"
----
-
 # EntryAntiAlias Property
 
 | Type | Default Value | Read Only | Description | 

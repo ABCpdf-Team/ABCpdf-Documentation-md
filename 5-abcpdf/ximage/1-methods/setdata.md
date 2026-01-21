@@ -1,8 +1,3 @@
----
-title: "setdata"
-css: "abcpdf-docs.css"
----
-
 # SetData Function
 
 Load an image from data.

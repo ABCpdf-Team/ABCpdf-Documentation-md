@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # IccProfile Class
 
 An ICC Color Profile for a particular [ColorSpace](../colorspace/default.md).

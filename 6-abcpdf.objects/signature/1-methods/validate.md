@@ -1,8 +1,3 @@
----
-title: "validate"
-css: "abcpdf-docs.css"
----
-
 # Validate Function
 
 Check and validate the status of this signature.

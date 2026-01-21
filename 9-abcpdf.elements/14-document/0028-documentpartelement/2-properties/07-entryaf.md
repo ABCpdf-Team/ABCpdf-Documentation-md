@@ -1,8 +1,3 @@
----
-title: "07-entryaf"
-css: "abcpdf-docs.css"
----
-
 # EntryAF Property
 
 | Type | Default Value | Read Only | Description | 

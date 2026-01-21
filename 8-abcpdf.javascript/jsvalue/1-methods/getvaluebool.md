@@ -1,8 +1,3 @@
----
-title: "getvaluebool"
-css: "abcpdf-docs.css"
----
-
 # GetValueBool Method
 
 Gets the Boolean value of this value converted to Boolean value using the standard JavaScript conversion.

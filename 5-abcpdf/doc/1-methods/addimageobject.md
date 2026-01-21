@@ -1,8 +1,3 @@
----
-title: "addimageobject"
-css: "abcpdf-docs.css"
----
-
 # AddImageObject Function
 
 Adds an XImage based image to the current page.

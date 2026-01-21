@@ -1,8 +1,3 @@
----
-title: "03-totalkerneltime"
-css: "abcpdf-docs.css"
----
-
 # TotalKernelTime Property
 
 | Type | Default Value | Read Only | Description | 

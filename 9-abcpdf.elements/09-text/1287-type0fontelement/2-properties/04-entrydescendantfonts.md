@@ -1,8 +1,3 @@
----
-title: "04-entrydescendantfonts"
-css: "abcpdf-docs.css"
----
-
 # EntryDescendantFonts Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "remappages"
-css: "abcpdf-docs.css"
----
-
 # RemapPages Method
 
 Remaps pages for reordering, copying and deletion.

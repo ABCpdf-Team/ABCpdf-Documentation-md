@@ -1,8 +1,3 @@
----
-title: "actualtext"
-css: "abcpdf-docs.css"
----
-
 # ActualText Property
 
 | Type | Default | Read Only | Description | 

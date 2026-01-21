@@ -1,8 +1,3 @@
----
-title: "01-choicefieldannotation"
-css: "abcpdf-docs.css"
----
-
 # ChoiceFieldAnnotation Function
 
 Add choicefield annotation to the current page of the doc.

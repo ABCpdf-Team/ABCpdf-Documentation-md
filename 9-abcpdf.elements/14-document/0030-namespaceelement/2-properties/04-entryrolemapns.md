@@ -1,8 +1,3 @@
----
-title: "04-entryrolemapns"
-css: "abcpdf-docs.css"
----
-
 # EntryRoleMapNS Property
 
 | Type | Default Value | Read Only | Description | 

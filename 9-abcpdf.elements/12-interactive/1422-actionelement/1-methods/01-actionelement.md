@@ -1,8 +1,3 @@
----
-title: "01-actionelement"
-css: "abcpdf-docs.css"
----
-
 # ActionElement Function
 
 Create a new [ActionElement](../default.md).

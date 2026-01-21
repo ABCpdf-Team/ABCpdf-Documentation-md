@@ -1,8 +1,3 @@
----
-title: "01-richmediaexecuteactionelement"
-css: "abcpdf-docs.css"
----
-
 # RichMediaExecuteActionElement Function
 
 Create a new [RichMediaExecuteActionElement](../default.md).

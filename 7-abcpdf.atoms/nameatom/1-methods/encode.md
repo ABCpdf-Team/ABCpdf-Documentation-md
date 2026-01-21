@@ -1,8 +1,3 @@
----
-title: "encode"
-css: "abcpdf-docs.css"
----
-
 # Encode Function
 
 Encode text into a PDF name.

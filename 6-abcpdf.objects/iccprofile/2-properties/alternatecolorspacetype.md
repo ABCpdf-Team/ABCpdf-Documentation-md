@@ -1,8 +1,3 @@
----
-title: "alternatecolorspacetype"
-css: "abcpdf-docs.css"
----
-
 # AlternateColorSpaceType Property
 
 | Type | Default Value | Read Only | Description | 

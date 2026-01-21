@@ -1,8 +1,3 @@
----
-title: "defaultwidth"
-css: "abcpdf-docs.css"
----
-
 # DefaultWidth Property
 
 | Type | Default Value | Read Only | Description | 

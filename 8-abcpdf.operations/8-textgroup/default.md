@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # TextGroup Class
 
 A group of text fragments that belong together.

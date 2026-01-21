@@ -1,8 +1,3 @@
----
-title: "06-fillcolor"
-css: "abcpdf-docs.css"
----
-
 # FillColor Property
 
 | Type | Default Value | Read Only | Description | 

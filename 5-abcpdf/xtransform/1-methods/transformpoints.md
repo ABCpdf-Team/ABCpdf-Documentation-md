@@ -1,8 +1,3 @@
----
-title: "transformpoints"
-css: "abcpdf-docs.css"
----
-
 # TransformPoints Function
 
 Applies this transform to a specified array of points.

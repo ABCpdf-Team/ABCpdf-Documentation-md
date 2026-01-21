@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # SelectorRenditionElement Class
 
 This class represents the selector rendition dictionary. This is definitively detailed in:.

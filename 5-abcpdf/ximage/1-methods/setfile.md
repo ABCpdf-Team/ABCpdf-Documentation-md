@@ -1,8 +1,3 @@
----
-title: "setfile"
-css: "abcpdf-docs.css"
----
-
 # SetFile Function
 
 Load an image from a file.

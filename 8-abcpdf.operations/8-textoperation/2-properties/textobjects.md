@@ -1,8 +1,3 @@
----
-title: "textobjects"
-css: "abcpdf-docs.css"
----
-
 # TextObjects Property
 
 | Type | Default Value | Read Only | Description | 

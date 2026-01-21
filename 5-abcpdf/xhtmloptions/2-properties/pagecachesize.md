@@ -1,8 +1,3 @@
----
-title: "pagecachesize"
-css: "abcpdf-docs.css"
----
-
 # PageCacheSize Property
 
 | Type | Default Value | Read Only | Description | 

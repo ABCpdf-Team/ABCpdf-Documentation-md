@@ -1,8 +1,3 @@
----
-title: "08-nameatom"
-css: "abcpdf-docs.css"
----
-
 # NameAtom Property
 
 | Type | Default Value | Read Only | Description | 

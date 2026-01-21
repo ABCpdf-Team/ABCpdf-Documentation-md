@@ -1,8 +1,3 @@
----
-title: "03-entrysuspects"
-css: "abcpdf-docs.css"
----
-
 # EntrySuspects Property
 
 | Type | Default Value | Read Only | Description | 

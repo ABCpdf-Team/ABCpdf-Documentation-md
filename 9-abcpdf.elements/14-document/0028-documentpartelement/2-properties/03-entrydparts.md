@@ -1,8 +1,3 @@
----
-title: "03-entrydparts"
-css: "abcpdf-docs.css"
----
-
 # EntryDParts Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "13-dashphase"
-css: "abcpdf-docs.css"
----
-
 # DashPhase Property
 
 | Type | Default Value | Read Only | Description | 

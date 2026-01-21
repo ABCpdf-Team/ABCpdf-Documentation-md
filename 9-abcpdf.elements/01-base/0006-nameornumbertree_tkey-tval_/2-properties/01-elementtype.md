@@ -1,8 +1,3 @@
----
-title: "01-elementtype"
-css: "abcpdf-docs.css"
----
-
 # ElementType Property
 
 | Type | Default Value | Read Only | Description | 

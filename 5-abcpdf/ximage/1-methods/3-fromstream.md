@@ -1,8 +1,3 @@
----
-title: "3-fromstream"
-css: "abcpdf-docs.css"
----
-
 # FromStream Function
 
 Creates an XImage from a Stream.

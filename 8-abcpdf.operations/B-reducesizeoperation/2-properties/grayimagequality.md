@@ -1,8 +1,3 @@
----
-title: "grayimagequality"
-css: "abcpdf-docs.css"
----
-
 # GrayImageQuality Property
 
 | Type | Default | Read Only | Description | 

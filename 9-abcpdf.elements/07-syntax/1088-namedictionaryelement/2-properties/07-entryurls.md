@@ -1,8 +1,3 @@
----
-title: "07-entryurls"
-css: "abcpdf-docs.css"
----
-
 # EntryURLS Property
 
 | Type | Default Value | Read Only | Description | 

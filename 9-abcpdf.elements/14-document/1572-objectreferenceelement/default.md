@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ObjectReferenceElement Class
 
 This class represents the object reference dictionary. This is definitively detailed in:.

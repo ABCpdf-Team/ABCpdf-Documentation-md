@@ -1,8 +1,3 @@
----
-title: "01-mediaclipdataelement"
-css: "abcpdf-docs.css"
----
-
 # MediaClipDataElement Function
 
 Create a new [MediaClipDataElement](../default.md).

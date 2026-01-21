@@ -1,8 +1,3 @@
----
-title: "backdrop"
-css: "abcpdf-docs.css"
----
-
 # Backdrop Property
 
 | Type | Default Value | Read Only | Description | 

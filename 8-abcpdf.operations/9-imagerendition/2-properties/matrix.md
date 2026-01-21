@@ -1,8 +1,3 @@
----
-title: "matrix"
-css: "abcpdf-docs.css"
----
-
 # Matrix Property
 
 | Type | Default | Read Only | Description | 

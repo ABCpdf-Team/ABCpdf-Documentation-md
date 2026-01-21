@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # D3DUnitsElement Class
 
 This class represents the 3D units dictionary. This is definitively detailed in:.

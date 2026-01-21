@@ -1,8 +1,3 @@
----
-title: "15-entrytransparency"
-css: "abcpdf-docs.css"
----
-
 # EntryTransparency Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-fileattachmentannotationelement"
-css: "abcpdf-docs.css"
----
-
 # FileAttachmentAnnotationElement Function
 
 Create a new [FileAttachmentAnnotationElement](../default.md).

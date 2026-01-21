@@ -1,8 +1,3 @@
----
-title: "settransform"
-css: "abcpdf-docs.css"
----
-
 # SetTransform Function
 
 Set the transform.

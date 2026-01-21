@@ -1,8 +1,3 @@
----
-title: "19-entryphoneme"
-css: "abcpdf-docs.css"
----
-
 # EntryPhoneme Property
 
 | Type | Default Value | Read Only | Description | 

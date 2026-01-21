@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # D3DStreamElement Class
 
 This class represents the 3D stream dictionary. This is definitively detailed in:.

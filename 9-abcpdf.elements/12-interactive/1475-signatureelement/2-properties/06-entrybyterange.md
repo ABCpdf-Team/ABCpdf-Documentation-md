@@ -1,8 +1,3 @@
----
-title: "06-entrybyterange"
-css: "abcpdf-docs.css"
----
-
 # EntryByteRange Property
 
 | Type | Default Value | Read Only | Description | 

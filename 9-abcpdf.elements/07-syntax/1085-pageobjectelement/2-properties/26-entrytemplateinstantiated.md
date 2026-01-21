@@ -1,8 +1,3 @@
----
-title: "26-entrytemplateinstantiated"
-css: "abcpdf-docs.css"
----
-
 # EntryTemplateInstantiated Property
 
 | Type | Default Value | Read Only | Description | 

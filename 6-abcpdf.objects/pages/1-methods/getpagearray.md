@@ -1,8 +1,3 @@
----
-title: "getpagearray"
-css: "abcpdf-docs.css"
----
-
 # GetPageArray Function
 
 Gets all the Page objects immediately under this node.

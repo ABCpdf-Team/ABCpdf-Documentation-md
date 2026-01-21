@@ -1,8 +1,3 @@
----
-title: "05-entrypg"
-css: "abcpdf-docs.css"
----
-
 # EntryPg Property
 
 | Type | Default Value | Read Only | Description | 

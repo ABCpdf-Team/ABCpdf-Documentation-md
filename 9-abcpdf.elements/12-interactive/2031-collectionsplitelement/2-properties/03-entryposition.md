@@ -1,8 +1,3 @@
----
-title: "03-entryposition"
-css: "abcpdf-docs.css"
----
-
 # EntryPosition Property
 
 | Type | Default Value | Read Only | Description | 

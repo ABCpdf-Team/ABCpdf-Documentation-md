@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # XpsImportOperation Class
 
 An operation used to import XPS and OXPS documents.

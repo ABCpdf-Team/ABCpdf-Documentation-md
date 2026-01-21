@@ -1,8 +1,3 @@
----
-title: "28-entryneedsrendering"
-css: "abcpdf-docs.css"
----
-
 # EntryNeedsRendering Property
 
 | Type | Default Value | Read Only | Description | 

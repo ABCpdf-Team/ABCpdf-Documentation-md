@@ -1,8 +1,3 @@
----
-title: "02-entrysd"
-css: "abcpdf-docs.css"
----
-
 # EntrySD Property
 
 | Type | Default Value | Read Only | Description | 

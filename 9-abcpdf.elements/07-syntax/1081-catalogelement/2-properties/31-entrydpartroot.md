@@ -1,8 +1,3 @@
----
-title: "31-entrydpartroot"
-css: "abcpdf-docs.css"
----
-
 # EntryDPartRoot Property
 
 | Type | Default Value | Read Only | Description | 

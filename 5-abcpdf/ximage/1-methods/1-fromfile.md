@@ -1,8 +1,3 @@
----
-title: "1-fromfile"
-css: "abcpdf-docs.css"
----
-
 # FromFile Function
 
 Creates an XImage from a file path.

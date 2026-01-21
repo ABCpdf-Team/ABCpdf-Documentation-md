@@ -1,8 +1,3 @@
----
-title: "06-readtransfercount"
-css: "abcpdf-docs.css"
----
-
 # ReadTransferCount Property
 
 | Type | Default Value | Read Only | Description | 

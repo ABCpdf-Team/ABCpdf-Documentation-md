@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ExtensionsElement Class
 
 This class represents the extensions dictionary. This is definitively detailed in:.

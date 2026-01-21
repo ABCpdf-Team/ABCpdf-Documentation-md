@@ -1,8 +1,3 @@
----
-title: "02-entrybaseencoding"
-css: "abcpdf-docs.css"
----
-
 # EntryBaseEncoding Property
 
 | Type | Default Value | Read Only | Description | 

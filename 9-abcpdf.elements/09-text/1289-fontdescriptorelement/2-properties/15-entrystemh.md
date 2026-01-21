@@ -1,8 +1,3 @@
----
-title: "15-entrystemh"
-css: "abcpdf-docs.css"
----
-
 # EntryStemH Property
 
 | Type | Default Value | Read Only | Description | 

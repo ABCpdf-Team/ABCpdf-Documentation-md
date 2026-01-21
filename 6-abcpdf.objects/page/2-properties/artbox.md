@@ -1,8 +1,3 @@
----
-title: "artbox"
-css: "abcpdf-docs.css"
----
-
 # ArtBox Property
 
 | Type | Default Value | Read Only | Description | 

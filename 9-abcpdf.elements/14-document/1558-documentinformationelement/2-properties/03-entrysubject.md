@@ -1,8 +1,3 @@
----
-title: "03-entrysubject"
-css: "abcpdf-docs.css"
----
-
 # EntrySubject Property
 
 | Type | Default Value | Read Only | Description | 

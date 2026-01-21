@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Signature Class
 
 Represents a digital signature field in a document.

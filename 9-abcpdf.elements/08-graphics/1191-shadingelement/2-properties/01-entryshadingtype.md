@@ -1,8 +1,3 @@
----
-title: "01-entryshadingtype"
-css: "abcpdf-docs.css"
----
-
 # EntryShadingType Property
 
 | Type | Default Value | Read Only | Description | 

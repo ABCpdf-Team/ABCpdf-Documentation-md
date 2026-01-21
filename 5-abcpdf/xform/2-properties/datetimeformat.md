@@ -1,8 +1,3 @@
----
-title: "datetimeformat"
-css: "abcpdf-docs.css"
----
-
 # DateTimeFormat Property
 
 | Type | Default Value | Read Only | Description | 

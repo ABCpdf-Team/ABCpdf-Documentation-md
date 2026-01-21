@@ -1,8 +1,3 @@
----
-title: "03-dither"
-css: "abcpdf-docs.css"
----
-
 # Dither Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-gotoactionelement"
-css: "abcpdf-docs.css"
----
-
 # GoToActionElement Function
 
 Create a new [GoToActionElement](../default.md).

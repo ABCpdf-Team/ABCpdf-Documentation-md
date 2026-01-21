@@ -1,8 +1,3 @@
----
-title: "01-usageapplicationelement"
-css: "abcpdf-docs.css"
----
-
 # UsageApplicationElement Function
 
 Create a new [UsageApplicationElement](../default.md).

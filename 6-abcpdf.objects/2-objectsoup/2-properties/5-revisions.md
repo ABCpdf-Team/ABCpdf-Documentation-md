@@ -1,8 +1,3 @@
----
-title: "5-revisions"
-css: "abcpdf-docs.css"
----
-
 # Revisions Property
 
 | Type | Default | Read Only | Description | 

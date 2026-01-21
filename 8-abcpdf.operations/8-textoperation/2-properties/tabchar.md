@@ -1,8 +1,3 @@
----
-title: "tabchar"
-css: "abcpdf-docs.css"
----
-
 # TabChar Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "chainable"
-css: "abcpdf-docs.css"
----
-
 # Chainable Function
 
 Determines if an object is chainable.

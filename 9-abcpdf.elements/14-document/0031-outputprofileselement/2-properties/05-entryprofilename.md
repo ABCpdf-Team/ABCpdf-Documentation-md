@@ -1,8 +1,3 @@
----
-title: "05-entryprofilename"
-css: "abcpdf-docs.css"
----
-
 # EntryProfileName Property
 
 | Type | Default Value | Read Only | Description | 

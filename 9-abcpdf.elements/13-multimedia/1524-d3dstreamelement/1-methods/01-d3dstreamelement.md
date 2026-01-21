@@ -1,8 +1,3 @@
----
-title: "01-d3dstreamelement"
-css: "abcpdf-docs.css"
----
-
 # D3DStreamElement Function
 
 Create a new [D3DStreamElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "embedfont"
-css: "abcpdf-docs.css"
----
-
 # EmbedFont Function
 
 Search for and embed a font file into this font object

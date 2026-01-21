@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # [NAME: Bookmark Class]
 
 [DESC: A bookmark or outline item.

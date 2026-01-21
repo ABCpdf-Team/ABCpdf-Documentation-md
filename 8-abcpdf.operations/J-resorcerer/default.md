@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Resorcerer Class
 
 A class for managing document resources as found in Pages and FormXObjects.

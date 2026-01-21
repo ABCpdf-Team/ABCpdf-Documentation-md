@@ -1,8 +1,3 @@
----
-title: "06-entryproducer"
-css: "abcpdf-docs.css"
----
-
 # EntryProducer Property
 
 | Type | Default Value | Read Only | Description | 

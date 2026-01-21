@@ -1,8 +1,3 @@
----
-title: "whitepoint"
-css: "abcpdf-docs.css"
----
-
 # WhitePoint Property
 
 | Type | Default Value | Read Only | Description | 

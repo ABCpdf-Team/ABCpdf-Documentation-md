@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # EmbeddedFontStreamElement Class
 
 This class represents the embedded font stream dictionary. This is definitively detailed in:.

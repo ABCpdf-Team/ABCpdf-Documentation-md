@@ -1,8 +1,3 @@
----
-title: "rawtext"
-css: "abcpdf-docs.css"
----
-
 # RawText Property
 
 | Type | Default | Read Only | Description | 

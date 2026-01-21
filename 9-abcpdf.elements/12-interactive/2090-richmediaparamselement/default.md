@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RichMediaParamsElement Class
 
 This class represents the richmediaparams dictionary. This is definitively detailed in:.

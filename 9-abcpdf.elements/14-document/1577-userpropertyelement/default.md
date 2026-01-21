@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # UserPropertyElement Class
 
 This class represents the user property dictionary. This is definitively detailed in:.

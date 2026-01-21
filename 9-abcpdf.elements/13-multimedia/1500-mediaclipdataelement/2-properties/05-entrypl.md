@@ -1,8 +1,3 @@
----
-title: "05-entrypl"
-css: "abcpdf-docs.css"
----
-
 # EntryPL Property
 
 | Type | Default Value | Read Only | Description | 

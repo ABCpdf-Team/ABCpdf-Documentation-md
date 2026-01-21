@@ -1,8 +1,3 @@
----
-title: "autorotate"
-css: "abcpdf-docs.css"
----
-
 # AutoRotate Property
 
 | Type | Default Value | Read Only | Description | 

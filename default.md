@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ABCpdf .NET� Documentation
 
 ABCpdf .NET lets you dynamically create Adobe� PDF documents on the fly. Because it doesn't use any print drivers and goes Direct to PDF�, it's incredibly fast. WebSupergoo - sticking the web together.

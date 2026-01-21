@@ -1,8 +1,3 @@
----
-title: "remaptypes"
-css: "abcpdf-docs.css"
----
-
 # RemapTypes Property
 
 | Type | Default | Read Only | Description | 

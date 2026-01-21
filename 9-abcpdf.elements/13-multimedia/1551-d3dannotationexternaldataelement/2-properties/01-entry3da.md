@@ -1,8 +1,3 @@
----
-title: "01-entry3da"
-css: "abcpdf-docs.css"
----
-
 # Entry3DA Property
 
 | Type | Default Value | Read Only | Description | 

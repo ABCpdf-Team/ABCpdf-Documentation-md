@@ -1,8 +1,3 @@
----
-title: "01-iccprofilestreamelement"
-css: "abcpdf-docs.css"
----
-
 # ICCProfileStreamElement Function
 
 Create a new [ICCProfileStreamElement](../default.md).

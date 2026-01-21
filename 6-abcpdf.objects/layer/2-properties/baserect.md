@@ -1,8 +1,3 @@
----
-title: "baserect"
-css: "abcpdf-docs.css"
----
-
 # BaseRect Property
 
 | Type | Default Value | Read Only | Description | 

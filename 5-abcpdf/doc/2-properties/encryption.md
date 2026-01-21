@@ -1,8 +1,3 @@
----
-title: "encryption"
-css: "abcpdf-docs.css"
----
-
 # Encryption Property
 
 | Type | Default | Read Only | Description | 

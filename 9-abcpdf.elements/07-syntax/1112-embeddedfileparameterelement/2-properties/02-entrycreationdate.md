@@ -1,8 +1,3 @@
----
-title: "02-entrycreationdate"
-css: "abcpdf-docs.css"
----
-
 # EntryCreationDate Property
 
 | Type | Default Value | Read Only | Description | 

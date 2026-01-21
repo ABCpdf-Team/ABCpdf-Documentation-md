@@ -1,8 +1,3 @@
----
-title: "autoquality"
-css: "abcpdf-docs.css"
----
-
 # AutoQuality Property
 
 | Type | Default Value | Read Only | Description | 

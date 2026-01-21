@@ -1,8 +1,3 @@
----
-title: "24-entrytextdecorationcolor"
-css: "abcpdf-docs.css"
----
-
 # EntryTextDecorationColor Property
 
 | Type | Default Value | Read Only | Description | 

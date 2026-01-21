@@ -1,8 +1,3 @@
----
-title: "01-watermarkannotationelement"
-css: "abcpdf-docs.css"
----
-
 # WatermarkAnnotationElement Function
 
 Create a new [WatermarkAnnotationElement](../default.md).

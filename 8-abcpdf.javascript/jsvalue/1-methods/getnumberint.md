@@ -1,8 +1,3 @@
----
-title: "getnumberint"
-css: "abcpdf-docs.css"
----
-
 # GetNumberInt Method
 
 Gets the Int32 value of this number.

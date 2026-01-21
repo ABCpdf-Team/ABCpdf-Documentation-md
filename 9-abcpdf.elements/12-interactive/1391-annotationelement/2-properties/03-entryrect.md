@@ -1,8 +1,3 @@
----
-title: "03-entryrect"
-css: "abcpdf-docs.css"
----
-
 # EntryRect Property
 
 | Type | Default Value | Read Only | Description | 

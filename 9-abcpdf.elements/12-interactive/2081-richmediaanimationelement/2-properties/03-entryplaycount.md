@@ -1,8 +1,3 @@
----
-title: "03-entryplaycount"
-css: "abcpdf-docs.css"
----
-
 # EntryPlayCount Property
 
 | Type | Default Value | Read Only | Description | 

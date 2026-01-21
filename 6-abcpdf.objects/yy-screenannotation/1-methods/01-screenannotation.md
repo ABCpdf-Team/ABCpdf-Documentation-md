@@ -1,8 +1,3 @@
----
-title: "01-screenannotation"
-css: "abcpdf-docs.css"
----
-
 # ScreenAnnotation Function
 
 Add movie annotation to the current page of the doc.

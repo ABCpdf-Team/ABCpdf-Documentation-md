@@ -1,8 +1,3 @@
----
-title: "04-entrycardborder"
-css: "abcpdf-docs.css"
----
-
 # EntryCardBorder Property
 
 | Type | Default Value | Read Only | Description | 

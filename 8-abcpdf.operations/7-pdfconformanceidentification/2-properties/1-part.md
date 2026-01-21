@@ -1,8 +1,3 @@
----
-title: "1-part"
-css: "abcpdf-docs.css"
----
-
 # Part Property
 
 | Type | Default | Read Only | Description | 

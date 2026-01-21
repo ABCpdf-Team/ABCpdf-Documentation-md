@@ -1,8 +1,3 @@
----
-title: "method"
-css: "abcpdf-docs.css"
----
-
 # [NAME: CopyTo] Function
 
 [SUMMARY: Copies the Bookmarks into an array.]

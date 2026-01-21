@@ -1,8 +1,3 @@
----
-title: "fittext"
-css: "abcpdf-docs.css"
----
-
 # FitText Function
 
 Fit a block of text into the current rectangle on the current page.

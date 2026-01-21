@@ -1,8 +1,3 @@
----
-title: "setsides"
-css: "abcpdf-docs.css"
----
-
 # SetSides Function
 
 Sets the sides of the rectangle.

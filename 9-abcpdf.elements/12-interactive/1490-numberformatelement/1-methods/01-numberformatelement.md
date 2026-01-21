@@ -1,8 +1,3 @@
----
-title: "01-numberformatelement"
-css: "abcpdf-docs.css"
----
-
 # NumberFormatElement Function
 
 Create a new [NumberFormatElement](../default.md).

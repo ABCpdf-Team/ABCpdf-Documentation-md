@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # CrossReferenceStreamElement Class
 
 This class represents the cross-reference stream dictionary. This is definitively detailed in:.

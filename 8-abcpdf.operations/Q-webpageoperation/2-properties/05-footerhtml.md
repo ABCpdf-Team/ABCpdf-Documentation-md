@@ -1,8 +1,3 @@
----
-title: "05-footerhtml"
-css: "abcpdf-docs.css"
----
-
 # FooterHtml Property
 
 | Type | Default Value | Read Only | Description | 

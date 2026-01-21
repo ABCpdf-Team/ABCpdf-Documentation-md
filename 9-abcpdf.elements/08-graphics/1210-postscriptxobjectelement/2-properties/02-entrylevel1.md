@@ -1,8 +1,3 @@
----
-title: "02-entrylevel1"
-css: "abcpdf-docs.css"
----
-
 # EntryLevel1 Property
 
 | Type | Default Value | Read Only | Description | 

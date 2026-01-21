@@ -1,8 +1,3 @@
----
-title: "addrange"
-css: "abcpdf-docs.css"
----
-
 # AddRange Method
 
 Adds the certificate objects to this collection for those whose values are not already present.

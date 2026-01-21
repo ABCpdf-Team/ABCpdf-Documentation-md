@@ -1,8 +1,3 @@
----
-title: "16-eformfdf"
-css: "abcpdf-docs.css"
----
-
 # eForm FDF Example
 
 This example shows how to extract Unicode annotation values from an eForm FDF file.

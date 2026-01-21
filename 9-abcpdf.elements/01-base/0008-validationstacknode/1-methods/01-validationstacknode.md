@@ -1,8 +1,3 @@
----
-title: "01-validationstacknode"
-css: "abcpdf-docs.css"
----
-
 # ValidationStackNode Function
 
 Initializes a new instance of the [ValidationStackNode](../default.md) class.

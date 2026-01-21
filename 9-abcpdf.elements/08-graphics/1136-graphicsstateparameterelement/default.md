@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # GraphicsStateParameterElement Class
 
 This class represents the graphics state parameter dictionary. This is definitively detailed in:.

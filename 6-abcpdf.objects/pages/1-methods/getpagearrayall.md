@@ -1,8 +1,3 @@
----
-title: "getpagearrayall"
-css: "abcpdf-docs.css"
----
-
 # GetPageArrayAll Function
 
 Gets all the Page objects under this node and descendents of this node.

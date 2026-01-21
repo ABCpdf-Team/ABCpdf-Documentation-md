@@ -1,8 +1,3 @@
----
-title: "07-entrystyle"
-css: "abcpdf-docs.css"
----
-
 # EntryStyle Property
 
 | Type | Default Value | Read Only | Description | 

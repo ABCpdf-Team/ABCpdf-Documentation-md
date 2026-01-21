@@ -1,8 +1,3 @@
----
-title: "compress"
-css: "abcpdf-docs.css"
----
-
 # Compress Function
 
 Compress the data in the stream.

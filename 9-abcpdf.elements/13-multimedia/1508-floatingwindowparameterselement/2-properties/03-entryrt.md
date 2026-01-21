@@ -1,8 +1,3 @@
----
-title: "03-entryrt"
-css: "abcpdf-docs.css"
----
-
 # EntryRT Property
 
 | Type | Default Value | Read Only | Description | 

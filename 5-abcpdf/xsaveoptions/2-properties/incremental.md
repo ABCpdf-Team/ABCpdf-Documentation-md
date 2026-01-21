@@ -1,8 +1,3 @@
----
-title: "incremental"
-css: "abcpdf-docs.css"
----
-
 # Incremental Property
 
 | Type | Default Value | Read Only | Description | 

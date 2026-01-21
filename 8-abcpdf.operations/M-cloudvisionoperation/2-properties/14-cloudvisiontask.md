@@ -1,8 +1,3 @@
----
-title: "14-cloudvisiontask"
-css: "abcpdf-docs.css"
----
-
 # CloudVisionTask Property
 
 | Type | Default Value | Read Only | Description | 

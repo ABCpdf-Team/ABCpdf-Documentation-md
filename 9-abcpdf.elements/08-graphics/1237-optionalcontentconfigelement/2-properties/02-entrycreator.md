@@ -1,8 +1,3 @@
----
-title: "02-entrycreator"
-css: "abcpdf-docs.css"
----
-
 # EntryCreator Property
 
 | Type | Default Value | Read Only | Description | 

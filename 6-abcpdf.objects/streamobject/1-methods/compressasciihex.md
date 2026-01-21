@@ -1,8 +1,3 @@
----
-title: "compressasciihex"
-css: "abcpdf-docs.css"
----
-
 # CompressAsciiHex Function
 
 Compress the data in the stream using the ASCII Hex encoding.

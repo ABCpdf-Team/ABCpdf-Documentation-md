@@ -1,8 +1,3 @@
----
-title: "02-entrymovie"
-css: "abcpdf-docs.css"
----
-
 # EntryMovie Property
 
 | Type | Default Value | Read Only | Description | 

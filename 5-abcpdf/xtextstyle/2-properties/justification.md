@@ -1,8 +1,3 @@
----
-title: "justification"
-css: "abcpdf-docs.css"
----
-
 # Justification Property
 
 | Type | Default | Read Only | Description | 

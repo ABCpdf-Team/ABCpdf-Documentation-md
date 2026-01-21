@@ -1,8 +1,3 @@
----
-title: "02-entryparent"
-css: "abcpdf-docs.css"
----
-
 # EntryParent Property
 
 | Type | Default Value | Read Only | Description | 

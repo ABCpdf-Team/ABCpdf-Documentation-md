@@ -1,8 +1,3 @@
----
-title: "position"
-css: "abcpdf-docs.css"
----
-
 # Position Function
 
 Position the bottom left of the rectangle.

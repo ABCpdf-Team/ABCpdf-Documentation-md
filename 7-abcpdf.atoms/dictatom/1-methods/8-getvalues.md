@@ -1,8 +1,3 @@
----
-title: "8-getvalues"
-css: "abcpdf-docs.css"
----
-
 # GetValues Function
 
 Get an array of all the Atoms in the dictionary.

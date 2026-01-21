@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ObjectSoupSubset Class
 
 A set of [IndirectObjects](../1-indirectobject/default.md) from an [ObjectSoup](../2-objectsoup/default.md).

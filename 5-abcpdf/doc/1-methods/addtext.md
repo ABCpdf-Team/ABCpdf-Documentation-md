@@ -1,8 +1,3 @@
----
-title: "addtext"
-css: "abcpdf-docs.css"
----
-
 # AddText Function
 
 Adds a block of single styled text to the current page.

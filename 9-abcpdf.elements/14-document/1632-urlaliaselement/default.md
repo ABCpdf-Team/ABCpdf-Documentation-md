@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # UrlAliasElement Class
 
 This class represents the url alias dictionary. This is definitively detailed in:.

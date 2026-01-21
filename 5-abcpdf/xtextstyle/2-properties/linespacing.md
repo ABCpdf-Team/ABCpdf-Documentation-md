@@ -1,8 +1,3 @@
----
-title: "linespacing"
-css: "abcpdf-docs.css"
----
-
 # LineSpacing Property
 
 | Type | Default | Read Only | Description | 

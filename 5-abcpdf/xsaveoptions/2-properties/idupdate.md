@@ -1,8 +1,3 @@
----
-title: "idupdate"
-css: "abcpdf-docs.css"
----
-
 # IDUpdate Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # OpiElement Class
 
 This class represents the opi dictionary. This is definitively detailed in:.

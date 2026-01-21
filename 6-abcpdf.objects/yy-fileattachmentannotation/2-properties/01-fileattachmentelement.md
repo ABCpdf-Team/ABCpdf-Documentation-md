@@ -1,8 +1,3 @@
----
-title: "01-fileattachmentelement"
-css: "abcpdf-docs.css"
----
-
 # FileAttachmentElement Property
 
 | Type | Default Value | Read Only | Description | 

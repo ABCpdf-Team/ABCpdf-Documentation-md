@@ -1,8 +1,3 @@
----
-title: "rectangle"
-css: "abcpdf-docs.css"
----
-
 # Rectangle Property
 
 | Type | Default | Read Only | Description | 

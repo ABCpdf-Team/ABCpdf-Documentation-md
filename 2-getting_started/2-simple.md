@@ -1,8 +1,3 @@
----
-title: "2-simple"
-css: "abcpdf-docs.css"
----
-
 # Simple Example
 
 ## Intro

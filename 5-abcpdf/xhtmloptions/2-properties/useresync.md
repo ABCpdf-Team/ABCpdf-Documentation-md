@@ -1,8 +1,3 @@
----
-title: "useresync"
-css: "abcpdf-docs.css"
----
-
 # UseResync Property
 
 | Type | Default Value | Read Only | Description | 

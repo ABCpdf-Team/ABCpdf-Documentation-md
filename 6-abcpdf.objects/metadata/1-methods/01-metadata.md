@@ -1,8 +1,3 @@
----
-title: "01-metadata"
-css: "abcpdf-docs.css"
----
-
 # Metadata Function
 
 [Metadata](../default.md) constructor

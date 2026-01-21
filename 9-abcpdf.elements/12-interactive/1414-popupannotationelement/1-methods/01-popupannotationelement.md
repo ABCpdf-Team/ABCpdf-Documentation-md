@@ -1,8 +1,3 @@
----
-title: "01-popupannotationelement"
-css: "abcpdf-docs.css"
----
-
 # PopUpAnnotationElement Function
 
 Create a new [PopUpAnnotationElement](../default.md).

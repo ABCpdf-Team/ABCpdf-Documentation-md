@@ -1,8 +1,3 @@
----
-title: "gettext"
-css: "abcpdf-docs.css"
----
-
 # GetText Function
 
 Extract content from the current page in a specified format.

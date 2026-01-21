@@ -1,8 +1,3 @@
----
-title: "05-entrydr"
-css: "abcpdf-docs.css"
----
-
 # EntryDR Property
 
 | Type | Default Value | Read Only | Description | 

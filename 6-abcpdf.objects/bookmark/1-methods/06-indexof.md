@@ -1,8 +1,3 @@
----
-title: "06-indexof"
-css: "abcpdf-docs.css"
----
-
 # IndexOf Function
 
 Determines the index of a specific Bookmark.

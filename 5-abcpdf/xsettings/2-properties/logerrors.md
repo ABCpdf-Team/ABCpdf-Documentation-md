@@ -1,8 +1,3 @@
----
-title: "logerrors"
-css: "abcpdf-docs.css"
----
-
 # LogErrors Property
 
 | Type | Default Value | Read Only | Description | 

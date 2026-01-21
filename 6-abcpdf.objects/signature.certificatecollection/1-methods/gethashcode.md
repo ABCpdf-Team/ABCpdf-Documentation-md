@@ -1,8 +1,3 @@
----
-title: "gethashcode"
-css: "abcpdf-docs.css"
----
-
 # GetHashCode Method
 
 Calculates a hash value based on the values of the contained certificate objects.

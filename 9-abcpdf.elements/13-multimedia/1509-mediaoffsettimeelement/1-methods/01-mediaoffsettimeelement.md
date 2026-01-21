@@ -1,8 +1,3 @@
----
-title: "01-mediaoffsettimeelement"
-css: "abcpdf-docs.css"
----
-
 # MediaOffsetTimeElement Function
 
 Create a new [MediaOffsetTimeElement](../default.md).

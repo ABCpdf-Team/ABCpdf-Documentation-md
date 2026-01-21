@@ -1,8 +1,3 @@
----
-title: "06-headers"
-css: "abcpdf-docs.css"
----
-
 # Headers and Footers Example
 
 This example shows one method of adding headers and footers.

@@ -1,8 +1,3 @@
----
-title: "02-signingtime"
-css: "abcpdf-docs.css"
----
-
 # SigningTime Property
 
 | Type | Default Value | Read Only | Description | 

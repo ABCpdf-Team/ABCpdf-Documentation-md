@@ -1,8 +1,3 @@
----
-title: "01-annotationelement"
-css: "abcpdf-docs.css"
----
-
 # AnnotationElement Function
 
 Create a new [AnnotationElement](../default.md).

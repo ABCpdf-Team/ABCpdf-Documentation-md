@@ -1,8 +1,3 @@
----
-title: "mactype"
-css: "abcpdf-docs.css"
----
-
 # MacType Property
 
 | Type | Default Value | Read Only | Description | 

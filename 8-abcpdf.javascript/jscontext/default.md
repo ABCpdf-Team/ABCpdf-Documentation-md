@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # JSContext Class
 
 JSContext encapsulates the JavaScript environment.

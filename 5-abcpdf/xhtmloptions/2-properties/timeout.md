@@ -1,8 +1,3 @@
----
-title: "timeout"
-css: "abcpdf-docs.css"
----
-
 # Timeout Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # PermissionsElement Class
 
 This class represents the permissions dictionary. This is definitively detailed in:.

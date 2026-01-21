@@ -1,8 +1,3 @@
----
-title: "04-entryunix"
-css: "abcpdf-docs.css"
----
-
 # EntryUnix Property
 
 | Type | Default Value | Read Only | Description | 

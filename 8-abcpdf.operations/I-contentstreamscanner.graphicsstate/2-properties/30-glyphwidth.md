@@ -1,8 +1,3 @@
----
-title: "30-glyphwidth"
-css: "abcpdf-docs.css"
----
-
 # GlyphWidth Property
 
 | Type | Default Value | Read Only | Description | 

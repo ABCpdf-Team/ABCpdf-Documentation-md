@@ -1,8 +1,3 @@
----
-title: "fromnums"
-css: "abcpdf-docs.css"
----
-
 # FromNums Function
 
 Create an ArrayAtom of NumAtoms from a list of numbers.

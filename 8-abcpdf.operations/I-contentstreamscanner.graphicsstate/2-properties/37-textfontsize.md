@@ -1,8 +1,3 @@
----
-title: "37-textfontsize"
-css: "abcpdf-docs.css"
----
-
 # TextFontSize Property
 
 | Type | Default Value | Read Only | Description | 

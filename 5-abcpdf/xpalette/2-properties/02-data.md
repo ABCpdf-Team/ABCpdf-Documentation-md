@@ -1,8 +1,3 @@
----
-title: "02-data"
-css: "abcpdf-docs.css"
----
-
 # Data Property
 
 | Type | Default Value | Read Only | Description | 

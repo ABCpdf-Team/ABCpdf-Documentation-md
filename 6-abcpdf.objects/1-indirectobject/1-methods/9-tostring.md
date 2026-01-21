@@ -1,8 +1,3 @@
----
-title: "9-tostring"
-css: "abcpdf-docs.css"
----
-
 # ToString Function
 
 The string representation of the IndirectObject.

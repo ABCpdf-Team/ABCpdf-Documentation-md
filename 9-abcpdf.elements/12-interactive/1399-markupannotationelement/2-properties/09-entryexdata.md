@@ -1,8 +1,3 @@
----
-title: "09-entryexdata"
-css: "abcpdf-docs.css"
----
-
 # EntryExData Property
 
 | Type | Default Value | Read Only | Description | 

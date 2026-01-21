@@ -1,8 +1,3 @@
----
-title: "09-entryartbox"
-css: "abcpdf-docs.css"
----
-
 # EntryArtBox Property
 
 | Type | Default Value | Read Only | Description | 

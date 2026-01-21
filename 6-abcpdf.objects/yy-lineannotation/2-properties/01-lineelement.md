@@ -1,8 +1,3 @@
----
-title: "01-lineelement"
-css: "abcpdf-docs.css"
----
-
 # LineElement Property
 
 | Type | Default Value | Read Only | Description | 

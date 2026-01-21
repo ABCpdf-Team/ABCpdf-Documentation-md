@@ -1,8 +1,3 @@
----
-title: "01-squareelement"
-css: "abcpdf-docs.css"
----
-
 # SquareElement Property
 
 | Type | Default Value | Read Only | Description | 

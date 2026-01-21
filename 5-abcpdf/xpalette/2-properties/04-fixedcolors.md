@@ -1,8 +1,3 @@
----
-title: "04-fixedcolors"
-css: "abcpdf-docs.css"
----
-
 # FixedColors Property
 
 | Type | Default Value | Read Only | Description | 

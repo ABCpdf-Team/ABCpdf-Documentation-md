@@ -1,8 +1,3 @@
----
-title: "03-entryuriactions"
-css: "abcpdf-docs.css"
----
-
 # EntryURIActions Property
 
 | Type | Default Value | Read Only | Description | 

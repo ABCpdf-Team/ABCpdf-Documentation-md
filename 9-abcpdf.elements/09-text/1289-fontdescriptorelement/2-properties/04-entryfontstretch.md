@@ -1,8 +1,3 @@
----
-title: "04-entryfontstretch"
-css: "abcpdf-docs.css"
----
-
 # EntryFontStretch Property
 
 | Type | Default Value | Read Only | Description | 

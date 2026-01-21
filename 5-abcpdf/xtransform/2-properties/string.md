@@ -1,8 +1,3 @@
----
-title: "string"
-css: "abcpdf-docs.css"
----
-
 # String Property
 
 | Type | Default | Read Only | Description | 

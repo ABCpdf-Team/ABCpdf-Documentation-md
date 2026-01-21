@@ -1,8 +1,3 @@
----
-title: "09-entryllo"
-css: "abcpdf-docs.css"
----
-
 # EntryLLO Property
 
 | Type | Default Value | Read Only | Description | 

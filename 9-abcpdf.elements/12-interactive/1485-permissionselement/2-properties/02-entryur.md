@@ -1,8 +1,3 @@
----
-title: "02-entryur"
-css: "abcpdf-docs.css"
----
-
 # EntryUR Property
 
 | Type | Default Value | Read Only | Description | 

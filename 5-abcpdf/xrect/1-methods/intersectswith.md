@@ -1,8 +1,3 @@
----
-title: "intersectswith"
-css: "abcpdf-docs.css"
----
-
 # IntersectsWith Function
 
 Determine if this rectangle intersects with another.

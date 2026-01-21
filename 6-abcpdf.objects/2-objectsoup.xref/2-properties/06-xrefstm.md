@@ -1,8 +1,3 @@
----
-title: "06-xrefstm"
-css: "abcpdf-docs.css"
----
-
 # XRefStm Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # LaunchActionElement Class
 
 This class represents the launch action. This is definitively detailed in:.

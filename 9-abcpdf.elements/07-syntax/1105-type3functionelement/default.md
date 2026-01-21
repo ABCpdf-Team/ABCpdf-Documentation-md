@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Type3FunctionElement Class
 
 This class represents the type 3 function dictionary. This is definitively detailed in:.

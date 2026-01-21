@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # XSaveTemplateData Class
 
 Represents some format-specific data not obtained from a template file.

@@ -1,8 +1,3 @@
----
-title: "effectoperation"
-css: "abcpdf-docs.css"
----
-
 # EffectOperation Function
 
 EffectOperation Constructor

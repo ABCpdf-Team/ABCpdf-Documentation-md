@@ -1,8 +1,3 @@
----
-title: "01-separationcolorspaceelement"
-css: "abcpdf-docs.css"
----
-
 # SeparationColorSpaceElement Function
 
 Create a new [SeparationColorSpaceElement](../default.md).

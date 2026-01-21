@@ -1,8 +1,3 @@
----
-title: "01-freetextannotationelement"
-css: "abcpdf-docs.css"
----
-
 # FreeTextAnnotationElement Function
 
 Create a new [FreeTextAnnotationElement](../default.md).

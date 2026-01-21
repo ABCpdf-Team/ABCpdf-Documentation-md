@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # SoundActionElement Class
 
 This class represents the sound action. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # CryptParametersElement Class
 
 This class represents the crypt parameters. This is definitively detailed in:.

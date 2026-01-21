@@ -1,8 +1,3 @@
----
-title: "07-entrypcsm"
-css: "abcpdf-docs.css"
----
-
 # EntryPCSM Property
 
 | Type | Default Value | Read Only | Description | 

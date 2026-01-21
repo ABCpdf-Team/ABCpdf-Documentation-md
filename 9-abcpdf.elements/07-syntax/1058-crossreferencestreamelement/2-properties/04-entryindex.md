@@ -1,8 +1,3 @@
----
-title: "04-entryindex"
-css: "abcpdf-docs.css"
----
-
 # EntryIndex Property
 
 | Type | Default Value | Read Only | Description | 

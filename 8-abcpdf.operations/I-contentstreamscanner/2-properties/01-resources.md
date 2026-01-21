@@ -1,8 +1,3 @@
----
-title: "01-resources"
-css: "abcpdf-docs.css"
----
-
 # Resources Property
 
 | Type | Default Value | Read Only | Description | 

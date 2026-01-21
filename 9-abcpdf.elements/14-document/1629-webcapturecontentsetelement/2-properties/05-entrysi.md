@@ -1,8 +1,3 @@
----
-title: "05-entrysi"
-css: "abcpdf-docs.css"
----
-
 # EntrySI Property
 
 | Type | Default Value | Read Only | Description | 

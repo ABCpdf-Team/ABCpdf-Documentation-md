@@ -1,8 +1,3 @@
----
-title: "addcolorspacespot"
-css: "abcpdf-docs.css"
----
-
 # AddColorSpaceSpot Function
 
 Adds a separation color space to the document.

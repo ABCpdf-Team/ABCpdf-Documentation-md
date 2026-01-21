@@ -1,8 +1,3 @@
----
-title: "10-entrypi"
-css: "abcpdf-docs.css"
----
-
 # EntryPI Property
 
 | Type | Default Value | Read Only | Description | 

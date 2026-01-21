@@ -1,8 +1,3 @@
----
-title: "18-entryprop_authtype"
-css: "abcpdf-docs.css"
----
-
 # EntryProp_AuthType Property
 
 | Type | Default Value | Read Only | Description | 

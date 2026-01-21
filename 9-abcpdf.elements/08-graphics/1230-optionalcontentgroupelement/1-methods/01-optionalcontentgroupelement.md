@@ -1,8 +1,3 @@
----
-title: "01-optionalcontentgroupelement"
-css: "abcpdf-docs.css"
----
-
 # OptionalContentGroupElement Function
 
 Create a new [OptionalContentGroupElement](../default.md).

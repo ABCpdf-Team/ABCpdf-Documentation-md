@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # FontDescriptorElement Class
 
 This class represents the font descriptor. This is definitively detailed in:.

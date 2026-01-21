@@ -1,8 +1,3 @@
----
-title: "02-operators"
-css: "abcpdf-docs.css"
----
-
 # Operators Property
 
 | Type | Default Value | Read Only | Description | 

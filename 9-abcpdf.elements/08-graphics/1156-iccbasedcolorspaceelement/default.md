@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ICCBasedColorSpaceElement Class
 
 This class represents an ICC calibrated color space.

@@ -1,8 +1,3 @@
----
-title: "2-gen"
-css: "abcpdf-docs.css"
----
-
 # Gen Property
 
 | Type | Default | Read Only | Description | 

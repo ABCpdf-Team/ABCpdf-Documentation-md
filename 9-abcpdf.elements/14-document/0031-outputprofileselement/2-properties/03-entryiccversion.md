@@ -1,8 +1,3 @@
----
-title: "03-entryiccversion"
-css: "abcpdf-docs.css"
----
-
 # EntryICCVersion Property
 
 | Type | Default Value | Read Only | Description | 

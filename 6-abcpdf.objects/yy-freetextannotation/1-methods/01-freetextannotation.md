@@ -1,8 +1,3 @@
----
-title: "01-freetextannotation"
-css: "abcpdf-docs.css"
----
-
 # FreeTextAnnotation Function
 
 Add free text annotation to the current page of the doc.

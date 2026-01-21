@@ -1,8 +1,3 @@
----
-title: "setmeasureresolution"
-css: "abcpdf-docs.css"
----
-
 # SetMeasureResolution Function
 
 Sets the measurement resolutions.

@@ -1,8 +1,3 @@
----
-title: "equals"
-css: "abcpdf-docs.css"
----
-
 # Equals Function
 
 Determines if two transforms are effectively the same.

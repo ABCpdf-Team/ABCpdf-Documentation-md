@@ -1,8 +1,3 @@
----
-title: "02-clearcache"
-css: "abcpdf-docs.css"
----
-
 # ClearCache Function
 
 Clear the [GetResource](01-resorcerer.md) lookup cache.

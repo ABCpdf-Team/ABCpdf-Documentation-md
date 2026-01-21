@@ -1,8 +1,3 @@
----
-title: "01-graphicsstateparameterelement"
-css: "abcpdf-docs.css"
----
-
 # GraphicsStateParameterElement Function
 
 Create a new [GraphicsStateParameterElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "transform"
-css: "abcpdf-docs.css"
----
-
 # Transform Property
 
 | Type | Default | Read Only | Description | 

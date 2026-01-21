@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # BorderEffectElement Class
 
 This class represents the border effect dictionary. This is definitively detailed in:.

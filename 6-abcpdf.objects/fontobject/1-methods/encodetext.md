@@ -1,8 +1,3 @@
----
-title: "encodetext"
-css: "abcpdf-docs.css"
----
-
 # EncodeText Function
 
 Encode text for use with PDF text operators.

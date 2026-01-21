@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RichMediaAnnotation Class
 
 Rich media annotation.

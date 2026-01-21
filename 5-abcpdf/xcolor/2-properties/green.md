@@ -1,8 +1,3 @@
----
-title: "green"
-css: "abcpdf-docs.css"
----
-
 # Green Property
 
 | Type | Default | Read Only | Description | 

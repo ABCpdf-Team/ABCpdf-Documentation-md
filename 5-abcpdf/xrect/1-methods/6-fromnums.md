@@ -1,8 +1,3 @@
----
-title: "6-fromnums"
-css: "abcpdf-docs.css"
----
-
 # FromNums Function
 
 Create an XRect from an array or list of four numbers.

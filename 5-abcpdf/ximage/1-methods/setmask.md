@@ -1,8 +1,3 @@
----
-title: "setmask"
-css: "abcpdf-docs.css"
----
-
 # SetMask Function
 
 Assign a soft mask to the image.

@@ -1,8 +1,3 @@
----
-title: "getapplicationfolder"
-css: "abcpdf-docs.css"
----
-
 # GetApplicationFolder Function
 
 Gets the installation folder of an import application.

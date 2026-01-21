@@ -1,8 +1,3 @@
----
-title: "24-entryperms"
-css: "abcpdf-docs.css"
----
-
 # EntryPerms Property
 
 | Type | Default Value | Read Only | Description | 

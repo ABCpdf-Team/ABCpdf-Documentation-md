@@ -1,8 +1,3 @@
----
-title: "canprint"
-css: "abcpdf-docs.css"
----
-
 # CanPrint Property
 
 | Type | Default Value | Read Only | Description | 

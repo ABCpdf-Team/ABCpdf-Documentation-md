@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # CalGrayColorSpaceAttributesElement Class
 
 This class represents the calgray colour space dictionary. This is definitively detailed in:.

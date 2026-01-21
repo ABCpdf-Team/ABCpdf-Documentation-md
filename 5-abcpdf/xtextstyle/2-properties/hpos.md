@@ -1,8 +1,3 @@
----
-title: "hpos"
-css: "abcpdf-docs.css"
----
-
 # HPos Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-validation"
-css: "abcpdf-docs.css"
----
-
 # Validation Function
 
 Initializes a new instance of the [Validation](../default.md) class.

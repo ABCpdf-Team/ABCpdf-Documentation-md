@@ -1,8 +1,3 @@
----
-title: "1-essentials"
-css: "abcpdf-docs.css"
----
-
 # .NET Essentials
 
 ## Refs

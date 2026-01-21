@@ -1,8 +1,3 @@
----
-title: "1-doc"
-css: "abcpdf-docs.css"
----
-
 # Doc&nbsp;Property
 
 | Type | Default | Read Only | Description | 

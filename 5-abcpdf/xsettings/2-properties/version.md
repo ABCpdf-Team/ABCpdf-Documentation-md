@@ -1,8 +1,3 @@
----
-title: "version"
-css: "abcpdf-docs.css"
----
-
 # Version Property
 
 | Type | Default Value | Read Only | Description | 

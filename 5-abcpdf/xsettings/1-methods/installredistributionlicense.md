@@ -1,8 +1,3 @@
----
-title: "installredistributionlicense"
-css: "abcpdf-docs.css"
----
-
 # InstallRedistributionLicense Method
 
 Install a redistribution license.

@@ -1,8 +1,3 @@
----
-title: "01-d3dactivationelement"
-css: "abcpdf-docs.css"
----
-
 # D3DActivationElement Function
 
 Create a new [D3DActivationElement](../default.md).

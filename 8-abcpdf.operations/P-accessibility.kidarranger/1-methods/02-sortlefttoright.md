@@ -1,8 +1,3 @@
----
-title: "02-sortlefttoright"
-css: "abcpdf-docs.css"
----
-
 # SortLeftToRight Function
 
 Sort the kids of the parent element so that they go in order from the left to the right.

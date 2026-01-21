@@ -1,8 +1,3 @@
----
-title: "y"
-css: "abcpdf-docs.css"
----
-
 # Y Property
 
 | Type | Default | Read Only | Description | 

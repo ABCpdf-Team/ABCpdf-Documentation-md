@@ -1,8 +1,3 @@
----
-title: "setchromakey"
-css: "abcpdf-docs.css"
----
-
 # SetChromakey Function
 
 Sets a chromakey transparent color for this image.

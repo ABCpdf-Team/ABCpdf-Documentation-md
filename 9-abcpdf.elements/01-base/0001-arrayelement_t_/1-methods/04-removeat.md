@@ -1,8 +1,3 @@
----
-title: "04-removeat"
-css: "abcpdf-docs.css"
----
-
 # RemoveAt Function
 
 Removes the [Element](../../1086-element/default.md) at the specified index.

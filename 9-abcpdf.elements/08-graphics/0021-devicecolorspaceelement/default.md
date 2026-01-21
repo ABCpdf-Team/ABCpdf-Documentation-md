@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # DeviceColorSpaceElement Class
 
 This class represents a device color space.

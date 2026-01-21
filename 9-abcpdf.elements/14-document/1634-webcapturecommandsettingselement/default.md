@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # WebCaptureCommandSettingsElement Class
 
 This class represents the web capture command settings dictionary. This is definitively detailed in:.

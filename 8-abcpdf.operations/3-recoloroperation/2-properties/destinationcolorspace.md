@@ -1,8 +1,3 @@
----
-title: "destinationcolorspace"
-css: "abcpdf-docs.css"
----
-
 # DestinationColorSpace Property
 
 | Type | Default | Read Only | Description | 

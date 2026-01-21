@@ -1,8 +1,3 @@
----
-title: "09-entrytt"
-css: "abcpdf-docs.css"
----
-
 # EntryTT Property
 
 | Type | Default Value | Read Only | Description | 

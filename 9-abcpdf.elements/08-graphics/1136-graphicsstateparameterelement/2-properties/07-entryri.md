@@ -1,8 +1,3 @@
----
-title: "07-entryri"
-css: "abcpdf-docs.css"
----
-
 # EntryRI Property
 
 | Type | Default Value | Read Only | Description | 

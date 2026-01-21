@@ -1,8 +1,3 @@
----
-title: "05-entrydv"
-css: "abcpdf-docs.css"
----
-
 # EntryDV Property
 
 | Type | Default Value | Read Only | Description | 

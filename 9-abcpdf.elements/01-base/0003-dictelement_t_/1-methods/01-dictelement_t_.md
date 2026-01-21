@@ -1,8 +1,3 @@
----
-title: "01-dictelement_t_"
-css: "abcpdf-docs.css"
----
-
 # DictElement&lt;T&gt; Function
 
 Create a new [DictElement](../default.md).

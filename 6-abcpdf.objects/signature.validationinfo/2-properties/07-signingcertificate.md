@@ -1,8 +1,3 @@
----
-title: "07-signingcertificate"
-css: "abcpdf-docs.css"
----
-
 # SigningCertificate Property
 
 | Type | Default Value | Read Only | Description | 

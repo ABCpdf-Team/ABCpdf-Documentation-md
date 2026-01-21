@@ -1,8 +1,3 @@
----
-title: "02-call"
-css: "abcpdf-docs.css"
----
-
 # Call Function
 
 Call the scanner using an owner and a content stream array.

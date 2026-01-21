@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # XImage Class
 
 Allows access to images stored in files or in data. XImages can be added to a document using the [Doc.AddImageObject](../doc/1-methods/addimageobject.md) method.

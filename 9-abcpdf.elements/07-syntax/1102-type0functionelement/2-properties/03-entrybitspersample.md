@@ -1,8 +1,3 @@
----
-title: "03-entrybitspersample"
-css: "abcpdf-docs.css"
----
-
 # EntryBitsPerSample Property
 
 | Type | Default Value | Read Only | Description | 

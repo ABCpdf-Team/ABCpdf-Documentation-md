@@ -1,8 +1,3 @@
----
-title: "licensee"
-css: "abcpdf-docs.css"
----
-
 # Licensee Property
 
 | Type | Default Value | Read Only | Description | 

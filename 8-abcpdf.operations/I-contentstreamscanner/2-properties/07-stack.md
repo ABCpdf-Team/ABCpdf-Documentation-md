@@ -1,8 +1,3 @@
----
-title: "07-stack"
-css: "abcpdf-docs.css"
----
-
 # Stack Property
 
 | Type | Default Value | Read Only | Description | 

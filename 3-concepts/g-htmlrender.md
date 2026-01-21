@@ -1,8 +1,3 @@
----
-title: "g-htmlrender"
-css: "abcpdf-docs.css"
----
-
 # HTML / CSS Rendering
 
 ## Intro

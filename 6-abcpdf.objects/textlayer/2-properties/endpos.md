@@ -1,8 +1,3 @@
----
-title: "endpos"
-css: "abcpdf-docs.css"
----
-
 # EndPos Property
 
 | Type | Default | Read Only | Description | 

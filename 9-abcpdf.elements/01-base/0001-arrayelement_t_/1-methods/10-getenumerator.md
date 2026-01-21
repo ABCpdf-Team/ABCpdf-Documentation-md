@@ -1,8 +1,3 @@
----
-title: "10-getenumerator"
-css: "abcpdf-docs.css"
----
-
 # GetEnumerator Function
 
 Returns an enumerator that iterates through the collection.

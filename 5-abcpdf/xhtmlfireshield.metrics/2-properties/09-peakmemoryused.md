@@ -1,8 +1,3 @@
----
-title: "09-peakmemoryused"
-css: "abcpdf-docs.css"
----
-
 # PeakMemoryUsed Property
 
 | Type | Default Value | Read Only | Description | 

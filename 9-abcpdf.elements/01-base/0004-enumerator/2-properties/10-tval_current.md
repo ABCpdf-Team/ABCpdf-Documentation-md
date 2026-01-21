@@ -1,8 +1,3 @@
----
-title: "10-tval_current"
-css: "abcpdf-docs.css"
----
-
 # TVal&gt; Current Property
 
 | Type | Default Value | Read Only | Description | 

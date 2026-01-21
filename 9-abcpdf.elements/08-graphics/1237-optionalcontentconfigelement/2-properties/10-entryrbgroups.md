@@ -1,8 +1,3 @@
----
-title: "10-entryrbgroups"
-css: "abcpdf-docs.css"
----
-
 # EntryRBGroups Property
 
 | Type | Default Value | Read Only | Description | 

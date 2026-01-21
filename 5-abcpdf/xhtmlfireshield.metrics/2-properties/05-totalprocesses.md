@@ -1,8 +1,3 @@
----
-title: "05-totalprocesses"
-css: "abcpdf-docs.css"
----
-
 # TotalProcesses Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "stagescalemode"
-css: "abcpdf-docs.css"
----
-
 # StageScaleMode Property
 
 | Type | Default | Read Only | Description | 

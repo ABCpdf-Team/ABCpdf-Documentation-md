@@ -1,8 +1,3 @@
----
-title: "04-getentryversion"
-css: "abcpdf-docs.css"
----
-
 # GetEntryVersion Function
 
 Get the minimum PDF version required for the use of a particular named entry.

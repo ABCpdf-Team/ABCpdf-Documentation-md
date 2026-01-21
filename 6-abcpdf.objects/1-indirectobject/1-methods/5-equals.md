@@ -1,8 +1,3 @@
----
-title: "5-equals"
-css: "abcpdf-docs.css"
----
-
 # Equals Function
 
 Test whether the two IndirectObjects are the same.

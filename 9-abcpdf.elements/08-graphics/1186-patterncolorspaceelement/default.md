@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # PatternColorSpaceElement Class
 
 This class represents a pattern color space.

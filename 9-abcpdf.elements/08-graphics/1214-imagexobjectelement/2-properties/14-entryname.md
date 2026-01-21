@@ -1,8 +1,3 @@
----
-title: "14-entryname"
-css: "abcpdf-docs.css"
----
-
 # EntryName Property
 
 | Type | Default Value | Read Only | Description | 

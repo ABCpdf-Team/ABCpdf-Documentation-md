@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # WebCaptureInformationElement Class
 
 This class represents the web capture information dictionary. This is definitively detailed in:.

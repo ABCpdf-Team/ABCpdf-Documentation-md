@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # SourceInformationElement Class
 
 This class represents the source information dictionary. This is definitively detailed in:.

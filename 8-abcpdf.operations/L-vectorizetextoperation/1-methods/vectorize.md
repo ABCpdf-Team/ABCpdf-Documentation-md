@@ -1,8 +1,3 @@
----
-title: "vectorize"
-css: "abcpdf-docs.css"
----
-
 # Vectorize Method
 
 Vectorizes the text glyphs in the pages of a document.

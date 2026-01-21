@@ -1,8 +1,3 @@
----
-title: "02-indexof"
-css: "abcpdf-docs.css"
----
-
 # IndexOf Function
 
 Determines the first index matching a specific value.

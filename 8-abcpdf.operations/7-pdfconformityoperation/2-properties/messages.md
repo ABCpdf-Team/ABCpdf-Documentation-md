@@ -1,8 +1,3 @@
----
-title: "messages"
-css: "abcpdf-docs.css"
----
-
 # Messages Property
 
 | Type | Default | Read Only | Description | 

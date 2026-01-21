@@ -1,8 +1,3 @@
----
-title: "12-entrysummary"
-css: "abcpdf-docs.css"
----
-
 # EntrySummary Property
 
 | Type | Default Value | Read Only | Description | 

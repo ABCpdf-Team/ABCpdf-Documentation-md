@@ -1,8 +1,3 @@
----
-title: "01-entryjbig2globals"
-css: "abcpdf-docs.css"
----
-
 # EntryJBIG2Globals Property
 
 | Type | Default Value | Read Only | Description | 

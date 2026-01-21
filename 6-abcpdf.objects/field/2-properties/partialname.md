@@ -1,8 +1,3 @@
----
-title: "partialname"
-css: "abcpdf-docs.css"
----
-
 # PartialName Property
 
 | Type | Default Value | Read Only | Description | 

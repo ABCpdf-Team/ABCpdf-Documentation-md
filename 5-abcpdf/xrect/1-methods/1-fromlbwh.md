@@ -1,8 +1,3 @@
----
-title: "1-fromlbwh"
-css: "abcpdf-docs.css"
----
-
 # FromLbwh Function
 
 Creates an XRect from a bottom left corner, a width and a height.

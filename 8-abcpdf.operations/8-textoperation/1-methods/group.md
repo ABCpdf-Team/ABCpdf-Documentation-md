@@ -1,8 +1,3 @@
----
-title: "group"
-css: "abcpdf-docs.css"
----
-
 # Group Function
 
 Group a range of text fragments into a set of lines.

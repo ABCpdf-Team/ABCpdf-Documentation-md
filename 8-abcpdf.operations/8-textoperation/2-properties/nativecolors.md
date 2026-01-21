@@ -1,8 +1,3 @@
----
-title: "nativecolors"
-css: "abcpdf-docs.css"
----
-
 # NativeColors Property
 
 | Type | Default Value | Read Only | Description | 

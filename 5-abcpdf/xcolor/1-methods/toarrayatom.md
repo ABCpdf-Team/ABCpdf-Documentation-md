@@ -1,8 +1,3 @@
----
-title: "toarrayatom"
-css: "abcpdf-docs.css"
----
-
 # ToArrayAtom Function
 
 An ArrayAtom representation of the components of the color

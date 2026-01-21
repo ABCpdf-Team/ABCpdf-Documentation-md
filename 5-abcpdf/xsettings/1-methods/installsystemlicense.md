@@ -1,8 +1,3 @@
----
-title: "installsystemlicense"
-css: "abcpdf-docs.css"
----
-
 # InstallSystemLicense Method
 
 Install a system license.

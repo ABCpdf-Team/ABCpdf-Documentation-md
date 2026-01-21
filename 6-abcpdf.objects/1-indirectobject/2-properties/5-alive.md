@@ -1,8 +1,3 @@
----
-title: "5-alive"
-css: "abcpdf-docs.css"
----
-
 # Alive Property
 
 | Type | Default | Read Only | Description | 

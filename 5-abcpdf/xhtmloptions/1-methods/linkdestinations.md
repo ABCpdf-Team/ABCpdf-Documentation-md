@@ -1,8 +1,3 @@
----
-title: "linkdestinations"
-css: "abcpdf-docs.css"
----
-
 # LinkDestinations Method
 
 Convert a restricted selection of external links to internal links.

@@ -1,8 +1,3 @@
----
-title: "01-markupannotationelement"
-css: "abcpdf-docs.css"
----
-
 # MarkupAnnotationElement Function
 
 Create a new [MarkupAnnotationElement](../default.md).

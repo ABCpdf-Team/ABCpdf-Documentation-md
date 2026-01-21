@@ -1,8 +1,3 @@
----
-title: "01-artifactattributeselement"
-css: "abcpdf-docs.css"
----
-
 # ArtifactAttributesElement Function
 
 Create a new [ArtifactAttributesElement](../default.md).

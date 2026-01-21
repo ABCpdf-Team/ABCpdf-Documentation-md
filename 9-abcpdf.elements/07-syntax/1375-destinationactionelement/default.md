@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # DestinationActionElement Class
 
 This class represents a hybrid destination and action dictionary.

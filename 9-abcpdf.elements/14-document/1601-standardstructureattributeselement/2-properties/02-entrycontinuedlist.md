@@ -1,8 +1,3 @@
----
-title: "02-entrycontinuedlist"
-css: "abcpdf-docs.css"
----
-
 # EntryContinuedList Property
 
 | Type | Default Value | Read Only | Description | 

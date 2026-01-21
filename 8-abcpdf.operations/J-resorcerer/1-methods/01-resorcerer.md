@@ -1,8 +1,3 @@
----
-title: "01-resorcerer"
-css: "abcpdf-docs.css"
----
-
 # Resorcerer Function
 
 Create a new [Resorcerer](../default.md).

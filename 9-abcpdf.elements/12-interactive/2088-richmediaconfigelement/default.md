@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RichMediaConfigElement Class
 
 This class represents the richmediaconfiguration dictionary. This is definitively detailed in:.

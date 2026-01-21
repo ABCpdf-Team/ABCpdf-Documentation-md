@@ -1,8 +1,3 @@
----
-title: "03-entryannotstates"
-css: "abcpdf-docs.css"
----
-
 # EntryAnnotStates Property
 
 | Type | Default Value | Read Only | Description | 

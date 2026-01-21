@@ -1,8 +1,3 @@
----
-title: "6-whatsnew"
-css: "abcpdf-docs.css"
----
-
 # What's New?
 
 ## Linux Support

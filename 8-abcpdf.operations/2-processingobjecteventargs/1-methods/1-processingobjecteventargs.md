@@ -1,8 +1,3 @@
----
-title: "1-processingobjecteventargs"
-css: "abcpdf-docs.css"
----
-
 # ProcessingObjectEventArgs Constructor
 
 ProcessingObjectEventArgs Constructor.

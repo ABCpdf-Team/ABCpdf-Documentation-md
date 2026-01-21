@@ -1,8 +1,3 @@
----
-title: "02-entrybasefont"
-css: "abcpdf-docs.css"
----
-
 # EntryBaseFont Property
 
 | Type | Default Value | Read Only | Description | 

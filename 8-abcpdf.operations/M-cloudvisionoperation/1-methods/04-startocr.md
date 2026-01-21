@@ -1,8 +1,3 @@
----
-title: "04-startocr"
-css: "abcpdf-docs.css"
----
-
 # StartOcr Function
 
 Start OCR operation on the pages that have been added.

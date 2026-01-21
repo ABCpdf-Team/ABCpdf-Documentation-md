@@ -1,8 +1,3 @@
----
-title: "7-insert"
-css: "abcpdf-docs.css"
----
-
 # Insert Function
 
 Inserts an object into the Soup at the specified position.

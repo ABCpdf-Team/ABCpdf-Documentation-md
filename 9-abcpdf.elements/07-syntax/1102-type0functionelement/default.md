@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Type0FunctionElement Class
 
 This class represents the type 0 function dictionary. This is definitively detailed in:.

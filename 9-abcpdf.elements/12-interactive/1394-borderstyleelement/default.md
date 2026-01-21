@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # BorderStyleElement Class
 
 This class represents the border style dictionary. This is definitively detailed in:.

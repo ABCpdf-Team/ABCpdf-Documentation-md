@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # LegalAttestationElement Class
 
 This class represents the legal attestation dictionary. This is definitively detailed in:.

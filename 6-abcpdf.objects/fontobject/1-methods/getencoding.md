@@ -1,8 +1,3 @@
----
-title: "getencoding"
-css: "abcpdf-docs.css"
----
-
 # GetEncoding Function
 
 Obtain a standard encoding dictionary for use with PDF text operators.

@@ -1,8 +1,3 @@
----
-title: "monochromeimagecompression"
-css: "abcpdf-docs.css"
----
-
 # MonochromeImageCompression Property
 
 | Type | Default | Read Only | Description | 

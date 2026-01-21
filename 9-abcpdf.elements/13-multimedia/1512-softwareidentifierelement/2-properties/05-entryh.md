@@ -1,8 +1,3 @@
----
-title: "05-entryh"
-css: "abcpdf-docs.css"
----
-
 # EntryH Property
 
 | Type | Default Value | Read Only | Description | 

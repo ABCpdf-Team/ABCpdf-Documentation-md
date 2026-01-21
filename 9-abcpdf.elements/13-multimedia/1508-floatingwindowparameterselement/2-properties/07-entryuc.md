@@ -1,8 +1,3 @@
----
-title: "07-entryuc"
-css: "abcpdf-docs.css"
----
-
 # EntryUC Property
 
 | Type | Default Value | Read Only | Description | 

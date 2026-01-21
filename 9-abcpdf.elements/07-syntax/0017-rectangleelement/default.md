@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RectangleElement Class
 
 This class represents a rectangle.

@@ -1,8 +1,3 @@
----
-title: "13-inlineimages"
-css: "abcpdf-docs.css"
----
-
 # InlineImages Property
 
 | Type | Default Value | Read Only | Description | 

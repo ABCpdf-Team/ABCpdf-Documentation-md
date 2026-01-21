@@ -1,8 +1,3 @@
----
-title: "compressjpx"
-css: "abcpdf-docs.css"
----
-
 # CompressJpx Function
 
 Compresses the image using JPEG 2000 compression.

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # IconFitElement Class
 
 This class represents the icon fit dictionary. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RichMediaDimensionsElement Class
 
 This class represents the richmediadimensions dictionary. This is definitively detailed in:.

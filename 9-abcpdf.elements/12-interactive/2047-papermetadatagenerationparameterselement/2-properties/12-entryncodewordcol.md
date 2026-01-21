@@ -1,8 +1,3 @@
----
-title: "12-entryncodewordcol"
-css: "abcpdf-docs.css"
----
-
 # EntryNCodeWordCol Property
 
 | Type | Default Value | Read Only | Description | 

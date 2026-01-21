@@ -1,8 +1,3 @@
----
-title: "02-entrycondition"
-css: "abcpdf-docs.css"
----
-
 # EntryCondition Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Eof Class
 
 Object representing file trailer and PDF end-of-file marker.

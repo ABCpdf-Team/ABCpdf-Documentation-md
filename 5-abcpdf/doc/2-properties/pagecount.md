@@ -1,8 +1,3 @@
----
-title: "pagecount"
-css: "abcpdf-docs.css"
----
-
 # PageCount Property
 
 | Type | Default Value | Read Only | Description | 

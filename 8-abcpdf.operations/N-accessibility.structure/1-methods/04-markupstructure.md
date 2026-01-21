@@ -1,8 +1,3 @@
----
-title: "04-markupstructure"
-css: "abcpdf-docs.css"
----
-
 # MarkupStructure Function
 
 Mark up the structure on the PDF pages so that it can be seen in a PDF reader.

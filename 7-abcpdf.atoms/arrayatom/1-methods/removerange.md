@@ -1,8 +1,3 @@
----
-title: "removerange"
-css: "abcpdf-docs.css"
----
-
 # RemoveRange Function
 
 Removes a range of elements from the source array

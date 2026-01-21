@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ProcessingInfo Class
 
 Provides generic information relating to the [Operation.ProcessingObject](../1-operation/3-events/1-processingobject.md) event. The information about the source of the operation is available here when [ProcessingObjectEventArgs.Object](../2-processingobjecteventargs/2-properties/object.md) is null if the source is in a non-PDF format.

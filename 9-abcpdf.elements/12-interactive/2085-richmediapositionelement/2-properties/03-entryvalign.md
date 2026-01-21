@@ -1,8 +1,3 @@
----
-title: "03-entryvalign"
-css: "abcpdf-docs.css"
----
-
 # EntryVAlign Property
 
 | Type | Default Value | Read Only | Description | 

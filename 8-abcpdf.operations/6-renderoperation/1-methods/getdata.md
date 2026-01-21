@@ -1,8 +1,3 @@
----
-title: "getdata"
-css: "abcpdf-docs.css"
----
-
 # GetData Function
 
 Renders a page into an array of bytes.

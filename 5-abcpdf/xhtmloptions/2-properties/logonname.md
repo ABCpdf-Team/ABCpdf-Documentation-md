@@ -1,8 +1,3 @@
----
-title: "logonname"
-css: "abcpdf-docs.css"
----
-
 # LogonName Property
 
 | Type | Default Value | Read Only | Description | 

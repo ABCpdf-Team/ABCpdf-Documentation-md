@@ -1,8 +1,3 @@
----
-title: "03-entryflags"
-css: "abcpdf-docs.css"
----
-
 # EntryFlags Property
 
 | Type | Default Value | Read Only | Description | 

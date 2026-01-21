@@ -1,8 +1,3 @@
----
-title: "28-fillalpha"
-css: "abcpdf-docs.css"
----
-
 # FillAlpha Property
 
 | Type | Default Value | Read Only | Description | 

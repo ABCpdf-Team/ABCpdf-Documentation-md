@@ -1,8 +1,3 @@
----
-title: "01-element"
-css: "abcpdf-docs.css"
----
-
 # Element Property
 
 | Type | Default Value | Read Only | Description | 

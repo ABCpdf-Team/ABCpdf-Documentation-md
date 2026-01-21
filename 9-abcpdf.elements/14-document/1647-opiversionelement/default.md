@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # OpiVersionElement Class
 
 This class represents the opi version dictionary. This is definitively detailed in:.

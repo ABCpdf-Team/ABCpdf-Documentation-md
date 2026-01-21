@@ -1,8 +1,3 @@
----
-title: "21-entrymatte"
-css: "abcpdf-docs.css"
----
-
 # EntryMatte Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "05-prev"
-css: "abcpdf-docs.css"
----
-
 # Prev Property
 
 | Type | Default Value | Read Only | Description | 

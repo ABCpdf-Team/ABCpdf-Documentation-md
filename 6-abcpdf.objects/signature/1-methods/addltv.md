@@ -1,8 +1,3 @@
----
-title: "addltv"
-css: "abcpdf-docs.css"
----
-
 # AddLTV Function
 
 Add Long Term Validation (LTV) to the Document Security Store (DSS).

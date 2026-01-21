@@ -1,8 +1,3 @@
----
-title: "1-processingobject"
-css: "abcpdf-docs.css"
----
-
 # ProcessingObject Event
 
 Occurs just before an IndirectObject is processed.

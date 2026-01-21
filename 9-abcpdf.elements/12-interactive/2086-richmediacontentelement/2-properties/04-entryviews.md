@@ -1,8 +1,3 @@
----
-title: "04-entryviews"
-css: "abcpdf-docs.css"
----
-
 # EntryViews Property
 
 | Type | Default Value | Read Only | Description | 

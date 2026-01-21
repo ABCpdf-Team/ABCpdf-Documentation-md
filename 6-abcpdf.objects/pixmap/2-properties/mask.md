@@ -1,8 +1,3 @@
----
-title: "mask"
-css: "abcpdf-docs.css"
----
-
 # Mask Property
 
 | Type | Default Value | Read Only | Description | 

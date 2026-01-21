@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ImageLayer Class
 
 A generic bitmap layer appearing on a page of the document.

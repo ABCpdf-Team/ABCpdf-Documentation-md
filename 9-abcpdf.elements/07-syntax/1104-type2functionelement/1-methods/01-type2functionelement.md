@@ -1,8 +1,3 @@
----
-title: "01-type2functionelement"
-css: "abcpdf-docs.css"
----
-
 # Type2FunctionElement Function
 
 Create a new [Type2FunctionElement](../default.md).

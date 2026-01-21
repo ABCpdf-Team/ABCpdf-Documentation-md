@@ -1,8 +1,3 @@
----
-title: "31-entrycolumncount"
-css: "abcpdf-docs.css"
----
-
 # EntryColumnCount Property
 
 | Type | Default Value | Read Only | Description | 

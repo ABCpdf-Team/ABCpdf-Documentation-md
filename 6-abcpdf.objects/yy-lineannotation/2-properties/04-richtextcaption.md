@@ -1,8 +1,3 @@
----
-title: "04-richtextcaption"
-css: "abcpdf-docs.css"
----
-
 # RichTextCaption Property
 
 | Type | Default Value | Read Only | Description | 

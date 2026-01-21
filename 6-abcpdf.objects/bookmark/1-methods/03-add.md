@@ -1,8 +1,3 @@
----
-title: "03-add"
-css: "abcpdf-docs.css"
----
-
 # Add Function
 
 Adds a Bookmark to the end of the list.

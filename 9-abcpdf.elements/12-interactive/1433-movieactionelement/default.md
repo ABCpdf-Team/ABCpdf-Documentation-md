@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # MovieActionElement Class
 
 This class represents the movie action. This is definitively detailed in:.

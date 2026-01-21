@@ -1,8 +1,3 @@
----
-title: "getbitmap"
-css: "abcpdf-docs.css"
----
-
 # GetBitmap Function
 
 Get the PixMap image as a System.Drawing.Bitmap.

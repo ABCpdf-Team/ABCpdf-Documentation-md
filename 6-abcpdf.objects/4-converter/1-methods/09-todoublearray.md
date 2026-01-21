@@ -1,8 +1,3 @@
----
-title: "09-todoublearray"
-css: "abcpdf-docs.css"
----
-
 # ToDoubleArray Function
 
 Attempts to convert an ArrayAtom into an array of doubles, resolving any references as necessary.

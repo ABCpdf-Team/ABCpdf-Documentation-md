@@ -1,8 +1,3 @@
----
-title: "point"
-css: "abcpdf-docs.css"
----
-
 # Point Property
 
 | Type | Default | Read Only | Description | 

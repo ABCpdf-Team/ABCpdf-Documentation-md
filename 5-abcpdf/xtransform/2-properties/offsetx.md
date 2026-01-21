@@ -1,8 +1,3 @@
----
-title: "offsetx"
-css: "abcpdf-docs.css"
----
-
 # OffsetX Property
 
 | Type | Default | Read Only | Description | 

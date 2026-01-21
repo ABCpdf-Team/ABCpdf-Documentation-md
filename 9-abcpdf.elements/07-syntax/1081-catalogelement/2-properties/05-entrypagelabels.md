@@ -1,8 +1,3 @@
----
-title: "05-entrypagelabels"
-css: "abcpdf-docs.css"
----
-
 # EntryPageLabels Property
 
 | Type | Default Value | Read Only | Description | 

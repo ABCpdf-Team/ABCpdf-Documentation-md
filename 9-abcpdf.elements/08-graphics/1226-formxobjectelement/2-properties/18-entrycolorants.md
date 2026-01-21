@@ -1,8 +1,3 @@
----
-title: "18-entrycolorants"
-css: "abcpdf-docs.css"
----
-
 # EntryColorants Property
 
 | Type | Default Value | Read Only | Description | 

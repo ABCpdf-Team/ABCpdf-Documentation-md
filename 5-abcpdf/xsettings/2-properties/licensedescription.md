@@ -1,8 +1,3 @@
----
-title: "licensedescription"
-css: "abcpdf-docs.css"
----
-
 # LicenseDescription Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-dctparameterselement"
-css: "abcpdf-docs.css"
----
-
 # DctParametersElement Function
 
 Create a new [DctParametersElement](../default.md).

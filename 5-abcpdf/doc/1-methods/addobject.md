@@ -1,8 +1,3 @@
----
-title: "addobject"
-css: "abcpdf-docs.css"
----
-
 # AddObject Function
 
 Adds a native PDF object to the document.

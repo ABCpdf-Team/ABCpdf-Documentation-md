@@ -1,8 +1,3 @@
----
-title: "isint"
-css: "abcpdf-docs.css"
----
-
 # IsInt Property
 
 | Type | Default Value | Read Only | Description | 

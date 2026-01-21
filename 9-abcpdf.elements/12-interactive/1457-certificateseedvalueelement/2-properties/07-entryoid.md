@@ -1,8 +1,3 @@
----
-title: "07-entryoid"
-css: "abcpdf-docs.css"
----
-
 # EntryOID Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "13-reportrecursivestructure"
-css: "abcpdf-docs.css"
----
-
 # ReportRecursiveStructure Function
 
 Called to report detection of a recursive structure.

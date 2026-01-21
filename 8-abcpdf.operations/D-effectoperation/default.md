@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # EffectOperation Class
 
 Operation to apply a visual effect.

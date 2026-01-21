@@ -1,8 +1,3 @@
----
-title: "01-squareannotationelement"
-css: "abcpdf-docs.css"
----
-
 # SquareAnnotationElement Function
 
 Create a new [SquareAnnotationElement](../default.md).

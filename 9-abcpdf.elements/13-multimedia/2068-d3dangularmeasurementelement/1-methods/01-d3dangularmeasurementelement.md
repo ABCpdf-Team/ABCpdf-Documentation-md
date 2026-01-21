@@ -1,8 +1,3 @@
----
-title: "01-d3dangularmeasurementelement"
-css: "abcpdf-docs.css"
----
-
 # D3DAngularMeasurementElement Function
 
 Create a new [D3DAngularMeasurementElement](../default.md).

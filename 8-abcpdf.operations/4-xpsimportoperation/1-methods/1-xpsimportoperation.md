@@ -1,8 +1,3 @@
----
-title: "1-xpsimportoperation"
-css: "abcpdf-docs.css"
----
-
 # XpsImportOperation Constructor
 
 XpsImportOperation Constructor.

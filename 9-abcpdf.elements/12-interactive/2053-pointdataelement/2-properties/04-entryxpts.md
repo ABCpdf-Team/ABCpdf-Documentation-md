@@ -1,8 +1,3 @@
----
-title: "04-entryxpts"
-css: "abcpdf-docs.css"
----
-
 # EntryXPTS Property
 
 | Type | Default Value | Read Only | Description | 

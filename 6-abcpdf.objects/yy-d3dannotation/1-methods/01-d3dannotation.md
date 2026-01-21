@@ -1,8 +1,3 @@
----
-title: "01-d3dannotation"
-css: "abcpdf-docs.css"
----
-
 # D3DAnnotation Function
 
 Add 3D annotation to the current page of the doc.

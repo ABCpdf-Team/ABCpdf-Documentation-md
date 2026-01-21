@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # XSaveOptions Object
 
 Represents the current save settings.

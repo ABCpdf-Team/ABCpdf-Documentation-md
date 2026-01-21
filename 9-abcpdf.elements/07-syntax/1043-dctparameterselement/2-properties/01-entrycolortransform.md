@@ -1,8 +1,3 @@
----
-title: "01-entrycolortransform"
-css: "abcpdf-docs.css"
----
-
 # EntryColorTransform Property
 
 | Type | Default Value | Read Only | Description | 

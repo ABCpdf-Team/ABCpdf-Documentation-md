@@ -1,8 +1,3 @@
----
-title: "rect"
-css: "abcpdf-docs.css"
----
-
 # Rect Property
 
 | Type | Default | Read Only | Description | 

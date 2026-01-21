@@ -1,8 +1,3 @@
----
-title: "01-publickeyencryptionelement"
-css: "abcpdf-docs.css"
----
-
 # PublicKeyEncryptionElement Function
 
 Create a new [PublicKeyEncryptionElement](../default.md).

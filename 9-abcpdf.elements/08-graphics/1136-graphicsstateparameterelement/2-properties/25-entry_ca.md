@@ -1,8 +1,3 @@
----
-title: "25-entry_ca"
-css: "abcpdf-docs.css"
----
-
 # Entry_ca Property
 
 | Type | Default Value | Read Only | Description | 

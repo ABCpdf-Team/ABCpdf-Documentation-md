@@ -1,8 +1,3 @@
----
-title: "05-entry_checked"
-css: "abcpdf-docs.css"
----
-
 # Entry_checked Property
 
 | Type | Default Value | Read Only | Description | 

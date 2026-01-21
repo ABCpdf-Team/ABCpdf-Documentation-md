@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # FixedPrintElement Class
 
 This class represents the fixed print dictionary. This is definitively detailed in:.

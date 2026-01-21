@@ -1,8 +1,3 @@
----
-title: "01-squareannotation"
-css: "abcpdf-docs.css"
----
-
 # SquareAnnotation Function
 
 Add square annotation to the current page of the doc.

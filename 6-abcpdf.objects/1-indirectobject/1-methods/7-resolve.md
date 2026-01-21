@@ -1,8 +1,3 @@
----
-title: "7-resolve"
-css: "abcpdf-docs.css"
----
-
 # Resolve Function
 
 Resolves any indirect references and returns the Atom.

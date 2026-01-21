@@ -1,8 +1,3 @@
----
-title: "02-entryaction"
-css: "abcpdf-docs.css"
----
-
 # EntryAction Property
 
 | Type | Default Value | Read Only | Description | 

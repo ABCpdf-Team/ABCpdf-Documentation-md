@@ -1,8 +1,3 @@
----
-title: "08-entryb"
-css: "abcpdf-docs.css"
----
-
 # EntryB Property
 
 | Type | Default Value | Read Only | Description | 

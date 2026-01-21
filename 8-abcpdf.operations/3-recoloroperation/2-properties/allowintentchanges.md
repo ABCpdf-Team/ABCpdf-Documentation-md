@@ -1,8 +1,3 @@
----
-title: "allowintentchanges"
-css: "abcpdf-docs.css"
----
-
 # AllowIntentChanges Property
 
 | Type | Default | Read Only | Description | 

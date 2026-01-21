@@ -1,8 +1,3 @@
----
-title: "d-registrykeys"
-css: "abcpdf-docs.css"
----
-
 # Low Level Overrides
 
 Some aspects of ABCpdf can be controlled on a global level.

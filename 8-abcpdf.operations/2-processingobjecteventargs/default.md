@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ProcessingObjectEventArgs Class
 
 Provides data for the [ProcessingObject](../1-operation/3-events/1-processingobject.md) event.

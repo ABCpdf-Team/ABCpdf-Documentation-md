@@ -1,8 +1,3 @@
----
-title: "encode"
-css: "abcpdf-docs.css"
----
-
 # Encode Function
 
 Encode a string into a format for use in a content stream using a normal or simple font.

@@ -1,8 +1,3 @@
----
-title: "03-entrytags"
-css: "abcpdf-docs.css"
----
-
 # EntryTags Property
 
 | Type | Default Value | Read Only | Description | 

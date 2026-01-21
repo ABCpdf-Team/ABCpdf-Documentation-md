@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RefAtom Class
 
 An Atom which references an [IndirectObject](../../6-abcpdf.objects/1-indirectobject/default.md).

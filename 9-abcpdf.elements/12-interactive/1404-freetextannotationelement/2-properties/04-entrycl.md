@@ -1,8 +1,3 @@
----
-title: "04-entrycl"
-css: "abcpdf-docs.css"
----
-
 # EntryCL Property
 
 | Type | Default Value | Read Only | Description | 

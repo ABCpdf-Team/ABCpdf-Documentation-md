@@ -1,8 +1,3 @@
----
-title: "24-undercolorremoval"
-css: "abcpdf-docs.css"
----
-
 # UndercolorRemoval Property
 
 | Type | Default Value | Read Only | Description | 

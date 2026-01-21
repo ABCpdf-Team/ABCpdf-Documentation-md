@@ -1,8 +1,3 @@
----
-title: "06-entrya4"
-css: "abcpdf-docs.css"
----
-
 # EntryA4 Property
 
 | Type | Default Value | Read Only | Description | 

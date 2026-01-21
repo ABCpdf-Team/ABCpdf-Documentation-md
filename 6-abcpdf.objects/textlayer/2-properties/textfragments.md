@@ -1,8 +1,3 @@
----
-title: "textfragments"
-css: "abcpdf-docs.css"
----
-
 # TextFragments Property
 
 | Type | Default Value | Read Only | Description | 

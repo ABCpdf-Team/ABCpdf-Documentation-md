@@ -1,8 +1,3 @@
----
-title: "06-entryrolemap"
-css: "abcpdf-docs.css"
----
-
 # EntryRoleMap Property
 
 | Type | Default Value | Read Only | Description | 

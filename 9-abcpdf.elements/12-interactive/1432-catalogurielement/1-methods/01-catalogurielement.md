@@ -1,8 +1,3 @@
----
-title: "01-catalogurielement"
-css: "abcpdf-docs.css"
----
-
 # CatalogUriElement Function
 
 Create a new [CatalogUriElement](../default.md).

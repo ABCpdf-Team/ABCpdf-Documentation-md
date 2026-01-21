@@ -1,8 +1,3 @@
----
-title: "h-svgsupport"
-css: "abcpdf-docs.css"
----
-
 # SVG to PDF Import
 
 ## Intro

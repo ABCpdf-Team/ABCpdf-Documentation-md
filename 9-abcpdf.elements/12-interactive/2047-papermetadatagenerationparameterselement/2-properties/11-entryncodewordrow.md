@@ -1,8 +1,3 @@
----
-title: "11-entryncodewordrow"
-css: "abcpdf-docs.css"
----
-
 # EntryNCodeWordRow Property
 
 | Type | Default Value | Read Only | Description | 

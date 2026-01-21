@@ -1,8 +1,3 @@
----
-title: "getfieldprototype"
-css: "abcpdf-docs.css"
----
-
 # GetFieldPrototype Method
 
 Gets the Field prototype object.

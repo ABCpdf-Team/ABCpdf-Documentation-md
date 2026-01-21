@@ -1,8 +1,3 @@
----
-title: "nodefaultbackground"
-css: "abcpdf-docs.css"
----
-
 # NoDefaultBackground Property
 
 | Type | Default Value | Read Only | Description | 

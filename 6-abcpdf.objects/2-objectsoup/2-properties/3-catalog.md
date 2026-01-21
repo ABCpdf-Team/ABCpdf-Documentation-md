@@ -1,8 +1,3 @@
----
-title: "3-catalog"
-css: "abcpdf-docs.css"
----
-
 # Catalog Property
 
 | Type | Default | Read Only | Description | 

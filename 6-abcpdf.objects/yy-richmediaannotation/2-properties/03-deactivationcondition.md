@@ -1,8 +1,3 @@
----
-title: "03-deactivationcondition"
-css: "abcpdf-docs.css"
----
-
 # DeactivationCondition Property
 
 | Type | Default Value | Read Only | Description | 

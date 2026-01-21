@@ -1,8 +1,3 @@
----
-title: "01-nametreenodeelement_t_"
-css: "abcpdf-docs.css"
----
-
 # NameTreeNodeElement&lt;T&gt; Function
 
 Create a new [NameTreeNodeElement](../default.md).

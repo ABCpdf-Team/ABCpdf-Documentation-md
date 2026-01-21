@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # FunctionElement Class
 
 This class represents the function dictionary. This is definitively detailed in:.

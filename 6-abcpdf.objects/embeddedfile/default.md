@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # EmbeddedFile Class
 
 An EmbeddedFile represents a file stream embedded inside a PDF document.

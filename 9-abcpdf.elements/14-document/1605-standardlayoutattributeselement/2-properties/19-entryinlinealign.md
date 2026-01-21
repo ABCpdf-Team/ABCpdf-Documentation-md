@@ -1,8 +1,3 @@
----
-title: "19-entryinlinealign"
-css: "abcpdf-docs.css"
----
-
 # EntryInlineAlign Property
 
 | Type | Default Value | Read Only | Description | 

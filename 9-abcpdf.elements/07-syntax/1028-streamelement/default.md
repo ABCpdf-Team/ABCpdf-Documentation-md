@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # StreamElement Class
 
 This class represents the stream. This is definitively detailed in:.

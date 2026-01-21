@@ -1,8 +1,3 @@
----
-title: "shrinktofit"
-css: "abcpdf-docs.css"
----
-
 # ShrinkToFit Property
 
 | Type | Default | Read Only | Description | 

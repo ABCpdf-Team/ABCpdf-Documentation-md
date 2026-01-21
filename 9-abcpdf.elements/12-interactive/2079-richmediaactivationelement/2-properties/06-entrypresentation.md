@@ -1,8 +1,3 @@
----
-title: "06-entrypresentation"
-css: "abcpdf-docs.css"
----
-
 # EntryPresentation Property
 
 | Type | Default Value | Read Only | Description | 

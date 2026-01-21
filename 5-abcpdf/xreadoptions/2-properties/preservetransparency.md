@@ -1,8 +1,3 @@
----
-title: "preservetransparency"
-css: "abcpdf-docs.css"
----
-
 # PreserveTransparency Property
 
 | Type | Default | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "32-entrycolumngap"
-css: "abcpdf-docs.css"
----
-
 # EntryColumnGap Property
 
 | Type | Default Value | Read Only | Description | 

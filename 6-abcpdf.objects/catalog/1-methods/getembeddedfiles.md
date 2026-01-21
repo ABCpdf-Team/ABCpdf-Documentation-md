@@ -1,8 +1,3 @@
----
-title: "getembeddedfiles"
-css: "abcpdf-docs.css"
----
-
 # GetEmbeddedFiles Function
 
 Gets all the embedded files in this document

@@ -1,8 +1,3 @@
----
-title: "04-entryrange"
-css: "abcpdf-docs.css"
----
-
 # EntryRange Property
 
 | Type | Default Value | Read Only | Description | 

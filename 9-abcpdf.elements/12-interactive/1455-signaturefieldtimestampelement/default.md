@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # SignatureFieldTimeStampElement Class
 
 This class represents the signature field time stamp dictionary. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "08-entrysetf"
-css: "abcpdf-docs.css"
----
-
 # EntrySetF Property
 
 | Type | Default Value | Read Only | Description | 

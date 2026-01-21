@@ -1,8 +1,3 @@
----
-title: "17-entrymaxwidth"
-css: "abcpdf-docs.css"
----
-
 # EntryMaxWidth Property
 
 | Type | Default Value | Read Only | Description | 

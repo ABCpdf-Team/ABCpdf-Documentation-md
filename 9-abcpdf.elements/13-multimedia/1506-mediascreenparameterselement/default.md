@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # MediaScreenParametersElement Class
 
 This class represents the media screen parameters dictionary. This is definitively detailed in:.

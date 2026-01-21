@@ -1,8 +1,3 @@
----
-title: "39-textrise"
-css: "abcpdf-docs.css"
----
-
 # TextRise Property
 
 | Type | Default Value | Read Only | Description | 

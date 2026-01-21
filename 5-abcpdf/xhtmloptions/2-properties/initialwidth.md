@@ -1,8 +1,3 @@
----
-title: "initialwidth"
-css: "abcpdf-docs.css"
----
-
 # InitialWidth Property
 
 | Type | Default Value | Read Only | Description | 

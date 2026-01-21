@@ -1,8 +1,3 @@
----
-title: "01-webcaptureinformationelement"
-css: "abcpdf-docs.css"
----
-
 # WebCaptureInformationElement Function
 
 Create a new [WebCaptureInformationElement](../default.md).

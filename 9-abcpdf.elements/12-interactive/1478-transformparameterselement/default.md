@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # TransformParametersElement Class
 
 This class represents the transform parameters dictionary. This is definitively detailed in:.

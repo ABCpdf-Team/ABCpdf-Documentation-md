@@ -1,8 +1,3 @@
----
-title: "18-entryenforce"
-css: "abcpdf-docs.css"
----
-
 # EntryEnforce Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "02-totalusertime"
-css: "abcpdf-docs.css"
----
-
 # TotalUserTime Property
 
 | Type | Default Value | Read Only | Description | 

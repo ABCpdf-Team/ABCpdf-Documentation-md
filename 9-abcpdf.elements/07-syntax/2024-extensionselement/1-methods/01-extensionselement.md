@@ -1,8 +1,3 @@
----
-title: "01-extensionselement"
-css: "abcpdf-docs.css"
----
-
 # ExtensionsElement Function
 
 Create a new [ExtensionsElement](../default.md).

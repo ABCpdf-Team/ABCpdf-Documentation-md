@@ -1,8 +1,3 @@
----
-title: "addpoly"
-css: "abcpdf-docs.css"
----
-
 # AddPoly Function
 
 Adds a polygon to the current page.

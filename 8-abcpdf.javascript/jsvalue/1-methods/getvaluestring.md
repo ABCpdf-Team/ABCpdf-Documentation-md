@@ -1,8 +1,3 @@
----
-title: "getvaluestring"
-css: "abcpdf-docs.css"
----
-
 # GetValueString Method
 
 Gets the String value of this value converted to string using the standard JavaScript conversion.

@@ -1,8 +1,3 @@
----
-title: "stagewidth"
-css: "abcpdf-docs.css"
----
-
 # StageWidth Property
 
 | Type | Default | Read Only | Description | 

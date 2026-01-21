@@ -1,8 +1,3 @@
----
-title: "18-entrymissingwidth"
-css: "abcpdf-docs.css"
----
-
 # EntryMissingWidth Property
 
 | Type | Default Value | Read Only | Description | 

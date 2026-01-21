@@ -1,8 +1,3 @@
----
-title: "3-whatneed"
-css: "abcpdf-docs.css"
----
-
 # What do I need to use it?
 
 You can run ABCpdf .NET on all Windows versions since Windows Vista.

@@ -1,8 +1,3 @@
----
-title: "07-entryos"
-css: "abcpdf-docs.css"
----
-
 # EntryOS Property
 
 | Type | Default Value | Read Only | Description | 

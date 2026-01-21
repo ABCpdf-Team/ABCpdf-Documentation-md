@@ -1,8 +1,3 @@
----
-title: "hidebackground"
-css: "abcpdf-docs.css"
----
-
 # HideBackground Property
 
 | Type | Default Value | Read Only | Description | 

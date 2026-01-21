@@ -1,8 +1,3 @@
----
-title: "05-entrychild"
-css: "abcpdf-docs.css"
----
-
 # EntryChild Property
 
 | Type | Default Value | Read Only | Description | 

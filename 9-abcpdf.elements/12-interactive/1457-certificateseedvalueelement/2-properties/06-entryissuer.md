@@ -1,8 +1,3 @@
----
-title: "06-entryissuer"
-css: "abcpdf-docs.css"
----
-
 # EntryIssuer Property
 
 | Type | Default Value | Read Only | Description | 

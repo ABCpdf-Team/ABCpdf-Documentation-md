@@ -1,8 +1,3 @@
----
-title: "01-stampelement"
-css: "abcpdf-docs.css"
----
-
 # StampElement Property
 
 | Type | Default Value | Read Only | Description | 

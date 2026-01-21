@@ -1,8 +1,3 @@
----
-title: "01-sourceinformationelement"
-css: "abcpdf-docs.css"
----
-
 # SourceInformationElement Function
 
 Create a new [SourceInformationElement](../default.md).

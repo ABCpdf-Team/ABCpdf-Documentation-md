@@ -1,8 +1,3 @@
----
-title: "01-autodetectfactory"
-css: "abcpdf-docs.css"
----
-
 # AutodetectFactory Function
 
 Autodetect Factory.

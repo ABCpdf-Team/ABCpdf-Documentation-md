@@ -1,8 +1,3 @@
----
-title: "angleunit"
-css: "abcpdf-docs.css"
----
-
 # AngleUnit&nbsp;Property
 
 | Type | Default | Read Only | Description | 

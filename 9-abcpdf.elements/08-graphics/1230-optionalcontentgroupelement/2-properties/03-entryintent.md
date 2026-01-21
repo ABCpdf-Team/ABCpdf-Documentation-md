@@ -1,8 +1,3 @@
----
-title: "03-entryintent"
-css: "abcpdf-docs.css"
----
-
 # EntryIntent Property
 
 | Type | Default Value | Read Only | Description | 

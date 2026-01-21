@@ -1,8 +1,3 @@
----
-title: "1-xreadoptions"
-css: "abcpdf-docs.css"
----
-
 # XReadOptions Constructor
 
 XReadOptions Constructor.

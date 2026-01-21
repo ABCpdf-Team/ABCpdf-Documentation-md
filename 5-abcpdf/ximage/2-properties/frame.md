@@ -1,8 +1,3 @@
----
-title: "frame"
-css: "abcpdf-docs.css"
----
-
 # Frame Property
 
 | Type | Default | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-windowslaunchparameterelement"
-css: "abcpdf-docs.css"
----
-
 # WindowsLaunchParameterElement Function
 
 Create a new [WindowsLaunchParameterElement](../default.md).

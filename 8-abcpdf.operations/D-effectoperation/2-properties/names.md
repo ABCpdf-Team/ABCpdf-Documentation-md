@@ -1,8 +1,3 @@
----
-title: "names"
-css: "abcpdf-docs.css"
----
-
 # Names Property
 
 | Type | Default Value | Read Only | Description | 

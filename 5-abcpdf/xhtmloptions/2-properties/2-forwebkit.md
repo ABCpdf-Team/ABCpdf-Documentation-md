@@ -1,8 +1,3 @@
----
-title: "2-forwebkit"
-css: "abcpdf-docs.css"
----
-
 # ForWebKit Property
 
 | Type | Default Value | Read Only | Description | 

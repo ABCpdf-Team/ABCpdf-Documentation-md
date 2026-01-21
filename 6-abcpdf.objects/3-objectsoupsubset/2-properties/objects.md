@@ -1,8 +1,3 @@
----
-title: "objects"
-css: "abcpdf-docs.css"
----
-
 # Objects Property
 
 | Type | Default | Read Only | Description | 

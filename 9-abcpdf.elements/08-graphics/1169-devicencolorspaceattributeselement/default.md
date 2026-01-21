@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # DeviceNColorSpaceAttributesElement Class
 
 This class represents the devicen colour space attributes dictionary. This is definitively detailed in:.

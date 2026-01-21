@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # CatalogUriElement Class
 
 This class represents the catalog uri dictionary. This is definitively detailed in:.

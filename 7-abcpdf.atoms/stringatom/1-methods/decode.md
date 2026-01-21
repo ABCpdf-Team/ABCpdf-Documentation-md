@@ -1,8 +1,3 @@
----
-title: "decode"
-css: "abcpdf-docs.css"
----
-
 # Decode Function
 
 Decode a PDF encoded string into a plain string format

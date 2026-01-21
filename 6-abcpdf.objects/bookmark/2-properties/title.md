@@ -1,8 +1,3 @@
----
-title: "title"
-css: "abcpdf-docs.css"
----
-
 # Title Property
 
 | Type | Default Value | Read Only | Description | 

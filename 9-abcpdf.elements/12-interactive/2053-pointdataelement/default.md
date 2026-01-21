@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # PointDataElement Class
 
 This class represents the point data dictionary. This is definitively detailed in:.

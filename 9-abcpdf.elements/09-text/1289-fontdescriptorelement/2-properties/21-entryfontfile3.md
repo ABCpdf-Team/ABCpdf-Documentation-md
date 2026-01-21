@@ -1,8 +1,3 @@
----
-title: "21-entryfontfile3"
-css: "abcpdf-docs.css"
----
-
 # EntryFontFile3 Property
 
 | Type | Default Value | Read Only | Description | 

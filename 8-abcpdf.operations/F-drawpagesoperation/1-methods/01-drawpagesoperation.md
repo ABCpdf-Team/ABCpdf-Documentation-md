@@ -1,8 +1,3 @@
----
-title: "01-drawpagesoperation"
-css: "abcpdf-docs.css"
----
-
 # DrawPagesOperation Function
 
 CopyPagesOperation constructor

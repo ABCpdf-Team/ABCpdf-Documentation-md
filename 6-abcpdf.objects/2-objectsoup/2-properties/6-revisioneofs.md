@@ -1,8 +1,3 @@
----
-title: "6-revisioneofs"
-css: "abcpdf-docs.css"
----
-
 # RevisionEOFs Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "06-entryfont"
-css: "abcpdf-docs.css"
----
-
 # EntryFont Property
 
 | Type | Default Value | Read Only | Description | 

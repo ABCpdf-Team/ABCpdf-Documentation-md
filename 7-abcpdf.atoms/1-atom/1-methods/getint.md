@@ -1,8 +1,3 @@
----
-title: "getint"
-css: "abcpdf-docs.css"
----
-
 # GetInt Function
 
 Gets the integer value from the Atom if it is a NumAtom.

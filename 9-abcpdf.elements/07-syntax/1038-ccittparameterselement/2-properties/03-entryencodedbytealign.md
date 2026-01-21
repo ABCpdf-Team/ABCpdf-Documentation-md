@@ -1,8 +1,3 @@
----
-title: "03-entryencodedbytealign"
-css: "abcpdf-docs.css"
----
-
 # EntryEncodedByteAlign Property
 
 | Type | Default Value | Read Only | Description | 

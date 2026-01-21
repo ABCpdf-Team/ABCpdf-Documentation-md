@@ -1,8 +1,3 @@
----
-title: "layer"
-css: "abcpdf-docs.css"
----
-
 # Layer Property
 
 | Type | Default | Read Only | Description | 

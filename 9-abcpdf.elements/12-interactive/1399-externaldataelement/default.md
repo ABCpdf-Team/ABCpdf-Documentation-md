@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ExternalDataElement Class
 
 This class represents the external data dictionary. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "07-entryystep"
-css: "abcpdf-docs.css"
----
-
 # EntryYStep Property
 
 | Type | Default Value | Read Only | Description | 

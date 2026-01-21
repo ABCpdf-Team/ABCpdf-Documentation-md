@@ -1,8 +1,3 @@
----
-title: "regeneratetounicode"
-css: "abcpdf-docs.css"
----
-
 # RegenerateToUnicode Function
 
 Attempt to regenerate a ToUnicode map.

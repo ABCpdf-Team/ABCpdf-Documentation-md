@@ -1,8 +1,3 @@
----
-title: "10-entryaddrevinfo"
-css: "abcpdf-docs.css"
----
-
 # EntryAddRevInfo Property
 
 | Type | Default Value | Read Only | Description | 

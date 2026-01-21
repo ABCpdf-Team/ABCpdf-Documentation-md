@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # DocumentPartGoToActionElement Class
 
 This class represents the document part go-to action. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "setconfigsection"
-css: "abcpdf-docs.css"
----
-
 # SetConfigSection Method
 
 Set the application configuration section.

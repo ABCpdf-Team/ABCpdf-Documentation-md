@@ -1,8 +1,3 @@
----
-title: "21-entrytpadding"
-css: "abcpdf-docs.css"
----
-
 # EntryTPadding Property
 
 | Type | Default Value | Read Only | Description | 

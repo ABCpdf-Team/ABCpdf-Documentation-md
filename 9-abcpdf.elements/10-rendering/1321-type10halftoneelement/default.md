@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Type10HalftoneElement Class
 
 This class represents the type 10 halftone dictionary. This is definitively detailed in:.

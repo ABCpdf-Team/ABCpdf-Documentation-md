@@ -1,8 +1,3 @@
----
-title: "01-inkelement"
-css: "abcpdf-docs.css"
----
-
 # InkElement Property
 
 | Type | Default Value | Read Only | Description | 

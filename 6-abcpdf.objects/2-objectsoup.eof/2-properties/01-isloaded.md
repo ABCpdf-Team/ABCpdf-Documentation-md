@@ -1,8 +1,3 @@
----
-title: "01-isloaded"
-css: "abcpdf-docs.css"
----
-
 # IsLoaded Property
 
 | Type | Default Value | Read Only | Description | 

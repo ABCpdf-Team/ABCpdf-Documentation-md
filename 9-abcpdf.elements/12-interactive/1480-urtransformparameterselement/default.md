@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # UrTransformParametersElement Class
 
 This class represents the ur transform parameters dictionary. This is definitively detailed in:.

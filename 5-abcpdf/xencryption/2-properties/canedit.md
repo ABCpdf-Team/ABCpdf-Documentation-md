@@ -1,8 +1,3 @@
----
-title: "canedit"
-css: "abcpdf-docs.css"
----
-
 # CanEdit Property
 
 | Type | Default Value | Read Only | Description | 

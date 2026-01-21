@@ -1,8 +1,3 @@
----
-title: "01-rectilinearmeasureelement"
-css: "abcpdf-docs.css"
----
-
 # RectilinearMeasureElement Function
 
 Create a new [RectilinearMeasureElement](../default.md).

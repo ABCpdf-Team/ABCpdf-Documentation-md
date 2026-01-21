@@ -1,8 +1,3 @@
----
-title: "04-entrystartresource"
-css: "abcpdf-docs.css"
----
-
 # EntryStartResource Property
 
 | Type | Default Value | Read Only | Description | 

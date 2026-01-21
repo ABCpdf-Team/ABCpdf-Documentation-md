@@ -1,8 +1,3 @@
----
-title: "05-entryprev"
-css: "abcpdf-docs.css"
----
-
 # EntryPrev Property
 
 | Type | Default Value | Read Only | Description | 

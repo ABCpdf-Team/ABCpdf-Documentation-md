@@ -1,8 +1,3 @@
----
-title: "charusage"
-css: "abcpdf-docs.css"
----
-
 # CharUsage Property
 
 | Type | Default | Read Only | Description | 

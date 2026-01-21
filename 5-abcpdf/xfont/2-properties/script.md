@@ -1,8 +1,3 @@
----
-title: "script"
-css: "abcpdf-docs.css"
----
-
 # Script Property
 
 | Type | Default | Read Only | Description | 

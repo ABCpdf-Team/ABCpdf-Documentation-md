@@ -1,8 +1,3 @@
----
-title: "1-imageoperation"
-css: "abcpdf-docs.css"
----
-
 # ImageOperation Constructor
 
 ImageOperation Constructor.

@@ -1,8 +1,3 @@
----
-title: "resize"
-css: "abcpdf-docs.css"
----
-
 # Resize Function
 
 Resizes the image.

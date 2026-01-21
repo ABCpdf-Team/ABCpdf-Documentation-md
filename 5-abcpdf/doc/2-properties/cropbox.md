@@ -1,8 +1,3 @@
----
-title: "cropbox"
-css: "abcpdf-docs.css"
----
-
 # CropBox Property
 
 | Type | Default | Read Only | Description | 

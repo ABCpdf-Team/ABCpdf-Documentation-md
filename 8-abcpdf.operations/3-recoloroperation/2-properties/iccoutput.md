@@ -1,8 +1,3 @@
----
-title: "iccoutput"
-css: "abcpdf-docs.css"
----
-
 # IccOutput Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "type"
-css: "abcpdf-docs.css"
----
-
 # Type Property
 
 | Type | Default | Read Only | Description | 

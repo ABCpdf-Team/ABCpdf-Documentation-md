@@ -1,8 +1,3 @@
----
-title: "09-remove"
-css: "abcpdf-docs.css"
----
-
 # Remove Function
 
 Removes the first matching value from the array.

@@ -1,8 +1,3 @@
----
-title: "01-getsubsectionsasbytes"
-css: "abcpdf-docs.css"
----
-
 # GetSubsectionsAsBytes Function
 
 Returns the cross-reference subsections as a byte array.

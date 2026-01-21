@@ -1,8 +1,3 @@
----
-title: "disposeofcallback"
-css: "abcpdf-docs.css"
----
-
 # DisposeOfCallback Method
 
 Disposes of a delegate used to create a JavaScript function.

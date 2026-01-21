@@ -1,8 +1,3 @@
----
-title: "13-entrycontactinfo"
-css: "abcpdf-docs.css"
----
-
 # EntryContactInfo Property
 
 | Type | Default Value | Read Only | Description | 

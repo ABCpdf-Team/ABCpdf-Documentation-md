@@ -1,8 +1,3 @@
----
-title: "01-lineannotation"
-css: "abcpdf-docs.css"
----
-
 # LineAnnotation Function
 
 Add line annotation to the current page of the doc.

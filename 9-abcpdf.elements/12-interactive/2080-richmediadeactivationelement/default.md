@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RichMediaDeactivationElement Class
 
 This class represents the richmediadeactivation dictionary. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "minimum"
-css: "abcpdf-docs.css"
----
-
 # Minimum Property
 
 | Type | Default Value | Read Only | Description | 

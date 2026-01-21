@@ -1,8 +1,3 @@
----
-title: "10-entryrenditions"
-css: "abcpdf-docs.css"
----
-
 # EntryRenditions Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # WebPageOperation Class
 
 Web page operation used to import HTML or URLs into a complete multi-page document enabling document tagging for accessibility.

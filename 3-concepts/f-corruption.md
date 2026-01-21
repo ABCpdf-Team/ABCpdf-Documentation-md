@@ -1,8 +1,3 @@
----
-title: "f-corruption"
-css: "abcpdf-docs.css"
----
-
 # Corrupt Documents
 
 ## Intro

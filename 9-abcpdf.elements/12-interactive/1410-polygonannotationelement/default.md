@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # PolygonAnnotationElement Class
 
 This class represents the polygon annotation. This is definitively detailed in:.

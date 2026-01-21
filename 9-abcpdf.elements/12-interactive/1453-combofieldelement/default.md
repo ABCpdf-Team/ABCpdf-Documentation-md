@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ComboFieldElement Class
 
 This class represents the combo field. This is definitively detailed in:.

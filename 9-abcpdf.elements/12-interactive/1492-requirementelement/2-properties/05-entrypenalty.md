@@ -1,8 +1,3 @@
----
-title: "05-entrypenalty"
-css: "abcpdf-docs.css"
----
-
 # EntryPenalty Property
 
 | Type | Default Value | Read Only | Description | 

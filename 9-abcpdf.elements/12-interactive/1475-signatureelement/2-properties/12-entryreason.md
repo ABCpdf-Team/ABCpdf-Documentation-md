@@ -1,8 +1,3 @@
----
-title: "12-entryreason"
-css: "abcpdf-docs.css"
----
-
 # EntryReason Property
 
 | Type | Default Value | Read Only | Description | 

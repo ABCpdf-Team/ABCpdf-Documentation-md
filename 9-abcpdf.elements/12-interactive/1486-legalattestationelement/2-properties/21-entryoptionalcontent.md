@@ -1,8 +1,3 @@
----
-title: "21-entryoptionalcontent"
-css: "abcpdf-docs.css"
----
-
 # EntryOptionalContent Property
 
 | Type | Default Value | Read Only | Description | 

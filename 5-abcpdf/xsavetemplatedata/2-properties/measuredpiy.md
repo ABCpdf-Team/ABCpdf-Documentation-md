@@ -1,8 +1,3 @@
----
-title: "measuredpiy"
-css: "abcpdf-docs.css"
----
-
 # MeasureDpiY Property
 
 | Type | Default | Read Only | Description | 

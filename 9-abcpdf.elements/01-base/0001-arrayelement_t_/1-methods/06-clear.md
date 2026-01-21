@@ -1,8 +1,3 @@
----
-title: "06-clear"
-css: "abcpdf-docs.css"
----
-
 # Clear Function
 
 Removes all [Elements](../../1086-element/default.md) from the array.

@@ -1,8 +1,3 @@
----
-title: "removeitem"
-css: "abcpdf-docs.css"
----
-
 # RemoveItem Function
 
 Removes the named entry from the Atom if it is a DictAtom.

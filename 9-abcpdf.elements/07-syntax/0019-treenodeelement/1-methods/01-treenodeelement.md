@@ -1,8 +1,3 @@
----
-title: "01-treenodeelement"
-css: "abcpdf-docs.css"
----
-
 # TreeNodeElement Function
 
 Create a new [TreeNodeElement](../default.md).

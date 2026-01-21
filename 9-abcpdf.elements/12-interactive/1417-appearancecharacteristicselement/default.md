@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # AppearanceCharacteristicsElement Class
 
 This class represents the appearance characteristics dictionary. This is definitively detailed in:.

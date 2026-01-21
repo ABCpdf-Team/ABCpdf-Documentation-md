@@ -1,8 +1,3 @@
----
-title: "msofficeparameters"
-css: "abcpdf-docs.css"
----
-
 # MSOfficeParameters Property
 
 | Type | Default | Read Only | Description | 

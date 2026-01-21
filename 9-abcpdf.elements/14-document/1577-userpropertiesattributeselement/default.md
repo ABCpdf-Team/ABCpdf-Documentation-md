@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # UserPropertiesAttributesElement Class
 
 This class represents the user properties attributes. This is definitively detailed in:.

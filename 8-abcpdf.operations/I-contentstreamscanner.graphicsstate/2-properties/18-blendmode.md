@@ -1,8 +1,3 @@
----
-title: "18-blendmode"
-css: "abcpdf-docs.css"
----
-
 # BlendMode Property
 
 | Type | Default Value | Read Only | Description | 

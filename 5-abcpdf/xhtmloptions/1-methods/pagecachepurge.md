@@ -1,8 +1,3 @@
----
-title: "pagecachepurge"
-css: "abcpdf-docs.css"
----
-
 # PageCachePurge Method
 
 Purges the HTML page cache.

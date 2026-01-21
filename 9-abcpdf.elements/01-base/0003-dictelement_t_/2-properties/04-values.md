@@ -1,8 +1,3 @@
----
-title: "04-values"
-css: "abcpdf-docs.css"
----
-
 # Values Property
 
 | Type | Default Value | Read Only | Description | 

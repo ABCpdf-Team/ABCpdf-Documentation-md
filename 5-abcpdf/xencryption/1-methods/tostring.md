@@ -1,8 +1,3 @@
----
-title: "tostring"
-css: "abcpdf-docs.css"
----
-
 # ToString Function
 
 Returns a string representation of the object.

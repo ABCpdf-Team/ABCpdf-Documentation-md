@@ -1,8 +1,3 @@
----
-title: "01-inkannotationelement"
-css: "abcpdf-docs.css"
----
-
 # InkAnnotationElement Function
 
 Create a new [InkAnnotationElement](../default.md).

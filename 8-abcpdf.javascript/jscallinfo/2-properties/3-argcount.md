@@ -1,8 +1,3 @@
----
-title: "3-argcount"
-css: "abcpdf-docs.css"
----
-
 # ArgCount Property
 
 | Type | Default Value | Read Only | Description | 

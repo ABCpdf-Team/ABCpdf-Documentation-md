@@ -1,8 +1,3 @@
----
-title: "05-abort"
-css: "abcpdf-docs.css"
----
-
 # Abort Function
 
 Abort the current processing.

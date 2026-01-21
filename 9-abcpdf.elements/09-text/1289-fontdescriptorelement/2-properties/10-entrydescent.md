@@ -1,8 +1,3 @@
----
-title: "10-entrydescent"
-css: "abcpdf-docs.css"
----
-
 # EntryDescent Property
 
 | Type | Default Value | Read Only | Description | 

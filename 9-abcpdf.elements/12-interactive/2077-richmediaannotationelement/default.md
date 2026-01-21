@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RichMediaAnnotationElement Class
 
 This class represents the richmedia annotation. This is definitively detailed in:.

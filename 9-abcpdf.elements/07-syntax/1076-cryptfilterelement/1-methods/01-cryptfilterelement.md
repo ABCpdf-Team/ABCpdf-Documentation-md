@@ -1,8 +1,3 @@
----
-title: "01-cryptfilterelement"
-css: "abcpdf-docs.css"
----
-
 # CryptFilterElement Function
 
 Create a new [CryptFilterElement](../default.md).

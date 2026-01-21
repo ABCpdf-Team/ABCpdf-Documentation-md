@@ -1,8 +1,3 @@
----
-title: "defaultappearance"
-css: "abcpdf-docs.css"
----
-
 # DefaultAppearance Property
 
 | Type | Default Value | Read Only | Description | 

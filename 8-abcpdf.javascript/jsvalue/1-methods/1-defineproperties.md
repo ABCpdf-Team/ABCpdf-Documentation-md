@@ -1,8 +1,3 @@
----
-title: "1-defineproperties"
-css: "abcpdf-docs.css"
----
-
 # DefineProperties Method
 
 Defines a list of this object's own properties.

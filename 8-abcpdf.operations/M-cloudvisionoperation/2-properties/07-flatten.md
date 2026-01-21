@@ -1,8 +1,3 @@
----
-title: "07-flatten"
-css: "abcpdf-docs.css"
----
-
 # Flatten Property
 
 | Type | Default Value | Read Only | Description | 

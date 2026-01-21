@@ -1,8 +1,3 @@
----
-title: "grayimagecompression"
-css: "abcpdf-docs.css"
----
-
 # GrayImageCompression Property
 
 | Type | Default | Read Only | Description | 

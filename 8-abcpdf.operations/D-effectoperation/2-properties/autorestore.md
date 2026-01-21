@@ -1,8 +1,3 @@
----
-title: "autorestore"
-css: "abcpdf-docs.css"
----
-
 # AutoRestore Property
 
 | Type | Default Value | Read Only | Description | 

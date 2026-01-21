@@ -1,8 +1,3 @@
----
-title: "10-resolveobj"
-css: "abcpdf-docs.css"
----
-
 # ResolveObj Function
 
 Resolves any indirect references and returns the final IndirectObject.

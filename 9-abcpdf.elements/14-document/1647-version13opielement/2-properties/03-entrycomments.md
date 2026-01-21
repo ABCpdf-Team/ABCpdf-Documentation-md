@@ -1,8 +1,3 @@
----
-title: "03-entrycomments"
-css: "abcpdf-docs.css"
----
-
 # EntryComments Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "getvalueint"
-css: "abcpdf-docs.css"
----
-
 # GetValueInt Method
 
 Gets the Int32 value of this value converted to number using the standard JavaScript conversion.

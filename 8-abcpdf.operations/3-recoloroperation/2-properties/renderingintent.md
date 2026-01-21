@@ -1,8 +1,3 @@
----
-title: "renderingintent"
-css: "abcpdf-docs.css"
----
-
 # RenderingIntent Property
 
 | Type | Default | Read Only | Description | 

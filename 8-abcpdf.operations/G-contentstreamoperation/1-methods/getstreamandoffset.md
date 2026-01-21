@@ -1,8 +1,3 @@
----
-title: "getstreamandoffset"
-css: "abcpdf-docs.css"
----
-
 # GetStreamAndOffset Function
 
 Finds the location of an operator in a set of streams.

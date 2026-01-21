@@ -1,8 +1,3 @@
----
-title: "09-entryfolders"
-css: "abcpdf-docs.css"
----
-
 # EntryFolders Property
 
 | Type | Default Value | Read Only | Description | 

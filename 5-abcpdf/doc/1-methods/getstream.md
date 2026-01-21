@@ -1,8 +1,3 @@
----
-title: "getstream"
-css: "abcpdf-docs.css"
----
-
 # GetStream Function
 
 Gets a document as raw data stream.

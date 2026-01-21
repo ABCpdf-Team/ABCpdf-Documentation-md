@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # NumAtom Class
 
 An Atom representing a numeric value.

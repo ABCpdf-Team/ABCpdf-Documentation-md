@@ -1,8 +1,3 @@
----
-title: "01-polygonannotationelement"
-css: "abcpdf-docs.css"
----
-
 # PolygonAnnotationElement Function
 
 Create a new [PolygonAnnotationElement](../default.md).

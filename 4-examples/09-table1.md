@@ -1,8 +1,3 @@
----
-title: "09-table1"
-css: "abcpdf-docs.css"
----
-
 # Small Table Example
 
 This example shows how to draw a single page table. ABCpdf does not provide table drawing routines itself so this example uses a Table Class to position the table elements.

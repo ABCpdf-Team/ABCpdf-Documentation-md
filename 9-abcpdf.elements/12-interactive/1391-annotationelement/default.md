@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # AnnotationElement Class
 
 This class represents the annotation dictionary. This is definitively detailed in:.

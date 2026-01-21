@@ -1,8 +1,3 @@
----
-title: "17-advancedgraphics"
-css: "abcpdf-docs.css"
----
-
 # Advanced Graphics Example
 
 ## Intro

@@ -1,8 +1,3 @@
----
-title: "01-entrysound"
-css: "abcpdf-docs.css"
----
-
 # EntrySound Property
 
 | Type | Default Value | Read Only | Description | 

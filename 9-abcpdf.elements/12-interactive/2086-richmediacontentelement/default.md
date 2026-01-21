@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RichMediaContentElement Class
 
 This class represents the richmediacontent dictionary. This is definitively detailed in:.

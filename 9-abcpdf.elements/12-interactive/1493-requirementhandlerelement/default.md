@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RequirementHandlerElement Class
 
 This class represents the requirement handler dictionary. This is definitively detailed in:.

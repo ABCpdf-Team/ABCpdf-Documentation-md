@@ -1,8 +1,3 @@
----
-title: "06-entryhi"
-css: "abcpdf-docs.css"
----
-
 # EntryHI Property
 
 | Type | Default Value | Read Only | Description | 

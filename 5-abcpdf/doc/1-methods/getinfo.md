@@ -1,8 +1,3 @@
----
-title: "getinfo"
-css: "abcpdf-docs.css"
----
-
 # GetInfo Function
 
 Gets string information about an object.

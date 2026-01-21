@@ -1,8 +1,3 @@
----
-title: "settext"
-css: "abcpdf-docs.css"
----
-
 # SetText Function
 
 Set the content of the stream as a string.

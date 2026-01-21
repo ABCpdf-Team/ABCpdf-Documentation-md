@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Type3ShadingElement Class
 
 This class represents the type 3 shading dictionary. This is definitively detailed in:.

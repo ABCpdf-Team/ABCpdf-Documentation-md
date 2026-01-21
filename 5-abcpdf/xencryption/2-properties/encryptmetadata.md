@@ -1,8 +1,3 @@
----
-title: "encryptmetadata"
-css: "abcpdf-docs.css"
----
-
 # EncryptMetadata Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-javascriptactionelement"
-css: "abcpdf-docs.css"
----
-
 # JavaScriptActionElement Function
 
 Create a new [JavaScriptActionElement](../default.md).

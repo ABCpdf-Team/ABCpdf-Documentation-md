@@ -1,8 +1,3 @@
----
-title: "04-entrylj"
-css: "abcpdf-docs.css"
----
-
 # EntryLJ Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "07-entryscripts"
-css: "abcpdf-docs.css"
----
-
 # EntryScripts Property
 
 | Type | Default Value | Read Only | Description | 

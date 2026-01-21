@@ -1,8 +1,3 @@
----
-title: "01-outlineitemelement"
-css: "abcpdf-docs.css"
----
-
 # OutlineItemElement Function
 
 Create a new [OutlineItemElement](../default.md).

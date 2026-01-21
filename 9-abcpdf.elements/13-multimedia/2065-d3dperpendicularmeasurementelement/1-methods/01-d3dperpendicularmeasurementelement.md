@@ -1,8 +1,3 @@
----
-title: "01-d3dperpendicularmeasurementelement"
-css: "abcpdf-docs.css"
----
-
 # D3DPerpendicularMeasurementElement Function
 
 Create a new [D3DPerpendicularMeasurementElement](../default.md).

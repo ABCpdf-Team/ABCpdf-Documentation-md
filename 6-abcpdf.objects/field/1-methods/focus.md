@@ -1,8 +1,3 @@
----
-title: "focus"
-css: "abcpdf-docs.css"
----
-
 # Focus Function
 
 Prepare document for drawing at the field location.

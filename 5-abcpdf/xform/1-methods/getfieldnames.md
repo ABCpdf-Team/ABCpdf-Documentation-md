@@ -1,8 +1,3 @@
----
-title: "getfieldnames"
-css: "abcpdf-docs.css"
----
-
 # GetFieldNames Function
 
 Gets the full names of all the fields in the document.

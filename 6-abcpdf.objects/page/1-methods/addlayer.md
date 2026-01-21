@@ -1,8 +1,3 @@
----
-title: "addlayer"
-css: "abcpdf-docs.css"
----
-
 # AddLayer Function
 
 Add a content layer to the page

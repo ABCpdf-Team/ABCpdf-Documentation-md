@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # FlattenTransparencyOperation Class
 
 An operation used to flatten the transparency in PDF documents.

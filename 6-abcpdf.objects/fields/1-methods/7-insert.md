@@ -1,8 +1,3 @@
----
-title: "7-insert"
-css: "abcpdf-docs.css"
----
-
 # Insert Function
 
 Inserts an item into the collection at the specified position.

@@ -1,8 +1,3 @@
----
-title: "07-entrydigsig"
-css: "abcpdf-docs.css"
----
-
 # EntryDigSig Property
 
 | Type | Default Value | Read Only | Description | 

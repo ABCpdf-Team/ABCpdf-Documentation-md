@@ -1,8 +1,3 @@
----
-title: "01-richmediaconfigelement"
-css: "abcpdf-docs.css"
----
-
 # RichMediaConfigElement Function
 
 Create a new [RichMediaConfigElement](../default.md).

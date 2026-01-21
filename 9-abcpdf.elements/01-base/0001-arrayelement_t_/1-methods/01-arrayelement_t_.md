@@ -1,8 +1,3 @@
----
-title: "01-arrayelement_t_"
-css: "abcpdf-docs.css"
----
-
 # ArrayElement&lt;T&gt; Function
 
 Create a new [ArrayElement](../default.md).

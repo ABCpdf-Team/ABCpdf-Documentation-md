@@ -1,8 +1,3 @@
----
-title: "01-entryunderlyingcolorspace"
-css: "abcpdf-docs.css"
----
-
 # EntryUnderlyingColorSpace Property
 
 | Type | Default Value | Read Only | Description | 

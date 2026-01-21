@@ -1,8 +1,3 @@
----
-title: "16-entryavgwidth"
-css: "abcpdf-docs.css"
----
-
 # EntryAvgWidth Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Type1PatternElement Class
 
 This class represents the type 1 pattern dictionary. This is definitively detailed in:.

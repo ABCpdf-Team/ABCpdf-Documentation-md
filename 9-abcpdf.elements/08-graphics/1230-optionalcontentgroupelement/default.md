@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # OptionalContentGroupElement Class
 
 This class represents the optional content group dictionary. This is definitively detailed in:.

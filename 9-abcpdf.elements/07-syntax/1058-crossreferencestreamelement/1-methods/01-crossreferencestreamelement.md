@@ -1,8 +1,3 @@
----
-title: "01-crossreferencestreamelement"
-css: "abcpdf-docs.css"
----
-
 # CrossReferenceStreamElement Function
 
 Create a new [CrossReferenceStreamElement](../default.md).

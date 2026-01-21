@@ -1,8 +1,3 @@
----
-title: "01-outputprofileselement"
-css: "abcpdf-docs.css"
----
-
 # OutputProfilesElement Function
 
 Create a new [OutputProfilesElement](../default.md).

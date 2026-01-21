@@ -1,8 +1,3 @@
----
-title: "02-entryns"
-css: "abcpdf-docs.css"
----
-
 # EntryNS Property
 
 | Type | Default Value | Read Only | Description | 

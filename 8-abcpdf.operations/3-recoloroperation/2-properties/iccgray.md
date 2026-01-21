@@ -1,8 +1,3 @@
----
-title: "iccgray"
-css: "abcpdf-docs.css"
----
-
 # IccGray Property
 
 | Type | Default Value | Read Only | Description | 

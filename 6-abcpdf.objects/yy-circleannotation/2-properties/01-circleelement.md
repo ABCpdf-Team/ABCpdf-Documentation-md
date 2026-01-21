@@ -1,8 +1,3 @@
----
-title: "01-circleelement"
-css: "abcpdf-docs.css"
----
-
 # CircleElement Property
 
 | Type | Default Value | Read Only | Description | 

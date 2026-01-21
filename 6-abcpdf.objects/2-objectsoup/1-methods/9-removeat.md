@@ -1,8 +1,3 @@
----
-title: "9-removeat"
-css: "abcpdf-docs.css"
----
-
 # RemoveAt Function
 
 Removes an object at a specified position from the Soup.

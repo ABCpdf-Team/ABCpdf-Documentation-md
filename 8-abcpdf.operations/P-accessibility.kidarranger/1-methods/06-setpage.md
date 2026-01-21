@@ -1,8 +1,3 @@
----
-title: "06-setpage"
-css: "abcpdf-docs.css"
----
-
 # SetPage Function
 
 Sets the Page for this structure element.

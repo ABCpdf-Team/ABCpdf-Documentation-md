@@ -1,8 +1,3 @@
----
-title: "1-undefined"
-css: "abcpdf-docs.css"
----
-
 # Undefined Property
 
 | Type | Default Value | Read Only | Description | 

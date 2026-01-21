@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ImageXObjectElement Class
 
 This class represents the image dictionary. This is definitively detailed in:.

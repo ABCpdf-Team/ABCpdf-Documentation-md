@@ -1,8 +1,3 @@
----
-title: "07-entryreference"
-css: "abcpdf-docs.css"
----
-
 # EntryReference Property
 
 | Type | Default Value | Read Only | Description | 

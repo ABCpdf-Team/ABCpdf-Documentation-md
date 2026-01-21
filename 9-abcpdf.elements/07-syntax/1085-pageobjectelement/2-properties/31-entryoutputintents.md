@@ -1,8 +1,3 @@
----
-title: "31-entryoutputintents"
-css: "abcpdf-docs.css"
----
-
 # EntryOutputIntents Property
 
 | Type | Default Value | Read Only | Description | 

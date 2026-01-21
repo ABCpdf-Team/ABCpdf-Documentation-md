@@ -1,8 +1,3 @@
----
-title: "01-trapnetworkannotationelement"
-css: "abcpdf-docs.css"
----
-
 # TrapNetworkAnnotationElement Function
 
 Create a new [TrapNetworkAnnotationElement](../default.md).

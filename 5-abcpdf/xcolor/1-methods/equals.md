@@ -1,8 +1,3 @@
----
-title: "equals"
-css: "abcpdf-docs.css"
----
-
 # Equals Function
 
 Test whether the two colors are effectively the same

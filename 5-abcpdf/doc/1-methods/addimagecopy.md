@@ -1,8 +1,3 @@
----
-title: "addimagecopy"
-css: "abcpdf-docs.css"
----
-
 # AddImageCopy Function
 
 Adds a copy of an existing image in the Doc, to the current page.

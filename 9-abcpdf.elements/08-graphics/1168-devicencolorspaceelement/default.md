@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # DeviceNColorSpaceElement Class
 
 This class represents a DeviceN or multi-separation color space.

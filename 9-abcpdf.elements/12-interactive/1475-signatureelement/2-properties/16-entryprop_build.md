@@ -1,8 +1,3 @@
----
-title: "16-entryprop_build"
-css: "abcpdf-docs.css"
----
-
 # EntryProp_Build Property
 
 | Type | Default Value | Read Only | Description | 

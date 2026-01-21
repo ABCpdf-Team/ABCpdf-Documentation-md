@@ -1,8 +1,3 @@
----
-title: "05-entryfo"
-css: "abcpdf-docs.css"
----
-
 # EntryFo Property
 
 | Type | Default Value | Read Only | Description | 

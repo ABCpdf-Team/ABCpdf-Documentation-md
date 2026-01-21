@@ -1,8 +1,3 @@
----
-title: "03-entryexport"
-css: "abcpdf-docs.css"
----
-
 # EntryExport Property
 
 | Type | Default Value | Read Only | Description | 

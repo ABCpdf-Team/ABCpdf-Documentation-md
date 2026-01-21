@@ -1,8 +1,3 @@
----
-title: "01-entrysubtype"
-css: "abcpdf-docs.css"
----
-
 # EntrySubtype Property
 
 | Type | Default Value | Read Only | Description | 

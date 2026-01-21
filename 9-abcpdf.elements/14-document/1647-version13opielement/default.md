@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # Version13OpiElement Class
 
 This class represents the version 1.3 opi dictionary. This is definitively detailed in:.

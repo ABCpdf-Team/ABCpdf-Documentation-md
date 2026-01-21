@@ -1,8 +1,3 @@
----
-title: "03-entryobj"
-css: "abcpdf-docs.css"
----
-
 # EntryObj Property
 
 | Type | Default Value | Read Only | Description | 

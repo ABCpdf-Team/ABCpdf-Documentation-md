@@ -1,8 +1,3 @@
----
-title: "22-entrybaselineshift"
-css: "abcpdf-docs.css"
----
-
 # EntryBaselineShift Property
 
 | Type | Default Value | Read Only | Description | 

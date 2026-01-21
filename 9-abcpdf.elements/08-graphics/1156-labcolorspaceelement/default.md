@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # LabColorSpaceElement Class
 
 This class represents the Lab color space - a CIE based calibrated space.

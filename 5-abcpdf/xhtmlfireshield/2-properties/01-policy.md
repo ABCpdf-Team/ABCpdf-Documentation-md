@@ -1,8 +1,3 @@
----
-title: "01-policy"
-css: "abcpdf-docs.css"
----
-
 # Policy Property
 
 | Type | Default Value | Read Only | Description | 

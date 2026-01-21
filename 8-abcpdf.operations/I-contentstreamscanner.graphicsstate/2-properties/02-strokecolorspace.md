@@ -1,8 +1,3 @@
----
-title: "02-strokecolorspace"
-css: "abcpdf-docs.css"
----
-
 # StrokeColorSpace Property
 
 | Type | Default Value | Read Only | Description | 

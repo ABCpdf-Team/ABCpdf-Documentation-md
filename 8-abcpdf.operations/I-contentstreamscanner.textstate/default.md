@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # TextState Class
 
 The text state which determines the positioning of text.

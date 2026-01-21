@@ -1,8 +1,3 @@
----
-title: "flatten"
-css: "abcpdf-docs.css"
----
-
 # Flatten Function
 
 Flatten the transparency of pages in a document.

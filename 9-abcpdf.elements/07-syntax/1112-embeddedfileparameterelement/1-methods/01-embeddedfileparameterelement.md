@@ -1,8 +1,3 @@
----
-title: "01-embeddedfileparameterelement"
-css: "abcpdf-docs.css"
----
-
 # EmbeddedFileParameterElement Function
 
 Create a new [EmbeddedFileParameterElement](../default.md).

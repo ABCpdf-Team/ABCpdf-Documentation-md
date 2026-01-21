@@ -1,8 +1,3 @@
----
-title: "08-remove"
-css: "abcpdf-docs.css"
----
-
 # Remove Function
 
 Removes a Bookmark from the list.

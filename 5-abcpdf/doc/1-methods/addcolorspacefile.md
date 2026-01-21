@@ -1,8 +1,3 @@
----
-title: "addcolorspacefile"
-css: "abcpdf-docs.css"
----
-
 # AddColorSpaceFile Function
 
 Adds an ICC based color space to the document.

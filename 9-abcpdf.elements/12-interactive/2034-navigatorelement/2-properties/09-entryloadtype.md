@@ -1,8 +1,3 @@
----
-title: "09-entryloadtype"
-css: "abcpdf-docs.css"
----
-
 # EntryLoadType Property
 
 | Type | Default Value | Read Only | Description | 

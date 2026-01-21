@@ -1,8 +1,3 @@
----
-title: "deactivatewebbrowser"
-css: "abcpdf-docs.css"
----
-
 # DeactivateWebBrowser Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "07-infocreationdate"
-css: "abcpdf-docs.css"
----
-
 # InfoCreationDate Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-signaturereferenceelement"
-css: "abcpdf-docs.css"
----
-
 # SignatureReferenceElement Function
 
 Create a new [SignatureReferenceElement](../default.md).

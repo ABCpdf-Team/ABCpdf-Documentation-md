@@ -1,8 +1,3 @@
----
-title: "01-resourceelement"
-css: "abcpdf-docs.css"
----
-
 # ResourceElement Function
 
 Create a new [ResourceElement](../default.md).

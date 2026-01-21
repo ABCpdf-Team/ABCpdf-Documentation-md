@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # VectorizeTextOperation Class
 
 An operation used to convert text glyphs to polygons in PDF documents.

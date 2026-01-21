@@ -1,8 +1,3 @@
----
-title: "remove"
-css: "abcpdf-docs.css"
----
-
 # Remove Function
 
 Remove a field from the form.

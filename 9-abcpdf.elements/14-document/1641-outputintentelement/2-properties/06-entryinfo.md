@@ -1,8 +1,3 @@
----
-title: "06-entryinfo"
-css: "abcpdf-docs.css"
----
-
 # EntryInfo Property
 
 | Type | Default Value | Read Only | Description | 

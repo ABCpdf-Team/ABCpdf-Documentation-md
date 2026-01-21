@@ -1,8 +1,3 @@
----
-title: "applicationisrunning"
-css: "abcpdf-docs.css"
----
-
 # ApplicationIsRunning Function
 
 Gets a value indicating whether an import application is running for this XpsImportOperation.

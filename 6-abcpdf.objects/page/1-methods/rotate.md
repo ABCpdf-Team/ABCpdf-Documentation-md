@@ -1,8 +1,3 @@
----
-title: "rotate"
-css: "abcpdf-docs.css"
----
-
 # Rotate Function
 
 Rotates the page by a multiple of ninety degrees.

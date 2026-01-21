@@ -1,8 +1,3 @@
----
-title: "lines"
-css: "abcpdf-docs.css"
----
-
 # Lines Property
 
 | Type | Default | Read Only | Description | 

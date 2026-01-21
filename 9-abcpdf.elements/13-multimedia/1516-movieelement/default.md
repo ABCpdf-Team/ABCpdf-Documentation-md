@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # MovieElement Class
 
 This class represents the movie dictionary. This is definitively detailed in:.

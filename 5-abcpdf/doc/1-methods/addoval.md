@@ -1,8 +1,3 @@
----
-title: "addoval"
-css: "abcpdf-docs.css"
----
-
 # AddOval Function
 
 Adds an oval to the current page.

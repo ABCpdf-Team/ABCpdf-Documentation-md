@@ -1,8 +1,3 @@
----
-title: "getdata"
-css: "abcpdf-docs.css"
----
-
 # GetData Function
 
 Renders the current area of the current page to memory.

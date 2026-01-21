@@ -1,8 +1,3 @@
----
-title: "addforms"
-css: "abcpdf-docs.css"
----
-
 # AddForms Property
 
 | Type | Default Value | Read Only | Description | 

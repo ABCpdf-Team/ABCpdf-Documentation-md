@@ -1,8 +1,3 @@
----
-title: "black"
-css: "abcpdf-docs.css"
----
-
 # Black Property
 
 | Type | Default | Read Only | Description | 

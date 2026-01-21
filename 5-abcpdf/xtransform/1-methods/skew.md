@@ -1,8 +1,3 @@
----
-title: "skew"
-css: "abcpdf-docs.css"
----
-
 # Skew Function
 
 Skew horizontally and vertically about a locked anchor point.

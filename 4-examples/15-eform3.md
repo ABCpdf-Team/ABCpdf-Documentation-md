@@ -1,8 +1,3 @@
----
-title: "15-eform3"
-css: "abcpdf-docs.css"
----
-
 # eForm Stamp Example
 
 This example shows how to stamp eForm fields into a document so that the values are indelibly marked

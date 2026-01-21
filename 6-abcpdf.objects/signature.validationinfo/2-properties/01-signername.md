@@ -1,8 +1,3 @@
----
-title: "01-signername"
-css: "abcpdf-docs.css"
----
-
 # SignerName Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "18-entryphoneticalphabet"
-css: "abcpdf-docs.css"
----
-
 # EntryPhoneticAlphabet Property
 
 | Type | Default Value | Read Only | Description | 

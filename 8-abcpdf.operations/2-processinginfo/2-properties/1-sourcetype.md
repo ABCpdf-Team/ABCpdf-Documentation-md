@@ -1,8 +1,3 @@
----
-title: "1-sourcetype"
-css: "abcpdf-docs.css"
----
-
 # SourceType Property
 
 | Type | Default | Read Only | Description | 

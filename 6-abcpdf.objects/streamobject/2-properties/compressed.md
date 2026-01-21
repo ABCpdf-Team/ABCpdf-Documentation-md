@@ -1,8 +1,3 @@
----
-title: "compressed"
-css: "abcpdf-docs.css"
----
-
 # Compressed Property
 
 | Type | Default | Read Only | Description | 

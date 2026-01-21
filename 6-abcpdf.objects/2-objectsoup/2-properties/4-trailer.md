@@ -1,8 +1,3 @@
----
-title: "4-trailer"
-css: "abcpdf-docs.css"
----
-
 # Trailer Property
 
 | Type | Default | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # MediaOffsetMarkerElement Class
 
 This class represents the media offset marker dictionary. This is definitively detailed in:.

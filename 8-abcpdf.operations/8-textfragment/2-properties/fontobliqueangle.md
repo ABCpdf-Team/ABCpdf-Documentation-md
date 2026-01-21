@@ -1,8 +1,3 @@
----
-title: "fontobliqueangle"
-css: "abcpdf-docs.css"
----
-
 # FontObliqueAngle Property
 
 | Type | Default | Read Only | Description | 

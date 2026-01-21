@@ -1,8 +1,3 @@
----
-title: "getpath"
-css: "abcpdf-docs.css"
----
-
 # GetPath Function
 
 Get the path to the file for the specified platform

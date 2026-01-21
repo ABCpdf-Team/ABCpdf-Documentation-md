@@ -1,8 +1,3 @@
----
-title: "01-mediaoffsetmarkerelement"
-css: "abcpdf-docs.css"
----
-
 # MediaOffsetMarkerElement Function
 
 Create a new [MediaOffsetMarkerElement](../default.md).

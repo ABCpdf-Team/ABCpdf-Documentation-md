@@ -1,8 +1,3 @@
----
-title: "template"
-css: "abcpdf-docs.css"
----
-
 # Template Property
 
 | Type | Default Value | Read Only | Description | 

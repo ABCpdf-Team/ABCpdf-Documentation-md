@@ -1,8 +1,3 @@
----
-title: "02-entryassets"
-css: "abcpdf-docs.css"
----
-
 # EntryAssets Property
 
 | Type | Default Value | Read Only | Description | 

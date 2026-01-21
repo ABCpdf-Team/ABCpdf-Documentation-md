@@ -1,8 +1,3 @@
----
-title: "includepatterns"
-css: "abcpdf-docs.css"
----
-
 # IncludePatterns Property
 
 | Type | Default Value | Read Only | Description | 

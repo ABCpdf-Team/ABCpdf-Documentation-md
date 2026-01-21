@@ -1,8 +1,3 @@
----
-title: "01-polygonannotation"
-css: "abcpdf-docs.css"
----
-
 # PolygonAnnotation Function
 
 Add polygon annotation to the current page of the doc.

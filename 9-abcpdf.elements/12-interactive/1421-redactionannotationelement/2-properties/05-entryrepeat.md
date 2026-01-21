@@ -1,8 +1,3 @@
----
-title: "05-entryrepeat"
-css: "abcpdf-docs.css"
----
-
 # EntryRepeat Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "tabaffinity"
-css: "abcpdf-docs.css"
----
-
 # TabAffinity Property
 
 | Type | Default Value | Read Only | Description | 

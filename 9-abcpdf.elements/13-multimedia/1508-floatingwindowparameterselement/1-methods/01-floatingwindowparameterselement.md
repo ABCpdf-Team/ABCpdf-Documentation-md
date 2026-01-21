@@ -1,8 +1,3 @@
----
-title: "01-floatingwindowparameterselement"
-css: "abcpdf-docs.css"
----
-
 # FloatingWindowParametersElement Function
 
 Create a new [FloatingWindowParametersElement](../default.md).

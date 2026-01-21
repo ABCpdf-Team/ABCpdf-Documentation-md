@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # XRendering Object
 
 Provides control over PDF rendering and rendering options.

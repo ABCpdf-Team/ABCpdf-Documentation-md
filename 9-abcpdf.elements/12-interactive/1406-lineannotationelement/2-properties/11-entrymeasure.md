@@ -1,8 +1,3 @@
----
-title: "11-entrymeasure"
-css: "abcpdf-docs.css"
----
-
 # EntryMeasure Property
 
 | Type | Default Value | Read Only | Description | 

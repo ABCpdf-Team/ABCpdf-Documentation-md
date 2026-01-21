@@ -1,8 +1,3 @@
----
-title: "15-flatness"
-css: "abcpdf-docs.css"
----
-
 # Flatness Property
 
 | Type | Default Value | Read Only | Description | 

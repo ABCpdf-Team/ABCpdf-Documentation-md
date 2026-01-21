@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # FormXObject Class
 
 A Form XObject is a self contained stream of graphics operations which can be referenced as a group.

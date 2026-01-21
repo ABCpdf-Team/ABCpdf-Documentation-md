@@ -1,8 +1,3 @@
----
-title: "getparameters"
-css: "abcpdf-docs.css"
----
-
 # GetParameters Function
 
 Gets the parameters associated with the OpAtom at the specified index and validates that the atoms are of the correct type

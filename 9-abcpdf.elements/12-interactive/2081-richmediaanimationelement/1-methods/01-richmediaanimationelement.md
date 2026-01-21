@@ -1,8 +1,3 @@
----
-title: "01-richmediaanimationelement"
-css: "abcpdf-docs.css"
----
-
 # RichMediaAnimationElement Function
 
 Create a new [RichMediaAnimationElement](../default.md).

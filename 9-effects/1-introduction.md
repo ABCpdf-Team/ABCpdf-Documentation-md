@@ -1,8 +1,3 @@
----
-title: "1-introduction"
-css: "abcpdf-docs.css"
----
-
 # Introduction to Effects
 
 Effects are an operation which can be applied to images. They include common and useful functions like blur and sharpen filters.

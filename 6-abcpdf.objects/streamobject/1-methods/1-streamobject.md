@@ -1,8 +1,3 @@
----
-title: "1-streamobject"
-css: "abcpdf-docs.css"
----
-
 # StreamObject Constructor
 
 StreamObject Constructor.

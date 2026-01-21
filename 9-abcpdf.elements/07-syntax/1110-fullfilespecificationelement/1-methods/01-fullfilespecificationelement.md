@@ -1,8 +1,3 @@
----
-title: "01-fullfilespecificationelement"
-css: "abcpdf-docs.css"
----
-
 # FullFileSpecificationElement Function
 
 Create a new [FullFileSpecificationElement](../default.md).

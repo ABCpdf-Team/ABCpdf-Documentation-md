@@ -1,8 +1,3 @@
----
-title: "02-entry20"
-css: "abcpdf-docs.css"
----
-
 # Entry20 Property
 
 | Type | Default Value | Read Only | Description | 

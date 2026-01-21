@@ -1,8 +1,3 @@
----
-title: "08-entryo"
-css: "abcpdf-docs.css"
----
-
 # EntryO Property
 
 | Type | Default Value | Read Only | Description | 

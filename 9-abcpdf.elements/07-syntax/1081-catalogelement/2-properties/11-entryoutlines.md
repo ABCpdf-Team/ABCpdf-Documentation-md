@@ -1,8 +1,3 @@
----
-title: "11-entryoutlines"
-css: "abcpdf-docs.css"
----
-
 # EntryOutlines Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "3-addfamily"
-css: "abcpdf-docs.css"
----
-
 # AddFamily Function
 
 Add a parent object along with all objects it refers to.

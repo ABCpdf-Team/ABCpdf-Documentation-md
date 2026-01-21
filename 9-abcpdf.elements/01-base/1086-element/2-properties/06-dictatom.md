@@ -1,8 +1,3 @@
----
-title: "06-dictatom"
-css: "abcpdf-docs.css"
----
-
 # DictAtom Property
 
 | Type | Default Value | Read Only | Description | 

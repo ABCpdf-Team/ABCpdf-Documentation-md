@@ -1,8 +1,3 @@
----
-title: "enableapplicationreuse"
-css: "abcpdf-docs.css"
----
-
 # EnableApplicationReuse Function
 
 Enables an import application process to be reused so that it is terminated only manually or when this operation is disposed of.

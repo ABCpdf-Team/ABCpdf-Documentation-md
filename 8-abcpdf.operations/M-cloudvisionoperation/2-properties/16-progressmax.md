@@ -1,8 +1,3 @@
----
-title: "16-progressmax"
-css: "abcpdf-docs.css"
----
-
 # ProgressMax Property
 
 | Type | Default Value | Read Only | Description | 

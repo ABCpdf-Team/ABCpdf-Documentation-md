@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # KidArranger Class
 
 A class to reorder a logical structure based item position on the page.

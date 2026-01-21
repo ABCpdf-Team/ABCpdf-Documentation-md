@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # SwfImportOperation Class
 
 An operation used to import Flash movies (SWF files).

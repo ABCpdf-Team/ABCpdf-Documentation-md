@@ -1,8 +1,3 @@
----
-title: "01-goto3dviewactionelement"
-css: "abcpdf-docs.css"
----
-
 # GoTo3DViewActionElement Function
 
 Create a new [GoTo3DViewActionElement](../default.md).

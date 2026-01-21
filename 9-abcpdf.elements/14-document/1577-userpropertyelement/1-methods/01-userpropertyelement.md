@@ -1,8 +1,3 @@
----
-title: "01-userpropertyelement"
-css: "abcpdf-docs.css"
----
-
 # UserPropertyElement Function
 
 Create a new [UserPropertyElement](../default.md).

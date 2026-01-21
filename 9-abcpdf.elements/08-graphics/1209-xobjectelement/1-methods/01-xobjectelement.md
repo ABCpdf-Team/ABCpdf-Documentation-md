@@ -1,8 +1,3 @@
----
-title: "01-xobjectelement"
-css: "abcpdf-docs.css"
----
-
 # XObjectElement Function
 
 Create a new [XObjectElement](../default.md).

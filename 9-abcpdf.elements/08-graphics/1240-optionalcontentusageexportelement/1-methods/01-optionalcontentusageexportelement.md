@@ -1,8 +1,3 @@
----
-title: "01-optionalcontentusageexportelement"
-css: "abcpdf-docs.css"
----
-
 # OptionalContentUsageExportElement Function
 
 Create a new [OptionalContentUsageExportElement](../default.md).

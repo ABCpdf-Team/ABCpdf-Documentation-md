@@ -1,8 +1,3 @@
----
-title: "01-d3dunitselement"
-css: "abcpdf-docs.css"
----
-
 # D3DUnitsElement Function
 
 Create a new [D3DUnitsElement](../default.md).

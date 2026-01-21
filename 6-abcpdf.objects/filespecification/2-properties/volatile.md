@@ -1,8 +1,3 @@
----
-title: "volatile"
-css: "abcpdf-docs.css"
----
-
 # Volatile Property
 
 | Type | Default Value | Read Only | Description | 

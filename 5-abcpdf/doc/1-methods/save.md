@@ -1,8 +1,3 @@
----
-title: "save"
-css: "abcpdf-docs.css"
----
-
 # Save Function
 
 Saves the document as PDF.

@@ -1,8 +1,3 @@
----
-title: "03-entryrotate"
-css: "abcpdf-docs.css"
----
-
 # EntryRotate Property
 
 | Type | Default Value | Read Only | Description | 

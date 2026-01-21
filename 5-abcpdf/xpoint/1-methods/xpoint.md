@@ -1,8 +1,3 @@
----
-title: "xpoint"
-css: "abcpdf-docs.css"
----
-
 # XPoint Constructor
 
 XPoint Constructor.

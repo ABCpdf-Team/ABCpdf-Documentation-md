@@ -1,8 +1,3 @@
----
-title: "transformpoint"
-css: "abcpdf-docs.css"
----
-
 # TransformPoint Function
 
 Applies this transform to a specified point.

@@ -1,8 +1,3 @@
----
-title: "06-entrylpts"
-css: "abcpdf-docs.css"
----
-
 # EntryLPTS Property
 
 | Type | Default Value | Read Only | Description | 

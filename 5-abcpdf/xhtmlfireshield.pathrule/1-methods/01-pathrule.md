@@ -1,8 +1,3 @@
----
-title: "01-pathrule"
-css: "abcpdf-docs.css"
----
-
 # PathRule Function
 
 Path access rule constructor.

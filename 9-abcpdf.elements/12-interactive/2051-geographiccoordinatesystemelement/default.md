@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # GeographicCoordinateSystemElement Class
 
 This class represents the geographic coordinate system dictionary. This is definitively detailed in:.

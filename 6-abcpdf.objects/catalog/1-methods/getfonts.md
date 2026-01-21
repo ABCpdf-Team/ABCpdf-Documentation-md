@@ -1,8 +1,3 @@
----
-title: "getfonts"
-css: "abcpdf-docs.css"
----
-
 # GetFonts Function
 
 Gets all the fonts in this document.

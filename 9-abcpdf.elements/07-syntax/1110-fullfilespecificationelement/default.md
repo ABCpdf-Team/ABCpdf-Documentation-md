@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # FullFileSpecificationElement Class
 
 This class represents the full file specification dictionary. This is definitively detailed in:.

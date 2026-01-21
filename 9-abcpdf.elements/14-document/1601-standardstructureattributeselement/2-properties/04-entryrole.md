@@ -1,8 +1,3 @@
----
-title: "04-entryrole"
-css: "abcpdf-docs.css"
----
-
 # EntryRole Property
 
 | Type | Default Value | Read Only | Description | 

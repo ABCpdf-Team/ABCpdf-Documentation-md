@@ -1,8 +1,3 @@
----
-title: "find"
-css: "abcpdf-docs.css"
----
-
 # Find Function
 
 Finds specified types of OpAtom entries in an array

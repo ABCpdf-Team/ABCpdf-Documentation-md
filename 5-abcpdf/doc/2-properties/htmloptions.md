@@ -1,8 +1,3 @@
----
-title: "htmloptions"
-css: "abcpdf-docs.css"
----
-
 # HtmlOptions Property
 
 | Type | Default Value | Read Only | Description | 

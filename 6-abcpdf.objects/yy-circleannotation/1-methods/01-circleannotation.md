@@ -1,8 +1,3 @@
----
-title: "01-circleannotation"
-css: "abcpdf-docs.css"
----
-
 # CircleAnnotation Function
 
 Add circle annotation to the current page of the doc.

@@ -1,8 +1,3 @@
----
-title: "11-entrytint"
-css: "abcpdf-docs.css"
----
-
 # EntryTint Property
 
 | Type | Default Value | Read Only | Description | 

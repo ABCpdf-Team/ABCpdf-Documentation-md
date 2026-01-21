@@ -1,8 +1,3 @@
----
-title: "17-entryheight"
-css: "abcpdf-docs.css"
----
-
 # EntryHeight Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "30-entrytextposition"
-css: "abcpdf-docs.css"
----
-
 # EntryTextPosition Property
 
 | Type | Default Value | Read Only | Description | 

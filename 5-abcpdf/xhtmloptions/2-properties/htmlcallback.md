@@ -1,8 +1,3 @@
----
-title: "htmlcallback"
-css: "abcpdf-docs.css"
----
-
 # HtmlCallback Property
 
 | Type | Default Value | Read Only | Description | 

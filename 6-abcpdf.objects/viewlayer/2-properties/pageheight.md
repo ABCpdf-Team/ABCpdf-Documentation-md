@@ -1,8 +1,3 @@
----
-title: "pageheight"
-css: "abcpdf-docs.css"
----
-
 # PageHeight Property
 
 | Type | Default | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-fieldelement"
-css: "abcpdf-docs.css"
----
-
 # FieldElement Function
 
 Create a new [FieldElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # XHtmlOptions Object
 
 Represents the current HTML rendering settings.

@@ -1,8 +1,3 @@
----
-title: "01-type5shadingelement"
-css: "abcpdf-docs.css"
----
-
 # Type5ShadingElement Function
 
 Create a new [Type5ShadingElement](../default.md).

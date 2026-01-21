@@ -1,8 +1,3 @@
----
-title: "addgroupfield"
-css: "abcpdf-docs.css"
----
-
 # AddGroupField Function
 
 Add group field.

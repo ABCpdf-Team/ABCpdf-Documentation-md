@@ -1,8 +1,3 @@
----
-title: "tostring"
-css: "abcpdf-docs.css"
----
-
 # ToString Function
 
 The string representation of the Atom as it would appear in a PDF.

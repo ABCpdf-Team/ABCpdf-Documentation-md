@@ -1,8 +1,3 @@
----
-title: "04-entrysort"
-css: "abcpdf-docs.css"
----
-
 # EntrySort Property
 
 | Type | Default Value | Read Only | Description | 

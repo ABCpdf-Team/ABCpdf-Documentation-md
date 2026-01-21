@@ -1,8 +1,3 @@
----
-title: "04-entryjs"
-css: "abcpdf-docs.css"
----
-
 # EntryJS Property
 
 | Type | Default Value | Read Only | Description | 

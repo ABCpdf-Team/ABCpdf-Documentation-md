@@ -1,8 +1,3 @@
----
-title: "05-roottag"
-css: "abcpdf-docs.css"
----
-
 # RootTag Property
 
 | Type | Default Value | Read Only | Description | 

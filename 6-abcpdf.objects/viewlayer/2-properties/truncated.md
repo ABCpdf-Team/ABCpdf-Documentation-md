@@ -1,8 +1,3 @@
----
-title: "truncated"
-css: "abcpdf-docs.css"
----
-
 # Truncated Property
 
 | Type | Default | Read Only | Description | 

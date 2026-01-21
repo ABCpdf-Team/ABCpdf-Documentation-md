@@ -1,8 +1,3 @@
----
-title: "tag"
-css: "abcpdf-docs.css"
----
-
 # Tag Property
 
 | Type | Default | Read Only | Description | 

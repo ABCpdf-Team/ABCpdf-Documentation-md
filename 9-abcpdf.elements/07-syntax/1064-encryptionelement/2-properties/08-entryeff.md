@@ -1,8 +1,3 @@
----
-title: "08-entryeff"
-css: "abcpdf-docs.css"
----
-
 # EntryEFF Property
 
 | Type | Default Value | Read Only | Description | 

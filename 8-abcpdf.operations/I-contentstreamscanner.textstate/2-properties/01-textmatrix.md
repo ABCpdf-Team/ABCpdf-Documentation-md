@@ -1,8 +1,3 @@
----
-title: "01-textmatrix"
-css: "abcpdf-docs.css"
----
-
 # TextMatrix Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "07-entryimagemask"
-css: "abcpdf-docs.css"
----
-
 # EntryImageMask Property
 
 | Type | Default Value | Read Only | Description | 

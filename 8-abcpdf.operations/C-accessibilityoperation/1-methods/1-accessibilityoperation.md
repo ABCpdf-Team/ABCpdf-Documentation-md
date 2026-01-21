@@ -1,8 +1,3 @@
----
-title: "1-accessibilityoperation"
-css: "abcpdf-docs.css"
----
-
 # AccessibilityOperation Constructor
 
 AccessibilityOperation Constructor.

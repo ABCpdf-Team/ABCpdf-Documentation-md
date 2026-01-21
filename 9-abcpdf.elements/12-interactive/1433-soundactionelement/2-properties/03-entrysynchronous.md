@@ -1,8 +1,3 @@
----
-title: "03-entrysynchronous"
-css: "abcpdf-docs.css"
----
-
 # EntrySynchronous Property
 
 | Type | Default Value | Read Only | Description | 

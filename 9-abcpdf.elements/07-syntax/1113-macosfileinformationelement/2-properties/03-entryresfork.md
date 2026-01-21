@@ -1,8 +1,3 @@
----
-title: "03-entryresfork"
-css: "abcpdf-docs.css"
----
-
 # EntryResFork Property
 
 | Type | Default Value | Read Only | Description | 

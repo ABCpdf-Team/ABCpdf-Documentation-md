@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ImageProperties Class
 
 A class that represents one raster image (bitmap) in a document.

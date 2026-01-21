@@ -1,8 +1,3 @@
----
-title: "17-entrytr2"
-css: "abcpdf-docs.css"
----
-
 # EntryTR2 Property
 
 | Type | Default Value | Read Only | Description | 

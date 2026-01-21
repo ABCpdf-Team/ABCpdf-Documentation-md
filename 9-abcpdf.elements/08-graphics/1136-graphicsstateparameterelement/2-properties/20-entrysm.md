@@ -1,8 +1,3 @@
----
-title: "20-entrysm"
-css: "abcpdf-docs.css"
----
-
 # EntrySM Property
 
 | Type | Default Value | Read Only | Description | 

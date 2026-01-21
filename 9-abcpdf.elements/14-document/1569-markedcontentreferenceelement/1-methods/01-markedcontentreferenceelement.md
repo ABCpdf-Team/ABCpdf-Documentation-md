@@ -1,8 +1,3 @@
----
-title: "01-markedcontentreferenceelement"
-css: "abcpdf-docs.css"
----
-
 # MarkedContentReferenceElement Function
 
 Create a new [MarkedContentReferenceElement](../default.md).

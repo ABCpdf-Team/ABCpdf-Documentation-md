@@ -1,8 +1,3 @@
----
-title: "02-entryflashvars"
-css: "abcpdf-docs.css"
----
-
 # EntryFlashVars Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-rectangleelement"
-css: "abcpdf-docs.css"
----
-
 # RectangleElement Function
 
 Create a new [RectangleElement](../default.md).

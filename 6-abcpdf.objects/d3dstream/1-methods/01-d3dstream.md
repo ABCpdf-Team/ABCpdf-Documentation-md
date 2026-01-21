@@ -1,8 +1,3 @@
----
-title: "01-d3dstream"
-css: "abcpdf-docs.css"
----
-
 # D3DStream Function
 
 [D3DStream](../default.md) constructor.

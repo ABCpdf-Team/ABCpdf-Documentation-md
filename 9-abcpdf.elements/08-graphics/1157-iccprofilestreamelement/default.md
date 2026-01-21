@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # ICCProfileStreamElement Class
 
 This class represents the icc profile stream dictionary. This is definitively detailed in:.

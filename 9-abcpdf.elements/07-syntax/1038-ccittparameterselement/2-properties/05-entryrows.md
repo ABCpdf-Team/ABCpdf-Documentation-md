@@ -1,8 +1,3 @@
----
-title: "05-entryrows"
-css: "abcpdf-docs.css"
----
-
 # EntryRows Property
 
 | Type | Default Value | Read Only | Description | 

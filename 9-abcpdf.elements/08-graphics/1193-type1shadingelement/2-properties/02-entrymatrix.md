@@ -1,8 +1,3 @@
----
-title: "02-entrymatrix"
-css: "abcpdf-docs.css"
----
-
 # EntryMatrix Property
 
 | Type | Default Value | Read Only | Description | 

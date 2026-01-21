@@ -1,8 +1,3 @@
----
-title: "18-entryht"
-css: "abcpdf-docs.css"
----
-
 # EntryHT Property
 
 | Type | Default Value | Read Only | Description | 

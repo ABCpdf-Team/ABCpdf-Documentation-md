@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # UriActionElement Class
 
 This class represents the uri action. This is definitively detailed in:.

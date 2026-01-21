@@ -1,8 +1,3 @@
----
-title: "getannotations"
-css: "abcpdf-docs.css"
----
-
 # GetAnnotations Function
 
 Gets all the Annotations referenced by this field or its children

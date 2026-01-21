@@ -1,8 +1,3 @@
----
-title: "10-dpi"
-css: "abcpdf-docs.css"
----
-
 # Dpi Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "02-elementsindirect"
-css: "abcpdf-docs.css"
----
-
 # ElementsIndirect Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "pin"
-css: "abcpdf-docs.css"
----
-
 # Pin Property
 
 | Type | Default Value | Read Only | Description | 

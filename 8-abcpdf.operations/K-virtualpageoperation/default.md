@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # VirtualPageOperation Class
 
 Operation to for drawing onto a virtual page.

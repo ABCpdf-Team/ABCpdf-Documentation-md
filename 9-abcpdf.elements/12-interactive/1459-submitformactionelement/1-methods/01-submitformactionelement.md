@@ -1,8 +1,3 @@
----
-title: "01-submitformactionelement"
-css: "abcpdf-docs.css"
----
-
 # SubmitFormActionElement Function
 
 Create a new [SubmitFormActionElement](../default.md).

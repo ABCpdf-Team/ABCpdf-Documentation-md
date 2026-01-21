@@ -1,8 +1,3 @@
----
-title: "11-boolatom"
-css: "abcpdf-docs.css"
----
-
 # BoolAtom Property
 
 | Type | Default Value | Read Only | Description | 

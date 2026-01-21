@@ -1,8 +1,3 @@
----
-title: "01-mediaoffsetframeelement"
-css: "abcpdf-docs.css"
----
-
 # MediaOffsetFrameElement Function
 
 Create a new [MediaOffsetFrameElement](../default.md).

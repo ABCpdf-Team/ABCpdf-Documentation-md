@@ -1,8 +1,3 @@
----
-title: "06-entrydisplaydoctitle"
-css: "abcpdf-docs.css"
----
-
 # EntryDisplayDocTitle Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "setpoint"
-css: "abcpdf-docs.css"
----
-
 # SetPoint Function
 
 Sets the point.

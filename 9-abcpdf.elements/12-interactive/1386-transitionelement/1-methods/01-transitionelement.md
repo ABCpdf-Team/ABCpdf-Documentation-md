@@ -1,8 +1,3 @@
----
-title: "01-transitionelement"
-css: "abcpdf-docs.css"
----
-
 # TransitionElement Function
 
 Create a new [TransitionElement](../default.md).

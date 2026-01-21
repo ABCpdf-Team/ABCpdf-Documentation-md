@@ -1,8 +1,3 @@
----
-title: "04-reforatom"
-css: "abcpdf-docs.css"
----
-
 # RefOrAtom Property
 
 | Type | Default Value | Read Only | Description | 

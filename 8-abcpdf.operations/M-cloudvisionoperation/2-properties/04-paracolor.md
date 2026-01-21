@@ -1,8 +1,3 @@
----
-title: "04-paracolor"
-css: "abcpdf-docs.css"
----
-
 # ParaColor Property
 
 | Type | Default Value | Read Only | Description | 

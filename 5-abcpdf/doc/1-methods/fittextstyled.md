@@ -1,8 +1,3 @@
----
-title: "fittextstyled"
-css: "abcpdf-docs.css"
----
-
 # FitTextStyled Function
 
 Fit a block of styled text into the current rectangle.

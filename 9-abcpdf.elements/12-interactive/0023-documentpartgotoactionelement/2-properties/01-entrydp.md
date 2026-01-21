@@ -1,8 +1,3 @@
----
-title: "01-entrydp"
-css: "abcpdf-docs.css"
----
-
 # EntryDp Property
 
 | Type | Default Value | Read Only | Description | 

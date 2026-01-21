@@ -1,8 +1,3 @@
----
-title: "fillrect"
-css: "abcpdf-docs.css"
----
-
 # FillRect Function
 
 Adds a painted rectangle to the current page.

@@ -1,8 +1,3 @@
----
-title: "06-toname"
-css: "abcpdf-docs.css"
----
-
 # ToName Function
 
 Attempts to get a name from the specified entry in a DictAtom or ArrayAtom resolving any references as necessary.

@@ -1,8 +1,3 @@
----
-title: "addcontentstream"
-css: "abcpdf-docs.css"
----
-
 # AddContentStream Function
 
 Adds a content stream to this operations.

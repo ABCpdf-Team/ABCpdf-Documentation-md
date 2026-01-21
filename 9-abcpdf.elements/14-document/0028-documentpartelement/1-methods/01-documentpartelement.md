@@ -1,8 +1,3 @@
----
-title: "01-documentpartelement"
-css: "abcpdf-docs.css"
----
-
 # DocumentPartElement Function
 
 Create a new [DocumentPartElement](../default.md).

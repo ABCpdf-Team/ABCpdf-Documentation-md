@@ -1,8 +1,3 @@
----
-title: "levels"
-css: "abcpdf-docs.css"
----
-
 # Levels Effect
 
 The Levels effect allows you fine control over brightness and contrast.

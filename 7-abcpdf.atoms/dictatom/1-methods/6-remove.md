@@ -1,8 +1,3 @@
----
-title: "6-remove"
-css: "abcpdf-docs.css"
----
-
 # Remove Function
 
 Remove an element from the dictionary.

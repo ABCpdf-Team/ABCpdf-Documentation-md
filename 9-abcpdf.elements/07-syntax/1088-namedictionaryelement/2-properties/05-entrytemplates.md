@@ -1,8 +1,3 @@
----
-title: "05-entrytemplates"
-css: "abcpdf-docs.css"
----
-
 # EntryTemplates Property
 
 | Type | Default Value | Read Only | Description | 

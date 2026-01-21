@@ -1,8 +1,3 @@
----
-title: "3-add"
-css: "abcpdf-docs.css"
----
-
 # Add Function
 
 Adds an object to the Soup.

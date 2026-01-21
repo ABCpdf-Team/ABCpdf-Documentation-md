@@ -1,8 +1,3 @@
----
-title: "twirl"
-css: "abcpdf-docs.css"
----
-
 # Twirl Effect
 
 The Twirl effect distorts the image as if it had been twirled.

@@ -1,8 +1,3 @@
----
-title: "01-destinationactionelement"
-css: "abcpdf-docs.css"
----
-
 # DestinationActionElement Function
 
 Create a new [DestinationActionElement](../default.md).

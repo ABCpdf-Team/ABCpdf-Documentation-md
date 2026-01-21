@@ -1,8 +1,3 @@
----
-title: "pagenumber"
-css: "abcpdf-docs.css"
----
-
 # PageNumber Property
 
 | Type | Default Value | Read Only | Description | 

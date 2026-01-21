@@ -1,8 +1,3 @@
----
-title: "05-dowidths"
-css: "abcpdf-docs.css"
----
-
 # DoWidths Property
 
 | Type | Default Value | Read Only | Description | 

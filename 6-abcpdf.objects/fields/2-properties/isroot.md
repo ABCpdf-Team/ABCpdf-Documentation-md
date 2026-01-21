@@ -1,8 +1,3 @@
----
-title: "isroot"
-css: "abcpdf-docs.css"
----
-
 # IsRoot Property
 
 | Type | Default | Read Only | Description | 

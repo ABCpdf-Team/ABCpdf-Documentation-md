@@ -1,8 +1,3 @@
----
-title: "03-entryysquare"
-css: "abcpdf-docs.css"
----
-
 # EntryYsquare Property
 
 | Type | Default Value | Read Only | Description | 

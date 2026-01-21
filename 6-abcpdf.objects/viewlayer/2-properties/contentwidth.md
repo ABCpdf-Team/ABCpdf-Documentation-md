@@ -1,8 +1,3 @@
----
-title: "contentwidth"
-css: "abcpdf-docs.css"
----
-
 # ContentWidth Property
 
 | Type | Default | Read Only | Description | 

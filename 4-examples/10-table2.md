@@ -1,8 +1,3 @@
----
-title: "10-table2"
-css: "abcpdf-docs.css"
----
-
 # Large Table Example
 
 This example shows how to draw a multi-page table. ABCpdf does not provide table drawing routines itself so this example uses a Table Class to position the table elements.

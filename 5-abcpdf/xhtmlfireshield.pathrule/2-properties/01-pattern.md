@@ -1,8 +1,3 @@
----
-title: "01-pattern"
-css: "abcpdf-docs.css"
----
-
 # Pattern Property
 
 | Type | Default Value | Read Only | Description | 

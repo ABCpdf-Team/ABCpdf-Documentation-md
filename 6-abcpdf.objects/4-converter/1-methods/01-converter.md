@@ -1,8 +1,3 @@
----
-title: "01-converter"
-css: "abcpdf-docs.css"
----
-
 # Converter Function
 
 Create an Atom converter for a particular ObjectSoup.

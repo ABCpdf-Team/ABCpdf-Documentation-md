@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # RichMediaAnimationElement Class
 
 This class represents the richmediaanimation dictionary. This is definitively detailed in:.

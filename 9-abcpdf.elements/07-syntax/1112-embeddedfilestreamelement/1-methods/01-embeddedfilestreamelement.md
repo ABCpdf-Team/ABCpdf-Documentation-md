@@ -1,8 +1,3 @@
----
-title: "01-embeddedfilestreamelement"
-css: "abcpdf-docs.css"
----
-
 # EmbeddedFileStreamElement Function
 
 Create a new [EmbeddedFileStreamElement](../default.md).

@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # CollectionSortElement Class
 
 This class represents the collection sort dictionary. This is definitively detailed in:.

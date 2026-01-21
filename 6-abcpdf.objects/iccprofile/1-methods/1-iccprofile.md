@@ -1,8 +1,3 @@
----
-title: "1-iccprofile"
-css: "abcpdf-docs.css"
----
-
 # IccProfile Constructor
 
 IccProfile Constructor.

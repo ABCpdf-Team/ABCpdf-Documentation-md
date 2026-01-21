@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # CaretAnnotationElement Class
 
 This class represents the caret annotation. This is definitively detailed in:.

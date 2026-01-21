@@ -1,8 +1,3 @@
----
-title: "b-htmlstyles"
-css: "abcpdf-docs.css"
----
-
 # Styled Text
 
 ## Basics

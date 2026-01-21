@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # OptionalContentUsagePrintElement Class
 
 This class represents the optional content usage print dictionary. This is definitively detailed in:.

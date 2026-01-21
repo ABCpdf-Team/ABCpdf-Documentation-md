@@ -1,8 +1,3 @@
----
-title: "01-d3dannotationelement"
-css: "abcpdf-docs.css"
----
-
 # D3DAnnotationElement Function
 
 Create a new [D3DAnnotationElement](../default.md).

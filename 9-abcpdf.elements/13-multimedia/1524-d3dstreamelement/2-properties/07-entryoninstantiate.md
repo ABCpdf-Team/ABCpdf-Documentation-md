@@ -1,8 +1,3 @@
----
-title: "07-entryoninstantiate"
-css: "abcpdf-docs.css"
----
-
 # EntryOnInstantiate Property
 
 | Type | Default Value | Read Only | Description | 

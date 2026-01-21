@@ -1,8 +1,3 @@
----
-title: "03-entrytransformparams"
-css: "abcpdf-docs.css"
----
-
 # EntryTransformParams Property
 
 | Type | Default Value | Read Only | Description | 

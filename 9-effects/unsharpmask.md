@@ -1,8 +1,3 @@
----
-title: "unsharpmask"
-css: "abcpdf-docs.css"
----
-
 # Unsharp Mask Effect
 
 The Unsharp Mask filter is a simple method of sharpening a photo. Areas of complexity and fine detail within the image become crisp and better defined. An Unsharp Mask takes longer to perform than a simple Sharpen but gives more control and produces a more natural appearance.

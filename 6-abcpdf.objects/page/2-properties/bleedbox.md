@@ -1,8 +1,3 @@
----
-title: "bleedbox"
-css: "abcpdf-docs.css"
----
-
 # BleedBox Property
 
 | Type | Default Value | Read Only | Description | 

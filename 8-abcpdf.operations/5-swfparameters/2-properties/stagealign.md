@@ -1,8 +1,3 @@
----
-title: "stagealign"
-css: "abcpdf-docs.css"
----
-
 # StageAlign Property
 
 | Type | Default | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "1-certificatecollection"
-css: "abcpdf-docs.css"
----
-
 # CertificateCollection Constructor
 
 CertificateCollection Constructor.

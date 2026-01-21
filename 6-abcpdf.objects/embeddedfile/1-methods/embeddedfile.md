@@ -1,8 +1,3 @@
----
-title: "embeddedfile"
-css: "abcpdf-docs.css"
----
-
 # EmbeddedFile Function
 
 EmbeddedFile Constructor

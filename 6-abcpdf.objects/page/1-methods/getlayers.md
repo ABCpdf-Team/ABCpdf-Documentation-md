@@ -1,8 +1,3 @@
----
-title: "getlayers"
-css: "abcpdf-docs.css"
----
-
 # GetLayers Function
 
 Gets all the content Layers for the page.

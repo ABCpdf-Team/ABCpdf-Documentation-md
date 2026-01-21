@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # MinimumBitDepthElement Class
 
 This class represents the minimum bit depth dictionary. This is definitively detailed in:.

@@ -1,8 +1,3 @@
----
-title: "addids"
-css: "abcpdf-docs.css"
----
-
 # AddIDs Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "01-source"
-css: "abcpdf-docs.css"
----
-
 # Source Property
 
 | Type | Default Value | Read Only | Description | 

@@ -1,8 +1,3 @@
----
-title: "addtags"
-css: "abcpdf-docs.css"
----
-
 # AddTags Property
 
 | Type | Default Value | Read Only | Description | 

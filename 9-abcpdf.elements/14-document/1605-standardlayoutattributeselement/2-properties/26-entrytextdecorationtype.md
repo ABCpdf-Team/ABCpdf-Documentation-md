@@ -1,8 +1,3 @@
----
-title: "26-entrytextdecorationtype"
-css: "abcpdf-docs.css"
----
-
 # EntryTextDecorationType Property
 
 | Type | Default Value | Read Only | Description | 

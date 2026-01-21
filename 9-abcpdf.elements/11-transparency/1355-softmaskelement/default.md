@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # SoftMaskElement Class
 
 This class represents the soft-mask dictionary. This is definitively detailed in:.

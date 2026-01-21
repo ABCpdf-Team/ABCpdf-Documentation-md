@@ -1,8 +1,3 @@
----
-title: "default"
-css: "abcpdf-docs.css"
----
-
 # SoftwareIdentifierElement Class
 
 This class represents the software identifier dictionary. This is definitively detailed in:.

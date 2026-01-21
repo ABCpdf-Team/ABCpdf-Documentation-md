@@ -1,8 +1,3 @@
----
-title: "01-patterncolorspaceelement"
-css: "abcpdf-docs.css"
----
-
 # PatternColorSpaceElement Function
 
 Create a new [PatternColorSpaceElement](../default.md).
