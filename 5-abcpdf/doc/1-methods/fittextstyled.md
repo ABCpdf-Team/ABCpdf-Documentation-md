@@ -1,55 +1,34 @@
----
-title: "fittextstyled"
-css: "abcpdf-docs.css"
----
+# FitTextStyled Function
 
-|  |  | FitTextStyled Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Fit a block of styled text into the current rectangle. |  |  | 
+Fit a block of styled text into the current rectangle.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp int FitTextStyled(string text) ``` [Visual Basic] ``` Function FitTextStyled(text As String) As Integer ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+int FitTextStyled(string text)
+```
+
+[Visual Basic]
+
+```vb
+Function FitTextStyled(text As String) As Integer
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| text | The HTML to be added to the page. | 
-| return | The Object ID of the newly added Text Object. | 
+| text | The HTML to be added to the page. |
+| return | The Object ID of the newly added Text Object. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Fit a block of styled text into the current rectangle on the current page. This function is similar to AddTextStyled but can be used in situations in which you have a set area into which you know your text should be fitted. The call will take the base text supplied and scale it appropriately until it fits as exactly as possible into the current Rect. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Fit a block of styled text into the current rectangle on the current page.
 
-</TD></TR></TBODY></TABLE>
+This function is similar to [AddTextStyled](addtextstyled.md) but can be used in situations in which you have a set area into which you know your text should be fitted. The call will take the base text supplied and scale it appropriately until it fits as exactly as possible into the current [Rect](2-properties/rect.md).
+
+## Example
+
+None

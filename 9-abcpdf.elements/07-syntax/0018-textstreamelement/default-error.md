@@ -1,0 +1,2 @@
+# TextStreamElement Class
+

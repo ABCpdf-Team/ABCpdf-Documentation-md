@@ -1,54 +1,29 @@
----
-title: "01-resorcerer"
-css: "abcpdf-docs.css"
----
+# Resorcerer Function
 
-|  |  | Resorcerer Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Create a new Resorcerer. |  |  | 
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp Resorcerer() ``` [Visual Basic] ``` Resorcerer() ``` |  |  | 
-| --- | --- | --- |
+[C#]
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+```csharp
+<a href="../default.htm">Resorcerer</a>()
+```
+
+[Visual Basic]
+
+```vb
+<a href="../default.htm">Resorcerer</a>()
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| none |  | 
+| none |  |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Create a new Resorcerer. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Create a new [Resorcerer](default.md).
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

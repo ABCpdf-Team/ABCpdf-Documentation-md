@@ -1,41 +1,17 @@
----
-title: "04-entryfb"
-css: "abcpdf-docs.css"
----
+# EntryFB Property
 
-|  |  | EntryFB Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp bool? ``` [Visual Basic] `Boolean?` | null | No | Represents the "FB" entry of the icon fit dictionary object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "FB" entry of the icon fit dictionary object. It is an optional entry defined as part of the PDF 1.5 specification. It contains a bool representing a PDF boolean object. The PDF specification states that this item assumes a value of false if no value has been provided. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 247, page 463. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 250, page 561. |  |  | 
-| --- | --- | --- |
+Represents the "FB" entry of the icon fit dictionary object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is an optional entry defined as part of the PDF 1.5 specification.
 
-</td>
-  </tr>
-</table>
+It contains a bool representing a PDF boolean object.
+
+The PDF specification states that this item assumes a value of false if no value has been provided.
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 247, page 463.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 250, page 561.

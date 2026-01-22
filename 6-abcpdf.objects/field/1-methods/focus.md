@@ -1,54 +1,37 @@
----
-title: "focus"
-css: "abcpdf-docs.css"
----
+# Focus Function
 
-|  |  | Focus Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Prepare document for drawing at the field location. |  |  | 
+Prepare document for drawing at the field location.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp bool Focus() ``` [Visual Basic]`Function Focus() As Boolean` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+bool Focus()
+```
+
+[Visual Basic]
+
+```vb
+Function Focus() As Boolean
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| return | True if the focus operation was successful. | 
+| return | True if the focus operation was successful. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Use this method to focus on the field. This prepares the document for drawing at the field location. If the operation was successful then the function returns true. If the field has no visible location it will return false. The Doc.Page, Doc.Rect and Doc.Transform may all be changed as a result of calling this method. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Also see example code in: ABCpdf eForm Placeholder Example. |  |  | 
-| --- | --- | --- |
+Use this method to focus on the field.
 
-</TD></TR></TBODY></TABLE>
+This prepares the document for drawing at the field location.
+
+If the operation was successful then the function returns true. If the field has no visible location it will return false.
+
+The [Doc.Page](5-abcpdf/doc/2-properties/page.md) [Doc.Rect](5-abcpdf/doc/2-properties/rect.md) and [Doc.Transform](5-abcpdf/doc/2-properties/transform.md) may all be changed as a result of calling this method.
+
+## Example
+
+Also see example code in: [ABCpdf eForm Placeholder Example](4-examples/15-eform2.md).

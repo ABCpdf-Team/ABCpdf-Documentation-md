@@ -1,41 +1,13 @@
----
-title: "04-entryocsps"
-css: "abcpdf-docs.css"
----
+# EntryOCSPs Property
 
-|  |  | EntryOCSPs Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp ArrayElementStreamElement> ``` [Visual Basic] `ArrayElementStreamElement>` | null | No | Represents the "OCSPs" entry of the document security store dictionary object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "OCSPs" entry of the document security store dictionary object. It is an optional entry defined as part of the PDF 2.0 specification. It contains an array which contains StreamElements. For definitive details see:. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 261, page 583. |  |  | 
-| --- | --- | --- |
+Represents the "OCSPs" entry of the document security store dictionary object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is an optional entry defined as part of the PDF 2.0 specification.
 
-</td>
-  </tr>
-</table>
+It contains an array which contains StreamElements.
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 261, page 583.

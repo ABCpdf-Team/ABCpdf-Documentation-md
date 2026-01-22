@@ -1,41 +1,19 @@
----
-title: "07-entrytm"
-css: "abcpdf-docs.css"
----
+# EntryTM Property
 
-|  |  | EntryTM Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp string ``` [Visual Basic] `string` | null | No | Represents the "TM" entry of the field dictionary object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "TM" entry of the field dictionary object. It is an optional entry defined as part of the PDF 1.3 specification. It contains a string representing a PDF string object. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 220, page 433. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 226, page 527. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 222, page 434. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 228, page 529. |  |  | 
-| --- | --- | --- |
+Represents the "TM" entry of the field dictionary object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is an optional entry defined as part of the PDF 1.3 specification.
 
-</td>
-  </tr>
-</table>
+It contains a string representing a PDF string object.
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 220, page 433.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 226, page 527.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 222, page 434.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 228, page 529.

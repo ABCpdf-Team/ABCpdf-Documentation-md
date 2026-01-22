@@ -1,41 +1,10 @@
----
-title: "30-glyphwidth"
-css: "abcpdf-docs.css"
----
+# GlyphWidth Property
 
-|  |  | GlyphWidth Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp double[] ``` [Visual Basic] `Double[]` | null | No | The width of a glyph. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| The width of a glyph. This property is only used in Type 3 fonts. |  |  | 
-| --- | --- | --- |
+The width of a glyph. This property is only used in Type 3 fonts.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+## Example
 
-</td>
-  </tr>
-</table>
+None.
+

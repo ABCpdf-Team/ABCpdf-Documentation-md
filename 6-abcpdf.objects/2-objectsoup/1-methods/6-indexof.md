@@ -1,55 +1,32 @@
----
-title: "6-indexof"
-css: "abcpdf-docs.css"
----
+# IndexOf Function
 
-|  |  | IndexOf Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Determines the index of a specific object. |  |  | 
+Determines the index of a specific object.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp int IndexOf(IndirectObject value) ``` [Visual Basic] ``` Function IndexOf(value As IndirectObject) As Integer ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+int IndexOf(<a href="../../1-indirectobject/default.htm">IndirectObject</a> value)
+```
+
+[Visual Basic]
+
+```vb
+Function IndexOf(value As <a href="../../1-indirectobject/default.htm">IndirectObject</a>) As Integer
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| value | The object to locate in the Soup. | 
-| return | If found, the index of value, otherwise -1. | 
+| value | The object to locate in the Soup. |
+| return | If found, the index of value, otherwise -1. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Determines the index of a specific IndirectObject in the Soup. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Determines the index of a specific IndirectObject in the Soup.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

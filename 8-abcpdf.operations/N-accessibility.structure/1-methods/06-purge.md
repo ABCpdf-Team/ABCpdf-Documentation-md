@@ -1,54 +1,45 @@
----
-title: "06-purge"
-css: "abcpdf-docs.css"
----
+# Purge Function
 
-|  |  | Purge Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| The tagged structure of the document references items displayed on the page. |  |  | 
+The tagged structure of the document references items displayed on the page.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp void Purge(string[] removeEmptyTagsOfType) ``` [Visual Basic] ``` Function Purge(removeEmptyTagsOfType() As string) ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+void Purge(string[] removeEmptyTagsOfType)
+```
+
+[Visual Basic]
+
+```vb
+Function Purge(removeEmptyTagsOfType() As string)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| removeEmptyTagsOfType | The types of empty tags that should be removed. For example "P". | 
+| removeEmptyTagsOfType | The types of empty tags that should be removed. For example "P". |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| The tagged structure of the document references items displayed on the page. If the page is changed then the tagged structure may reference items that no longer exist. This method scans through the document removing any such unreferenced tags. Optionally you can also remove empty tags of specified kinds. For example if content is removed from a paragraph the paragraph may end up empty. A paragraph with no content is not really a paragraph any more so you may wish to remove it. In contrast you may not want to remove empty table cells because they may have relevance in. the context of other cells in their column or row. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+The tagged structure of the document references items displayed on the page.
 
-</TD></TR></TBODY></TABLE>
+If the page is changed then the tagged structure may reference items that no longer exist.
+
+This method scans through the document removing any such unreferenced tags.
+
+Optionally you can also remove empty tags of specified kinds.
+
+For example if content is removed from a paragraph the paragraph may end up empty.
+
+A paragraph with no content is not really a paragraph any more so you may wish to remove it.
+
+In contrast you may not want to remove empty table cells because they may have relevance in.
+
+the context of other cells in their column or row.
+
+## Example
+
+None

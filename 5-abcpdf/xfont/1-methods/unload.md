@@ -1,40 +1,30 @@
----
-title: "unload"
-css: "abcpdf-docs.css"
----
+# Unload&nbsp;Function
 
-|  |  | Unload Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Unloads a font so that it is no longer available. |  |  | 
+Unloads a font so that it is no longer available.
 
-</TD></TR> 
-<TR> <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD><TD width=14>&nbsp;</TD><TD vAlign=top> 
+## Syntax
 
-| **[C#]** ```csharp void Unload() ``` [Visual Basic] `Sub Unload()` |  |  | 
-| --- | --- | --- |
+[C#]
 
-</TD></TR> 
-<TR> <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD><TD width=14>&nbsp;</TD><TD vAlign=top> 
+```csharp
+void&nbsp;Unload()
+```
 
-| Name | Description | 
+[Visual Basic]
+
+```vb
+Sub Unload()
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| none |  | 
+| none |  |
 
-</TD><TD width=60>&nbsp;</TD><TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR> 
-<TR> <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD><TD width=14>&nbsp;</TD><TD vAlign=top> 
+## Notes
 
-| Unloads a font so that it is no longer available. It is important that you ensure that the fonts is not being used by ABCpdf at the point that it is unloaded. This means you need to consider if other threads might be constructing PDF documents that are making use of the font. Unloading a font which is in use may result in unpredictable behavior or output. |  |  | 
-| --- | --- | --- |
+Unloads a font so that it is no longer available.
 
-</TD></TR> 
-<TR> <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD><TD width=14>&nbsp;</TD><TD vAlign=top> 
+It is important that you ensure that the fonts is not being used by ABCpdf at the point that it is unloaded. This means you need to consider if other threads might be constructing PDF documents that are making use of the font. Unloading a font which is in use may result in unpredictable behavior or output.
 
-| None. |  |  | 
-| --- | --- | --- |
-
-</TD></TR></TBODY></TABLE>

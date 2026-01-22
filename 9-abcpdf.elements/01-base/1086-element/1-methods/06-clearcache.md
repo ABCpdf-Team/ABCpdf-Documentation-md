@@ -1,54 +1,37 @@
----
-title: "06-clearcache"
-css: "abcpdf-docs.css"
----
+# ClearCache Function
 
-|  |  | ClearCache Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Clears any cached Element items. |  |  | 
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp virtual void ClearCache() ``` [Visual Basic] ``` Overridable Function ClearCache() As void ``` |  |  | 
-| --- | --- | --- |
+[C#]
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+```csharp
+virtual void ClearCache()
+```
+
+[Visual Basic]
+
+```vb
+Overridable Function ClearCache() As void
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| none |  | 
+| none |  |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Clears any cached Element items. Elements in properties are cached so that the Element you assign to a property is the same as the one you retrieve when you later get that property. However it is possible that sometimes this behavior is not what you want. For example suppose you assign a DeviceColorSpaceElement to a property and then later change the underlying Atom so that it is really a CalRGBColorSpace. In this situation the retrieved ColorSpaceElement will continue to be interpreted as a DeviceColorSpaceElement and an invalid one at that. What you really want to do here is to clear the cached Element thus allowing the property to be regenerated as a CalRGBColorSpace. This function clears the cached Elements to allow this to happen. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Clears any cached [Element](default.md) items.
 
-</TD></TR></TBODY></TABLE>
+[Elements](default.md) in properties are cached so that the [Element](default.md) you assign to a property is the same as the one you retrieve when you later get that property.
+
+However it is possible that sometimes this behavior is not what you want.
+
+For example suppose you assign a [DeviceColorSpaceElement](08-graphics/0021-devicecolorspaceelement/default.md) to a property and then later change the underlying [Atom](2-properties/03-atom.md) so that it is really a CalRGBColorSpace.
+
+In this situation the retrieved [ColorSpaceElement](08-graphics/0020-colorspaceelement/default.md) will continue to be interpreted as a [DeviceColorSpaceElement](08-graphics/0021-devicecolorspaceelement/default.md) and an invalid one at that.
+
+What you really want to do here is to clear the cached [Element](default.md) thus allowing the property to be regenerated as a CalRGBColorSpace.
+
+This function clears the cached [Elements](default.md) to allow this to happen.

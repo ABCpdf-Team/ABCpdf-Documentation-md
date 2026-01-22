@@ -1,0 +1,2 @@
+# CalRGBColorSpaceAttributesElement Class
+

@@ -1,56 +1,33 @@
----
-title: "01-popupannotation"
-css: "abcpdf-docs.css"
----
+# PopupAnnotation Function
 
-|  |  | PopupAnnotation Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Add popup annotation to the current page of the doc. |  |  | 
+Add popup annotation to the current page of the doc.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp PopupAnnotation(Doc doc, XRect rect, int parentID) ``` [Visual Basic] ``` PopupAnnotation(doc As Doc, rect As XRect, parentID As int) ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+<a href="../default.htm">PopupAnnotation</a>(Doc doc, XRect rect, int parentID)
+```
+
+[Visual Basic]
+
+```vb
+<a href="../default.htm">PopupAnnotation</a>(doc As Doc, rect As XRect, parentID As int)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| doc | Doc | 
-| rect | Annotation rectangle | 
-| parentID | ID of the parent annotation | 
+| doc | Doc |
+| rect | Annotation rectangle |
+| parentID | ID of the parent annotation |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Add popup annotation to the current page of the doc. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Add popup annotation to the current page of the doc.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

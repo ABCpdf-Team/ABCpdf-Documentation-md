@@ -1,0 +1,2 @@
+# StampAnnotation Class
+

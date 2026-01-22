@@ -1,56 +1,33 @@
----
-title: "01-polylineannotation"
-css: "abcpdf-docs.css"
----
+# PolylineAnnotation Function
 
-|  |  | PolylineAnnotation Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Add polyline annotation to the current page of the doc. |  |  | 
+Add polyline annotation to the current page of the doc.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp PolylineAnnotation(Doc doc, double[] vertices, XColor borderColor) ``` [Visual Basic] ``` PolylineAnnotation(doc As Doc, vertices As Double(), borderColor As XColor) ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+<a href="../default.htm">PolylineAnnotation</a>(Doc doc, double[] vertices, XColor borderColor)
+```
+
+[Visual Basic]
+
+```vb
+<a href="../default.htm">PolylineAnnotation</a>(doc As Doc, vertices As Double(), borderColor As XColor)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| doc | Doc | 
-| vertices | Polyline vertices | 
-| borderColor | Line color | 
+| doc | Doc |
+| vertices | Polyline vertices |
+| borderColor | Line color |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Add polyline annotation to the current page of the doc. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Add polyline annotation to the current page of the doc.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

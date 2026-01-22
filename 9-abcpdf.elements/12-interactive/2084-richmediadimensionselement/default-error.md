@@ -1,0 +1,2 @@
+# RichMediaDimensionsElement Class
+

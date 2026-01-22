@@ -1,54 +1,29 @@
----
-title: "01-rewriterule"
-css: "abcpdf-docs.css"
----
+# RewriteRule Function
 
-|  |  | RewriteRule Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Path rewrite rule constructor. |  |  | 
+Path rewrite rule constructor.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp RewriteRule() RewriteRule(string regex) ``` [Visual Basic] ``` RewriteRule() RewriteRule(string regex) ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+<a href="../default.htm">RewriteRule</a>()<a href="../default.htm">RewriteRule</a>(string regex)
+```
+
+[Visual Basic]
+
+```vb
+<a href="../default.htm">RewriteRule</a>()<a href="../default.htm">RewriteRule</a>(string regex)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| none |  | 
+| none |  |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Path rewrite rule constructor. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+## Example
 
-</TD></TR></TBODY></TABLE>
+None

@@ -1,55 +1,34 @@
----
-title: "installredistributionlicense"
-css: "abcpdf-docs.css"
----
+# InstallRedistributionLicense Method
 
-|  |  | InstallRedistributionLicense Method |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Install a redistribution license. |  |  | 
+Install a redistribution license.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp bool InstallRedistributionLicense(string license) ``` [Visual Basic]`Function InstallRedistributionLicense(license As String) As Boolean` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+bool InstallRedistributionLicense(string license)
+```
+
+[Visual Basic]
+
+```vb
+Function InstallRedistributionLicense(license As String) As Boolean
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| license | The license to install. | 
-| return | True if a license is installed, otherwise false. | 
+| license | The license to install. |
+| return | True if a license is installed, otherwise false. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Use this method to install a redistribution license. Call this method at application startup before any ABCpdf objects have been created. You only need to call this method once though calling it additional times will not cause problems. Any license installed using this method will remain available to the current process (or application pool) until it unloads. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| See Manual Installation. |  |  | 
-| --- | --- | --- |
+Use this method to install a redistribution license. Call this method at application startup before any ABCpdf objects have been created. You only need to call this method once though calling it additional times will not cause problems.
 
-</TD></TR></TBODY></TABLE>
+Any license installed using this method will remain available to the current process (or application pool) until it unloads.
+
+## Example
+
+See [Manual Installation](../../../3-concepts/6-installation.htm).

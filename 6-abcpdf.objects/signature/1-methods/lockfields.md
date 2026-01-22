@@ -1,54 +1,33 @@
----
-title: "lockfields"
-css: "abcpdf-docs.css"
----
+# LockFields Function
 
-|  |  | LockFields Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Lock document fields to stop them being modified. |  |  | 
+Lock document fields to stop them being modified.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp void LockFields() ``` [Visual Basic]`Sub LockFields()` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+void LockFields()
+```
+
+[Visual Basic]
+
+```vb
+Sub LockFields()
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| none |  | 
+| none |  |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Lock document fields to stop them being modified. This produces a "Document Locked by Signature" message in the revision history and the document can no longer be modified. This function is known in Acrobat as 'Lock document after signing'. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Lock document fields to stop them being modified.
 
-</TD></TR></TBODY></TABLE>
+This produces a "Document Locked by Signature" message in the revision history and the document can no longer be modified. This function is known in Acrobat as 'Lock document after signing'.
+
+## Example
+
+None

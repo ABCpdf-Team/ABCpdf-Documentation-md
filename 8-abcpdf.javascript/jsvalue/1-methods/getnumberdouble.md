@@ -1,54 +1,31 @@
----
-title: "getnumberdouble"
-css: "abcpdf-docs.css"
----
+# GetNumberDouble Method
 
-|  |  | GetNumberDouble Method |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Gets the Double value of this number. |  |  | 
+Gets the Double value of this number.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp double GetNumberDouble() ``` [Visual Basic]`Function GetNumberDouble() As Double` `may throw Exception()` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+double GetNumberDouble()
+```
+
+[Visual Basic]
+
+```vb
+Function GetNumberDouble() As Double
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| return | The Double value. | 
+| return | The Double value. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| The method returns the Double value of this number. It fails if this value is not a number. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+The method returns the Double value of this number. It fails if this value is not a number.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

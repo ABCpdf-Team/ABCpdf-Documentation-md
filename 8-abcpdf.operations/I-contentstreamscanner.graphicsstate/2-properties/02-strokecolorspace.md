@@ -1,41 +1,14 @@
----
-title: "02-strokecolorspace"
-css: "abcpdf-docs.css"
----
+# StrokeColorSpace Property
 
-|  |  | StrokeColorSpace Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp string ``` [Visual Basic] `string` | null | No | The name of the current stroking color space. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| The name of the current stroking color space. This may be one of the standard color spaces - DeviceGray, DeviceRGB, DeviceCMYK or Pattern. If it is not a standard color space then it is the name of a resource in the ColorSpace subdictionary. |  |  | 
-| --- | --- | --- |
+The name of the current stroking color space.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+This may be one of the standard color spaces - DeviceGray, DeviceRGB, DeviceCMYK or Pattern.
 
-</td>
-  </tr>
-</table>
+If it is not a standard color space then it is the name of a resource in the ColorSpace subdictionary.
+
+## Example
+
+None.
+

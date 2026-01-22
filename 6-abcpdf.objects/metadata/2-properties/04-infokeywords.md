@@ -1,41 +1,12 @@
----
-title: "04-infokeywords"
-css: "abcpdf-docs.css"
----
+# InfoKeywords Property
 
-|  |  | InfoKeywords Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp string ``` [Visual Basic] `string` | null | No | The Keywords entry within the Metadata | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| The Keywords entry within the Metadata. This corresponds to the pdf:Keywords entry. |  |  | 
-| --- | --- | --- |
+The Keywords entry within the Metadata.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+This corresponds to the pdf:Keywords entry.
 
-</td>
-  </tr>
-</table>
+## Example
+
+None.
+

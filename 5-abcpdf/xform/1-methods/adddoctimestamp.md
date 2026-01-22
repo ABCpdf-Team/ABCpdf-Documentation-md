@@ -1,54 +1,65 @@
----
-title: "adddoctimestamp"
-css: "abcpdf-docs.css"
----
+# AddDocTimestamp Function
 
-|  |  | AddDocTimestamp Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Adds a Signature field compatible with a DocTimeStamp. |  |  | 
+Adds a Signature field compatible with a DocTimeStamp.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp Signature AddDocTimestamp() Signature AddDocTimestamp(string name) ``` [Visual Basic] ``` Function AddDocTimestamp() As Signature Function AddDocTimestamp(name As string) As Signature ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+Signature AddDocTimestamp()Signature AddDocTimestamp(string name)
+```
+
+[Visual Basic]
+
+```vb
+Function AddDocTimestamp() As SignatureFunction AddDocTimestamp(name As string) As Signature
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| name | The name of the document timestamp field. If no name is specified a unique name will be added. | 
+| name | The name of the document timestamp field. If no name is specified a unique name will be added. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Adds a Signature field compatible with a document timestamp. Add an RFC 3161 compliant document timestamp field to the form. To sign the timestamp you need to specify either a TimestampServiceUrl or a CustomSigner and then call Timestamp. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| See the Annotations example project for a full example. However the following is a code snippet showing how this might be used. [C#] ```csharp using var doc = new Doc(); // ... set up the doc perhaps by reading a PDF if (doc.PageCount == 0) doc.Page = doc.AddPage(); var sig = doc.Form.AddDocTimestamp("Timestamp"); var uri = new Uri("http://timestamp.digicert.com"); var oid = new Oid(CryptoConfig.MapNameToOID("SHA256")); sig.TimestampServiceUrl = uri; sig.Timestamp(oid, 0); ``` [Visual Basic] ```vbnet Dim doc = New Doc() ' ... set up the doc perhaps by reading a PDF If doc.PageCount = 0 Then doc.Page = doc.AddPage() End If Dim sig = doc.Form.AddDocTimestamp("Timestamp") Dim uri As New Uri("http://timestamp.digicert.com") Dim oid As New Oid(CryptoConfig.MapNameToOID("SHA256")) sig.TimestampServiceUrl = uri sig.Timestamp(oid, 0) ``` |  |  | 
-| --- | --- | --- |
+Adds a Signature field compatible with a document timestamp.
 
-</TD></TR></TBODY></TABLE>
+Add an RFC 3161 compliant document timestamp field to the form.
+
+To sign the timestamp you need to specify either a TimestampServiceUrl or a CustomSigner and then call Timestamp.
+
+## Example
+
+See the Annotations example project for a full example. However the following is a code snippet showing how this might be used.
+
+[C#]
+
+```csharp
+using var doc = new Doc();
+// ... set up the doc perhaps by reading a PDF
+if (doc.PageCount == 0)
+  doc.Page = doc.AddPage();
+var sig = doc.Form.AddDocTimestamp("Timestamp");
+var uri = new Uri("http://timestamp.digicert.com");
+var oid = new Oid(CryptoConfig.MapNameToOID("SHA256"));
+sig.TimestampServiceUrl = uri;
+sig.Timestamp(oid, 0);
+```
+
+[Visual Basic]
+
+```vb
+Dim doc = New Doc()
+' ... set up the doc perhaps by reading a PDF
+If doc.PageCount = 0 Then
+  doc.Page = doc.AddPage()
+End If
+Dim sig = doc.Form.AddDocTimestamp("Timestamp")
+Dim uri As New Uri("http://timestamp.digicert.com")
+Dim oid As New Oid(CryptoConfig.MapNameToOID("SHA256"))
+sig.TimestampServiceUrl = uri
+sig.Timestamp(oid, 0)
+```
+

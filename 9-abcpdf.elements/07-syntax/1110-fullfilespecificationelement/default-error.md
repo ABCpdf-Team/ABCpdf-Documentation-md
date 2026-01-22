@@ -1,0 +1,2 @@
+# FullFileSpecificationElement Class
+

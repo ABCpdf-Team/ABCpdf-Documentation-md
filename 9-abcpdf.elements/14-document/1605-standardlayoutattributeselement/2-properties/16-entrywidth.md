@@ -1,41 +1,35 @@
----
-title: "16-entrywidth"
-css: "abcpdf-docs.css"
----
+# EntryWidth Property
 
-|  |  | EntryWidth Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp Element ``` [Visual Basic] `Element` | null | No | Represents the "Width" entry of the standard layout attributes object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "Width" entry of the standard layout attributes object. It is an optional entry defined as part of the PDF 1.0 specification. This property may contain one of two different types:. 1) A double representing a PDF numeric object. 2) A string representing a PDF name object. The PDF specification states that this item assumes a value of "Auto" if no value has been provided. If provided, this item must always take the value "Auto". For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 343, page 597. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 378, page 770. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 344, page 600. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 379, page 774. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 345, page 604. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 380, page 778. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 346, page 608. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 381, page 782. |  |  | 
-| --- | --- | --- |
+Represents the "Width" entry of the standard layout attributes object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is an optional entry defined as part of the PDF 1.0 specification.
 
-</td>
-  </tr>
-</table>
+This property may contain one of two different types:.
+
+1) A double representing a PDF numeric object.
+
+2) A string representing a PDF name object.
+
+The PDF specification states that this item assumes a value of "Auto" if no value has been provided.
+
+If provided, this item must always take the value "Auto".
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 343, page 597.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 378, page 770.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 344, page 600.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 379, page 774.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 345, page 604.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 380, page 778.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 346, page 608.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 381, page 782.

@@ -1,55 +1,32 @@
----
-title: "6-indexof"
-css: "abcpdf-docs.css"
----
+# IndexOf Function
 
-|  |  | IndexOf Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Determines the index of a specific item. |  |  | 
+Determines the index of a specific item.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp int IndexOf(Field value) ``` [Visual Basic] ``` Function IndexOf(value As Field) As Integer ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+int IndexOf(<a href="../../field/default.htm">Field</a> value)
+```
+
+[Visual Basic]
+
+```vb
+Function IndexOf(value As <a href="../../field/default.htm">Field</a>) As Integer
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| value | The object to locate in the collection. | 
-| return | If found, the index of value, otherwise -1. | 
+| value | The object to locate in the collection. |
+| return | If found, the index of value, otherwise -1. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Determines the index of a specific item in the collection. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Determines the index of a specific item in the collection.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

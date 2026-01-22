@@ -1,54 +1,25 @@
----
-title: "01-nameornumbertree_tkey-tval_"
-css: "abcpdf-docs.css"
----
+# NameOrNumberTree&lt;TKey, TVal&gt; Function
 
-|  |  | NameOrNumberTree Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| NameOrNumberTree constructor. |  |  | 
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp NameOrNumberTree(TreeNodeElement root) ``` [Visual Basic] ``` NameOrNumberTree(root As TreeNodeElement) ``` |  |  | 
-| --- | --- | --- |
+[C#]
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+```csharp
+<a href="../default.htm">NameOrNumberTree</a>&lt;TKey, TVal&gt;(<a href="../../../07-syntax/0019-treenodeelement/default.htm">TreeNodeElement</a> root)
+```
+
+[Visual Basic]
+
+```vb
+<a href="../default.htm">NameOrNumberTree</a>&lt;TKey, TVal&gt;(root As <a href="../../../07-syntax/0019-treenodeelement/default.htm">TreeNodeElement</a>)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| root | The root node for the tree. | 
+| root | The root node for the tree. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| NameOrNumberTree constructor. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
-
-</TD></TR></TBODY></TABLE>
+[NameOrNumberTree](default.md) constructor.

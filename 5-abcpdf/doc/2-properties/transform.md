@@ -1,41 +1,22 @@
----
-title: "transform"
-css: "abcpdf-docs.css"
----
+# Transform Property
 
-|  |  | Transform Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp XTransform ``` [Visual Basic] `XTransform` | No transformation. | No | The current transformation for drawing. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| This property determines the current world space transform. It affects any drawing using the AddText, AddImage, AddLine, FrameRect and FillRect methods. Transforms are general operations which encompass rotation, translation, magnification and skewing or a combination of these. Note that the order in which transforms are applied is significant: a rotation followed by a translation is not the same as a translation followed by a rotation. A world space transform is not same an object transform. You are changing the coordinate system - not the objects you're inserting. Note that transforms operate on the underlying PDF coordinate space rather than any abstraction specified by the Units and TopDown properties. If you are using transforms you will find it easiest to work in the native PDF coordinate space. |  |  | 
-| --- | --- | --- |
+This property determines the current world space transform. It affects any drawing using the AddText, AddImage, AddLine, FrameRect and FillRect methods.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| The following code creates a PDF document and adds some text and a rectangle rotated at 45 degrees anti-clockwise around the middle of the document. [C#] ```csharp using var doc = new Doc(); string text = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit."; text = text + "\r\n" + text + "\r\n" + text + "\r\n"; doc.Rect.Magnify(0.5, 0.5); doc.Rect.Position(151, 198); doc.FrameRect(); doc.Transform.Rotate(45, 302, 396); doc.FrameRect(); doc.FontSize = 24; doc.AddText(text); doc.Save(Server.MapPath("doctransform.pdf")); ``` [Visual Basic] ```vbnet Using doc As New Doc() Dim theText As String theText = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit." theText = theText + vbCr & vbLf + theText + vbCr & vbLf + theText + vbCr & vbLf doc.Rect.Magnify(0.5, 0.5) doc.Rect.Position(151, 198) doc.FrameRect() doc.Transform.Rotate(45, 302, 396) doc.FrameRect() doc.FontSize = 24 doc.AddText(theText) doc.Save(Server.MapPath("doctransform.pdf")) End Using ``` doctransform.pdfAlso see example code in: ABCpdf Landscape Example, Doc AddGrid Function, Doc AddXObject Function, XTransform Invert Function, XTransform Magnify Function, XTransform Reset Function, XTransform Rotate Function, XTransform Skew Function, XTransform Translate Function, XTransform AngleUnit�Property, FontObject Widths Property, Page GetBitmap Function, Page MakeFormXObject Function, Page Rotation Property, XpsImportOperation Import Function. |  |  | 
-| --- | --- | --- |
+Transforms are general operations which encompass rotation, translation, magnification and skewing or a combination of these. Note that the order in which transforms are applied is significant: a rotation followed by a translation is not the same as a translation followed by a rotation.
 
-</td>
-  </tr>
-</table>
+A world space transform is not same an object transform. You are changing the coordinate system - not the objects you're inserting.
+
+Note that transforms operate on the underlying PDF coordinate space rather than any abstraction specified by the Units and TopDown properties. If you are using transforms you will find it easiest to work in the native PDF coordinate space.
+
+## Example
+
+The following code creates a PDF document and adds some text and a rectangle rotated at 45 degrees anti-clockwise around the middle of the document.
+
+[C#] using var doc = new Doc(); string text = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit."; text = text + "\r\n" + text + "\r\n" + text + "\r\n"; doc.Rect.Magnify(0.5, 0.5); doc.Rect.Position(151, 198); doc.FrameRect(); doc.Transform.Rotate(45, 302, 396); doc.FrameRect(); doc.FontSize = 24; doc.AddText(text); doc.Save(Server.MapPath("doctransform.pdf")); [Visual Basic] Using doc As New Doc() Dim theText As String theText = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur. Hi omnes lingua, institutis, legibus inter se differunt. Gallos ab Aquitanis Garumna flumen, a Belgis Matrona et Sequana dividit." theText = theText + vbCr & vbLf + theText + vbCr & vbLf + theText + vbCr & vbLf doc.Rect.Magnify(0.5, 0.5) doc.Rect.Position(151, 198) doc.FrameRect() doc.Transform.Rotate(45, 302, 396) doc.FrameRect() doc.FontSize = 24 doc.AddText(theText) doc.Save(Server.MapPath("doctransform.pdf")) End Using
+
+doctransform.pdf
+
+Also see example code in: ABCpdf Landscape Example, Doc AddGrid Function, Doc AddXObject Function, XTransform Invert Function, XTransform Magnify Function, XTransform Reset Function, XTransform Rotate Function, XTransform Skew Function, XTransform Translate Function, XTransform AngleUnit�Property, FontObject Widths Property, Page GetBitmap Function, Page MakeFormXObject Function, Page Rotation Property, XpsImportOperation Import Function.
+

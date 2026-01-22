@@ -1,55 +1,34 @@
----
-title: "12-reportexception"
-css: "abcpdf-docs.css"
----
+# ReportException Function
 
-|  |  | ReportException Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Called to report an Exception that was thrown during validation. |  |  | 
+Called to report an Exception that was thrown during validation.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp virtual void ReportException(Element element, Exception ex) ``` [Visual Basic] ``` Overridable Function ReportException(element As Element, ex As Exception) As void ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+virtual void ReportException(<a href="../../1086-element/default.htm">Element</a> element, Exception ex)
+```
+
+[Visual Basic]
+
+```vb
+Overridable Function ReportException(element As <a href="../../1086-element/default.htm">Element</a>, ex As Exception) As void
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| element | The Element which was being processed. | 
-| ex | The Exception which was thrown. | 
+| element | The Element which was being processed. |
+| ex | The Exception which was thrown. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Called to report an Exception that was thrown during validation. In general you do not want the validation of one Element to affect another. So if an Exception is thrown during the validation of one Element, you want this to be reported, but then for validation to continue. In the event that this happens, this function will be called. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Called to report an Exception that was thrown during validation.
 
-</TD></TR></TBODY></TABLE>
+In general you do not want the validation of one [Element](1086-element/default.md) to affect another.
+
+So if an Exception is thrown during the validation of one [Element](1086-element/default.md), you want this to be reported, but then for validation to continue.
+
+In the event that this happens, this function will be called.

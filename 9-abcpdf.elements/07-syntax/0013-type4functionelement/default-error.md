@@ -1,0 +1,2 @@
+# Type4FunctionElement Class
+

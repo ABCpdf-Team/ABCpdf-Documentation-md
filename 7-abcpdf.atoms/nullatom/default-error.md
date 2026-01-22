@@ -1,0 +1,2 @@
+# NullAtom Class
+

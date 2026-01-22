@@ -1,0 +1,2 @@
+# PatternColorSpaceElement Class
+

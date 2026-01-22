@@ -1,54 +1,29 @@
----
-title: "04-removeat"
-css: "abcpdf-docs.css"
----
+# RemoveAt Function
 
-|  |  | RemoveAt Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Removes the item at the specified index. |  |  | 
+Removes the item at the specified index.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp virtual void RemoveAt(int index) ``` [Visual Basic] ``` Overridable Function RemoveAt(index As int) As void ``` `ArgumentOutOfRangeException: Thrown if the index provided is not valid.` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+virtual void RemoveAt(int index)
+```
+
+[Visual Basic]
+
+```vb
+Overridable Function RemoveAt(index As int) As void
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| index | The zero-based index of the item to remove. | 
+| index | The zero-based index of the item to remove. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Removes the item at the specified index. When an item is removed the items that follow the removed item, move up to occupy the vacated spot. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Removes the item at the specified index.
 
-</TD></TR></TBODY></TABLE>
+When an item is removed the items that follow the removed item, move up to occupy the vacated spot.

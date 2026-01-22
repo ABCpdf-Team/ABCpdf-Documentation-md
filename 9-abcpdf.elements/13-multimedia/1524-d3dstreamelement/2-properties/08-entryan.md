@@ -1,41 +1,17 @@
----
-title: "08-entryan"
-css: "abcpdf-docs.css"
----
+# EntryAN Property
 
-|  |  | EntryAN Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp D3DAnimationStyleElement ``` [Visual Basic] `D3DAnimationStyleElement` | null | No | Represents the "AN" entry of the 3d stream dictionary object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "AN" entry of the 3d stream dictionary object. It is an optional entry defined as part of the PDF 1.7 specification. It contains a D3DAnimationStyleElement. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 300, page 516. Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 9.35, page 56. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 311, page 645. |  |  | 
-| --- | --- | --- |
+Represents the "AN" entry of the 3d stream dictionary object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is an optional entry defined as part of the PDF 1.7 specification.
 
-</td>
-  </tr>
-</table>
+It contains a D3DAnimationStyleElement.
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 300, page 516.
+
+Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 9.35, page 56.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 311, page 645.

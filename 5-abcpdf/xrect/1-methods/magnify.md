@@ -1,55 +1,67 @@
----
-title: "magnify"
-css: "abcpdf-docs.css"
----
+# Magnify Function
 
-|  |  | Magnify Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Magnifies the rectangle. |  |  | 
+Magnifies the rectangle.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp void Magnify(double x, double y) ``` [Visual Basic] ``` Sub Magnify(x As Double, y As Double) ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+void Magnify(double x, double y)
+```
+
+[Visual Basic]
+
+```vb
+Sub Magnify(x As Double, y As Double)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| x | The horizontal scale factor. | 
-| y | The vertical scale factor. | 
+| x | The horizontal scale factor. |
+| y | The vertical scale factor. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Scales the rectangle width and height by a specified horizontal and vertical amount. When you magnify a rectangle one corner of the rectangle is pinned and the width and height of the rectangle adjusted. The corner which is pinned is indicated by the Pin property. The default pin corner is the bottom left. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| The following code. [C#] ```csharp var rc = new XRect(); rc.String = "20 20 220 120"; Response.Write($"Rect = {rc}"); Response.Write(""); rc.Magnify(0.5, 0.5); Response.Write($"Scale = {rc}"); ``` [Visual Basic] ```vbnet Dim rc As New XRect() rc.String = "20 20 220 120" Response.Write($"Rect = {rc}") Response.Write("") rc.Magnify(0.5, 0.5) Response.Write($"Scale = {rc}") ``` Produces the following output. Rect = 20 20 220 120Scale = 20 20 120 70 Also see example code in: Doc AddImageDoc Function, Doc Transform Property, XImage Selection Property, XRendering AntiAliasText Property, XTextStyle HPos Property, XTextStyle VPos Property, PixMap SetAlpha Function, PixMap ToGrayscale Function. |  |  | 
-| --- | --- | --- |
+Scales the rectangle width and height by a specified horizontal and vertical amount.
 
-</TD></TR></TBODY></TABLE>
+When you magnify a rectangle one corner of the rectangle is pinned and the width and height of the rectangle adjusted. The corner which is pinned is indicated by the [Pin](2-properties/pin.md) property. The default pin corner is the bottom left.
+
+## Example
+
+The following code.
+
+[C#]
+
+```csharp
+var rc = new XRect();
+rc.String = "20 20 220 120";
+Response.Write($"Rect = {rc}");
+Response.Write("&lt;br&gt;");
+rc.Magnify(0.5, 0.5);
+Response.Write($"Scale = {rc}");
+```
+
+[Visual Basic]
+
+```vb
+Dim rc As New XRect()
+rc.String = "20 20 220 120"
+Response.Write($"Rect = {rc}")
+Response.Write("&lt;br&gt;")
+rc.Magnify(0.5, 0.5)
+Response.Write($"Scale = {rc}")
+```
+
+Also see example code in:
+
+* [Doc AddImageDoc Function](doc/1-methods/addimagedoc.md)
+* [Doc Transform Property](doc/2-properties/transform.md)
+* [XImage Selection Property](ximage/2-properties/selection.md)
+* [XRendering AntiAliasText Property](xrendering/2-properties/antialiastext.md)
+* [XTextStyle HPos Property](xtextstyle/2-properties/hpos.md)
+* [XTextStyle VPos Property](xtextstyle/2-properties/vpos.md)
+* [PixMap SetAlpha Function](6-abcpdf.objects/pixmap/1-methods/setalpha.md)
+* [PixMap ToGrayscale Function](6-abcpdf.objects/pixmap/1-methods/tograyscale.md).

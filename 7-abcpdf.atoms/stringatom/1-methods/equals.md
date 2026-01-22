@@ -1,54 +1,33 @@
----
-title: "equals"
-css: "abcpdf-docs.css"
----
+# Equals Function
 
-|  |  | Equals Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Test whether the two StringAtoms are the same |  |  | 
+Test whether the two StringAtoms are the same
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp bool Equals(StringAtom other) ``` [Visual Basic] ``` Function Equals(other As StringAtom) As Boolean ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+bool Equals(<a href="../default.htm">StringAtom</a> other)
+```
+
+[Visual Basic]
+
+```vb
+Function Equals(other As <a href="../default.htm">StringAtom</a>) As Boolean
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| other | The StringAtom to test against. | 
+| other | The StringAtom to test against. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Test whether the two StringAtoms are the same. Two StringAtoms are judged to be equal if their Text is equal. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Test whether the two StringAtoms are the same.
 
-</TD></TR></TBODY></TABLE>
+Two StringAtoms are judged to be equal if their [Text](2-properties/text.md) is equal.
+
+## Example
+
+None

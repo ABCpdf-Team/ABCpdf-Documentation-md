@@ -1,55 +1,34 @@
----
-title: "2-processedobject"
-css: "abcpdf-docs.css"
----
+# ProcessedObject Event
 
-|  |  | ProcessedObject Event |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Occurs just after an IndirectObject has been processed. |  |  | 
+Occurs just after an IndirectObject has been processed.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp event ProcessedObjectEventHandler ProcessedObject; delegate void ProcessedObjectEventHandler(object sender, ProcessedObjectEventArgs e); ``` [Visual Basic] ``` Event ProcessedObject As ProcessedObjectEventHandler Delegate Sub ProcessedObjectEventHandler(sender As Object, e As ProcessedObjectEventArgs); ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+event ProcessedObjectEventHandler ProcessedObject;delegate void ProcessedObjectEventHandler(object sender, <a href="../../2-processedobjecteventargs/default.htm">ProcessedObjectEventArgs</a> e); <!--notcode-->
+```
+
+[Visual Basic]
+
+```vb
+Event ProcessedObject As ProcessedObjectEventHandlerDelegate Sub ProcessedObjectEventHandler(sender As Object, e As <a href="../../2-processedobjecteventargs/default.htm">ProcessedObjectEventArgs</a>); <!--notcode-->
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| sender | The Operation firing the event. | 
-| e | The ProcessedObjectEventArgs used to report back the status of the operation. | 
+| sender | The Operation firing the event. |
+| e | The ProcessedObjectEventArgs used to report back the status of the operation. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Typically you handle the ProcessedObject event in order to post-process an IndirectObject. To associate the event with your event handle add an instance of the ProcessedObjectEventHandler delegate to the event. The event handler will be called whenever the event occurs. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| See the RecolorOperation.Recolor method. |  |  | 
-| --- | --- | --- |
+Typically you handle the ProcessedObject event in order to post-process an [IndirectObject](6-abcpdf.objects/1-indirectobject/default.md).
 
-</TD></TR></TBODY></TABLE>
+To associate the event with your event handle add an instance of the ProcessedObjectEventHandler delegate to the event. The event handler will be called whenever the event occurs.
+
+## Example
+
+See the [RecolorOperation.Recolor](../../3-recoloroperation/1-methods/recolor.htm) method.

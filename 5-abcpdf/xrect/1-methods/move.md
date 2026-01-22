@@ -1,55 +1,73 @@
----
-title: "move"
-css: "abcpdf-docs.css"
----
+# Move Function
 
-|  |  | Move Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Translate the rectangle. |  |  | 
+Translate the rectangle.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp void Move(double x, double y) ``` [Visual Basic] ``` Sub Move(x As Double, y As Double) ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+void Move(double x, double y)
+```
+
+[Visual Basic]
+
+```vb
+Sub Move(x As Double, y As Double)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| x | The horizontal distance to move the rectangle. | 
-| y | The vertical distance to move the rectangle. | 
+| x | The horizontal distance to move the rectangle. |
+| y | The vertical distance to move the rectangle. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Moves the rectangle maintaining the width and height. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| The following code. [C#] ```csharp var rc = new XRect(); rc.String = "20 20 220 120"; Response.Write($"Rect = {rc}"); rc.Move(50, 50); Response.Write(""); Response.Write($"Move = {rc}"); ``` [Visual Basic] ```vbnet Dim rc As New XRect() rc.String = "20 20 220 120" Response.Write($"Rect = {rc}") rc.Move(50, 50) Response.Write("") Response.Write($"Move = {rc}") ``` Produces the following output. Rect = 20 20 220 120Move = 70 70 270 170 Also see example code in: Doc AddColorSpaceSpot Function, XColor Alpha Property, XRendering AntiAliasText Property, XTextStyle CharSpacing Property, XTextStyle HPos Property, XTextStyle Justification Property, XTextStyle LeftMargin Property, XTextStyle LineSpacing Property, XTextStyle Outline Property, XTextStyle ParaSpacing Property, XTextStyle VPos Property, XTextStyle WordSpacing Property, XTransform Magnify Function, Page GetBitmap Function, PixMap SetAlpha Function, PixMap ToGrayscale Function. |  |  | 
-| --- | --- | --- |
+Moves the rectangle maintaining the width and height.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+The following code.
+
+[C#]
+
+```csharp
+var rc = new XRect();
+rc.String = "20 20 220 120";
+Response.Write($"Rect = {rc}");
+rc.Move(50, 50);
+Response.Write("&lt;br&gt;");
+Response.Write($"Move = {rc}");
+```
+
+[Visual Basic]
+
+```vb
+Dim rc As New XRect()
+rc.String = "20 20 220 120"
+Response.Write($"Rect = {rc}")
+rc.Move(50, 50)
+Response.Write("&lt;br&gt;")
+Response.Write($"Move = {rc}")
+```
+
+Also see example code in:
+
+* [Doc AddColorSpaceSpot Function](doc/1-methods/addcolorspacespot.md)
+* [XColor Alpha Property](xcolor/2-properties/alpha.md)
+* [XRendering AntiAliasText Property](xrendering/2-properties/antialiastext.md)
+* [XTextStyle CharSpacing Property](xtextstyle/2-properties/charspacing.md)
+* [XTextStyle HPos Property](xtextstyle/2-properties/hpos.md)
+* [XTextStyle Justification Property](xtextstyle/2-properties/justification.md)
+* [XTextStyle LeftMargin Property](xtextstyle/2-properties/leftmargin.md)
+* [XTextStyle LineSpacing Property](xtextstyle/2-properties/linespacing.md)
+* [XTextStyle Outline Property](xtextstyle/2-properties/outline.md)
+* [XTextStyle ParaSpacing Property](xtextstyle/2-properties/paraspacing.md)
+* [XTextStyle VPos Property](xtextstyle/2-properties/vpos.md)
+* [XTextStyle WordSpacing Property](xtextstyle/2-properties/wordspacing.md)
+* [XTransform Magnify Function](xtransform/1-methods/magnify.md)
+* [Page GetBitmap Function](6-abcpdf.objects/page/1-methods/getbitmap.md)
+* [PixMap SetAlpha Function](6-abcpdf.objects/pixmap/1-methods/setalpha.md)
+* [PixMap ToGrayscale Function](6-abcpdf.objects/pixmap/1-methods/tograyscale.md).

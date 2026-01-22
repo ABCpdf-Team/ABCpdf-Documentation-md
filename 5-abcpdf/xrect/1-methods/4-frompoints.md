@@ -1,54 +1,33 @@
----
-title: "4-frompoints"
-css: "abcpdf-docs.css"
----
+# FromPoints Function
 
-|  |  | FromPoints Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Create the smallest XRect that encloses all the points supplied. |  |  | 
+Create the smallest XRect that encloses all the points supplied.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp static XRect FromPoints(XPoint points) ``` [Visual Basic] ``` Shared Function FromPoints(points As XPoint) As XRect ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+static <a href="../default.htm">XRect</a> FromPoints(<a href="../../xpoint/default.htm">XPoint</a> points)
+```
+
+[Visual Basic]
+
+```vb
+Shared Function FromPoints(points As <a href="../../xpoint/default.htm">XPoint</a>) As <a href="../default.htm">XRect</a>
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| points | The points that should be enclosed. | 
+| points | The points that should be enclosed. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Create the smallest XRect that encloses all the points supplied. If no points or null is supplied then the return value is null. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Create the smallest XRect that encloses all the points supplied.
 
-</TD></TR></TBODY></TABLE>
+If no points or null is supplied then the return value is null.
+
+## Example
+
+None

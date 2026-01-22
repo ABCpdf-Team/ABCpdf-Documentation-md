@@ -1,41 +1,14 @@
----
-title: "notheme"
-css: "abcpdf-docs.css"
----
+# NoTheme Property
 
-|  |  | NoTheme Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp bool ``` [Visual Basic] `Boolean` | false | Yes | Whether themes should be disabled. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top">
-      
-| This property determines whether UI theme is not applied to controls. The theme is only relevant if you are using the MSHTML engine for IE9 or earlier. As such it is likely that this function will be deprecated in future releases of ABCpdf. To change the value, use SetTheme. |  |  | 
-| --- | --- | --- |
+This property determines whether UI theme is not applied to controls.
 
-</td>
-  </tr>
-  <tr>
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top">
-      
-| None. |  |  | 
-| --- | --- | --- |
+The theme is only relevant if you are using the MSHTML engine for IE9 or earlier. As such it is likely that this function will be deprecated in future releases of ABCpdf.
 
-</td>
-  </tr>
-</table>
+To change the value, use SetTheme.
+
+## Example
+
+None.
+

@@ -1,54 +1,31 @@
----
-title: "setcolor"
-css: "abcpdf-docs.css"
----
+# SetColor Function
 
-|  |  | SetColor Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Sets the color. |  |  | 
+Sets the color.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp void SetColor(XColor color) ``` [Visual Basic]`Sub SetColor(color As XColor)` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+void SetColor(XColor color)
+```
+
+[Visual Basic]
+
+```vb
+Sub SetColor(color As XColor)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| color | The source color. | 
+| color | The source color. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| This method copies the value from the parameter. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+This method copies the value from the parameter.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

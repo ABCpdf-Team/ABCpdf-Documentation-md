@@ -1,57 +1,34 @@
----
-title: "addrange"
-css: "abcpdf-docs.css"
----
+# AddRange Method
 
-|  |  | AddRange Method |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Adds the certificate objects to this collection for those whose values are not already present. |  |  | 
+Adds the certificate objects to this collection for those whose values are not already present.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp int AddRange(X509Certificate2[] certs) int AddRange(Signature.CertificateCollection certs) int AddRange(Signature.CertificateCollection certs, int startIndex, int count) ``` [Visual Basic] ``` Function AddRange(certs() As X509Certificate2) As Integer Function AddRange(certs As Signature.CertificateCollection) As Integer Function AddRange(certs As Signature.CertificateCollection, startIndex As Integer, count As Integer) As Integer ``` `may throw Exception()` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+int AddRange(X509Certificate2[] certs)int AddRange(<a href="../default.htm">Signature.CertificateCollection</a> certs)int AddRange(<a href="../default.htm">Signature.CertificateCollection</a> certs, int startIndex, int count)
+```
+
+[Visual Basic]
+
+```vb
+Function AddRange(certs() As X509Certificate2) As IntegerFunction AddRange(certs As <a href="../default.htm">Signature.CertificateCollection</a>) As IntegerFunction AddRange(certs As <a href="../default.htm">Signature.CertificateCollection</a>, startIndex As Integer, count As Integer) As Integer
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| certs | An array of System.Security.Cryptography.X509Certificates.X509Certificate2 objects; or a Signature.CertificateCollection object. | 
-| startIndex | The index of the first certificate object in certs to add. | 
-| count | The number of certificate objects in certs to add. | 
-| return | The number of certificate objects added. | 
+| certs | An array of System.Security.Cryptography.X509Certificates.X509Certificate2 objects; or a Signature.CertificateCollection object. |
+| startIndex | The index of the first certificate object in certs to add. |
+| count | The number of certificate objects in certs to add. |
+| return | The number of certificate objects added. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| These methods add the certificate objects to the collection for those whose values are not already present. Signature.CertificateCollection does not store duplicate certificates, so only one certificate object among each set of duplicates is added. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+These methods add the certificate objects to the collection for those whose values are not already present. Signature.CertificateCollection does not store duplicate certificates, so only one certificate object among each set of duplicates is added.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

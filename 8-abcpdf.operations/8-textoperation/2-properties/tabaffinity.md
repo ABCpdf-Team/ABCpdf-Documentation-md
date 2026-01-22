@@ -1,41 +1,12 @@
----
-title: "tabaffinity"
-css: "abcpdf-docs.css"
----
+# TabAffinity Property
 
-|  |  | TabAffinity Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp double ``` [Visual Basic] `Double` | 1.0 | No | The minimum distance at which two text fragments will be assumed to be part of separate tab groups | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| The minimum distance at which two text fragments will be assumed to be part of separate tab groups. This value is specified in terms of a fraction of the current font size. |  |  | 
-| --- | --- | --- |
+The minimum distance at which two text fragments will be assumed to be part of separate tab groups.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+This value is specified in terms of a fraction of the current font size.
 
-</td>
-  </tr>
-</table>
+## Example
+
+None.
+

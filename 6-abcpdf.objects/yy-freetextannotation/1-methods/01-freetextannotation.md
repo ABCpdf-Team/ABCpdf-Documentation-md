@@ -1,55 +1,32 @@
----
-title: "01-freetextannotation"
-css: "abcpdf-docs.css"
----
+# FreeTextAnnotation Function
 
-|  |  | FreeTextAnnotation Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Add free text annotation to the current page of the doc. |  |  | 
+Add free text annotation to the current page of the doc.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp FreeTextAnnotation(Doc doc, XRect rect) ``` [Visual Basic] ``` FreeTextAnnotation(doc As Doc, rect As XRect) ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+<a href="../default.htm">FreeTextAnnotation</a>(Doc doc, XRect rect)
+```
+
+[Visual Basic]
+
+```vb
+<a href="../default.htm">FreeTextAnnotation</a>(doc As Doc, rect As XRect)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| doc | Doc | 
-| rect | Annotation rectangle | 
+| doc | Doc |
+| rect | Annotation rectangle |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Add free text annotation to the current page of the doc. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Add free text annotation to the current page of the doc.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

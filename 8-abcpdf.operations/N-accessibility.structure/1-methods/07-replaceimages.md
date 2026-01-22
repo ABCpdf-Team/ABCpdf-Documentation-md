@@ -1,55 +1,34 @@
----
-title: "07-replaceimages"
-css: "abcpdf-docs.css"
----
+# ReplaceImages Function
 
-|  |  | ReplaceImages Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Replace a set of images with a new one. |  |  | 
+Replace a set of images with a new one.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp void ReplaceImages(List images, PixMap pm) ``` [Visual Basic] ``` Function ReplaceImages(images As List, pm As PixMap) ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+void ReplaceImages(List&lt;StructureElementElement&gt; images, PixMap pm)
+```
+
+[Visual Basic]
+
+```vb
+Function ReplaceImages(images As List&lt;StructureElementElement&gt;, pm As PixMap)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| images | The images to be replaced. | 
-| pm | The new image which will be substituted in. | 
+| images | The images to be replaced. |
+| pm | The new image which will be substituted in. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Replace a set of images with a new one. The set to be replaced are identified using structure elements. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Replace a set of images with a new one.
 
-</TD></TR></TBODY></TABLE>
+The set to be replaced are identified using structure elements.
+
+## Example
+
+None

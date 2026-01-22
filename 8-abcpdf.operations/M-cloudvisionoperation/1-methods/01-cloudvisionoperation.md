@@ -1,54 +1,27 @@
----
-title: "01-cloudvisionoperation"
-css: "abcpdf-docs.css"
----
+# CloudVisionOperation Function
 
-|  |  | CloudVisionOperation Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Create a CloudVisionOperation. |  |  | 
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp CloudVisionOperation(Doc doc) ``` [Visual Basic] ``` CloudVisionOperation(doc As Doc) ``` |  |  | 
-| --- | --- | --- |
+[C#]
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+```csharp
+<a href="../default.htm">CloudVisionOperation</a>(Doc doc)
+```
+
+[Visual Basic]
+
+```vb
+<a href="../default.htm">CloudVisionOperation</a>(doc As Doc)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| doc | The document on which to operate. | 
+| doc | The document on which to operate. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Create a CloudVisionOperation. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+## Example
 
-</TD></TR></TBODY></TABLE>
+None

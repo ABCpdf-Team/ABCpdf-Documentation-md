@@ -1,54 +1,25 @@
----
-title: "01-nametree_t_"
-css: "abcpdf-docs.css"
----
+# NameTree&lt;T&gt; Function
 
-|  |  | NameTree Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| NameTree constructor. |  |  | 
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp NameTree(NameTreeNodeElement root) ``` [Visual Basic] ``` NameTree(root As NameTreeNodeElement) ``` |  |  | 
-| --- | --- | --- |
+[C#]
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+```csharp
+<a href="../default.htm">NameTree</a>&lt;T&gt;(<a href="../../../07-syntax/1097-nametreenodeelement_t_/default.htm">NameTreeNodeElement</a>&lt;T&gt; root)
+```
+
+[Visual Basic]
+
+```vb
+<a href="../default.htm">NameTree</a>&lt;T&gt;(root As <a href="../../../07-syntax/1097-nametreenodeelement_t_/default.htm">NameTreeNodeElement</a>&lt;T&gt;)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| root | The root node for the tree. | 
+| root | The root node for the tree. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| NameTree constructor. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
-
-</TD></TR></TBODY></TABLE>
+[NameTree](default.md) constructor.

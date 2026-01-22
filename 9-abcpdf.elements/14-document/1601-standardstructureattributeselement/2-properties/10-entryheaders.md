@@ -1,41 +1,27 @@
----
-title: "10-entryheaders"
-css: "abcpdf-docs.css"
----
+# EntryHeaders Property
 
-|  |  | EntryHeaders Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp IList ``` [Visual Basic] `IList` | null | No | Represents the "Headers" entry of the standard structure attributes object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "Headers" entry of the standard structure attributes object. It is an optional entry defined as part of the PDF 1.5 specification. It contains an array which contains strings, representing PDF string objects. This string contains raw byte data. So it looks like a string but really it is just a wrapper for data. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; page 593. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 347, page 608. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 382, page 784. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 348, page 609. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 383, page 785. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 349, page 610. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 384, page 785. |  |  | 
-| --- | --- | --- |
+Represents the "Headers" entry of the standard structure attributes object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is an optional entry defined as part of the PDF 1.5 specification.
 
-</td>
-  </tr>
-</table>
+It contains an array which contains strings, representing PDF string objects.
+
+This string contains raw byte data. So it looks like a string but really it is just a wrapper for data.
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; page 593.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 347, page 608.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 382, page 784.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 348, page 609.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 383, page 785.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 349, page 610.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 384, page 785.

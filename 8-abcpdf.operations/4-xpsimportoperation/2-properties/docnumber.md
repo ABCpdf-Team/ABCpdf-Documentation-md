@@ -1,34 +1,14 @@
----
-title: "docnumber"
-css: "abcpdf-docs.css"
----
+# DocNumber Property
 
-|  |  | DocNumber Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp int ``` [Visual Basic]`Integer` | 0 | No | The one-based document number used by ImportAny. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+| [C#] <BR> `int` | 0 | No | The one-based document number used by ImportAny. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| This property can be used to select which document will be imported when calling ImportAny. In most cases only a single document is available in any file and this property is ignored. However in some cases, such as Microsoft Excel, a single workbook contains multiple worksheets. This property will select which Excel worksheet will be imported. When it is set to zero or a negative value, the entire Excel workbook will be imported. This is the default case. When it is set to any positive value the corresponding worksheet will be imported. Indexing is one-based so set it to one to print the first worksheet and so on. It is up to you to make sure that you set it to a valid value, less than or equal to the total number of worksheets in the workbook. For applications other than Microsoft Excel this property is currently ignored. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+This property can be used to select which document will be imported when calling [ImportAny](1-methods/importany.md). In most cases only a single document is available in any file and this property is ignored. However in some cases, such as Microsoft Excel, a single workbook contains multiple worksheets. This property will select which Excel worksheet will be imported.
 
-</TD></TR></TBODY></TABLE>
+When it is set to zero or a negative value, the entire Excel workbook will be imported. This is the default case. When it is set to any positive value the corresponding worksheet will be imported. Indexing is one-based so set it to one to print the first worksheet and so on. It is up to you to make sure that you set it to a valid value, less than or equal to the total number of worksheets in the workbook.
+
+For applications other than Microsoft Excel this property is currently ignored.
+

@@ -1,0 +1,2 @@
+# BoolAtom Class
+

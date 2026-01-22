@@ -1,41 +1,25 @@
----
-title: "17-entrytr2"
-css: "abcpdf-docs.css"
----
+# EntryTR2 Property
 
-|  |  | EntryTR2 Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp Element ``` [Visual Basic] `Element` | null | No | Represents the "TR2" entry of the graphics state parameter dictionary object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "TR2" entry of the graphics state parameter dictionary object. It is an optional entry defined as part of the PDF 1.3 specification. It was deprecated in PDF 2.0. This property may contain one of two different types:. 1) A string representing a PDF name object. This item may take one of the following valid values:. IdentityDefault. 2) An array which contains FunctionElements. If you read the specification you will see that an array of one FunctionElement may be represented as a single FunctionElement rather than an array. However we always present this property as an array to simplify the interface. It is only if you add or remove items in the array, that the underlying representation will be changed. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 58, page 129. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 57, page 163. |  |  | 
-| --- | --- | --- |
+Represents the "TR2" entry of the graphics state parameter dictionary object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is an optional entry defined as part of the PDF 1.3 specification. It was deprecated in PDF 2.0.
 
-</td>
-  </tr>
-</table>
+This property may contain one of two different types:.
+
+1) A string representing a PDF name object.
+
+This item may take one of the following valid values:.
+
+IdentityDefault.
+
+2) An array which contains FunctionElements.
+
+If you read the specification you will see that an array of one FunctionElement may be represented as a single FunctionElement rather than an array. However we always present this property as an array to simplify the interface. It is only if you add or remove items in the array, that the underlying representation will be changed.
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 58, page 129.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 57, page 163.

@@ -1,58 +1,112 @@
----
-title: "01-nametreenodeelement_t_"
-css: "abcpdf-docs.css"
----
+# NameTreeNodeElement&lt;T&gt; Function
 
-|  |  | NameTreeNodeElement Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Create a new NameTreeNodeElement. |  |  | 
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp NameTreeNodeElement() NameTreeNodeElement(Atom atom, IndirectObject host) NameTreeNodeElement(IndirectObject obj) NameTreeNodeElement(Element relation, CreationOptions options) ``` [Visual Basic] ``` NameTreeNodeElement() NameTreeNodeElement(atom As Atom, host As IndirectObject) NameTreeNodeElement(obj As IndirectObject) NameTreeNodeElement(relation As Element, options As CreationOptions) ``` |  |  | 
-| --- | --- | --- |
+[C#]
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+```csharp
+<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;()<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;(Atom atom, IndirectObject host)<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;(IndirectObject obj)<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;(<a href="../../../01-base/1086-element/default.htm">Element</a> relation, CreationOptions options)
+```
+
+[Visual Basic]
+
+```vb
+<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;()<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;(atom As Atom, host As IndirectObject)<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;(obj As IndirectObject)<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;(relation As <a href="../../../01-base/1086-element/default.htm">Element</a>, options As CreationOptions)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| atom | The Atom to be assigned to this Element. | 
-| host | An IndirectObject. This can be any IndirectObject from the Soup but ideally should be one closely associated with the Atom. | 
-| obj | The IndirectObject to be assigned to this Element. | 
-| relation | An Element. This can be any Element in the Soup but ideally should be one closely associated with this Element. | 
-| options | Options related to creation. For example this allows you to determine whether the Element should be created using an IndirectObject rather than just an Atom. If not provided a default set of options is used. | 
+| atom | The Atom to be assigned to this Element. |
+| host | An IndirectObject. This can be any IndirectObject from the Soup but ideally should be one closely associated with the Atom. |
+| obj | The IndirectObject to be assigned to this Element. |
+| relation | An Element. This can be any Element in the Soup but ideally should be one closely associated with this Element. |
+| options | Options related to creation. For example this allows you to determine whether the Element should be created using an IndirectObject rather than just an Atom. If not provided a default set of options is used. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Create a new NameTreeNodeElement. The different constructors allow different ways of creating an Element. Some are used for wrapping existing Atoms or IndirectObjects and others are for creating new ones. The constructor taking a relation Element creates a new object in the document - it is typically the constructor you will want to use. Do not specify creation options unless you have very specific needs. However for your first Element - one you can use as a relation for the others - you will need to wrap an existing IndirectObject inside an Element. For this you might use code of the following form "CatalogElement root = new CatalogElement(doc.ObjectSoup.Catalog)". The parameterless constructor allows you to create an empty Element. By empty we mean it has no contents - no Atom within it. So before use an Atom must be Assigned or Created. In practice it is easiest to do this using one of the other constructors. The atom and host constructor is used to wrap an existing Atom. It creates an Element and then Assigns the Atom to it. The result is a specialized Element which can be used to examine or modify the contents of the Atom. The CreationOptions enumeration may take the following values: Default - Default creation options for this particular type of Element. Indirect - Create Element containing an IndirectObject. Direct - Create Element containing an Atom. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| This code snippet is taken from Annotations.cs line 1803 in the Annotations example project. [C#] ```csharp if (mediaType != "Flash" && mediaType != "Video" && mediaType != "Sound" && mediaType != "3D") throw new ArgumentException("Invalid media type.", "mediaType"); RichMediaAnnotationElement annot = new RichMediaAnnotationElement(AnnotationElement.Object); annot.EntrySubtype = "RichMedia"; annot.EntryRect = new RectangleElement(ArrayAtom.FromXRect(new XRect(rect)), annot.Host); string fileName; FullFileSpecificationElement fileSpec = new FullFileSpecificationElement(annot); fileSpec.EntryType = "Filespec"; if (filePathOrUrl.StartsWith("http://", StringComparison.OrdinalIgnoreCase) \|\| filePathOrUrl.StartsWith("https://", StringComparison.OrdinalIgnoreCase) \|\| filePathOrUrl.StartsWith("rtmp://", StringComparison.OrdinalIgnoreCase)) { fileSpec.EntryFS = "URL"; fileName = FixUrl(filePathOrUrl); } else { FileInfo fileInfo = new FileInfo(filePathOrUrl); fileSpec.EntryEF = new EmbeddedFileSetElement(annot); fileSpec.EntryEF.EntryF = EmbedFileStream(fileInfo); fileName = EncodeName(fileInfo.Name); } fileSpec.EntryF = fileName; fileSpec.EntryUF = fileName; annot.Object.AdbeExtLevel = new int[] { 7, 3 }; RichMediaContentElement content = new RichMediaContentElement(annot, CreationOptions.Indirect); content.EntryType = "RichMediaContent"; content.EntryAssets = new NameTreeNodeElementFileSpecificationElement>(annot, CreationOptions.Indirect); content.EntryAssets.EntryNames = new ArrayElementElement>(annot); content.EntryAssets.EntryNames.Add(new Element(new StringAtom(fileName), annot.Host)); content.EntryAssets.EntryNames.Add(fileSpec); RichMediaConfigElement configuration = new RichMediaConfigElement(annot, CreationOptions.Indirect); configuration.EntryType = "RichMediaConfiguration"; configuration.EntrySubtype = mediaType; RichMediaInstanceElement instance = new RichMediaInstanceElement(annot, CreationOptions.Indirect); instance.EntryType = "RichMediaInstance"; instance.EntrySubtype = mediaType; instance.EntryParams = new RichMediaParamsElement(annot); instance.EntryParams.EntryType = "RichMediaParams"; instance.EntryParams.EntryBinding = "Foreground"; instance.EntryAsset = fileSpec; configuration.EntryInstances = new ArrayElementRichMediaInstanceElement>(annot); configuration.EntryInstances.Add(instance); content.EntryConfigurations = new ArrayElementRichMediaConfigElement>(annot); content.EntryConfigurations.Add(configuration); annot.EntryRichMediaContent = content; RichMediaSettingsElement settings = new RichMediaSettingsElement(annot, CreationOptions.Indirect); settings.EntryType = "RichMediaSettings"; settings.EntryActivation = new RichMediaActivationElement(annot); settings.EntryActivation.EntryType = "RichMediaActivation"; settings.EntryActivation.EntryConfiguration = configuration; annot.EntryRichMediaSettings = settings; AnnotationElement = annot; ``` |  |  | 
-| --- | --- | --- |
+Create a new [NameTreeNodeElement](default.md).
 
-</TD></TR></TBODY></TABLE>
+The different constructors allow different ways of creating an [Element](01-base/1086-element/default.md). Some are used for wrapping existing Atoms or IndirectObjects and others are for creating new ones.
+
+The constructor taking a relation [Element](01-base/1086-element/default.md) creates a new object in the document - it is typically the constructor you will want to use. Do not specify creation options unless you have very specific needs.
+
+However for your first [Element](01-base/1086-element/default.md) - one you can use as a relation for the others - you will need to wrap an existing IndirectObject inside an [Element](01-base/1086-element/default.md). For this you might use code of the following form "[CatalogElement](1081-catalogelement/default.md) root = new [CatalogElement](1081-catalogelement/default.md)(doc.ObjectSoup.Catalog)".
+
+The parameterless constructor allows you to create an empty [Element](01-base/1086-element/default.md). By empty we mean it has no contents - no Atom within it. So before use an Atom must be Assigned or Created. In practice it is easiest to do this using one of the other constructors.
+
+The atom and host constructor is used to wrap an existing Atom. It creates an [Element](01-base/1086-element/default.md) and then Assigns the Atom to it. The result is a specialized [Element](01-base/1086-element/default.md) which can be used to examine or modify the contents of the Atom.
+
+The CreationOptions enumeration may take the following values:
+
+* Default - Default creation options for this particular type of Element.
+* Indirect - Create Element containing an IndirectObject.
+* Direct - Create Element containing an Atom.
+
+## Example
+
+This code snippet is taken from Annotations.cs line 1803 in the Annotations example project.
+
+[C#]
+
+```csharp
+if (mediaType != "Flash" && mediaType != "Video" && mediaType != "Sound" && mediaType != "3D")
+  throw new ArgumentException("Invalid media type.", "mediaType");
+
+<a href="../../../12-interactive/2077-richmediaannotationelement/default.htm">RichMediaAnnotationElement</a> annot = new <a href="../../../12-interactive/2077-richmediaannotationelement/default.htm">RichMediaAnnotationElement</a>(AnnotationElement.Object);
+annot.EntrySubtype = "RichMedia";
+annot.EntryRect = new <a href="../../0017-rectangleelement/default.htm">RectangleElement</a>(ArrayAtom.FromXRect(new XRect(rect)), annot.Host);
+
+string fileName;
+<a href="../../1110-fullfilespecificationelement/default.htm">FullFileSpecificationElement</a> fileSpec = new <a href="../../1110-fullfilespecificationelement/default.htm">FullFileSpecificationElement</a>(annot);
+fileSpec.EntryType = "Filespec";
+if (filePathOrUrl.StartsWith("http://", StringComparison.OrdinalIgnoreCase)
+  || filePathOrUrl.StartsWith("https://", StringComparison.OrdinalIgnoreCase)
+  || filePathOrUrl.StartsWith("rtmp://", StringComparison.OrdinalIgnoreCase)) {
+  fileSpec.EntryFS = "URL";
+  fileName = FixUrl(filePathOrUrl);
+}
+else {
+  FileInfo fileInfo = new FileInfo(filePathOrUrl);
+  fileSpec.EntryEF = new <a href="../../1111-embeddedfilesetelement/default.htm">EmbeddedFileSetElement</a>(annot);
+  fileSpec.EntryEF.EntryF = EmbedFileStream(fileInfo);
+  fileName = EncodeName(fileInfo.Name);
+}
+fileSpec.EntryF = fileName;
+fileSpec.EntryUF = fileName;
+
+annot.Object.AdbeExtLevel = new int[] { 7, 3 };
+<a href="../../../12-interactive/2086-richmediacontentelement/default.htm">RichMediaContentElement</a> content = new <a href="../../../12-interactive/2086-richmediacontentelement/default.htm">RichMediaContentElement</a>(annot, CreationOptions.Indirect);
+content.EntryType = "RichMediaContent";
+content.EntryAssets = new <a href="../default.htm">NameTreeNodeElement</a><<a href="../../0011-filespecificationelement/default.htm">FileSpecificationElement</a>>(annot, CreationOptions.Indirect);
+content.EntryAssets.EntryNames = new <a href="../../../01-base/0001-arrayelement_t_/default.htm">ArrayElement</a><<a href="../../../01-base/1086-element/default.htm">Element</a>>(annot);
+content.EntryAssets.EntryNames.Add(new <a href="../../../01-base/1086-element/default.htm">Element</a>(new StringAtom(fileName), annot.Host));
+content.EntryAssets.EntryNames.Add(fileSpec);
+
+<a href="../../../12-interactive/2088-richmediaconfigelement/default.htm">RichMediaConfigElement</a> configuration = new <a href="../../../12-interactive/2088-richmediaconfigelement/default.htm">RichMediaConfigElement</a>(annot, CreationOptions.Indirect);
+configuration.EntryType = "RichMediaConfiguration";
+configuration.EntrySubtype = mediaType;
+<a href="../../../12-interactive/2089-richmediainstanceelement/default.htm">RichMediaInstanceElement</a> instance = new <a href="../../../12-interactive/2089-richmediainstanceelement/default.htm">RichMediaInstanceElement</a>(annot, CreationOptions.Indirect);
+instance.EntryType = "RichMediaInstance";
+instance.EntrySubtype = mediaType;
+instance.EntryParams = new <a href="../../../12-interactive/2090-richmediaparamselement/default.htm">RichMediaParamsElement</a>(annot);
+instance.EntryParams.EntryType = "RichMediaParams";
+instance.EntryParams.EntryBinding = "Foreground";
+instance.EntryAsset = fileSpec;
+configuration.EntryInstances = new <a href="../../../01-base/0001-arrayelement_t_/default.htm">ArrayElement</a><<a href="../../../12-interactive/2089-richmediainstanceelement/default.htm">RichMediaInstanceElement</a>>(annot);
+configuration.EntryInstances.Add(instance);
+
+content.EntryConfigurations = new <a href="../../../01-base/0001-arrayelement_t_/default.htm">ArrayElement</a><<a href="../../../12-interactive/2088-richmediaconfigelement/default.htm">RichMediaConfigElement</a>>(annot);
+content.EntryConfigurations.Add(configuration);
+annot.EntryRichMediaContent = content;
+
+<a href="../../../12-interactive/2078-richmediasettingselement/default.htm">RichMediaSettingsElement</a> settings = new <a href="../../../12-interactive/2078-richmediasettingselement/default.htm">RichMediaSettingsElement</a>(annot, CreationOptions.Indirect);
+settings.EntryType = "RichMediaSettings";
+settings.EntryActivation = new <a href="../../../12-interactive/2079-richmediaactivationelement/default.htm">RichMediaActivationElement</a>(annot);
+settings.EntryActivation.EntryType = "RichMediaActivation";
+settings.EntryActivation.EntryConfiguration = configuration;
+annot.EntryRichMediaSettings = settings;
+<a href="../../../12-interactive/1391-annotationelement/default.htm">AnnotationElement</a> = annot;
+```
+

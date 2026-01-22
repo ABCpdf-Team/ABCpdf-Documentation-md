@@ -1,55 +1,34 @@
----
-title: "fromnames"
-css: "abcpdf-docs.css"
----
+# FromNames Function
 
-|  |  | FromNames Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Create an ArrayAtom of NameAtoms from a list of strings. |  |  | 
+Create an ArrayAtom of NameAtoms from a list of strings.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp static ArrayAtom FromNames(IList items) ``` [Visual Basic] ``` Shared Function FromNames(items as IList(Of String)) As ArrayAtom ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+static <a href="../default.htm">ArrayAtom</a> FromNames(IList&lt;string&gt; items)
+```
+
+[Visual Basic]
+
+```vb
+Shared Function FromNames(items as IList(Of String)) As <a href="../default.htm">ArrayAtom</a>
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| items | The list of strings. | 
-| return | The resulting ArrayAtom. | 
+| items | The list of strings. |
+| return | The resulting ArrayAtom. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Create an ArrayAtom of NameAtoms from a list of strings. If the provided list is null then the return value will be null. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Create an ArrayAtom of NameAtoms from a list of strings.
 
-</TD></TR></TBODY></TABLE>
+If the provided list is null then the return value will be null.
+
+## Example
+
+None

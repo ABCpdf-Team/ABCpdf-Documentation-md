@@ -1,55 +1,32 @@
----
-title: "equals"
-css: "abcpdf-docs.css"
----
+# Equals Function
 
-|  |  | Equals Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Test whether the two XReadOptions are effectvely the same. |  |  | 
+Test whether the two XReadOptions are effectvely the same.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp bool Equals(XReadOptions other) override bool Equals(object other) ``` [Visual Basic] ``` Function Equals(other As XReadOptions) As Boolean Overrides Function Equals(other As Object) As Boolean ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+bool Equals(<a href="../default.htm">XReadOptions</a> other)override bool Equals(object other)
+```
+
+[Visual Basic]
+
+```vb
+Function Equals(other As <a href="../default.htm">XReadOptions</a>) As BooleanOverrides Function Equals(other As Object) As Boolean
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| other | The object to test against. | 
-| return | Whether the two XReadOptions are the same. | 
+| other | The object to test against. |
+| return | Whether the two XReadOptions are the same. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Test whether the two XReadOptions are the same. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Test whether the two XReadOptions are the same.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

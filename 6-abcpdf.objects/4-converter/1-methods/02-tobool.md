@@ -1,57 +1,40 @@
----
-title: "02-tobool"
-css: "abcpdf-docs.css"
----
+# ToBool Function
 
-|  |  | ToBool Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Attempts to get a boolean from the specified entry in a DictAtom or ArrayAtom resolving any references as necessary. |  |  | 
+Attempts to get a boolean from the specified entry in a DictAtom or ArrayAtom resolving any references as necessary.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp virtual bool? ToBool(Atom atom, int index) virtual bool? ToBool(Atom atom, string key) virtual bool? ToBool(Atom atom) ``` [Visual Basic] ``` Overridable Function ToBool(atom As Atom, index As int) As Boolean? Overridable Function ToBool(atom As Atom, key As string) As Boolean? Overridable Function ToBool(atom As Atom) As Boolean? ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+virtual bool? ToBool(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom, int index)virtual bool? ToBool(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom, string key)virtual bool? ToBool(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom)
+```
+
+[Visual Basic]
+
+```vb
+Overridable Function ToBool(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, index As int) As Boolean?Overridable Function ToBool(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, key As string) As Boolean?Overridable Function ToBool(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>) As Boolean?
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| atom | The DictAtom or ArrayAtom from which to obtain the value. | 
-| index | The zero based index from which the value should be obtained. | 
-| key | The key identifying the entry to be obtained. | 
-| return | The value. | 
+| atom | The DictAtom or ArrayAtom from which to obtain the value. |
+| index | The zero based index from which the value should be obtained. |
+| key | The key identifying the entry to be obtained. |
+| return | The value. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Attempts to get a boolean from the specified atom resolving any references as necessary. If the simple overload is used then the atom provided must resolve to a value of the correct type. If not then the return value will be null. If a key is provided then the atom must resolve to a DictAtom and the entry in the DictAtom must resolve to a value of the correct type. If this is not the case or the key is null, then the return value will be null. If an index is provided then the atom must resolve to an ArrayAtom and the indexed entry in the ArrayAtom must resolve to a value of the correct type. If this is not the case or if the index is not available, then the return value will be null. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Attempts to get a boolean from the specified atom resolving any references as necessary.
 
-</TD></TR></TBODY></TABLE>
+If the simple overload is used then the atom provided must resolve to a value of the correct type. If not then the return value will be null.
+
+If a key is provided then the atom must resolve to a DictAtom and the entry in the DictAtom must resolve to a value of the correct type. If this is not the case or the key is null, then the return value will be null.
+
+If an index is provided then the atom must resolve to an ArrayAtom and the indexed entry in the ArrayAtom must resolve to a value of the correct type. If this is not the case or if the index is not available, then the return value will be null.
+
+## Example
+
+None

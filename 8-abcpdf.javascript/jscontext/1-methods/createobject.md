@@ -1,54 +1,31 @@
----
-title: "createobject"
-css: "abcpdf-docs.css"
----
+# CreateObject Method
 
-|  |  | CreateObject Method |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Creates a JavaScript object. |  |  | 
+Creates a JavaScript object.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp JSValue CreateObject() ``` [Visual Basic]`Function CreateObject() As JSValue` `may throw Exception()` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+JSValue CreateObject()
+```
+
+[Visual Basic]
+
+```vb
+Function CreateObject() As JSValue
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| return | A new JavaScript object. | 
+| return | A new JavaScript object. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| The method creates a JavaScript object. It is much better than calling ConvertToJS with an empty array of KeyValuePair. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+The method creates a JavaScript object. It is much better than calling [ConvertToJS](converttojs.md) with an empty array of KeyValuePair<string, object>.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

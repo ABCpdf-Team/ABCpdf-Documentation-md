@@ -1,41 +1,15 @@
----
-title: "03-entrycategory"
-css: "abcpdf-docs.css"
----
+# EntryCategory Property
 
-|  |  | EntryCategory Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp IList ``` [Visual Basic] `IList` | null | No | Represents the "Category" entry of the usage application dictionary object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "Category" entry of the usage application dictionary object. It is a required entry defined as part of the PDF 1.0 specification. It contains an array which contains strings, representing PDF name objects. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 103, page 233. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 101, page 286. |  |  | 
-| --- | --- | --- |
+Represents the "Category" entry of the usage application dictionary object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is a required entry defined as part of the PDF 1.0 specification.
 
-</td>
-  </tr>
-</table>
+It contains an array which contains strings, representing PDF name objects.
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 103, page 233.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 101, page 286.

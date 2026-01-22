@@ -1,54 +1,35 @@
----
-title: "pagecachepurge"
-css: "abcpdf-docs.css"
----
+# PageCachePurge Method
 
-|  |  | PageCachePurge Method |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Purges the HTML page cache. |  |  | 
+Purges the HTML page cache.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp void PageCachePurge() ``` [Visual Basic]`Sub PageCachePurge()` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+void PageCachePurge()
+```
+
+[Visual Basic]
+
+```vb
+Sub PageCachePurge()
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| return | n/a. | 
+| return | n/a. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| ABCpdf holds a cache of recently requested URLs and it's only after five minutes or so that these pages expire from the cache. This results in a considerable degree of optimization for many common operations. You can clear the cache of all expired pages by calling this method. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+ABCpdf holds a cache of recently requested URLs and it's only after five minutes or so that these pages expire from the cache.
 
-</TD></TR></TBODY></TABLE>
+This results in a considerable degree of optimization for many common operations.
+
+You can clear the cache of all expired pages by calling this method.
+
+## Example
+
+None

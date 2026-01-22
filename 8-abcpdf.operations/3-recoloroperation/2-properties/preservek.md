@@ -1,34 +1,15 @@
----
-title: "preservek"
-css: "abcpdf-docs.css"
----
+# PreserveK Property
 
-|  |  | PreserveK Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Write | Description | 
-| **[C#]** ```csharp bool ``` [Visual Basic] `bool` | `false` | Yes | Determines if color transforms preserve black when recoloring to CMYK. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+| [C#] <BR> `bool` | false | Yes | Determines if color transforms preserve black when recoloring to CMYK. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Tell the color management system how to preserve black (K) when recoloring to CMYK. If true the PreserveKOptions property method is followed. If false it is not. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Tell the color management system how to preserve black (K) when recoloring to CMYK.
 
-</TD></TR></TBODY></TABLE>
+If true the [PreserveKOptions](preservekoptions.md) property method is followed. If false it is not.
+
+## Example
+
+None

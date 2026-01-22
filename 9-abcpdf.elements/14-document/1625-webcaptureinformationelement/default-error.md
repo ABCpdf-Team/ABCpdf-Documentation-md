@@ -1,0 +1,2 @@
+# WebCaptureInformationElement Class
+

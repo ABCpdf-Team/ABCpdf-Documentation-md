@@ -1,55 +1,35 @@
----
-title: "reusesapplication"
-css: "abcpdf-docs.css"
----
+# ReusesApplication Function
 
-|  |  | ReusesApplication Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Gets a value indicating whether an import application process is to be kept running and reused. |  |  | 
+Gets a value indicating whether an import application process is
+            to be kept running and reused.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp bool ReusesApplication(ApplicationType app) ``` [Visual Basic]`Function ReusesApplication(app As ImportApplicationType) As Boolean` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+bool ReusesApplication(ApplicationType app)
+```
+
+[Visual Basic]
+
+```vb
+Function ReusesApplication(app As ImportApplicationType) As Boolean
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| app | The import application. | 
-| return | Whether the application process is to be kept running and reused. | 
+| app | The import application. |
+| return | Whether the application process is to be kept running and reused. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| This function returns the reuse status of an application. The reuse status can be changed with EnableApplicationReuse. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+This function returns the reuse status of an application.
 
-</TD></TR></TBODY></TABLE>
+The reuse status can be changed with [EnableApplicationReuse](enableapplicationreuse.md).
+
+## Example
+
+None

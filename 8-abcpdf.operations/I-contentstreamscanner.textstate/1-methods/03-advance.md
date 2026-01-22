@@ -1,56 +1,33 @@
----
-title: "03-advance"
-css: "abcpdf-docs.css"
----
+# Advance Function
 
-|  |  | Advance Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Advances the text position by an amount - typically the width of a glyph. |  |  | 
+Advances the text position by an amount - typically the width of a glyph.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp virtual double Advance(double delta, bool vertical) ``` [Visual Basic] ``` Overridable Function Advance(delta As double, vertical As bool) As Double ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+virtual double Advance(double delta, bool vertical)
+```
+
+[Visual Basic]
+
+```vb
+Overridable Function Advance(delta As double, vertical As bool) As Double
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| delta | The amount to advance in unscaled text units. | 
-| vertical | Whether the advance should be horizontal or vertical. | 
-| return | The distance that the Text Matrix has been transformed by. | 
+| delta | The amount to advance in unscaled text units. |
+| vertical | Whether the advance should be horizontal or vertical. |
+| return | The distance that the Text Matrix has been transformed by. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Advances the text position by an amount - typically the width of a glyph. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Advances the text position by an amount - typically the width of a glyph.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

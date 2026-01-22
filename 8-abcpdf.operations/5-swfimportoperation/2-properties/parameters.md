@@ -1,34 +1,15 @@
----
-title: "parameters"
-css: "abcpdf-docs.css"
----
+# Parameters Property
 
-|  |  | Parameters Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp SwfParameters ``` [Visual Basic]`SwfParameters` | null | No | The parameters for initializing the SWF machine. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+|  | null | No | The parameters for initializing the SWF machine. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| This property specifies the parameters for initializing the SWF machine. If it is set, it should be set before the first time a proper FrameNumber is returned in a ProcessingObject event of ProcessingSourceType.MultiFrameImage. It is not used after the machine is initialized. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| See the SwfParameters.FlashVars property. |  |  | 
-| --- | --- | --- |
+This property specifies the parameters for initializing the SWF machine.
 
-</TD></TR></TBODY></TABLE>
+If it is set, it should be set before the first time a proper [FrameNumber](2-processinginfo/2-properties/framenumber.md) is returned in a [ProcessingObject](1-operation/3-events/1-processingobject.md) event of ProcessingSourceType.MultiFrameImage. It is not used after the machine is initialized.
+
+## Example
+
+See the [SwfParameters.FlashVars](../../5-swfparameters/2-properties/flashvars.htm) property.

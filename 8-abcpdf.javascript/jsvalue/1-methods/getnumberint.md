@@ -1,54 +1,31 @@
----
-title: "getnumberint"
-css: "abcpdf-docs.css"
----
+# GetNumberInt Method
 
-|  |  | GetNumberInt Method |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Gets the Int32 value of this number. |  |  | 
+Gets the Int32 value of this number.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp int GetNumberInt() ``` [Visual Basic]`Function GetNumberInt() As Integer` `may throw Exception()` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+int GetNumberInt()
+```
+
+[Visual Basic]
+
+```vb
+Function GetNumberInt() As Integer
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| return | The Int32 value. | 
+| return | The Int32 value. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| The method returns the Int32 value of this number. It fails if this value is not a number. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+The method returns the Int32 value of this number. It fails if this value is not a number.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

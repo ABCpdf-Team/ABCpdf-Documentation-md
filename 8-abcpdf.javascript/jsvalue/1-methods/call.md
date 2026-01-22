@@ -1,55 +1,32 @@
----
-title: "call"
-css: "abcpdf-docs.css"
----
+# Call Method
 
-|  |  | Call Method |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Calls this function. |  |  | 
+Calls this function.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp JSValue Call(IList args) ``` [Visual Basic]`Function Call(args As IList(Of JSValue)) As JSValue` `may throw Exception()` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+JSValue Call(IList&lt;JSValue&gt; args)
+```
+
+[Visual Basic]
+
+```vb
+Function Call(args As IList(Of JSValue)) As JSValue
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| args | A list of arguments. The first item is the 'this' argument. | 
-| return | The return value of the function call. | 
+| args | A list of arguments. The first item is the 'this' argument. |
+| return | The return value of the function call. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| The method calls this value as a function. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+The method calls this value as a function.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

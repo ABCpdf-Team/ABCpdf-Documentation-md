@@ -1,41 +1,12 @@
----
-title: "palette"
-css: "abcpdf-docs.css"
----
+# Palette Property
 
-|  |  | Palette Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp XPalette ``` [Visual Basic] `XPalette` | See notes. | No | A color palette to be used. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| A color palette to be used when exporting using a ColorSpace of Indexed. When reducing colors, there are different ways to choose such colors. The method used is dependent on the XPalette.Definition. The default value for this is a default palette - Adaptive with 256 colors. |  |  | 
-| --- | --- | --- |
+A color palette to be used when exporting using a ColorSpace of Indexed. When reducing colors, there are different ways to choose such colors. The method used is dependent on the XPalette.Definition.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+The default value for this is a default palette - Adaptive with 256 colors.
 
-</td>
-  </tr>
-</table>
+## Example
+
+None.
+

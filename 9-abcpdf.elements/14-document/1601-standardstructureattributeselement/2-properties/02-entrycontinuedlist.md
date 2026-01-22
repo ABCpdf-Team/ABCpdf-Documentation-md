@@ -1,41 +1,25 @@
----
-title: "02-entrycontinuedlist"
-css: "abcpdf-docs.css"
----
+# EntryContinuedList Property
 
-|  |  | EntryContinuedList Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp bool? ``` [Visual Basic] `Boolean?` | null | No | Represents the "ContinuedList" entry of the standard structure attributes object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "ContinuedList" entry of the standard structure attributes object. It is an optional entry defined as part of the PDF 2.0 specification. It contains a bool representing a PDF boolean object. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; page 593. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 347, page 608. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 382, page 784. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 348, page 609. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 383, page 785. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 349, page 610. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 384, page 785. |  |  | 
-| --- | --- | --- |
+Represents the "ContinuedList" entry of the standard structure attributes object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is an optional entry defined as part of the PDF 2.0 specification.
 
-</td>
-  </tr>
-</table>
+It contains a bool representing a PDF boolean object.
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; page 593.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 347, page 608.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 382, page 784.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 348, page 609.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 383, page 785.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 349, page 610.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 384, page 785.

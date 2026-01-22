@@ -1,34 +1,21 @@
----
-title: "unembedsimplefonts"
-css: "abcpdf-docs.css"
----
+# UnembedSimpleFonts   Property
 
-|  |  | UnembedSimpleFonts Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp bool ``` [Visual Basic] `Boolean` | true | No | Whether to unembed simple fonts where possible. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+| [C#] <BR> `bool` | true | No | Whether to unembed simple fonts where possible. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Whether to unembed simple fonts where possible. Simple fonts are those that use a standard encoding which translates directly to Unicode. Because the encoding is a standard one, the embedded font can be removed without having to change the drawing instructions on the page. Most simple fonts are Latin based but there are encodings which use Chinese, Japanese or Korean. This option is fast and low impact but embedded Latin fonts tend not to be too large. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Whether to unembed simple fonts where possible.
 
-</TD></TR></TBODY></TABLE>
+Simple fonts are those that use a standard encoding which translates directly to Unicode.
+
+Because the encoding is a standard one, the embedded font can be removed without having to change the drawing instructions on the page.
+
+Most simple fonts are Latin based but there are encodings which use Chinese, Japanese or Korean.
+
+This option is fast and low impact but embedded Latin fonts tend not to be too large.
+
+## Example
+
+None

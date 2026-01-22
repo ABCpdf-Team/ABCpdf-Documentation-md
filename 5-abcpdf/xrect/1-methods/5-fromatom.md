@@ -1,56 +1,39 @@
----
-title: "5-fromatom"
-css: "abcpdf-docs.css"
----
+# FromAtom  Function
 
-|  |  | FromAtom Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Create an XRect from a standard PDF Rectangle ArrayAtom. |  |  | 
+Create an XRect from a standard PDF Rectangle ArrayAtom.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp static XRect FromAtom(IndirectObject io, ArrayAtom array) ``` [Visual Basic] ``` Shared Function FromAtom(io As IndirectObject, array As ArrayAtom) As XRect ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+static <a href="../default.htm">XRect</a> FromAtom(<a href="../../../6-abcpdf.objects/1-indirectobject/default.htm">IndirectObject</a> io, <a href="../../../7-abcpdf.atoms/arrayatom/default.htm">ArrayAtom</a> array)
+```
+
+[Visual Basic]
+
+```vb
+Shared Function FromAtom(io As <a href="../../../6-abcpdf.objects/1-indirectobject/default.htm">IndirectObject</a>, array As <a href="../../../7-abcpdf.atoms/arrayatom/default.htm">ArrayAtom</a>) As <a href="../default.htm">XRect</a>
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| io | Any IndirectObject from the document. | 
-| array | An ArrayAtom containing four NumAtoms. | 
-| return | The newly created XRect object. | 
+| io | Any IndirectObject from the document. |
+| array | An ArrayAtom containing four NumAtoms. |
+| return | The newly created XRect object. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Create an XRect from a standard PDF Rectangle ArrayAtom. Such arrays typically contain four numbers - lower left x and y coordinates followed by upper right x and y. However this is a convention and any two diagonally opposite points are acceptable. If the array is null or the entries do not resolve to four NumAtoms then the return value will be null. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Create an XRect from a standard PDF Rectangle ArrayAtom.
 
-</TD></TR></TBODY></TABLE>
+Such arrays typically contain four numbers - lower left x and y coordinates followed by upper right x and y.
+
+However this is a convention and any two diagonally opposite points are acceptable.
+
+If the array is null or the entries do not resolve to four NumAtoms then the return value will be null.
+
+## Example
+
+None

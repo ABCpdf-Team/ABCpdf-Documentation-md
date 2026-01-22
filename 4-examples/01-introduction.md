@@ -1,47 +1,76 @@
----
-title: "01-introduction"
-css: "abcpdf-docs.css"
----
+# Code Samples and Projects
 
-|  |  | Code Samples and Projects |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-|  |  |  | 
+## Samples
 
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" class="sectheader">![](../images/steel-pin.gif)  
+There are many code examples in the documentation. These cover common tasks like:
 
-      Samples</td>
-    <td>&nbsp;</td>
-    <td valign="top">
-| There are many code examples in the documentation. These cover common tasks like: Adding text Flowing text Adding images Every major object method or property has an accompanying code sample. So if you want to know how to use a method like AddText or AddImageFile just look at the code sample. Code samples also cover operations like: Rendering HTML pages Paged HTML renders Watermarking Appending PDF documents Drawing pages from one PDF document into another |  |  | 
-| --- | --- | --- |
+Every major object method or property has an accompanying code sample. So if you want to know how to use a method like AddText or AddImageFile just look at the code sample.
 
-</td>
-  </tr>
-  <tr>
-    <td valign="top" class="sectheader">![](../images/steel-pin.gif)  
+Code samples also cover operations like:
 
-      Projects</td>
-    <td>&nbsp;</td>
-    <td valign="top">
-| Most of the time you will be dealing with small code samples and snippets of the type you will find in the documentation. However some tasks are more involved and varied and involve larger code bases. These are available as complete example projects. To obtain these projects you will need to run the full ABCpdf MSI installer which you can download from our site. After installation look for the ABCpdf menu item under the Windows Start menu. One of the items under the ABCpdf menu item is a folder called Examples. These projects are referenced in a variety of locations within this documentation. However, a full description is provided below. For in-situ ASP.NET examples you may wish to look at the example web site that comes installed with ABCpdf. |  |  | 
-| --- | --- | --- |
+## Projects
 
-</td>
-  </tr>
-  <tr>
-    <td valign="top" class="sectheader">![](../images/steel-pin.gif)  
+Most of the time you will be dealing with small code samples and snippets of the type you will find in the documentation.
 
-    Project Overview</td>
-    <td>&nbsp;</td>
-    <td valign="top">
-| ## ABCpdf.Drawing Example Project This is a project designed to parallel the System.Drawing namespace. For example, a System.Drawing.Pen will map to a WebSupergoo.ABCpdf13.Drawing.Pen and a System.Drawing.Bitmap will map to a WebSupergoo.ABCpdf13.Drawing.Bitmap. Because the APIs and class structure are very similar, it is easy to port System.Drawing code over to produce ABCpdf documents rather than System.Drawing images. In addition there are some ABCpdf extensions to allow support for advanced PDF oriented features like CMYK color spaces. For more details see the project or the System.Drawing Example section in this documentation. ## ABCpdfView Example Project This shows how to display and print PDF documents from a Windows Forms application. It provides features such as viewing at different sizes and resolutions. It allows you to print documents that you are viewing. It presents a simple way of editing items in a PDF document. Probably the core value of this project is in the printing code. This shows how to use ABCpdf in conjunction with the .NET printing APIs to send a PDF document to a printer. There are a variety of approaches you can use for printing. For example you can export to XPS and then send that document direct to the spooler. However we have found that, as of 2019, the EMF based print process is still the most reliable method. XPS is a more sophisticated approach but relies on current hardware and up-to-date software which may not be available on all systems. The PDF editing capabilities are interesting in that they show how you can edit items within a PDF document. However they are relatively unsophisticated and should be regarded as a base rather than code you can use directly in your projects. ## AccessiblePDF Example Project This project demonstrates how to tag a PDF and make it accessible. The methods used are based around Section 508 compliance and the PDF/UA standard. The basis of this project is the use of the AccessibilityOperation and the MakeAccessible method. You can read more about these and the types of information that is added, under the documentation for those methods. However a one function method can only ever achieve so much in the context of complicated and semantically ambiguous documents. For example the reading order of any complex document is likely to vary between people - there is no absolutely correct answer. ABCpdf will come up with a reasonable method but it may not be the one you want. The AccessiblePDF project shows how to use knowledge of your documents to take the base data and enhance it. It shows how to detect and insert structure based on your understanding of the document and supports the following structure types. Headers and Footers Tables Lists Sections Artifacts It shows how to use the tags in a PDF document to detect and change content within it. This includes some code relevant to eSignLive signatures. It contains code to show how to add content and tags to an already tagged document, merging these tags with the existing structure in the style of the base document. Usefully it provides a method of extracting the tagged structure of any PDF document to an HTML-like format you can easily examine. ## AdvancedGraphics Example Project This project shows how to use ABCpdf to write PDF drawing operators and content streams. Writing drawing operators to a content stream represents a lower level approach than the standard ABCpdf APIs. It provides a sophisticated level of control but it is rather more complicated to code. It is probably more appropriate for more drawing based routines where you need paths, clips, fills, shades and blends. It is probably less appropriate for text which can be very complex when presented at a low level. For more details see the project or the Advanced Graphics Example section in this documentation. ## Annotations Example Project This shows how to use ABCpdf to create form fields and document annotations. Form fields are similar to HTML fields and encompass similar structures such as text boxes, radio buttons, check boxes, list boxes, signatures and push buttons. Annotations are interactive in the same way as form fields but they do not hold a value to be submitted. There are a very wide variety of annotations you can create and these include stamps, notes, highlights, lines, arrows, rectangles and 3D scenes. In particular this project shows how to create electronic signatures, how to sign them programmatically, how to check the validity of any signed signatures and how to use incremental updates to allow successive signings by a chain of people. For more details see the project or the Fields, Markup and Movies Example section in this documentation. Annotations.pdf - page 1 | Annotations.pdf - page 2 | 
-| --- | --- |
+However some tasks are more involved and varied and involve larger code bases. These are available as complete example projects. To obtain these projects you will need to run the full ABCpdf MSI installer which you can download from our site. After installation look for the ABCpdf menu item under the Windows Start menu. One of the items under the ABCpdf menu item is a folder called Examples.
 
-## PDFSurgeon Example Project
+These projects are referenced in a variety of locations within this documentation. However, a full description is provided below.
+
+For in-situ ASP.NET examples you may wish to look at the example web site that comes installed with ABCpdf.
+
+## Project Overview
+
+This is a project designed to parallel the System.Drawing namespace.
+
+For example, a System.Drawing.Pen will map to a WebSupergoo.ABCpdf13.Drawing.Pen and a System.Drawing.Bitmap will map to a WebSupergoo.ABCpdf13.Drawing.Bitmap.
+
+Because the APIs and class structure are very similar, it is easy to port System.Drawing code over to produce ABCpdf documents rather than System.Drawing images.
+
+In addition there are some ABCpdf extensions to allow support for advanced PDF oriented features like CMYK color spaces.
+
+For more details see the project or the System.Drawing Example section in this documentation.
+
+This shows how to display and print PDF documents from a Windows Forms application.
+
+It provides features such as viewing at different sizes and resolutions. It allows you to print documents that you are viewing. It presents a simple way of editing items in a PDF document.
+
+Probably the core value of this project is in the printing code. This shows how to use ABCpdf in conjunction with the .NET printing APIs to send a PDF document to a printer.
+
+There are a variety of approaches you can use for printing. For example you can export to XPS and then send that document direct to the spooler. However we have found that, as of 2019, the EMF based print process is still the most reliable method. XPS is a more sophisticated approach but relies on current hardware and up-to-date software which may not be available on all systems.
+
+The PDF editing capabilities are interesting in that they show how you can edit items within a PDF document. However they are relatively unsophisticated and should be regarded as a base rather than code you can use directly in your projects.
+
+This project demonstrates how to tag a PDF and make it accessible. The methods used are based around Section 508 compliance and the PDF/UA standard.
+
+The basis of this project is the use of the AccessibilityOperation and the MakeAccessible method. You can read more about these and the types of information that is added, under the documentation for those methods.
+
+However a one function method can only ever achieve so much in the context of complicated and semantically ambiguous documents. For example the reading order of any complex document is likely to vary between people - there is no absolutely correct answer. ABCpdf will come up with a reasonable method but it may not be the one you want.
+
+The AccessiblePDF project shows how to use knowledge of your documents to take the base data and enhance it. It shows how to detect and insert structure based on your understanding of the document and supports the following structure types.
+
+It shows how to use the tags in a PDF document to detect and change content within it. This includes some code relevant to eSignLive signatures.
+
+It contains code to show how to add content and tags to an already tagged document, merging these tags with the existing structure in the style of the base document.
+
+Usefully it provides a method of extracting the tagged structure of any PDF document to an HTML-like format you can easily examine.
+
+This project shows how to use ABCpdf to write PDF drawing operators and content streams.
+
+Writing drawing operators to a content stream represents a lower level approach than the standard ABCpdf APIs. It provides a sophisticated level of control but it is rather more complicated to code.
+
+It is probably more appropriate for more drawing based routines where you need paths, clips, fills, shades and blends. It is probably less appropriate for text which can be very complex when presented at a low level.
+
+For more details see the project or the Advanced Graphics Example section in this documentation.
+
+This shows how to use ABCpdf to create form fields and document annotations.
+
+Form fields are similar to HTML fields and encompass similar structures such as text boxes, radio buttons, check boxes, list boxes, signatures and push buttons.
+
+Annotations are interactive in the same way as form fields but they do not hold a value to be submitted. There are a very wide variety of annotations you can create and these include stamps, notes, highlights, lines, arrows, rectangles and 3D scenes.
+
+In particular this project shows how to create electronic signatures, how to sign them programmatically, how to check the validity of any signed signatures and how to use incremental updates to allow successive signings by a chain of people.
+
+For more details see the project or the Fields, Markup and Movies Example section in this documentation.
 
 This is a wonderful tool which allows you to view and manipulate the content of PDF documents. So rather than an example project, this is more of a utility. You have the source so it is easy to adapt to your needs, however for most requirements it should be fine as-is.
 
@@ -51,23 +80,17 @@ Indeed you can even decompress and edit a content stream for a particular page a
 
 For getting to know how PDF documents and content streams work, this is an invaluable tool.
 
-![](../images/contentextract.gif) Screenshot of PDFSurgeon
-
-## FontUnembedment Example Project
+Screenshot of PDFSurgeon
 
 The project detailed here shows how to un-embed and re-embed fonts.
 
-There is a certain amount of overlap between this project and existing classes within ABCpdf. For example the [ReduceSizeOperation](../8-abcpdf.operations/B-reducesizeoperation/default.md) class provides a simple way to un-embed fonts, while the [FontObject](../6-abcpdf.objects/fontobject/default.md) class provides methods for embedding, un-embedding and subsetting fonts.
+There is a certain amount of overlap between this project and existing classes within ABCpdf. For example the ReduceSizeOperation class provides a simple way to un-embed fonts, while the FontObject class provides methods for embedding, un-embedding and subsetting fonts.
 
 However the FontUnembedment project provides more careful control over the process and may be preferable where this is required.
 
-## GlobalSign Example Project
-
 The GlobalSign example project shows how to sign and validate PDF digital signatures using the GlobalSign cloud signing service.
 
-For a good backgrounder on PDF signatures see the web page [PDF Digital Signatures in C# – The Definitive Guide](https://www.websupergoo.com/abcpdf-pdf-digital-signatures.aspx).
-
-## GetColors Example Project
+For a good backgrounder on PDF signatures see the web page PDF Digital Signatures in C# – The Definitive Guide.
 
 This project shows how to find the colors used in a document.
 
@@ -79,9 +102,7 @@ Likewise a page may reference a particular color, but for a variety of reasons, 
 
 However, with those caveats, it is sometimes useful to be able to count and retrieve the colors that are referenced. This project shows how this can be done. It reads the document pages and keeps track of the colors and color spaces that are referenced in the content stream. Finally it displays the answer.
 
-In addition to being useful for counting colors, this project also provides a good example of how the [OpAtom](../7-abcpdf.atoms/opatom/default.md) and [ContentStreamOperation](../8-abcpdf.operations/G-contentstreamoperation/default.md) classes can be used to analyze a page content stream and graphic state. So if you are wanting to do low level analysis of page content, this is a good place to start.
-
-## HTMLTables Example Project
+In addition to being useful for counting colors, this project also provides a good example of how the OpAtom and ContentStreamOperation classes can be used to analyze a page content stream and graphic state. So if you are wanting to do low level analysis of page content, this is a good place to start.
 
 The project detailed here shows how to create PDF tables based on an HTML type input.
 
@@ -89,9 +110,7 @@ There is a certain amount of overlap between this project, the WPFTables and the
 
 This project is based on HTML style input rather than programmatic control or WPF.
 
-## OCGLayers Example Project
-
-The term OCG refers to Optional Content Groups. These are what most people would conceptualize as visible layers (not to be confused with the [Doc.Layer](../5-abcpdf/doc/2-properties/layer.md) concept).
+The term OCG refers to Optional Content Groups. These are what most people would conceptualize as visible layers (not to be confused with the Doc.Layer concept).
 
 OCGs allow you to specify content that may be visible or invisible. As a user, you can see the names of the OCGs that exist and you can turn them on or off to see or hide the respective content.
 
@@ -103,16 +122,9 @@ This project shows how to create content with visibility determined using OCGs. 
 
 As well as creating layers it also shows shows how to turn OCGs on and off, annotate the items on a page based on the OCGs that they belong to and how to redact and delete invisible items, removing any associated OCGs.
 
-## PDFEnterpriseServices Example Project
-
 Normally when you use ABCpdf, it operates in process as part of your application.
 
 In some situations it may be useful have it operate out of process. This provides a number of benefits.
-
-- It allows your code to run in a completely different process from your web code thus isolating the two.
-- It allows you complete control over the user which your code runs as without impacting the security of your web code. All you do is change the user using the Component Services Administration Tool.
-- Because your web code and your ABCpdf code are operating in different address spaces there is more free space in each process.
-- You can tell your component package to shut itself down when it's not being used.
 
 The simplest way to do this is to use the .NET Enterprise Services structures. These have gone through a variety of iterations - MFC, COM+ and currently .NET Enterprise Services. The names themselves are a bit of a misnomer. For example COM+ is not really COM plus something extra. COM is a way of calling functions in a DLL while COM+ is an architecture which can be used to host application services - two completely different things. Similarly .NET Enterprise Services is not entirely .NET as it relies on COM concepts for implementation.
 
@@ -120,46 +132,29 @@ A lot of what you can read on the internet states that .NET Enterprise Services 
 
 The PDFEnterpriseServices example project under the ABCpdf .NET menu item shows you how to set up a .NET Enterprise Services Component for converting HTML into PDF. This is relevant only for the MSHTML engine as both the ABCGecko and ABCChrome engines already operate out of process.
 
-## PDFTable Example Project
-
 The project detailed here shows how to create PDF tables based on programmatic control.
 
 There is a certain amount of overlap between this project, the WPFTables and the HTMLTables Example project. All do similar things in slightly different ways.
 
 This project is based on programmatic control rather than HTML style input or WPF.
 
-You can read more about how to use this project in the [Small Table Example](09-table1.md) and [Large Table Example](10-table2.md) sections of this document.
-
-## Print Example Project
+You can read more about how to use this project in the Small Table Example and Large Table Example sections of this document.
 
 This project demonstrates our preferred method of printing documents using ABCpdf under .NET.
 
 There are a variety of ways that printing can be implemented under .NET. For example:
 
-- Via the Windows Printing APIs
-- Via the .NET Printing APIs
-- Via XPS
-
 In addition some printers may support direct printing of certain formats. For example,
-
-- PostScript
-- Printer Control Language (PCL)
-- PDF
-- XPS
 
 Our experience is that the Printing APIs provide the most reliable route. However we also find that there can be a significant overhead using the .NET APIs as opposed to the native ones. This seems to be printer dependent but can change the speed by an order of magnitude.
 
 As such we feel that the fastest and most reliable printing method is via the Windows Printing APIs. However if you prefer to use the .NET Printing APIs you can find example code in the ABCpdfView example project.
-
-## Redaction Example Project
 
 The project detailed here shows how to redact or delete text and images from a document.
 
 The code uses a variety of criteria to determine the items to be redacted. The most obvious one is an area of interest. As such, we have examples showing how to redact text or images in a particular area on a page.
 
 However other criteria are also possible. Other examples show delete specific words from a document or how to select and delete text based on text font and styling.
-
-## ReferenceXObject Example Project
 
 The project detailed here shows how to convert images to Reference XObjects.
 
@@ -169,8 +164,6 @@ However sometimes it can be advantageous to hold images externally, much like as
 
 This project shows how to take a PDF document and convert it into a base template referencing separate external image documents.
 
-## SwfExport Example Project
-
 Flash (SWF) export can be both simple or sophisticated based on your needs.
 
 At the simplest all you need to do is Doc.Save your document as SWF.
@@ -179,15 +172,11 @@ However the SWF content really needs to exist in the context of a controller. Th
 
 It shows how to wrap the output in a package which might look like a book or a brochure or perhaps a slide show.
 
-## TaggedPDF Example Project
-
 PDF documents can contain tags to indicate semantic structure.
 
 This example shows how to create tagged documents using a low level approach.
 
 It takes content specified as XML and converts it to content and associated tags.
-
-## ValidatePDF Example Project
 
 The Elements namespace allows structured access to the PDF Objects that exist.
 
@@ -197,15 +186,11 @@ The validation covers the properties that each object may contain, the values th
 
 This project shows how to use the Elements namespace to validate documents and report any information or irregularities.
 
-## Viewer3D Example Project
-
 The Viewer3D project contains a control for interactive viewing of 3D objects in PDF documents.
 
 It supports the PDF 3D standards - U3D and PRC. So by extracting this information from your documents you can then view your 3D models.
 
 This project includes the 3D control inside an application wrapper so you can easily see what it can do.
-
-## WebPageSnapshot Example Project
 
 One of the most common operations that people want to perform is to take a PDF snapshot of the current page.
 
@@ -213,17 +198,13 @@ However this can be more complicated than one might imagine in the case of a per
 
 This project demonstrates how to use an alternative and more robust approach to creating such a page snapshot. It intercepts the HTML which was passed to the client and then treats that as a separate page. It is simple and fast and it is good for situations involving authentication and security. It makes use of privileges it already has by virtue of being on the server, rather than trying to obtain privileges by impersonating the client.
 
-## WPFTable Example Project
-
 The project detailed here shows how to create PDF tables based on Windows Presentation Foundation (WPF) content.
 
 There is a certain amount of overlap between this project, the PDFTables and the HTMLTables Example project. All do similar things in slightly different ways.
 
 This project is based on WPF structure rather than programmatic control or HTML style input. The WPF structure that exists is halfway between the type of layout control you get in HTML and the control you get in a more graphics oriented API like System.Drawing. It is sophisticated enough for document layout but with more complicated document layout structures you start to run into areas in which the structure constrains rather than enables.
 
-You can read more about this and how to use this project in the [WPF Tables Example](21-wpftables.md) section of this document.
-
-## ABCpdf Example Web Site
+You can read more about this and how to use this project in the WPF Tables Example section of this document.
 
 The example ASP.NET web site is the same one we use for our online demonstration.
 
@@ -233,10 +214,3 @@ The user interface is not sophisticated as the aim is to expose ABCpdf code rath
 
 Because the site is intended for live use, it is not totally self contained and may require some of our other components.
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td width="11">&nbsp;</td>
-        </tr>
-    </table></td>
-  </tr>
-</table>

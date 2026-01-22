@@ -1,54 +1,35 @@
----
-title: "effectoperation"
-css: "abcpdf-docs.css"
----
+# EffectOperation Function
 
-|  |  | EffectOperation Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| EffectOperation Constructor |  |  | 
+EffectOperation Constructor
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp EffectOperation(string name) ``` [Visual Basic] ``` New(name As String) ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+<a href="../default.htm">EffectOperation</a>(string name)
+```
+
+[Visual Basic]
+
+```vb
+New(name As String)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| name | The name of the effect that is required. | 
+| name | The name of the effect that is required. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Create a EffectOperation. The installed effects can be obtained using the Names static variable. If the name is not one of the valid names then an exception will be thrown. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Create a EffectOperation.
 
-</TD></TR></TBODY></TABLE>
+The installed effects can be obtained using the [Names](2-properties/names.md) static variable.
+
+If the name is not one of the valid names then an exception will be thrown.
+
+## Example
+
+None

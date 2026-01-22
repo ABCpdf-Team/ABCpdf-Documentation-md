@@ -1,0 +1,2 @@
+# SoftMaskElement Class
+

@@ -1,34 +1,15 @@
----
-title: "6-height"
-css: "abcpdf-docs.css"
----
+# Height Property
 
-|  |  | Height Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp double? ``` [Visual Basic]`Nullable(Of Double)` | n/a | Yes | Gets the height of the source object. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+| [C#] <BR> `double?` | n/a | Yes | Gets the height of the source object. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| This property holds the height of the source object. Values are in the coordinate system of the source object. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+This property holds the height of the source object.
 
-</TD></TR></TBODY></TABLE>
+Values are in the coordinate system of the source object.
+
+## Example
+
+None

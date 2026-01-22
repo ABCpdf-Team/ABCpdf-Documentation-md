@@ -1,41 +1,13 @@
----
-title: "06-entryts"
-css: "abcpdf-docs.css"
----
+# EntryTS Property
 
-|  |  | EntryTS Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp StreamElement ``` [Visual Basic] `StreamElement` | null | No | Represents the "TS" entry of the signature validation-related information dictionary object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "TS" entry of the signature validation-related information dictionary object. It is an optional entry defined as part of the PDF 2.0 specification. It contains a StreamElement. For definitive details see:. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 262, page 584. |  |  | 
-| --- | --- | --- |
+Represents the "TS" entry of the signature validation-related information dictionary object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is an optional entry defined as part of the PDF 2.0 specification.
 
-</td>
-  </tr>
-</table>
+It contains a StreamElement.
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 262, page 584.

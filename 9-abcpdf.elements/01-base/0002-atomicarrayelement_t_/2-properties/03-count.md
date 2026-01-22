@@ -1,41 +1,9 @@
----
-title: "03-count"
-css: "abcpdf-docs.css"
----
+# Count Property
 
-|  |  | Count Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp int ``` [Visual Basic] `Integer` | 0 | Yes | Gets the number of items contained in the array. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Gets the number of items contained in the array. As items are added to the array the Count will increase. As they are removed, it will decrease. |  |  | 
-| --- | --- | --- |
+Gets the number of items contained in the array.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+As items are added to the array the Count will increase.
 
-</td>
-  </tr>
-</table>
+As they are removed, it will decrease.

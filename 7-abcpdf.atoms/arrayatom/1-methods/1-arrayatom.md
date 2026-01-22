@@ -1,63 +1,16 @@
----
-title: "1-arrayatom"
-css: "abcpdf-docs.css"
----
+# ArrayAtom Constructor
 
-|  |  | ArrayAtom Constructor |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| ArrayAtom Constructor. |  |  | 
+## Syntax
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Syntax</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| **[C#]** ```csharp ArrayAtom() ``` [Visual Basic] ``` Sub New() ``` |  |  | 
-| --- | --- | --- |
+[C#] ArrayAtom() [Visual Basic] Sub New()
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Params</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Name | Description | 
-| --- | --- |
-| none |  | 
+## Params
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td width="11">&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Create an empty ArrayAtom. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+Create an empty ArrayAtom.
 
-</td>
-  </tr>
-</table>
+## Example
+
+None.
+

@@ -1,55 +1,34 @@
----
-title: "intersectswith"
-css: "abcpdf-docs.css"
----
+# IntersectsWith  Function
 
-|  |  | IntersectsWith Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Determine if this rectangle intersects with another. |  |  | 
+Determine if this rectangle intersects with another.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp bool IntersectsWith(XRect rect) ``` [Visual Basic] ``` Function IntersectsWith(rect As XRect) As Boolean ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+bool IntersectsWith(<a href="../default.htm">XRect</a> rect)
+```
+
+[Visual Basic]
+
+```vb
+Function IntersectsWith(rect As <a href="../default.htm">XRect</a>) As Boolean
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| rect | Another rectangle. | 
-| return | Whether the two rectangles intersect. | 
+| rect | Another rectangle. |
+| return | Whether the two rectangles intersect. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Determine if this rectangle intersects with another. If a null rectangle is passed this function will return false. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Determine if this rectangle intersects with another.
 
-</TD></TR></TBODY></TABLE>
+If a null rectangle is passed this function will return false.
+
+## Example
+
+None

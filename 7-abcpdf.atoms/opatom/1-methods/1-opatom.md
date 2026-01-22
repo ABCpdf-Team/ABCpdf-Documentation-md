@@ -1,54 +1,31 @@
----
-title: "1-opatom"
-css: "abcpdf-docs.css"
----
+# OpAtom Function
 
-|  |  | OpAtom Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Create an operator atom for a string |  |  | 
+Create an operator atom for a string
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp OpAtom() OpAtom(string value) ``` [Visual Basic] ``` New() New(value As String) ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+<a href="../default.htm">OpAtom</a>()<a href="../default.htm">OpAtom</a>(string value)
+```
+
+[Visual Basic]
+
+```vb
+New()New(value As String)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| value | The operator text. | 
+| value | The operator text. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Create an operator atom for a string. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Create an operator atom for a string.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

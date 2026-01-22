@@ -1,0 +1,2 @@
+# MacOSFileInformationElement Class
+

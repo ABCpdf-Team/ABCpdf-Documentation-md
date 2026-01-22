@@ -1,41 +1,10 @@
----
-title: "textend"
-css: "abcpdf-docs.css"
----
+# TextEnd  Property
 
-|  |  | TextEnd Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp int ``` [Visual Basic] `Integer` | n/a | Yes | The offset to the last character drawn onto this layer. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| The offset to the last character (in the FullText) to be drawn onto this layer. |  |  | 
-| --- | --- | --- |
+The offset to the last character (in the FullText) to be drawn onto this layer.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+## Example
 
-</td>
-  </tr>
-</table>
+None.
+

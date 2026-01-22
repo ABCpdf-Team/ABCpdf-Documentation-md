@@ -1,64 +1,45 @@
----
-title: "1-xtransform"
-css: "abcpdf-docs.css"
----
+# XTransform &nbsp;Constructor
 
-|  |  | XTransform Constructor |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| XTransform Constructor. |  |  | 
+XTransform  Constructor.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp XTransform() XTransform(string text) XTransform(double[] entries) XTransform(Matrix matrix) XTransform(double m11, double m12, double m21, double m22, double tx, double ty) XTransform(XRect src, XRect dst) ``` [Visual Basic] ``` Sub New Sub New(text As String) Sub New(entries As Double()) Sub New(entries As Matrix) Sub New(m11 As Double, m12 As Double, m21 As Double, m22 As Double, tx As Double, ty As Double) Sub New(src As XRect, dst As XRect) ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+<a href="../default.htm">XTransform</a>()<a href="../default.htm">XTransform</a>(string text)<a href="../default.htm">XTransform</a>(double[] entries)<a href="../default.htm">XTransform</a>(Matrix matrix)<a href="../default.htm">XTransform</a>(double m11, double m12, double m21, double m22, double tx, double ty)<a href="../default.htm">XTransform</a>(XRect src, XRect dst)
+```
+
+[Visual Basic]
+
+```vb
+Sub NewSub New(text As String)Sub New(entries As Double())Sub New(entries As Matrix)Sub New(m11 As Double, m12 As Double, m21 As Double, m22 As Double, tx As Double, ty As Double)Sub New(src As XRect, dst As XRect)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| text | A string defining the initial rectangle in the format returned by the String property. | 
-| matrix | A System.Drawing.Drawing2D Matrix object specifying the values for the transform. | 
-| entries | An array of doubles specifying the values for the matrix. These are in the order m11, m12, m21, m22, tx and ty. | 
-| m11 | Matrix entry 1,1. | 
-| m12 | Matrix entry 1,2. | 
-| m21 | Matrix entry 2,1. | 
-| m22 | Matrix entry 2,2. | 
-| tx | The x translation to be applied. | 
-| ty | The y translation to be applied. | 
-| src | The source rectangle. | 
-| dst | The source rectangle. | 
+| text | A string defining the initial rectangle in the format returned by the String property. |
+| matrix | A System.Drawing.Drawing2D Matrix object specifying the values for the transform. |
+| entries | An array of doubles specifying the values for the matrix. These are in the order m11, m12, m21, m22, tx and ty. |
+| m11 | Matrix entry 1,1. |
+| m12 | Matrix entry 1,2. |
+| m21 | Matrix entry 2,1. |
+| m22 | Matrix entry 2,2. |
+| tx | The x translation to be applied. |
+| ty | The y translation to be applied. |
+| src | The source rectangle. |
+| dst | The source rectangle. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| These methods construct an XTransform object. The default constructor creates an identity transform. The constructor which takes two rectangles creates a transform which maps the source rectangle to the destination rectangle using positive scale values. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+These methods construct an XTransform object.
 
-</TD></TR></TBODY></TABLE>
+The default constructor creates an identity transform.
+
+The constructor which takes two rectangles creates a transform which maps the source rectangle to the destination rectangle using positive scale values.
+
+## Example
+
+None

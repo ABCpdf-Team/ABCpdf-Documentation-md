@@ -1,54 +1,31 @@
----
-title: "clone"
-css: "abcpdf-docs.css"
----
+# Clone Function
 
-|  |  | Clone Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Create a deep copy of this graphics state. |  |  | 
+Create a deep copy of this graphics state.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp GraphicsState Clone() ``` [Visual Basic] ``` Clone() As GraphicsState ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+<a href="../default.htm">GraphicsState</a> Clone()
+```
+
+[Visual Basic]
+
+```vb
+Clone() As <a href="../default.htm">GraphicsState</a>
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| return | The copy. | 
+| return | The copy. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Create a deep copy of this graphics state. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Create a deep copy of this graphics state.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

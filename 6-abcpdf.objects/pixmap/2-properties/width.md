@@ -1,41 +1,10 @@
----
-title: "width"
-css: "abcpdf-docs.css"
----
+# Width Property
 
-|  |  | Width Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp int ``` [Visual Basic] `Integer` | n/a | Yes | The width of the image in pixels. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| The width of the image in pixels. |  |  | 
-| --- | --- | --- |
+The width of the image in pixels.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Also see example code in: Page GetBitmap Function. |  |  | 
-| --- | --- | --- |
+## Example
 
-</td>
-  </tr>
-</table>
+Also see example code in: Page GetBitmap Function.
+

@@ -1,41 +1,17 @@
----
-title: "15-entrylayout"
-css: "abcpdf-docs.css"
----
+# EntryLayout Property
 
-|  |  | EntryLayout Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp IList ``` [Visual Basic] `IList` | null | No | Represents the "Layout" entry of the navigator dictionary object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "Layout" entry of the navigator dictionary object. It is a required entry defined as part of the PDF 2.0 specification. It contains an array which contains strings, representing PDF name objects. If you read the specification you will see that an array of one string may be represented as a single string rather than an array. However we always present this property as an array to simplify the interface. It is only if you add or remove items in the array, that the underlying representation will be changed. For definitive details see:. Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 8.6d, page 34. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 160, page 454. |  |  | 
-| --- | --- | --- |
+Represents the "Layout" entry of the navigator dictionary object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is a required entry defined as part of the PDF 2.0 specification.
 
-</td>
-  </tr>
-</table>
+It contains an array which contains strings, representing PDF name objects.
+
+If you read the specification you will see that an array of one string may be represented as a single string rather than an array. However we always present this property as an array to simplify the interface. It is only if you add or remove items in the array, that the underlying representation will be changed.
+
+For definitive details see:.
+
+Adobe Supplement to the ISO 32000, BaseVersion: 1.7, ExtensionLevel: 3; Table: 8.6d, page 34.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 160, page 454.

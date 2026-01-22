@@ -1,41 +1,12 @@
----
-title: "fontdescent"
-css: "abcpdf-docs.css"
----
+# FontDescent Property
 
-|  |  | FontDescent Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp int ``` [Visual Basic] `Integer` | n/a | Yes | The descent for the glyphs in this font | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| The descent for the glyphs in this font. This corresponds to the usWinDescent entry in the 'OS/2' TrueType table. |  |  | 
-| --- | --- | --- |
+The descent for the glyphs in this font.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+This corresponds to the usWinDescent entry in the 'OS/2' TrueType table.
 
-</td>
-  </tr>
-</table>
+## Example
+
+None.
+

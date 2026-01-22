@@ -1,55 +1,34 @@
----
-title: "addrect"
-css: "abcpdf-docs.css"
----
+# AddRect Function
 
-|  |  | AddRect Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Add a rectangle to the current page. |  |  | 
+Add a rectangle to the current page.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp int AddRect(bool filled) ``` [Visual Basic] ``` Function AddRect(filled As Boolean) As Integer ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+int AddRect(bool filled)
+```
+
+[Visual Basic]
+
+```vb
+Function AddRect(filled As Boolean) As Integer
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| filled | Whether to fill the rectangle rather than simply outline it. | 
-| return | The Object ID of the newly added Graphic Object. | 
+| filled | Whether to fill the rectangle rather than simply outline it. |
+| return | The Object ID of the newly added Graphic Object. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Add a rectangle drawn in the current color at the current width and with the current options. The rectangle may be outlined or filled. Note that this is subtly different from the way that FrameRect works. When a rectangle is framed the line goes around the outside of the rectangle. When a rectangle is added the line is centered on the rectangle - so half is inside and half is outside. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Add a rectangle drawn in the current [color](2-properties/color.md) at the current [width](2-properties/width.md) and with the current [options](2-properties/options.md). The rectangle may be outlined or filled.
 
-</TD></TR></TBODY></TABLE>
+Note that this is subtly different from the way that FrameRect works. When a rectangle is framed the line goes around the outside of the rectangle. When a rectangle is added the line is centered on the rectangle - so half is inside and half is outside.
+
+## Example
+
+None

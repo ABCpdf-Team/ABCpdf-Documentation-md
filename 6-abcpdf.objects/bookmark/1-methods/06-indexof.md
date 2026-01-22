@@ -1,55 +1,32 @@
----
-title: "06-indexof"
-css: "abcpdf-docs.css"
----
+# IndexOf Function
 
-|  |  | IndexOf Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Determines the index of a specific Bookmark. |  |  | 
+Determines the index of a specific Bookmark.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp int IndexOf(Bookmark value) int IndexOf(string value) ``` [Visual Basic] ``` Function IndexOf(value As Bookmark) As Integer Function IndexOf(value As String) As Integer ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+int IndexOf(<a href="../default.htm">Bookmark</a> value)int IndexOf(string value)
+```
+
+[Visual Basic]
+
+```vb
+Function IndexOf(value As <a href="../default.htm">Bookmark</a>) As IntegerFunction IndexOf(value As String) As Integer
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| value | The object or the title of the object to locate in the Collection. | 
-| return | If found, the index of value, otherwise -1. | 
+| value | The object or the title of the object to locate in the Collection. |
+| return | If found, the index of value, otherwise -1. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Determines the index of a specific Bookmark in the list. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Determines the index of a specific Bookmark in the list.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

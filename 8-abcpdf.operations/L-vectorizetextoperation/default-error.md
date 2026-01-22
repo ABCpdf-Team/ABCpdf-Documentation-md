@@ -1,0 +1,2 @@
+# VectorizeTextOperation Class
+

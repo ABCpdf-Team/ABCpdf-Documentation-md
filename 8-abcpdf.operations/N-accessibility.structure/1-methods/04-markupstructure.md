@@ -1,54 +1,29 @@
----
-title: "04-markupstructure"
-css: "abcpdf-docs.css"
----
+# MarkupStructure Function
 
-|  |  | MarkupStructure Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Mark up the structure on the PDF pages so that it can be seen in a PDF reader. |  |  | 
+Mark up the structure on the PDF pages so that it can be seen in a PDF reader.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp void MarkupStructure() ``` [Visual Basic] ``` Function MarkupStructure() ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+void MarkupStructure()
+```
+
+[Visual Basic]
+
+```vb
+Function MarkupStructure()
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| none |  | 
+| none |  |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Mark up the structure on the PDF pages so that it can be seen in a PDF reader. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+## Example
 
-</TD></TR></TBODY></TABLE>
+None

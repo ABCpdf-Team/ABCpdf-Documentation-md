@@ -1,54 +1,31 @@
----
-title: "getdata"
-css: "abcpdf-docs.css"
----
+# GetData Function
 
-|  |  | GetData Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| The byte array representation of the Atom as it would appear in a PDF |  |  | 
+The byte array representation of the Atom as it would appear in a PDF
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp byte[] GetData() ``` [Visual Basic] ``` Function GetData() As Byte() ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+byte[] GetData()
+```
+
+[Visual Basic]
+
+```vb
+Function GetData() As Byte()
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| none |  | 
+| none |  |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| The byte array representation of the Atom as it would appear in a PDF. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+The byte array representation of the Atom as it would appear in a PDF.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

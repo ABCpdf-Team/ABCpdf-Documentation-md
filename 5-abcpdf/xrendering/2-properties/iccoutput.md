@@ -1,41 +1,20 @@
----
-title: "iccoutput"
-css: "abcpdf-docs.css"
----
+# IccOutput Property
 
-|  |  | IccOutput Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp string ``` [Visual Basic] `String` | "standard" | No | The path to the default output ICC color profile. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| A path to the default output ICC color profile. Rendering can occur to either an device color space or to a device independent color space. By specifying an output color profile you are telling ABCpdf the characteristics of the output device independent color space you wish to use. This property can take a path to an icm file. However there are also two special values you can use. If the property takes the value "device" then the device color space will be used. If the property takes the value "standard" then a built in default color profile will be used. If this property is set to "standard" or a path to a color profile then IccRgb, IccCmyk and IccGray should also be set to "standard" or paths to color profiles. All color spaces are assumed to be device independent color spaces. If this property is set to "device" then IccRgb, IccCmyk and IccGray should also be set to "device". All color spaces are all assumed to be device color spaces. If this property is set to a file name with no path information, then the folder system ICC color profile directory will be searched to locate the file. |  |  | 
-| --- | --- | --- |
+A path to the default output ICC color profile.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Also see example code in: XRendering Overprint Property. |  |  | 
-| --- | --- | --- |
+Rendering can occur to either an device color space or to a device independent color space. By specifying an output color profile you are telling ABCpdf the characteristics of the output device independent color space you wish to use.
 
-</td>
-  </tr>
-</table>
+This property can take a path to an icm file. However there are also two special values you can use. If the property takes the value "device" then the device color space will be used. If the property takes the value "standard" then a built in default color profile will be used.
+
+If this property is set to "standard" or a path to a color profile then IccRgb, IccCmyk and IccGray should also be set to "standard" or paths to color profiles. All color spaces are assumed to be device independent color spaces.
+
+If this property is set to "device" then IccRgb, IccCmyk and IccGray should also be set to "device". All color spaces are all assumed to be device color spaces.
+
+If this property is set to a file name with no path information, then the folder system ICC color profile directory will be searched to locate the file.
+
+## Example
+
+Also see example code in: XRendering Overprint Property.
+

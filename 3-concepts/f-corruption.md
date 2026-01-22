@@ -1,49 +1,36 @@
----
-title: "f-corruption"
-css: "abcpdf-docs.css"
----
+# Corrupt Documents
 
-|  |  | Corrupt Documents |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-|  |  |  | 
+## Intro
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../images/steel-pin.gif)  
+Occasionally people may supply you with corrupt or non-standard PDF documents.
 
-      Intro</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Occasionally people may supply you with corrupt or non-standard PDF documents. When you write code to draw on these supplied documents the drawing may appear in the wrong place or the wrong size or even not at all. The most common cause of this type of issue is that the document MediaBox is non-standard. For example designers using Adobe Illustrator can easily manipulate the page MediaBox to produce legal - but unusual - documents. You should start by using AddGrid as this should give you an idea of the way in which your drawing is failing. |  |  | 
-| --- | --- | --- |
+When you write code to draw on these supplied documents the drawing may appear in the wrong place or the wrong size or even not at all.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../images/steel-pin.gif)  
+The most common cause of this type of issue is that the document MediaBox is non-standard. For example designers using Adobe Illustrator can easily manipulate the page MediaBox to produce legal - but unusual - documents.
 
-      MediaBox</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-|  | Most PDFs define page size using a MediaBox anchored at the origin. For example "0 0 612 792". However it is not required that you do this and some PDF documents define a MediaBox that is correct but unusual. For example "-612 -792 0 0". You can check if this is the case by reporting the MediaBox property after the Read method has been called. If you find this kind of non-standard MediaBox you are probably drawing your content off the edge of the page. You will need to adjust your drawing so that it occurs within the bounds of the document MediaBox. |  |  | 
-| --- | --- | --- | --- |
+You should start by using AddGrid as this should give you an idea of the way in which your drawing is failing.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../images/steel-pin.gif)  
+## MediaBox
 
-      CropBox</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-|  | The MediaBox defines the area of a page - the actual media size. However there are other measures as well. The CropBox defines "the visible region of default user space. When the page is displayed or printed, its contents are to be clipped (cropped) to this rectangle and then imposed on the output medium". When you display your PDF in Acrobat what you see is the area of the page defined by the CropBox rather than the MediaBox. Normally CropBoxes and MediaBoxes are identical or practically identical. However occasionally you may find that they're not. This may cause your output to appear in a different location from the one you are expecting. Indeed your PDF may also impose a TrimBox or a BleedBox. If you're curious about these there are full details in the Adobe PDF Specification. |  |  | 
-| --- | --- | --- | --- |
+Most PDFs define page size using a MediaBox anchored at the origin. For example "0 0 612 792".
 
-</td>
-  </tr>
-</table>
+However it is not required that you do this and some PDF documents define a MediaBox that is correct but unusual. For example "-612 -792 0 0".
+
+You can check if this is the case by reporting the MediaBox property after the Read method has been called.
+
+If you find this kind of non-standard MediaBox you are probably drawing your content off the edge of the page.
+
+You will need to adjust your drawing so that it occurs within the bounds of the document MediaBox.
+
+## CropBox
+
+The MediaBox defines the area of a page - the actual media size. However there are other measures as well.
+
+The CropBox defines "the visible region of default user space. When the page is displayed or printed, its contents are to be clipped (cropped) to this rectangle and then imposed on the output medium".
+
+When you display your PDF in Acrobat what you see is the area of the page defined by the CropBox rather than the MediaBox.
+
+Normally CropBoxes and MediaBoxes are identical or practically identical. However occasionally you may find that they're not.
+
+This may cause your output to appear in a different location from the one you are expecting. Indeed your PDF may also impose a TrimBox or a BleedBox. If you're curious about these there are full details in the Adobe PDF Specification.
+

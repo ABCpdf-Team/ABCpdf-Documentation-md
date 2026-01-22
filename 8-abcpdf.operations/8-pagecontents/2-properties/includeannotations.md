@@ -1,36 +1,15 @@
----
-title: "includeannotations"
-css: "abcpdf-docs.css"
----
+# IncludeAnnotations   Property
 
-|  |  | IncludeAnnotations Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp bool ``` [Visual Basic] `Boolean` | true | No | Whether to include annotation and field text in the output. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+| [C#] <BR> `bool` | true | No | Whether to include annotation and field text in the output. |
 
-`may throw Exception()`
+## Notes
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Whether to include annotation and field text in the output. This property must not be changed after the AddPages method has been called. To do so will result in an exception being raised. |  |  | 
-| --- | --- | --- |
+Whether to include annotation and field text in the output.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+This property must not be changed after the [AddPages](1-methods/addpages.md) method has been called. To do so will result in an exception being raised.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

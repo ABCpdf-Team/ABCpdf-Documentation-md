@@ -1,41 +1,19 @@
----
-title: "01-entryjs"
-css: "abcpdf-docs.css"
----
+# EntryJS Property
 
-|  |  | EntryJS Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp Element ``` [Visual Basic] `Element` | null | No | Represents the "JS" entry of the javascript action object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "JS" entry of the javascript action object. It is a required entry defined as part of the PDF 1.0 specification. This property may contain one of two different types:. 1) A string representing a PDF string object. 2) A TextStreamElement. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 217, page 430. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 221, page 523. |  |  | 
-| --- | --- | --- |
+Represents the "JS" entry of the javascript action object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is a required entry defined as part of the PDF 1.0 specification.
 
-</td>
-  </tr>
-</table>
+This property may contain one of two different types:.
+
+1) A string representing a PDF string object.
+
+2) A TextStreamElement.
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 217, page 430.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 221, page 523.

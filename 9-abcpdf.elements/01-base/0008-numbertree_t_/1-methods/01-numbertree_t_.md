@@ -1,54 +1,25 @@
----
-title: "01-numbertree_t_"
-css: "abcpdf-docs.css"
----
+# NumberTree&lt;T&gt; Function
 
-|  |  | NumberTree Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| NumberTree constructor. |  |  | 
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp NumberTree(NameTreeNodeElement root) ``` [Visual Basic] ``` NumberTree(root As NameTreeNodeElement) ``` |  |  | 
-| --- | --- | --- |
+[C#]
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+```csharp
+<a href="../default.htm">NumberTree</a>&lt;T&gt;(<a href="../../../07-syntax/1097-nametreenodeelement_t_/default.htm">NameTreeNodeElement</a>&lt;T&gt; root)
+```
+
+[Visual Basic]
+
+```vb
+<a href="../default.htm">NumberTree</a>&lt;T&gt;(root As <a href="../../../07-syntax/1097-nametreenodeelement_t_/default.htm">NameTreeNodeElement</a>&lt;T&gt;)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| root | The root node for the tree. | 
+| root | The root node for the tree. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| NumberTree constructor. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
-
-</TD></TR></TBODY></TABLE>
+[NumberTree](default.md) constructor.

@@ -1,67 +1,44 @@
----
-title: "colorspace"
-css: "abcpdf-docs.css"
----
+# ColorSpace Property
 
-|  |  | ColorSpace Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp XRendering.ColorSpaceType ``` [Visual Basic] `XRendering.ColorSpaceType` | XRendering.ColorSpaceType.Rgb | No | The name of the output color space. | 
+## Notes
 
-</td>
+The name of the output color space.
 
-                <td width="60">&nbsp;</td>
+The XRendering.ColorSpaceType enumeration may take the following values:
 
-                <td>&nbsp;</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
+The following table shows the supported color spaces and valid BitsPerChannel for each output format:
 
-      <tr>
-        <td class="sectheader" valign="top">![](../../../images/steel-pin.gif)  
+Why is my ColorSpace a string?
 
-        Notes</td>
+In older versions of ABCpdf the ColorSpace property was a string. So you might find code of this form.
 
-        <td width="14">&nbsp;</td>
+[C#] theDoc.Rendering.ColorSpace = "CMYK"; [Visual Basic] theDoc.Rendering.ColorSpace = "CMYK"
 
-        <td valign="top">
-          
-| The name of the output color space. The XRendering.ColorSpaceType enumeration may take the following values: Rgb - red, green and blue Gray - grayscale Cmyk - cyan, magenta, yellow and black Lab - a device independent color space Indexed - indexed RGB; see the Palette property The following table shows the supported color spaces and valid BitsPerChannel for each output format: Output format | RGB | Gray | CMYK | Lab | Indexed | 
-| --- | --- | --- | --- | --- | --- |
-| TIFF | 8, 16 | 1, 8, 16 | 8, 16 | 8, 16 |  | 
-| PSD (Photoshop) | 8, 16 | 8, 16 | 8, 16 | 8, 16 |  | 
-| JP2 (JPEG 2000) | 8, 16 | 8, 16 | 8, 16 |  |  | 
-| JPG | 8 | 8 | 8 |  |  | 
-| BMP | 8 | 8 |  |  | 8 | 
-| PNG | 8 | 8, 16 |  |  | 8 | 
-| GIF | 8 (8 bit indexed) | 8 |  |  | 8 | 
+In Version 8 the ColorSpace property was changed to a true enumeration. This is a safer way of coding as it allows the compiler to ensure that the values you are using are valid. Your new code should look like this.
 
-</td>
+[C#] theDoc.Rendering.ColorSpace = XRendering.ColorSpaceType.Cmyk; [Visual Basic] theDoc.Rendering.ColorSpace = XRendering.ColorSpaceType.Cmyk
 
-                <td width="60">&nbsp;</td>
+The names of the items in the XRendering.ColorSpaceType enumeration are the same as the values of the strings used in previous versions. So changing your code should be a simple search and replace operation.
 
-                <td width="11">&nbsp;</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
+Note that the enumeration is the XRendering.ColorSpace indicating the output color space for rendering. There is a different ColorSpace enumeration used for the content of objects inside a PDF document. The two are not the same.
 
-      <tr>
-        <td class="sectheader" valign="top">![](../../../images/steel-pin.gif)  
-Example</td>
+Alternatively if you need to convert between enumerations and strings automatically you can do so. To convert from a string to an enumeration use the following code.
 
-        <td width="14">&nbsp;</td>
+[C#] XRendering.ColorSpaceType csType = (XRendering.ColorSpaceType)Enum.Parse(typeof(XRendering.ColorSpaceType), csString, true); [Visual Basic] Dim csType As XRendering.ColorSpaceType = CType([Enum].Parse(GetType(XRendering.ColorSpaceType), csString, True), XRendering.ColorSpaceType)
 
-        <td valign="top">
-          
-| The following example shows the effect that this parameter has on PDF rendering. [C#] ```csharp using var doc = new Doc(); doc.AddImage(Server.MapPath("../mypics/Shuttle.jpg")); doc.Rect.String = doc.MediaBox.String; // Render document in Gray colorspace doc.Rendering.ColorSpace = XRendering.ColorSpaceType.Gray; doc.Rendering.DotsPerInch = 36; doc.Rendering.Save(Server.MapPath("RenderingColorSpace.png")); ``` [Visual Basic] ```vbnet Using doc As New Doc() doc.AddImage(Server.MapPath("../mypics/Shuttle.jpg")) doc.Rect.String = doc.MediaBox.[String] ' Render document in Gray colorspace doc.Rendering.ColorSpace = XRendering.ColorSpaceType.Gray doc.Rendering.DotsPerInch = 36 doc.Rendering.Save(Server.MapPath("RenderingColorSpace.png")) End Using ``` Shuttle.jpg RenderingColorSpace.png Also see example code in: XRendering DefaultHalftone Property, XRendering IccCmyk Property, XRendering Overprint Property, XRendering SaveCompression Property. |  |  | 
-| --- | --- | --- |
+To convert from an enumeration to a string use the following code.
 
-</td>
-      </tr>
-    </tbody>
-  </table>
+[C#] string csString = csType.ToString("G"); [Visual Basic] Dim csString As String = csType.ToString("G")
+
+## Example
+
+The following example shows the effect that this parameter has on PDF rendering.
+
+[C#] using var doc = new Doc(); doc.AddImage(Server.MapPath("../mypics/Shuttle.jpg")); doc.Rect.String = doc.MediaBox.String; // Render document in Gray colorspace doc.Rendering.ColorSpace = XRendering.ColorSpaceType.Gray; doc.Rendering.DotsPerInch = 36; doc.Rendering.Save(Server.MapPath("RenderingColorSpace.png")); [Visual Basic] Using doc As New Doc() doc.AddImage(Server.MapPath("../mypics/Shuttle.jpg")) doc.Rect.String = doc.MediaBox.[String] ' Render document in Gray colorspace doc.Rendering.ColorSpace = XRendering.ColorSpaceType.Gray doc.Rendering.DotsPerInch = 36 doc.Rendering.Save(Server.MapPath("RenderingColorSpace.png")) End Using
+
+Shuttle.jpg
+
+RenderingColorSpace.png
+
+Also see example code in: XRendering DefaultHalftone Property, XRendering IccCmyk Property, XRendering Overprint Property, XRendering SaveCompression Property.
+

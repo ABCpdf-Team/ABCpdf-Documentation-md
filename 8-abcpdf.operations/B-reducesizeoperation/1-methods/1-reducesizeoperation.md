@@ -1,54 +1,31 @@
----
-title: "1-reducesizeoperation"
-css: "abcpdf-docs.css"
----
+# ReduceSizeOperation Constructor
 
-|  |  | ReduceSizeOperation Constructor |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| ReduceSizeOperation Constructor. |  |  | 
+ReduceSizeOperation Constructor.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp ReduceSizeOperation(Doc doc) ``` [Visual Basic] ``` Sub New(doc As Doc) ``` `may throw Exception()` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+<a href="../default.htm">ReduceSizeOperation</a>(Doc doc)
+```
+
+[Visual Basic]
+
+```vb
+Sub New(doc As Doc)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| doc | The PDF Document | 
+| doc | The PDF Document |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Create a ReduceSizeOperation to compact and compress a PDF document. If the doc is null then an exception will be raised. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| See the Compact function. |  |  | 
-| --- | --- | --- |
+Create a ReduceSizeOperation to compact and compress a PDF document. If the doc is null then an exception will be raised.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+See the [Compact](compact.md) function.

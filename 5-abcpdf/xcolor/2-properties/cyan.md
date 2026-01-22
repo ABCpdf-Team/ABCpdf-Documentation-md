@@ -1,41 +1,16 @@
----
-title: "cyan"
-css: "abcpdf-docs.css"
----
+# Cyan Property
 
-|  |  | Cyan Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp int ``` [Visual Basic] `Integer` | 0 | No | The cyan component. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Allows you to get or set the cyan level. CMYK color components can range from 0 to 100. Querying this property does not change the ColorSpace. This means you can obtain approximate CMYK values for RGB or Grayscale colors. However if you change the value of this property the color will automatically be converted to CMYK. |  |  | 
-| --- | --- | --- |
+Allows you to get or set the cyan level.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+CMYK color components can range from 0 to 100.
 
-</td>
-  </tr>
-</table>
+Querying this property does not change the ColorSpace. This means you can obtain approximate CMYK values for RGB or Grayscale colors.
+
+However if you change the value of this property the color will automatically be converted to CMYK.
+
+## Example
+
+None.
+

@@ -1,54 +1,25 @@
----
-title: "03-finish"
-css: "abcpdf-docs.css"
----
+# Finish Function
 
-|  |  | Finish Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Called at the point each Element finishes validation. |  |  | 
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp virtual void Finish(Element element) ``` [Visual Basic] ``` Overridable Function Finish(element As Element) As void ``` |  |  | 
-| --- | --- | --- |
+[C#]
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+```csharp
+virtual void Finish(<a href="../../1086-element/default.htm">Element</a> element)
+```
+
+[Visual Basic]
+
+```vb
+Overridable Function Finish(element As <a href="../../1086-element/default.htm">Element</a>) As void
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| element | The element. | 
+| element | The element. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Called at the point each Element finishes validation. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
-
-</TD></TR></TBODY></TABLE>
+Called at the point each [Element](1086-element/default.md) finishes validation.

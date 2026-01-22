@@ -1,0 +1,2 @@
+# RichMediaCommandElement Class
+

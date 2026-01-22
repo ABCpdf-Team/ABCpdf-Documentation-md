@@ -1,54 +1,31 @@
----
-title: "getannotations"
-css: "abcpdf-docs.css"
----
+# GetAnnotations Function
 
-|  |  | GetAnnotations Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Gets all the Annotations referenced by this field or its children |  |  | 
+Gets all the Annotations referenced by this field or its children
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp Annotation[] GetAnnotations() ``` [Visual Basic] ``` Overridable GetAnnotations() As Annotation() ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+<a href="../../annotation/default.htm">Annotation</a>[] GetAnnotations()
+```
+
+[Visual Basic]
+
+```vb
+Overridable GetAnnotations() As <a href="../../annotation/default.htm">Annotation</a>()
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| none |  | 
+| none |  |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Gets all the Annotations referenced by this field or its children. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Gets all the [Annotations](annotation/default.md) referenced by this field or its children.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

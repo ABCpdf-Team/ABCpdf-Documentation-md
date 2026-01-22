@@ -1,54 +1,34 @@
----
-title: "clear"
-css: "abcpdf-docs.css"
----
+# Clear Function
 
-|  |  | Clear Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Clears the document. |  |  | 
+Clears the document.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp void Clear() ``` [Visual Basic]`Sub Clear()` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+void Clear()
+```
+
+[Visual Basic]
+
+```vb
+Sub Clear()
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| none |  | 
+| none |  |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Use this method to release resources and return the document to a just-created state. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Also see example code in: XHtmlOptions BrowserWidth Property, XHtmlOptions ImageQuality Property. |  |  | 
-| --- | --- | --- |
+Use this method to release resources and return the document to a just-created state.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+Also see example code in:
+
+* [XHtmlOptions BrowserWidth Property](xhtmloptions/2-properties/browserwidth.md)
+* [XHtmlOptions ImageQuality Property](xhtmloptions/2-properties/imagequality.md).

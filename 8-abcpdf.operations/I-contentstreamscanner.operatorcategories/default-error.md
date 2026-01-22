@@ -1,0 +1,2 @@
+# OperatorCategories Class
+

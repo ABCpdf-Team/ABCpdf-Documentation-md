@@ -1,0 +1,2 @@
+# MediaClipElement Class
+

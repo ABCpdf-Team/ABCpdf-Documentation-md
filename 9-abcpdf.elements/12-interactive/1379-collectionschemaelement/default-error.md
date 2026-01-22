@@ -1,0 +1,2 @@
+# CollectionSchemaElement Class
+

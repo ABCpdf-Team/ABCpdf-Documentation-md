@@ -1,34 +1,13 @@
----
-title: "successful"
-css: "abcpdf-docs.css"
----
+# Successful Property
 
-|  |  | Successful Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp bool ``` [Visual Basic]`Boolean` | n/a | Yes | Gets a value indicating whether the processing was successful. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+| [C#] <BR> `bool` | n/a | Yes | Gets a value indicating whether the processing was successful. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Gets a value indicating whether the processing was successful. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| See the RecolorOperation.Recolor method. |  |  | 
-| --- | --- | --- |
+Gets a value indicating whether the processing was successful.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+See the [RecolorOperation.Recolor](../../3-recoloroperation/1-methods/recolor.htm) method.

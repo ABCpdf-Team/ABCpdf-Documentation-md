@@ -1,41 +1,15 @@
----
-title: "05-entryencode"
-css: "abcpdf-docs.css"
----
+# EntryEncode Property
 
-|  |  | EntryEncode Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp IList ``` [Visual Basic] `IList` | null | No | Represents the "Encode" entry of the type 0 function dictionary object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "Encode" entry of the type 0 function dictionary object. It is an optional entry defined as part of the PDF 1.0 specification. It contains an array which contains doubles, representing PDF numeric objects. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 39, page 94. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 39, page 124. |  |  | 
-| --- | --- | --- |
+Represents the "Encode" entry of the type 0 function dictionary object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is an optional entry defined as part of the PDF 1.0 specification.
 
-</td>
-  </tr>
-</table>
+It contains an array which contains doubles, representing PDF numeric objects.
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 39, page 94.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 39, page 124.

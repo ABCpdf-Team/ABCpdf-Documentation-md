@@ -1,55 +1,36 @@
----
-title: "fromximage"
-css: "abcpdf-docs.css"
----
+# FromXImage Function
 
-|  |  | FromXImage Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| PixMap static constructor |  |  | 
+PixMap static constructor
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp static PixMap FromXImage(ObjectSoup soup, XImage image) ``` [Visual Basic] ``` Shared Function FromXImage(soup As ObjectSoup, image As XImage) As PixMap ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+static PixMap FromXImage(<a href="../../2-objectsoup/default.htm">ObjectSoup</a> soup, <a href="../../../5-abcpdf/ximage/default.htm">XImage</a> image)
+```
+
+[Visual Basic]
+
+```vb
+Shared Function FromXImage(soup As <a href="../../2-objectsoup/default.htm">ObjectSoup</a>, image As <a href="../../../5-abcpdf/ximage/default.htm">XImage</a>) As PixMap
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| soup | The ObjectSoup to contain the newly created PixMap. | 
-| image | The XImage from which the PixMap should be created. | 
+| soup | The ObjectSoup to contain the newly created PixMap. |
+| image | The XImage from which the PixMap should be created. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| This method allows you to create a PixMap directly from an XImage object. The PixMap that is created exists within the current Doc.Soup but is not linked into any pages. To link the PixMap into a page it needs to be added as a resource and then drawn from the content stream of the page. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+This method allows you to create a PixMap directly from an XImage object.
 
-</TD></TR></TBODY></TABLE>
+The PixMap that is created exists within the current Doc.Soup but is not linked into any pages.
+
+To link the PixMap into a page it needs to be added as a resource and then drawn from the content stream of the page.
+
+## Example
+
+None

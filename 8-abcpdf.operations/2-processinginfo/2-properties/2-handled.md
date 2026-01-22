@@ -1,34 +1,13 @@
----
-title: "2-handled"
-css: "abcpdf-docs.css"
----
+# Handled Property
 
-|  |  | Handled Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp bool ``` [Visual Basic]`Boolean` | false | No | Gets or sets a value that indicates whether the event handler has handled the event so that the operation skips the default processing. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+| [C#] <BR> `bool` | false | No | Gets or sets a value that indicates whether the event handler has handled the event so that the operation skips the default processing. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| This property determines whether the operation skips the default processing. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| See the XpsImportOperation.Import method. Also see example code in: XpsImportOperation Import Function. |  |  | 
-| --- | --- | --- |
+This property determines whether the operation skips the default processing.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+Also see example code in: [XpsImportOperation Import Function](4-xpsimportoperation/1-methods/import.md).

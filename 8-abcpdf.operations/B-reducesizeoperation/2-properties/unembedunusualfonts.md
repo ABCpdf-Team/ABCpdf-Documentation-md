@@ -1,34 +1,17 @@
----
-title: "unembedunusualfonts"
-css: "abcpdf-docs.css"
----
+# UnembedUnusualFonts    Property
 
-|  |  | UnembedUnusualFonts Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp bool ``` [Visual Basic] `Boolean` | false | No | Whether to unembed embedded fonts that do not have an obvious substitute on the local machine. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+| [C#] <BR> `bool` | false | No | Whether to unembed embedded fonts that do not have an obvious substitute on the local machine. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Whether to unembed embedded fonts that do not have an obvious substitute on the local machine. The difficulty of providing an appropriate substitute font depends greatly on how unusual the font is. Subsitutes are typically rather normal fonts so if you have a font like "Transport Medium" (the font used for all UK road signs) then a PDF display package should be able to provide a fairly sensible substitute. However if you have a font like "Fire and Ice" it is likely that the substitute will not be terribly appropriate. The most extreme example of this comes with barcode fonts which of course look completely different from the characters that they represent. If is difficult to know what fonts are unusual. However if the font does not appear on the local machine then it is a reasonable assumption that it may not substitute well. As such this property allows you to avoid unembedding such fonts. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Whether to unembed embedded fonts that do not have an obvious substitute on the local machine.
 
-</TD></TR></TBODY></TABLE>
+The difficulty of providing an appropriate substitute font depends greatly on how unusual the font is. Subsitutes are typically rather normal fonts so if you have a font like "Transport Medium" (the font used for all UK road signs) then a PDF display package should be able to provide a fairly sensible substitute. However if you have a font like "Fire and Ice" it is likely that the substitute will not be terribly appropriate. The most extreme example of this comes with barcode fonts which of course look completely different from the characters that they represent.
+
+If is difficult to know what fonts are unusual. However if the font does not appear on the local machine then it is a reasonable assumption that it may not substitute well. As such this property allows you to avoid unembedding such fonts.
+
+## Example
+
+None

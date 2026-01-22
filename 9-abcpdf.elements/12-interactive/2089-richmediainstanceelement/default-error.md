@@ -1,0 +1,2 @@
+# RichMediaInstanceElement Class
+

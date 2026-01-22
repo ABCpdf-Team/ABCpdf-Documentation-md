@@ -1,34 +1,13 @@
----
-title: "templatedata"
-css: "abcpdf-docs.css"
----
+# TemplateData Property
 
-|  |  | TemplateData Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp XSaveTemplateData ``` [Visual Basic]`XSaveTemplateData` | null | No | The template data. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+|  | null | No | The template data. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| This property specifies the template data that is not obtained from Template and which provides some format-specific data essential to the usefulness of the output when saving in certain formats such as SWF. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Also see example code in: XSaveTemplateData SetMeasureResolution Function. |  |  | 
-| --- | --- | --- |
+This property specifies the template data that is not obtained from [Template](template.md) and which provides some format-specific data essential to the usefulness of the output when saving in certain formats such as SWF.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+Also see example code in: [XSaveTemplateData SetMeasureResolution Function](xsavetemplatedata/1-methods/setmeasureresolution.md).

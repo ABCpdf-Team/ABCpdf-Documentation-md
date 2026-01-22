@@ -1,54 +1,33 @@
----
-title: "updatemetadata"
-css: "abcpdf-docs.css"
----
+# UpdateMetadata Function
 
-|  |  | UpdateMetadata Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Update metadata for the embedded file. |  |  | 
+Update metadata for the embedded file.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp void UpdateMetadata(string path) ``` [Visual Basic] ``` Sub UpdateMetadata(path As String) ``` `may throw Exception()` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+void UpdateMetadata(string path)
+```
+
+[Visual Basic]
+
+```vb
+Sub UpdateMetadata(path As String)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| path | A path to a file containing data. If null is passed the data will be cleared. | 
+| path | A path to a file containing data. If null is passed the data will be cleared. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Update metadata like the ModificationDate, CreationDate and Size to reflect the file values. This EmbeddedFile must be part of an ObjectSoup or an exception will be thrown. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Update metadata like the [ModificationDate](2-properties/modificationdate.md) [CreationDate](2-properties/creationdate.md) and [Size](2-properties/size.md) to reflect the file values.
 
-</TD></TR></TBODY></TABLE>
+This EmbeddedFile must be part of an ObjectSoup or an exception will be thrown.
+
+## Example
+
+None

@@ -1,41 +1,13 @@
----
-title: "02-entryname"
-css: "abcpdf-docs.css"
----
+# EntryName Property
 
-|  |  | EntryName Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp string ``` [Visual Basic] `string` | null | No | Represents the "Name" entry of the truetype font dictionary object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "Name" entry of the truetype font dictionary object. It is defined as part of the PDF 1.0 specification. It contains a string representing a PDF name object. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; page 257. |  |  | 
-| --- | --- | --- |
+Represents the "Name" entry of the truetype font dictionary object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is defined as part of the PDF 1.0 specification.
 
-</td>
-  </tr>
-</table>
+It contains a string representing a PDF name object.
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; page 257.

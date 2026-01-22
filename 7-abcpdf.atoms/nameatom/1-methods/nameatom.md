@@ -1,63 +1,18 @@
----
-title: "nameatom"
-css: "abcpdf-docs.css"
----
+# NameAtom Constructor
 
-|  |  | NameAtom Constructor |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Construct a NameAtom. |  |  | 
+## Syntax
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Syntax</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| **[C#]** ```csharp NameAtom() NameAtom(string value) ``` [Visual Basic] ``` Sub New() Sub New(value As String) ``` |  |  | 
-| --- | --- | --- |
+[C#] NameAtom() NameAtom(string value) [Visual Basic] Sub New() Sub New(value As String)
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Params</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Name | Description | 
-| --- | --- |
-| value | The initial value that the Atom should adopt. | 
+## Params
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td width="11">&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Create a NameAtom. If a value is not specified the default - an empty string - will be used. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+Create a NameAtom.
 
-</td>
-  </tr>
-</table>
+If a value is not specified the default - an empty string - will be used.
+
+## Example
+
+None.
+

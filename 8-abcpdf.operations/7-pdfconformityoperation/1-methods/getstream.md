@@ -1,55 +1,34 @@
----
-title: "getstream"
-css: "abcpdf-docs.css"
----
+# GetStream Function
 
-|  |  | GetStream Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Get the conforming document as raw data stream. |  |  | 
+Get the conforming document as raw data stream.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp Stream GetStream(Doc doc) ``` [Visual Basic]`Function GetStream(doc As Doc) As Stream` `may throw Exception()` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+Stream GetStream(Doc doc)
+```
+
+[Visual Basic]
+
+```vb
+Function GetStream(doc As Doc) As Stream
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| doc | The document. | 
-| return | The PDF document as a stream. | 
+| doc | The document. |
+| return | The PDF document as a stream. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| The method writes the document in a conforming PDF format according to the Conformance property. Any conformance error is reported in the Errors property after the method finishes. Because of the CLR limit of 2 GB per object, the GetData method cannot return the data for a document larger than 2 GB. Use this method for documents larger than 2 GB. Dispose of the returned stream as soon as it is no longer needed for small memory footprint. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+The method writes the document in a conforming PDF format according to the [Conformance](2-properties/conformance.md) property. Any conformance error is reported in the [Errors](2-properties/errors.md) property after the method finishes.
 
-</TD></TR></TBODY></TABLE>
+Because of the CLR limit of 2 GB per object, the [GetData](getdata.md) method cannot return the data for a document larger than 2 GB. Use this method for documents larger than 2 GB. Dispose of the returned stream as soon as it is no longer needed for small memory footprint.
+
+## Example
+
+None

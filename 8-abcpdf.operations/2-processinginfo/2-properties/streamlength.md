@@ -1,34 +1,15 @@
----
-title: "streamlength"
-css: "abcpdf-docs.css"
----
+# StreamLength&nbsp;Property
 
-|  |  | StreamLength Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp long? ``` [Visual Basic]`Nullable(Of Long)` | n/a | No | Gets the stream length of the source object, if applicable. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+| [C#] <BR> `long?` | n/a | No | Gets the stream length of the source object, if applicable. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| The value of this property when the Operation.ProcessingObject event is generated depends on the operation. See the RenderOperation.Save method. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+The value of this property when the [Operation.ProcessingObject](1-operation/3-events/1-processingobject.md) event is generated depends on the operation.
 
-</TD></TR></TBODY></TABLE>
+See the [RenderOperation.Save method.](6-renderoperation/1-methods/save.md)
+
+## Example
+
+None

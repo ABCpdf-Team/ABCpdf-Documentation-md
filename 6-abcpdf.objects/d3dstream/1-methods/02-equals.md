@@ -1,55 +1,30 @@
----
-title: "02-equals"
-css: "abcpdf-docs.css"
----
+# Equals Function
 
-|  |  | Equals Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Test whether the two D3DStream objects are the same. |  |  | 
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp virtual bool Equals(D3DStream other) ``` [Visual Basic] ``` Overridable Function Equals(other As D3DStream) As Boolean ``` |  |  | 
-| --- | --- | --- |
+[C#]
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+```csharp
+virtual bool Equals(<a href="../default.htm">D3DStream</a> other)
+```
+
+[Visual Basic]
+
+```vb
+Overridable Function Equals(other As <a href="../default.htm">D3DStream</a>) As Boolean
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| other | The D3DStream to test against. | 
-| return | Whether the D3DStream objects are equal. | 
+| other | The D3DStream to test against. |
+| return | Whether the D3DStream objects are equal. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Test whether the two D3DStream objects are the same. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Test whether the two [D3DStream](default.md) objects are the same.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

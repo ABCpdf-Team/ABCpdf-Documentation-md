@@ -1,63 +1,18 @@
----
-title: "1-clone"
-css: "abcpdf-docs.css"
----
+# Clone Function
 
-|  |  | Clone Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Creates a deep copy of the current Atom. |  |  | 
+## Syntax
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Syntax</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| **[C#]** ```csharp Atom Clone() ``` [Visual Basic] `Function Clone() As Atom` |  |  | 
-| --- | --- | --- |
+[C#] Atom Clone() [Visual Basic] Function Clone() As Atom
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Params</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Name | Description | 
-| --- | --- |
-| return | The newly created copy. | 
+## Params
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td width="11">&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| This function creates a new object that is a copy of this instance. The copy is a deep copy and all contained Atoms are copied as part of the clone process |  |  | 
-| --- | --- | --- |
+## Notes
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+This function creates a new object that is a copy of this instance.
 
-</td>
-  </tr>
-</table>
+The copy is a deep copy and all contained Atoms are copied as part of the clone process
+
+## Example
+
+None.
+

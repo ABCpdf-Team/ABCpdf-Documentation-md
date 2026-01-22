@@ -1,63 +1,16 @@
----
-title: "getenumerator"
-css: "abcpdf-docs.css"
----
+# GetEnumerator Function
 
-|  |  | GetEnumerator Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Gets an enumerator for the Collection. |  |  | 
+## Syntax
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Syntax</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| **[C#]** ```csharp IEnumeratorAtom> GetEnumerator() ``` [Visual Basic] `Function GetEnumerator() As IEnumerator(Of Atom)` |  |  | 
-| --- | --- | --- |
+[C#] IEnumerator<Atom> GetEnumerator() [Visual Basic] Function GetEnumerator() As IEnumerator(Of Atom)
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Params</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Name | Description | 
-| --- | --- |
-| return | The enumerator for the collection. | 
+## Params
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td width="11">&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Gets an Atom enumerator for the Collection. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+Gets an Atom enumerator for the Collection.
 
-</td>
-  </tr>
-</table>
+## Example
+
+None.
+

@@ -1,55 +1,34 @@
----
-title: "01-textfieldannotation"
-css: "abcpdf-docs.css"
----
+# TextFieldAnnotation Function
 
-|  |  | TextFieldAnnotation Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Add textfield annotation to the current page of the doc. |  |  | 
+Add textfield annotation to the current page of the doc.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp TextFieldAnnotation(Doc doc, XRect rect) ``` [Visual Basic] ``` TextFieldAnnotation(doc As Doc, rect As XRect) ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+<a href="../default.htm">TextFieldAnnotation</a>(Doc doc, XRect rect)
+```
+
+[Visual Basic]
+
+```vb
+<a href="../default.htm">TextFieldAnnotation</a>(doc As Doc, rect As XRect)
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| doc | Doc | 
-| rect | Location for the annotation | 
+| doc | Doc |
+| rect | Location for the annotation |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Add textfield annotation to the current page of the doc. Note that the annotation created using this constructor is meaningless until it is connected with a Field. For this reason you are likely to want to use Doc.Form.AddTextField rather than this call. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Add textfield annotation to the current page of the doc.
 
-</TD></TR></TBODY></TABLE>
+Note that the annotation created using this constructor is meaningless until it is connected with a [Field](field/default.md). For this reason you are likely to want to use [Doc.Form.AddTextField](5-abcpdf/xform/1-methods/addtextfield.md) rather than this call.
+
+## Example
+
+None

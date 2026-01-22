@@ -1,41 +1,16 @@
----
-title: "components"
-css: "abcpdf-docs.css"
----
+# Components Property
 
-|  |  | Components Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp IList ``` [Visual Basic] `IList` | n/a | No | The components of the color in native PDF format | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| The components of the color in native PDF format. PDF color components typically range between zero - no intensity - and one - 100% intensity. However this is not always the case. For color spaces such as Lab the components may take a wider range of values. |  |  | 
-| --- | --- | --- |
+The components of the color in native PDF format.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| In the following example we demonstrate how to use generic color components to draw in the Lab color space. [C#] ```csharp using var doc = new Doc(); doc.Width = 80; doc.Rect.Inset(50, 50); var cs = new ColorSpace(doc.ObjectSoup, ColorSpaceType.Lab); doc.ColorSpace = cs.ID; // This Lab color is a deep green doc.Color.ColorSpace = ColorOperatorType.ColorSpace; doc.Color.Components[0] = 50; // L range is 0 to +100 doc.Color.Components[1] = -50; // a range is -100 to +100 doc.Color.Components[2] = +50; // B range is -100 to +100 doc.AddOval(true); doc.Save(Server.MapPath("examplelabcolorspace.pdf")); ``` [Visual Basic] ```vbnet Using doc As New Doc() doc.Width = 80 doc.Rect.Inset(50, 50) Dim cs As New ColorSpace(doc.ObjectSoup, ColorSpaceType.Lab) doc.ColorSpace = cs.ID ' This Lab color is a deep green doc.Color.ColorSpace = ColorOperatorType.ColorSpace doc.Color.Components(0) = 50 ' L range is 0 to +100 doc.Color.Components(1) = -50 ' a range is -100 to +100 doc.Color.Components(2) = +50 ' B range is -100 to +100 doc.AddOval(True) doc.Save(Server.MapPath("examplelabcolorspace.pdf")) End Using ``` examplelabcolorspace.pdf |  |  | 
-| --- | --- | --- |
+PDF color components typically range between zero - no intensity - and one - 100% intensity. However this is not always the case. For color spaces such as Lab the components may take a wider range of values.
 
-</td>
-  </tr>
-</table>
+## Example
+
+In the following example we demonstrate how to use generic color components to draw in the Lab color space.
+
+[C#] using var doc = new Doc(); doc.Width = 80; doc.Rect.Inset(50, 50); var cs = new ColorSpace(doc.ObjectSoup, ColorSpaceType.Lab); doc.ColorSpace = cs.ID; // This Lab color is a deep green doc.Color.ColorSpace = ColorOperatorType.ColorSpace; doc.Color.Components[0] = 50; // L range is 0 to +100 doc.Color.Components[1] = -50; // a range is -100 to +100 doc.Color.Components[2] = +50; // B range is -100 to +100 doc.AddOval(true); doc.Save(Server.MapPath("examplelabcolorspace.pdf")); [Visual Basic] Using doc As New Doc() doc.Width = 80 doc.Rect.Inset(50, 50) Dim cs As New ColorSpace(doc.ObjectSoup, ColorSpaceType.Lab) doc.ColorSpace = cs.ID ' This Lab color is a deep green doc.Color.ColorSpace = ColorOperatorType.ColorSpace doc.Color.Components(0) = 50 ' L range is 0 to +100 doc.Color.Components(1) = -50 ' a range is -100 to +100 doc.Color.Components(2) = +50 ' B range is -100 to +100 doc.AddOval(True) doc.Save(Server.MapPath("examplelabcolorspace.pdf")) End Using
+
+examplelabcolorspace.pdf
+

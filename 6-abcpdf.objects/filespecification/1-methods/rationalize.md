@@ -1,54 +1,33 @@
----
-title: "rationalize"
-css: "abcpdf-docs.css"
----
+# Rationalize Function
 
-|  |  | Rationalize Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Removes any obsolescent and redundant entries. |  |  | 
+Removes any obsolescent and redundant entries.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp void Rationalize() ``` [Visual Basic] ``` Sub Rationalize() ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+void Rationalize()
+```
+
+[Visual Basic]
+
+```vb
+Sub Rationalize()
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| none | n/a | 
+| none | n/a |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Removes any obsolescent and redundant entries. This will converts the object to be compliant with the changes recommended in the PDF 1.7 standard. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Also see example code in: Catalog GetEmbeddedFiles Function. |  |  | 
-| --- | --- | --- |
+Removes any obsolescent and redundant entries.
 
-</TD></TR></TBODY></TABLE>
+This will converts the object to be compliant with the changes recommended in the PDF 1.7 standard.
+
+## Example
+
+Also see example code in: [Catalog GetEmbeddedFiles Function](catalog/1-methods/getembeddedfiles.md).

@@ -1,54 +1,31 @@
----
-title: "gethashcode"
-css: "abcpdf-docs.css"
----
+# GetHashCode Function
 
-|  |  | GetHashCode Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| A hash code for the XPoint |  |  | 
+A hash code for the XPoint
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp override int GetHashCode() ``` [Visual Basic] ``` Overrides Function GetHashCode() As Integer ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+override int GetHashCode()
+```
+
+[Visual Basic]
+
+```vb
+Overrides Function GetHashCode() As Integer
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| return | The returned hash code. | 
+| return | The returned hash code. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Derives a hash code suitable for use in hashing algorithms and data structures like hash tables. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+Derives a hash code suitable for use in hashing algorithms and data structures like hash tables.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+None

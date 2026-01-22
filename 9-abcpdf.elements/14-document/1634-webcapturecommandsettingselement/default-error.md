@@ -1,0 +1,2 @@
+# WebCaptureCommandSettingsElement Class
+

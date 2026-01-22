@@ -1,34 +1,15 @@
----
-title: "streamoffset"
-css: "abcpdf-docs.css"
----
+# StreamOffset    Property
 
-|  |  | StreamOffset Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp int ``` [Visual Basic] `Int32` | n/a | Yes | The offset within the uncompressed StreamObject to the start of the drawing operation that contains this image draw operation. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+| [C#] <BR> `int` | n/a | Yes | The offset within the uncompressed StreamObject to the start of the drawing operation that contains this image draw operation. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| The offset within the uncompressed StreamObject to the start of the drawing operation that contains this image draw operation. The combination of the StreamObject, StreamOffset and StreamLength allows you to precisely locate the image draw command sequence in the PDF content stream. This can then be used to modify or delete this particular command. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+The offset within the uncompressed StreamObject to the start of the drawing operation that contains this image draw operation.
 
-</TD></TR></TBODY></TABLE>
+The combination of the StreamObject, StreamOffset and StreamLength allows you to precisely locate the image draw command sequence in the PDF content stream. This can then be used to modify or delete this particular command.
+
+## Example
+
+None

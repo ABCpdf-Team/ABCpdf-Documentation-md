@@ -1,41 +1,20 @@
----
-title: "border"
-css: "abcpdf-docs.css"
----
+# Border Property
 
-|  |  | Border Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp ArrayAtom ``` [Visual Basic] `ArrayAtom` | n/a | No | The border appearance | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| The border determines the visible appearance of the border around the annotation. The border is an ArrayAtom contaiining three or four elements. The first three elements describe the horizontal corner radius, the vertical corner radius and the border width. If the corners are zero then the border has rectangular rather than rounded corners. If the border width is zero then there is no border. The last optional element is a dash array to be used in drawing dashed borders. This conforms to the standard dash array format which indicates alternatingly the length of lines and gaps. So [2 1] would indicate two on, one off, two on, one off... Longer arrays can be used for more complex dash patterns. If this property is null then a solid rectangular border of width one will be drawn. This is equivalent to the following code. [C#] ```csharp annot.Border = (ArrayAtom)Atom.FromString("[0 0 1"); ``` [Visual Basic] ```vbnet annot.Border = DirectCast(Atom.FromString("[0 0 1]"), ArrayAtom) ``` After changing this property you will need to call UpdateAppearance to realize the change. |  |  | 
-| --- | --- | --- |
+The border determines the visible appearance of the border around the annotation.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+The border is an ArrayAtom contaiining three or four elements. The first three elements describe the horizontal corner radius, the vertical corner radius and the border width. If the corners are zero then the border has rectangular rather than rounded corners. If the border width is zero then there is no border.
 
-</td>
-  </tr>
-</table>
+The last optional element is a dash array to be used in drawing dashed borders. This conforms to the standard dash array format which indicates alternatingly the length of lines and gaps. So [2 1] would indicate two on, one off, two on, one off... Longer arrays can be used for more complex dash patterns.
+
+If this property is null then a solid rectangular border of width one will be drawn. This is equivalent to the following code.
+
+[C#] annot.Border = (ArrayAtom)Atom.FromString("[0 0 1"); [Visual Basic] annot.Border = DirectCast(Atom.FromString("[0 0 1]"), ArrayAtom)
+
+After changing this property you will need to call UpdateAppearance to realize the change.
+
+## Example
+
+None.
+

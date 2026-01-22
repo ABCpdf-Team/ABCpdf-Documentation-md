@@ -1,54 +1,33 @@
----
-title: "toarrayatom"
-css: "abcpdf-docs.css"
----
+# ToArrayAtom Function
 
-|  |  | ToArrayAtom Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| An ArrayAtom representation of the components of the color |  |  | 
+An ArrayAtom representation of the components of the color
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp ArrayAtom ToArrayAtom() ``` [Visual Basic] ``` ArrayAtom ToArrayAtom() ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+<a href="../../../7-abcpdf.atoms/arrayatom/default.htm">ArrayAtom</a> ToArrayAtom()
+```
+
+[Visual Basic]
+
+```vb
+<a href="../../../7-abcpdf.atoms/arrayatom/default.htm">ArrayAtom</a> ToArrayAtom()
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| return | An ArrayAtom representing the color. | 
+| return | An ArrayAtom representing the color. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| An ArrayAtom representation of the components of the color. The ArrayAtom that is created will contain one NumAtom for each component of the color, each with the appropriate value set. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+An ArrayAtom representation of the components of the color.
 
-</TD></TR></TBODY></TABLE>
+The ArrayAtom that is created will contain one NumAtom for each component of the color, each with the appropriate value set.
+
+## Example
+
+None

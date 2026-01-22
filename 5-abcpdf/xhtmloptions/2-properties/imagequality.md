@@ -1,34 +1,64 @@
----
-title: "imagequality"
-css: "abcpdf-docs.css"
----
+# ImageQuality Property
 
-|  |  | ImageQuality Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp int ``` [Visual Basic]`Integer` | 101 | No | The quality of compression acceptable for continuous tone images such as JPEGs. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+| [C#] <BR> `int` | 101 | No | The quality of compression acceptable for continuous tone images such as JPEGs. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| This property determines the image quality acceptable when rendering HTML. ABCpdf uses a high quality lossless compression method for image compression when rendering HTML. Using this setting you can indicate the quality of compression which is acceptable for continuous tone images such as JPEGs. This can result in a considerable reduction in file size with little or no loss in output quality. Note that the MSHTML engine contains optimizations to allow data to be passed directly from the web through to the PDF without recompression. However it can only do this if you do not indicate that you need this data recompressed. As such you may find it more effective in terms of output size and ouput quality, to leave the default setting in place. Qualities should range between 0 and 100 (75 is a reasonable value). Values higher than 100 will result in lossless compression being used in all situations. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| The following example shows the effect that this parameter has on PDF rendering. [C#] ```csharp using var doc = new Doc(); string uri = "http://www.nasa.gov/multimedia/imagegallery/image_feature_313.html"; // Set low image quality for HTML rendering doc.HtmlOptions.ImageQuality = 5; doc.AddImageUrl(uri); // Save the document doc.Save(Server.MapPath("HtmlOptionsImageQuality5.pdf")); doc.Clear(); // Set lossless image quality for HTML rendering doc.HtmlOptions.ImageQuality = 101; doc.AddImageUrl(uri); // Save the document doc.Save(Server.MapPath("HtmlOptionsImageQuality101.pdf")); ``` [Visual Basic] ```vbnet Using doc As New Doc() Dim theURL As String = "http://www.nasa.gov/multimedia/imagegallery/image_feature_313.html" ' Set low image quality for HTML rendering doc.HtmlOptions.ImageQuality = 5 doc.AddImageUrl(theURL) ' Save the document doc.Save(Server.MapPath("HtmlOptionsImageQuality5.pdf")) doc.Clear() ' Set lossless image quality for HTML rendering doc.HtmlOptions.ImageQuality = 101 doc.AddImageUrl(theURL) ' Save the document doc.Save(Server.MapPath("HtmlOptionsImageQuality101.pdf")) End Using ``` HtmlOptionsImageQuality5.pdf [file size 42 KB] HtmlOptionsImageQuality101.pdf [file size 444 KB] |  |  | 
-| --- | --- | --- |
+This property determines the image quality acceptable when rendering HTML.
 
-</TD></TR></TBODY></TABLE>
+ABCpdf uses a high quality lossless compression method for image compression when rendering HTML.
+
+Using this setting you can indicate the quality of compression which is acceptable for continuous tone images such as JPEGs.
+
+This can result in a considerable reduction in file size with little or no loss in output quality.
+
+Note that the MSHTML engine contains optimizations to allow data to be passed directly from the web through to the PDF without recompression. However it can only do this if you do not indicate that you need this data recompressed. As such you may find it more effective in terms of output size and ouput quality, to leave the default setting in place.
+
+Qualities should range between 0 and 100 (75 is a reasonable value). Values higher than 100 will result in lossless compression being used in all situations.
+
+## Example
+
+The following example shows the effect that this parameter has on PDF rendering.
+
+[C#]
+
+```csharp
+using var doc = new Doc();
+string uri = "http://www.nasa.gov/multimedia/imagegallery/image_feature_313.html";
+// Set low image quality for HTML rendering
+doc.HtmlOptions.ImageQuality = 5;
+doc.AddImageUrl(uri);
+// Save the document
+doc.Save(Server.MapPath("HtmlOptionsImageQuality5.pdf"));
+doc.Clear();
+// Set lossless image quality for HTML rendering
+doc.HtmlOptions.ImageQuality = 101;
+doc.AddImageUrl(uri);
+// Save the document
+doc.Save(Server.MapPath("HtmlOptionsImageQuality101.pdf"));
+```
+
+[Visual Basic]
+
+```vb
+Using doc As New Doc()
+  Dim theURL As String = "http://www.nasa.gov/multimedia/imagegallery/image_feature_313.html"
+  ' Set low image quality for HTML rendering
+  doc.HtmlOptions.ImageQuality = 5
+  doc.AddImageUrl(theURL)
+  ' Save the document
+  doc.Save(Server.MapPath("HtmlOptionsImageQuality5.pdf"))
+  doc.Clear()
+  ' Set lossless image quality for HTML rendering
+  doc.HtmlOptions.ImageQuality = 101
+  doc.AddImageUrl(theURL)
+  ' Save the document
+  doc.Save(Server.MapPath("HtmlOptionsImageQuality101.pdf"))
+End Using
+```
+
+![](../../../images/pdf/HtmlOptionsImageQuality5.pdf.png)
+HtmlOptionsImageQuality5.pdf [file size 42 KB]
+

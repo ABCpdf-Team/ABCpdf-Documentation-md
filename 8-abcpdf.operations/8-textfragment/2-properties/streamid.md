@@ -1,34 +1,15 @@
----
-title: "streamid"
-css: "abcpdf-docs.css"
----
+# StreamID    Property
 
-|  |  | StreamID Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default | Read Only | Description | 
-| **[C#]** ```csharp int ``` [Visual Basic] `Integer` | n/a | Yes | The Stream ID of the content stream in which this text fragment is located. | 
+| **Type** | **Default** | **Read Only** | **Description** |
+| --- | --- | --- | --- |
+| [C#] <BR> `int` | n/a | Yes | The Stream ID of the content stream in which this text fragment is located. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| The Stream ID of the content stream in which this text fragment is located. You can use this ID with the ObjectSoup to retrieve a StreamObject. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| None. |  |  | 
-| --- | --- | --- |
+The Stream ID of the content stream in which this text fragment is located.
 
-</TD></TR></TBODY></TABLE>
+You can use this ID with the [ObjectSoup](6-abcpdf.objects/2-objectsoup/default.md) to retrieve a [StreamObject.](6-abcpdf.objects/streamobject/default.md)
+
+## Example
+
+None

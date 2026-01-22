@@ -1,41 +1,15 @@
----
-title: "05-entryprint"
-css: "abcpdf-docs.css"
----
+# EntryPrint Property
 
-|  |  | EntryPrint Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp OptionalContentUsagePrintElement ``` [Visual Basic] `OptionalContentUsagePrintElement` | null | No | Represents the "Print" entry of the optional content usage dictionary object. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Represents the "Print" entry of the optional content usage dictionary object. It is an optional entry defined as part of the PDF 1.0 specification. It contains an OptionalContentUsagePrintElement. For definitive details see:. The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 102, page 233. The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 100, page 285. |  |  | 
-| --- | --- | --- |
+Represents the "Print" entry of the optional content usage dictionary object.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+It is an optional entry defined as part of the PDF 1.0 specification.
 
-</td>
-  </tr>
-</table>
+It contains an OptionalContentUsagePrintElement.
+
+For definitive details see:.
+
+The ISO PDF Specification, ISO 32000-1:2008 PDF 1.7; Table: 102, page 233.
+
+The ISO PDF Specification, ISO 32000-2:2017 PDF 2.0; Table: 100, page 285.

@@ -1,55 +1,36 @@
----
-title: "gettaguntransformedrects"
-css: "abcpdf-docs.css"
----
+# GetTagUntransformedRects Function
 
-|  |  | GetTagUntransformedRects Function |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Gets an array of the locations of tagged visible items before Doc.Transform is applied. |  |  | 
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp XRect[] GetTagUntransformedRects(int id) ``` [Visual Basic]`Function GetTagUntransformedRects(id As Integer) As XRect()` |  |  | 
-| --- | --- | --- |
+[C#]
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+```csharp
+<a href="../../xrect/default.htm">XRect</a>[] GetTagUntransformedRects(int id)
+```
+
+[Visual Basic]
+
+```vb
+Function GetTagUntransformedRects(id As Integer) As <a href="../../xrect/default.htm">XRect</a>()
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| id | The Object ID of the object. | 
-| return | The location (before Doc.Transform is applied) of tagged visible HTML objects. | 
+| id | The Object ID of the object. |
+| return | The location (before Doc.Transform is applied) of tagged visible HTML objects. |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Use this method to retrieve the locations of tagged visible items. The locations are to be used with the value of Doc.Transform the same as when the ID is obtained. To use this method you need to enable the tagging functionality. See the AddTags property for details. This function takes an ID obtained from a call to Doc.AddImageUrl, Doc.AddImageHtml or Doc.AddImageToChain and returns the locations of any items which are visible on the PDF page as a result of that call. The locations match up directly on a one-to-one basis with the IDs returned by the GetTagIDs function. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| See the GetTagRects method. |  |  | 
-| --- | --- | --- |
+Use this method to retrieve the locations of tagged visible items. The locations are to be used with the value of [Doc.Transform](doc/2-properties/transform.md) the same as when the ID is obtained.
 
-</TD></TR></TBODY></TABLE>
+To use this method you need to enable the tagging functionality. See the [AddTags](2-properties/addtags.md) property for details.
+
+This function takes an ID obtained from a call to [Doc.AddImageUrl, ](doc/1-methods/addimageurl.md)[Doc.AddImageHtml](doc/1-methods/addimagehtml.md) or [Doc.AddImageToChain](doc/1-methods/addimagetochain.md) and returns the locations of any items which are visible on the PDF page as a result of that call.
+
+The locations match up directly on a one-to-one basis with the IDs returned by the [GetTagIDs](gettagids.md) function.
+
+## Example
+
+See the [GetTagRects](gettagrects.md) method.

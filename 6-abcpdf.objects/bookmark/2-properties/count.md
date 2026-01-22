@@ -1,41 +1,12 @@
----
-title: "count"
-css: "abcpdf-docs.css"
----
+# Count Property
 
-|  |  | Count Property |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Type | Default Value | Read Only | Description | 
-| **[C#]** ```csharp int ``` [Visual Basic] `Integer` | See description. | Yes | The number of Bookmarks in the collection. | 
+## Notes
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td>&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| The number of Bookmarks in the Collection. As with all Collections you can use the Count property to determine the number of items contained and you can iterate through the collection using the standard methods appropriate to the language you are coding in. |  |  | 
-| --- | --- | --- |
+The number of Bookmarks in the Collection.
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+As with all Collections you can use the Count property to determine the number of items contained and you can iterate through the collection using the standard methods appropriate to the language you are coding in.
 
-</td>
-  </tr>
-</table>
+## Example
+
+None.
+

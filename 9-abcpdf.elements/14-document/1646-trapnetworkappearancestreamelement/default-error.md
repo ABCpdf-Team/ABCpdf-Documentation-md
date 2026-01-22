@@ -1,0 +1,2 @@
+# TrapNetworkAppearanceStreamElement Class
+

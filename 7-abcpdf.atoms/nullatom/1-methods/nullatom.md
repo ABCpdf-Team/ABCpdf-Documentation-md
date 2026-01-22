@@ -1,63 +1,16 @@
----
-title: "nullatom"
-css: "abcpdf-docs.css"
----
+# NullAtom Constructor
 
-|  |  | NullAtom Constructor |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| Construct a NullAtom. |  |  | 
+## Syntax
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Syntax</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| **[C#]** ```csharp NullAtom() ``` [Visual Basic] `Sub New()` |  |  | 
-| --- | --- | --- |
+[C#] NullAtom() [Visual Basic] Sub New()
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Params</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Name | Description | 
-| --- | --- |
-| none |  | 
+## Params
 
-</td>
-          <td width="60">&nbsp;</td>
-          <td width="11">&nbsp;</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Notes</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| Create a NullAtom. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</td>
-  </tr>
-  <tr> 
-    <td valign="top" class="sectheader">![](../../../images/steel-pin.gif)  
-Example</td>
-    <td width="14">&nbsp;</td>
-    <td valign="top"> 
-      
-| None. |  |  | 
-| --- | --- | --- |
+Create a NullAtom.
 
-</td>
-  </tr>
-</table>
+## Example
+
+None.
+

@@ -1,54 +1,31 @@
----
-title: "1-xpsimportoperation"
-css: "abcpdf-docs.css"
----
+# XpsImportOperation Constructor
 
-|  |  | XpsImportOperation Constructor |  |  | 
-| --- | --- | --- | --- | --- |
-|  |  |  | 
-| XpsImportOperation Constructor. |  |  | 
+XpsImportOperation Constructor.
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Syntax</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| **[C#]** ```csharp XpsImportOperation() ``` [Visual Basic] ``` Sub New() ``` |  |  | 
-| --- | --- | --- |
+## Syntax
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Params</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Name | Description | 
+[C#]
+
+```csharp
+<a href="../default.htm">XpsImportOperation</a>()
+```
+
+[Visual Basic]
+
+```vb
+Sub New()
+```
+
+## Params
+
+| **Name** | **Description** |
 | --- | --- |
-| none |  | 
+| none |  |
 
-</TD>
-          <TD width=60>&nbsp;</TD>
-          <TD width=11>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Notes</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| Create an XpsImportOperation. |  |  | 
-| --- | --- | --- |
+## Notes
 
-</TD></TR>
-  <TR>
-    <TD class=sectheader vAlign=top>![](../../../images/steel-pin.gif)  
-Example</TD>
-    <TD width=14>&nbsp;</TD>
-    <TD vAlign=top>
-      
-| See the Import method. |  |  | 
-| --- | --- | --- |
+Create an XpsImportOperation.
 
-</TD></TR></TBODY></TABLE>
+## Example
+
+See the [Import](import.md) method.

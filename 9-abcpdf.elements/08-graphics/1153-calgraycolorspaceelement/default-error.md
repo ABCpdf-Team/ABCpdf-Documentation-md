@@ -1,0 +1,2 @@
+# CalGrayColorSpaceElement Class
+
