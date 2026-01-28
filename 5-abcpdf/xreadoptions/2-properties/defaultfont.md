@@ -3,7 +3,7 @@ Property
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | "Helvetica" | No | The font to use for text that does not specify a font. |
+|  | "Helvetica" | No | The font to use for text that does not specify a font. |
 
 ## Notes
 

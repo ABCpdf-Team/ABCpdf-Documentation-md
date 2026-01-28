@@ -10,12 +10,6 @@ Convert color components from the source color space to the destination one.
 void Recolor(double[] from, double[] to)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Recolor(from as Double(), to As Double())
-```
-
 ## Params
 
 | **Name** | **Description** |

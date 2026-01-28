@@ -10,12 +10,6 @@ Finds specified types of OpAtom entries in an array
 IList&lt;Tuple&lt;string, int&gt;&gt; Find(<a href="../../arrayatom/default.htm">ArrayAtom</a> atom)IList&lt;Tuple&lt;string, int&gt;&gt; Find(<a href="../../arrayatom/default.htm">ArrayAtom</a> atom, string[] names)
 ```
 
-[Visual Basic]
-
-```vb
-Function Find(atom As <a href="../../arrayatom/default.htm">ArrayAtom</a>) As IList(Of Tuple(Of string, int))Function Find(atom As <a href="../../arrayatom/default.htm">ArrayAtom</a>, names() As String) As IList(Of Tuple(Of string, int))
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -40,7 +34,7 @@ This example shows how to use the [Array.FromContentStream](arrayatom/1-methods/
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("spaceshuttle.pdf"));
+doc.Read("../Rez/spaceshuttle.pdf");
 doc.RemapPages(new int[] { 1, 1 });
 doc.PageNumber = 2;
 var page = doc.ObjectSoup[doc.Page] as Page;
@@ -55,7 +49,7 @@ foreach (var layer in layers) {
 }
 var array = ArrayAtom.FromContentStream(st.ToArray());
 if (true) {
-  var items = OpAtom.Find(array, new string[] { "k" });
+  var items = OpAtom.Find(array, [ "k" ]);
   foreach (var pair in items) { // make red
     var args = OpAtom.GetParameters(array, pair.Item2);
     if (args != null) {
@@ -67,7 +61,7 @@ if (true) {
   }
 }
 if (true) {
-  var items = OpAtom.Find(array, new string[] { "rg" });
+  var items = OpAtom.Find(array, [ "rg" ]);
   foreach (var pair in items) { // make green
     var args = OpAtom.GetParameters(array, pair.Item2);
     if (args != null) {
@@ -82,60 +76,7 @@ var so = new StreamObject(doc.ObjectSoup);
 so.SetData(arrayData, 1, arrayData.Length - 2);
 doc.SetInfo(page.ID, "/Contents:Del", "");
 page.AddLayer(so);
-doc.Save(Server.MapPath("ReplaceColors.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("spaceshuttle.pdf"))
-  doc.RemapPages(New Integer() {1, 1})
-  doc.PageNumber = 2
-  Dim page As Page = TryCast(doc.ObjectSoup(doc.Page), Page)
-  Dim layers As StreamObject() = page.GetLayers()
-  Dim st As New MemoryStream()
-  For Each layer As StreamObject In layers
-    If Not layer.Decompress() Then
-      Throw New Exception("Unable to decompress stream.")
-    End If
-    Dim data As Byte() = layer.GetData()
-    st.Write(data, 0, data.Length)
-    layer.CompressFlate()
-  Next
-  Dim array As ArrayAtom = ArrayAtom.FromContentStream(st.ToArray())
-  If True Then
-    Dim items = OpAtom.Find(array, New String() {"k"})
-    For Each pair As var In items
-      ' make red
-      Dim args As Atom() = OpAtom.GetParameters(array, pair.Item2)
-      If args <> Nothing Then
-        DirectCast(args(0), NumAtom).Real = 0
-        DirectCast(args(1), NumAtom).Real = 1
-        DirectCast(args(2), NumAtom).Real = 1
-        DirectCast(args(3), NumAtom).Real = 0
-      End If
-    Next
-  End If
-  If True Then
-    Dim items = OpAtom.Find(array, New String() {"rg"})
-    For Each pair As var In items
-      ' make green
-      Dim args As Atom() = OpAtom.GetParameters(array, pair.Item2)
-      If args <> Nothing Then
-        DirectCast(args(0), NumAtom).Real = 0
-        DirectCast(args(1), NumAtom).Real = 1
-        DirectCast(args(2), NumAtom).Real = 0
-      End If
-    Next
-  End If
-  Dim arrayData As Byte() = array.GetData()
-  Dim so As New StreamObject(doc.ObjectSoup)
-  so.SetData(arrayData, 1, arrayData.Length - 2)
-  doc.SetInfo(page.ID, "/Contents:Del", "")
-  page.AddLayer(so)
-  doc.Save(Server.MapPath("ReplaceColors.pdf"))
-End Using
+doc.Save("ReplaceColors.pdf");
 ```
 
 ![](../../../images/pdf/ReplaceColors.pdf.png)

@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Whether content in the PDF is allowed to override the rendering intent. |
+|  | true | No | Whether content in the PDF is allowed to override the rendering intent. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ Find the names of all font families.
 static string[] FindFamilyNames()
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FindFamilyNames() As String()
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Scan through the structure to find all structure elements of a particular type.
 List&lt;StructureElementElement&gt; FindElementsByType(string type)
 ```
 
-[Visual Basic]
-
-```vb
-Sub FindElementsByType(type As string) As List&lt;StructureElementElement&gt;
-```
-
 ## Params
 
 | **Name** | **Description** |

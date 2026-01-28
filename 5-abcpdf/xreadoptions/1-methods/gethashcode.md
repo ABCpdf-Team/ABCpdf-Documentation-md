@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] override int GetHashCode() [Visual Basic] Overrides Function GetHashCode() As Integer
+[C#] override int GetHashCode()
 
 ## Params
 

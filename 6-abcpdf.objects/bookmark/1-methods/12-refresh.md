@@ -10,12 +10,6 @@ Refresh and reload the document Bookmarks.
 void Refresh()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Refresh()
-```
-
 ## Params
 
 | **Name** | **Description** |

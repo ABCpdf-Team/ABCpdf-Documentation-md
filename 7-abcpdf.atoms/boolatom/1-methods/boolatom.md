@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] BoolAtom() BoolAtom(bool value) [Visual Basic] Sub New() Sub New(value As Boolean)
+[C#] BoolAtom() BoolAtom(bool value)
 
 ## Params
 

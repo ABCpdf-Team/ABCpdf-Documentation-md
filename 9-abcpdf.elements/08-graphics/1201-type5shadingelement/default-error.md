@@ -1,0 +1,2 @@
+# Type5ShadingElement Class
+

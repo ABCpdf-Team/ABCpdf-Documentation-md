@@ -10,12 +10,6 @@ Add a particular type of resource to the form
 string AddResource(IndirectObject resource, string type, string name)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddResource(resource As IndirectObject, type As String, name As String) As String
-```
-
 ## Params
 
 | **Name** | **Description** |

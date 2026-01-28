@@ -10,12 +10,6 @@ Add combo box form field.
 Field AddComboBoxField(XRect rect, string name)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddComboBoxField(rect As XRect, name As string) As Field
-```
-
 ## Params
 
 | **Name** | **Description** |

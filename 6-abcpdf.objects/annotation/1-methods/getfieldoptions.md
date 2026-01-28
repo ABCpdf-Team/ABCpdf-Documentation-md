@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] string[] GetFieldOptions() [Visual Basic] Function GetFieldOptions() As String()
+[C#] string[] GetFieldOptions()
 
 ## Params
 

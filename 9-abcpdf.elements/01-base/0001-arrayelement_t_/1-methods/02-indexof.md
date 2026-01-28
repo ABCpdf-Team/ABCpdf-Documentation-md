@@ -8,12 +8,6 @@
 virtual int IndexOf(T value)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function IndexOf(value As T) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

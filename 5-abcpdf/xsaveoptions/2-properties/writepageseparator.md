@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `XSaveOptions.PageSeparatorMethod` | null | No | The delegate called to write the page separator for export. |
+|  | null | No | The delegate called to write the page separator for export. |
 
 ## Notes
 
@@ -12,7 +12,7 @@ If it is null, a default page separator is produced for each page. You can custo
 
 The definition of the XSaveOptions.PageSeparatorMethod delegate is as follows.
 
-[C#]delegate void PageSeparatorMethod(int pageNum, ExportArgs e); [Visual Basic]Delegate Sub PageSeparatorMethod(pageNum As Integer, e As ExportArgs)
+[C#]delegate void PageSeparatorMethod(int pageNum, ExportArgs e);
 
 pageNum is the page number, starting with 1.
 
@@ -26,7 +26,7 @@ The following example shows how to customize the page separator.
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("../mypics/sample.pdf"));
+doc.Read("../mypics/sample.pdf");
 doc.SaveOptions.WritePageSeparator = delegate (int pageNum, XSaveOptions.ExportArgs e) {
   var writer = (XmlWriter)e.Writer;
   if (pageNum > 1) {
@@ -38,29 +38,6 @@ doc.SaveOptions.WritePageSeparator = delegate (int pageNum, XSaveOptions.ExportA
   writer.WriteString(string.Format("Page {0}", pageNum));
   writer.WriteFullEndElement();
 };
-doc.Save(Server.MapPath("PageSeparator.htm"));
-doc.Dispose();
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("../mypics/sample.pdf"))
-  doc.SaveOptions.WritePageSeparator = Sub(pageNum As Integer, e As XSaveOptions.ExportArgs) 
-  Dim writer As XmlWriter = DirectCast(e.Writer, XmlWriter)
-  If pageNum > 1 Then
-    writer.WriteStartElement("hr")
-    writer.WriteEndElement()
-  End If
-  writer.WriteStartElement("div")
-  writer.WriteAttributeString("align", "right")
-  writer.WriteString(String.Format("Page {0}", pageNum))
-  writer.WriteFullEndElement()
-
-  End Sub
-  doc.Save(Server.MapPath("PageSeparator.htm"))
-  doc.Dispose()
-End Using
+doc.Save("PageSeparator.htm");
 ```
 

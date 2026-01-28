@@ -10,12 +10,6 @@ Add one page of the document for processing.
 void AddPage(int page)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddPage(page As int)
-```
-
 ## Params
 
 | **Name** | **Description** |

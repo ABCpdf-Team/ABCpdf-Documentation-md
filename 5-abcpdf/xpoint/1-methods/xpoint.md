@@ -10,12 +10,6 @@ XPoint Constructor.
 <a href="../default.htm">XPoint</a>()<a href="../default.htm">XPoint</a>(string value)<a href="../default.htm">XPoint</a>(double x, double y)
 ```
 
-[Visual Basic]
-
-```vb
-Sub NewSub New(value As String)Sub New(x As Double, y As Double)
-```
-
 ## Params
 
 | **Name** | **Description** |

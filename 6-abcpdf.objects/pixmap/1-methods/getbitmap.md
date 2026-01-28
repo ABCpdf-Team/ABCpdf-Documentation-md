@@ -10,12 +10,6 @@ Get the PixMap image as a System.Drawing.Bitmap.
 System.Drawing.Bitmap GetBitmap()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetBitmap() As System.Drawing.Bitmap
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -45,7 +39,7 @@ This example shows how to extract all the page thumbnails (if they exist) from a
 ```csharp
 using var doc = new Doc();
 using var src = new Doc();
-doc.Read(Server.MapPath("embedthumbnails.pdf"));
+doc.Read("../Rez/embedthumbnails.pdf");
 doc.Rendering.DotsPerInch = 18;
 var pages = doc.ObjectSoup.Catalog.Pages.GetPageArrayAll();
 foreach (var page in pages) {
@@ -54,24 +48,6 @@ foreach (var page in pages) {
   using var bm = page.Thumbnail.GetBitmap();
   bm.Save($"embedthumbnails{page.Thumbnail.ID}.jpg");
 }
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc(), srcDoc As New Doc()
-  doc.Read(Server.MapPath("embedthumbnails.pdf"))
-  doc.Rendering.DotsPerInch = 18
-  Dim pages As Page() = doc.ObjectSoup.Catalog.Pages.GetPageArrayAll()
-  For Each page As Page In pages
-    If page.Thumbnail = Nothing Then
-      Continue For
-    End If
-    Using bm As Bitmap = page.Thumbnail.GetBitmap()
-      bm.Save($"embedthumbnails{page.Thumbnail.ID}.jpg")
-    End Using
-  Next
-End Using
 ```
 
 ![](../../../images/pdf/embedthumbnails.pdf.png)

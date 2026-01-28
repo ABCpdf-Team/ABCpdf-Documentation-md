@@ -10,12 +10,6 @@ Install a trial license
 bool InstallTrialLicense(string license)
 ```
 
-[Visual Basic]
-
-```vb
-Function InstallTrialLicense(license As String) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -8,12 +8,6 @@
 <a href="../default.htm">Resorcerer</a>()
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">Resorcerer</a>()
-```
-
 ## Params
 
 | **Name** | **Description** |

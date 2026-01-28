@@ -10,12 +10,6 @@ Adds a content stream to this operations.
 void AddContentStream(StreamObject stream)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddContentStream(stream As StreamObject)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -8,12 +8,6 @@
 <a href="../default.htm">XPalette</a>()
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">Sub New</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

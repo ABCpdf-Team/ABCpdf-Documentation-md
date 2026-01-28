@@ -38,18 +38,8 @@ Here we import the pages with odd page numbers of an XPS document up to page 8, 
 ```csharp
 using var doc = new Doc();
 var importOp = new MyImportOperation(doc);
-importOp.Import(Server.MapPath("mypics/AdvancedGraphicsExamples.xps"));
-doc.Save(Server.MapPath("xps.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Dim importOp As New MyImportOperation(doc)
-  importOp.Import(Server.MapPath("mypics/AdvancedGraphicsExamples.xps"))
-  doc.Save(Server.MapPath("xps.pdf"))
-End Using
+importOp.Import("../mypics/AdvancedGraphicsExamples.xps");
+doc.Save("xps.pdf");
 ```
 
 ![](../../../images/pdf/xps.pdf.png)

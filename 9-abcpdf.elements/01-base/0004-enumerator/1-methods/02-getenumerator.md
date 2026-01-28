@@ -8,12 +8,6 @@
 virtual <a href="../default.htm">Enumerator</a> GetEnumerator()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function GetEnumerator() As <a href="../default.htm">Enumerator</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

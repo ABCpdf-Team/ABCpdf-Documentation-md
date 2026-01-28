@@ -10,12 +10,6 @@ Set the application configuration using a Linux style config file.
 static void SetConfigFile(string path)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function SetConfigFile(path As string)
-```
-
 ## Params
 
 | **Name** | **Description** |

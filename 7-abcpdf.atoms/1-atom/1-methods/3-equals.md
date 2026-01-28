@@ -10,12 +10,6 @@ Test whether the two Atoms are the same.
 bool Equals(Atom other)override bool Equals(object test)bool Equals(Atom other, ComparisonType type)
 ```
 
-[Visual Basic]
-
-```vb
-Function Equals(other As Atom) As BooleanOverrides Function Equals(test As Object) As BooleanFunction Equals(other As Atom, type as ComparisonType) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

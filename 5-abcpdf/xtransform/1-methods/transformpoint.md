@@ -10,12 +10,6 @@ Applies this transform to a specified point.
 void TransformPoint(Point[] point)void TransformPoint(PointF[] point)void TransformPoint(<a href="../../xpoint/default.htm">XPoint</a> point)void TransformPoint(ref double x, ref double y)
 ```
 
-[Visual Basic]
-
-```vb
-Sub TransformPoint(point As Point())Sub TransformPoint(point As PointF())Sub TransformPoint(point As <a href="../../xpoint/default.htm">XPoint</a>())Sub TransformPoint(ByRef point As Double, ByRef y As Double)
-```
-
 ## Params
 
 | **Name** | **Description** |

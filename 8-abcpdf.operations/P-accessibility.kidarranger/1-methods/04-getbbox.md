@@ -10,12 +10,6 @@ Get the bounding box for the structure element.
 GetBBox(this StructureElementElement element)
 ```
 
-[Visual Basic]
-
-```vb
-GetBBox(this StructureElementElement element)
-```
-
 ## Params
 
 | **Name** | **Description** |

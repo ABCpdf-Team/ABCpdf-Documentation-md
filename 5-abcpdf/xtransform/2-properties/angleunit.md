@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `AngleUnitType` | Degrees | No | The angle unit, degrees or radians. |
+|  | Degrees | No | The angle unit, degrees or radians. |
 
 ## Notes
 

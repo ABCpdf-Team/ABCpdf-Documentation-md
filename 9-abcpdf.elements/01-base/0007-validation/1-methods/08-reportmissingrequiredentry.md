@@ -10,12 +10,6 @@ Called to report a missing required entry.
 virtual void ReportMissingRequiredEntry()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ReportMissingRequiredEntry() As void
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Extract the encoded X.509 data of the certificate(s).
 IEnumerable&lt;byte[]&gt; GetCertificates()IEnumerable&lt;byte[]&gt; GetCertificates(out int outCount)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetCertificates() As IEnumerable(Of Byte())Function GetCertificates(&lt;Out&gt; ByRef outCount As Integer) As IEnumerable(Of Byte())
-```
-
 ## Params
 
 | **Name** | **Description** |

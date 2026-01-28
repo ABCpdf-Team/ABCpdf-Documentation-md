@@ -10,12 +10,6 @@ Applies this transform to a specified array of points.
 override Point[] TransformPoints(Point[] points)override PointF[] TransformPoints(PointF[] points)override XPoint[] TransformPoints(XPointF points)
 ```
 
-[Visual Basic]
-
-```vb
-Overrides Sub TransformPoints(points As Point()) As Point[]Overrides Sub TransformPoints(points As PointF()) As PointF[]Overrides Sub TransformPoints(points As XPoint()) As XPoint[]
-```
-
 ## Params
 
 | **Name** | **Description** |

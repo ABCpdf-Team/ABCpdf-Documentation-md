@@ -10,12 +10,6 @@ Retrieves the HTTP status code.
 int GetHttpStatusCode(int id)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetHttpStatusCode(id As Integer) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

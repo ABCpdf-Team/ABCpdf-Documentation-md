@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | null | No | The folder where to save additional files (images, fonts, etc). |
+|  | null | No | The folder where to save additional files (images, fonts, etc). |
 
 ## Notes
 

@@ -10,12 +10,6 @@ Adds a separation color space to the document.
 int AddColorSpaceSpot(string name, string color)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddColorSpaceSpot(name As String, color As String) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -56,25 +50,7 @@ for (int i = 1; i <= 10; i++) {
   doc.AddText(doc.Color.Gray.ToString());
   doc.Rect.Move(25, -50);
 }
-doc.Save(Server.MapPath("docaddcolorspacespot.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Rect.Inset(20, 20)
-  doc.FontSize = 300
-  doc.ColorSpace = doc.AddColorSpaceSpot("GOLD", "0 0 100 0")
-  Dim i As Integer = 1
-  While i <= 10
-    doc.Color.Gray = 255 / i
-    doc.AddText(doc.Color.Gray.ToString())
-    doc.Rect.Move(25, -50)
-    System.Math.Max(System.Threading.Interlocked.Increment(i),i - 1)
-  End While
-  doc.Save(Server.MapPath("docaddcolorspacespot.pdf"))
-End Using
+doc.Save("docaddcolorspacespot.pdf");
 ```
 
 ![](../../../images/pdf/docaddcolorspacespot.pdf.png)

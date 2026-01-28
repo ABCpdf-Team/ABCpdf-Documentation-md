@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] IndirectObject Resolve(ObjectSoup objects) [Visual Basic] Function Resolve(objects As ObjectSoup) as IndirectObject
+[C#] IndirectObject Resolve(ObjectSoup objects)
 
 ## Params
 

@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | false | No | Whether active content such as movies should be added. |
+|  | false | No | Whether active content such as movies should be added. |
 
 ## Notes
 

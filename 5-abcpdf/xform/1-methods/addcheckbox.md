@@ -10,12 +10,6 @@ Add check box form field.
 Field AddCheckbox(XRect rect, string name, bool value)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddCheckbox(rect As XRect, name As string, value As bool) As Field
-```
-
 ## Params
 
 | **Name** | **Description** |

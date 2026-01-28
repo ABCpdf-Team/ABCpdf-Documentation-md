@@ -10,12 +10,6 @@ Get the page number for a particular page object.
 int GetPageNumber(Page page)int GetPageNumber(int pageID)
 ```
 
-[Visual Basic]
-
-```vb
-Sub GetPageNumber(page As Page) As intSub GetPageNumber(pageID As int) As int
-```
-
 ## Params
 
 | **Name** | **Description** |

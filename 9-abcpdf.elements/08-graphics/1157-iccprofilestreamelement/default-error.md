@@ -1,0 +1,2 @@
+# ICCProfileStreamElement Class
+

@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `PdfConformance` | Pdf | No | The PDF conformance to be applied. |
+|  | Pdf | No | The PDF conformance to be applied. |
 
 ## Notes
 

@@ -8,12 +8,6 @@
 <a href="../default.htm">Element</a>()<a href="../default.htm">Element</a>(<a href="../2-properties/03-atom.htm">Atom</a> atom, IndirectObject host)<a href="../default.htm">Element</a>(IndirectObject obj)<a href="../default.htm">Element</a>(<a href="../default.htm">Element</a> relation, CreationOptions options)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">Element</a>()<a href="../default.htm">Element</a>(atom As <a href="../2-properties/03-atom.htm">Atom</a>, host As IndirectObject)<a href="../default.htm">Element</a>(obj As IndirectObject)<a href="../default.htm">Element</a>(relation As <a href="../default.htm">Element</a>, options As CreationOptions)
-```
-
 ## Params
 
 | **Name** | **Description** |

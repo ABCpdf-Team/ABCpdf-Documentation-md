@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | null | No | The password needed to read the source. |
+|  | null | No | The password needed to read the source. |
 
 ## Notes
 

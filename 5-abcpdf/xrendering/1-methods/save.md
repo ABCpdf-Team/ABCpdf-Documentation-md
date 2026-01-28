@@ -10,12 +10,6 @@ Renders and saves the current area of the current page.
 void Save(string path)void Save(string name, Stream stream)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Save(path As String)Sub Save(name As String, stream As Stream)
-```
-
 ## Params
 
 | **Name** | **Description** |

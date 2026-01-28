@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] static double GetDouble(Atom atom) [Visual Basic] Shared Function GetDouble(atom As Atom) As Double
+[C#] static double GetDouble(Atom atom)
 
 ## Params
 

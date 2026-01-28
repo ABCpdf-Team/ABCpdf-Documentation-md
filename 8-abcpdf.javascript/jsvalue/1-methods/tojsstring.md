@@ -10,12 +10,6 @@ Gets a string from this value using the standard JavaScript conversion.
 JSValue ToJSString()
 ```
 
-[Visual Basic]
-
-```vb
-Function ToJSString() As JSValue
-```
-
 ## Params
 
 | **Name** | **Description** |

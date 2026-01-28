@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Whether to embed the actual text of text elements. |
+|  | true | No | Whether to embed the actual text of text elements. |
 
 ## Notes
 

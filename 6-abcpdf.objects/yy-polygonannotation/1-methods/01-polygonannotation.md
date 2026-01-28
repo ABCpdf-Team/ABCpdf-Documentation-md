@@ -10,12 +10,6 @@ Add polygon annotation to the current page of the doc.
 <a href="../default.htm">PolygonAnnotation</a>(Doc doc, double[] vertices, XColor borderColor, XColor fillColor)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">PolygonAnnotation</a>(doc As Doc, vertices As Double(), borderColor As XColor, fillColor As XColor)
-```
-
 ## Params
 
 | **Name** | **Description** |

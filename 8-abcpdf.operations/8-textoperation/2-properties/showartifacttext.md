@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Whether to show text content that is marked as an artifact. |
+|  | true | No | Whether to show text content that is marked as an artifact. |
 
 ## Notes
 

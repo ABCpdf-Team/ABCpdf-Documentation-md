@@ -2,8 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int this[int index, int 
-                  def]` | n/a | No | Get or set the Atom at the specified index. |
+|  | n/a | No | Get or set the Atom at the specified index. |
 
 ## Notes
 

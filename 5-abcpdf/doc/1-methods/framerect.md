@@ -10,12 +10,6 @@ Adds a rectangular frame to the current page.
 int FrameRect()int FrameRect(bool inside) int FrameRect(double radiusX, double radiusY)int FrameRect(double radiusX, double radiusY, bool inside)
 ```
 
-[Visual Basic]
-
-```vb
-Function FrameRect() As IntegerFunction FrameRect(inside As Boolean) As Integer Function FrameRect(radiusX As Double, radiusY As Double) As IntegerFunction FrameRect(radiusX As Double, radiusY As Double, inside As Boolean) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -47,17 +41,7 @@ The following code adds a black frame to a document. The frame is inset from the
 using var doc = new Doc();
 doc.Rect.Inset(50, 100);
 doc.FrameRect();
-doc.Save(Server.MapPath("docframerect.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Rect.Inset(50, 100)
-  doc.FrameRect()
-  doc.Save(Server.MapPath("docframerect.pdf"))
-End Using
+doc.Save("docframerect.pdf");
 ```
 
 ![](../../../images/pdf/docframerect.pdf.png)

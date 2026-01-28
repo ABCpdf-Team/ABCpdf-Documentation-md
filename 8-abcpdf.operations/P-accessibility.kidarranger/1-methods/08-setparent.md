@@ -10,12 +10,6 @@ Sets the parent of this structure element.
 SetParent(this StructureElementElement element, StructureElementElement parent)SetParent(this StructureElementElement element, StructureElementElement parent, int index)
 ```
 
-[Visual Basic]
-
-```vb
-SetParent(this StructureElementElement element, StructureElementElement parent)SetParent(this StructureElementElement element, StructureElementElement parent, int index)
-```
-
 ## Params
 
 | **Name** | **Description** |

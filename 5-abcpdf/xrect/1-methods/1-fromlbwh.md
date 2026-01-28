@@ -10,12 +10,6 @@ Creates an XRect from a bottom left corner, a width and a height.
 static <a href="../default.htm">XRect</a> FromLbwh(double left, double bottom, double width, double height)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromLbwh(left As Double, bottom As Double, width As Double, height As Double) As <a href="../default.htm">XRect</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

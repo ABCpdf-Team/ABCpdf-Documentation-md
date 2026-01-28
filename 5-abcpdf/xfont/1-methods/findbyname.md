@@ -11,12 +11,6 @@ Find all the fonts with a given name.
 static <a href="../default.htm">XFont</a>[] FindByName(string name)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FindByName(name As String) As <a href="../default.htm">XFont</a>()
-```
-
 ## Params
 
 | **Name** | **Description** |

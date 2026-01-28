@@ -10,12 +10,6 @@ CopyPagesOperation constructor
 <a href="../default.htm">DrawPagesOperation</a>(Doc sourceDoc, Doc destinationDoc)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">DrawPagesOperation</a>(sourceDoc As Doc, destinationDoc As Doc)
-```
-
 ## Params
 
 | **Name** | **Description** |

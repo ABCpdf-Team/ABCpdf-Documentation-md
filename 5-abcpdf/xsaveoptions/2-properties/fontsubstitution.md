@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `FontSubstitutionType` | FontSubstitutionType.Automatic | No | The font substitution type. |
+|  | FontSubstitutionType.Automatic | No | The font substitution type. |
 
 ## Notes
 

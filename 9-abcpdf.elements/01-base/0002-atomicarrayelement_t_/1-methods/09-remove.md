@@ -10,12 +10,6 @@ Removes the first matching value from the array.
 virtual bool Remove(T value)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Remove(value As T) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

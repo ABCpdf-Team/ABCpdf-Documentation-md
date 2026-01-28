@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | false | No | Whether to include all images in the analysis to allow the detection of orphans. |
+|  | false | No | Whether to include all images in the analysis to allow the detection of orphans. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ Extract the structure in an HTML-like format that can be displayed in a browser.
 StringBuilder ExtractStructure()
 ```
 
-[Visual Basic]
-
-```vb
-Sub ExtractStructure() As StringBuilder
-```
-
 ## Params
 
 | **Name** | **Description** |

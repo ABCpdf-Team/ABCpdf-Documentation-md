@@ -10,12 +10,6 @@ Deletes this object's property.
 JSValue DeleteProperty(string name)
 ```
 
-[Visual Basic]
-
-```vb
-Function DeleteProperty(name As String) As JSValue
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -1,0 +1,2 @@
+# SeparationColorSpaceElement Class
+

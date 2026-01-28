@@ -10,12 +10,6 @@ Test whether the two StringAtoms are the same
 bool Equals(<a href="../default.htm">StringAtom</a> other)
 ```
 
-[Visual Basic]
-
-```vb
-Function Equals(other As <a href="../default.htm">StringAtom</a>) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | false | No | Whether to include color information in the output. |
+|  | false | No | Whether to include color information in the output. |
 
 ## Notes
 

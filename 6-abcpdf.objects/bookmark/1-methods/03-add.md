@@ -10,12 +10,6 @@ Adds a Bookmark to the end of the list.
 int Add(<a href="../default.htm">Bookmark</a> bookmark)int Add(string title)
 ```
 
-[Visual Basic]
-
-```vb
-Function Add(bookmark As <a href="../default.htm">Bookmark</a>) As IntegerFunction Add(title As String) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

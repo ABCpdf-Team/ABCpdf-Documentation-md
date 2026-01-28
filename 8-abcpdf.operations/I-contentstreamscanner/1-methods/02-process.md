@@ -10,12 +10,6 @@ Process a content stream keeping track of state.
 virtual void Process(IndirectObject owner, ArrayAtom contents)Process(IndirectObject owner, ArrayAtom contents, IList&lt;Tuple&lt;string, int&gt;&gt; ops)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Process(owner As IndirectObject, contents As ArrayAtom) As voidProcess(IndirectObject owner, ArrayAtom contents, IList&lt;Tuple&lt;string, int&gt;&gt; ops)
-```
-
 ## Params
 
 | **Name** | **Description** |

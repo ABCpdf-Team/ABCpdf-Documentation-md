@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | false | Yes | Determines if color transforms preserve black when recoloring to CMYK. |
+|  | false | Yes | Determines if color transforms preserve black when recoloring to CMYK. |
 
 ## Notes
 

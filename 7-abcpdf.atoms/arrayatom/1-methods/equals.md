@@ -10,12 +10,6 @@ Test whether the two ArrayAtoms are the same
 bool Equals(<a href="../default.htm">ArrayAtom</a> other)
 ```
 
-[Visual Basic]
-
-```vb
-Function Equals(other As <a href="../default.htm">ArrayAtom</a>) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

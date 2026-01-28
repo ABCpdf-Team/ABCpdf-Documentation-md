@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int` | n/a | Yes | The offset within the uncompressed StreamObject to the start of the drawing operation that contains this image draw operation. |
+|  | n/a | Yes | The offset within the uncompressed StreamObject to the start of the drawing operation that contains this image draw operation. |
 
 ## Notes
 

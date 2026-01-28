@@ -14,7 +14,7 @@ You can find details of graphics state parameters and how to use them in the Ado
 
 The following code adds an arc to a document. It uses the options parameter to make the line dashed rather than solid.
 
-[C#] using var doc = new Doc(); doc.Width = 24; doc.Color.String = "0 120 0"; doc.Options = "[6 10] 6 d"; doc.AddArc(0, 270, 300, 400, 200, 300); doc.Save(Server.MapPath("docoptions.pdf")); [Visual Basic] Using doc As New Doc() doc.Width = 24 doc.Color.String = "0 120 0" doc.Options = "[6 10] 6 d" doc.AddArc(0, 270, 300, 400, 200, 300) doc.Save(Server.MapPath("docoptions.pdf")) End Using
+[C#] using var doc = new Doc(); doc.Width = 24; doc.Color.String = "0 120 0"; doc.Options = "[6 10] 6 d"; doc.AddArc(0, 270, 300, 400, 200, 300); doc.Save("docoptions.pdf");
 
 docoptions.pdf
 

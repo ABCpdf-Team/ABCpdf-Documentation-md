@@ -10,12 +10,6 @@ Create an ArrayAtom from a XRect representation
 static <a href="../default.htm">ArrayAtom</a> FromXRect( WebSupergoo.ABCpdf13.XRect value)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromXRect(value As WebSupergoo.ABCpdf13.XRect) As <a href="../default.htm">ArrayAtom</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | false | No | Whether to show overlapping repeated text content. |
+|  | false | No | Whether to show overlapping repeated text content. |
 
 ## Notes
 

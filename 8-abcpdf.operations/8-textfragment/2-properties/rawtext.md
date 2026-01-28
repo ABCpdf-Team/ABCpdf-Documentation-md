@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | n/a | Yes | The text specified in the drawing operator or the text array item of the drawing operator. |
+|  | n/a | Yes | The text specified in the drawing operator or the text array item of the drawing operator. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ Get the four corners of the rectangle.
 <a href="../../xpoint/default.htm">XPoint</a>[] GetCorners()
 ```
 
-[Visual Basic]
-
-```vb
-Sub GetCorners() As <a href="../../xpoint/default.htm">XPoint</a>()
-```
-
 ## Params
 
 | **Name** | **Description** |

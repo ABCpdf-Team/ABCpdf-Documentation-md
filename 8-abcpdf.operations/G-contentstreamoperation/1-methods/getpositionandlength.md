@@ -10,12 +10,6 @@ Gets the position and length of an operator and the parameters that it takes.
 Tuple&lt;int, int&gt; GetPositionAndLength(IndirectObject owner, ArrayAtom array, int index)
 ```
 
-[Visual Basic]
-
-```vb
-Sub GetPositionAndLength(owner As IndirectObject, array As ArrayAtom, index As int) As Tuple&lt;Integer, Integer&gt;
-```
-
 ## Params
 
 | **Name** | **Description** |

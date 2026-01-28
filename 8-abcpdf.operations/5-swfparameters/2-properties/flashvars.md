@@ -2,8 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `IEnumerable&lt;KeyValuePair&lt;string,
-                  object&gt;&gt;` | null | No | The Flash variables. |
+|  | null | No | The Flash variables. |
 
 ## Notes
 

@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | None | Yes | Whether the current license is valid. |
+|  | None | Yes | Whether the current license is valid. |
 
 ## Notes
 

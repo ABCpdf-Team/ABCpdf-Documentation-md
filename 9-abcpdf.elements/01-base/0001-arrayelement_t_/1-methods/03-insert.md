@@ -8,12 +8,6 @@
 virtual void Insert(int index, T value)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Insert(index As int, value As T) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

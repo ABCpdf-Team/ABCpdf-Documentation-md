@@ -10,12 +10,6 @@ Pre-multiplies this transformation matrix by the supplied transform.
 void PreMultiply(<a href="../default.htm">XTransform</a> transform)
 ```
 
-[Visual Basic]
-
-```vb
-Sub PreMultiply(transform as <a href="../default.htm">XTransform</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

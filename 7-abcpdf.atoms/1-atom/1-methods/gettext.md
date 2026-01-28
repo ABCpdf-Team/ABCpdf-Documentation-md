@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] static string GetText(Atom atom) [Visual Basic] Shared Function GetText(atom As Atom) As String
+[C#] static string GetText(Atom atom)
 
 ## Params
 

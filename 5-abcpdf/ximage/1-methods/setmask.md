@@ -10,12 +10,6 @@ Assign a soft mask to the image.
 void SetMask(<a href="../default.htm">XImage</a> mask, bool invert)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetMask(mask As <a href="../default.htm">XImage</a>, invert As Boolean)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -45,33 +39,14 @@ Here we read a TIFF file and present the data to the Image object. We then read 
 using var doc = new Doc();
 using var img = new XImage();
 using var msk = new XImage();
-img.SetFile(Server.MapPath("../mypics/mypic.jpg"));
-msk.SetFile(Server.MapPath("../mypics/mymask.jpg"));
+img.SetFile("../mypics/mypic.jpg");
+msk.SetFile("../mypics/mymask.jpg");
 img.SetMask(msk, true);
 doc.Color.String = "0 0 0";
 doc.FillRect();
 doc.Rect.Inset(20, 20);
 doc.AddImageObject(img, true);
-doc.Save(Server.MapPath("imagesetmask.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Dim theImg As New XImage()
-  Dim theMsk As New XImage()
-  theImg.SetFile(Server.MapPath("../mypics/mypic.jpg"))
-  theMsk.SetFile(Server.MapPath("../mypics/mymask.jpg"))
-  theImg.SetMask(theMsk, True)
-  theMsk.Clear()
-  doc.Color.String = "0 0 0"
-  doc.FillRect()
-  doc.Rect.Inset(20, 20)
-  doc.AddImageObject(theImg, True)
-  theImg.Clear()
-  doc.Save(Server.MapPath("imagesetmask.pdf"))
-End Using
+doc.Save("imagesetmask.pdf");
 ```
 
 ![](../../../images/pdf/image.pdf.png)

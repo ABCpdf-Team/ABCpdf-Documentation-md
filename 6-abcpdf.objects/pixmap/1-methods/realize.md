@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void Realize() [Visual Basic] Sub Realize()
+[C#] void Realize()
 
 may throw Exception()
 

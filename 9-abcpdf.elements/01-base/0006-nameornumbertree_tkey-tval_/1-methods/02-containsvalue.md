@@ -10,12 +10,6 @@ Determines whether the Tree contains a specific value.
 virtual bool ContainsValue(TVal value)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ContainsValue(value As TVal) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

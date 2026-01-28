@@ -12,12 +12,6 @@ bytes.
 static <a href="../default.htm">XImage</a> FromData(byte[] data, <a href="../../xreadoptions/default.htm">XReadOptions</a> options)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromData(data() As Byte, options As <a href="../../xreadoptions/default.htm">XReadOptions</a>) As <a href="../default.htm">XImage</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

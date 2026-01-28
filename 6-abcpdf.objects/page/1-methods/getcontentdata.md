@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] byte[] GetContentData() byte[] GetContentData(StreamObject[] contents) [Visual Basic] Function GetContentData() As Byte() Sub GetContentData(contents As StreamObject{}) As Byte()
+[C#] byte[] GetContentData() byte[] GetContentData(StreamObject[] contents)
 
 ## Params
 

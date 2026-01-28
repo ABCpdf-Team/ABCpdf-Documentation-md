@@ -11,12 +11,6 @@ Gets the installation folder of an import
 static string GetApplicationFolder(ImportApplicationType app)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function GetApplicationFolder(app As ImportApplicationType) As String
-```
-
 ## Params
 
 | **Name** | **Description** |

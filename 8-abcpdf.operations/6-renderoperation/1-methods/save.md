@@ -10,12 +10,6 @@ Renders and saves a page.
 void Save(string path)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Save(path As String)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -44,7 +38,7 @@ Here we render all the pages of the doc using 10 threads at a time. We alternate
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("spaceshuttle.pdf"));
+doc.Read("../Rez/spaceshuttle.pdf");
 string[] xts = { ".jpg", ".tif" };
 int[] dpis = { 150, 300 };
 var threads = new Thread[10];
@@ -54,7 +48,7 @@ while (pageNum <= pageCount) {
   while (count < threads.Length && pageNum <= pageCount) {
     doc.Rendering.DotsPerInch = dpis[(pageNum - 1) % 2];
     doc.PageNumber = pageNum;
-    string path = Server.MapPath($"ABCpdf{pageNum}{xts[(pageNum - 1) % 2]}");
+    string path = $"ABCpdf{pageNum}{xts[(pageNum - 1) % 2]}";
 
 
     threads[count] = new Thread(new RenderingWorker(doc, path).DoWork);
@@ -66,40 +60,5 @@ while (pageNum <= pageCount) {
   for (int i = 0; i < count; ++i)
     threads[i].Join();
 }
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("spaceshuttle.pdf"))
-  Dim theExts As String() = {".jpg", ".tif"}
-  Dim theDpis As Integer() = {150, 300}
-  Dim threadList As Thread() = New Thread(9) {}
-  Dim pageNum As Integer = 1, pageCount As Integer = doc.PageCount
-  While pageNum <= pageCount
-    Dim count As Integer = 0
-    While count < threadList.Length AndAlso pageNum <= pageCount
-      doc.Rendering.DotsPerInch = theDpis((pageNum - 1) Mod 2)
-      doc.PageNumber = pageNum
-      Dim path As String = Server.MapPath($"ABCpdf{pageNum}{theExts[(pageNum - 1) % 2]}")
-
-
-      threadList(count) = New Thread(New RenderingWorker(doc, path).DoWork)
-      System.Threading.Interlocked.Increment(count)
-      System.Threading.Interlocked.Increment(pageNum)
-    End While
-    Dim i As Integer = 0
-    While i < count
-      threadList(i).Start()
-      System.Threading.Interlocked.Increment(i)
-    End While
-    Dim i As Integer = 0
-    While i < count
-      threadList(i).Join()
-      System.Threading.Interlocked.Increment(i)
-    End While
-  End While
-End Using
 ```
 

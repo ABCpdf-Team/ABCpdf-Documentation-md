@@ -10,12 +10,6 @@ Creates an XRect from  the coordinates of two diagonally opposite corners.
 static <a href="../default.htm">XRect</a> FromSides(double xMin, double yMin, double xMax, double yMax)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromSides(xMin As Double, yMin As Double, xMax As Double, yMax As Double) As <a href="../default.htm">XRect</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

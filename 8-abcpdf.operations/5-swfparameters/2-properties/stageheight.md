@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double?` | null | No | The stage height when the scale mode is NoScale. |
+|  | null | No | The stage height when the scale mode is NoScale. |
 
 ## Notes
 

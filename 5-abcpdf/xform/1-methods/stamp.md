@@ -10,12 +10,6 @@ Stamp all fields into the document.
 void Stamp()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Stamp()
-```
-
 ## Params
 
 | **Name** | **Description** |

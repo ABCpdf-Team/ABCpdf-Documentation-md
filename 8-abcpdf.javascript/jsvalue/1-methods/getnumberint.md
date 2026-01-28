@@ -10,12 +10,6 @@ Gets the Int32 value of this number.
 int GetNumberInt()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetNumberInt() As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

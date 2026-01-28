@@ -12,7 +12,7 @@ You can use the following page sizes as shortcuts when assigning a string value 
 
 The following code.
 
-[C#] var rc = new XRect(); rc.String = "10 10 200 100"; Response.Write($"Width = {rc.Width}"); Response.Write("&lt;br&gt;"); Response.Write($"Height = {rc.Height}"); [Visual Basic] Dim rc As New XRect() rc.String = "10 10 200 100" Response.Write($"Width = {rc.Width}") Response.Write("&lt;br&gt;") Response.Write($"Height = {rc.Height}")
+[C#] var rc = new XRect(); rc.String = "10 10 200 100"; Response.Write($"Width = {rc.Width}"); Response.Write("&lt;br&gt;"); Response.Write($"Height = {rc.Height}");
 
 Produces the following output.
 

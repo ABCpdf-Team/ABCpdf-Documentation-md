@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int` | 101 | No | The quality of compression acceptable for continuous tone images such as JPEGs. |
+|  | 101 | No | The quality of compression acceptable for continuous tone images such as JPEGs. |
 
 ## Notes
 
@@ -31,32 +31,13 @@ string uri = "http://www.nasa.gov/multimedia/imagegallery/image_feature_313.html
 doc.HtmlOptions.ImageQuality = 5;
 doc.AddImageUrl(uri);
 // Save the document
-doc.Save(Server.MapPath("HtmlOptionsImageQuality5.pdf"));
+doc.Save("HtmlOptionsImageQuality5.pdf");
 doc.Clear();
 // Set lossless image quality for HTML rendering
 doc.HtmlOptions.ImageQuality = 101;
 doc.AddImageUrl(uri);
 // Save the document
-doc.Save(Server.MapPath("HtmlOptionsImageQuality101.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Dim theURL As String = "http://www.nasa.gov/multimedia/imagegallery/image_feature_313.html"
-  ' Set low image quality for HTML rendering
-  doc.HtmlOptions.ImageQuality = 5
-  doc.AddImageUrl(theURL)
-  ' Save the document
-  doc.Save(Server.MapPath("HtmlOptionsImageQuality5.pdf"))
-  doc.Clear()
-  ' Set lossless image quality for HTML rendering
-  doc.HtmlOptions.ImageQuality = 101
-  doc.AddImageUrl(theURL)
-  ' Save the document
-  doc.Save(Server.MapPath("HtmlOptionsImageQuality101.pdf"))
-End Using
+doc.Save("HtmlOptionsImageQuality101.pdf");
 ```
 
 ![](../../../images/pdf/HtmlOptionsImageQuality5.pdf.png)

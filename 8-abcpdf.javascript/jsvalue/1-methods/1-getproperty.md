@@ -10,12 +10,6 @@ Gets this object's property.
 JSValue GetProperty(string name)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetProperty(name As String) As JSValue
-```
-
 ## Params
 
 | **Name** | **Description** |

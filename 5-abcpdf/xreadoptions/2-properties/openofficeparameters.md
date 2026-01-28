@@ -3,7 +3,7 @@ Property
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `ListDictionary` | false | No | OpenOffice.org PDF conversion control parameters. |
+|  | false | No | OpenOffice.org PDF conversion control parameters. |
 
 ## Notes
 

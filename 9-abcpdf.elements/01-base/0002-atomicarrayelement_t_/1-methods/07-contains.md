@@ -10,12 +10,6 @@ Determines whether the array contains a specific value.
 virtual bool Contains(T value)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Contains(value As T) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

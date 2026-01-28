@@ -10,12 +10,6 @@ Copies the Atoms into an array.
 void CopyTo(<a href="../../1-atom/default.htm">Atom</a>[] array, int index)
 ```
 
-[Visual Basic]
-
-```vb
-Sub CopyTo(array As <a href="../../1-atom/default.htm">Atom</a>(), index As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

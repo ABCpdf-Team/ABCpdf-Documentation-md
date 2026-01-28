@@ -10,12 +10,6 @@ Copies the items into an array.
 virtual void CopyTo(T[] array, int index)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function CopyTo(array() As T, index As int) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Determines whether this collection contains the certificate object's value.
 bool Contains(X509Certificate2 cert)
 ```
 
-[Visual Basic]
-
-```vb
-Function Contains(cert As X509Certificate2) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

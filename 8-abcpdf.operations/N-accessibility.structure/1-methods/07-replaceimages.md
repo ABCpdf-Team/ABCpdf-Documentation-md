@@ -10,12 +10,6 @@ Replace a set of images with a new one.
 void ReplaceImages(List&lt;StructureElementElement&gt; images, PixMap pm)
 ```
 
-[Visual Basic]
-
-```vb
-Function ReplaceImages(images As List&lt;StructureElementElement&gt;, pm As PixMap)
-```
-
 ## Params
 
 | **Name** | **Description** |

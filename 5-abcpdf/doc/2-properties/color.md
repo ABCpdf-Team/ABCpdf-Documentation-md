@@ -10,7 +10,7 @@ This property determines the color used for drawing lines, shapes, filled shapes
 
 The following code creates a PDF document with a red background.
 
-[C#] using var doc = new Doc(); doc.Color.String = "255 0 0"; doc.FillRect(); doc.Save(Server.MapPath("doccolor.pdf")); [Visual Basic] Using doc As New Doc() doc.Color.String = "255 0 0" doc.FillRect() doc.Save(Server.MapPath("doccolor.pdf")) End Using
+[C#] using var doc = new Doc(); doc.Color.String = "255 0 0"; doc.FillRect(); doc.Save("doccolor.pdf");
 
 doccolor.pdf
 

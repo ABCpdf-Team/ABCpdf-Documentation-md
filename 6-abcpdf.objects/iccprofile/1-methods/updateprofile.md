@@ -10,12 +10,6 @@ Updates this object to reflect the values contained within the embedded ICC colo
 bool UpdateProfile()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable UpdateProfile() As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

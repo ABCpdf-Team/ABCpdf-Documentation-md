@@ -10,12 +10,6 @@
 [CSSIG: void CopyTo(Bookmark array, int index)]
 ```
 
-[Visual Basic]
-
-```vb
-[VBSIG: Sub CopyTo(array As Bookmark(), index As Integer)]
-```
-
 ## Params
 
 | **Name** | **Description** |

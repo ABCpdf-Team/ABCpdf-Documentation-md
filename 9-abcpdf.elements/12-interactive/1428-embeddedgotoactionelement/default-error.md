@@ -1,0 +1,2 @@
+# EmbeddedGoToActionElement Class
+

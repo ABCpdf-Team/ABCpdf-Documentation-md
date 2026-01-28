@@ -10,7 +10,7 @@ It can take values between 0 and 100 ranging from lowest to highest quality.
 
 The following example shows the effect that this parameter has on PDF rendering.
 
-[C#] using var doc = new Doc(); doc.Read(Server.MapPath("../mypics/SpaceShuttlePage6.pdf")); doc.Rendering.DotsPerInch = 36; // Save at low quality doc.Rendering.SaveQuality = 5; doc.Rendering.Save(Server.MapPath("RenderingQuality5.jpg")); // Save at high quality doc.Rendering.SaveQuality = 75; doc.Rendering.Save(Server.MapPath("RenderingQuality75.jpg")); [Visual Basic] Using doc As New Doc() doc.Read(Server.MapPath("../mypics/SpaceShuttlePage6.pdf")) doc.Rendering.DotsPerInch = 36 ' Save at low quality doc.Rendering.SaveQuality = 5 doc.Rendering.Save(Server.MapPath("RenderingQuality5.jpg")) ' Save at high quality doc.Rendering.SaveQuality = 75 doc.Rendering.Save(Server.MapPath("RenderingQuality75.jpg")) End Using
+[C#] using var doc = new Doc(); doc.Read("../mypics/SpaceShuttlePage6.pdf"); doc.Rendering.DotsPerInch = 36; // Save at low quality doc.Rendering.SaveQuality = 5; doc.Rendering.Save("RenderingQuality5.jpg"); // Save at high quality doc.Rendering.SaveQuality = 75; doc.Rendering.Save("RenderingQuality75.jpg");
 
 RenderingQuality5.jpg [file size 9.26 KB]
 

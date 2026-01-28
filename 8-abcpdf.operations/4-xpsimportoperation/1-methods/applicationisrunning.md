@@ -11,12 +11,6 @@ Gets a value indicating whether an import application is
 bool ApplicationIsRunning(ImportApplicationType app)
 ```
 
-[Visual Basic]
-
-```vb
-Function ApplicationIsRunning(app As ImportApplicationType) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

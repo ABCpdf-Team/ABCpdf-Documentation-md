@@ -10,12 +10,6 @@ Load an image from a file.
 void SetFile(string path)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetFile(path As String)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -41,23 +35,10 @@ Here we open a TIFF file using the XImage object. After we've opened the file we
 ```csharp
 using var img = new XImage();
 using var doc = new Doc();
-img.SetFile(Server.MapPath("../mypics/mypic.jpg"));
+img.SetFile("../mypics/mypic.jpg");
 doc.Rect.Inset(20, 20);
 doc.AddImageObject(img, false);
-doc.Save(Server.MapPath("imagesetfile.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Dim theImg As New XImage()
-Dim doc As New Doc()
-theImg.SetFile(Server.MapPath("../mypics/mypic.jpg"))
-doc.Rect.Inset(20, 20)
-doc.AddImageObject(theImg, False)
-theImg.Clear()
-doc.Save(Server.MapPath("imagesetfile.pdf"))
-doc.Clear()
+doc.Save("imagesetfile.pdf");
 ```
 
 ![](../../../images/pdf/imagesetfile.pdf.png)

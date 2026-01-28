@@ -10,12 +10,6 @@ Inserts the elements in the supplied array into this array at the specified inde
 void InsertRange(int index, <a href="../default.htm">ArrayAtom</a> array)
 ```
 
-[Visual Basic]
-
-```vb
-Sub InsertRange(index As Integer, array As <a href="../default.htm">ArrayAtom</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

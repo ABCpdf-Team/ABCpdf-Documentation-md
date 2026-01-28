@@ -10,7 +10,7 @@ The format of the string must be "x y".
 
 The following code.
 
-[C#] var pt = new XPoint(); pt.String = "20 10"; Response.Write($"X = {pt.X}"); Response.Write("<br>"); Response.Write($"Y = {pt.Y}"); [Visual Basic] Dim pt As New XPoint() pt.String = "20 10" Response.Write($"X = {pt.X}") Response.Write("<br>") Response.Write($"Y = {pt.Y}")
+[C#] var pt = new XPoint(); pt.String = "20 10"; Response.Write($"X = {pt.X}"); Response.Write("<br>"); Response.Write($"Y = {pt.Y}");
 
 Produces the following output. X = 20 Y = 10
 

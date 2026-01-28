@@ -10,12 +10,6 @@ Render one or more layers on the current page
 System.Drawing.Bitmap GetBitmap(Layer[] layers)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetBitmap(layers() As Layer) As System.Drawing.Bitmap
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -71,45 +65,7 @@ string star = "124 158 300 700 476 158 15 493 585 493 124 158";
 doc.Width = 20;
 doc.Color.String = "255 0 0";
 AddDropShadow(doc, doc.AddPoly(star, false), 3, shift, -shift, blue);
-doc.Save(Server.MapPath("dropshadows.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  ' light blue background
-  doc.Color.SetCmyk(50, 0, 0, 0)
-  doc.FillRect()
-  doc.Color.SetRgb(0, 0, 0)
-  doc.Rect.Inset(20, 20)
-  doc.Rect.Pin = XRect.Corner.TopLeft
-  doc.Rect.Height = doc.Rect.Height / 5
-  ' set up styles
-  doc.TextStyle.Size = 72
-  Dim shift As Double = doc.TextStyle.Size * 0.1
-  Dim pink As New XColor()
-  pink.SetRgb(255, 128, 128)
-  Dim gray As New XColor()
-  gray.SetRgb(128, 128, 128)
-  Dim blue As New XColor()
-  blue.SetRgb(0, 0, 255)
-  ' add text content
-  AddDropShadow(doc, doc.AddText("Sharp Shadow"), 0, shift, -shift, gray)
-  doc.Rect.Move(0, -doc.Rect.Height)
-  AddDropShadow(doc, doc.AddText("Blurred Shadow"), 1, shift, -shift, gray)
-  doc.Rect.Move(0, -doc.Rect.Height)
-  AddDropShadow(doc, doc.AddText("Pink Shadow"), 1, shift, -shift, pink)
-  doc.Rect.Move(0, -doc.Rect.Height)
-  ' add drawn content
-  doc.Transform.Magnify(0.5, 0.5, 0, 0)
-  doc.Transform.Translate(50, 0)
-  Dim star As String = "124 158 300 700 476 158 15 493 585 493 124 158"
-  doc.Width = 20
-  doc.Color.String = "255 0 0"
-  AddDropShadow(doc, doc.AddPoly(star, False), 3, shift, -shift, blue)
-  doc.Save(Server.MapPath("dropshadows.pdf"))
-End Using
+doc.Save("dropshadows.pdf");
 ```
 
 ![](../../../images/pdf/dropshadows.pdf.png)

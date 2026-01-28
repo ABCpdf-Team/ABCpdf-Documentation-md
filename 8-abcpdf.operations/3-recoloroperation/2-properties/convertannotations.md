@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Gets or sets a value indicating whether annotations are to be recolored. |
+|  | true | No | Gets or sets a value indicating whether annotations are to be recolored. |
 
 ## Notes
 

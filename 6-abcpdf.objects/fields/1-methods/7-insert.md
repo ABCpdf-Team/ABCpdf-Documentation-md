@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void Insert(int index, Field value) [Visual Basic] Sub Insert(index As Integer, value As Field)
+[C#] void Insert(int index, Field value)
 
 may throw NotSupportedException()
 

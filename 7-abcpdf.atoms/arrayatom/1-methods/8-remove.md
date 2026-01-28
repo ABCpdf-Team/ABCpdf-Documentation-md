@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] bool Remove(Atom value) [Visual Basic] Function Remove(value As Atom) As Boolean
+[C#] bool Remove(Atom value)
 
 ## Params
 

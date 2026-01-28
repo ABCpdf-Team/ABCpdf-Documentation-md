@@ -12,7 +12,7 @@ If the value is positive the block is shifted to the right by the specified numb
 
 In the following example we add three blocks of text to a document. The first block uses the default left margin. The subsequent blocks use different left margin settings to indent the text.
 
-[C#] using var doc = new Doc(); string text = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani..."; doc.TextStyle.Size = 48; doc.AddText(text); doc.Rect.Move(0, -250); doc.TextStyle.LeftMargin = 100; doc.AddText(text); doc.Rect.Move(0, -250); doc.TextStyle.LeftMargin = 200; doc.AddText(text); doc.Save(Server.MapPath("stylemargin.pdf")); [Visual Basic] Using doc As New Doc() Dim theText As String = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani..." doc.TextStyle.Size = 48 doc.AddText(theText) doc.Rect.Move(0, -250) doc.TextStyle.LeftMargin = 100 doc.AddText(theText) doc.Rect.Move(0, -250) doc.TextStyle.LeftMargin = 200 doc.AddText(theText) doc.Save(Server.MapPath("stylemargin.pdf")) End Using
+[C#] using var doc = new Doc(); string text = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani..."; doc.TextStyle.Size = 48; doc.AddText(text); doc.Rect.Move(0, -250); doc.TextStyle.LeftMargin = 100; doc.AddText(text); doc.Rect.Move(0, -250); doc.TextStyle.LeftMargin = 200; doc.AddText(text); doc.Save("stylemargin.pdf");
 
 stylelmargin.pdf
 

@@ -10,12 +10,6 @@ Install a redistribution license.
 bool InstallRedistributionLicense(string license)
 ```
 
-[Visual Basic]
-
-```vb
-Function InstallRedistributionLicense(license As String) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

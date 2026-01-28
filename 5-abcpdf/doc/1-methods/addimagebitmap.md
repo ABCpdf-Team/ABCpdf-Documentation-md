@@ -10,12 +10,6 @@ Adds a System.Drawing.Bitmap to the current page.
 int AddImageBitmap(System.Drawing.Bitmap bm, bool transparent)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddImageBitmap(bm As System.Drawing.Bitmap, transparent As Boolean) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -40,29 +34,13 @@ The following code adds a transparent PNG to a document.
 
 ```csharp
 using var doc = new Doc();
-string path = Server.MapPath("../mypics/mypic.png");
+string path = "../mypics/mypic.png";
 using var bm = new Bitmap(path);
 doc.Rect.Inset(20, 20);
 doc.Color.String = "0 0 200";
 doc.FillRect();
 doc.AddImageBitmap(bm, true);
-bm.Dispose();
-doc.Save(Server.MapPath("docaddimagebitmap.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Dim thePath As String = Server.MapPath("../mypics/mypic.png")
-  Dim bm As New Bitmap(thePath)
-  doc.Rect.Inset(20, 20)
-  doc.Color.String = "0 0 200"
-  doc.FillRect()
-  doc.AddImageBitmap(bm, True)
-  bm.Dispose()
-  doc.Save(Server.MapPath("docaddimagebitmap.pdf"))
-End Using
+doc.Save("docaddimagebitmap.pdf");
 ```
 
 ![](../../../images/pdf/docaddimagebitmap.pdf.png)

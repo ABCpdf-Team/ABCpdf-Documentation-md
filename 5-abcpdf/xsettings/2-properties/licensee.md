@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | None | Yes | The current licensee for the software. |
+|  | None | Yes | The current licensee for the software. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ Get the vertical metric for a character.
 virtual <a href="../default.htm">VerticalMetric</a> GetVerticalMetric(int code)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function GetVerticalMetric(code As int) As <a href="../default.htm">VerticalMetric</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

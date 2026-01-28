@@ -10,12 +10,6 @@ Transform the page contents and page bounding boxes.
 void Transform(XTransform transform)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Transform(transform As XTransform)
-```
-
 ## Params
 
 | **Name** | **Description** |

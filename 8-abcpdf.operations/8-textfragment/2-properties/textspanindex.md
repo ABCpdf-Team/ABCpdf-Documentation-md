@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int` | n/a | Yes | The zero based index of the drawing operator text array item that contains this fragment. For non text array operators this value is zero. |
+|  | n/a | Yes | The zero based index of the drawing operator text array item that contains this fragment. For non text array operators this value is zero. |
 
 ## Notes
 

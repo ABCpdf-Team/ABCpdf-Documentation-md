@@ -12,7 +12,7 @@ The export of file types like XPS, DOCX and HTML is implemented using rendering.
 
 The following example shows the effect that this parameter has on PDF rendering.
 
-[C#] using var doc = new Doc(); doc.Read(Server.MapPath("../mypics/Annotations.pdf")); doc.Rect.Pin = XRect.Corner.TopLeft; doc.Rect.Height = 300; // Render document with DrawAnnotations (default) doc.Rendering.Save(Server.MapPath("RenderingDrawAnnotationsTrue.png")); // Render document without DrawAnnotations doc.Rendering.DrawAnnotations = false; doc.Rendering.Save(Server.MapPath("RenderingDrawAnnotationsFalse.png")); [Visual Basic] Using doc As New Doc() doc.Read(Server.MapPath("../mypics/Annotations.pdf")) doc.Rect.Pin = XRect.Corner.TopLeft doc.Rect.Height = 300 ' Render document with DrawAnnotations (default) doc.Rendering.Save(Server.MapPath("RenderingDrawAnnotationsTrue.png")) ' Render document without DrawAnnotations doc.Rendering.DrawAnnotations = False doc.Rendering.Save(Server.MapPath("RenderingDrawAnnotationsFalse.png")) End Using
+[C#] using var doc = new Doc(); doc.Read("../mypics/Annotations.pdf"); doc.Rect.Pin = XRect.Corner.TopLeft; doc.Rect.Height = 300; // Render document with DrawAnnotations (default) doc.Rendering.Save("RenderingDrawAnnotationsTrue.png"); // Render document without DrawAnnotations doc.Rendering.DrawAnnotations = false; doc.Rendering.Save("RenderingDrawAnnotationsFalse.png");
 
 RenderingDrawAnnotationsTrue.png
 

@@ -10,12 +10,6 @@ Set the 3D content of the stream from data embedded in a file.
 virtual void SetFile3D(string path)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function SetFile3D(path As string) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

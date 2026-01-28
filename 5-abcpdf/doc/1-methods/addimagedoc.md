@@ -11,12 +11,6 @@ Draw a page from one PDF document onto the current page of this
 int AddImageDoc(Doc doc, int page, XRect rect)int AddImageDoc(Doc doc, int page, XRect rect, bool copyAnnotations)int AddImageDoc(Doc doc, int page, XRect rect, bool copyAnnotations, double alpha) int AddImageDoc(Doc doc, int page, XRect rect, bool copyAnnotations, bool copyTags, double alpha)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddImageDoc(doc As Doc, page As Integer, rect As XRect) As IntegerFunction AddImageDoc(doc As Doc, page As Integer, rect As XRect, copyAnnotations As Boolean) As Integer<br /> Function AddImageDoc(doc As Doc, page As Integer, rect As XRect, copyAnnotations As Boolean, alpha As Double) As IntegerFunction AddImageDoc(doc As Doc, page As Integer, rect As XRect, copyAnnotations As Boolean, copyTags As Boolean, alpha As Double) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -73,16 +67,8 @@ This example shows how to draw one PDF into another. It takes a PDF document and
 
 ```csharp
 using var src = new Doc();
-src.Read(Server.MapPath("../Rez/spaceshuttle.pdf"));
+src.Read("../Rez/spaceshuttle.pdf");
 int count = src.PageCount;
-```
-
-[Visual Basic]
-
-```vb
-Dim theSrc As New Doc()
-theSrc.Read(Server.MapPath("../Rez/spaceshuttle.pdf"))
-Dim theCount As Integer = theSrc.PageCount
 ```
 
 ![](../../../images/pdf/fourup.pdf.png)

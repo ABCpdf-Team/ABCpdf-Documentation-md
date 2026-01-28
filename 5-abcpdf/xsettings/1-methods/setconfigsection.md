@@ -10,12 +10,6 @@ Set the application configuration section.
 void SetConfigSection(ConfigSection section)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetConfigSection(section As ConfigSection)
-```
-
 ## Params
 
 | **Name** | **Description** |

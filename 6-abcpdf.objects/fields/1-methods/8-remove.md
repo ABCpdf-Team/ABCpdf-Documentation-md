@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] bool Remove(Field value) [Visual Basic] Function Remove(value As Field) As Boolean
+[C#] bool Remove(Field value)
 
 may throw NotSupportedException()
 

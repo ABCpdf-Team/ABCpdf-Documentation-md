@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `HtmlBreakMethodType` | CumulativeCohesion or GlobalOptimum | No | The page break logic for HTML. |
+|  | CumulativeCohesion or GlobalOptimum | No | The page break logic for HTML. |
 
 ## Notes
 

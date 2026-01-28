@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Gets or sets a value that indicates whether BackgroundRegion and ClipRegion are reset when the Operation.ProcessingObject event of ProcessingSourceType.MultiFrameImage or of ProcessingSourceType.ImageFrame is generated. |
+|  | true | No | Gets or sets a value that indicates whether BackgroundRegion and ClipRegion are reset when the Operation.ProcessingObject event of ProcessingSourceType.MultiFrameImage or of ProcessingSourceType.ImageFrame is generated. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ Dispose of the object.
 void Dispose()protected void Dispose(bool disposing)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Dispose()Protected Sub Dispose(disposing As Boolean)
-```
-
 ## Params
 
 | **Name** | **Description** |

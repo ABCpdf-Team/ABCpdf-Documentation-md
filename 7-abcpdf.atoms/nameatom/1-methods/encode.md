@@ -10,12 +10,6 @@ Encode text into a PDF name.
 string Encode(<a href="../default.htm">string</a> value)
 ```
 
-[Visual Basic]
-
-```vb
-Function Encode(value As <a href="../default.htm">String</a>) As String
-```
-
 ## Params
 
 | **Name** | **Description** |

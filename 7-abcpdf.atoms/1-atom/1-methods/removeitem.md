@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] static void RemoveItem(Atom atom, string key) [Visual Basic] Shared Sub RemoveItem(atom As Atom, key As String)
+[C#] static void RemoveItem(Atom atom, string key)
 
 ## Params
 

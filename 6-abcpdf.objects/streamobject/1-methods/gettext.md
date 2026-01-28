@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] string GetText() [Visual Basic] Function GetText() As String
+[C#] string GetText()
 
 ## Params
 

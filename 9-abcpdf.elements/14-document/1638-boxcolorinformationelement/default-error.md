@@ -1,0 +1,2 @@
+# BoxColorInformationElement Class
+

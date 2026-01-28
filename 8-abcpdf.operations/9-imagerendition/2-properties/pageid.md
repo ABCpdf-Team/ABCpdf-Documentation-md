@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int` | n/a | Yes | The ID of the Page on which the image is placed. |
+|  | n/a | Yes | The ID of the Page on which the image is placed. |
 
 ## Notes
 

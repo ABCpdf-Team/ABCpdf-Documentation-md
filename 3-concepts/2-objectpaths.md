@@ -10,21 +10,21 @@ Under normal situations, ABCpdf ensures that your documents are internally consi
 
 If your object is a dictionary, you can specify a particular dictionary entry for replacement or insertion (dictionary entries always begin with a slash '/' character). So if you wanted to change the type of an annotation, you might use the following code:
 
-[C#] theDoc.SetInfo(theID, "/Subtype", "(Stamp)"); [Visual Basic] theDoc.SetInfo(theID, "/Subtype", "(Stamp)")
+[C#] theDoc.SetInfo(theID, "/Subtype", "(Stamp)");
 
 Alternatively, you can use the 'Value' selector to specify a replacement for the entire object. However, if you do this, you must ensure that the type of your new object is the same as the type of your old one - you cannot replace a number with a string. For example.
 
-[C#] theDoc.SetInfo(theID, "Value", "<</Font /Helvetica /Size 10>>"); [Visual Basic] theDoc.SetInfo(theID, "Value", "<</Font /Helvetica /Size 10>>")
+[C#] theDoc.SetInfo(theID, "Value", "<</Font /Helvetica /Size 10>>");
 
 Specifications can be chained together to form complete paths. Dictionary entries are specified by preceding the entry name with a slash. Array items are specified using square brackets containing the index of the item you wish to reference (starting at zero).
 
 For example, the code below would return the first item in the MediaBox array.
 
-[C#] theDoc.GetInfo(theID, "/MediaBox[0]"); [Visual Basic] theDoc.GetInfo(theID, "/MediaBox[0]")
+[C#] theDoc.GetInfo(theID, "/MediaBox[0]");
 
 And the code below would return the count entry of the parent of the object.
 
-[C#] theDoc.GetInfo(theID, "/Parent/Count"); [Visual Basic] theDoc.GetInfo(theID, "/Parent/Count")
+[C#] theDoc.GetInfo(theID, "/Parent/Count");
 
 Sometimes, you may wish to find a reference to a particular object. Sometimes, you may wish to skip through the reference and jump straight into the object itself.
 
@@ -32,7 +32,7 @@ You can do this using an asterisk to de-reference an object within a path. If th
 
 For example, the code below might be used to return the content stream of the first page of a document.
 
-[C#] theDoc.GetInfo(theDoc.Root, "/Pages*/Kids*[0]*/Contents"); [Visual Basic] theDoc.GetInfo(theDoc.Root, "/Pages*/Kids*[0]*/Contents")
+[C#] theDoc.GetInfo(theDoc.Root, "/Pages*/Kids*[0]*/Contents");
 
 You can use SetInfo to insert values specified by paths. You can specify the type of object to be inserted by appending an identifier to the path.
 
@@ -76,19 +76,19 @@ The equivalent of Int64 but specifying a default value of -1.
 
 Suppose you wanted to insert an annotation into the page annotations array. The following code will find the page entry named "/Annots" (or it will create it if it doesn't exist). It will then ensure that this entry references an array, and it will insert a reference Atom at the beginning (item zero) of the array.
 
-[C#] theDoc.SetInfo(theDoc.Page, "/Annots[0]:Ref", theID); [Visual Basic] theDoc.SetInfo(theDoc.Page, "/Annots[0]:Ref", theID)
+[C#] theDoc.SetInfo(theDoc.Page, "/Annots[0]:Ref", theID);
 
 Alternatively, if you want to insert your annotation at the end of the array, just leave out the array index:
 
-[C#] theDoc.SetInfo(theDoc.Page, "/Annots[]:Ref", theID); [Visual Basic] theDoc.SetInfo(theDoc.Page, "/Annots[]:Ref", theID)
+[C#] theDoc.SetInfo(theDoc.Page, "/Annots[]:Ref", theID);
 
 You can also locate items in an array from the end. Use -1 for the last item, -2 for the second last item, and so on.
 
-[C#] theDoc.GetInfo(theDoc.Page, "/Annots[-1]:Ref"); [Visual Basic] theDoc.GetInfo(theDoc.Page, "/Annots[-1]:Ref")
+[C#] theDoc.GetInfo(theDoc.Page, "/Annots[-1]:Ref");
 
 Insertions can be complex. The next example gets the entry called "/Font", which contains a dictionary. This dictionary includes an element called "/Names", which contains an array. The call inserts the Name object "/Helvetica" at the start of this array.
 
-[C#] theDoc.SetInfo(theID, "/Font/Names[0]:Name", "Helvetica"); [Visual Basic] theDoc.SetInfo(theID, "/Font/Names[0]:Name", "Helvetica")
+[C#] theDoc.SetInfo(theID, "/Font/Names[0]:Name", "Helvetica");
 
 You can use GetInfo to query values specified by paths. The format of the return value is exactly the same as would be output to your PDF file. You can specify an alternative format by appending an identifier to the string.
 
@@ -126,5 +126,5 @@ The keys specifier is a special directive which returns a comma delimited list o
 
 For example, the code below could return the rect of the page CropBox.
 
-[C#] theDoc.GetInfo(theID, "/CropBox:Rect"); [Visual Basic] theDoc.GetInfo(theID, "/CropBox:Rect")
+[C#] theDoc.GetInfo(theID, "/CropBox:Rect");
 

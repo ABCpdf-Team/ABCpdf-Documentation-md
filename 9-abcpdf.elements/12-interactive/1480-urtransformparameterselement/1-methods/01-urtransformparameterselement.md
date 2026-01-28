@@ -8,12 +8,6 @@
 <a href="../default.htm">UrTransformParametersElement</a>()<a href="../default.htm">UrTransformParametersElement</a>(Atom atom, IndirectObject host)<a href="../default.htm">UrTransformParametersElement</a>(IndirectObject obj)<a href="../default.htm">UrTransformParametersElement</a>(<a href="../../../01-base/1086-element/default.htm">Element</a> relation, CreationOptions options)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">UrTransformParametersElement</a>()<a href="../default.htm">UrTransformParametersElement</a>(atom As Atom, host As IndirectObject)<a href="../default.htm">UrTransformParametersElement</a>(obj As IndirectObject)<a href="../default.htm">UrTransformParametersElement</a>(relation As <a href="../../../01-base/1086-element/default.htm">Element</a>, options As CreationOptions)
-```
-
 ## Params
 
 | **Name** | **Description** |

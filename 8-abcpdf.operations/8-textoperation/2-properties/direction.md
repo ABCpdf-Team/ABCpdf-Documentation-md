@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `XTextStyle.DirectionType` | DirectionType.Default | No | The default direction for text. |
+|  | DirectionType.Default | No | The default direction for text. |
 
 ## Notes
 

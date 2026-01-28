@@ -10,12 +10,6 @@ Gets a resource from the resources dictionary.
 virtual <a href="../../J-atomandobject/default.htm">AtomAndObject</a> GetResource(<a href="../../../6-abcpdf.objects/1-indirectobject/default.htm">IndirectObject</a> owner, ResourceType type, string name)virtual <a href="../../J-atomandobject/default.htm">AtomAndObject</a> GetResource(<a href="../../../6-abcpdf.objects/1-indirectobject/default.htm">IndirectObject</a> owner, Page page, ResourceType type, string name)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function GetResource(owner As <a href="../../../6-abcpdf.objects/1-indirectobject/default.htm">IndirectObject</a>, type As ResourceType, name As string) As <a href="../../J-atomandobject/default.htm">AtomAndObject</a>Overridable Function GetResource(owner As <a href="../../../6-abcpdf.objects/1-indirectobject/default.htm">IndirectObject</a>, type As ResourceType, name As string) As <a href="../../J-atomandobject/default.htm">AtomAndObject</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Determine if this rectangle contains a specified point or  rectangle.
 bool Contains(<a href="../../xpoint/default.htm">XPoint</a> point)bool Contains(PointF point)bool Contains(Point point)bool Contains(float x, float y)bool Contains(double x, double y)bool Contains(<a href="../default.htm">XRect</a> rect)
 ```
 
-[Visual Basic]
-
-```vb
-Function Contains(point As <a href="../../xpoint/default.htm">XPoint</a>) As BooleanFunction Contains(point As PointF) As BooleanFunction Contains(point As Point) As BooleanFunction Contains(x As Float, y as Float) As BooleanFunction Contains(x As Double, y as Double) As BooleanFunction Contains(rect As <a href="../default.htm">XRect</a>) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Get the path to the file for the specified platform
 string GetPath(string platform)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetPath(platform As String) As String
-```
-
 ## Params
 
 | **Name** | **Description** |

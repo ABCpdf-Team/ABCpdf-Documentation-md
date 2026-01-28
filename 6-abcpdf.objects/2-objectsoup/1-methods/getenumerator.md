@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] IEnumerator<IndirectObject> GetEnumerator() [Visual Basic] Function GetEnumerator() As IEnumerator(Of IndirectObject)
+[C#] IEnumerator<IndirectObject> GetEnumerator()
 
 ## Params
 

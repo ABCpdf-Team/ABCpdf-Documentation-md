@@ -10,12 +10,6 @@ Get the Page object for this particular structure element.
 GetPage(this StructureElementElement element)GetPage(this StructureElementElement element, Accessibility.Structure structure)
 ```
 
-[Visual Basic]
-
-```vb
-GetPage(this StructureElementElement element)GetPage(this StructureElementElement element, Accessibility.Structure structure)
-```
-
 ## Params
 
 | **Name** | **Description** |

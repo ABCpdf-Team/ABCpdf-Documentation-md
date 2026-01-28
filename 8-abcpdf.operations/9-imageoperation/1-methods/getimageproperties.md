@@ -10,12 +10,6 @@ Get the image information for all the raster images.
 IList&lt;<a href="../../9-imageproperties/default.htm">ImageProperties</a>&gt; GetImageProperties()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetImageProperties() As IList&lt;<a href="../../9-imageproperties/default.htm">ImageProperties</a>&gt;
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -35,8 +29,8 @@ Here we highlight a set of images in a source document by drawing a red rectangl
 [C#]
 
 ```csharp
-string src = Server.MapPath("mypics/Acrobat.pdf");
-string dst = Server.MapPath("HighlightedImages.pdf");
+string src = "../mypics/Acrobat.pdf";
+string dst = "HighlightedImages.pdf";
 using var doc = new Doc();
 doc.Read(src);
 doc.Color.SetRgb(255, 0, 0);
@@ -51,27 +45,5 @@ foreach (var img in images) {
   }
 }
 doc.Save(dst);
-```
-
-[Visual Basic]
-
-```vb
-Dim theSrc As String = Server.MapPath("mypics/Acrobat.pdf")
-Dim theDst As String = Server.MapPath("HighlightedImages.pdf")
-Using doc As New Doc()
-  doc.Read(theSrc)
-  doc.Color.SetRgb(255, 0, 0)
-  doc.Width = 0.1
-  Dim op As New ImageOperation(doc)
-  op.PageContents.AddPages()
-  Dim images As IList(Of ImageProperties) = op.GetImageProperties()
-  For Each pl As ImageProperties In images
-    For Each plc As ImageRendition In pl.Renditions
-      plc.Focus()
-      doc.FrameRect()
-    Next
-  Next
-  doc.Save(theDst)
-End Using
 ```
 

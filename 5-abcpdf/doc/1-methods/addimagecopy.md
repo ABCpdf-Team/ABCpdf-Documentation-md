@@ -10,12 +10,6 @@ Adds a copy of an existing image in the Doc, to the current page.
 int AddImageCopy(int id)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddImageCopy(id As Integer) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -41,16 +35,8 @@ This example shows how to read an existing PDF document and insert a background 
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("../mypics/sample.pdf"));
+doc.Read("../mypics/sample.pdf");
 int count = doc.PageCount;
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("../mypics/sample.pdf"))
-  Dim theCount As Integer = doc.PageCount
 ```
 
 ![](../../../images/pdf/sample.pdf.png)

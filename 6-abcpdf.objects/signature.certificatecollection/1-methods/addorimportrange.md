@@ -10,12 +10,6 @@ Adds the certificate objects or imports the certificates from the files to this 
 int AddOrImportRange(IEnumerable cert)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddOrImportRange(cert As IEnumerable) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

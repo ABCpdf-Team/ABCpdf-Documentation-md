@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `RenderingIntent` | RelativeColorimetric | No | Gets or sets the default rendering intent. |
+|  | RelativeColorimetric | No | Gets or sets the default rendering intent. |
 
 ## Notes
 

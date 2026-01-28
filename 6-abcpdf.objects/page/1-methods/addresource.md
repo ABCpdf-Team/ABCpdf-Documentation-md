@@ -10,12 +10,6 @@ Add a particular type of resource to the page
 string AddResource(<a href="../../1-indirectobject/default.htm">IndirectObject</a> resource, string type, string name)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddResource(resource As <a href="../../1-indirectobject/default.htm">IndirectObject</a>, type As String, name As String) As String
-```
-
 ## Params
 
 | **Name** | **Description** |

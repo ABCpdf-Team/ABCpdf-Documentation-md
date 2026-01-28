@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `ContentScaleMode?` | ExactFit | No | Gets or sets the content scale mode. |
+|  | ExactFit | No | Gets or sets the content scale mode. |
 
 ## Notes
 

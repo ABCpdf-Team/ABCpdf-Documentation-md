@@ -10,12 +10,6 @@ Create a WebPageOperation.
 WebPageOperation()
 ```
 
-[Visual Basic]
-
-```vb
-WebPageOperation()
-```
-
 ## Params
 
 | **Name** | **Description** |

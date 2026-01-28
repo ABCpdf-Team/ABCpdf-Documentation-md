@@ -10,12 +10,6 @@ The byte array representation of the Atom as it would appear in a PDF
 byte[] GetData()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetData() As Byte()
-```
-
 ## Params
 
 | **Name** | **Description** |

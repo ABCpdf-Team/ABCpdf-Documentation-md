@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] DictAtom() [Visual Basic] Sub New()
+[C#] DictAtom()
 
 ## Params
 

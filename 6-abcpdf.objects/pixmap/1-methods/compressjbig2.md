@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void CompressJbig2() [Visual Basic] Sub CompressJbig2()
+[C#] void CompressJbig2()
 
 may throw Exception()
 

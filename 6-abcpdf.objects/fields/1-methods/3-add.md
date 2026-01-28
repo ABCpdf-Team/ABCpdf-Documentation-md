@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] int Add(Field field) [Visual Basic] Function Add(field As Field) As Integer
+[C#] int Add(Field field)
 
 may throw NotSupportedException()
 

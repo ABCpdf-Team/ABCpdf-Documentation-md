@@ -10,12 +10,6 @@ PixMap static constructor
 static PixMap FromXImage(<a href="../../2-objectsoup/default.htm">ObjectSoup</a> soup, <a href="../../../5-abcpdf/ximage/default.htm">XImage</a> image)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromXImage(soup As <a href="../../2-objectsoup/default.htm">ObjectSoup</a>, image As <a href="../../../5-abcpdf/ximage/default.htm">XImage</a>) As PixMap
-```
-
 ## Params
 
 | **Name** | **Description** |

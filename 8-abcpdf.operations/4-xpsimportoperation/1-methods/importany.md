@@ -11,12 +11,6 @@ Imports a portion of a document via an intermediate XPS
 void ImportAny(Doc doc, string path)void ImportAny(Doc doc, string path, int timeout
 ```
 
-[Visual Basic]
-
-```vb
-Sub ImportAny(doc As Doc, path As String) Sub ImportAny(doc As Doc, path As String, timeout As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

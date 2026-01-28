@@ -10,12 +10,6 @@ Adds a line to the current page.
 int AddLine(double x1, double y1, double x2, double y2)int AddLine(double x1, double y1, double x2, double y2, LineEnding ending1, LineEnding ending2)int AddLine(double x1, double y1, double x2, double y2, LineEnding ending1, LineEnding ending2, double scale1, double scale2)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddLine(x1 As Double, y1 As Double, x2 As Double, y2 As Double) As IntegerFunction AddLine(x1 As Double, y1 As Double, x2 As Double, y2 As Double, ending1 as LineEnding, ending2 as LineEnding) As IntegerFunction AddLine(x1 As Double, y1 As Double, x2 As Double, y2 As Double, ending1 as LineEnding, ending2 as LineEnding, scale1 As Double, scale2 As Double) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -70,20 +64,7 @@ doc.Color.String = "0 0 255";
 doc.AddLine(-50, 100, 999, 100);
 doc.Color.String = "0 255 0";
 doc.AddLine(-50, 400, 999, 400);
-doc.Save(Server.MapPath("docaddline.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Width = 24
-  doc.Color.String = "0 0 255"
-  doc.AddLine(-50, 100, 999, 100)
-  doc.Color.String = "0 255 0"
-  doc.AddLine(-50, 400, 999, 400)
-  doc.Save(Server.MapPath("docaddline.pdf"))
-End Using
+doc.Save("docaddline.pdf");
 ```
 
 ![](../../../images/pdf/docaddline.pdf.png)

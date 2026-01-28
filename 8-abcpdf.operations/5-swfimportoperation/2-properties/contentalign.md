@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `ContentAlign?` | null | No | Gets or sets the content alignment. |
+|  | null | No | Gets or sets the content alignment. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ Called to report the entry version.
 virtual void ReportEntryVersion(string entry, PDFVersion version)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ReportEntryVersion(entry As string, version As PDFVersion) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

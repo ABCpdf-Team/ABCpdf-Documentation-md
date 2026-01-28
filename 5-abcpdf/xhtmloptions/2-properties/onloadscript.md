@@ -8,7 +8,7 @@ This kind of script can be used for a variety of purposes. For example you might
 
 You can provide a return value by setting an "abcpdf" property in the documentElement. For example:
 
-[C#] document.documentElement.abcpdf = "my return value"; [Visual Basic] document.documentElement.abcpdf = "my return value"
+[C#] document.documentElement.abcpdf = "my return value";
 
 The return value can be accessed using the GetScriptReturn method with the ID returned from Doc.AddImageUrl or Doc.AddImageHtml.
 
@@ -18,7 +18,7 @@ For the MSHtml engine, the script in this property is executed after the page lo
 
 For the Gecko engine, the script in this property may be executed before or after any event-triggered script in the web page. For example, if you set window.ABCpdf_go to false in OnLoadScript, but the event listener that sets window.ABCpdf_go to true is in the script in the web page, you should check the value of window.ABCpdf_go (initially undefined) before setting it to false in OnLoadScript.
 
-[C#] doc.HtmlOptions.OnLoadScript = "if(!window.ABCpdf_go) window.ABCpdf_go = false;"; [Visual Basic] doc.HtmlOptions.OnLoadScript = "if(!window.ABCpdf_go) window.ABCpdf_go = false;"
+[C#] doc.HtmlOptions.OnLoadScript = "if(!window.ABCpdf_go) window.ABCpdf_go = false;";
 
 For the ABCChrome engine, the script is run at the point that the page and all resources that are referred to by the page, are loaded.
 

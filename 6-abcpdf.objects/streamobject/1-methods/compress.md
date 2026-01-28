@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void Compress() [Visual Basic] Sub Compress()
+[C#] void Compress()
 
 ## Params
 

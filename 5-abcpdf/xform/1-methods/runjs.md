@@ -10,12 +10,6 @@ Run JavaScript code.
 string RunJS(string js, JSOptions options)
 ```
 
-[Visual Basic]
-
-```vb
-Function RunJS(js As String, options As JSOptions) As String
-```
-
 ## Params
 
 | **Name** | **Description** |

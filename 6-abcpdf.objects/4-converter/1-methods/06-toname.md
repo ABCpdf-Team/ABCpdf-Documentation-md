@@ -10,12 +10,6 @@ Attempts to get a name from the specified entry in a DictAtom or ArrayAtom resol
 virtual string ToName(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom, int index)virtual string ToName(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom, string key)virtual string ToName(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ToName(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, index As int) As stringOverridable Function ToName(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, key As string) As stringOverridable Function ToName(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>) As string
-```
-
 ## Params
 
 | **Name** | **Description** |

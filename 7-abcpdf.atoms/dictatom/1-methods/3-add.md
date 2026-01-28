@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void Add(string key, Atom atm) void Add(string key, int num) void Add(string key, double real) void Add(string key, string str) [Visual Basic] Sub Add(key As String, atm As Atom) Sub Add(key As String, num As Integer) Sub Add(key As String, real As Double) Sub Add(key As String, str As String)
+[C#] void Add(string key, Atom atm) void Add(string key, int num) void Add(string key, double real) void Add(string key, string str)
 
 may throw ArgumentException() may throw ArgumentNullException()
 

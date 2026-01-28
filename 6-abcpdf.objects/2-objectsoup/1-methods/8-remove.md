@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] bool Remove(IndirectObject value) [Visual Basic] Function Remove(value As IndirectObject) As Boolean
+[C#] bool Remove(IndirectObject value)
 
 ## Params
 

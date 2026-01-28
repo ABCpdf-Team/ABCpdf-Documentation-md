@@ -10,12 +10,6 @@ Reset to the identity.
 void Reset()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Reset()
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -44,25 +38,7 @@ doc.Transform.Reset();
 doc.Pos.String = "302 396";
 doc.AddText("Reset");
 doc.FrameRect();
-doc.Save(Server.MapPath("transformreset.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Rect.Inset(10, 10)
-  doc.FontSize = 96
-  doc.Transform.Rotate(60, 302, 396)
-  doc.Pos.String = "302 396"
-  doc.AddText("Angled")
-  doc.FrameRect()
-  doc.Transform.Reset()
-  doc.Pos.String = "302 396"
-  doc.AddText("Reset")
-  doc.FrameRect()
-  doc.Save(Server.MapPath("transformreset.pdf"))
-End Using
+doc.Save("transformreset.pdf");
 ```
 
 ![](../../../images/pdf/transformreset.pdf.png)

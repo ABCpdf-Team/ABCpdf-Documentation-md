@@ -10,12 +10,6 @@ Called to report an object which should be indirect but is not.
 virtual void ReportNotIndirectObject()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ReportNotIndirectObject() As void
-```
-
 ## Params
 
 | **Name** | **Description** |

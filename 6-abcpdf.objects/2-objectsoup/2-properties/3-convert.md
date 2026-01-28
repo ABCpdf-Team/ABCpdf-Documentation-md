@@ -10,7 +10,7 @@ Because the Converter has direct access to the raw data it can be significantly 
 
 It is very simple to use. For example to get all the character widths from a font you might use code of the following form.
 
-[C#] Atom atom = Atom.GetItem(font.Atom, "Widths"); double[] widths = doc.ObjectSoup.Convert.ToDoubleArray(atom, 1000); [Visual Basic] Dim atom As Atom = Atom.GetItem(font.Atom, "Widths") Dim widths As Double() = doc.ObjectSoup.Convert.ToDoubleArray(atom, 1000)
+[C#] Atom atom = Atom.GetItem(font.Atom, "Widths"); double[] widths = doc.ObjectSoup.Convert.ToDoubleArray(atom, 1000);
 
 ## Example
 

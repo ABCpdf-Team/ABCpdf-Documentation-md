@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double` | 150.0 | No | The target resolution for the resampling of grayscale images. |
+|  | 150.0 | No | The target resolution for the resampling of grayscale images. |
 
 ## Notes
 

@@ -44,19 +44,7 @@ doc.FontSize = 96;
 doc.AddText("Hello World!");
 doc.Encryption.Type = 5;
 doc.Encryption.SetCryptMethods(CryptMethodType.AESV3);
-doc.Save(Server.MapPath("setcryptmethods.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.FontSize = 96
-  doc.AddText("Hello World!")
-  doc.Encryption.Type = 5
-  doc.Encryption.SetCryptMethods(CryptMethodType.AESV3)
-  doc.Save(Server.MapPath("setcryptmethods.pdf"))
-End Using
+doc.Save("setcryptmethods.pdf");
 ```
 
 Also see example code in: [Doc Encryption Property](doc/2-properties/encryption.md).

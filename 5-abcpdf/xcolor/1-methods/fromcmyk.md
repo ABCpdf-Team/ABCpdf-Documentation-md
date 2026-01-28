@@ -10,12 +10,6 @@ Create an XColor given a set of CMYK component values.
 static <a href="../default.htm">XColor</a> FromCmyk(int cyan, int magenta, int yellow, int black)static <a href="../default.htm">XColor</a> FromCmyk(double cyan, double magenta, double yellow, double black)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromCmyk(cyan As Integer, magenta As Integer, yellow As Integer, black As Integer) As <a href="../default.htm">XColor</a>Shared Function FromCmyk(cyan As Double, magenta As Double, yellow As Double, black As Double) As <a href="../default.htm">XColor</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

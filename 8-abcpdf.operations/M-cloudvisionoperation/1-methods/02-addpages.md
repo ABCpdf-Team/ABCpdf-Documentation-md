@@ -10,12 +10,6 @@ Add all the pages of the document for processing.
 void AddPages()
 ```
 
-[Visual Basic]
-
-```vb
-Function AddPages()
-```
-
 ## Params
 
 | **Name** | **Description** |

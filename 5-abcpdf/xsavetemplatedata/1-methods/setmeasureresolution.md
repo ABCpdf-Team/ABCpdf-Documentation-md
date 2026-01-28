@@ -10,12 +10,6 @@ Sets the measurement resolutions.
 void SetMeasureResolution(double dpi)void SetMeasureResolution(double dpiX, double dpiY)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetMeasureResolution(dpi As Double)Sub SetMeasureResolution(dpiX As Double, dpiY As Double)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -40,20 +34,9 @@ Here we use 72 DPI so that 1 inch in PDF becomes 72 pixels in SWF.
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("../mypics/sample.pdf"));
+doc.Read("../mypics/sample.pdf");
 doc.SaveOptions.TemplateData = new XSaveTemplateData();
 doc.SaveOptions.TemplateData.SetMeasureResolution(72);
-doc.Save(Server.MapPath("swfsave_mr.swf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("../mypics/sample.pdf"))
-  doc.SaveOptions.TemplateData = New XSaveTemplateData()
-  doc.SaveOptions.TemplateData.SetMeasureResolution(72)
-  doc.Save(Server.MapPath("swfsave_mr.swf"))
-End Using
+doc.Save("swfsave_mr.swf");
 ```
 

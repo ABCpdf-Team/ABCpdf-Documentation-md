@@ -10,12 +10,6 @@ Test whether the two RefAtoms are the same
 bool Equals(<a href="../default.htm">RefAtom</a> other)
 ```
 
-[Visual Basic]
-
-```vb
-Function Equals(other As <a href="../default.htm">RefAtom</a>) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

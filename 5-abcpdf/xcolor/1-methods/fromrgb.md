@@ -10,12 +10,6 @@ Create an XColor from a set of RGB component values.
 static <a href="../default.htm">XColor</a> FromRgb(int red, int green, int blue)static <a href="../default.htm">XColor</a> FromRgb(double red, double green, double blue)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromRgb(red As Integer, green As Integer, blue As Integer) As <a href="../default.htm">XColor</a>Shared Function FromRgb(red As Double, green As Double, blue As Double) As <a href="../default.htm">XColor</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

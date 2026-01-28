@@ -16,7 +16,7 @@ The default document size for ABCpdf is 612 by 792. This equates to a physical p
 
 The following example draws a rectangle with the bottom left corner positioned 100 points from the left of the page and 200 points up from the bottom. The width of the rectangle is 400 points and the height is 500 points. We add a grid to show the positioning of the rectangle.
 
-[C#] Doc theDoc = new Doc(); theDoc.AddGrid(); theDoc.Color.String = "255 0 0"; theDoc.Width = 10; theDoc.Rect.Position(100, 200); theDoc.Rect.Width = 400; theDoc.Rect.Height = 500; theDoc.FrameRect(); theDoc.Save(Server.MapPath("coordinates.pdf")); [Visual Basic] Dim theDoc As Doc = New Doc() theDoc.AddGrid() theDoc.Color.String = "255 0 0" theDoc.Width = 10 theDoc.Rect.Position(100, 200) theDoc.Rect.Width = 400 theDoc.Rect.Height = 500 theDoc.FrameRect() theDoc.Save(Server.MapPath("coordinates.pdf"))
+[C#] Doc theDoc = new Doc(); theDoc.AddGrid(); theDoc.Color.String = "255 0 0"; theDoc.Width = 10; theDoc.Rect.Position(100, 200); theDoc.Rect.Width = 400; theDoc.Rect.Height = 500; theDoc.FrameRect(); theDoc.Save(Server.MapPath("coordinates.pdf"));
 
 coordinates.pdf
 

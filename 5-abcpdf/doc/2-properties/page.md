@@ -22,7 +22,7 @@ If no page is specified the current page is taken to be the first page in the do
 
 The following example creates a document with two pages and adds text to each of the pages in turn.
 
-[C#] using var doc = new Doc(); doc.FontSize = 96; // big text doc.Page = doc.AddPage(); doc.AddText("Page One"); doc.Page = doc.AddPage(); doc.AddText("Page Two"); doc.Save(Server.MapPath("docpage.pdf")); [Visual Basic] Using doc As New Doc() doc.FontSize = 96 ' big text doc.Page = doc.AddPage() doc.AddText("Page One") doc.Page = doc.AddPage() doc.AddText("Page Two") doc.Save(Server.MapPath("docpage.pdf")) End Using
+[C#] using var doc = new Doc(); doc.FontSize = 96; // big text doc.Page = doc.AddPage(); doc.AddText("Page One"); doc.Page = doc.AddPage(); doc.AddText("Page Two"); doc.Save("docpage.pdf");
 
 docpage.pdf
 

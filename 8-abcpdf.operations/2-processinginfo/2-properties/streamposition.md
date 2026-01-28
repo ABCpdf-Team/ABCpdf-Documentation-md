@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `long?` | n/a | Yes | Gets or Sets the stream position of the source object, if applicable. |
+|  | n/a | Yes | Gets or Sets the stream position of the source object, if applicable. |
 
 ## Notes
 

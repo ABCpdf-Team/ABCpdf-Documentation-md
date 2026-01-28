@@ -8,12 +8,6 @@
 <a href="../default.htm">TextState</a>()
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">TextState</a>()
-```
-
 ## Params
 
 | **Name** | **Description** |

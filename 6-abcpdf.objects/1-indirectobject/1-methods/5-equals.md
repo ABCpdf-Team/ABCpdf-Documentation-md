@@ -10,12 +10,6 @@ Test whether the two IndirectObjects are the same.
 bool Equals(IndirectObject other)override bool Equals(object other)bool Equals(IndirectObject other, ComparisonType type)
 ```
 
-[Visual Basic]
-
-```vb
-Function Equals(other As IndirectObject) As BooleanOverrides Function Equals(other As Object) As BooleanFunction Equals(other As IndirectObject, type As ComparisonType) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

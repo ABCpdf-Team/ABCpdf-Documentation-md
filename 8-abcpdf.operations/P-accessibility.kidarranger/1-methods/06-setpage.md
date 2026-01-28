@@ -10,12 +10,6 @@ Sets the Page for this structure element.
 SetPage(this StructureElementElement element, Page page)
 ```
 
-[Visual Basic]
-
-```vb
-SetPage(this StructureElementElement element, Page page)
-```
-
 ## Params
 
 | **Name** | **Description** |

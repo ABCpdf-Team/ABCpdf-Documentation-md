@@ -26,7 +26,7 @@ If the value is zero then the paper width will be determined using the dimension
 
 The following example shows the effect that this parameter has on PDF rendering.
 
-[C#] using var doc = new Doc(); string url = "https://photojournal.jpl.nasa.gov/catalog/PIA24312"; // Render html page with default browser width doc.AddImageUrl(url); // Save the document doc.Save(Server.MapPath("HtmlOptionsBrowserWidth0.pdf")); doc.Clear(); // Render html page with browser width = 300 doc.HtmlOptions.BrowserWidth = 300; doc.AddImageUrl(url); // Save the document doc.Save(Server.MapPath("HtmlOptionsBrowserWidth300.pdf")); [Visual Basic] Using doc As New Doc() Dim theURL As String = "https://photojournal.jpl.nasa.gov/catalog/PIA24312" ' Render html page with default browser width doc.AddImageUrl(theURL) ' Save the document doc.Save(Server.MapPath("HtmlOptionsBrowserWidth0.pdf")) doc.Clear() ' Render html page with browser width = 300 doc.HtmlOptions.BrowserWidth = 300 doc.AddImageUrl(theURL) ' Save the document doc.Save(Server.MapPath("HtmlOptionsBrowserWidth300.pdf")) End Using
+[C#] using var doc = new Doc(); string url = "https://photojournal.jpl.nasa.gov/catalog/PIA24312"; // Render html page with default browser width doc.AddImageUrl(url); // Save the document doc.Save("HtmlOptionsBrowserWidth0.pdf"); doc.Clear(); // Render html page with browser width = 300 doc.HtmlOptions.BrowserWidth = 300; doc.AddImageUrl(url); // Save the document doc.Save("HtmlOptionsBrowserWidth300.pdf");
 
 HtmlOptionsBrowserWidth0.pdf
 

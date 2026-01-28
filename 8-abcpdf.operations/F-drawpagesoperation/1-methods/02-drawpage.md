@@ -10,12 +10,6 @@ Draw the current page from the source to the destination  document.
 int DrawPage()
 ```
 
-[Visual Basic]
-
-```vb
-Function DrawPage() As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

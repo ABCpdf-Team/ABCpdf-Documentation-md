@@ -10,12 +10,6 @@ Focus the document on the location of the image placement.
 void Focus()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Focus()
-```
-
 ## Params
 
 | **Name** | **Description** |

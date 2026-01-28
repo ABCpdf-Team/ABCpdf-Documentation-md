@@ -10,12 +10,6 @@ Gets the index of the certificate object's value.
 int IndexOf(X509Certificate2 cert)
 ```
 
-[Visual Basic]
-
-```vb
-Function IndexOf(cert As X509Certificate2) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

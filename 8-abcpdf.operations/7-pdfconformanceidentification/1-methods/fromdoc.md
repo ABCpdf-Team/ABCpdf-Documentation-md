@@ -10,12 +10,6 @@ Gets the conformance identification from a document.
 static PdfConformanceIdentification FromDoc(Doc doc, PdfConformance conformance)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromDoc(doc As Doc, conformance As PdfConformance) As PdfConformanceIdentification
-```
-
 ## Params
 
 | **Name** | **Description** |

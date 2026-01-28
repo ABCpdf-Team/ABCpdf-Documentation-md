@@ -10,12 +10,6 @@ Copies a series of X and Y coordinates between arrays of doubles and arrays of X
 void Copy(<a href="../default.htm">XPoint</a>[] source, double[] destination, int length)void Copy(<a href="../default.htm">XPoint</a>[] source, int sourceIndex, double[] destination, int destinationIndex, int length)void Copy(double[] source, <a href="../default.htm">XPoint</a>[] destination, int length)void Copy(double[] source, int sourceIndex, <a href="../default.htm">XPoint</a>[] destination, int destinationIndex, int length)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Copy(source() As <a href="../default.htm">XPoint</a>, destination() As Double, length As Integer)Sub Copy(source() As <a href="../default.htm">XPoint</a>, sourceIndex As Integer, destination() As Double, destinationIndex As Integer, length As Integer)Sub Copy(source() As Double, destination() As <a href="../default.htm">XPoint</a>, length As Integer)Sub Copy(source() As Double, sourceIndex As Integer, destination() As <a href="../default.htm">XPoint</a>, destinationIndex As Integer, length As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

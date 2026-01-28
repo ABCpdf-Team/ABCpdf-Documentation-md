@@ -10,12 +10,6 @@ Copies the Bookmarks into an array.
 void CopyTo(<a href="../default.htm">Bookmark</a>[] array, int index)
 ```
 
-[Visual Basic]
-
-```vb
-Sub CopyTo(array As <a href="../default.htm">Bookmark</a>(), index As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

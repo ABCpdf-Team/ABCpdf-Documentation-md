@@ -10,12 +10,6 @@ Create a deep copy of this graphics state.
 <a href="../default.htm">GraphicsState</a> Clone()
 ```
 
-[Visual Basic]
-
-```vb
-Clone() As <a href="../default.htm">GraphicsState</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

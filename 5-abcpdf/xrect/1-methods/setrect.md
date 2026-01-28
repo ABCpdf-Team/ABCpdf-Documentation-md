@@ -10,12 +10,6 @@ Sets the location and size of the rectangle.
 void SetRect(double x, double y, double w, double h)void SetRect(<a href="../default.htm">XRect</a> rect)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetRect(x As Double, y As Double, w As Double, h As Double)Sub SetRect(rect As <a href="../default.htm">XRect</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -51,17 +45,6 @@ Response.Write($"Rect = {rc}");
 Response.Write("&lt;br&gt;");
 rc.SetRect(20, 40, 50, 150);
 Response.Write("Pos. = {rc}");
-```
-
-[Visual Basic]
-
-```vb
-Dim rc As New XRect()
-rc.String = "20 20 220 120"
-Response.Write($"Rect = {rc}")
-Response.Write("&lt;br&gt;")
-rc.SetRect(20, 40, 50, 150)
-Response.Write("Pos. = {rc}")
 ```
 
 Also see example code in:

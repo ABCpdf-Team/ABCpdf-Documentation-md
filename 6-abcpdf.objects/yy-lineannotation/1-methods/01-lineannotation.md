@@ -10,12 +10,6 @@ Add line annotation to the current page of the doc.
 <a href="../default.htm">LineAnnotation</a>(Doc doc, XPoint p1, XPoint p2, XColor color)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">LineAnnotation</a>(doc As Doc, p1 As XPoint, p2 As XPoint, color As XColor)
-```
-
 ## Params
 
 | **Name** | **Description** |

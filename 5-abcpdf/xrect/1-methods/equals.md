@@ -10,12 +10,6 @@ Test whether the two rectangles are effectively the same
 bool Equals(<a href="../default.htm">XRect</a> other, double epsilon)bool Equals(<a href="../default.htm">XRect</a> other)override bool Equals(object other)
 ```
 
-[Visual Basic]
-
-```vb
-Function Equals(other As <a href="../default.htm">XRect</a>, epsilon As Double) As BooleanFunction Equals(other As <a href="../default.htm">XRect</a>) As BooleanOverrides Function Equals(other As Object) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

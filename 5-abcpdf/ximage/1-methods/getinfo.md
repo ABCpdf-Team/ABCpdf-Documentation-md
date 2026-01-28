@@ -10,12 +10,6 @@ Gets internal information from the image.
 string GetInfo(string type)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetInfo(type As String) As String
-```
-
 ## Params
 
 | **Name** | **Description** |

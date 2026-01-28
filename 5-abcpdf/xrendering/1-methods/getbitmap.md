@@ -10,12 +10,6 @@ Renders the current area of the current page to a Bitmap.
 System.Drawing.Bitmap GetBitmap()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetBitmap() As System.Drawing.Bitmap
-```
-
 ## Params
 
 | **Name** | **Description** |

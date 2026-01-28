@@ -10,12 +10,6 @@ Gets a color conversion Pipe which may be used to map colors from one color spac
 RecolorOperation.Pipe GetPipe(Page page, Atom source)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetPipe(page As Page, source As Atom) As RecolorOperation.Pipe
-```
-
 ## Params
 
 | **Name** | **Description** |

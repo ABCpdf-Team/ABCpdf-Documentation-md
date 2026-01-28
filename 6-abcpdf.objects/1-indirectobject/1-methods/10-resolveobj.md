@@ -11,12 +11,6 @@ Resolves any indirect references and returns the final
 <a href="../default.htm">IndirectObject</a>&nbsp;ResolveObj(Atom atom)
 ```
 
-[Visual Basic]
-
-```vb
-Function ResolveObj(atom As Atom) As <a href="../default.htm">IndirectObject</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

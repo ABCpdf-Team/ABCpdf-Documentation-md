@@ -10,12 +10,6 @@ Intersects this rectangle with another rectangle.
 void Intersect(<a href="../default.htm">XRect</a> rect)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Intersect(rect As <a href="../default.htm">XRect</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

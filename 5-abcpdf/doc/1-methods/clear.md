@@ -10,12 +10,6 @@ Clears the document.
 void Clear()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Clear()
-```
-
 ## Params
 
 | **Name** | **Description** |

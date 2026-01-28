@@ -10,12 +10,6 @@ Returns a string representation of the object.
 override string ToString()
 ```
 
-[Visual Basic]
-
-```vb
-Overrides Function ToString() As String
-```
-
 ## Params
 
 | **Name** | **Description** |

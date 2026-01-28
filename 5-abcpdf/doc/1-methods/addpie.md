@@ -10,12 +10,6 @@ Adds a pie slice to the current page.
 int AddPie(double angleStart, double angleEnd, bool filled)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddPie(angleStart As Double, angleEnd As Double, filled As Boolean) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -47,21 +41,7 @@ doc.Color.String = "255 0 0";
 doc.AddPie(0, 90, true);
 doc.Color.String = "0 255 0";
 doc.AddPie(180, 270, false);
-doc.Save(Server.MapPath("docaddpie.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Width = 80
-  doc.Rect.Inset(50, 50)
-  doc.Color.String = "255 0 0"
-  doc.AddPie(0, 90, True)
-  doc.Color.String = "0 255 0"
-  doc.AddPie(180, 270, False)
-  doc.Save(Server.MapPath("docaddpie.pdf"))
-End Using
+doc.Save("docaddpie.pdf");
 ```
 
 ![](../../../images/pdf/docaddpie.pdf.png)

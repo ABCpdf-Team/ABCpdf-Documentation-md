@@ -10,12 +10,6 @@ Occurs just after an IndirectObject has been processed.
 event ProcessedObjectEventHandler ProcessedObject;delegate void ProcessedObjectEventHandler(object sender, <a href="../../2-processedobjecteventargs/default.htm">ProcessedObjectEventArgs</a> e); <!--notcode-->
 ```
 
-[Visual Basic]
-
-```vb
-Event ProcessedObject As ProcessedObjectEventHandlerDelegate Sub ProcessedObjectEventHandler(sender As Object, e As <a href="../../2-processedobjecteventargs/default.htm">ProcessedObjectEventArgs</a>); <!--notcode-->
-```
-
 ## Params
 
 | **Name** | **Description** |

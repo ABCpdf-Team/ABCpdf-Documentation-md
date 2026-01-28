@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] int AddFamily(IndirectObject parent) int AddFamily(DictAtom dict) [Visual Basic] Function AddFamily(parent As IndirectObject) As Integer Function AddFamily(dict As DictAtom) As Integer
+[C#] int AddFamily(IndirectObject parent) int AddFamily(DictAtom dict)
 
 may throw Exception()
 

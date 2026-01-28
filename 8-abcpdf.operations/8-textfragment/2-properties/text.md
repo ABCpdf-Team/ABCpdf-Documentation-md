@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | n/a | Yes | The text of the fragment. A fragment may span only a portion of the complete text drawing operator. |
+|  | n/a | Yes | The text of the fragment. A fragment may span only a portion of the complete text drawing operator. |
 
 ## Notes
 

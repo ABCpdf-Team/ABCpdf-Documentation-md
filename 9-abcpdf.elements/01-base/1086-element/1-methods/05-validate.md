@@ -10,12 +10,6 @@ Validate this object and report any inconsistencies.
 virtual void Validate(<a href="../../0007-validation/default.htm">Validation</a> validation)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Validate(validation As <a href="../../0007-validation/default.htm">Validation</a>) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

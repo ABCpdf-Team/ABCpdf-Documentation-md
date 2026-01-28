@@ -10,12 +10,6 @@ Extract an image from a file and add it to the current page.
 <IMG border=0 alt="Throws Exceptions" src="../../../images/steel-blob-10.gif" width=10 height=10> may throw Exception()
 ```
 
-[Visual Basic]
-
-```vb
-<IMG border=0 alt="Throws Exceptions" src="../../../images/steel-blob-10.gif" width=10 height=10> may throw Exception()
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -69,20 +63,9 @@ The following code adds an image to the current page positioned at the bottom le
 ```csharp
 using var doc = new Doc();
 doc.Rect.String = "0 0 510 638";
-string path = Server.MapPath("../mypics/pic.jpg");
+string path = "../mypics/pic.jpg";
 doc.AddImageFile(path, 1);
-doc.Save(Server.MapPath("docaddimage.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Rect.String = "0 0 510 638"
-  Dim thePath As String = Server.MapPath("../mypics/pic.jpg")
-  doc.AddImageFile(thePath, 1)
-  doc.Save(Server.MapPath("docaddimage.pdf"))
-End Using
+doc.Save("docaddimage.pdf");
 ```
 
 ![](../../../images/pdf/docaddimage.pdf.png)

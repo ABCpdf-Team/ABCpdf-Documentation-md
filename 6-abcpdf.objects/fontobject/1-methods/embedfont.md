@@ -8,12 +8,6 @@
 bool EmbedFont()
 ```
 
-[Visual Basic]
-
-```vb
-Function EmbedFont() As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

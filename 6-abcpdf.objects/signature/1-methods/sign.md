@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#]void Sign(string path, string password)void Sign(byte[] data, string password) void Sign(Stream stream, string password) void Sign(Stream stream, string password, Oid oid) void Sign(X509Certificate2 cert, bool silent) void Sign(X509Certificate2 cert, bool silent, Oid oid, X509IncludeOption? option) void Sign(X509Certificate2 cert, SecureString password, Oid oid) void Sign(Oid oid, DataType dataType, int sizeEstimate) void Sign(Oid oid, DataType dataType, int sizeEstimate, X509Certificate2 cert)[Visual Basic]Sub Sign(path As String, password As String)Sub Sign(data() As Byte, password As String) Sub Sign(stream As Stream, password As String) Sub Sign(stream As Stream, password As String, oid As Oid) Sub Sign(cert As X509Certificate2, silent As Boolean) Sub Sign(cert As X509Certificate2, silent As Boolean, oid As Oid, option As X509IncludeOption?) Sub Sign(cert As X509Certificate2, password as SecureString, oid as Oid) Sub Sign(oid As Oid, dataType As DataType, sizeEstimate As Int32) Sub Sign(oid As Oid, dataType As DataType, sizeEstimate As Int32, cert2 As X509Certificate2)
+[C#]void Sign(string path, string password)void Sign(byte[] data, string password) void Sign(Stream stream, string password) void Sign(Stream stream, string password, Oid oid) void Sign(X509Certificate2 cert, bool silent) void Sign(X509Certificate2 cert, bool silent, Oid oid, X509IncludeOption? option) void Sign(X509Certificate2 cert, SecureString password, Oid oid) void Sign(Oid oid, DataType dataType, int sizeEstimate) void Sign(Oid oid, DataType dataType, int sizeEstimate, X509Certificate2 cert)
 
 may throw Exception()
 
@@ -70,7 +70,7 @@ Read a document and sign a signature field embedded within that document. Before
 
 In this example, for simplicity, we use the plain text password overload. However to improve application security you may wish to use the SecureString overload.
 
-[C#]using var doc = new Doc(); doc.Read(Server.MapPath("../Rez/Authorization.pdf")); Signature theSig = (Signature)doc.Form["Signature"]; theSig.Location = "Washington"; theSig.Reason = "Schedule Agreed"; theSig.Sign(Server.MapPath("../Rez/JohnSmith.pfx"), "1234"); doc.Save(Server.MapPath("Signed.pdf")); [Visual Basic]Using doc As New Doc() doc.Read(Server.MapPath("../Rez/Authorization.pdf")) Dim theSig As Signature = DirectCast(doc.Form("Signature"), Signature) theSig.Location = "Washington" theSig.Reason = "Schedule Agreed" theSig.Sign(Server.MapPath("../Rez/JohnSmith.pfx"), "1234") doc.Save(Server.MapPath("Signed.pdf")) End Using
+[C#]using var doc = new Doc(); doc.Read("../Rez/Authorization.pdf"); Signature theSig = (Signature)doc.Form["Signature"]; theSig.Location = "Washington"; theSig.Reason = "Schedule Agreed"; theSig.Sign("../Rez/JohnSmith.pfx", "1234"); doc.Save("Signed.pdf");
 
 Also see example code in: Signature AddLTV Function, Signature CompliancePades Property, Signature CustomSigner Property, Signature CustomSigner2 Property.
 

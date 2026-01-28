@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | Variable | No | The encryption settings as a string. |
+|  | Variable | No | The encryption settings as a string. |
 
 ## Notes
 

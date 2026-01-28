@@ -12,7 +12,7 @@ The font size is measured in units.
 
 The following example adds two blocks of styled text to a document. The first block is in 96.5 point type and the second is in 192.5 point type.
 
-[C#] using var doc = new Doc(); doc.TextStyle.Size = 96.5; doc.AddText("Small "); doc.TextStyle.Size = 192.5; doc.AddText("Big"); doc.Save(Server.MapPath("stylesize.pdf")); [Visual Basic] Using doc As New Doc() doc.TextStyle.Size = 96.5 doc.AddText("Small ") doc.TextStyle.Size = 192.5 doc.AddText("Big") doc.Save(Server.MapPath("stylesize.pdf")) End Using
+[C#] using var doc = new Doc(); doc.TextStyle.Size = 96.5; doc.AddText("Small "); doc.TextStyle.Size = 192.5; doc.AddText("Big"); doc.Save("stylesize.pdf");
 
 stylesize.pdf
 

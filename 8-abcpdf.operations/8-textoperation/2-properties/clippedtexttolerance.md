@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double` | 0.0 | No | How much overlap to require clipped text to have before it is defined as visible. |
+|  | 0.0 | No | How much overlap to require clipped text to have before it is defined as visible. |
 
 ## Notes
 

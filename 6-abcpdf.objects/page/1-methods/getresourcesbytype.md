@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] ISet<Atom> GetResourcesByType(string type, bool annotations, bool patterns, bool xobjects, bool parents, ISet<int> skip) [Visual Basic] Function GetResourcesByType(type As String, annotations As Boolean, patterns As Boolean, xobjects As Boolean, parents As Boolean, skip As ISet(Of Integer)) As ISet(Of Atom)
+[C#] ISet<Atom> GetResourcesByType(string type, bool annotations, bool patterns, bool xobjects, bool parents, ISet<int> skip)
 
 ## Params
 

@@ -10,12 +10,6 @@ Adds a polygon to the current page.
 int AddPoly(string points, bool filled)int AddPoly(double[] points, bool filled)int AddPoly(double[] points, int index, int count, bool filled)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddPoly(points As String, filled As Boolean) As IntegerFunction AddPoly(points() As Double, filled As Boolean) As IntegerFunction AddPoly(points() As Double, index As Integer, count As Integer, filled As Boolean) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -47,20 +41,7 @@ doc.Color.String = "255 0 0";
 doc.AddPoly("124 158 300 700 476 158 15 493 585 493 124 158", true);
 doc.Color.String = "0 255 0 a128";
 doc.AddPoly("124 158 300 700 476 158 15 493 585 493 124 158", false);
-doc.Save(Server.MapPath("docaddpoly.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Width = 80
-  doc.Color.String = "255 0 0"
-  doc.AddPoly("124 158 300 700 476 158 15 493 585 493 124 158", True)
-  doc.Color.String = "0 255 0 a128"
-  doc.AddPoly("124 158 300 700 476 158 15 493 585 493 124 158", False)
-  doc.Save(Server.MapPath("docaddpoly.pdf"))
-End Using
+doc.Save("docaddpoly.pdf");
 ```
 
 ![](../../../images/pdf/docaddpoly.pdf.png)

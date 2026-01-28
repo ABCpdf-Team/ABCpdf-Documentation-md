@@ -10,12 +10,6 @@ Subset a previously embedded font.
 bool Subset()bool Subset(string characters)bool Subset(int[] glyphs)
 ```
 
-[Visual Basic]
-
-```vb
-Function Subset() As BooleanFunction Subset(characters as String) As BooleanFunction Subset(glyphs() As Integer) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

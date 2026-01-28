@@ -10,12 +10,6 @@ Clears the cached, decompressed data for stream objects.
 void ClearCachedDecompressedStreams()void ClearCachedDecompressedStreams(StreamObjectTypes types)
 ```
 
-[Visual Basic]
-
-```vb
-Sub ClearCachedDecompressedStreams()Sub ClearCachedDecompressedStreams(types As StreamObjectTypes)
-```
-
 ## Params
 
 | **Name** | **Description** |

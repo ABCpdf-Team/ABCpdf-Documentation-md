@@ -14,7 +14,7 @@ To get a ColorSpace ID you need to add your color space to the current document 
 
 The following code shows how to colorize an image. It adds a base image to the current page and converts it to grayscale. Then it creates a new spot color space and assigns the new color space to the image.
 
-[C#] using var doc = new Doc(); doc.Rect.Inset(20, 20); using var img = new XImage(); img.SetFile(Server.MapPath("../mypics/mypic.jpg")); int id = doc.AddImageObject(img, false); id = doc.GetInfoInt(id, "XObject"); doc.SetInfo(id, "Grayscale", ""); int theCS = doc.AddColorSpaceSpot("MAGENTA", "0 100 0 0"); doc.SetInfo(id, "/ColorSpace:Ref", theCS.ToString()); doc.SetInfo(id, "/Decode", "[1 0]"); doc.Save(Server.MapPath("doccolorspace.pdf")); [Visual Basic] Using doc As New Doc() doc.Rect.Inset(20, 20) Dim theImg As New XImage() theImg.SetFile(Server.MapPath("../mypics/mypic.jpg")) Dim theID As Integer = doc.AddImageObject(theImg, False) theID = doc.GetInfoInt(theID, "XObject") doc.SetInfo(theID, "Grayscale", "") Dim theCS As Integer = doc.AddColorSpaceSpot("MAGENTA", "0 100 0 0") doc.SetInfo(theID, "/ColorSpace:Ref", theCS.ToString()) doc.SetInfo(theID, "/Decode", "[1 0]") doc.Save(Server.MapPath("doccolorspace.pdf")) End Using
+[C#] using var doc = new Doc(); doc.Rect.Inset(20, 20); using var img = new XImage(); img.SetFile("../mypics/mypic.jpg"); int id = doc.AddImageObject(img, false); id = doc.GetInfoInt(id, "XObject"); doc.SetInfo(id, "Grayscale", ""); int theCS = doc.AddColorSpaceSpot("MAGENTA", "0 100 0 0"); doc.SetInfo(id, "/ColorSpace:Ref", theCS.ToString()); doc.SetInfo(id, "/Decode", "[1 0]"); doc.Save("doccolorspace.pdf");
 
 doccolorspace.pdf
 

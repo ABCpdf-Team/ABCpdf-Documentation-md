@@ -10,12 +10,6 @@ Gets date information about an object.
 DateTime GetInfoDate(int id, string type)DateTime GetInfoDate(int id, string type, bool allowLocal)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetInfoDate(id As Integer, type As String) As DateTimeFunction GetInfoDate(id As Integer, type As String, allowLocal As Boolean) As DateTime
-```
-
 ## Params
 
 | **Name** | **Description** |

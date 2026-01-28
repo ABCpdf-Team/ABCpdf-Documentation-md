@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] Atom[] GetValues() [Visual Basic] Function GetValues() As Atom()
+[C#] Atom[] GetValues()
 
 ## Params
 

@@ -10,12 +10,6 @@ Add radio button annotation to the current page of the doc.
 <a href="../default.htm">RadioButtonAnnotation</a>(Doc doc, XRect rect, string name, bool selected)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">RadioButtonAnnotation</a>(Doc doc, XRect rect, string name, bool selected)
-```
-
 ## Params
 
 | **Name** | **Description** |

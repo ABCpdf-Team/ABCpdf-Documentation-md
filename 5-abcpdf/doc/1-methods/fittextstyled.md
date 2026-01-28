@@ -10,12 +10,6 @@ Fit a block of styled text into the current rectangle.
 int FitTextStyled(string text)
 ```
 
-[Visual Basic]
-
-```vb
-Function FitTextStyled(text As String) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

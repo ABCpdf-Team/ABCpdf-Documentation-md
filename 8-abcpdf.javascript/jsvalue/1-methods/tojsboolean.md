@@ -10,12 +10,6 @@ Gets a Boolean value from this value using the standard JavaScript conversion.
 JSValue ToJSBoolean()
 ```
 
-[Visual Basic]
-
-```vb
-Function ToJSBoolean() As JSValue
-```
-
 ## Params
 
 | **Name** | **Description** |

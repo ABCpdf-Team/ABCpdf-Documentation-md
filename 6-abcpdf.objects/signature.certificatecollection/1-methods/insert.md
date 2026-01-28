@@ -10,12 +10,6 @@ Inserts the certificate object to this collection if its value is not already pr
 bool Insert(int index, X509Certificate2 cert)
 ```
 
-[Visual Basic]
-
-```vb
-Function Insert(index As Integer, cert As X509Certificate2) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

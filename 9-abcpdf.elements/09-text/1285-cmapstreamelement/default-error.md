@@ -1,0 +1,2 @@
+# CMapStreamElement Class
+

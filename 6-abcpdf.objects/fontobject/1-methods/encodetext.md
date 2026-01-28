@@ -10,12 +10,6 @@ Encode text for use with PDF text operators.
 string EncodeText(string text, EncodingSupport support)string EncodeText(string text, EncodingSupport support, out int outCount)
 ```
 
-[Visual Basic]
-
-```vb
-Function EncodeText(text As String, support As EncodingSupport)Function EncodeText(text As String, support As EncodingSupport, &lt;Out&gt; ByRef outCount As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

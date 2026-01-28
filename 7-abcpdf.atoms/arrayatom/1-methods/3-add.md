@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] int Add(Atom atm) int Add(int num) int Add(double real) int Add(string str) [Visual Basic] Function Add(atm As Atom) As Integer Function Add(num As Integer) As Integer Function Add(real As Double) As Integer Function Add(str As String) As Integer
+[C#] int Add(Atom atm) int Add(int num) int Add(double real) int Add(string str)
 
 ## Params
 

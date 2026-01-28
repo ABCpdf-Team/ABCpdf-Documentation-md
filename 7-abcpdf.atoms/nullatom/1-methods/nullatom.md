@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] NullAtom() [Visual Basic] Sub New()
+[C#] NullAtom()
 
 ## Params
 

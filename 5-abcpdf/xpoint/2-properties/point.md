@@ -14,7 +14,7 @@ You may find it easier to work with .NET Points than PDF points. However remembe
 
 The following code adds three words to a document. The positioning is done using standard .NET Points.
 
-[C#] using var doc = new Doc(); doc.FontSize = 96; Point pt = doc.Pos.Point; pt.Offset(100, 150); doc.Pos.Point = pt; doc.AddText("One"); pt.Offset(100, 150); doc.Pos.Point = pt; doc.AddText("Two"); pt.Offset(100, 150); doc.Pos.Point = pt; doc.AddText("Three"); doc.Save(Server.MapPath("xptpt.pdf")); [Visual Basic] Using doc As New Doc() doc.FontSize = 96 Dim pt As Point = doc.Pos.Point pt.Offset(100, 150) doc.Pos.Point = pt doc.AddText("One") pt.Offset(100, 150) doc.Pos.Point = pt doc.AddText("Two") pt.Offset(100, 150) doc.Pos.Point = pt doc.AddText("Three") doc.Save(Server.MapPath("xptpt.pdf")) End Using
+[C#] using var doc = new Doc(); doc.FontSize = 96; Point pt = doc.Pos.Point; pt.Offset(100, 150); doc.Pos.Point = pt; doc.AddText("One"); pt.Offset(100, 150); doc.Pos.Point = pt; doc.AddText("Two"); pt.Offset(100, 150); doc.Pos.Point = pt; doc.AddText("Three"); doc.Save("xptpt.pdf");
 
 xptpt.pdf
 

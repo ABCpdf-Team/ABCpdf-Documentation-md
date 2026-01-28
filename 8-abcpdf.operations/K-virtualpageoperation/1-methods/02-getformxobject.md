@@ -10,12 +10,6 @@ Get the current page as a compressed FormXObject.
 virtual FormXObject GetFormXObject()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function GetFormXObject() As FormXObject
-```
-
 ## Params
 
 | **Name** | **Description** |

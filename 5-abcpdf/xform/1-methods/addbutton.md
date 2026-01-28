@@ -10,12 +10,6 @@ Add button field.
 Field AddButton(XRect rect, string name, string inCaption)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddButton(rect As XRect, name As string, inCaption As string) As Field
-```
-
 ## Params
 
 | **Name** | **Description** |

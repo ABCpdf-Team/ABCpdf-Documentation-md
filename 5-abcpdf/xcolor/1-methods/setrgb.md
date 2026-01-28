@@ -10,12 +10,6 @@ Set the color to an RGB value.
 void SetRgb(int red, int green, int blue)void SetRgb(int red, int green, int blue, int alpha)void SetRgb(double red, double green, double blue)void SetRgb(double red, double green, double blue, double alpha)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetRgb(red As Integer, green As Integer, blue As Integer)Sub SetRgb(red As Integer, green As Integer, blue As Integer, alpha as Integer)Sub SetRgb(red As Double, green As Double, blue As Double)Sub SetRgb(red As Double, green As Double, blue As Double, alpha as Double)
-```
-
 ## Params
 
 | **Name** | **Description** |

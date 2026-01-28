@@ -11,12 +11,6 @@ Enables an import application process to be reused so that it is
 bool EnableApplicationReuse(ImportApplicationType app, bool reuse)
 ```
 
-[Visual Basic]
-
-```vb
-Function EnableApplicationReuse(app As ImportApplicationType, reuse As Boolean) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

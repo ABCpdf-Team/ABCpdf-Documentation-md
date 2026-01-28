@@ -10,12 +10,6 @@ Add radio button group.
 Field AddRadioButtonGroup(XRect[] rects, string name, int selected)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddRadioButtonGroup(rects() As XRect, name As string, selected As int) As Field
-```
-
 ## Params
 
 | **Name** | **Description** |

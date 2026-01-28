@@ -14,7 +14,7 @@ Only objects that have been loaded into memory will be considered for refactorin
 
 If you have PDFs, loading from file, which you wish to refactor, then you will need to load all the objects into memory. To do so it is sufficient to touch each of the objects using code such as the following.
 
-[C#] for(int i = 1, n = doc.ObjectSoup.Count; i < n; i++) doc.SetInfo(i, "Touched", true); [Visual Basic] Dim n As Integer = doc.ObjectSoup.Count For i As Integer = 1 To n doc.SetInfo(i, "Touched", True) Next
+[C#] for(int i = 1, n = doc.ObjectSoup.Count; i < n; i++) doc.SetInfo(i, "Touched", true);
 
 ## Example
 

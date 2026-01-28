@@ -10,12 +10,6 @@ Get all the text in the page contents.
 string GetText()string GetText(<a href="../../../5-abcpdf/xrect/default.htm">XRect</a> rect, int pageNumber)string GetText(<a href="../../../5-abcpdf/xrect/default.htm">XRect</a>[] rects, int[] pageNumbers)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetText() As StringFunction GetText(rect As <a href="../../../5-abcpdf/xrect/default.htm">XRect</a>, pageNumber As Integer) As StringFunction GetText(rects As <a href="../../../5-abcpdf/xrect/default.htm">XRect</a>(), pageNumbers As Integer()) As String
-```
-
 ## Params
 
 | **Name** | **Description** |

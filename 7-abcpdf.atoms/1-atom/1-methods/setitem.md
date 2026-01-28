@@ -11,12 +11,6 @@ Adds a specified item to the Atom if it is of a type which
 static Atom SetItem(Atom atom, string key, Atom val)static Atom SetItem(Atom atom, int index, Atom val)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function SetItem(atom As Atom, key As String, val As Atom) As AtomShared Function SetItem(atom As Atom, index As Integer, val As Atom) As Atom
-```
-
 ## Params
 
 | **Name** | **Description** |

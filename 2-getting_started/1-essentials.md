@@ -36,7 +36,7 @@ For PresentationCore and System.Drawing you just need to open the project proper
 
 There are four public namespaces in ABCpdf. You can reference these using the following directives.
 
-[C#]using WebSupergoo.ABCpdf13; using WebSupergoo.ABCpdf13.Objects; using WebSupergoo.ABCpdf13.Atoms; using WebSupergoo.ABCpdf13.Operations; [Visual Basic]Imports WebSupergoo.ABCpdf13 Imports WebSupergoo.ABCpdf13.Objects Imports WebSupergoo.ABCpdf13.Atoms Imports WebSupergoo.ABCpdf13.Operations
+[C#]using WebSupergoo.ABCpdf13; using WebSupergoo.ABCpdf13.Objects; using WebSupergoo.ABCpdf13.Atoms; using WebSupergoo.ABCpdf13.Operations;
 
 The ABCpdf13 namespace contains the objects you will use for page layout. Most of the time, it is the only namespace you will need.
 
@@ -50,7 +50,7 @@ The Operations namespace allows you to perform complex operations with multiple 
 
 This is some simple example code. All it does is create a simple 'Hello World' PDF in the current working directory.
 
-[C#]Doc doc = new Doc(); doc.AddText("Hello World!"); doc.Save("output.pdf"); [Visual Basic]Dim doc As New Doc() doc.AddText("Hello World!") doc.Save("output.pdf")
+[C#]Doc doc = new Doc(); doc.AddText("Hello World!"); doc.Save("output.pdf");
 
 ## Security
 

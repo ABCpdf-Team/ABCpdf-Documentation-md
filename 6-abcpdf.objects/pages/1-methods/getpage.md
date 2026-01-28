@@ -10,12 +10,6 @@ Performs a fast lookup to retrieve a particular Page from this node tree
 <a href="../../page/default.htm">Page</a> GetPage(int page)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetPage(Integer page) As <a href="../../page/default.htm">Page</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

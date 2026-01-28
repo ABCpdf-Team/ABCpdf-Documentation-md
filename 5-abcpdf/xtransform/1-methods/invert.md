@@ -10,12 +10,6 @@ Invert the transform.
 void Invert()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Invert()
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -46,23 +40,7 @@ doc.AddText("45 Degrees");
 doc.Pos.String = "302 396";
 doc.Transform.Invert();
 doc.AddText("Inverted");
-doc.Save(Server.MapPath("transforminvert.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.FontSize = 72
-  doc.Rect.String = "0 0 999 999"
-  doc.Pos.String = "302 396"
-  doc.Transform.Rotate(45, 302, 396)
-  doc.AddText("45 Degrees")
-  doc.Pos.String = "302 396"
-  doc.Transform.Invert()
-  doc.AddText("Inverted")
-  doc.Save(Server.MapPath("transforminvert.pdf"))
-End Using
+doc.Save("transforminvert.pdf");
 ```
 
 ![](../../../images/pdf/transforminvert.pdf.png)

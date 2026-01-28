@@ -10,12 +10,6 @@ Add a new StructParents to the tree.
 int AddStructParents(IndirectObject io, bool commit)
 ```
 
-[Visual Basic]
-
-```vb
-Sub AddStructParents(io As IndirectObject, commit As bool) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -1,0 +1,2 @@
+# RecolorOperation.Pipe Class
+

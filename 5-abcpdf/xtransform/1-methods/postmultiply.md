@@ -10,12 +10,6 @@ Post-multiplies this transformation matrix by the supplied transform.
 void PostMultiply(<a href="../default.htm">XTransform</a> transform)
 ```
 
-[Visual Basic]
-
-```vb
-Sub PostMultiply(transform as <a href="../default.htm">XTransform</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

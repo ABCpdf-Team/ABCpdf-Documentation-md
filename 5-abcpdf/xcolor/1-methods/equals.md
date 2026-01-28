@@ -10,12 +10,6 @@ Test whether the two colors are effectively  the same
 bool Equals(<a href="../default.htm">XColor</a> color)override bool Equals(object color)
 ```
 
-[Visual Basic]
-
-```vb
-Function Equals(color As <a href="../default.htm">XColor</a>) As BooleanOverrides Function Equals(other As Object) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

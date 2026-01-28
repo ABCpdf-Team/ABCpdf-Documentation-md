@@ -10,12 +10,6 @@ ProcessingInfo Constructor.
 ProcessingInfo()
 ```
 
-[Visual Basic]
-
-```vb
-Sub New()
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Abort the current processing.
 virtual void Abort()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Sub Abort()
-```
-
 ## Params
 
 | **Name** | **Description** |

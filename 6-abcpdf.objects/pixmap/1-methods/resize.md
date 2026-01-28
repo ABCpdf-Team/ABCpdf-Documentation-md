@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void Resize(int width, int height) void Resize(int width, int height, Interpolation interpolation) [Visual Basic] Sub Resize(width As Integer, height As Integer) Sub Resize(width As Integer, height As Integer, interpolation As Interpolation)
+[C#] void Resize(int width, int height) void Resize(int width, int height, Interpolation interpolation)
 
 may throw Exception()
 
@@ -32,7 +32,7 @@ This function is optimized for resizing one, three and four component images at 
 
 Here we resize all the images in a document to a quarter of their previous resolution.
 
-[C#] using var doc = new Doc(); doc.Read(Server.MapPath("../Rez/spaceshuttle.pdf")); foreach (IndirectObject io in doc.ObjectSoup) { if (io is PixMap) { var pm = (PixMap)io; pm.Realize(); // eliminate indexed color images pm.Resize(pm.Width / 4, pm.Height / 4); } } doc.Save(Server.MapPath("pixmapresize.pdf")); [Visual Basic] Using doc As New Doc() doc.Read(Server.MapPath("../Rez/spaceshuttle.pdf")) For Each io As IndirectObject In doc.ObjectSoup If TypeOf io Is PixMap Then Dim pm As PixMap = DirectCast(io, PixMap) pm.Realize() ' eliminate indexed color images pm.Resize(pm.Width / 4, pm.Height / 4) End If Next doc.Save(Server.MapPath("pixmapresize.pdf")) End Using
+[C#] using var doc = new Doc(); doc.Read("../Rez/spaceshuttle.pdf"); foreach (IndirectObject io in doc.ObjectSoup) { if (io is PixMap) { var pm = (PixMap)io; pm.Realize(); // eliminate indexed color images pm.Resize(pm.Width / 4, pm.Height / 4); } } doc.Save("pixmapresize.pdf");
 
 spaceshuttle.pdf [page 1]
 

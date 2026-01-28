@@ -10,12 +10,6 @@ Finds all the MCIDs referenced by this structure element and its children.
 FindMcids(this StructureElementElement element, Dictionary&lt;Page, HashSet&lt;int&gt;&gt; mcids)
 ```
 
-[Visual Basic]
-
-```vb
-FindMcids(this StructureElementElement element, Dictionary&lt;Page, HashSet&lt;int&gt;&gt; mcids)
-```
-
 ## Params
 
 | **Name** | **Description** |

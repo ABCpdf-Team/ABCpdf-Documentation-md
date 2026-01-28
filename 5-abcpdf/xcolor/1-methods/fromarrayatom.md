@@ -10,12 +10,6 @@ Create an XColor from an ArrayAtom of NumAtoms containing PDF color values.
 static <a href="../default.htm">XColor</a> FromArrayAtom(<a href="../../../7-abcpdf.atoms/arrayatom/default.htm">ArrayAtom</a> array)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromArrayAtom(array As <a href="../../../7-abcpdf.atoms/arrayatom/default.htm">ArrayAtom</a>) As <a href="../default.htm">XColor</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

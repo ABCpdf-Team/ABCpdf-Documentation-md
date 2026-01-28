@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] IEnumerator<Field> GetEnumerator() [Visual Basic] Function GetEnumerator() As IEnumerator(Of Field)
+[C#] IEnumerator<Field> GetEnumerator()
 
 ## Params
 

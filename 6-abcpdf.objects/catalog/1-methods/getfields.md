@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] IndirectObject[] GetFields() [Visual Basic] Function GetFields() As IndirectObject()
+[C#] IndirectObject[] GetFields()
 
 ## Params
 

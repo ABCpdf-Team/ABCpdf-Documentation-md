@@ -10,12 +10,6 @@ Adds an image to the current page.
 int AddImage(XImage image)int AddImage(string path)int AddImage(byte[] data)int AddImage(string path, int page)int AddImage(byte[] data, int page)int AddImage(int id)int AddImage(System.Drawing.Bitmap bm)int AddImage(Doc doc, int page)int AddImage(Doc doc, int page, XRect src)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddImage(image As XImage) As IntegerFunction AddImage(path As String) As IntegerFunction AddImage(data() As Byte) As IntegerFunction AddImage(path As String, page As Integer) As IntegerFunction AddImage(data() As Byte, page As Integer) As IntegerFunction AddImage(id As Integer) As IntegerFunction AddImage(bm As System.Drawing.Bitmap) As IntegerFunction AddImage(doc As Doc, page As Integer) As IntegerFunction AddImage(doc As Doc, page As Integer, src As XRect) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

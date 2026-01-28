@@ -8,7 +8,7 @@ Defaults can be adjusted using registry keys or config files but more often you 
 
 For example to ensure that CCITT images are decompressed and recompressed rather than being inserted directly, you might use code of the following form.
 
-[C#] theDoc.SetInfo(0, "InsertEmbeddedCCITTsDirect", 0); [Visual Basic] theDoc.SetInfo(0, "InsertEmbeddedCCITTsDirect", 0)
+[C#] theDoc.SetInfo(0, "InsertEmbeddedCCITTsDirect", 0);
 
 Registry settings are held at:
 

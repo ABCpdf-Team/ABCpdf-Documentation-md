@@ -10,12 +10,6 @@ Add popup annotation to the current page of the doc.
 <a href="../default.htm">PopupAnnotation</a>(Doc doc, XRect rect, int parentID)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">PopupAnnotation</a>(doc As Doc, rect As XRect, parentID As int)
-```
-
 ## Params
 
 | **Name** | **Description** |

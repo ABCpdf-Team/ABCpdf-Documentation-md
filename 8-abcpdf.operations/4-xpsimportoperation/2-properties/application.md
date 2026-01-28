@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `ImportApplicationType` | ShellAssociation | No | The application used by ImportAny. |
+|  | ShellAssociation | No | The application used by ImportAny. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ Creates a new JavaScript call information object.
 JSCallInfo(JSContext context, JSValue callee, bool isConstructCall, IList&lt;JSValue&gt; args)
 ```
 
-[Visual Basic]
-
-```vb
-Sub New(context As JSContext, callee As JSValue, isConstructCall As Boolean, args As IList(Of JSValue))
-```
-
 ## Params
 
 | **Name** | **Description** |

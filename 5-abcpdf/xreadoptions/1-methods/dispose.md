@@ -10,12 +10,6 @@ Dispose of the object.
 void Dispose()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Dispose()
-```
-
 ## Params
 
 | **Name** | **Description** |

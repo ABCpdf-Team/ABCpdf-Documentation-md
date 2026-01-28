@@ -10,12 +10,6 @@ Makes any inline images into external images.
 void DeInline(bool convertAnnotations)void DeInline(bool convertAnnotations, out <a href="../../pixmap/default.htm">PixMap</a>[] detachedPixMaps)
 ```
 
-[Visual Basic]
-
-```vb
-Sub DeInline(convertAnnotations As Boolean)Sub DeInline(convertAnnotations As Boolean, &lt;Out&gt; ByRef detachedPixMaps As <a href="../../pixmap/default.htm">PixMap</a>())
-```
-
 ## Params
 
 | **Name** | **Description** |

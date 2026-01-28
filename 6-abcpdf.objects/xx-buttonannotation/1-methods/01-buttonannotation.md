@@ -10,12 +10,6 @@ Add button annotation to the current page of the doc.
 <a href="../default.htm">ButtonAnnotation</a>(Doc doc, XRect rect, string caption)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">ButtonAnnotation</a>(doc As Doc, rect As XRect, caption As string)
-```
-
 ## Params
 
 | **Name** | **Description** |

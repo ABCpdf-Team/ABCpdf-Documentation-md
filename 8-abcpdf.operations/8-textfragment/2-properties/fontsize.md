@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double` | n/a | Yes | The effective font size used for drawing this text fragment. |
+|  | n/a | Yes | The effective font size used for drawing this text fragment. |
 
 ## Notes
 

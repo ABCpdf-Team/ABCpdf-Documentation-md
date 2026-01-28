@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] static int GetInt(Atom atom) [Visual Basic] Shared Function GetInt(atom As Atom) As Integer
+[C#] static int GetInt(Atom atom)
 
 ## Params
 

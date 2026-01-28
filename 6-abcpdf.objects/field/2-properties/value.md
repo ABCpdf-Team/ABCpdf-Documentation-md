@@ -12,19 +12,19 @@ Common Operations.
 
 Set the value of a text field:
 
-[C#] theField.Value = "Mr Jones"; [Visual Basic] theField.Value = "Mr Jones"
+[C#] theField.Value = "Mr Jones";
 
 Set a checkbox:
 
-[C#] theField.Value = theField.Options[0]; [Visual Basic] theField.Value = theField.Options(0)
+[C#] theField.Value = theField.Options[0];
 
 Clear a checkbox:
 
-[C#] theField.Value = "Off"; [Visual Basic] theField.Value = "Off"
+[C#] theField.Value = "Off";
 
 Set the fifth Radio Button in a group:
 
-[C#] theField.Value = theField.Options[4]; [Visual Basic] theField.Value = theField.Options(4)
+[C#] theField.Value = theField.Options[4];
 
 Multiline Form Fields Tip.
 

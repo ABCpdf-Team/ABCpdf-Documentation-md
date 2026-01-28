@@ -8,12 +8,6 @@
 <a href="../default.htm">D3DStream</a>(ObjectSoup soup)<a href="../default.htm">D3DStream</a>(ObjectSoup soup, string path)<a href="../default.htm">D3DStream</a>(ObjectSoup soup, byte[] data)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">D3DStream</a>(soup As ObjectSoup)<a href="../default.htm">D3DStream</a>(soup As ObjectSoup, path As string)<a href="../default.htm">D3DStream</a>(soup As ObjectSoup, data() As Byte)
-```
-
 ## Params
 
 | **Name** | **Description** |

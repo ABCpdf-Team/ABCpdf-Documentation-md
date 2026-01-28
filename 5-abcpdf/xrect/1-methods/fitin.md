@@ -10,12 +10,6 @@ Fits the rectangle as content inside another rectangle.
 void FitIn(<a href="../default.htm">XRect</a> rect, ContentAlign align, ContentScaleMode scaleMode)
 ```
 
-[Visual Basic]
-
-```vb
-Sub FitIn(rect As <a href="../default.htm">XRect</a>, align As ContentAlign, scaleMode As ContentScaleMode)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -6,11 +6,11 @@ ABCpdf 13 is a new version completely independent of the old. It incorporates th
 
 Simply replace...
 
-[C#] using WebSupergoo.ABCpdf12; [Visual Basic] Imports WebSupergoo.ABCpdf12
+[C#] using WebSupergoo.ABCpdf12;
 
 with...
 
-[C#] using WebSupergoo.ABCpdf13; [Visual Basic] Imports WebSupergoo.ABCpdf13
+[C#] using WebSupergoo.ABCpdf13;
 
 ## Changes
 
@@ -20,7 +20,7 @@ There are some minor differences in behavior between the ABCpdf12 and ABCpdf13 n
 
 The new ABCChrome123 HTML conversion engine is our new default as it is faster, more compliant and more secure than the previous one. If your HTML conversions rely on specific output styles created by the previous default engines - eg ABCChrome86 - you will want to use the following line of code after creating any Doc object, after calling Doc.Read and after calling Doc.Clear.
 
-[C#] doc.HtmlOptions.Engine = EngineType.Chrome86; [Visual Basic] doc.HtmlOptions.Engine = EngineType.Chrome86
+[C#] doc.HtmlOptions.Engine = EngineType.Chrome86;
 
 For this release we have vastly increased the capabilities of FireShield. It has much greater insight into what is happening in the current process and intercepts requests that previously might have gone unnoticed. This means that if you have custom rules for FireShield it may pick up some events - for example file information queries - which previously it might not have done. Your rules may need to be adjusted to allow these types of events to be ignored as appropriate.
 

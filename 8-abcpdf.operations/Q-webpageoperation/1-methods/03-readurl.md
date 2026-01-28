@@ -10,12 +10,6 @@ Read a URL into a paged PDF document.
 ReadUrl(string url)
 ```
 
-[Visual Basic]
-
-```vb
-ReadUrl(url As String)
-```
-
 ## Params
 
 | **Name** | **Description** |

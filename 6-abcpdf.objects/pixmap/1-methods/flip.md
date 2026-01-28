@@ -10,12 +10,6 @@ Flip the image horizontally or vertically
 void Flip(bool horizontal, bool vertical)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Flip(horizontal As Boolean, vertical As Boolean)
-```
-
 ## Params
 
 | **Name** | **Description** |

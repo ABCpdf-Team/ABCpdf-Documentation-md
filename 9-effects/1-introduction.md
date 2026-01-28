@@ -4,11 +4,11 @@
 
 Effects are applied using the EffectOperation class. To apply an effect you can use code as simple as this.
 
-[C#] void function() { using (Doc doc = new Doc()) { AddImagePage(doc, img5); using (ImageLayer layer = AddImagePage(doc, img5)) { using (EffectOperation effect = new EffectOperation("Sharpen")) { effect.Apply(layer.PixMap); } } doc.Rendering.Save("EffectSharpen1b.jpg"); } [Visual Basic] Sub ... Using doc As New Doc() AddImagePage(doc, img5) Using layer As ImageLayer = AddImagePage(doc, img5) Using effect As New EffectOperation("Sharpen") effect.Apply(layer.PixMap) End Using End Using doc.Rendering.Save("EffectSharpen1b.jpg") End Sub
+[C#] void function() { using (Doc doc = new Doc()) { AddImagePage(doc, img5); using (ImageLayer layer = AddImagePage(doc, img5)) { using (EffectOperation effect = new EffectOperation("Sharpen")) { effect.Apply(layer.PixMap); } } doc.Rendering.Save("EffectSharpen1b.jpg"); }
 
 ## Examples
 
 The examples make use of a function named AddImagePage. This function simply creates an appropriate Doc object, adds the image and returns the ImageLayer which was added.
 
-[C#] private ImageLayer AddImagePage(Doc doc, string path) { using (XImage img = XImage.FromFile(path, null)) { doc.MediaBox.SetSides(0, 0, img.Width, img.Height); doc.Page = doc.AddPage(); doc.Rect.String = doc.MediaBox.String; int id = doc.AddImageObject(img); return (ImageLayer)doc.ObjectSoup[id]; } } [Visual Basic] Private Function AddImagePage(doc As Doc, path As String) As ImageLayer Using img As XImage = XImage.FromFile(path, Nothing) doc.MediaBox.SetSides(0, 0, img.Width, img.Height) doc.Page = doc.AddPage() doc.Rect.[String] = doc.MediaBox.[String] Dim id As Integer = doc.AddImageObject(img) Return DirectCast(doc.ObjectSoup(id), ImageLayer) End Using End Function
+[C#] private ImageLayer AddImagePage(Doc doc, string path) { using (XImage img = XImage.FromFile(path, null)) { doc.MediaBox.SetSides(0, 0, img.Width, img.Height); doc.Page = doc.AddPage(); doc.Rect.String = doc.MediaBox.String; int id = doc.AddImageObject(img); return (ImageLayer)doc.ObjectSoup[id]; } }
 

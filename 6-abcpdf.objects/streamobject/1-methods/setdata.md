@@ -10,12 +10,6 @@ Set the raw binary content of the stream.
 void SetData(byte[] value)void SetData(byte[] value, int index, int count)void SetData(StreamObject source)void SetData(byte[] buffer, bool clearFirst)void SetData(byte[] buffer, int index, int count, bool clearFirst)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetData(value() As Byte)Sub SetData(value() As Byte, index As Integer, count As Integer)Sub SetData(source As StreamObject)Sub SetData(buffer() As Byte, clearFirst As bool)Sub SetData(buffer() As Byte, index As int, count As int, clearFirst As bool)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Saves the document as PDF.
 void Save(string path)void Save(Stream stream)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Save(path As String)Sub Save(stream As Stream)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -59,17 +53,7 @@ The following code illustrates how one might add text to a PDF and then save it 
 using var doc = new Doc();
 doc.FontSize = 96;
 doc.AddText("Hello World");
-doc.Save(Server.MapPath("docsave.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.FontSize = 96
-  doc.AddText("Hello World")
-  doc.Save(Server.MapPath("docsave.pdf"))
-End Using
+doc.Save("docsave.pdf");
 ```
 
 ![](../../../images/pdf/docsave.pdf.png)

@@ -10,7 +10,7 @@ It is generally better to specify a bold typeface rather than synthesize a bold 
 
 In this example we add some bold text to a document.
 
-[C#] using var doc = new Doc(); string text = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur."; doc.Rect.Inset(20, 40); doc.TextStyle.Size = 96; doc.TextStyle.Bold = true; doc.AddText(text); doc.Save(Server.MapPath("stylebold.pdf")); [Visual Basic] Using doc As New Doc() Dim theText As String theText = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur." doc.Rect.Inset(20, 40) doc.TextStyle.Size = 96 doc.TextStyle.Bold = True doc.AddText(theText) doc.Save(Server.MapPath("stylebold.pdf")) End Using
+[C#] using var doc = new Doc(); string text = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur."; doc.Rect.Inset(20, 40); doc.TextStyle.Size = 96; doc.TextStyle.Bold = true; doc.AddText(text); doc.Save("stylebold.pdf");
 
 stylebold.pdf
 

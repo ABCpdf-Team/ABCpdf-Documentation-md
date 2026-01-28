@@ -10,12 +10,6 @@ Sort the kids of the parent element so that they go in order from the left to th
 static void SortLeftToRight(<a href="../../N-accessibility.structure/default.htm">Structure</a> structure, StructureElementElement parent, List&lt;XRect&gt; areas)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function SortLeftToRight(structure As <a href="../../N-accessibility.structure/default.htm">Structure</a>, parent As StructureElementElement, areas As List&lt;XRect&gt;)
-```
-
 ## Params
 
 | **Name** | **Description** |

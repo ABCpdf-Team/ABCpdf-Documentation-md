@@ -10,12 +10,6 @@ Remove a field from the form.
 void Remove(Field field)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Remove(field As Field)
-```
-
 ## Params
 
 | **Name** | **Description** |

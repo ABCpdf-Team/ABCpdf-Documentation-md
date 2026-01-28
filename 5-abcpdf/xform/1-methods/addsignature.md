@@ -10,12 +10,6 @@ Add unsigned signature field.
 Signature AddSignature(XRect rect, string name)Signature AddSignature(XRect rect, string name, bool minimal)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddSignature(rect As XRect, name As string) As SignatureFunction AddSignature(rect As XRect, name As string, minimal As Boolean) As Signature
-```
-
 ## Params
 
 | **Name** | **Description** |

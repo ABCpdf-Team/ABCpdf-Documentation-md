@@ -55,7 +55,7 @@ Additionally you can add any TrueType, OpenType or Type 1 font that you have ins
 
 The AddFont function returns the Object ID of the newly added Font Object. Typically you will want to assign this return value to the document Font property using code of the form.
 
-[C#] theDoc.Font = theDoc.AddFont("Courier"); [Visual Basic] theDoc.Font = theDoc.AddFont("Courier")
+[C#] theDoc.Font = theDoc.AddFont("Courier");
 
 If the specified font could not be found then you will get an Object ID of zero returned. You may wish to check for this possibility otherwise a default font will be used.
 
@@ -76,22 +76,7 @@ doc.AddText(font);
 font = "Helvetica-Bold";
 doc.Font = doc.AddFont(font);
 doc.AddText(font);
-doc.Save(Server.MapPath("docaddfont.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.FontSize = 48
-  Dim theFont As String = "Times-Roman "
-  doc.Font = doc.AddFont(theFont)
-  doc.AddText(theFont)
-  theFont = "Helvetica-Bold"
-  doc.Font = doc.AddFont(theFont)
-  doc.AddText(theFont)
-  doc.Save(Server.MapPath("docaddfont.pdf"))
-End Using
+doc.Save("docaddfont.pdf");
 ```
 
 ![](../../../images/pdf/docaddfont.pdf.png)

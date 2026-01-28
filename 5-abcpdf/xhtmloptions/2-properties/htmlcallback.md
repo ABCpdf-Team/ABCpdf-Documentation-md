@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `HtmlCallback` | null | No | The multicast delegate to be called while HTML rendering is taking place. |
+|  | null | No | The multicast delegate to be called while HTML rendering is taking place. |
 
 ## Notes
 
@@ -16,7 +16,7 @@ Note that the amount of work done during a callback should be kept to a minimum.
 
 The definition of the HtmlCallback multicast delegate is as follows.
 
-[C#]delegate void HtmlCallback(string stage, object page); [Visual Basic]Delegate Sub HtmlCallback(stage As String, page As Object);
+[C#]delegate void HtmlCallback(string stage, object page);
 
 Current values for the stage variable are 'get width', 'get height' and 'render'. The first occurs prior to finding the natural width of the HTML (the width it can occupy without scrolling). The second occurs prior to finding the natural height. The third occurs prior to translation into PDF format.
 
@@ -42,27 +42,7 @@ doc.Color.String = "255 0 0";
 doc.FontSize = 96;
 doc.AddText(theLog.ToString());
 // Save the document
-doc.Save(Server.MapPath("HtmlOptionsCallback.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Dim theURL As String = "https://photojournal.jpl.nasa.gov/catalog/PIA24312"
-  ' Set up the callback
-  Dim theLog As New StringBuilder()
-  doc.HtmlOptions.HtmlCallback = Function(stage As String, page As Object) theLog.AppendLine(stage)
-  ' Render html page
-  doc.AddImageUrl(theURL)
-  ' Add log over the top of the content
-  doc.Rect.Inset(100, 100)
-  doc.Color.String = "255 0 0"
-  doc.FontSize = 96
-  doc.AddText(theLog.ToString())
-  ' Save the document
-  doc.Save(Server.MapPath("HtmlOptionsCallback.pdf"))
-End Using
+doc.Save("HtmlOptionsCallback.pdf");
 ```
 
 ![](../../../images/pdf/HtmlOptionsCallback.pdf.png)

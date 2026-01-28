@@ -10,12 +10,6 @@ Adds a visible grid to the current page.
 int AddGrid()
 ```
 
-[Visual Basic]
-
-```vb
-Function AddGrid() As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -37,18 +31,7 @@ using var doc = new Doc();
 doc.Page = doc.AddPage();
 doc.Transform.Rotate(20, 100, 100);
 doc.AddGrid();
-doc.Save(Server.MapPath("docaddgrid.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Page = doc.AddPage()
-  doc.Transform.Rotate(20, 100, 100)
-  doc.AddGrid()
-  doc.Save(Server.MapPath("docaddgrid.pdf"))
-End Using
+doc.Save("docaddgrid.pdf");
 ```
 
 ![](../../../images/pdf/docaddgrid.pdf.png)

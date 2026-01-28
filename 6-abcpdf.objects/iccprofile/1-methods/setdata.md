@@ -10,12 +10,6 @@ Set the raw binary content of the stream.
 override void SetData(byte[] value)
 ```
 
-[Visual Basic]
-
-```vb
-Overrides Sub SetData(value() As Byte)
-```
-
 ## Params
 
 | **Name** | **Description** |

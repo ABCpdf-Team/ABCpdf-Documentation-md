@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Whether to try and determine the document size based on the size of the content. |
+|  | true | No | Whether to try and determine the document size based on the size of the content. |
 
 ## Notes
 

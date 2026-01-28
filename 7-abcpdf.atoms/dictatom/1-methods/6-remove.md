@@ -10,12 +10,6 @@ Remove an element from the dictionary.
 void Remove(string name)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Remove(name As String)
-```
-
 ## Params
 
 | **Name** | **Description** |

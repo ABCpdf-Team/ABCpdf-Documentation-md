@@ -10,12 +10,6 @@ Add list box form field.
 Field AddListBoxField(XRect rect, string name)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddListBoxField(rect As XRect, name As string) As Field
-```
-
 ## Params
 
 | **Name** | **Description** |

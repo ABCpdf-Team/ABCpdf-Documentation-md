@@ -10,12 +10,6 @@ Determines the index of a specific Bookmark.
 int IndexOf(<a href="../default.htm">Bookmark</a> value)int IndexOf(string value)
 ```
 
-[Visual Basic]
-
-```vb
-Function IndexOf(value As <a href="../default.htm">Bookmark</a>) As IntegerFunction IndexOf(value As String) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

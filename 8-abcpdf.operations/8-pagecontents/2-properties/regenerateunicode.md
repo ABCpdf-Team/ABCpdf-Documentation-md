@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Whether to attempt to regenerate missing Unicode tables from embedded fonts. |
+|  | true | No | Whether to attempt to regenerate missing Unicode tables from embedded fonts. |
 
 ## Notes
 

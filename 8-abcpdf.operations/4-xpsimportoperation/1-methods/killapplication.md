@@ -10,12 +10,6 @@ Terminates a running import application.
 bool KillApplication(ImportApplicationType app)
 ```
 
-[Visual Basic]
-
-```vb
-Function KillApplication(app As ImportApplicationType) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

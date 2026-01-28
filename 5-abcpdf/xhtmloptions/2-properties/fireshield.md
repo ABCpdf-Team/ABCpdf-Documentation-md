@@ -26,14 +26,3 @@ int id = doc.AddImageUrl("https://www.google.com/");
 // ...
 ```
 
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.HtmlOptions.Engine = EngineType.Chrome123
-  doc.HtmlOptions.FireShield.Rules.Add(New XHtmlFireShield.PathRule("C:\Windows\*.drv", XHtmlFireShield.PathRule.AccessType.Allow))
-    ' ...
-  Dim id As Integer = doc.AddImageUrl("https://www.google.com/")
-End Using
-```
-

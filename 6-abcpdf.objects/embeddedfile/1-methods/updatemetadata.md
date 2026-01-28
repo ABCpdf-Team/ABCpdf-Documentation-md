@@ -10,12 +10,6 @@ Update metadata for the embedded file.
 void UpdateMetadata(string path)
 ```
 
-[Visual Basic]
-
-```vb
-Sub UpdateMetadata(path As String)
-```
-
 ## Params
 
 | **Name** | **Description** |

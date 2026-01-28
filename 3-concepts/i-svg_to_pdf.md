@@ -16,7 +16,7 @@ For these reasons, if you require precise control over the way that your text ap
 
 You can do this to the current page using the following code.
 
-[C#] ((Page)doc.ObjectSoup[doc.Page]).VectorizeText(); [Visual Basic] DirectCast(doc.ObjectSoup(doc.Page), Page).VectorizeText()
+[C#] ((Page)doc.ObjectSoup[doc.Page]).VectorizeText();
 
 ## Images
 
@@ -24,7 +24,7 @@ Rendering to SVG produces placeholder tags for bitmap images in the SVG.
 
 If you require that the images be exported, you should do so using code of the following form.
 
-[C#] static void SaveAsSvg(Doc pdf, string file) { pdf.Rendering.Save(file); string svg = File.ReadAllText(file); HashSet<string> hrefs = new HashSet<string>(); string pattern = "<image xlink:href\\s*=\\s*(?:[\"'](?<1>[^\"']*)[\"']|(?<1>\\S+))"; MatchCollection matches = Regex.Matches(svg, pattern); foreach (Match match in matches) hrefs.Add(match.Groups[1].Value); string folder = Path.GetDirectoryName(file); foreach (string href in hrefs) { string image = Path.Combine(folder, href); if (!File.Exists(image)) { // href is of form "imageXX.png" where XX is the PixMap ID int id = int.Parse(href.Substring(5, href.Length - 9)); PixMap pm = pdf.ObjectSoup[id] as PixMap; using (Bitmap bm = pm.GetBitmap()) bm.Save(image); } } } [Visual Basic] Private Shared Sub SaveAsSvg(pdf As Doc, file As String) pdf.Rendering.Save(file) Dim svg As String = File.ReadAllText(file) Dim hrefs As New HashSet(Of String)() Dim pattern As String = "<image xlink:href\s*=\s*(?:[""'](?<1>[^""']*)[""']|(?<1>\S+))" Dim matches As MatchCollection = Regex.Matches(svg, pattern) For Each match As Match In matches hrefs.Add(match.Groups(1).Value) Next Dim folder As String = Path.GetDirectoryName(file) For Each href As String In hrefs Dim image As String = Path.Combine(folder, href) If Not File.Exists(image) Then ' href is of form "imageXX.png" where XX is the PixMap ID Dim id As Integer = Integer.Parse(href.Substring(5, href.Length - 9)) Dim pm As PixMap = TryCast(pdf.ObjectSoup(id), PixMap) Using bm As Bitmap = pm.GetBitmap() bm.Save(image) End Using End If Next End Sub
+[C#] static void SaveAsSvg(Doc pdf, string file) { pdf.Rendering.Save(file); string svg = File.ReadAllText(file); HashSet<string> hrefs = new HashSet<string>(); string pattern = "<image xlink:href\\s*=\\s*(?:[\"'](?<1>[^\"']*)[\"']|(?<1>\\S+))"; MatchCollection matches = Regex.Matches(svg, pattern); foreach (Match match in matches) hrefs.Add(match.Groups[1].Value); string folder = Path.GetDirectoryName(file); foreach (string href in hrefs) { string image = Path.Combine(folder, href); if (!File.Exists(image)) { // href is of form "imageXX.png" where XX is the PixMap ID int id = int.Parse(href.Substring(5, href.Length - 9)); PixMap pm = pdf.ObjectSoup[id] as PixMap; using (Bitmap bm = pm.GetBitmap()) bm.Save(image); } } }
 
 Note that in the above code the images are all exported as PNG. This is a good general purpose lossless export format. However for continuous tone images such as photographs you may wish to export as JPG as this will produce a smaller file size.
 

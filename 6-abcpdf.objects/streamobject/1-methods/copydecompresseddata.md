@@ -10,12 +10,6 @@ Copy the decompressed binary content of the stream into a byte array.
 int CopyDecompressedData()int CopyDecompressedData(byte[] destination)int CopyDecompressedData(byte[] destination, int startIndex)int CopyDecompressedData(byte[] destination, int startIndex, int maxLength)
 ```
 
-[Visual Basic]
-
-```vb
-Function CopyDecompressedData() As IntegerFunction CopyDecompressedData(destination() As Byte) As IntegerFunction CopyDecompressedData(destination() As Byte, startIndex as Integer) As IntegerFunction CopyDecompressedData(destination() As Byte, startIndex as Integer, maxLength As Integer) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

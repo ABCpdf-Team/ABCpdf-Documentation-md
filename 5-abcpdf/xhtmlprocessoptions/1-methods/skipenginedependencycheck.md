@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void SkipEngineDependencyCheck() [Visual Basic] Sub SkipEngineDependencyCheck()
+[C#] void SkipEngineDependencyCheck()
 
 ## Params
 

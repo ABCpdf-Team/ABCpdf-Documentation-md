@@ -10,12 +10,6 @@ Insets the edges of the rectangle.
 void Inset(double x, double y)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Inset(x As Double, y As Double)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -40,17 +34,6 @@ Response.Write($"Rect = {rc}");
 Response.Write("&lt;br&gt;");
 rc.Inset(10, 20);
 Response.Write("Inset = " + rc.String);
-```
-
-[Visual Basic]
-
-```vb
-Dim rc As New XRect()
-rc.String = "0 0 200 100"
-Response.Write($"Rect = {rc}")
-Response.Write("&lt;br&gt;")
-rc.Inset(10, 20)
-Response.Write("Inset = " + rc.String)
 ```
 
 Also see example code in:

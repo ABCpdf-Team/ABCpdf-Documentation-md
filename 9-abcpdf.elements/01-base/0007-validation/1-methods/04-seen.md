@@ -10,12 +10,6 @@ Called to indicate that a particular RefAtom has been seen.
 virtual void Seen(RefAtom refAtom)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Seen(refAtom As RefAtom) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

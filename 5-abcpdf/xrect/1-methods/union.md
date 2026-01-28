@@ -10,12 +10,6 @@ Union this rectangle with another rectangle.
 void Union(<a href="../default.htm">XRect</a> rect)void Union(<a href="../default.htm">XRect</a> rect, bool noAreaIsEmpty)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Union(rect As <a href="../default.htm">XRect</a>)Sub Union(rect As <a href="../default.htm">XRect</a>, noAreaIsEmpty as Boolean)
-```
-
 ## Params
 
 | **Name** | **Description** |

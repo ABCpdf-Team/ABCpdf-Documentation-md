@@ -10,12 +10,6 @@ Set the color to an CMYK value.
 void SetCmyk(int cyan, int magenta, int yellow, int black)void SetCmyk(int cyan, int magenta, int yellow, int black, int alpha)void SetCmyk(double cyan, double magenta, double yellow, double black)void SetCmyk(double cyan, double magenta, double yellow, double black, double alpha)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetCmyk(cyan As Integer, magenta As Integer, yellow As Integer, black As Integer)Sub SetCmyk(cyan As Integer, magenta As Integer, yellow As Integer, black As Integer, alpha as Integer)Sub SetCmyk(cyan As Double, magenta As Double, yellow As Double, black As Double)Sub SetCmyk(cyan As Double, magenta As Double, yellow As Double, black As Double, alpha as Double)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Flatten and compress the page content stream.
 bool Flatten()bool Flatten(bool force)bool Flatten(bool force, bool compress)
 ```
 
-[Visual Basic]
-
-```vb
-Function Flatten() As BooleanFunction Flatten(force As Boolean) As BooleanFunction Flatten(force As Boolean, compress As Boolean) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

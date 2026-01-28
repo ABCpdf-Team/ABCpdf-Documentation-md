@@ -8,7 +8,7 @@ To use this property, create a dictionary and assign it to this property. Then a
 
 Most tags, such as the PageName, take a string value. However some tags may take one or more numbers instead. For example the PageNumber tag takes two numbers, the first of which specifies the (zero based) index of the current page and the second of which specifies the total number of pages (zero indicates undetermined). So to indicate the second page of a nine page output, you might use code of the following form.
 
-[C#] theDoc.Rendering.Metadata.Add("PageNumber", "2 9"); theDoc.Rendering.Metadata.Add("PageName", "Page Two"); [Visual Basic] theDoc.Rendering.Metadata.Add("PageNumber", "2 9") theDoc.Rendering.Metadata.Add("PageName", "Page Two")
+[C#] theDoc.Rendering.Metadata.Add("PageNumber", "2 9"); theDoc.Rendering.Metadata.Add("PageName", "Page Two");
 
 To indicate that a value should be cleared you can assign an entry with a value of null. This can be useful if you want to, for example, disable the automatic insertion of page name and number tags.
 

@@ -10,12 +10,6 @@ Gets numeric information about an object.
 double GetInfoDouble(int id, string type)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetInfoDouble(id As Integer, type As String) As Double
-```
-
 ## Params
 
 | **Name** | **Description** |

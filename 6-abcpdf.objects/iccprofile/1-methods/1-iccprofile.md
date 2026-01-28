@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] IccProfile(ObjectSoup soup, byte[] data) IccProfile(ObjectSoup soup, string path) [Visual Basic] Sub New(soup As ObjectSoup, data() As Byte) Sub New(soup As ObjectSoup, path As String)
+[C#] IccProfile(ObjectSoup soup, byte[] data) IccProfile(ObjectSoup soup, string path)
 
 may throw Exception()
 

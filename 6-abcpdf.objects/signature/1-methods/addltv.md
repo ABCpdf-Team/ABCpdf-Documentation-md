@@ -10,12 +10,6 @@ Add Long Term Validation (LTV) to the Document Security Store (DSS).
 virtual void AddLTV(Oid oid)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Sub AddLTV(oid As Oid)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -64,22 +58,6 @@ sig.Commit();
 sig = (Signature)doc.Form.Fields["Signature"];
 sig.TimestampServiceUrl = new Uri("http://timestamp.comodoca.com");
 sig.AddLTV(new Oid(CryptoConfig.MapNameToOID("SHA256")));
-doc.Save(Server.MapPath("SignedLTV.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Dim cert As New X509Certificate2(Server.MapPath("MyCertificate.p12"), "mypassword", X509KeyStorageFlags.Exportable)
-  doc.Page = doc.AddPage()
-  Dim sig As Signature = doc.Form.AddSignature(New XRect("340 160 540 220"), "Signature")
-  sig.Sign(cert, False)
-  sig.Commit()
-  sig = DirectCast(doc.Form.Fields("Signature"), Signature)
-  sig.TimestampServiceUrl = New Uri("http://timestamp.comodoca.com")
-  sig.AddLTV(New Oid(CryptoConfig.MapNameToOID("SHA256")))
-  doc.Save(Server.MapPath("SignedLTV.pdf"))
-End Using
+doc.Save("SignedLTV.pdf");
 ```
 

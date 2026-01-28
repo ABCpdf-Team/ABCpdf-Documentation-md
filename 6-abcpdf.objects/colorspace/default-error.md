@@ -1,0 +1,2 @@
+# ColorSpace Class
+

@@ -10,12 +10,6 @@ Add a rectangle to the current page.
 int AddRect(bool filled)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddRect(filled As Boolean) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

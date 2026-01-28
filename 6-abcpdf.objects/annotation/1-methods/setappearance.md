@@ -10,12 +10,6 @@ Set a particular appearance for the annotation.
 virtual void SetAppearance(string state, string name, FormXObject form)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function SetAppearance(state As string, name As string, form As FormXObject) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] StreamObject[] GetLayers() [Visual Basic] Function GetLayers() As StreamObject()
+[C#] StreamObject[] GetLayers()
 
 ## Params
 

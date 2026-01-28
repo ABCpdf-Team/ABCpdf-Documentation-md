@@ -8,12 +8,6 @@
 virtual void Finish(<a href="../../1086-element/default.htm">Element</a> element)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Finish(element As <a href="../../1086-element/default.htm">Element</a>) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

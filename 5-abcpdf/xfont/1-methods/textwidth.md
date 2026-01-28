@@ -10,12 +10,6 @@ Calculate the  width of a string of text.
 int&nbsp;TextWidth(string text)
 ```
 
-[Visual Basic]
-
-```vb
-Function TextWidth(text As String) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

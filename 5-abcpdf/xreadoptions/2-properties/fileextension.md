@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | null | No | Gets or sets the file extension for data sources that do not have file names. |
+|  | null | No | Gets or sets the file extension for data sources that do not have file names. |
 
 ## Notes
 

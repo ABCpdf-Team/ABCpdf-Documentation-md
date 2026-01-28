@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void Assign(IndirectObject value) [Visual Basic] Sub Assign(value As IndirectObject)
+[C#] void Assign(IndirectObject value)
 
 ## Params
 

@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] Annotation[] GetAnnotations() [Visual Basic] Function GetAnnotations() As Annotation()
+[C#] Annotation[] GetAnnotations()
 
 ## Params
 

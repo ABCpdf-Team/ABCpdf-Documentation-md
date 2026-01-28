@@ -10,12 +10,6 @@ Imports at the specified position the certificates from the file for those whose
 int ImportAt(int index, string path)
 ```
 
-[Visual Basic]
-
-```vb
-Function ImportAt(index As Integer, path As String) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

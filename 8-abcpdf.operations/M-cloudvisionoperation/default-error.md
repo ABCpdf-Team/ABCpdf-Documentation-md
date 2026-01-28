@@ -1,0 +1,2 @@
+# CloudVisionOperation Class
+

@@ -10,12 +10,6 @@ Register and install a trial license.
 void Register()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Register()
-```
-
 ## Params
 
 | **Name** | **Description** |

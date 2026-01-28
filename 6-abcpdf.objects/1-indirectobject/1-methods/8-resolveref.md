@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] RefAtom ResolveRef(Atom atom) [Visual Basic] Function ResolveRef(atom As Atom) As RefAtom
+[C#] RefAtom ResolveRef(Atom atom)
 
 ## Params
 

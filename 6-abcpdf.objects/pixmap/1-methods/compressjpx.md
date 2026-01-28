@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void CompressJpx(int quality) [Visual Basic] Sub CompressJpx(quality As Integer)
+[C#] void CompressJpx(int quality)
 
 may throw Exception()
 

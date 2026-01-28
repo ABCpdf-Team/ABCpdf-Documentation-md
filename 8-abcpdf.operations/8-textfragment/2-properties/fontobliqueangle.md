@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double` | n/a | Yes | The skew angle of the font as used for oblique styles to simulate italic. |
+|  | n/a | Yes | The skew angle of the font as used for oblique styles to simulate italic. |
 
 ## Notes
 

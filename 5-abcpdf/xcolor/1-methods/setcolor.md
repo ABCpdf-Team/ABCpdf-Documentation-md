@@ -10,12 +10,6 @@ Sets the color.
 void SetColor(XColor color)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetColor(color As XColor)
-```
-
 ## Params
 
 | **Name** | **Description** |

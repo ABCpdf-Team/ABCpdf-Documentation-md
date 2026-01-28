@@ -12,7 +12,7 @@ To vertically align text use the VPos property. To justify text use the Justific
 
 The following code adds two blocks of text to a document. The first block is left aligned and the second is right aligned. Before adding the text we change the current rectangle and frame it so that you can see how the text is aligned.
 
-[C#] using var doc = new Doc(); doc.FontSize = 96; doc.Rect.Magnify(1.0, 0.5); doc.Rect.Inset(40, 40); doc.FrameRect(); doc.AddText("Left justified text..."); doc.Rect.Move(0, doc.Rect.Height + 80); doc.FrameRect(); doc.TextStyle.HPos = 1.0; doc.AddText("Right justified text..."); doc.Save(Server.MapPath("dochpos.pdf")); [Visual Basic] Using doc As New Doc() doc.FontSize = 96 doc.Rect.Magnify(1.0, 0.5) doc.Rect.Inset(40, 40) doc.FrameRect() doc.AddText("Left justified text...") doc.Rect.Move(0, doc.Rect.Height + 80) doc.FrameRect() doc.TextStyle.HPos = 1.0 doc.AddText("Right justified text...") doc.Save(Server.MapPath("dochpos.pdf")) End Using
+[C#] using var doc = new Doc(); doc.FontSize = 96; doc.Rect.Magnify(1.0, 0.5); doc.Rect.Inset(40, 40); doc.FrameRect(); doc.AddText("Left justified text..."); doc.Rect.Move(0, doc.Rect.Height + 80); doc.FrameRect(); doc.TextStyle.HPos = 1.0; doc.AddText("Right justified text..."); doc.Save("dochpos.pdf");
 
 dochpos.pdf
 

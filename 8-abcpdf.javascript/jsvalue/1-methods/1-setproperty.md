@@ -10,12 +10,6 @@ Sets this object's property.
 void SetProperty(string name, JSValue v)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetProperty(name As String, v As JSValue)
-```
-
 ## Params
 
 | **Name** | **Description** |

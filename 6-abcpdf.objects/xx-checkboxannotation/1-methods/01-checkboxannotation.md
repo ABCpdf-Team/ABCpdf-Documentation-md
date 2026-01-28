@@ -10,12 +10,6 @@ Add checkbox annotation to the current page of the doc.
 <a href="../default.htm">CheckBoxAnnotation</a>(Doc doc, XRect rect, bool selected)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">CheckBoxAnnotation</a>(doc As Doc, rect As XRect, selected As bool)
-```
-
 ## Params
 
 | **Name** | **Description** |

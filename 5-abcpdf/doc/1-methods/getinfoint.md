@@ -10,12 +10,6 @@ Gets numeric information about an object.
 int GetInfoInt(int id, string type)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetInfoInt(id As Integer, type As String) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

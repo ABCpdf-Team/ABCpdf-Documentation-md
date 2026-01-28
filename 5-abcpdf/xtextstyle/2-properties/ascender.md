@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int` | -1 | No | An adjustment to allow the text ascender to coincide with the top of the text area. |
+|  | -1 | No | An adjustment to allow the text ascender to coincide with the top of the text area. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ Create an ArrayAtom of NumAtoms from a list of numbers.
 static <a href="../default.htm">ArrayAtom</a> FromNums(IList&lt;double&gt; items)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromNums(items as IList(Of Double)) As <a href="../default.htm">ArrayAtom</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

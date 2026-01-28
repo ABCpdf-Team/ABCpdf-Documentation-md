@@ -10,12 +10,6 @@ Removes a range of elements from the source array
 void RemoveRange(int index, int count)
 ```
 
-[Visual Basic]
-
-```vb
-Sub RemoveRange(index As Integer, count As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

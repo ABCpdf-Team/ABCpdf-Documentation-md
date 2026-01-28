@@ -10,12 +10,6 @@ The string representation of the IndirectObject.
 override string ToString()
 ```
 
-[Visual Basic]
-
-```vb
-Overrides Function ToString() As String
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Gets the parameters associated with the OpAtom at the specified index and valida
 <a href="../../1-atom/default.htm">Atom</a>[] GetParameters(<a href="../../arrayatom/default.htm">ArrayAtom</a> array, int index)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetParameters(array As <a href="../../arrayatom/default.htm">ArrayAtom</a>, index As Integer) As <a href="../../1-atom/default.htm">Atom</a>()
-```
-
 ## Params
 
 | **Name** | **Description** |

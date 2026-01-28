@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int?` | n/a | No | Gets or sets the document number of the source document being/to be processed. |
+|  | n/a | No | Gets or sets the document number of the source document being/to be processed. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ Set the color to a random opaque value in the current color space.
 void SetRandom()
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetRandom()
-```
-
 ## Params
 
 | **Name** | **Description** |

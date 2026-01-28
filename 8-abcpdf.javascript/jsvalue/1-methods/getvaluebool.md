@@ -10,12 +10,6 @@ Gets the Boolean value of this value converted to Boolean value using the standa
 bool GetValueBool()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetValueBool() As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

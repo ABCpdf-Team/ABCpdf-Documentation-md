@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | False | No | Whether to log errors in the Application Event Log. |
+|  | False | No | Whether to log errors in the Application Event Log. |
 
 ## Notes
 

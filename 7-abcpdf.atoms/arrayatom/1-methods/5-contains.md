@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] bool Contains(Atom value) [Visual Basic] Function Contains(value As Atom) As Boolean
+[C#] bool Contains(Atom value)
 
 ## Params
 

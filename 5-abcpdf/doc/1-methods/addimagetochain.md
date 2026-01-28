@@ -10,12 +10,6 @@ Adds a new page from a paged HTML or PostScript render.
 int AddImageToChain(int id)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddImageToChain(id As Integer) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -50,12 +44,5 @@ This example shows how to import an HTML page into a multi-page PDF document. We
 ```csharp
 using var doc = new Doc();
 doc.Rect.Inset(72, 144);
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Rect.Inset(72, 144)
 ```
 

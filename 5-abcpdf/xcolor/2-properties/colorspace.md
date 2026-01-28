@@ -20,27 +20,27 @@ Why is my ColorSpace an integer?
 
 In older versions of ABCpdf the ColorSpace property was an integer. So you might find code of this form.
 
-[C#] theColor.ColorSpace = 3; [Visual Basic] theColor.ColorSpace = 3
+[C#] theColor.ColorSpace = 3;
 
 In Version 10 the ColorSpace property was changed to a true enumeration. This is a safer way of coding as it allows the compiler to ensure that the values you are using are valid. Your new code should look like this.
 
-[C#] theColor.ColorSpace = ColorOperatorType.DeviceRGB; [Visual Basic] theColor.ColorSpace = ColorOperatorType.DeviceRGB
+[C#] theColor.ColorSpace = ColorOperatorType.DeviceRGB;
 
 The old values of the integers match up with the new enumeration values. So if you find code of this form:
 
-[C#] theColor.ColorSpace = anInteger; [Visual Basic] theColor.ColorSpace = anInteger
+[C#] theColor.ColorSpace = anInteger;
 
 You can just cast it to the correct type.
 
-[C#] theColor.ColorSpace = (ColorOperatorType)anInteger; [Visual Basic] theColor.ColorSpace = CType(anInteger, ColorOperatorType)
+[C#] theColor.ColorSpace = (ColorOperatorType)anInteger;
 
 Or similarly:
 
-[C#] int n = theColor.ColorSpace; [Visual Basic] Dim n As Integer = theColor.ColorSpace
+[C#] int n = theColor.ColorSpace;
 
 You can again cast it to the correct type.
 
-[C#] int n = (int)theColor.ColorSpace; [Visual Basic] Dim n As Integer = CInt(theColor.ColorSpace)
+[C#] int n = (int)theColor.ColorSpace;
 
 ## Example
 

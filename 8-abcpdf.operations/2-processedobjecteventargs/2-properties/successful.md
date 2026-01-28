@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | n/a | Yes | Gets a value indicating whether the processing was successful. |
+|  | n/a | Yes | Gets a value indicating whether the processing was successful. |
 
 ## Notes
 

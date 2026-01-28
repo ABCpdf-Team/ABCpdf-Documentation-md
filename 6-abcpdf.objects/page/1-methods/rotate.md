@@ -10,12 +10,6 @@ Rotates the page by a multiple of ninety degrees.
 void Rotate(int angle)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Rotate(angle As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

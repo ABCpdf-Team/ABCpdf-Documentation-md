@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `PdfConformance` | Pdf | Yes | The effective PdfConformance value. |
+|  | Pdf | Yes | The effective PdfConformance value. |
 
 ## Notes
 

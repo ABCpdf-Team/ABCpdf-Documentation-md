@@ -10,12 +10,6 @@ CertificateCollection Constructor.
 <a href="../default.htm">CertificateCollection</a>()<a href="../default.htm">CertificateCollection</a>(<a href="../default.htm">Signature.CertificateCollection</a> certs)<a href="../default.htm">CertificateCollection</a>(X509Certificate2 cert)<a href="../default.htm">CertificateCollection</a>(X509Certificate2[] certs)
 ```
 
-[Visual Basic]
-
-```vb
-Sub NewSub New(certs As <a href="../default.htm">Signature.CertificateCollection</a>)Sub New(cert As X509Certificate2)Sub New(certs() As X509Certificate2)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -3,7 +3,7 @@ Property
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `long` | 0 | No | The frame to be read from a multiple frame image such as a movie. |
+|  | 0 | No | The frame to be read from a multiple frame image such as a movie. |
 
 ## Notes
 

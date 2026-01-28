@@ -11,12 +11,6 @@ Gets the specified item from the Atom if it is of a type which
 static Atom GetItem(Atom atom, string key)static Atom GetItem(Atom atom, int index)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function GetItem(atom As Atom, key As String) As AtomShared Function GetItem(atom As Atom, index As Integer) As Atom
-```
-
 ## Params
 
 | **Name** | **Description** |

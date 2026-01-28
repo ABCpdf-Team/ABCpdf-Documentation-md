@@ -10,12 +10,6 @@ Finds the location of an operator in a set of streams.
 Tuple&lt;StreamObject, int&gt; GetStreamAndOffset((IndirectObject owner, int offset, int length)
 ```
 
-[Visual Basic]
-
-```vb
-Sub GetStreamAndOffset(owner As IndirectObject, offset As int, length As int) As Tuple&lt;StreamObject, Integer&gt;
-```
-
 ## Params
 
 | **Name** | **Description** |

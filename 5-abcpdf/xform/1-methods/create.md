@@ -10,12 +10,6 @@ Create an AcroForm if one does not already exist.
 void Create()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Create()
-```
-
 ## Params
 
 | **Name** | **Description** |

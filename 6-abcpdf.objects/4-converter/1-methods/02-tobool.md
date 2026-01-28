@@ -10,12 +10,6 @@ Attempts to get a boolean from the specified entry in a DictAtom or ArrayAtom re
 virtual bool? ToBool(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom, int index)virtual bool? ToBool(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom, string key)virtual bool? ToBool(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ToBool(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, index As int) As Boolean?Overridable Function ToBool(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, key As string) As Boolean?Overridable Function ToBool(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>) As Boolean?
-```
-
 ## Params
 
 | **Name** | **Description** |

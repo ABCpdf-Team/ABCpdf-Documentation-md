@@ -10,12 +10,6 @@ Deletes an object previously added to the document.
 void Delete(int id)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Delete(id As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -28,7 +22,7 @@ Use this method to delete an object previously added to the document.
 
 Deletion may be applied to pages to remove them from the document. For example to delete the current page you might use the following code:
 
-[C#] theDoc.Delete(theDoc.Page); [Visual Basic] theDoc.Delete(theDoc.Page)
+[C#] theDoc.Delete(theDoc.Page);
 
 However if you are deleting multiple pages you will probably find it more efficient to use the [RemapPages](remappages.md) method. as this is more optimized for moving and removing pages.
 
@@ -40,27 +34,12 @@ The following code snippet illustrates how one might add an image and then delet
 
 ```csharp
 using var doc = new Doc();
-string path = Server.MapPath("../mypics/mypic.jpg");
+string path = "../mypics/mypic.jpg";
 int id1 = doc.AddImageFile(path, 1);
 int id2 = doc.GetInfoInt(id1, "XObject");
 int comps = doc.GetInfoInt(id2, "Components");
 if (comps == 4) doc.Delete(id1);
-doc.Save(Server.MapPath("docdelete.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Dim thePath As String = Server.MapPath("../mypics/mypic.jpg")
-  Dim theID1 As Integer = doc.AddImageFile(thePath, 1)
-  Dim theID2 As Integer = doc.GetInfoInt(theID1, "XObject")
-  Dim theComps As Integer = doc.GetInfoInt(theID2, "Components")
-  If theComps = 4 Then
-    doc.Delete(theID1)
-  End If
-  doc.Save(Server.MapPath("docdelete.pdf"))
-End Using
+doc.Save("docdelete.pdf");
 ```
 
 ![](../../../images/pdf/docdelete.pdf.png)

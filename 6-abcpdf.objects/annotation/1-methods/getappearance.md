@@ -10,12 +10,6 @@ Get a particular appearance from the annotation.
 virtual FormXObject GetAppearance(string state, string name)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function GetAppearance(state As string, name As string) As FormXObject
-```
-
 ## Params
 
 | **Name** | **Description** |

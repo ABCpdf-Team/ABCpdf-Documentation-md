@@ -10,12 +10,6 @@ Removes any obsolescent and redundant entries.
 void Rationalize()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Rationalize()
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double` | 0.0 | No | The inter-character spacing. |
+|  | 0.0 | No | The inter-character spacing. |
 
 ## Notes
 
@@ -30,23 +30,7 @@ doc.AddText("Positive CharSpacing");
 doc.Rect.Move(0, -300);
 doc.TextStyle.CharSpacing = -10;
 doc.AddText("Negative CharSpacing");
-doc.Save(Server.MapPath("stylecspace.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.TextStyle.Size = 96
-  doc.AddText("Zero CharSpacing")
-  doc.Rect.Move(0, -300)
-  doc.TextStyle.CharSpacing = 10
-  doc.AddText("Positive CharSpacing")
-  doc.Rect.Move(0, -300)
-  doc.TextStyle.CharSpacing = -10
-  doc.AddText("Negative CharSpacing")
-  doc.Save(Server.MapPath("stylecspace.pdf"))
-End Using
+doc.Save("stylecspace.pdf");
 ```
 
 ![](../../../images/pdf/stylecspace.pdf.png)

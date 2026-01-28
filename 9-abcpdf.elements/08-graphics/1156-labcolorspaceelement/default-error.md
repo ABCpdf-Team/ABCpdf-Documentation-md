@@ -1,0 +1,2 @@
+# LabColorSpaceElement Class
+

@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | null | No | The folder of the application used by ImportAny. |
+|  | null | No | The folder of the application used by ImportAny. |
 
 ## Notes
 

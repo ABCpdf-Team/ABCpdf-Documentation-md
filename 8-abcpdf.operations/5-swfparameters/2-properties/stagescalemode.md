@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `ContentScaleMode?` | null | No | The stage scale mode. |
+|  | null | No | The stage scale mode. |
 
 ## Notes
 

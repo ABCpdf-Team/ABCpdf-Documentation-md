@@ -8,12 +8,6 @@
 virtual bool ContainsKey(string key)virtual bool ContainsKey(TKey key)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ContainsKey(key As string) As BooleanOverridable Function ContainsKey(key As TKey) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

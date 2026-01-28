@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | Variable | No | The text style as a string. |
+|  | Variable | No | The text style as a string. |
 
 ## Notes
 
@@ -21,14 +21,5 @@ var ts = new XTextStyle();
 ts.String = "24.5 10 0 0 0 0 0";
 Response.Write($"Size = {ts.Size}&lt;br&gt;");
 Response.Write($"Indent = {ts.Indent}");
-```
-
-[Visual Basic]
-
-```vb
-Dim ts As New XTextStyle()
-ts.String = "24.5 10 0 0 0 0 0"
-Response.Write($"Size = {ts.Size}&lt;br&gt;")
-Response.Write($"Indent = {ts.Indent}")
 ```
 

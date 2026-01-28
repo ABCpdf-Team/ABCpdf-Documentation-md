@@ -10,12 +10,6 @@ Flatten the transparency of pages in a document.
 void Flatten(Doc doc)void Flatten(Pages pages)void Flatten(Page page)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Flatten(doc As Doc)Sub Flatten(pages As Pages)Sub Flatten(page As Page)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -60,21 +54,8 @@ op.DotsPerInch = 144;
 op.ColorSpace = XRendering.ColorSpaceType.Rgb;
 
 using var doc = new Doc();
-doc.Read(Server.MapPath("../mypics/sample.pdf"));
+doc.Read("../mypics/sample.pdf");
 op.Flatten(doc);
-doc.Save(Server.MapPath("Flattened.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Dim transOp As New FlattenTransparencyOperation()
-transOp.DotsPerInch = 144
-transOp.ColorSpace = XRendering.ColorSpaceType.Rgb
-
-Dim doc As New Doc()
-doc.Read(Server.MapPath("../mypics/sample.pdf"))
-transOp.Flatten(doc)
-doc.Save(Server.MapPath("Flattened.pdf"))
+doc.Save("Flattened.pdf");
 ```
 

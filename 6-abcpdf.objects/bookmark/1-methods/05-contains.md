@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] bool Contains(Bookmark value) [Visual Basic] Function Contains(value As Bookmark) As Boolean
+[C#] bool Contains(Bookmark value)
 
 ## Params
 

@@ -12,7 +12,7 @@ This property can be either a comma separated list of the named separations, or 
 
 For example, the following code will create a tiff file with 5 separated colors, each written to its own page. The ink name for each page will be the name of the separation plane: 'Cyan', 'Magenta', 'Yellow', 'Black' and 'Fluorescent Orange'.
 
-[C#] doc.Rendering.NamedSeparation ="Fluorescent Orange"; doc.Rendering.ColorSpace = XRendering.ColorSpaceType.Cmyk; doc.Rendering.Save("separated.tiff"); [Visual Basic] doc.Rendering.NamedSeparation ="Fluorescent Orange" doc.Rendering.ColorSpace = XRendering.ColorSpaceType.Cmyk doc.Rendering.Save("separated.tiff")
+[C#] doc.Rendering.NamedSeparation ="Fluorescent Orange"; doc.Rendering.ColorSpace = XRendering.ColorSpaceType.Cmyk; doc.Rendering.Save("separated.tiff");
 
 Note that ABCpdf will not create spot colors if it encounters a page group color space that is different from the specified color space. However in this situation it will still write the process colors individually to the TIFF output.
 

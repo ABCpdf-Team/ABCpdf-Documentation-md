@@ -10,12 +10,6 @@ XTransform  Constructor.
 <a href="../default.htm">XTransform</a>()<a href="../default.htm">XTransform</a>(string text)<a href="../default.htm">XTransform</a>(double[] entries)<a href="../default.htm">XTransform</a>(Matrix matrix)<a href="../default.htm">XTransform</a>(double m11, double m12, double m21, double m22, double tx, double ty)<a href="../default.htm">XTransform</a>(XRect src, XRect dst)
 ```
 
-[Visual Basic]
-
-```vb
-Sub NewSub New(text As String)Sub New(entries As Double())Sub New(entries As Matrix)Sub New(m11 As Double, m12 As Double, m21 As Double, m22 As Double, tx As Double, ty As Double)Sub New(src As XRect, dst As XRect)
-```
-
 ## Params
 
 | **Name** | **Description** |

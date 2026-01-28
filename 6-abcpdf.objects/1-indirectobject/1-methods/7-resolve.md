@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] Atom Resolve(Atom atom) [Visual Basic] Function Resolve(atom As Atom) As Atom
+[C#] Atom Resolve(Atom atom)
 
 ## Params
 

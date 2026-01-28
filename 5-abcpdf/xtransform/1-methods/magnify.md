@@ -10,12 +10,6 @@ Scale about a locked anchor point.
 void Magnify(double scaleX, double scaleY, double anchorX, double anchorY)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Magnify(scaleX As Double, scaleY As Double, anchorX As Double, anchorY As Double)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -48,24 +42,7 @@ doc.Color.String = "255 0 0";
 doc.Transform.Magnify(2, 1.5, 302, 396);
 doc.AddText("Magnified");
 doc.FrameRect();
-doc.Save(Server.MapPath("transformmagnify.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Rect.Inset(200, 200)
-  doc.FontSize = 48
-  doc.AddText("Normal")
-  doc.FrameRect()
-  doc.Rect.Move(0, -100)
-  doc.Color.String = "255 0 0"
-  doc.Transform.Magnify(2, 1.5, 302, 396)
-  doc.AddText("Magnified")
-  doc.FrameRect()
-  doc.Save(Server.MapPath("transformmagnify.pdf"))
-End Using
+doc.Save("transformmagnify.pdf");
 ```
 
 ![](../../../images/pdf/transformmagnify.pdf.png)

@@ -10,12 +10,6 @@ Imports the certificates from the file for those whose values are not already pr
 int Import(string path)
 ```
 
-[Visual Basic]
-
-```vb
-Function Import(path As String) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

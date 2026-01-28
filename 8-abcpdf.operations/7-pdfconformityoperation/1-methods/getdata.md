@@ -10,12 +10,6 @@ Get the conforming document as raw data.
 byte[] GetData(Doc doc)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetData(doc As Doc) As Byte()
-```
-
 ## Params
 
 | **Name** | **Description** |

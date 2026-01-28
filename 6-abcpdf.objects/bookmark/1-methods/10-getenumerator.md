@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] IEnumerator<Bookmark> GetEnumerator() [Visual Basic] Function GetEnumerator() As IEnumerator(Of Bookmark)
+[C#] IEnumerator<Bookmark> GetEnumerator()
 
 ## Params
 

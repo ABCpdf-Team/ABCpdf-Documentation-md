@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void CompressCcitt() [Visual Basic] Sub CompressCcitt()
+[C#] void CompressCcitt()
 
 may throw Exception()
 

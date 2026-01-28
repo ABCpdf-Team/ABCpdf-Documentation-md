@@ -10,12 +10,6 @@ A hash code for the Atom.
 override int GetHashCode()int GetHashCode(ComparisonType type)
 ```
 
-[Visual Basic]
-
-```vb
-Overrides Function GetHashCode() As IntegerFunction GetHashCode(type as ComparisonType) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

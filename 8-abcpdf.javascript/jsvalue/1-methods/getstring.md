@@ -10,12 +10,6 @@ Gets the String value of this string.
 string GetString()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetString() As String
-```
-
 ## Params
 
 | **Name** | **Description** |

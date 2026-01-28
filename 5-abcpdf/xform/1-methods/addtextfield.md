@@ -10,12 +10,6 @@ Add text field.
 Field AddTextField(XRect rect, string name, string inText)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddTextField(rect As XRect, name As string, text As string) As Field
-```
-
 ## Params
 
 | **Name** | **Description** |

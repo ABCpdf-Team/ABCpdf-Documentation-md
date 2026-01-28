@@ -10,12 +10,6 @@ Prepare document for drawing at the annotation location
 bool Focus()
 ```
 
-[Visual Basic]
-
-```vb
-Function Focus() As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

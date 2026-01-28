@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] static Atom FromString(string value) [Visual Basic] Shared Function FromString(value As String) As Atom
+[C#] static Atom FromString(string value)
 
 ## Params
 

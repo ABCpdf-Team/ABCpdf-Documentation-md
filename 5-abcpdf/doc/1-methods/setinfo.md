@@ -10,12 +10,6 @@ Sets information about an object.
 void SetInfo(int id, string type, string info)void SetInfo(int id, string type, int info)void SetInfo(int id, string type, double info)void SetInfo(int id, string type, DateTime info)void SetInfo(int id, string type, bool info)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetInfo(id As Integer, type As String, info As String)Sub SetInfo(id As Integer, type As String, info As Integer)Sub SetInfo(id As Integer, type As String, info As Double)Sub SetInfo(id As Integer, type As String, info As DateTime)Sub SetInfo(id As Integer, type As String, info As Boolean)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -40,25 +34,12 @@ The following shows how to modify the document catalog to ensure that the PDF op
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("../mypics/sample.pdf"));
+doc.Read("../mypics/sample.pdf");
 int pages = doc.GetInfoInt(doc.Root, "Pages");
 int page2 = doc.GetInfoInt(pages, "Page 2");
 string action = $"[ {page2} 0 R /Fit ]";
 doc.SetInfo(doc.Root, "/OpenAction", action);
-doc.Save(Server.MapPath("docsetinfo.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("../mypics/sample.pdf"))
-  Dim thePages As Integer = doc.GetInfoInt(doc.Root, "Pages")
-  Dim thePage2 As Integer = doc.GetInfoInt(thePages, "Page 2")
-  Dim theAction As String = $"[ {thePage2} 0 R /Fit ]"
-  doc.SetInfo(doc.Root, "/OpenAction", theAction)
-  doc.Save(Server.MapPath("docsetinfo.pdf"))
-End Using
+doc.Save("docsetinfo.pdf");
 ```
 
 Also see example code in:

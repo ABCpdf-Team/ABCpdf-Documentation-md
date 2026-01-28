@@ -8,12 +8,6 @@
 <a href="../default.htm">MediaOffsetElement</a>()<a href="../default.htm">MediaOffsetElement</a>(Atom atom, IndirectObject host)<a href="../default.htm">MediaOffsetElement</a>(IndirectObject obj)<a href="../default.htm">MediaOffsetElement</a>(<a href="../../../01-base/1086-element/default.htm">Element</a> relation, CreationOptions options)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">MediaOffsetElement</a>()<a href="../default.htm">MediaOffsetElement</a>(atom As Atom, host As IndirectObject)<a href="../default.htm">MediaOffsetElement</a>(obj As IndirectObject)<a href="../default.htm">MediaOffsetElement</a>(relation As <a href="../../../01-base/1086-element/default.htm">Element</a>, options As CreationOptions)
-```
-
 ## Params
 
 | **Name** | **Description** |

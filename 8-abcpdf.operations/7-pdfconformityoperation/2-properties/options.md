@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `PdfConformityOperationOptions` | None | No | The PDF update options. |
+|  | None | No | The PDF update options. |
 
 ## Notes
 

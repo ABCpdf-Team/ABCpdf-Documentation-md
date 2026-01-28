@@ -10,12 +10,6 @@ Construct an ObjectSoupSubset.
 ObjectSoupSubset(<a href="../../2-objectsoup/default.htm">ObjectSoup</a> soup)
 ```
 
-[Visual Basic]
-
-```vb
-Sub New(soup As <a href="../../2-objectsoup/default.htm">ObjectSoup</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

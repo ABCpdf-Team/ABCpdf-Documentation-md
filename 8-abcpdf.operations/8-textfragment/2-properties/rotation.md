@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int` | n/a | Yes | The angle of rotation of the fragment in degrees. |
+|  | n/a | Yes | The angle of rotation of the fragment in degrees. |
 
 ## Notes
 

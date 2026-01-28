@@ -10,7 +10,7 @@ The last optional element is a dash array to be used in drawing dashed borders. 
 
 If this property is null then a solid rectangular border of width one will be drawn. This is equivalent to the following code.
 
-[C#] annot.Border = (ArrayAtom)Atom.FromString("[0 0 1"); [Visual Basic] annot.Border = DirectCast(Atom.FromString("[0 0 1]"), ArrayAtom)
+[C#] annot.Border = (ArrayAtom)Atom.FromString("[0 0 1");
 
 After changing this property you will need to call UpdateAppearance to realize the change.
 

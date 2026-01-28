@@ -16,7 +16,7 @@ Each gamma entry must be positive and is generally greater than or equal to one.
 
 In this example we show how to use the Gamma property with a calibrated grayscale color space.
 
-[C#] using var doc = new Doc(); doc.Width = 80; doc.Rect.Inset(50, 50); var cs = new ColorSpace(doc.ObjectSoup, ColorSpaceType.CalGray); ((NumAtom)cs.Gamma).Real = 1.2; doc.ColorSpace = cs.ID; doc.Color.SetComponents(0.9); // gray doc.AddOval(true); doc.Save(Server.MapPath("examplecalgraycolorspace.pdf")); [Visual Basic] Using doc As New Doc() doc.Width = 80 doc.Rect.Inset(50, 50) Dim cs As New ColorSpace(doc.ObjectSoup, ColorSpaceType.CalGray) DirectCast(cs.Gamma, NumAtom).Real = 1.2 doc.ColorSpace = cs.ID doc.Color.SetComponents(0.9) ' gray doc.AddOval(True) doc.Save(Server.MapPath("examplecalgraycolorspace.pdf")) End Using
+[C#] using var doc = new Doc(); doc.Width = 80; doc.Rect.Inset(50, 50); var cs = new ColorSpace(doc.ObjectSoup, ColorSpaceType.CalGray); ((NumAtom)cs.Gamma).Real = 1.2; doc.ColorSpace = cs.ID; doc.Color.SetComponents(0.9); // gray doc.AddOval(true); doc.Save("examplecalgraycolorspace.pdf");
 
 examplecalgraycolorspace.pdf
 

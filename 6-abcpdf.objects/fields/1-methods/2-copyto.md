@@ -10,12 +10,6 @@ Copies the items into a collection.
 void CopyTo(<a href="../../field/default.htm">Field</a>[] array, int index)
 ```
 
-[Visual Basic]
-
-```vb
-Sub CopyTo(array As <a href="../../field/default.htm">Field</a>(), index As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

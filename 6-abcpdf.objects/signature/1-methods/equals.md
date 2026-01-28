@@ -8,12 +8,6 @@
 virtual bool Equals(<a href="../default.htm">Signature</a> other)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Equals(other As <a href="../default.htm">Signature</a>) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

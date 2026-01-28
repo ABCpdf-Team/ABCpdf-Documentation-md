@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | null | No | The path to the template file. |
+|  | null | No | The path to the template file. |
 
 ## Notes
 
@@ -20,18 +20,8 @@ See the example project for how to use a SWF template file. Here we specify one 
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("../mypics/sample.pdf"));
+doc.Read("../mypics/sample.pdf");
 doc.SaveOptions.Template = XSaveTemplateData.Template_OnePagePerFrame + "\0FrameRate:512";
-doc.Save(Server.MapPath("swfsave_fr.swf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("../mypics/sample.pdf"))
-  doc.SaveOptions.Template = XSaveTemplateData.Template_OnePagePerFrame + vbNullChar & "FrameRate:512"
-  doc.Save(Server.MapPath("swfsave_fr.swf"))
-End Using
+doc.Save("swfsave_fr.swf");
 ```
 

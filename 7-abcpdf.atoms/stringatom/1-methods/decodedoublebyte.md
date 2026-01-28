@@ -10,12 +10,6 @@ Decode a double byte PDF encoded string into a plain string format
 StringBuilder DecodeDoubleByte(string text, StringBuilder builder)
 ```
 
-[Visual Basic]
-
-```vb
-Function DecodeDoubleByte(text As String, builder As StringBuilder) As StringBuilder
-```
-
 ## Params
 
 | **Name** | **Description** |

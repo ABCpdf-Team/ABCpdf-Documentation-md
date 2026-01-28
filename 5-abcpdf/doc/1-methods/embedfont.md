@@ -10,12 +10,6 @@ Embeds a font into the document.
 int EmbedFont(string name)int EmbedFont(string name, LanguageType language)int EmbedFont(string name, LanguageType language, bool vertical)int EmbedFont(string name, LanguageType language, bool vertical, bool subset)int EmbedFont(string name, LanguageType language, bool vertical, bool subset, bool force)
 ```
 
-[Visual Basic]
-
-```vb
-Function EmbedFont(name As String) As IntegerFunction EmbedFont(name As String, language As LanguageType) As IntegerFunction EmbedFont(name As String, language As LanguageType, vertical As Boolean) As IntegerFunction EmbedFont(name As String, language As LanguageType, vertical As Boolean, subset As Boolean) As IntegerFunction EmbedFont(name As String, language As LanguageType, vertical As Boolean, subset As Boolean, force As Boolean) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -39,7 +33,7 @@ For information on how to specify font names see the [AddFont](addfont.md) metho
 
 The EmbedFont function returns the Object ID of the newly added Font Object. Typically you will want to assign this return value to the document Font property using code of the form.
 
-[C#] theDoc.Font = theDoc.AddFont("Courier"); [Visual Basic] theDoc.Font = theDoc.AddFont("Courier")
+[C#] theDoc.Font = theDoc.AddFont("Courier");
 
 If the specified font could not be found then you will get an Object ID of zero returned. You may wish to check for this possibility otherwise a default font will be used.
 
@@ -57,19 +51,7 @@ doc.FontSize = 216;
 string font = "Comic Sans MS";
 doc.Font = doc.EmbedFont(font);
 doc.AddText(font);
-doc.Save(Server.MapPath("docembedfont.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.FontSize = 216
-  Dim theFont As String = "Comic Sans MS"
-  doc.Font = doc.EmbedFont(theFont)
-  doc.AddText(theFont)
-  doc.Save(Server.MapPath("docembedfont.pdf"))
-End Using
+doc.Save("docembedfont.pdf");
 ```
 
 ![](../../../images/pdf/docembedfont.pdf.png)

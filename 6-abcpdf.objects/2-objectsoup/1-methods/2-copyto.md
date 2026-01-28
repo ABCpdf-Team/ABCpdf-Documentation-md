@@ -10,12 +10,6 @@ Copies the objects in the Soup to an Array.
 void CopyTo(<a href="../../1-indirectobject/default.htm">IndirectObject</a>[] array, int index)
 ```
 
-[Visual Basic]
-
-```vb
-Sub CopyTo(array As <a href="../../1-indirectobject/default.htm">IndirectObject</a>(), index As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

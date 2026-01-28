@@ -10,12 +10,6 @@ Make a string of text safe for use in a specified encoding.
 string VetText(LanguageType type, bool vertical, string text)string VetText(LanguageType type, bool vertical, string text, Func&lt;char, char&gt; substitute)
 ```
 
-[Visual Basic]
-
-```vb
-Function VetText(type As LanguageType, vertical As Bool, text As String) As StringFunction VetText(type As LanguageType, vertical As Bool, text As String, substitute as Func&lt;char, char&gt;) As String
-```
-
 ## Params
 
 | **Name** | **Description** |

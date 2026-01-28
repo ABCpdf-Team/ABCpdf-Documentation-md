@@ -10,12 +10,6 @@ Call the scanner using an owner and a content stream array.
 void Call(StreamObject owner, ArrayAtom contents)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Call(owner As StreamObject, contents As ArrayAtom)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -8,12 +8,6 @@
 virtual XRect GetRect()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function GetRect() As XRect
-```
-
 ## Params
 
 | **Name** | **Description** |

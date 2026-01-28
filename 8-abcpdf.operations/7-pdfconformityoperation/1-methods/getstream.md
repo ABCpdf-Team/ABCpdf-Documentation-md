@@ -10,12 +10,6 @@ Get the conforming document as raw data stream.
 Stream GetStream(Doc doc)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetStream(doc As Doc) As Stream
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Add pages to be processed.
 void AddPages()void AddPages(int pageNumber)void AddPages(int startPageNumber, int endPageNumber)
 ```
 
-[Visual Basic]
-
-```vb
-Sub AddPages()Sub AddPages(pageNumber As Integer)Sub AddPages(startPageNumber As Integer, endPageNumber As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

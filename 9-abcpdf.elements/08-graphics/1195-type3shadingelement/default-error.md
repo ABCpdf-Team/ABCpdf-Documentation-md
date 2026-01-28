@@ -1,0 +1,2 @@
+# Type3ShadingElement Class
+

@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | n/a | Yes | The text of the group. |
+|  | n/a | Yes | The text of the group. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ XpsImportOperation Constructor.
 <a href="../default.htm">XpsImportOperation</a>()
 ```
 
-[Visual Basic]
-
-```vb
-Sub New()
-```
-
 ## Params
 
 | **Name** | **Description** |

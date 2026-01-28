@@ -10,12 +10,6 @@ RenderOperation Constructor.
 RenderOperation(Doc doc)
 ```
 
-[Visual Basic]
-
-```vb
-Sub New(doc As Doc)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Saves a document to memory.
 byte[] GetData()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetData() As Byte()
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -72,25 +66,6 @@ Response.AddHeader("content-disposition", "inline; filename=MyPDF.PDF");
 Response.AddHeader("content-length", theData.Length.ToString());
 Response.BinaryWrite(theData);
 Response.End();
-%>
-```
-
-[Visual Basic]
-
-```vb
-<% @Page Language="Visual Basic" %>
-<% @Import Namespace=" WebSupergoo.ABCpdf13" %>
-<%
-Dim theDoc As Doc = New Doc()
-theDoc.FontSize = 96
-theDoc.AddText("Hello World")
-Dim theData() As Byte = theDoc.GetData()
-Response.Clear()
-Response.ContentType = "application/pdf"
-Response.AddHeader("content-disposition", "inline; filename=MyPDF.PDF")
-Response.AddHeader("content-length", theData.Length.ToString())
-Response.BinaryWrite(theData)
-Response.End()
 %>
 ```
 

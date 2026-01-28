@@ -10,12 +10,6 @@ Adds the elements in the supplied array at the end of this array
 void AddRange(<a href="../default.htm">ArrayAtom</a> array)
 ```
 
-[Visual Basic]
-
-```vb
-Sub AddRange(array As <a href="../default.htm">ArrayAtom</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

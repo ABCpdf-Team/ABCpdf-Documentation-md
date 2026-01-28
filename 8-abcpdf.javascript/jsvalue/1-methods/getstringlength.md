@@ -10,12 +10,6 @@ Gets the length of this string.
 int GetStringLength()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetStringLength() As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

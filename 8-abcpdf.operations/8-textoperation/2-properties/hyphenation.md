@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Whether to de-hyphenate words that appear to be split across two lines. |
+|  | true | No | Whether to de-hyphenate words that appear to be split across two lines. |
 
 ## Notes
 

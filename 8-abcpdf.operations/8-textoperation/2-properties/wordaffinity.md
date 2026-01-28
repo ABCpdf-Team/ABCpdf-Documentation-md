@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double` | 0.15 | No | The minimum distance at which two fragments will be assumed to be part of one undivided word. |
+|  | 0.15 | No | The minimum distance at which two fragments will be assumed to be part of one undivided word. |
 
 ## Notes
 

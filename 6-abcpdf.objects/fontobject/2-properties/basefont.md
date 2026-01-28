@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | n/a | Yes | The PostScript name of the font. |
+|  | n/a | Yes | The PostScript name of the font. |
 
 ## Notes
 

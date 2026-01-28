@@ -8,12 +8,6 @@
 virtual void ProcessItem(IndirectObject owner, ArrayAtom contents, string op, int pos)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ProcessItem(owner As IndirectObject, contents As ArrayAtom, op As string, pos As int) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

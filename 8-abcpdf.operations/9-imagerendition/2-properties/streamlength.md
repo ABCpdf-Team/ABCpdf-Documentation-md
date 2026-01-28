@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int` | n/a | Yes | The length within the uncompressed StreamObject of the drawing operation that contains this image draw operation. |
+|  | n/a | Yes | The length within the uncompressed StreamObject of the drawing operation that contains this image draw operation. |
 
 ## Notes
 

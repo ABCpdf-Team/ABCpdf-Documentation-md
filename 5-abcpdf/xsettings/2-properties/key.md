@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | None | Yes | A trial license key used for remote deployment. |
+|  | None | Yes | A trial license key used for remote deployment. |
 
 ## Notes
 

@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#]void VectorizeText()[Visual Basic]Sub VectorizeText()
+[C#]void VectorizeText()
 
 may throw Exception()
 
@@ -16,5 +16,5 @@ Note that pages may sometimes share content with other pages. If this is the cas
 
 ## Example
 
-[C#] using var doc = new Doc(); doc.FontSize = 96; doc.AddText("Hello World"); foreach (var page in doc.ObjectSoup.Catalog.Pages.GetPageArrayAll()) page.VectorizeText(); doc.Save(Server.MapPath("VectorizedText.pdf")); [Visual Basic] Using doc As New Doc() doc.FontSize = 96 doc.AddText("Hello World") For Each page As Page In doc.ObjectSoup.Catalog.Pages.GetPageArrayAll() page.VectorizeText() Next doc.Save(Server.MapPath("VectorizedText.pdf")) End Using
+[C#] using var doc = new Doc(); doc.FontSize = 96; doc.AddText("Hello World"); foreach (var page in doc.ObjectSoup.Catalog.Pages.GetPageArrayAll()) page.VectorizeText(); doc.Save("VectorizedText.pdf");
 

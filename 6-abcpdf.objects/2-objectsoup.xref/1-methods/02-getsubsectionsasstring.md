@@ -10,12 +10,6 @@ Returns the cross-reference subsections as a string.
 string GetSubsectionsAsString()
 ```
 
-[Visual Basic]
-
-```vb
-Sub GetSubsectionsAsString() As string
-```
-
 ## Params
 
 | **Name** | **Description** |

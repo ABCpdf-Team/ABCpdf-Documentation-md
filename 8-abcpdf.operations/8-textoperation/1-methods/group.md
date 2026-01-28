@@ -10,12 +10,6 @@ Group a range of text fragments into a set of lines.
 IList&lt;<a href="../../8-textgroup/default.htm">TextGroup</a>&gt; Group(List&lt;<a href="../../8-textfragment/default.htm">TextFragment</a>&gt; fragments)
 ```
 
-[Visual Basic]
-
-```vb
-Function Group(fragments As List&lt;<a href="../../8-textfragment/default.htm">TextFragment</a>&gt;) As IList&lt;<a href="../../8-textgroup/default.htm">TextGroup</a>&gt;
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -38,8 +32,8 @@ Here we highlight a set of words in a source document by drawing a rectangle aro
 [C#]
 
 ```csharp
-string src = Server.MapPath("mypics/Acrobat.pdf");
-string dst = Server.MapPath("HighlightedText.pdf");
+string src = "../mypics/Acrobat.pdf";
+string dst = "HighlightedText.pdf";
 string searchString = "Acrobat";
 using var doc = new Doc();
 doc.Read(src);
@@ -60,34 +54,5 @@ while (true) {
   pos += searchString.Length;
 }
 doc.Save(dst);
-```
-
-[Visual Basic]
-
-```vb
-Dim theSrc As String = Server.MapPath("mypics/Acrobat.pdf")
-Dim theDst As String = Server.MapPath("HighlightedText.pdf")
-Dim searchString As String = "Acrobat"
-Using doc As New Doc()
-  doc.Read(theSrc)
-  Dim op As New TextOperation(doc)
-  op.PageContents.AddPages()
-  Dim text As String = op.GetText()
-  Dim pos As Integer = 0
-  While True
-    pos = text.IndexOf(searchString, pos, StringComparison.CurrentCultureIgnoreCase)
-    If pos < 0 Then
-      Exit While
-    End If
-    Dim theSelection As IList(Of TextFragment) = op.[Select](pos, searchString.Length)
-    Dim theGroups As IList(Of TextGroup) = op.Group(theSelection)
-    For Each theGroup As TextGroup In theGroups
-      doc.Rect.String = theGroup.Rect.[String]
-      doc.FrameRect()
-    Next
-    pos += searchString.Length
-  End While
-  doc.Save(theDst)
-End Using
 ```
 

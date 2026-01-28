@@ -10,12 +10,6 @@ Attempts to convert a DictAtom into a Dictionary of doubles, resolving any refer
 virtual Dictionary&lt;string, double&gt; ToDoubleDictionary(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom, double def)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ToDoubleDictionary(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, def As double) As Dictionary&lt;string, Double&gt;
-```
-
 ## Params
 
 | **Name** | **Description** |

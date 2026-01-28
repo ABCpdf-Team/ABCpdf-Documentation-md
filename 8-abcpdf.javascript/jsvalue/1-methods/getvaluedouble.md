@@ -10,12 +10,6 @@ Gets the Double value of this value converted to number using the standard JavaS
 double GetValueDouble()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetValueDouble() As Double
-```
-
 ## Params
 
 | **Name** | **Description** |

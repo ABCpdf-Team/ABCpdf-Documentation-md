@@ -10,12 +10,6 @@ Gets the full names of all the fields in the document.
 string[] GetFieldNames()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetFieldNames() As String()
-```
-
 ## Params
 
 | **Name** | **Description** |

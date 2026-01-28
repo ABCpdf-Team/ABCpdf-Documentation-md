@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] DictAtom.Enumerator GetEnumerator() [Visual Basic] Function GetEnumerator() As DictAtom.Enumerator
+[C#] DictAtom.Enumerator GetEnumerator()
 
 ## Params
 

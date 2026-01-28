@@ -20,7 +20,7 @@ Instead you want something more like one of these,
 
 The following code creates a PDF document containing a number of concentric frames.
 
-[C#] using var doc = new Doc(); doc.Rect.String = "50 50 550 550"; for (int i = 1; i <= 20; i++) { doc.FrameRect(); doc.Rect.Inset(20, 20); } doc.Save(Server.MapPath("docrect.pdf")); [Visual Basic] Using doc As New Doc() doc.Rect.String = "50 50 550 550" Dim i As Integer = 1 While i <= 20 doc.FrameRect() doc.Rect.Inset(20, 20) System.Math.Max(System.Threading.Interlocked.Increment(i),i - 1) End While doc.Save(Server.MapPath("docrect.pdf")) End Using
+[C#] using var doc = new Doc(); doc.Rect.String = "50 50 550 550"; for (int i = 1; i <= 20; i++) { doc.FrameRect(); doc.Rect.Inset(20, 20); } doc.Save("docrect.pdf");
 
 docrect.pdf
 

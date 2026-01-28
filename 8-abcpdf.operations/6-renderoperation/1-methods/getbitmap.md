@@ -10,12 +10,6 @@ Renders a page into a bitmap.
 System.Drawing.Bitmap GetBitmap()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetData(name As String) As Byte()
-```
-
 ## Params
 
 | **Name** | **Description** |

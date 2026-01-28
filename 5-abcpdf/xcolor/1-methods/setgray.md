@@ -10,12 +10,6 @@ Set the color to a grayscale value.
 void SetGray(int gray)void SetGray(int gray, int alpha)void SetGray(double gray)void SetGray(double gray, double alpha)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetGray(gray As Integer)Sub SetGray(gray As Integer, alpha as Integer)Sub SetGray(gray As Double)Sub SetGray(gray As Double, alpha as Double)
-```
-
 ## Params
 
 | **Name** | **Description** |

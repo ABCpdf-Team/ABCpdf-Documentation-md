@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int` | n/a | Yes | The offset to the the Text of this fragment. |
+|  | n/a | Yes | The offset to the the Text of this fragment. |
 
 ## Notes
 

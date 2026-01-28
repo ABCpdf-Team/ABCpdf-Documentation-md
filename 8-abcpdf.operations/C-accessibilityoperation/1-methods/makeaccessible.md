@@ -10,12 +10,6 @@ Tags the document for accessibility.
 void MakeAccessible()
 ```
 
-[Visual Basic]
-
-```vb
-Sub MakeAccessible()
-```
-
 ## Params
 
 | **Name** | **Description** |

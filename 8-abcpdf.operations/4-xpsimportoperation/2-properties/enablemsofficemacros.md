@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | false | No | Whether to enable macros when opening MS Office documents. |
+|  | false | No | Whether to enable macros when opening MS Office documents. |
 
 ## Notes
 

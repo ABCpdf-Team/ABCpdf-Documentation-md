@@ -16,7 +16,7 @@ Text alignment is determined by the TextStyle.HPos and TextStyle.VPos properties
 
 In this example we add two blocks of text to a document. The first is added with no justification and the second is added with a justification factor of one.
 
-[C#] using var doc = new Doc(); string text = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur."; doc.Rect.Inset(20, 40); doc.TextStyle.Size = 48; doc.AddText(text); doc.Rect.Move(0, -350); doc.TextStyle.Justification = 1.0; doc.AddText(text); doc.Save(Server.MapPath("stylejustification.pdf")); [Visual Basic] Using doc As New Doc() Dim theText As String = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur." doc.Rect.Inset(20, 40) doc.TextStyle.Size = 48 doc.AddText(theText) doc.Rect.Move(0, -350) doc.TextStyle.Justification = 1.0 doc.AddText(theText) doc.Save(Server.MapPath("stylejustification.pdf")) End Using
+[C#] using var doc = new Doc(); string text = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur."; doc.Rect.Inset(20, 40); doc.TextStyle.Size = 48; doc.AddText(text); doc.Rect.Move(0, -350); doc.TextStyle.Justification = 1.0; doc.AddText(text); doc.Save("stylejustification.pdf");
 
 stylejustification.pdf
 

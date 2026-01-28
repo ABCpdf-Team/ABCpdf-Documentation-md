@@ -10,12 +10,6 @@ Skew horizontally and vertically about a locked anchor point.
 void Skew(double skewX, double skewY, double anchorX, double anchorY)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Skew(skewX As Double, skewY As Double, anchorX As Double, anchorY As Double)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -47,24 +41,7 @@ doc.FrameRect();
 doc.Transform.Skew(1.5, 1.5, 20, 20);
 doc.Color.String = "255 0 0"; // red
 doc.FrameRect();
-doc.Save(Server.MapPath("transformskew.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Rect.Width = 200
-  doc.Rect.Height = 250
-  doc.Rect.Position(20, 20)
-  doc.Width = 20
-  doc.FrameRect()
-  doc.Transform.Skew(1.5, 1.5, 20, 20)
-  doc.Color.String = "255 0 0"
-  ' red
-  doc.FrameRect()
-  doc.Save(Server.MapPath("transformskew.pdf"))
-End Using
+doc.Save("transformskew.pdf");
 ```
 
 ![](../../../images/pdf/transformskew.pdf.png)

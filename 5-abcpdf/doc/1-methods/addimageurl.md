@@ -10,12 +10,6 @@ Renders a web page specified by URL.
 int AddImageUrl(string url)int AddImageUrl(string url, bool paged, int width, bool disableCache)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddImageUrl(url As String) As IntegerFunction AddImageUrl(url As String, paged As Boolean, width As Integer, disableCache As Boolean) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -67,16 +61,7 @@ We create an ABCpdf Doc object, add our URL and save. That's it!
 ```csharp
 using var doc = new Doc();
 doc.AddImageUrl("http://www.google.com/");
-doc.Save(Server.MapPath("htmlimport.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.AddImageUrl("http://www.google.com/")
-  doc.Save(Server.MapPath("htmlimport.pdf"))
-End Using
+doc.Save("htmlimport.pdf");
 ```
 
 ![](../../../images/pdf/htmlimport.pdf.png)

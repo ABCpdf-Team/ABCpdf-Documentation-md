@@ -10,12 +10,6 @@ Recolor pages in a document.
 void Recolor(Doc doc)void Recolor(Pages pages)void Recolor(Page page)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Recolor(doc As Doc)Sub Recolor(pages As Pages)Sub Recolor(page As Page)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -49,19 +43,9 @@ Here we recolor one page out of a document. We pick up the [ProcessingObject](1-
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("../mypics/sample.pdf"));
+doc.Read("../mypics/sample.pdf");
 MyOp.Recolor(doc, (Page)doc.ObjectSoup[doc.Page]);
-doc.Save(Server.MapPath("RecolorOperation.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("../mypics/sample.pdf"))
-  MyOp.Recolor(doc, DirectCast(doc.ObjectSoup(doc.Page), Page))
-  doc.Save(Server.MapPath("RecolorOperation.pdf"))
-End Using
+doc.Save("RecolorOperation.pdf");
 ```
 
 Also see example code in: [RecolorOperation IccCmyk Property](2-properties/icccmyk.md).

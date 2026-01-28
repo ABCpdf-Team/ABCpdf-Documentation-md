@@ -10,12 +10,6 @@ Create an XColor from a grayscale value.
 static <a href="../default.htm">XColor</a> FromGray(int gray)static <a href="../default.htm">XColor</a> FromGray(double gray)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromGray(gray As Integer) As <a href="../default.htm">XColor</a>Shared Function FromGray(gray As Double) As <a href="../default.htm">XColor</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

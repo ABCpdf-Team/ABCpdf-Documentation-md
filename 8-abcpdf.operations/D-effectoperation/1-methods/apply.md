@@ -10,12 +10,6 @@ Apply the effect to an image.
 void Apply(PixMap pixMap)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Apply(pixMap As PixMap)
-```
-
 ## Params
 
 | **Name** | **Description** |

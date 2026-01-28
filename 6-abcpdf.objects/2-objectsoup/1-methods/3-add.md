@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] int Add(IndirectObject value) [Visual Basic] Function Add(value As IndirectObject) As Integer
+[C#] int Add(IndirectObject value)
 
 ## Params
 

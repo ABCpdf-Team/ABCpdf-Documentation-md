@@ -10,12 +10,6 @@ Add a particular set of Layer objects from a particular Page
 void AddLayers(<a href="../../../6-abcpdf.objects/page/default.htm">Page</a> page, <a href="../../../6-abcpdf.objects/layer/default.htm">Layer</a>[] layers)
 ```
 
-[Visual Basic]
-
-```vb
-Sub AddLayers(page As <a href="../../../6-abcpdf.objects/page/default.htm">Page</a>, layers() As <a href="../../../6-abcpdf.objects/layer/default.htm">Layer</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

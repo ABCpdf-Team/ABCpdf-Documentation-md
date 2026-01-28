@@ -10,12 +10,6 @@ Position the bottom left of the rectangle.
 void Position(double x, double y)void Position(double x, double y, Corner corner)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Position(x As Double, y As Double)Sub Position(x As Double, y As Double, corner As Corner)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -43,17 +37,6 @@ Response.Write($"Rect = {rc}");
 Response.Write("&lt;br&gt;");
 rc.Position(50, 50);
 Response.Write($"Pos. = {rc}");
-```
-
-[Visual Basic]
-
-```vb
-Dim rc As New XRect()
-rc.String = "20 20 220 120"
-Response.Write($"Rect = {rc}")
-Response.Write("&lt;br&gt;")
-rc.Position(50, 50)
-Response.Write($"Pos. = {rc}")
 ```
 
 Also see example code in:

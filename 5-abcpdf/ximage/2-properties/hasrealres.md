@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | See description. | Yes | Whether the image specifies the resolution. |
+|  | See description. | Yes | Whether the image specifies the resolution. |
 
 ## Notes
 

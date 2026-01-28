@@ -10,12 +10,6 @@ EffectOperation Constructor
 <a href="../default.htm">EffectOperation</a>(string name)
 ```
 
-[Visual Basic]
-
-```vb
-New(name As String)
-```
-
 ## Params
 
 | **Name** | **Description** |

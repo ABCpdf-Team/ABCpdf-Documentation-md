@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `PdfConformity` | None | No | The PDF conformity. |
+|  | None | No | The PDF conformity. |
 
 ## Notes
 

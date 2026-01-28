@@ -10,12 +10,6 @@ Add stamp annotation to the current page of the doc.
 <a href="../default.htm">StampAnnotation</a>(Doc doc, XRect rect, string caption, XColor color)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">StampAnnotation</a>(doc As Doc, rect As XRect, caption As string, color As XColor)
-```
-
 ## Params
 
 | **Name** | **Description** |

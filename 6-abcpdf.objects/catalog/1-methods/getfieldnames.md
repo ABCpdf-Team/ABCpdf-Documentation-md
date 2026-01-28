@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] string[] GetFieldNames() [Visual Basic] Function GetFieldNames() As String()
+[C#] string[] GetFieldNames()
 
 ## Params
 

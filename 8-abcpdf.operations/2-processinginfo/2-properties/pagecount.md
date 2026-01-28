@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int?` | n/a | Yes | Gets the number of pages in the source object. |
+|  | n/a | Yes | Gets the number of pages in the source object. |
 
 ## Notes
 

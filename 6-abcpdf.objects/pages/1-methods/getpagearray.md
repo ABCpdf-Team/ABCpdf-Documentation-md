@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] Page[] GetPageArray() [Visual Basic] Function GetPageArray() As Page()
+[C#] Page[] GetPageArray()
 
 ## Params
 

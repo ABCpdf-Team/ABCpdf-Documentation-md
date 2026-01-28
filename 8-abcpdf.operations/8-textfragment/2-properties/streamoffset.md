@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int` | n/a | Yes | The offset within the content stream to the start of the drawing operation that contains this fragment. |
+|  | n/a | Yes | The offset within the content stream to the start of the drawing operation that contains this fragment. |
 
 ## Notes
 

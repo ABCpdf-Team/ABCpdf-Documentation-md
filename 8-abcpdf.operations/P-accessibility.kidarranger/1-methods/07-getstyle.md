@@ -10,12 +10,6 @@ Gets the text style for this structure element.
 GetStyle(this StructureElementElement element)
 ```
 
-[Visual Basic]
-
-```vb
-GetStyle(this StructureElementElement element)
-```
-
 ## Params
 
 | **Name** | **Description** |

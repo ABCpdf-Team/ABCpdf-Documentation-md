@@ -3,7 +3,7 @@ Property
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int` | 60000 | No | Gets or sets the timeout in milliseconds for external components. |
+|  | 60000 | No | Gets or sets the timeout in milliseconds for external components. |
 
 ## Notes
 

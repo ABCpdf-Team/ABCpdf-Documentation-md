@@ -10,12 +10,6 @@ Creates a JavaScript object.
 JSValue CreateObject()
 ```
 
-[Visual Basic]
-
-```vb
-Function CreateObject() As JSValue
-```
-
 ## Params
 
 | **Name** | **Description** |

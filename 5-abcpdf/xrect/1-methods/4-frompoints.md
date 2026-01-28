@@ -10,12 +10,6 @@ Create the smallest XRect that encloses all the points supplied.
 static <a href="../default.htm">XRect</a> FromPoints(<a href="../../xpoint/default.htm">XPoint</a> points)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromPoints(points As <a href="../../xpoint/default.htm">XPoint</a>) As <a href="../default.htm">XRect</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

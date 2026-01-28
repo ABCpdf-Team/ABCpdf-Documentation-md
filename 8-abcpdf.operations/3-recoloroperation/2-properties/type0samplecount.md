@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `Type0SampleCount` | 64 | No | Gets or sets the number of Type 0 function samples to generate (between 64 and 1000). |
+|  | 64 | No | Gets or sets the number of Type 0 function samples to generate (between 64 and 1000). |
 
 ## Notes
 

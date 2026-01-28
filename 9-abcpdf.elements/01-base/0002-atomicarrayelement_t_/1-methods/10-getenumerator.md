@@ -10,12 +10,6 @@ Returns an enumerator that iterates through the collection.
 virtual IEnumerator&lt;T&gt; GetEnumerator()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function GetEnumerator() As IEnumerator&lt;T&gt;
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Whether to resize and recompress images where possible. |
+|  | true | No | Whether to resize and recompress images where possible. |
 
 ## Notes
 

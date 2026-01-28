@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int` | 0 | No | The one-based document number used by ImportAny. |
+|  | 0 | No | The one-based document number used by ImportAny. |
 
 ## Notes
 

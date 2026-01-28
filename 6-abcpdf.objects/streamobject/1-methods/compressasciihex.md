@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] bool CompressAsciiHex() bool CompressAsciiHex(bool force) [Visual Basic] Sub CompressAsciiHex() As Boolean Sub CompressAsciiHex(force As Boolean) As Boolean
+[C#] bool CompressAsciiHex() bool CompressAsciiHex(bool force)
 
 ## Params
 

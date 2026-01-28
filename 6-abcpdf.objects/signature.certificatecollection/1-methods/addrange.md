@@ -10,12 +10,6 @@ Adds the certificate objects to this collection for those whose values are not a
 int AddRange(X509Certificate2[] certs)int AddRange(<a href="../default.htm">Signature.CertificateCollection</a> certs)int AddRange(<a href="../default.htm">Signature.CertificateCollection</a> certs, int startIndex, int count)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddRange(certs() As X509Certificate2) As IntegerFunction AddRange(certs As <a href="../default.htm">Signature.CertificateCollection</a>) As IntegerFunction AddRange(certs As <a href="../default.htm">Signature.CertificateCollection</a>, startIndex As Integer, count As Integer) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

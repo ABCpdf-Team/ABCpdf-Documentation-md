@@ -11,12 +11,6 @@ Extract an image from  data and add it to the current
 int AddImageData(byte[] data)int AddImageData(byte[] data, int frame)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddImageData(data() As Byte) As IntegerFunction AddImageData(data() As Byte, frame As Integer) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

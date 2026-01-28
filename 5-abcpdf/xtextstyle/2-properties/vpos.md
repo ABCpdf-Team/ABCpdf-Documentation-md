@@ -12,7 +12,7 @@ To horizontally align text use the HPos property. To justify text use the Justif
 
 The following code adds two blocks of text to a document. The first block is bottom aligned and the second is top aligned. Before adding the text we change the current rectangle and frame it so that you can see how the text is aligned.
 
-[C#] using var doc = new Doc(); doc.FontSize = 96; doc.Rect.Magnify(1.0, 0.5); doc.Rect.Inset(40, 40); doc.FrameRect(); doc.AddText("Top aligned text..."); doc.Rect.Move(0, doc.Rect.Height + 80); doc.FrameRect(); doc.TextStyle.VPos = 1.0; doc.AddText("Bottom aligned text..."); doc.Save(Server.MapPath("docvpos.pdf")); [Visual Basic] Using doc As New Doc() doc.FontSize = 96 doc.Rect.Magnify(1.0, 0.5) doc.Rect.Inset(40, 40) doc.FrameRect() doc.AddText("Top aligned text...") doc.Rect.Move(0, doc.Rect.Height + 80) doc.FrameRect() doc.TextStyle.VPos = 1.0 doc.AddText("Bottom aligned text...") doc.Save(Server.MapPath("docvpos.pdf")) End Using
+[C#] using var doc = new Doc(); doc.FontSize = 96; doc.Rect.Magnify(1.0, 0.5); doc.Rect.Inset(40, 40); doc.FrameRect(); doc.AddText("Top aligned text..."); doc.Rect.Move(0, doc.Rect.Height + 80); doc.FrameRect(); doc.TextStyle.VPos = 1.0; doc.AddText("Bottom aligned text..."); doc.Save("docvpos.pdf");
 
 docvpos.pdf
 

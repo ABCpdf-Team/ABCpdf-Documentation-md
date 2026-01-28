@@ -10,12 +10,6 @@ Add circle annotation to the current page of the doc.
 <a href="../default.htm">CircleAnnotation</a>(Doc doc, XRect rect, XColor borderColor, string XColor)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">CircleAnnotation</a>(doc As Doc, rect As XRect, borderColor As XColor, fillColor As XColor)
-```
-
 ## Params
 
 | **Name** | **Description** |

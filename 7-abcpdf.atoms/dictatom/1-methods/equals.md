@@ -10,12 +10,6 @@ Test whether the two DictAtoms are the same
 bool Equals(<a href="../default.htm">DictAtom</a> other)
 ```
 
-[Visual Basic]
-
-```vb
-Function Equals(other As <a href="../default.htm">DictAtom</a>) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

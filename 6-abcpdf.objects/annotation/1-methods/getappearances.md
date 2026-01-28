@@ -10,12 +10,6 @@ Gets all the appearances of the annotation.
 virtual List&lt;FormXObject&gt; GetAppearances()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function GetAppearances() As List(Of FormXObject)
-```
-
 ## Params
 
 | **Name** | **Description** |

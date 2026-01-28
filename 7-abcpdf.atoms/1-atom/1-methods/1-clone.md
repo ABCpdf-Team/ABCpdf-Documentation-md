@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] Atom Clone() [Visual Basic] Function Clone() As Atom
+[C#] Atom Clone()
 
 ## Params
 

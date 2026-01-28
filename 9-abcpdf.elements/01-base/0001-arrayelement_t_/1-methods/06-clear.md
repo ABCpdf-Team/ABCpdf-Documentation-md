@@ -8,12 +8,6 @@
 virtual void Clear()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Clear() As void
-```
-
 ## Params
 
 | **Name** | **Description** |

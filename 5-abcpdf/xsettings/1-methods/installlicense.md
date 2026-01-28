@@ -10,12 +10,6 @@ Install a  license.
 bool InstallLicense(string license)
 ```
 
-[Visual Basic]
-
-```vb
-Function InstallLicense(license As String) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

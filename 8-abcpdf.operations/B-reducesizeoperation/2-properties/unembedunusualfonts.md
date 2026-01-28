@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | false | No | Whether to unembed embedded fonts that do not have an obvious substitute on the local machine. |
+|  | false | No | Whether to unembed embedded fonts that do not have an obvious substitute on the local machine. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ Stamp this annotation into the page.
 void Stamp()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Stamp()
-```
-
 ## Params
 
 | **Name** | **Description** |

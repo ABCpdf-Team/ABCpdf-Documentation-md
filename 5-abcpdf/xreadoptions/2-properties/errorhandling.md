@@ -3,7 +3,7 @@ Property
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `ErrorHandlingType` | OutputUntilError | No | The error handling behavior. |
+|  | OutputUntilError | No | The error handling behavior. |
 
 ## Notes
 

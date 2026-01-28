@@ -1,0 +1,2 @@
+# DocumentCatalogAdditionalActionsElement Class
+

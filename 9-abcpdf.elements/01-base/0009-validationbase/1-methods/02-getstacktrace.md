@@ -10,12 +10,6 @@ Gets the stack trace.
 virtual string GetStackTrace()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function GetStackTrace() As string
-```
-
 ## Params
 
 | **Name** | **Description** |

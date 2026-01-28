@@ -10,12 +10,6 @@ Specify whether to use Windows themes or not.
 void SetTheme(bool useTheme)void SetTheme(bool useTheme, bool noTheme)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetTheme(useTheme As Boolean)Sub SetTheme(useTheme As Boolean, noTheme As Boolean)
-```
-
 ## Params
 
 | **Name** | **Description** |

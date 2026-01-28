@@ -10,12 +10,6 @@ Dispose of the object.
 void Dispose()void Dispose(out <a href="../../xreadoptions/default.htm">XReadOptions</a> outOptions, out Stream outStream)protected void Dispose(bool disposing)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Dispose()Sub Dispose(&lt;Out&gt; ByRef outOption As <a href="../../xreadoptions/default.htm">XReadOptions</a>, &lt;Out&gt; ByRef outStream As Stream)Protected Sub Dispose(disposing As Boolean)
-```
-
 ## Params
 
 | **Name** | **Description** |

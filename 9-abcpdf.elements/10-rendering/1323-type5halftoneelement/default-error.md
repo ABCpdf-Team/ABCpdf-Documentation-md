@@ -1,0 +1,2 @@
+# Type5HalftoneElement Class
+

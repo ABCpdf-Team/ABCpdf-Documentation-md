@@ -10,12 +10,6 @@ Retrieves the client side onload script return value.
 string GetScriptReturn(int id)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetScriptReturn(id As Integer) As String
-```
-
 ## Params
 
 | **Name** | **Description** |

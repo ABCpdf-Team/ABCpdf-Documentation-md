@@ -14,7 +14,7 @@ You may find it easier to work with .NET Rectangles than PDF rectangles. However
 
 The following code adds two blocks of text to a document. The positioning is done using standard .NET Rectangles.
 
-[C#] using var doc = new Doc(); doc.FontSize = 96; var rc = doc.MediaBox.Rectangle; rc.Inflate(-50, -50); rc.Height = 250; doc.Rect.Rectangle = rc; doc.FrameRect(); doc.AddText("First Rectangle..."); rc.Offset(0, 300); doc.Rect.Rectangle = rc; doc.FrameRect(); doc.AddText("Second Rectangle..."); doc.Save(Server.MapPath("xrectrectangle.pdf")); [Visual Basic] Using doc As New Doc() doc.FontSize = 96 Dim rc As Rectangle = doc.MediaBox.Rectangle rc.Inflate(-50, -50) rc.Height = 250 doc.Rect.Rectangle = rc doc.FrameRect() doc.AddText("First Rectangle...") rc.Offset(0, 300) doc.Rect.Rectangle = rc doc.FrameRect() doc.AddText("Second Rectangle...") doc.Save(Server.MapPath("xrectrectangle.pdf")) End Using
+[C#] using var doc = new Doc(); doc.FontSize = 96; var rc = doc.MediaBox.Rectangle; rc.Inflate(-50, -50); rc.Height = 250; doc.Rect.Rectangle = rc; doc.FrameRect(); doc.AddText("First Rectangle..."); rc.Offset(0, 300); doc.Rect.Rectangle = rc; doc.FrameRect(); doc.AddText("Second Rectangle..."); doc.Save("xrectrectangle.pdf");
 
 xrectrectangle.pdf
 

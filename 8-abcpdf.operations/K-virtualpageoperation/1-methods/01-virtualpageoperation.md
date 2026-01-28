@@ -8,12 +8,6 @@
 <a href="../default.htm">VirtualPageOperation</a>(Doc doc)<a href="../default.htm">VirtualPageOperation</a>(Doc doc, double width, double height)<a href="../default.htm">VirtualPageOperation</a>(Doc doc, XRect rect)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">VirtualPageOperation</a>(doc As Doc)<a href="../default.htm">VirtualPageOperation</a>(doc As Doc, width As double, height As double)<a href="../default.htm">VirtualPageOperation</a>(doc As Doc, rect As XRect)
-```
-
 ## Params
 
 | **Name** | **Description** |

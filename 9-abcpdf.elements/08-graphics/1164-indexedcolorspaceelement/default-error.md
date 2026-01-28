@@ -1,0 +1,2 @@
+# IndexedColorSpaceElement Class
+

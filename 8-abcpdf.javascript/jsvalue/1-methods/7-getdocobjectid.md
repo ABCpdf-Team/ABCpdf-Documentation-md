@@ -10,12 +10,6 @@ Gets the object ID of the IndirectObject in the PDF document.
 int GetDocObjectID()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetDocObjectID() As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

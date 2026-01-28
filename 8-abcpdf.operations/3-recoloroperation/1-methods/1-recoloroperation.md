@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] RecolorOperation() [Visual Basic] Sub New()
+[C#] RecolorOperation()
 
 ## Params
 

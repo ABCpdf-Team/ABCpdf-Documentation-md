@@ -12,7 +12,7 @@ The ABCChrome engine relies on JavaScript for this feature, so if you set the Us
 
 The following example shows the effect that this parameter has on HTML rendering.
 
-[C#] using var doc = new Doc(); // Covert html form fields to the pdf form fields in the output file doc.HtmlOptions.AddForms = true; int id = doc.AddImageUrl("https://www.nasa.gov/forms/submit-a-question-for-nasa/"); // Save the document doc.Save(Server.MapPath("HtmlOptionsAddForms.pdf")); [Visual Basic] Using doc As New Doc() ' Covert html form fields to the pdf form fields in the output file doc.HtmlOptions.AddForms = True Dim id As Integer = doc.AddImageUrl("https://www.websupergoo.com/thank-you-for-downloading.aspx") ' Save the document doc.Save(Server.MapPath("HtmlOptionsAddForms.pdf")) End Using
+[C#] using var doc = new Doc(); // Covert html form fields to the pdf form fields in the output file doc.HtmlOptions.AddForms = true; int id = doc.AddImageUrl("https://www.nasa.gov/forms/submit-a-question-for-nasa/"); // Save the document doc.Save("HtmlOptionsAddForms.pdf");
 
 HtmlOptionsAddForms.pdf
 

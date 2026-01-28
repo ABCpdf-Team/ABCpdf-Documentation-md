@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double?` | n/a | Yes | Gets the number of frames per second for the source object. |
+|  | n/a | Yes | Gets the number of frames per second for the source object. |
 
 ## Notes
 

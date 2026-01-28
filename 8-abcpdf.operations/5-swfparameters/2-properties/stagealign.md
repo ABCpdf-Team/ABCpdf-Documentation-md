@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `ContentAlign?` | null | No | The stage alignment. |
+|  | null | No | The stage alignment. |
 
 ## Notes
 

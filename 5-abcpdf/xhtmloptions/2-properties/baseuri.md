@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | "" | No | The base URL to use for all relative URLs in the page. |
+|  | "" | No | The base URL to use for all relative URLs in the page. |
 
 ## Notes
 

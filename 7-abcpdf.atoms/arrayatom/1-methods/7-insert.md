@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void Insert(int index, Atom value) [Visual Basic] Sub Insert(index As Integer, value As Atom)
+[C#] void Insert(int index, Atom value)
 
 may throw ArgumentOutOfRangeException()
 

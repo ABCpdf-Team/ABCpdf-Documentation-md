@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | null | No | The conformance version identifier. |
+|  | null | No | The conformance version identifier. |
 
 ## Notes
 

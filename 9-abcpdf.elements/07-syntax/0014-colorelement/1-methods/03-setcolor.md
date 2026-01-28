@@ -8,12 +8,6 @@
 virtual XColor SetColor(XColor color)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function SetColor(color As XColor) As XColor
-```
-
 ## Params
 
 | **Name** | **Description** |

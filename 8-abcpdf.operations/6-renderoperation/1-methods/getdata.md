@@ -10,12 +10,6 @@ Renders a page into an array of bytes.
 byte[] GetData(string name)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetData(name As String) As Byte()
-```
-
 ## Params
 
 | **Name** | **Description** |

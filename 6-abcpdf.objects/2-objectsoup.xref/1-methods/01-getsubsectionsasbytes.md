@@ -10,12 +10,6 @@ Returns the cross-reference subsections as a byte array.
 byte[] GetSubsectionsAsBytes()
 ```
 
-[Visual Basic]
-
-```vb
-Sub GetSubsectionsAsBytes() As Byte[]
-```
-
 ## Params
 
 | **Name** | **Description** |

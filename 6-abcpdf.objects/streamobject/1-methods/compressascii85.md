@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] bool CompressAscii85() bool CompressAscii85(bool force) [Visual Basic] Sub CompressAscii85() As Boolean Sub CompressAscii85(force As Boolean) As Boolean
+[C#] bool CompressAscii85() bool CompressAscii85(bool force)
 
 ## Params
 

@@ -8,12 +8,6 @@
 virtual bool MoveNext()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function MoveNext() As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

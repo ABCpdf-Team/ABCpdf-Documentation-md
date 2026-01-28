@@ -10,12 +10,6 @@ Lock document fields to stop them being modified.
 void LockFields()
 ```
 
-[Visual Basic]
-
-```vb
-Sub LockFields()
-```
-
 ## Params
 
 | **Name** | **Description** |

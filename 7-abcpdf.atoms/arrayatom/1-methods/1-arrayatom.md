@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] ArrayAtom() [Visual Basic] Sub New()
+[C#] ArrayAtom()
 
 ## Params
 

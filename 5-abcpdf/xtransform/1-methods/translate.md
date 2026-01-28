@@ -10,12 +10,6 @@ Translate horizontally and vertically.
 void Translate(double x, double y)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Translate(x As Double, y As Double)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -43,24 +37,7 @@ doc.FrameRect();
 doc.Transform.Translate(200, 200);
 doc.Color.String = "255 0 0"; // red
 doc.FrameRect();
-doc.Save(Server.MapPath("transformtranslate.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Rect.Width = 200
-  doc.Rect.Height = 250
-  doc.Rect.Position(100, 100)
-  doc.Width = 20
-  doc.FrameRect()
-  doc.Transform.Translate(200, 200)
-  doc.Color.String = "255 0 0"
-  ' red
-  doc.FrameRect()
-  doc.Save(Server.MapPath("transformtranslate.pdf"))
-End Using
+doc.Save("transformtranslate.pdf");
 ```
 
 ![](../../../images/pdf/transformtranslate.pdf.png)

@@ -10,12 +10,6 @@ Renders the current area of the current page to memory.
 byte[] GetData(string name)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetData(name As String) As Byte()
-```
-
 ## Params
 
 | **Name** | **Description** |

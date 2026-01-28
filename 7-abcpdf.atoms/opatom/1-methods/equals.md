@@ -10,12 +10,6 @@ Test whether the two OpAtoms are the same
 bool Equals(<a href="../default.htm">OpAtom</a> other)
 ```
 
-[Visual Basic]
-
-```vb
-Function Equals(other As <a href="../default.htm">OpAtom</a>) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

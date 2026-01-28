@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | "" | No | Additional HTTP headers to send in the request. |
+|  | "" | No | Additional HTTP headers to send in the request. |
 
 ## Notes
 
@@ -49,49 +49,6 @@ doc.HtmlOptions.Engine = EngineType.MSHtml;
 doc.HtmlOptions.NoCookie = true;
 doc.HtmlOptions.PageLoadMethod = PageLoadMethodType.MonikerForHtml;
 int id = doc.AddImageUrl(url);
-doc.Save(Server.MapPath("HttpHeaders.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Dim url As String = "https://www.websupergoo.com/"
-  ' assign appropriate URL
-  Dim request As HttpWebRequest = DirectCast(WebRequest.Create(url), HttpWebRequest)
-  request.CookieContainer = New CookieContainer()
-  ' required for HttpWebResponse.Cookies
-  request.Credentials = Nothing
-  ' assign appropriate credentials
-  Using resp As WebResponse = request.GetResponse()
-    ' cookieless Forms Authentication adds authentication ticket to the URL
-    url = resp.ResponseUri.AbsoluteUri
-    Dim response As HttpWebResponse = DirectCast(resp, HttpWebResponse)
-    If response.Cookies.Count > 0 Then
-      ' includes ASP.NET_SessionId
-      Dim needsCookie2 As Boolean = False
-      Dim builder As New StringBuilder("Cookie: ")
-      Dim i As Integer = 0
-      While i < response.Cookies.Count
-        Dim cookie As Cookie = response.Cookies(i)
-        If Not needsCookie2 AndAlso cookie.Version <> 1 Then
-          needsCookie2 = True
-        End If
-        If i > 0 Then
-          builder.Append("; ")
-        End If
-        builder.Append(cookie.ToString())
-        System.Threading.Interlocked.Increment(i)
-      End While
-      builder.Append(If(Not needsCookie2, vbCr & vbLf, vbCr & vbLf & "Cookie2: $Version=1" & vbCr & vbLf))
-      doc.HtmlOptions.HttpAdditionalHeaders = builder.ToString()
-    End If
-  End Using
-  doc.HtmlOptions.Engine = EngineType.MSHtml
-  doc.HtmlOptions.NoCookie = True
-  doc.HtmlOptions.PageLoadMethod = PageLoadMethodType.MonikerForHtml
-  Dim id As Integer = doc.AddImageUrl(url)
-  doc.Save(Server.MapPath("HttpHeaders.pdf"))
-End Using
+doc.Save("HttpHeaders.pdf");
 ```
 

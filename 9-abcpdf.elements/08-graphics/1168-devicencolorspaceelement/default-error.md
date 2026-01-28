@@ -1,0 +1,2 @@
+# DeviceNColorSpaceElement Class
+

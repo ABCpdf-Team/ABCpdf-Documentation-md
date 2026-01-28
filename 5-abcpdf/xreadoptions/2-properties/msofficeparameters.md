@@ -3,7 +3,7 @@ Property
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `Dictionary&lt;string, string&gt;` | n/a | No | MS Office PDF conversion control parameters. |
+|  | n/a | No | MS Office PDF conversion control parameters. |
 
 ## Notes
 

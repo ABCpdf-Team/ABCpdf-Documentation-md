@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `UnitType` | UnitType.Points | No | The current measurement units. |
+|  | UnitType.Points | No | The current measurement units. |
 
 ## Notes
 

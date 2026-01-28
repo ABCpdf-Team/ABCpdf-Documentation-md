@@ -8,12 +8,6 @@
 virtual bool Start(<a href="../../1086-element/default.htm">Element</a> element)virtual void Start(string entry)virtual void Start(int index)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Start(element As <a href="../../1086-element/default.htm">Element</a>) As BooleanOverridable Function Start(entry As string) As voidOverridable Function Start(index As int) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

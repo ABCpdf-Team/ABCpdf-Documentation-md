@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void SetText(string value) [Visual Basic] Sub SetText(value As String))
+[C#] void SetText(string value)
 
 ## Params
 

@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] string GetText(TextType type, bool includeAnnotations) string GetText(TextType type, bool includeAnnotations, bool includePaths, bool includeText, bool includeImages, bool includeColors) string GetText(TextType type, bool includeAnnotations, bool includePaths, bool includeText, bool includeImages, bool includeColors, bool useMinimumLineWidth, bool autoRotate) [Visual Basic] Function GetText(type As TextType, includeAnnotations As Boolean) As String Function GetText(type As TextType, includeAnnotations As Boolean, includePaths As Boolean, includeText As Boolean, includeImages As Boolean, includeColors As Boolean) As String Function GetText(type As TextType, includeAnnotations As Boolean, includePaths As Boolean, includeText As Boolean, includeImages As Boolean, includeColors As Boolean, useMinimumLineWidth As Boolean, autoRotate As Boolean) As String
+[C#] string GetText(TextType type, bool includeAnnotations) string GetText(TextType type, bool includeAnnotations, bool includePaths, bool includeText, bool includeImages, bool includeColors) string GetText(TextType type, bool includeAnnotations, bool includePaths, bool includeText, bool includeImages, bool includeColors, bool useMinimumLineWidth, bool autoRotate)
 
 ## Params
 

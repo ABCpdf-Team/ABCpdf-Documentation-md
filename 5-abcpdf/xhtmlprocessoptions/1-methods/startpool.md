@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] bool StartPool() [Visual Basic] Function StartPool() As Boolean
+[C#] bool StartPool()
 
 ## Params
 

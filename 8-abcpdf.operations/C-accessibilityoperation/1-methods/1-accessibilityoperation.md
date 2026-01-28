@@ -10,12 +10,6 @@ AccessibilityOperation Constructor.
 <a href="../default.htm">AccessibilityOperation</a>(Doc doc)
 ```
 
-[Visual Basic]
-
-```vb
-Sub New(doc As Doc)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -34,30 +28,13 @@ Here we read an existing PDF and make it accessible. We produce output conforman
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("spaceshuttle.pdf"));
+doc.Read("../Rez/spaceshuttle.pdf");
 var pages = doc.ObjectSoup.Catalog.Pages.GetPageArrayAll();
 foreach (var page in pages)
   page.StampFormXObjects(true); // see notes on NVDA above
 var op = new AccessibilityOperation(doc);
 op.PageContents.AddPages();
 op.MakeAccessible();
-doc.Save(Server.MapPath("accessible.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("spaceshuttle.pdf"))
-  Dim pages As Page() = doc.ObjectSoup.Catalog.Pages.GetPageArrayAll()
-  For Each page As Page In pages
-    page.StampFormXObjects(True)
-  Next
-  ' see notes on NVDA above
-  Dim op As New AccessibilityOperation(doc)
-  op.PageContents.AddPages()
-  op.MakeAccessible()
-  doc.Save(Server.MapPath("accessible.pdf"))
-End Using
+doc.Save("accessible.pdf");
 ```
 

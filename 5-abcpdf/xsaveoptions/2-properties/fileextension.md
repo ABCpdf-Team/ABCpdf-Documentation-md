@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | null | No | Gets or sets the file extension for the target when it is not otherwise specified. |
+|  | null | No | Gets or sets the file extension for the target when it is not otherwise specified. |
 
 ## Notes
 

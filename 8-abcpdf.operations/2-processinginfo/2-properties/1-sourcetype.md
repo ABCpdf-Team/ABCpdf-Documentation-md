@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `ProcessingSourceType` | See description. | Yes | Gets the type of the source object to be processed and the stage of operation. |
+|  | See description. | Yes | Gets the type of the source object to be processed and the stage of operation. |
 
 ## Notes
 

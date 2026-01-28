@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `XpsImportOperation.AnnotationFlags` | None | No | The types of annotations to be added. |
+|  | None | No | The types of annotations to be added. |
 
 ## Notes
 

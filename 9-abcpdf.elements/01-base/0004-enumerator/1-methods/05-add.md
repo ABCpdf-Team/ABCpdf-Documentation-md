@@ -10,12 +10,6 @@ Adds the specified key and value to the dictionary.
 virtual void Add(string key, T value)virtual void Add(TKey key, TVal value)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Add(key As string, value As T) As voidOverridable Function Add(key As TKey, value As TVal) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

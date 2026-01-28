@@ -10,12 +10,6 @@ Gets the String value of this value converted to string using the standard JavaS
 string GetValueString()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetValueString() As String
-```
-
 ## Params
 
 | **Name** | **Description** |

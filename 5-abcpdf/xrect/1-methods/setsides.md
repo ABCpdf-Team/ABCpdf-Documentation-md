@@ -10,12 +10,6 @@ Sets the sides of the rectangle.
 void SetSides(double x1, double y1, double x2, double y2)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetSides(x1 As Double, y1 As Double, x2 As Double, y2 As Double)
-```
-
 ## Params
 
 | **Name** | **Description** |

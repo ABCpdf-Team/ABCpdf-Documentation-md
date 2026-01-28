@@ -10,12 +10,6 @@ Gets an object from this value using the standard JavaScript conversion.
 JSValue ToJSObject()
 ```
 
-[Visual Basic]
-
-```vb
-Function ToJSObject() As JSValue
-```
-
 ## Params
 
 | **Name** | **Description** |

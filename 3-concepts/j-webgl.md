@@ -12,7 +12,7 @@ Your browser needs to support WebGL 1.0 or later. All mainstream modern browsers
 
 All you need to do is run code of the following form.
 
-[C#] doc.SaveOptions.EmbeddedGraphics = XSaveOptions.EmbeddedGraphicsType.Html5WebGL; doc.SaveOptions.FontSubstitution = XSaveOptions.FontSubstitutionType.Always; doc.Save("C:\webpage.htm"); [Visual Basic] doc.SaveOptions.EmbeddedGraphics = XSaveOptions.EmbeddedGraphicsType.Html5WebGL doc.SaveOptions.FontSubstitution = XSaveOptions.FontSubstitutionType.Always doc.Save(@"C:\webpage.htm")
+[C#] doc.SaveOptions.EmbeddedGraphics = XSaveOptions.EmbeddedGraphicsType.Html5WebGL; doc.SaveOptions.FontSubstitution = XSaveOptions.FontSubstitutionType.Always; doc.Save("C:\webpage.htm");
 
 This will produce a main generic output file.
 

@@ -10,12 +10,6 @@ Adds the certificate object to this collection if its value is not already prese
 bool Add(X509Certificate2 cert)
 ```
 
-[Visual Basic]
-
-```vb
-Function Add(cert As X509Certificate2) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

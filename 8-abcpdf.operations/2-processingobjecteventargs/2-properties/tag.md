@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `object` | n/a | No | Gets or sets an object which can be used to save data about the event. |
+|  | n/a | No | Gets or sets an object which can be used to save data about the event. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ Renders a web page specified as HTML.
 int AddImageHtml(string html)int AddImageHtml(string html, bool paged, int width, bool disableCache)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddImageHtml(html As String) As IntegerFunction AddImageHtml(html As String, paged As Boolean, width As Integer, disableCache As Boolean) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

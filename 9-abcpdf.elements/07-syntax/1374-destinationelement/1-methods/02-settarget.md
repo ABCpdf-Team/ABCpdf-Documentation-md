@@ -10,12 +10,6 @@ Sets the page and type for the destination.
 virtual void SetTarget(<a href="../../1085-pageobjectelement/default.htm">PageObjectElement</a> page, DestinationType type)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function SetTarget(page As <a href="../../1085-pageobjectelement/default.htm">PageObjectElement</a>, type As DestinationType) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

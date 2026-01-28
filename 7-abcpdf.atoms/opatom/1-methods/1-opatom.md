@@ -10,12 +10,6 @@ Create an operator atom for a string
 <a href="../default.htm">OpAtom</a>()<a href="../default.htm">OpAtom</a>(string value)
 ```
 
-[Visual Basic]
-
-```vb
-New()New(value As String)
-```
-
 ## Params
 
 | **Name** | **Description** |

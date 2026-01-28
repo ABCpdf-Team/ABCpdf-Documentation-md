@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void Insert(int index, IndirectObject value) [Visual Basic] Sub Insert(index As Integer, value As IndirectObject)
+[C#] void Insert(int index, IndirectObject value)
 
 may throw NotSupportedException()
 

@@ -10,12 +10,6 @@ Called to report an Exception that was thrown during validation.
 virtual void ReportException(<a href="../../1086-element/default.htm">Element</a> element, Exception ex)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ReportException(element As <a href="../../1086-element/default.htm">Element</a>, ex As Exception) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Determines whether the specified object is strictly equal to this object.
 override bool Equals(object obj)
 ```
 
-[Visual Basic]
-
-```vb
-Overrides Function Equals(obj As Object) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

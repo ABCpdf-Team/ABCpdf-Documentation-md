@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `IDictionary&lt;char, string&gt;` | n/a | No | A set of character to string substitutions used for translating typographic characters like ligatures into more normal text. |
+|  | n/a | No | A set of character to string substitutions used for translating typographic characters like ligatures into more normal text. |
 
 ## Notes
 

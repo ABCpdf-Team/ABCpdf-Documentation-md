@@ -10,12 +10,6 @@ Unloads a font so that it is no longer available.
 void&nbsp;Unload()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Unload()
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Create an XColor given a PDF color operator and a set of Atoms containing the ar
 static <a href="../default.htm">XColor</a> FromOperator(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>[] arguments, string op)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromOperator(arguments() As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, op As String) As <a href="../default.htm">XColor</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

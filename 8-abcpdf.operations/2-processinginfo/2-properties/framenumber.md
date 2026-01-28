@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `long?` | n/a | No | Gets or sets the frame number of the source frame being/to be processed. |
+|  | n/a | No | Gets or sets the frame number of the source frame being/to be processed. |
 
 ## Notes
 
@@ -24,26 +24,9 @@ using (var operation = new SwfImportOperation()) {
     if (e.Info.SourceType == ProcessingSourceType.MultiFrameImage && e.Info.FrameNumber.HasValue)
       e.Info.FrameNumber = 1 + (long)(e.Info.FrameRate.Value * 3.5);
   };
-  operation.Import(Server.MapPath("ABCpdf.swf"));
+  operation.Import("../Rez/ABCpdf.swf");
 }
-doc.Save(Server.MapPath("swf.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Using operation As New SwfImportOperation()
-    operation.Doc = doc
-    operation.ContentAlign = ContentAlign.Top
-    operation.ContentScaleMode = ContentScaleMode.ShowAll
-    operation.ProcessingObject += Sub(sender As Object, e As ProcessingObjectEventArgs) If e.Info.SourceType = ProcessingSourceType.MultiFrameImage AndAlso e.Info.FrameNumber.HasValue Then
-      e.Info.FrameNumber = 1 + DirectCast(e.Info.FrameRate.Value * 3.5, Long)
-    End If
-    operation.Import(Server.MapPath("ABCpdf.swf"))
-  End Using
-  doc.Save(Server.MapPath("swf.pdf"))
-End Using
+doc.Save("swf.pdf");
 ```
 
 Also see example code in: [SwfImportOperation Import Function](5-swfimportoperation/1-methods/import.md).

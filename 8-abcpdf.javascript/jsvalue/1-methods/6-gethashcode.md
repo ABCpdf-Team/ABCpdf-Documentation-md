@@ -10,12 +10,6 @@ Gets a hash code of this JavaScript value.
 override int GetHashCode()
 ```
 
-[Visual Basic]
-
-```vb
-Overrides Function GetHashCode() As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Calls this function.
 JSValue Call(IList&lt;JSValue&gt; args)
 ```
 
-[Visual Basic]
-
-```vb
-Function Call(args As IList(Of JSValue)) As JSValue
-```
-
 ## Params
 
 | **Name** | **Description** |

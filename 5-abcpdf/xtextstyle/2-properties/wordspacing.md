@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double` | 0.0 | No | The inter-word spacing. |
+|  | 0.0 | No | The inter-word spacing. |
 
 ## Notes
 
@@ -29,24 +29,7 @@ doc.AddText(text);
 doc.Rect.Move(0, -300);
 doc.TextStyle.WordSpacing = -20;
 doc.AddText(text);
-doc.Save(Server.MapPath("stylewspace.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Dim theText As String = "This is an example of word spacing."
-  doc.TextStyle.Size = 72
-  doc.AddText(theText)
-  doc.Rect.Move(0, -300)
-  doc.TextStyle.WordSpacing = 20
-  doc.AddText(theText)
-  doc.Rect.Move(0, -300)
-  doc.TextStyle.WordSpacing = -20
-  doc.AddText(theText)
-  doc.Save(Server.MapPath("stylewspace.pdf"))
-End Using
+doc.Save("stylewspace.pdf");
 ```
 
 ![](../../../images/pdf/stylewspace.pdf.png)

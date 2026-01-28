@@ -10,12 +10,6 @@ An ArrayAtom representation of the components of the color
 <a href="../../../7-abcpdf.atoms/arrayatom/default.htm">ArrayAtom</a> ToArrayAtom()
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../../../7-abcpdf.atoms/arrayatom/default.htm">ArrayAtom</a> ToArrayAtom()
-```
-
 ## Params
 
 | **Name** | **Description** |

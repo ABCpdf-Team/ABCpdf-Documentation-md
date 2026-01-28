@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void AnalyzeContent() [Visual Basic] Function AnalyzeContent()
+[C#] void AnalyzeContent()
 
 ## Params
 

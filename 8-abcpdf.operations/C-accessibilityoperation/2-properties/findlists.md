@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | false | No | Whether to detect and insert ordered and unordered list structures. |
+|  | false | No | Whether to detect and insert ordered and unordered list structures. |
 
 ## Notes
 

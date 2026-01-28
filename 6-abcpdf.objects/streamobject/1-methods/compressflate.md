@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] bool CompressFlate() bool CompressFlate(bool force) [Visual Basic] Sub CompressFlate() As Boolean Sub CompressFlate(force As Boolean) As Boolean
+[C#] bool CompressFlate() bool CompressFlate(bool force)
 
 ## Params
 

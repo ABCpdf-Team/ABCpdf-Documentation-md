@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] IDictionary<string, Atom> GetResourceMap(int id, string type) [Visual Basic] Function GetResourceMap(int id, string type) As IDictionary(Of Atom)
+[C#] IDictionary<string, Atom> GetResourceMap(int id, string type)
 
 ## Params
 

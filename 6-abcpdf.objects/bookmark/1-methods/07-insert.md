@@ -10,12 +10,6 @@ Inserts a Bookmark into the list at the specified position.
 void Insert(int index, <a href="../default.htm">Bookmark</a> bookmark)void Insert(int index, string title)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Insert(index As Integer, bookmark As <a href="../default.htm">Bookmark</a>)Sub Insert(index As Integer, title As String)
-```
-
 ## Params
 
 | **Name** | **Description** |

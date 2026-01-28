@@ -3,7 +3,7 @@ Property
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double` | 96.0 | No | The default resolution to use for the import. |
+|  | 96.0 | No | The default resolution to use for the import. |
 
 ## Notes
 

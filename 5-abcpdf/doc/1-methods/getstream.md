@@ -10,12 +10,6 @@ Gets a document as raw data stream.
 Stream GetStream()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetStream() As Stream
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -83,35 +77,6 @@ using (Stream theStream = theDoc.GetStream()) {
   }
 }
 Response.End();
-%>
-```
-
-[Visual Basic]
-
-```vb
-<% @Page Language="Visual Basic" %>
-<% @Import Namespace=" WebSupergoo.ABCpdf13" %>
-<%
-Dim theDoc As Doc = New Doc()
-theDoc.FontSize = 96
-theDoc.AddText("Hello World")
-Using theStream As Stream = theDoc.GetStream()
-  Response.Clear()
-  Response.ContentType = "application/pdf"
-  Response.AddHeader("content-disposition", "inline; filename=MyPDF.PDF")
-  Response.AddHeader("content-length", theStream.Length.ToString())
-  Dim theLen As Long = theStream.Length;
-  Dim theData() As Byte = New Byte(Math.Min(32768, theLen))
-  Do While theLen > 0
-    theStream.Read(theData, 0, theData.Length)
-    Response.BinaryWrite(theData)
-    theLen -= theData.Length
-    If theLen < theData.Length AndAlso theLen > 0 Then
-      theData = New Byte(theLen)
-    End If
-  Loop
-End Using
-Response.End()
 %>
 ```
 

@@ -10,12 +10,6 @@ Obtain a standard encoding dictionary for use with PDF text operators.
 static Dictionary&lt;char, char&gt; GetEncoding(LanguageType type, bool vertical)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function GetEncoding(type As LanguageType, vertical As Boolean) As Dictionary(Of Char, Char)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Get the minimum PDF version required for the use of a particular named entry.
 virtual PDFVersion GetEntryVersion(string entry)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function GetEntryVersion(entry As string) As PDFVersion
-```
-
 ## Params
 
 | **Name** | **Description** |

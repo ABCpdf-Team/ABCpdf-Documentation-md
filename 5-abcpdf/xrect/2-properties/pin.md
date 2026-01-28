@@ -12,15 +12,15 @@ Why is my Pin a number?
 
 In older versions of ABCpdf the Pin property was a number. To assign a Corner to the Pin property you needed to cast the value. So you might find code of this form.
 
-[C#] theRect.Pin = (int)XRect.Corner.TopRight; [Visual Basic] theRect.Pin = CInt(XRect.Corner.TopRight)
+[C#] theRect.Pin = (int)XRect.Corner.TopRight;
 
 In Version 8 the Pin property has been changed to a true enumeration. This means you can assign the Corner directly.
 
-[C#] theRect.Pin = XRect.Corner.TopRight; [Visual Basic] theRect.Pin = XRect.Corner.TopRight
+[C#] theRect.Pin = XRect.Corner.TopRight;
 
 If your code is bound to integers rather than enumerations then it is safe to cast the number to a Corner.
 
-[C#] theRect.Pin = (XRect.Corner)myIntegerValue; [Visual Basic] theRect.Pin = CType(myIntegerValue, XRect.Corner)
+[C#] theRect.Pin = (XRect.Corner)myIntegerValue;
 
 ## Example
 

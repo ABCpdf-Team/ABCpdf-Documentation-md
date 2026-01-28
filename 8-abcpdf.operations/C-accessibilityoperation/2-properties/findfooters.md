@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | false | No | Whether to detect and remove page footers. |
+|  | false | No | Whether to detect and remove page footers. |
 
 ## Notes
 

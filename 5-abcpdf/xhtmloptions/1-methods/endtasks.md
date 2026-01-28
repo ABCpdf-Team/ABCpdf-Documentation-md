@@ -10,12 +10,6 @@ Ends any HTML Engine worker threads or processes.
 int EndTasks(TaskState condition)
 ```
 
-[Visual Basic]
-
-```vb
-Function EndTasks(condition As TaskState) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

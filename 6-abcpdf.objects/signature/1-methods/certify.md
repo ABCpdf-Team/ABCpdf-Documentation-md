@@ -10,12 +10,6 @@ Make this a certification signature.
 void Certify()void Certify(PermittedChanges changes)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Certify()Sub Certify(changes As PermittedChanges)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Compact and compress the document.
 void Compact(bool wholeDocument)
 ```
 
-[Visual Basic]
-
-```vb
-Function Compact(wholeDocument As Boolean)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -44,21 +38,9 @@ The following example shows how to compress a document.
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("../mypics/sample.pdf"));
+doc.Read("../mypics/sample.pdf");
 using (var op = new ReduceSizeOperation(doc))
   op.Compact(true);
-doc.Save(Server.MapPath("ReduceSizeOperation.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("../mypics/sample.pdf"))
-  Using op As New ReduceSizeOperation(doc)
-    op.Compact(True)
-  End Using
-  doc.Save(Server.MapPath("ReduceSizeOperation.pdf"))
-End Using
+doc.Save("ReduceSizeOperation.pdf");
 ```
 

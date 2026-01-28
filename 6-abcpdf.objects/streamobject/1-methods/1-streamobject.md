@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] StreamObject(ObjectSoup soup) StreamObject(ObjectSoup soup, byte[] data) StreamObject(ObjectSoup soup, string path) [Visual Basic] Sub New(soup As ObjectSoup) Sub New(soup As ObjectSoup, data() As Byte) Sub New(soup As ObjectSoup, path As String)
+[C#] StreamObject(ObjectSoup soup) StreamObject(ObjectSoup soup, byte[] data) StreamObject(ObjectSoup soup, string path)
 
 may throw Exception()
 

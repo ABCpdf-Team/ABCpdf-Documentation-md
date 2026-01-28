@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `UrlRequestMethodType` | Get | No | The request method for URL. |
+|  | Get | No | The request method for URL. |
 
 ## Notes
 

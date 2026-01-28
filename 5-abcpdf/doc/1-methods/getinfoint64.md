@@ -10,12 +10,6 @@ Gets numeric information about an object.
 long GetInfoInt64(int id, string type)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetInfoInt64(id As Integer, type As String) As Long
-```
-
 ## Params
 
 | **Name** | **Description** |

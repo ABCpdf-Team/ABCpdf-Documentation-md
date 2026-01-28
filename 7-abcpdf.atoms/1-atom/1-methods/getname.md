@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] static string GetName(Atom atom) [Visual Basic] Shared Function GetName(atom As Atom) As String
+[C#] static string GetName(Atom atom)
 
 ## Params
 

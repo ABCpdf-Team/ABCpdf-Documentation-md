@@ -10,12 +10,6 @@ Read a string of HTML into a paged PDF document.
 ReadHtml(string html)
 ```
 
-[Visual Basic]
-
-```vb
-ReadHtml(html As String)
-```
-
 ## Params
 
 | **Name** | **Description** |

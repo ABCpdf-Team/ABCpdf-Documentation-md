@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `IList&lt;string&gt;` | null | Yes | The validation warnings. |
+|  | null | Yes | The validation warnings. |
 
 ## Notes
 

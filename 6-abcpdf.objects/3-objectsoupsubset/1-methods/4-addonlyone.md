@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] bool AddOnlyOne(IndirectObject io) [Visual Basic] Function AddOnlyOne(io As IndirectObject) As Boolean
+[C#] bool AddOnlyOne(IndirectObject io)
 
 may throw Exception()
 

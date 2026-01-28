@@ -11,12 +11,6 @@ Set the raw binary content of the stream using data from a
 void SetFile(string path)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetFile(path As String)
-```
-
 ## Params
 
 | **Name** | **Description** |

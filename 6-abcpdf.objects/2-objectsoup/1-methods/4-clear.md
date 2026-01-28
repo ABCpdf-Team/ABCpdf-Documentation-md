@@ -10,12 +10,6 @@ Removes all objects from the Soup.
 void Clear()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Clear()
-```
-
 ## Params
 
 | **Name** | **Description** |

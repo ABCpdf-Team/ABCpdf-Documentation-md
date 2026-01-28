@@ -10,12 +10,6 @@ Determines if the object provided has previously been processed by this operatio
 bool Seen(IndirectObject io)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Seen(io As IndirectObject) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Determine if this rectangle intersects with another.
 bool IntersectsWith(<a href="../default.htm">XRect</a> rect)
 ```
 
-[Visual Basic]
-
-```vb
-Function IntersectsWith(rect As <a href="../default.htm">XRect</a>) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

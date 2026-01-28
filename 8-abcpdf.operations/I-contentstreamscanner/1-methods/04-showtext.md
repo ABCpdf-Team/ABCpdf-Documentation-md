@@ -10,12 +10,6 @@ Show an item of text.
 virtual void ShowText(List&lt;int&gt; codes, List&lt;int&gt; widths, List&lt;double&gt; advances, double advanceTotal, StringBuilder text, List&lt;string&gt; strings, bool vertical)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ShowText(codes As List&lt;Integer&gt;, widths As List&lt;Integer&gt;, advances As List&lt;Double&gt;, advanceTotal As double, text As StringBuilder, strings As List&lt;string&gt;, vertical As bool) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

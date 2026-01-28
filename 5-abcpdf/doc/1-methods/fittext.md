@@ -10,12 +10,6 @@ Fit a block of text into the current rectangle on the current page.
 int FitText(string text)
 ```
 
-[Visual Basic]
-
-```vb
-Function FitText(text As String) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

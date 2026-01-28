@@ -10,12 +10,6 @@ Gets the export values for this field.
 <a href="../default.htm">string</a>[] GetExportValues()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetExportValues() As <a href="../default.htm">String</a>()
-```
-
 ## Params
 
 | **Name** | **Description** |

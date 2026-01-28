@@ -10,12 +10,6 @@ Removes all Form XObjects from the page by embedding them into the page content
 int StampFormXObjects(bool force)int StampFormXObjects(bool force, int levels)
 ```
 
-[Visual Basic]
-
-```vb
-Function StampFormXObjects(force As Boolean) As IntegerFunction StampFormXObjects(force As Boolean, levels As Integer) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

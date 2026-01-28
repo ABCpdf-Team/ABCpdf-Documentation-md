@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `IList&lt;string&gt;` | null | Yes | The features within the document which could not be made conformant. |
+|  | null | Yes | The features within the document which could not be made conformant. |
 
 ## Notes
 

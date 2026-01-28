@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | n/a | Yes | Whether the font contains an embedded subset. |
+|  | n/a | Yes | Whether the font contains an embedded subset. |
 
 ## Notes
 

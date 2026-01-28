@@ -1,0 +1,2 @@
+# DeviceNColorSpaceAttributesElement Class
+

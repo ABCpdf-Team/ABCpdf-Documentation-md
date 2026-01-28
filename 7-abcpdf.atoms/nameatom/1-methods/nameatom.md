@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] NameAtom() NameAtom(string value) [Visual Basic] Sub New() Sub New(value As String)
+[C#] NameAtom() NameAtom(string value)
 
 ## Params
 

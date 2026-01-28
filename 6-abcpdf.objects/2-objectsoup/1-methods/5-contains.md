@@ -10,12 +10,6 @@ Determines whether the Soup contains a specific object.
 bool Contains(<a href="../../1-indirectobject/default.htm">IndirectObject</a> value)
 ```
 
-[Visual Basic]
-
-```vb
-Function Contains(value As <a href="../../1-indirectobject/default.htm">IndirectObject</a>) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Add a content layer to the page
 void AddLayer(<a href="../../streamobject/default.htm">string</a> text)void AddLayer(<a href="../../streamobject/default.htm">byte[]</a> data)void AddLayer(<a href="../../streamobject/default.htm">StreamObject</a> stream)void AddLayer(string text, int index)void AddLayer(byte[] data, int index)void AddLayer(StreamObject stream, int index)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddLayer(text As String) As IntegerFunction AddLayer(data As <a href="../../streamobject/default.htm">Byte()</a>) As IntegerFunction AddLayer(stream As <a href="../../streamobject/default.htm">StreamObject</a>) As IntegerFunction AddLayer(text As String, index As Integer) As IntegerFunction AddLayer(data As <a href="../../streamobject/default.htm">Byte()</a>, index As Integer) As IntegerFunction AddLayer(stream As <a href="../../streamobject/default.htm">StreamObject</a>, index As Integer) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

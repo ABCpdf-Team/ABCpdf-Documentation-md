@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int` | 50 | No | The target compression quality for the re-encoding of monochrome images. |
+|  | 50 | No | The target compression quality for the re-encoding of monochrome images. |
 
 ## Notes
 

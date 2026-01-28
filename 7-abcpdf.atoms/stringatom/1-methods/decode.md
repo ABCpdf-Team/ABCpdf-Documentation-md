@@ -10,12 +10,6 @@ Decode a PDF encoded string into a plain string format
 StringBuilder Decode(string text, StringBuilder builder)
 ```
 
-[Visual Basic]
-
-```vb
-Function Decode(text As String, builder As StringBuilder) As StringBuilder
-```
-
 ## Params
 
 | **Name** | **Description** |

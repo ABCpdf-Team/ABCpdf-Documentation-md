@@ -10,12 +10,6 @@ Makes a FormXObject out of the page.
 <a href="../../formxobject/default.htm">FormXObject</a> MakeFormXObject()
 ```
 
-[Visual Basic]
-
-```vb
-Function MakeFormXObject() As <a href="../../formxobject/default.htm">FormXObject</a>
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -38,7 +32,7 @@ This example shows how to take a page, convert it into a separate drawing object
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("../mypics/HyperX.pdf"));
+doc.Read("../mypics/HyperX.pdf");
 var page1 = doc.ObjectSoup[doc.Page] as Page;
 var form = page1.MakeFormXObject();
 doc.Transform.Magnify(0.5, 0.5, 0, 0);
@@ -50,27 +44,7 @@ string name = page2.AddResource(form, "XObject", "Iabc");
 var layer = new StreamObject(doc.ObjectSoup);
 layer.SetText(String.Format("q {0} cm /{1} Do Q ", doc.Transform.ToString(), name));
 page2.AddLayer(layer);
-doc.Save(Server.MapPath("exampleformxobject.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("../mypics/HyperX.pdf"))
-  Dim page1 As Page = TryCast(doc.ObjectSoup(doc.Page), Page)
-  Dim form As FormXObject = page1.MakeFormXObject()
-  doc.Transform.Magnify(0.5, 0.5, 0, 0)
-  doc.Page = doc.AddPage()
-  Dim page2 As Page = TryCast(doc.ObjectSoup(doc.Page), Page)
-  Dim name As String = page2.AddResource(form, "XObject", "Iabc")
-  ' Here we create our own layer for the purposes of the demonstration.
-  ' However a simpler approach would be to use Doc.AddXObject.
-  Dim layer As New StreamObject(doc.ObjectSoup)
-  layer.SetText([String].Format("q {0} cm /{1} Do Q ", doc.Transform.ToString(), name))
-  page2.AddLayer(layer)
-  doc.Save(Server.MapPath("exampleformxobject.pdf"))
-End Using
+doc.Save("exampleformxobject.pdf");
 ```
 
 ![](../../../images/pdf/exampleformxobject.pdf.png)

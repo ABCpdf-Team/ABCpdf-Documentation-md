@@ -10,12 +10,6 @@ SwfImportOperation Constructor.
 <a href="../default.htm">SwfImportOperation</a>()
 ```
 
-[Visual Basic]
-
-```vb
-Sub New()
-```
-
 ## Params
 
 | **Name** | **Description** |

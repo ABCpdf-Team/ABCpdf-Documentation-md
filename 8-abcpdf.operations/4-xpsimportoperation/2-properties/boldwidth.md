@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double` | 1.0 | No | The percentage of boldness to apply when creating a synthetic bold style. |
+|  | 1.0 | No | The percentage of boldness to apply when creating a synthetic bold style. |
 
 ## Notes
 

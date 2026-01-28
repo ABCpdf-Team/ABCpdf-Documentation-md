@@ -10,12 +10,6 @@ Rotate the image clockwise
 void Rotate(int degrees)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Rotate(degrees As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Removes any cached TextOperation and TextFragments associated with this object
 void ClearTextOperation()
 ```
 
-[Visual Basic]
-
-```vb
-Sub ClearTextOperation()
-```
-
 ## Params
 
 | **Name** | **Description** |

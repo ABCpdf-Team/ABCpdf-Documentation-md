@@ -8,12 +8,6 @@
 <a href="../../xrect/default.htm">XRect</a>[] GetTagUntransformedRects(int id)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetTagUntransformedRects(id As Integer) As <a href="../../xrect/default.htm">XRect</a>()
-```
-
 ## Params
 
 | **Name** | **Description** |

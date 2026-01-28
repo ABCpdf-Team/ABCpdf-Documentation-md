@@ -10,13 +10,13 @@ The font size is measured in the current Units.
 
 You should prefer use of the XTextStyle.Size property, to which the FontSize property is simply an integer accessor. Assigning a value to the FontSize is exactly equivalent to assigning it to the XTextStyle.Size. Getting a value from this property is exactly equivalent to the following.
 
-[C#] int n = (int)(doc.TextStyle.Size + 0.5); [Visual Basic] Dim n As Integer = CInt((doc.TextStyle.Size + 0.5))
+[C#] int n = (int)(doc.TextStyle.Size + 0.5);
 
 ## Example
 
 The following example adds two blocks of styled text to a document. The first block is in 96 point type and the second is in 192 point type.
 
-[C#] using var doc = new Doc(); doc.FontSize = 96; doc.AddText("Small "); doc.FontSize = 192; doc.AddText("Big"); doc.Save(Server.MapPath("docfontsize.pdf")); [Visual Basic] Using doc As New Doc() doc.FontSize = 96 doc.AddText("Small ") doc.FontSize = 192 doc.AddText("Big") doc.Save(Server.MapPath("docfontsize.pdf")) End Using
+[C#] using var doc = new Doc(); doc.FontSize = 96; doc.AddText("Small "); doc.FontSize = 192; doc.AddText("Big"); doc.Save("docfontsize.pdf");
 
 docfontsize.pdf
 

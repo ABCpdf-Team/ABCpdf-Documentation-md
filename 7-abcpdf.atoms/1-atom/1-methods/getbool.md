@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] static bool GetBool(Atom atom) [Visual Basic] Shared Function GetBool(atom As Atom) As Boolean
+[C#] static bool GetBool(Atom atom)
 
 ## Params
 

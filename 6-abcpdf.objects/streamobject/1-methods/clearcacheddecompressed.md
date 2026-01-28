@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void ClearCachedDecompressed() [Visual Basic] Sub ClearCachedDecompressed()
+[C#] void ClearCachedDecompressed()
 
 ## Params
 

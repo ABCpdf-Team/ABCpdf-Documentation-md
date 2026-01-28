@@ -10,12 +10,6 @@ Autodetect Factory.
 static <a href="../../1086-element/default.htm">Element</a> AutodetectFactory(Atom atom, IndirectObject host, object reference)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function AutodetectFactory(atom As Atom, host As IndirectObject, reference As object) As <a href="../../1086-element/default.htm">Element</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

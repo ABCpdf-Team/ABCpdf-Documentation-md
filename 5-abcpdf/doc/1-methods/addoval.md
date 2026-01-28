@@ -10,12 +10,6 @@ Adds an oval to the current page.
 int AddOval(bool filled)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddOval(filled As Boolean) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -43,21 +37,7 @@ doc.Color.String = "255 0 0";
 doc.AddOval(true);
 doc.Color.String = "0 255 0 128";
 doc.AddOval(false);
-doc.Save(Server.MapPath("docaddoval.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Width = 80
-  doc.Rect.Inset(50, 50)
-  doc.Color.String = "255 0 0"
-  doc.AddOval(True)
-  doc.Color.String = "0 255 0 128"
-  doc.AddOval(False)
-  doc.Save(Server.MapPath("docaddoval.pdf"))
-End Using
+doc.Save("docaddoval.pdf");
 ```
 
 ![](../../../images/pdf/docaddoval.pdf.png)

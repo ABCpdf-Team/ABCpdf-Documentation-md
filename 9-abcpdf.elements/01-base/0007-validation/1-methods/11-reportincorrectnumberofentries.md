@@ -10,12 +10,6 @@ Called to report an array with an incorrect number of entries.
 virtual void ReportIncorrectNumberOfEntries(int expected, int found)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ReportIncorrectNumberOfEntries(expected As int, found As int) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

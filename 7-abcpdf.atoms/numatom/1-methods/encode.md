@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] static string Encode(double value) [Visual Basic] Shared Function Encode(value As Double) As String
+[C#] static string Encode(double value)
 
 ## Params
 

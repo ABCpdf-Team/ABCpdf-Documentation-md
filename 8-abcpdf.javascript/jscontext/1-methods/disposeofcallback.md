@@ -10,12 +10,6 @@ Disposes of a delegate used to create a JavaScript function.
 void DisposeOfCallback(Func&lt;JSCallInfo, object&gt; func)
 ```
 
-[Visual Basic]
-
-```vb
-Sub DisposeOfCallback(func As Func(Of JSCallInfo, Object))
-```
-
 ## Params
 
 | **Name** | **Description** |

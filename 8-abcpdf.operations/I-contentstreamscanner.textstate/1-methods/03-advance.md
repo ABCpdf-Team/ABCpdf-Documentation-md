@@ -10,12 +10,6 @@ Advances the text position by an amount - typically the width of a glyph.
 virtual double Advance(double delta, bool vertical)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Advance(delta As double, vertical As bool) As Double
-```
-
 ## Params
 
 | **Name** | **Description** |

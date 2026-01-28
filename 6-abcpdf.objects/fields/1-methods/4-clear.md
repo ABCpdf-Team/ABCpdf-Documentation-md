@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void Clear() [Visual Basic] Sub Clear()
+[C#] void Clear()
 
 may throw NotSupportedException()
 

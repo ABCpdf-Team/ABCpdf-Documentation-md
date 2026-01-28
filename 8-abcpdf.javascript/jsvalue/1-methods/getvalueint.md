@@ -10,12 +10,6 @@ Gets the Int32 value of this value converted to number using the standard JavaSc
 int GetValueInt()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetValueInt() As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

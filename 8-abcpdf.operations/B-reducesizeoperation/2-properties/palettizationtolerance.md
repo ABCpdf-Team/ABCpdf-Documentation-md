@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double` | 0.01 | No | The amount of divergence from the target palette which will be allowed. |
+|  | 0.01 | No | The amount of divergence from the target palette which will be allowed. |
 
 ## Notes
 

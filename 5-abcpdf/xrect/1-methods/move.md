@@ -10,12 +10,6 @@ Translate the rectangle.
 void Move(double x, double y)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Move(x As Double, y As Double)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -40,17 +34,6 @@ Response.Write($"Rect = {rc}");
 rc.Move(50, 50);
 Response.Write("&lt;br&gt;");
 Response.Write($"Move = {rc}");
-```
-
-[Visual Basic]
-
-```vb
-Dim rc As New XRect()
-rc.String = "20 20 220 120"
-Response.Write($"Rect = {rc}")
-rc.Move(50, 50)
-Response.Write("&lt;br&gt;")
-Response.Write($"Move = {rc}")
 ```
 
 Also see example code in:

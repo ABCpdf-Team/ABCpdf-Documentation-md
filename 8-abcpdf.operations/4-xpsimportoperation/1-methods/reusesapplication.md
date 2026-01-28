@@ -11,12 +11,6 @@ Gets a value indicating whether an import application process is
 bool ReusesApplication(ApplicationType app)
 ```
 
-[Visual Basic]
-
-```vb
-Function ReusesApplication(app As ImportApplicationType) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

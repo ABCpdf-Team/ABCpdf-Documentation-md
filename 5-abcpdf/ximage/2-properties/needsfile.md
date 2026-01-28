@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | See description. | Yes | Whether the file needs to exist. |
+|  | See description. | Yes | Whether the file needs to exist. |
 
 ## Notes
 

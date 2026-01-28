@@ -12,7 +12,7 @@ For dynamically created documents the root of the document is always one. Howeve
 
 The following code snippet illustrates how one might find some information about a PDF document.
 
-[C#] using var doc = new Doc(); doc.Read(Server.MapPath("../mypics/mydoc.pdf")); string vers = doc.GetInfo(doc.Root, "Version"); string names = doc.GetInfo(doc.Root, "/Names"); string pages = doc.GetInfo(doc.Root, "pages"); string outlines = doc.GetInfo(doc.Root, "outlines"); Response.Write($"Version {vers}&lt;br&gt;"); Response.Write($"Names {names}&lt;br&gt;"); Response.Write($"Pages ID {pages}&lt;br&gt;"); Response.Write($"Outlines ID {outlines}&lt;br&gt;"); [Visual Basic] Using doc As New Doc() doc.Read(Server.MapPath("../mypics/mydoc.pdf")) Dim theVers As String, theNames As String, thePages As String, theOutlines As String theVers = doc.GetInfo(doc.Root, "Version") theNames = doc.GetInfo(doc.Root, "/Names") thePages = doc.GetInfo(doc.Root, "pages") theOutlines = doc.GetInfo(doc.Root, "outlines") Response.Write($"Version {theVers}&lt;br&gt;") Response.Write($"Names {theNames}&lt;br&gt;") Response.Write($"Pages ID {thePages}&lt;br&gt;") Response.Write($"Outlines ID {theOutlines}&lt;br&gt;") End Using
+[C#] using var doc = new Doc(); doc.Read("../mypics/mydoc.pdf"); string vers = doc.GetInfo(doc.Root, "Version"); string names = doc.GetInfo(doc.Root, "/Names"); string pages = doc.GetInfo(doc.Root, "pages"); string outlines = doc.GetInfo(doc.Root, "outlines"); Response.Write($"Version {vers}&lt;br&gt;"); Response.Write($"Names {names}&lt;br&gt;"); Response.Write($"Pages ID {pages}&lt;br&gt;"); Response.Write($"Outlines ID {outlines}&lt;br&gt;");
 
 This might result in the following output.
 

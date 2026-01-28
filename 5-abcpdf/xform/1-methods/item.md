@@ -10,12 +10,6 @@ Gets or sets a particular field referenced by full name.
 <a href="../../../6-abcpdf.objects/field/default.htm">Field</a> this[string name]
 ```
 
-[Visual Basic]
-
-```vb
-Default Property Item(name As String) As <a href="../../../6-abcpdf.objects/field/default.htm">Field</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

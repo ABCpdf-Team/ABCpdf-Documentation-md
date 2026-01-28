@@ -8,12 +8,6 @@
 virtual void RemoveAt(int index)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function RemoveAt(index As int) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

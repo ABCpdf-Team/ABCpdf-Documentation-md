@@ -164,13 +164,13 @@ Other references to the Ghostbusters movie are scattered throughout the developm
 
 Most calls to ABCpdf will result in a trial license being installed if it is found that no license has yet been installed. At minimum, all that is required is to query the value of the XSettings.LicenseDescription property. Write access to the registry is required for a trial to be inserted.
 
-[C#] using WebSupergoo.ABCpdf13; MessageBox.Show("New License: " + XSettings.LicenseDescription); [Visual Basic] Imports WebSupergoo.ABCpdf13 MessageBox.Show("New License: " + XSettings.LicenseDescription)
+[C#] using WebSupergoo.ABCpdf13; MessageBox.Show("New License: " + XSettings.LicenseDescription);
 
 You can use a full license key as provided to you when you purchase, or you can use a trial license key copied from the PDFSettings application. To enter a license key, call XSettings.InstallLicense or at application startup before any ABCpdf objects have been created. If you have purchased a Redistribution license, you may prefer to call XSettings.InstallRedistributionLicense. In both cases the license will remain available to the process until it unloads.
 
 Make sure you check the return value to ensure that the license has taken. If it has not, then report back the XSettings.LicenseDescription and the XSettings.Version. Something like this.
 
-[C#] using WebSupergoo.ABCpdf13; // here we use a trial license key as copied from the PDFSettings application if (XSettings.InstallLicense("cd9b5c07db69df2bf57c0a04d9bca58b10c44889c9fb197984e592f49addfce5ec5fe85d7b9205bc")) MessageBox.Show($"License Installed Successfully: {XSettings.LicenseDescription} Version {XSettings.Version}"); else MessageBox.Show($"License Installation Failed: {XSettings.LicenseDescription} Version {XSettings.Version}"); [Visual Basic] Imports WebSupergoo.ABCpdf13 ' here we use a trial license key as copied from the PDFSettings application If XSettings.InstallLicense("cd9b5c07db69df2bf57c0a04d9bca58b10c44889c9fb197984e592f49addfce5ec5fe85d7b9205bc") Then MessageBox.Show($"License Installed Successfully: {XSettings.LicenseDescription} Version {XSettings.Version}") Else MessageBox.Show($"License Installation Failed: {XSettings.LicenseDescription} Version {XSettings.Version}") End If
+[C#] using WebSupergoo.ABCpdf13; // here we use a trial license key as copied from the PDFSettings application if (XSettings.InstallLicense("cd9b5c07db69df2bf57c0a04d9bca58b10c44889c9fb197984e592f49addfce5ec5fe85d7b9205bc")) MessageBox.Show($"License Installed Successfully: {XSettings.LicenseDescription} Version {XSettings.Version}"); else MessageBox.Show($"License Installation Failed: {XSettings.LicenseDescription} Version {XSettings.Version}");
 
 Shared Hosts. Most installations of ABCpdf .NET on shared servers are seamless. However, you need to be aware that you are a guest on the server and your host may have locked down permissions in ways which will make your life difficult. If this occurs, there is typically little that either you or we can do about it.
 

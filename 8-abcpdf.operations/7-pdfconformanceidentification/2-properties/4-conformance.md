@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | null | No | The conformance level. |
+|  | null | No | The conformance level. |
 
 ## Notes
 

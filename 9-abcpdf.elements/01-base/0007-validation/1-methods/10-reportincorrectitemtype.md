@@ -10,12 +10,6 @@ Called to report an object which is of the wrong type.
 virtual void ReportIncorrectItemType(string expectedType, string actualType, Atom atom)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ReportIncorrectItemType(expectedType As string, actualType As string, atom As Atom) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

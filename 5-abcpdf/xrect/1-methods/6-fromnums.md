@@ -10,12 +10,6 @@ Create an XRect from an array or list of four numbers.
 static <a href="../default.htm">XRect</a> FromNums(double[] array)static <a href="../default.htm">XRect</a> FromNums(IList&lt;double&gt; list)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromNums(array As Double()) As <a href="../default.htm">XRect</a>Shared Function FromNums(list As IList(Of Double)) As <a href="../default.htm">XRect</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

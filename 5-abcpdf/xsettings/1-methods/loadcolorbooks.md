@@ -10,12 +10,6 @@ Load color books for use when rendering spot color images.
 void LoadColorBooks(string path)
 ```
 
-[Visual Basic]
-
-```vb
-Sub LoadColorBooks(path As String)
-```
-
 ## Params
 
 | **Name** | **Description** |

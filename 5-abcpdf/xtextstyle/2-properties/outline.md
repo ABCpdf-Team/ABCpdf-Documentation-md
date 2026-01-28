@@ -10,7 +10,7 @@ If the outline property is zero no outlining is done. If the outline property is
 
 In this example we add some text to a document varying the outline style to show how different values affect the final result.
 
-[C#] using var doc = new Doc(); doc.TextStyle.Size = 144; doc.AddText("Outline 0"); doc.Rect.Move(0, -300); doc.TextStyle.Outline = 4; doc.AddText("Outline 4"); doc.Rect.Move(0, -300); doc.TextStyle.Outline = 10; doc.AddText("Outline 10"); doc.Save(Server.MapPath("styleoutline.pdf")); [Visual Basic] Using doc As New Doc() doc.TextStyle.Size = 144 doc.AddText("Outline 0") doc.Rect.Move(0, -300) doc.TextStyle.Outline = 4 doc.AddText("Outline 4") doc.Rect.Move(0, -300) doc.TextStyle.Outline = 10 doc.AddText("Outline 10") doc.Save(Server.MapPath("styleoutline.pdf")) End Using
+[C#] using var doc = new Doc(); doc.TextStyle.Size = 144; doc.AddText("Outline 0"); doc.Rect.Move(0, -300); doc.TextStyle.Outline = 4; doc.AddText("Outline 4"); doc.Rect.Move(0, -300); doc.TextStyle.Outline = 10; doc.AddText("Outline 10"); doc.Save("styleoutline.pdf");
 
 styleoutline.pdf
 

@@ -10,12 +10,6 @@ Resizes the rectangle.
 void Resize(double w, double h)void Resize(double w, double h, Corner corner)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Resize(w As Double, h As Double)Sub Resize(w As Double, h As Double, corner as Corner)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -43,17 +37,6 @@ Response.Write($"Rect = {rc}");
 Response.Write("&lt;br&gt;");
 rc.Resize(50, 150);
 Response.Write($"Pos. = {rc}");
-```
-
-[Visual Basic]
-
-```vb
-Dim rc As New XRect()
-rc.String = "20 20 220 120"
-Response.Write($"Rect = {rc}")
-Response.Write("&lt;br&gt;")
-rc.Resize(50, 150)
-Response.Write($"Pos. = {rc}")
 ```
 
 Also see example code in: [ABCpdf Text Flow Round Image Example](4-examples/02-textflow2.md).

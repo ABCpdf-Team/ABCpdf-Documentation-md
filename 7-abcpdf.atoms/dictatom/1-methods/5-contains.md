@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] bool Contains(string name) [Visual Basic] Function Contains(name As String) As Boolean
+[C#] bool Contains(string name)
 
 ## Params
 

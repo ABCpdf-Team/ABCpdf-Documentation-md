@@ -14,7 +14,7 @@ The Font property is an accessor for the the XTextStyle.Font property.
 
 The following example adds two blocks of styled text to a document. The first block is in Helvetica and the second in Courier.
 
-[C#] using var doc = new Doc(); doc.FontSize = 96; // big text doc.Font = doc.AddFont("Helvetica"); doc.AddText("Helvetica Text."); doc.Font = doc.AddFont("Courier"); doc.AddText("Courier Text."); doc.Save(Server.MapPath("docfont.pdf")); [Visual Basic] Using doc As New Doc() doc.FontSize = 96 ' big text doc.Font = doc.AddFont("Helvetica") doc.AddText("Helvetica Text.") doc.Font = doc.AddFont("Courier") doc.AddText("Courier Text.") doc.Save(Server.MapPath("docfont.pdf")) End Using
+[C#] using var doc = new Doc(); doc.FontSize = 96; // big text doc.Font = doc.AddFont("Helvetica"); doc.AddText("Helvetica Text."); doc.Font = doc.AddFont("Courier"); doc.AddText("Courier Text."); doc.Save("docfont.pdf");
 
 docfont.pdf
 

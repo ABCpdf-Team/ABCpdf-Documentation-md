@@ -10,12 +10,6 @@ Decompress the data in the stream using on-the-fly resizing
 bool Decompress(int width, int height)
 ```
 
-[Visual Basic]
-
-```vb
-Function Decompress(width As Integer, height As Integer) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

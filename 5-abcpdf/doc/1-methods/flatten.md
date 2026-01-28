@@ -10,12 +10,6 @@ Flattens and compresses the current page.
 int Flatten()
 ```
 
-[Visual Basic]
-
-```vb
-Function Flatten() As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

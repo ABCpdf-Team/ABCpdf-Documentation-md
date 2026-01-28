@@ -10,12 +10,6 @@ Called to report an entry with an incorrect value.
 virtual void ReportIncorrectEntryValue(string value)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ReportIncorrectEntryValue(value As string) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

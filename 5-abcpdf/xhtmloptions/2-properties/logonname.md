@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | "" | No | A user name to be used for authentication. |
+|  | "" | No | A user name to be used for authentication. |
 
 ## Notes
 
@@ -48,22 +48,6 @@ doc.HtmlOptions.LogonPassword = "stevepassword";
 // Add HTML page
 doc.AddImageUrl(uri);
 // Save the document
-doc.Save(Server.MapPath("HtmlOptionsLogon.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Dim theURL As String = "https://www.websupergoo.com/"
-  ' Assign name and password
-  doc.HtmlOptions.Engine = EngineType.Gecko
-  doc.HtmlOptions.LogonName = "Steve"
-  doc.HtmlOptions.LogonPassword = "stevepassword"
-  ' Add HTML page
-  doc.AddImageUrl(theURL)
-  ' Save the document
-  doc.Save(Server.MapPath("HtmlOptionsLogon.pdf"))
-End Using
+doc.Save("HtmlOptionsLogon.pdf");
 ```
 

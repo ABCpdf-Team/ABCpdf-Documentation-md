@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Whether to include annotation and field text in the output. |
+|  | true | No | Whether to include annotation and field text in the output. |
 
 ## Notes
 

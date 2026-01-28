@@ -10,12 +10,6 @@ Copy the objects in this subset to a new soup while preserving the relationships
 void CopyTo(<a href="../../2-objectsoup/default.htm">ObjectSoup</a> soup)
 ```
 
-[Visual Basic]
-
-```vb
-Sub CopyTo(soup As <a href="../../2-objectsoup/default.htm">ObjectSoup</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

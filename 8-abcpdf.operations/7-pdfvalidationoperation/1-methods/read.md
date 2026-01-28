@@ -10,12 +10,6 @@ Read and validate an existing document.
 Doc Read(string path, XReadOptions options)Doc Read(byte[] data, XReadOptions options)Doc Read(Stream stream, XReadOptions options)
 ```
 
-[Visual Basic]
-
-```vb
-Function Read(path As String, options As XReadOptions) As DocFunction Read(data() As Byte, options As XReadOptions) As DocFunction Read(stream As Stream, options As XReadOptions) As Doc
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -38,7 +32,7 @@ Here we validate a document against PDF/A-1b format.
 [C#]
 
 ```csharp
-string path = Server.MapPath("pdfa.pdf");
+string path = "../Rez/pdfa.pdf";
 using (var op = new PdfValidationOperation()) {
   op.Conformance = PdfConformance.PdfA1b;
   using var doc = op.Read(path, null);
@@ -56,36 +50,5 @@ using (var op = new PdfValidationOperation()) {
       Console.WriteLine(op.Warnings[i]);
   }
 }
-```
-
-[Visual Basic]
-
-```vb
-Dim thePath As String = Server.MapPath("pdfa.pdf")
-Using theOperation As New PdfValidationOperation()
-  theOperation.Conformance = PdfConformance.PdfA1b
-  Dim doc As Doc = theOperation.Read(thePath, Nothing)
-  doc.Dispose()
-
-  If theOperation.Errors.Count > 0 Then
-    Console.WriteLine("Errors:")
-    Dim i As Integer = 0
-    While i < theOperation.Errors.Count
-      Console.WriteLine(theOperation.Errors(i))
-      System.Threading.Interlocked.Increment(i)
-    End While
-  End If
-  If theOperation.Warnings.Count > 0 Then
-    If theOperation.Errors.Count > 0 Then
-      Console.WriteLine()
-    End If
-    Console.WriteLine("Warnings:")
-    Dim i As Integer = 0
-    While i < theOperation.Warnings.Count
-      Console.WriteLine(theOperation.Warnings(i))
-      System.Threading.Interlocked.Increment(i)
-    End While
-  End If
-End Using
 ```
 

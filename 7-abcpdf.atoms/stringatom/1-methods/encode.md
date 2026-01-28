@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] static StringBuilder Encode(string text, IDictionary<char, char> encoding, StringBuilder builder) [Visual Basic] Shared Function Encode(text As String, encoding As IDictionary<char, char>, builder As StringBuilder) As StringBuilder
+[C#] static StringBuilder Encode(string text, IDictionary<char, char> encoding, StringBuilder builder)
 
 ## Params
 

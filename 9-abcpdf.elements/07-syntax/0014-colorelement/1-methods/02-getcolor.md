@@ -8,12 +8,6 @@
 virtual XColor GetColor()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function GetColor() As XColor
-```
-
 ## Params
 
 | **Name** | **Description** |

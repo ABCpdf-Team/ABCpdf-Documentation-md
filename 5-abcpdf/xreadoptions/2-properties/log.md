@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | null | Yes | The log for the read operation. |
+|  | null | Yes | The log for the read operation. |
 
 ## Notes
 

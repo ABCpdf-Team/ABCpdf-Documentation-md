@@ -10,12 +10,6 @@ Set the content of the object as a Bitmap
 void SetBitmap(System.Drawing.Bitmap bitmap, bool transparent)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetBitmap(bitmap As System.Drawing.Bitmap, transparent As Boolean)
-```
-
 ## Params
 
 | **Name** | **Description** |

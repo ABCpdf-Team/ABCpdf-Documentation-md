@@ -10,12 +10,6 @@ Gets string information about an object.
 string GetInfo(int id, string type)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetInfo(id As Integer, type As String) As String
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -44,26 +38,12 @@ The following code snippet illustrates how one might report the natural dimensio
 
 ```csharp
 using var doc = new Doc();
-string path = Server.MapPath("../mypics/mypic.jpg");
+string path = "../mypics/mypic.jpg";
 int id1 = doc.AddImageFile(path, 1);
 int id2 = doc.GetInfoInt(id1, "XObject");
 string theWidth = doc.GetInfo(id2, "Width");
 string theHeight = doc.GetInfo(id2, "Height");
 Response.Write($"Width {theWidth}< br>");
 Response.Write($"Height {theHeight}< br>");
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Dim thePath As String = Server.MapPath("../mypics/mypic.jpg")
-  Dim theID1 As Integer = doc.AddImageFile(thePath, 1)
-  Dim theID2 As Integer = doc.GetInfoInt(theID1, "XObject")
-  Dim theWidth As String = doc.GetInfo(theID2, "Width")
-  Dim theHeight As String = doc.GetInfo(theID2, "Height")
-  Response.Write($"Width {theWidth}< br>")
-  Response.Write($"Height {theHeight}< br>")
-End Using
 ```
 

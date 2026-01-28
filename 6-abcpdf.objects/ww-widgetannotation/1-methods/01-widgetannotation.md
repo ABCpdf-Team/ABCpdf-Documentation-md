@@ -10,12 +10,6 @@ Add widget annotation to the doc.
 <a href="../default.htm">WidgetAnnotation</a>(Doc doc)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">WidgetAnnotation</a>(doc As Doc)
-```
-
 ## Params
 
 | **Name** | **Description** |

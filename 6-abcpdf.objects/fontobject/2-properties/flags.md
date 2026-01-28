@@ -12,15 +12,15 @@ How do I manipulate flags enumerations?
 
 To check a flag you can write code of the following form:
 
-[C#] bool isSymbolic = font.Flags.HasFlag(FontObject.FontFlags.Symbolic); [Visual Basic] Dim isSymbolic As Boolean = font.Flags.HasFlag(FontObject.FontFlags.Symbolic)
+[C#] bool isSymbolic = font.Flags.HasFlag(FontObject.FontFlags.Symbolic);
 
 To set the flag:
 
-[C#] font.Flags |= FontObject.FontFlags.Symbolic; [Visual Basic] font.Flags = font.Flags Or FontObject.FontFlags.Symbolic
+[C#] font.Flags |= FontObject.FontFlags.Symbolic;
 
 To clear the flag:
 
-[C#] font.Flags &= !FontObject.FontFlags.Symbolic; [Visual Basic] font.Flags = font.Flags And Not FontObject.FontFlags.Symbolic
+[C#] font.Flags &= !FontObject.FontFlags.Symbolic;
 
 ## Example
 

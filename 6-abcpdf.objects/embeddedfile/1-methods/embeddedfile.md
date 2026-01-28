@@ -10,12 +10,6 @@ EmbeddedFile Constructor
 EmbeddedFile(<a href="../../2-objectsoup/default.htm">ObjectSoup</a> soup)EmbeddedFile(<a href="../../2-objectsoup/default.htm">ObjectSoup</a> soup, string path)EmbeddedFile(<a href="../../2-objectsoup/default.htm">ObjectSoup</a> soup, byte[] data)
 ```
 
-[Visual Basic]
-
-```vb
-Sub New(soup As <a href="../../2-objectsoup/default.htm">ObjectSoup</a>)Sub New(soup As <a href="../../2-objectsoup/default.htm">ObjectSoup</a>, path As String)Sub New(soup As <a href="../../2-objectsoup/default.htm">ObjectSoup</a>, data() As Byte)
-```
-
 ## Params
 
 | **Name** | **Description** |

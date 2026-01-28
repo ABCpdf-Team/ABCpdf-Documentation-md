@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | See description. | Yes | Whether the stream needs be kept open. |
+|  | See description. | Yes | Whether the stream needs be kept open. |
 
 ## Notes
 

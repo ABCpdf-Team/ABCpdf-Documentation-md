@@ -10,12 +10,6 @@ Determines the index of a specific object.
 int IndexOf(<a href="../../1-indirectobject/default.htm">IndirectObject</a> value)
 ```
 
-[Visual Basic]
-
-```vb
-Function IndexOf(value As <a href="../../1-indirectobject/default.htm">IndirectObject</a>) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

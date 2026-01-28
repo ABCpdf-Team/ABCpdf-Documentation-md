@@ -10,12 +10,6 @@ Mark up the structure on the PDF pages so that it can be seen in a PDF reader.
 void MarkupStructure()
 ```
 
-[Visual Basic]
-
-```vb
-Function MarkupStructure()
-```
-
 ## Params
 
 | **Name** | **Description** |

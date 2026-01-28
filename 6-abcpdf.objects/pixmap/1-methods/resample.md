@@ -10,12 +10,6 @@ Changes the number of bits per color component.
 void Resample(int bitsPerComponent)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Resample(bitsPerComponent As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

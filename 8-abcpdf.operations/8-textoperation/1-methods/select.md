@@ -10,12 +10,6 @@ Select a range of text in the document.
 IList&lt;<a href="../../8-textfragment/default.htm">TextFragment</a>&gt; Select(int startIndex, int length)
 ```
 
-[Visual Basic]
-
-```vb
-Function Select(startIndex As Integer, length As Integer) As IList&lt;<a href="../../8-textfragment/default.htm">TextFragment</a>&gt;
-```
-
 ## Params
 
 | **Name** | **Description** |

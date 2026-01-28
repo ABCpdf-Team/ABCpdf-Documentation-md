@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void ClearData() [Visual Basic] Sub ClearData()
+[C#] void ClearData()
 
 ## Params
 

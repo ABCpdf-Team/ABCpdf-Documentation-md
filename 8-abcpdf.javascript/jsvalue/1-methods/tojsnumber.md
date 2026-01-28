@@ -10,12 +10,6 @@ Gets a number from this value using the standard JavaScript conversion.
 JSValue ToJSNumber()
 ```
 
-[Visual Basic]
-
-```vb
-Function ToJSNumber() As JSValue
-```
-
 ## Params
 
 | **Name** | **Description** |

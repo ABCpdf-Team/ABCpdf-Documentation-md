@@ -8,12 +8,6 @@
 virtual bool ContainsValue(T value)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ContainsValue(value As T) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

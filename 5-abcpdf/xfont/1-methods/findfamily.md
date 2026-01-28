@@ -10,12 +10,6 @@ Find all the fonts belonging to a particular family.
 static <a href="../default.htm">XFont</a>[] FindFamily(string family)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FindFamily(family As String) As <a href="../default.htm">XFont</a>()
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -14,7 +14,7 @@ Every time you add an item of content you will get an Object ID returned. You ma
 
 First we create an ABCpdf Doc object. Next we set the font size and add some text to it. Finally we save at a specified location.
 
-[C#] Doc theDoc = new Doc(); theDoc.FontSize = 96; theDoc.AddText("Hello World"); theDoc.Save(Server.MapPath("simple.pdf")); [Visual Basic] Dim theDoc As Doc = New Doc() theDoc.FontSize = 96 theDoc.AddText("Hello World") theDoc.Save(Server.MapPath("simple.pdf"))
+[C#] Doc theDoc = new Doc(); theDoc.FontSize = 96; theDoc.AddText("Hello World"); theDoc.Save(Server.MapPath("simple.pdf"));
 
 ## Results
 

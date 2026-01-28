@@ -10,12 +10,6 @@ Called to report detection of a recursive structure.
 virtual void ReportRecursiveStructure()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ReportRecursiveStructure() As void
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] string[] GetNamedSeparations() [Visual Basic] Function GetNamedSeparations() As String()
+[C#] string[] GetNamedSeparations()
 
 ## Params
 

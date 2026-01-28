@@ -10,12 +10,6 @@ Calculates a hash value based on the values of the contained certificate objects
 override int GetHashCode()
 ```
 
-[Visual Basic]
-
-```vb
-Overrides Function GetHashCode() As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] static IndirectObject FromString(string value) [Visual Basic] Shared Function FromString(value As String) As IndirectObject
+[C#] static IndirectObject FromString(string value)
 
 ## Params
 

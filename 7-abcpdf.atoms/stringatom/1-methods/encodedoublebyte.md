@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] static StringBuilder EncodeDoubleByte(string text, IDictionary<char, char> encoding, StringBuilder builder) [Visual Basic] Shared Function EncodeDoubleByte(text As String, encoding As IDictionary<char, char>, builder As StringBuilder) As StringBuilder
+[C#] static StringBuilder EncodeDoubleByte(string text, IDictionary<char, char> encoding, StringBuilder builder)
 
 ## Params
 

@@ -8,12 +8,6 @@
 <a href="../default.htm">ValidationBase</a>()
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">ValidationBase</a>()
-```
-
 ## Params
 
 | **Name** | **Description** |

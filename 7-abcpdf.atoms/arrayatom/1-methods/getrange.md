@@ -10,12 +10,6 @@ Creates a shallow copy of a range of elements in the source array
 <a href="../default.htm">ArrayAtom</a> GetRange(int index, int count)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetRange(index As Integer, count As Integer) As <a href="../default.htm">ArrayAtom</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

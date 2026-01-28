@@ -3,7 +3,7 @@ Property
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `int` | 0 | No | Skip back a number of revisions when reading an incrementally saved PDF document. |
+|  | 0 | No | Skip back a number of revisions when reading an incrementally saved PDF document. |
 
 ## Notes
 

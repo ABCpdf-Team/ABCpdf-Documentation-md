@@ -10,12 +10,6 @@ Adds rich media to the current page of the doc.
 <a href="../default.htm">RichMediaAnnotation</a>(Doc doc, XRect rect, string filePathOrUrl, string mediaType)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">RichMediaAnnotation</a>(doc As Doc, rect As XRect, filePathOrUrl As string, mediaType As string)
-```
-
 ## Params
 
 | **Name** | **Description** |

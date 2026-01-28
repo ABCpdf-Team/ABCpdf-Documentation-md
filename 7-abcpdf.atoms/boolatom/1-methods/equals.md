@@ -10,12 +10,6 @@ Test whether the two BoolAtoms are the same
 bool Equals(<a href="../default.htm">BoolAtom</a> other)
 ```
 
-[Visual Basic]
-
-```vb
-Function Equals(other As <a href="../default.htm">BoolAtom</a>) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

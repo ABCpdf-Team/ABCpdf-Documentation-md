@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#]bool Validate() bool Validate(string[] certificatePaths) bool Validate(System.Collections.IEnumerable certificates) bool Validate(Signature.CertificateCollection certificates) // non-caching [Visual Basic]Function Validate() As Boolean Function Validate(certificatePaths() As String) As Boolean Function Validate(certificates As System.Collections.IEnumerable) As Boolean Function Validate(certificates As Signature.CertificateCollection) As Boolean ' non-caching
+[C#]bool Validate() bool Validate(string[] certificatePaths) bool Validate(System.Collections.IEnumerable certificates) bool Validate(Signature.CertificateCollection certificates) // non-caching
 
 may throw Exception()
 
@@ -44,9 +44,7 @@ The Windows Certificate Store can be accessed by using System.Security.Cryptogra
 
 ## Example
 
-[C#] // Validate using certificate files using (var doc = new Doc()) { doc.Read(Server.MapPath("../Rez/SignedDocument.pdf")); var theCerts = Server.MapPath("../Rez/JohnSmith.cer").Split(new char[] { ';' }); var theSig = (Signature)doc.Form["Signature"]; if ((theSig.Validate(theCerts)) && (!theSig.IsModified)) doc.AddText($"Signature valid at {DateTime.Now}"); doc.Save(Server.MapPath("SignedAndValidated1.pdf")); }
+[C#] // Validate using certificate files using (var doc = new Doc()) { doc.Read("../Rez/SignedDocument.pdf"); var theCerts = "../Rez/JohnSmith.cer".Split([ ';' ]); var theSig = (Signature)doc.Form["Signature"]; if ((theSig.Validate(theCerts)) && (!theSig.IsModified)) doc.AddText($"Signature valid at {DateTime.Now}"); doc.Save("SignedAndValidated1.pdf"); }
 
-[C#] // Validate using the Windows Certificate Store using (var doc = new Doc()) { doc.Read(Server.MapPath("../Rez/SignedDocument.pdf")); var theStore = new X509Store(StoreName.Root, StoreLocation.LocalMachine); theStore.Open(OpenFlags.ReadOnly); var theSig = (Signature)doc.Form["Signature"]; if ((theSig.Validate(theStore.Certificates)) && (!theSig.IsModified)) doc.AddText($"Signature valid at {DateTime.Now}"); theStore.Close(); doc.Save(Server.MapPath("SignedAndValidated2.pdf")); }
-
-[Visual Basic] ' Validate using the Windows Certificate Store Using doc As New Doc() doc.Read(Server.MapPath("../Rez/Signed.pdf")) Dim theStore As New X509Store(StoreName.Root, StoreLocation.LocalMachine) theStore.Open(OpenFlags.[ReadOnly]) Dim theSig As Signature = DirectCast(doc.Form("Signature"), Signature) If (theSig.Validate(theStore.Certificates)) AndAlso (Not theSig.IsModified) Then doc.AddText($"Signature valid at {DateTime.Now}") End If theStore.Close() doc.Save(Server.MapPath("SignedAndValidated2.pdf")) End Using
+[C#] // Validate using the Windows Certificate Store using (var doc = new Doc()) { doc.Read("../Rez/SignedDocument.pdf"); using var theStore = new X509Store(StoreName.Root, StoreLocation.LocalMachine); theStore.Open(OpenFlags.ReadOnly); var theSig = (Signature)doc.Form["Signature"]; if ((theSig.Validate(theStore.Certificates)) && (!theSig.IsModified)) doc.AddText($"Signature valid at {DateTime.Now}"); doc.Save("SignedAndValidated2.pdf"); }
 

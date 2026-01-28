@@ -10,12 +10,6 @@ Set the color to a set of ColorSpace PDF components
 void SetComponents(double value1)void SetComponents(double value1, double value2)void SetComponents(double value1, double value2, double value3)void SetComponents(double value1, double value2, double value3, double value4)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetComponents(value1 As Double)Sub SetComponents(value1 As Double, value2 As Double)Sub SetComponents(value1 As Double, value2 As Double, value3 As Double)Sub SetComponents(value1 As Double, value2 As Double, value3 As Double, value4 As Double)
-```
-
 ## Params
 
 | **Name** | **Description** |

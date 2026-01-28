@@ -10,12 +10,6 @@ Sets the point.
 void SetPoint(XPoint point)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetPoint(point As XPoint)
-```
-
 ## Params
 
 | **Name** | **Description** |

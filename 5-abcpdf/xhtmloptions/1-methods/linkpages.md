@@ -10,12 +10,6 @@ Convert external links to internal links wherever possible.
 void LinkPages()void LinkPages(bool inPageNavigation)
 ```
 
-[Visual Basic]
-
-```vb
-Sub LinkPages()Sub LinkPages(inPageNavigation as Boolean)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -45,14 +39,6 @@ This example shows how to import an HTML page which uses named destinations. We 
 using var doc = new Doc();
 doc.Rect.Inset(18, 18);
 doc.HtmlOptions.AddLinks = true;
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Rect.Inset(18, 18)
-  doc.HtmlOptions.AddLinks = True
 ```
 
 ![](../../../images/pdf/linkpages.pdf.png)

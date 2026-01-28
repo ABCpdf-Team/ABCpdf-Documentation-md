@@ -10,12 +10,6 @@ Remaps pages for reordering, copying and deletion.
 void RemapPages(string pages)void RemapPages(int[] pages)void RemapPages(int[] pages, int index, int count)
 ```
 
-[Visual Basic]
-
-```vb
-Sub RemapPages(pages As String)Sub RemapPages(pages() As Integer)Sub RemapPages(pages() As Integer, index As Integer, count As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -42,7 +36,7 @@ The following code snippet illustrates how one might reverse all the pages in a 
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("../mypics/sample.pdf"));
+doc.Read("../mypics/sample.pdf");
 doc.FontSize = 500;
 doc.Color.String = "255 0 0";
 doc.TextStyle.HPos = 0.5;
@@ -55,30 +49,7 @@ for (int i = 1; i <= count; i++) {
   pages.Add(count - i + 1);
 }
 doc.RemapPages(pages.ToArray());
-doc.Save(Server.MapPath("docremappages.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("../mypics/sample.pdf"))
-  doc.FontSize = 500
-  doc.Color.String = "255 0 0"
-  doc.TextStyle.HPos = 0.5
-  doc.TextStyle.VPos = 0.3
-  Dim theCount As Integer = doc.PageCount
-  Dim pages As New List(Of Integer)()
-  Dim i As Integer = 1
-  While i <= theCount
-    doc.PageNumber = i
-    doc.AddText(i.ToString())
-    pages.Add(theCount - i + 1)
-    System.Math.Max(System.Threading.Interlocked.Increment(i),i - 1)
-  End While
-  doc.RemapPages(pages.ToArray())
-  doc.Save(Server.MapPath("docremappages.pdf"))
-End Using
+doc.Save("docremappages.pdf");
 ```
 
 ![](../../../images/pdf/docremappages.pdf.png)

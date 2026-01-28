@@ -10,12 +10,6 @@ Adds a block of single styled text to the current page.
 int AddText(string text)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddText(text As String) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -65,31 +59,7 @@ doc.Font = font1;
 doc.AddText("Belgae, aliam Aquitani. ");
 doc.Font = font2;
 doc.AddText("tertiam Galli appellantur");
-doc.Save(Server.MapPath("docaddtext.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Page = doc.AddPage()
-  doc.FontSize = 48
-  Dim theF1 As Integer = doc.AddFont("Times-Roman")
-  Dim theF2 As Integer = doc.AddFont("Times-Bold")
-  doc.Font = theF1
-  doc.AddText("Gallia est omnis ")
-  doc.Font = theF2
-  doc.AddText("tertiam Galli appellantur ")
-  doc.Font = theF1
-  doc.AddText("divisa in partes tres, ")
-  doc.Font = theF2
-  doc.AddText("quarum unam incolunt ")
-  doc.Font = theF1
-  doc.AddText("Belgae, aliam Aquitani. ")
-  doc.Font = theF2
-  doc.AddText("tertiam Galli appellantur")
-  doc.Save(Server.MapPath("docaddtext.pdf"))
-End Using
+doc.Save("docaddtext.pdf");
 ```
 
 ![](../../../images/pdf/docaddtext.pdf.png)

@@ -10,12 +10,6 @@ Gets the value associated with the specified key.
 virtual bool TryGetValue(string key, out value)virtual bool TryGetValue(TKey key, out value)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function TryGetValue(key As string, value As out) As BooleanOverridable Function TryGetValue(key As TKey, value As out) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

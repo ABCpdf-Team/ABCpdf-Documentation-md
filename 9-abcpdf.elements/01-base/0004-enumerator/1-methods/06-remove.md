@@ -10,12 +10,6 @@ Remove an element from the dictionary.
 virtual bool Remove(string key)virtual bool Remove(TKey key)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Remove(key As string) As BooleanOverridable Function Remove(key As TKey) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

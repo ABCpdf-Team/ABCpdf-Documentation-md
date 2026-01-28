@@ -20,5 +20,5 @@ Complex XMP metadata can be constructed using the Adobe XMP Toolkit. However in 
 
 Here we load an existing PDF and set the Title and Author.
 
-[C#] using var doc = new Doc(); doc.Read(Server.MapPath("../mypics/book.pdf")); var md = doc.ObjectSoup.Catalog.Metadata; if (md == null) { md = new Metadata(doc.ObjectSoup); doc.ObjectSoup.Catalog.Metadata = md; } md.InfoSubject = "Finn Family Moomintroll"; md.InfoAuthor = "Tove Jansson"; doc.Save(Server.MapPath("metadata.pdf")); [Visual Basic] Using doc As New Doc() doc.Read(Server.MapPath("../mypics/book.pdf")) Dim md As Metadata = doc.ObjectSoup.Catalog.Metadata If md = Nothing Then md = New Metadata(doc.ObjectSoup) doc.ObjectSoup.Catalog.Metadata = md End If md.InfoSubject = "Finn Family Moomintroll" md.InfoAuthor = "Tove Jansson" doc.Save(Server.MapPath("metadata.pdf")) End Using
+[C#] using var doc = new Doc(); doc.Read("../mypics/book.pdf"); var md = doc.ObjectSoup.Catalog.Metadata; if (md == null) { md = new Metadata(doc.ObjectSoup); doc.ObjectSoup.Catalog.Metadata = md; } md.InfoSubject = "Finn Family Moomintroll"; md.InfoAuthor = "Tove Jansson"; doc.Save("metadata.pdf");
 

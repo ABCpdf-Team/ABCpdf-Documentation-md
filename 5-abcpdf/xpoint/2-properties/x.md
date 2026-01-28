@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double` | 0 | No | The horizontal coordinate |
+|  | 0 | No | The horizontal coordinate |
 
 ## Notes
 

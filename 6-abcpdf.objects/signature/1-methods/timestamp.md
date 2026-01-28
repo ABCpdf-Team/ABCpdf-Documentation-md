@@ -10,12 +10,6 @@ Sign  a document timestamp signature field using a Timestamping Authority  (TSA)
 virtual void Timestamp(Oid oid, int reserve)virtual void Timestamp(Oid oid, DataType dataType, int reserve)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Sub Timestamp(oid As Oid, reserve As int)Overridable Sub Timestamp(oid As Oid, dataType as DataType, reserve As int)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `string` | null | No | The schema namespace prefix. |
+|  | null | No | The schema namespace prefix. |
 
 ## Notes
 

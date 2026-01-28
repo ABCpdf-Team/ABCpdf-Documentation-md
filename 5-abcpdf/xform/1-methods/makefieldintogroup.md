@@ -10,12 +10,6 @@ Make duplicate fields into synchronized groups.
 bool MakeFieldIntoGroup(Field inField)
 ```
 
-[Visual Basic]
-
-```vb
-Function MakeFieldIntoGroup(inField As Field) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

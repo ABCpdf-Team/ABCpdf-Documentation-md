@@ -10,12 +10,6 @@ Add file attachment annotation to the current page of the doc.
 <a href="../default.htm">FileAttachmentAnnotation</a>(Doc doc, XRect rect, string filePath)<a href="../default.htm">FileAttachmentAnnotation</a>(Doc doc, XRect rect, byte[] data, string fileName, DateTime modDate, DateTime creationDate)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">FileAttachmentAnnotation</a>(doc As Doc, rect As XRect, filePath As string)<a href="../default.htm">FileAttachmentAnnotation</a>(doc As Doc, rect As XRect, data() As Byte, fileName As string, modDate As DateTime, creationDate As DateTime)
-```
-
 ## Params
 
 | **Name** | **Description** |

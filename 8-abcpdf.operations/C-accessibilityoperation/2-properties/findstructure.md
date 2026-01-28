@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | false | No | Whether to detect and insert structure outline. |
+|  | false | No | Whether to detect and insert structure outline. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ The logical structure can contain a copy of text which is drawn on the page.
 void UpdateActualText(bool erase, bool regenerate)
 ```
 
-[Visual Basic]
-
-```vb
-Function UpdateActualText(erase As bool, regenerate As bool)
-```
-
 ## Params
 
 | **Name** | **Description** |

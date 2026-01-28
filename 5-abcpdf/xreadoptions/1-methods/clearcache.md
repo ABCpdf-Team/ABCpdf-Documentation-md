@@ -11,12 +11,6 @@ Clear cached data and terminate worker threads and
 bool ClearCache()
 ```
 
-[Visual Basic]
-
-```vb
-Function ClearCache() As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

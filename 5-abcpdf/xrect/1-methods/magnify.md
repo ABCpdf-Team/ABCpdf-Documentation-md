@@ -10,12 +10,6 @@ Magnifies the rectangle.
 void Magnify(double x, double y)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Magnify(x As Double, y As Double)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -42,17 +36,6 @@ Response.Write($"Rect = {rc}");
 Response.Write("&lt;br&gt;");
 rc.Magnify(0.5, 0.5);
 Response.Write($"Scale = {rc}");
-```
-
-[Visual Basic]
-
-```vb
-Dim rc As New XRect()
-rc.String = "20 20 220 120"
-Response.Write($"Rect = {rc}")
-Response.Write("&lt;br&gt;")
-rc.Magnify(0.5, 0.5)
-Response.Write($"Scale = {rc}")
 ```
 
 Also see example code in:

@@ -1,0 +1,2 @@
+# MinimumBitDepthElement Class
+

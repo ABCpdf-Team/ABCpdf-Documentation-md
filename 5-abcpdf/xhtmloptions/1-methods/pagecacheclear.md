@@ -10,12 +10,6 @@ Clears the HTML page cache.
 void PageCacheClear()
 ```
 
-[Visual Basic]
-
-```vb
-Sub PageCacheClear()
-```
-
 ## Params
 
 | **Name** | **Description** |

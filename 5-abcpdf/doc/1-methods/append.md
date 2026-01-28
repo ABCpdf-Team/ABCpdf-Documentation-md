@@ -10,12 +10,6 @@ Appends a PDF to the end of the document.
 void Append(Doc doc)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Append(doc As Doc)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -91,24 +85,7 @@ doc2.TextStyle.HPos = 0.5;
 doc2.TextStyle.VPos = 0.5;
 doc2.AddText("World");
 doc1.Append(doc2);
-doc1.Save(Server.MapPath("docjoin.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Dim doc1 As New Doc()
-doc1.FontSize = 192
-doc1.TextStyle.HPos = 0.5
-doc1.TextStyle.VPos = 0.5
-doc1.AddText("Hello")
-Dim doc2 As New Doc()
-doc2.FontSize = 192
-doc2.TextStyle.HPos = 0.5
-doc2.TextStyle.VPos = 0.5
-doc2.AddText("World")
-doc1.Append(doc2)
-doc1.Save(Server.MapPath("docjoin.pdf"))
+doc1.Save("docjoin.pdf");
 ```
 
 ![](../../../images/pdf/docjoin.pdf.png)

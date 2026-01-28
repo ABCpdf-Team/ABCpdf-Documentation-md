@@ -8,12 +8,6 @@
 virtual bool Equals(<a href="../default.htm">Metadata</a> other)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Equals(other As <a href="../default.htm">Metadata</a>) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

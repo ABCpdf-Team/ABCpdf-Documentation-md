@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] FontObject[] GetFonts() [Visual Basic] Function GetFonts() As FontObject()
+[C#] FontObject[] GetFonts()
 
 ## Params
 

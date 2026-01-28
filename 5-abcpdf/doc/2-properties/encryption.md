@@ -18,7 +18,7 @@ Please note that you are legally bound to respect the permissions present in exi
 
 The following code saves a simple PDF document using a 128 bit encryption key. It applies a copy-protection permission to stop people copying text out of the document.
 
-[C#] using var doc = new Doc(); doc.FontSize = 96; doc.AddText("Hello World!"); doc.Encryption.Type = 5; doc.Encryption.SetCryptMethods(CryptMethodType.AESV3); doc.Encryption.CanCopy = false; doc.Encryption.OwnerPassword = "owner"; doc.Save(Server.MapPath("docencrypt.pdf")); [Visual Basic] Using doc As New Doc() doc.FontSize = 96 doc.AddText("Hello World!") doc.Encryption.Type = 5 doc.Encryption.SetCryptMethods(CryptMethodType.AESV3) doc.Encryption.CanCopy = False doc.Encryption.OwnerPassword = "owner" doc.Save(Server.MapPath("docencrypt.pdf")) End Using
+[C#] using var doc = new Doc(); doc.FontSize = 96; doc.AddText("Hello World!"); doc.Encryption.Type = 5; doc.Encryption.SetCryptMethods(CryptMethodType.AESV3); doc.Encryption.CanCopy = false; doc.Encryption.OwnerPassword = "owner"; doc.Save("docencrypt.pdf");
 
 Also see example code in: XEncryption SetCryptMethods Function.
 

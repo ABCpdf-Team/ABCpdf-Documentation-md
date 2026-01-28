@@ -10,12 +10,6 @@ Create an ArrayAtom of StringAtoms from a list of strings.
 static <a href="../default.htm">ArrayAtom</a> FromStrings(IList&lt;string&gt; items)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromStrings(items as IList(Of String)) As <a href="../default.htm">ArrayAtom</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

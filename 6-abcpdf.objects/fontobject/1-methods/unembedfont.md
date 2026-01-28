@@ -10,12 +10,6 @@ Unembed the font if this is a simple operation.
 int UnembedSimpleFont()
 ```
 
-[Visual Basic]
-
-```vb
-UnembedSimpleFont() As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

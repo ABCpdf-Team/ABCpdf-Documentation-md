@@ -10,12 +10,6 @@ A hash code for the IndirectObject.
 override int GetHashCode()int GetHashCode(ComparisonType type)
 ```
 
-[Visual Basic]
-
-```vb
-Overrides Function GetHashCode() As IntegerFunction GetHashCode(type As ComparisonType) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

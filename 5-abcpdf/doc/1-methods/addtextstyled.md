@@ -10,12 +10,6 @@ Adds a block of multi-styled text to the current page.
 int AddTextStyled(string text)int AddTextStyled(string dummy, int chainid)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddTextStyled(text As String) As IntegerFunction AddTextStyled(dummy As String, chainid As Integer) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -55,17 +49,7 @@ The following code adds some styled text to a document.
 using var doc = new Doc();
 doc.FontSize = 72;
 doc.AddTextStyled("<b>Gallia</b> est omnis divisa in partes tres, quarum unam incolunt <b>Belgae</b>, aliam <b>Aquitani</b>, tertiam qui ipsorum lingua <b>Celtae</b>, nostra <b>Galli</b> appellantur.");
-doc.Save(Server.MapPath("docaddhtml.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.FontSize = 72
-  doc.AddTextStyled("<b>Gallia</b> est omnis divisa in partes tres, quarum unam incolunt <b>Belgae</b>, aliam <b>Aquitani</b>, tertiam qui ipsorum lingua <b>Celtae</b>, nostra <b>Galli</b> appellantur.")
-  doc.Save(Server.MapPath("docaddhtml.pdf"))
-End Using
+doc.Save("docaddhtml.pdf");
 ```
 
 ![](../../../images/pdf/docaddhtml.pdf.png)

@@ -10,12 +10,6 @@ Measure the length of a block of text without adding it to the page.
 double MeasureText(string text)double MeasureText(string text, double fontSize, double charSpacing, double wordSpacing, bool italic, bool bold, double outline)
 ```
 
-[Visual Basic]
-
-```vb
-Function MeasureText(text As String) As DoubleFunction MeasureText(text As String, fontSize As Double, charSpacing As Double, wordSpacing As Double, italic As Boolean, bold As Boolean, outline As Double) As Double
-```
-
 ## Params
 
 | **Name** | **Description** |

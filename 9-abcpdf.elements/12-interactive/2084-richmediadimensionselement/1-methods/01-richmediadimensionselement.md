@@ -8,12 +8,6 @@
 <a href="../default.htm">RichMediaDimensionsElement</a>()<a href="../default.htm">RichMediaDimensionsElement</a>(Atom atom, IndirectObject host)<a href="../default.htm">RichMediaDimensionsElement</a>(IndirectObject obj)<a href="../default.htm">RichMediaDimensionsElement</a>(<a href="../../../01-base/1086-element/default.htm">Element</a> relation, CreationOptions options)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">RichMediaDimensionsElement</a>()<a href="../default.htm">RichMediaDimensionsElement</a>(atom As Atom, host As IndirectObject)<a href="../default.htm">RichMediaDimensionsElement</a>(obj As IndirectObject)<a href="../default.htm">RichMediaDimensionsElement</a>(relation As <a href="../../../01-base/1086-element/default.htm">Element</a>, options As CreationOptions)
-```
-
 ## Params
 
 | **Name** | **Description** |

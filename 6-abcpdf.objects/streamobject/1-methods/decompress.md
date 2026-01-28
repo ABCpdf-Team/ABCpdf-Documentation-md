@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] bool Decompress() [Visual Basic] Function Decompress() As Boolean
+[C#] bool Decompress()
 
 ## Params
 

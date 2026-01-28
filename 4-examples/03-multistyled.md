@@ -4,25 +4,25 @@
 
 We want to display all our proper names in bold so we enclose them in bold tags.
 
-[C#] string text = "<b>Gallia</b> est omnis divisa in partes tres, quarum unam incolunt <b>Belgae</b>, aliam <b>Aquitani</b>, tertiam qui ipsorum lingua <b>Celtae</b>, nostra <b>Galli</b> appellantur."; [Visual Basic] Dim theText As String = "<b>Gallia</b> est omnis divisa in partes tres, quarum unam incolunt <b>Belgae</b>, aliam <b>Aquitani</b>, tertiam qui ipsorum lingua <b>Celtae</b>, nostra <b>Galli</b> appellantur."
+[C#] string text = "<b>Gallia</b> est omnis divisa in partes tres, quarum unam incolunt <b>Belgae</b>, aliam <b>Aquitani</b>, tertiam qui ipsorum lingua <b>Celtae</b>, nostra <b>Galli</b> appellantur.";
 
 ## Doc Obj
 
 Next we create an ABCpdf Doc object and give it some basic settings. Although we could pass our styled text directly to the AddTextStyled function, we can take more control over the way that fonts are added to the PDF if we specify font IDs.
 
-[C#] using var doc = new Doc(); doc.FontSize = 72; doc.Rect.Inset(10, 10); doc.FrameRect(); int font1 = doc.EmbedFont("Verdana", LanguageType.Latin, false, true); int font2 = doc.EmbedFont("Verdana Bold", LanguageType.Latin, false, true); [Visual Basic] Using doc As New Doc() doc.FontSize = 72 doc.Rect.Inset(10, 10) doc.FrameRect() Dim theFont1 As Integer = doc.EmbedFont("Verdana", LanguageType.Latin, False, True) Dim theFont2 As Integer = doc.EmbedFont("Verdana Bold", LanguageType.Latin, False, True)
+[C#] using var doc = new Doc(); doc.FontSize = 72; doc.Rect.Inset(10, 10); doc.FrameRect(); int font1 = doc.EmbedFont("Verdana", LanguageType.Latin, false, true); int font2 = doc.EmbedFont("Verdana Bold", LanguageType.Latin, false, true);
 
 ## Adding
 
 We replace the bold tags with font tags that directly reference our chosen fonts and then add the styled text to the current rectangle.
 
-[C#] text = "<font pid=" + font1.ToString() + ">" + text + "</font>"; text = text.Replace("<b>", "<font pid=" + font2.ToString() + ">"); text = text.Replace("</b>", "</font>"); doc.AddTextStyled(text); [Visual Basic] theText = "<font pid=" + theFont1.ToString() + ">" + theText + "</font>" theText = theText.Replace("<b>", "<font pid=" + theFont2.ToString() + ">") theText = theText.Replace("</b>", "</font>") doc.AddTextStyled(theText)
+[C#] text = "<font pid=" + font1.ToString() + ">" + text + "</font>"; text = text.Replace("<b>", "<font pid=" + font2.ToString() + ">"); text = text.Replace("</b>", "</font>"); doc.AddTextStyled(text);
 
 ## Save
 
 Finally we save and clear the document.
 
-[C#] doc.Save(Server.MapPath("styles.pdf")); [Visual Basic] doc.Save(Server.MapPath("styles.pdf")) End Using
+[C#] doc.Save("styles.pdf");
 
 ## Results
 

@@ -10,12 +10,6 @@ ProcessingObjectEventArgs Constructor.
 ProcessingObjectEventArgs(IndirectObject obj)ProcessingObjectEventArgs(IndirectObject obj, ProcessingInfo info)
 ```
 
-[Visual Basic]
-
-```vb
-Sub New(obj As IndirectObject)Sub New(obj As IndirectObject, info As ProcessingInfo)
-```
-
 ## Params
 
 | **Name** | **Description** |

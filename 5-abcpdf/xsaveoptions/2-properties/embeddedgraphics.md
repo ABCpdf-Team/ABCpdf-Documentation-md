@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `EmbeddedGraphics` | EmbeddedGraphicsType.Automatic | No | The format to be used for exporting PDF vector graphics. |
+|  | EmbeddedGraphicsType.Automatic | No | The format to be used for exporting PDF vector graphics. |
 
 ## Notes
 

@@ -10,12 +10,6 @@ Attempts to convert an ArrayAtom into an array of names, resolving any reference
 virtual string[] ToNameArray(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ToNameArray(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>) As string[]
-```
-
 ## Params
 
 | **Name** | **Description** |

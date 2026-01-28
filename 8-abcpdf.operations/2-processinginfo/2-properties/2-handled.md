@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | false | No | Gets or sets a value that indicates whether the event handler has handled the event so that the operation skips the default processing. |
+|  | false | No | Gets or sets a value that indicates whether the event handler has handled the event so that the operation skips the default processing. |
 
 ## Notes
 

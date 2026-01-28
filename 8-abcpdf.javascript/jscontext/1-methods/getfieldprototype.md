@@ -10,12 +10,6 @@ Gets the Field prototype object.
 JSValue GetFieldPrototype()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetFieldPrototype() As JSValue
-```
-
 ## Params
 
 | **Name** | **Description** |

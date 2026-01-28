@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Whether to show text which is invisible because it is affected by a clip path. |
+|  | true | No | Whether to show text which is invisible because it is affected by a clip path. |
 
 ## Notes
 

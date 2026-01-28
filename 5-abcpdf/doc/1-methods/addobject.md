@@ -10,12 +10,6 @@ Adds a native PDF object to the document.
 int AddObject(string text)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddObject(text As String) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -39,29 +33,13 @@ The following code adds a document information section to an existing PDF docume
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("../mypics/sample.pdf"));
+doc.Read("../mypics/sample.pdf");
 if (doc.GetInfo(-1, "/Info") == "")
   doc.SetInfo(-1, "/Info:Ref", doc.AddObject("<< >>").ToString());
 doc.SetInfo(-1, "/Info*/Author:Text", "Arthur Dent");
 doc.SetInfo(-1, "/Info*/Title:Text", "Musings on Life");
 doc.SetInfo(-1, "/Info*/Subject:Text", "Philosophy");
 doc.SetInfo(doc.Root, "/Metadata:Del", "");
-doc.Save(Server.MapPath("docaddobject.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("../mypics/sample.pdf"))
-  If doc.GetInfo(-1, "/Info") = "" Then
-    doc.SetInfo(-1, "/Info:Ref", doc.AddObject("<< >>").ToString())
-  End If
-  doc.SetInfo(-1, "/Info*/Author:Text", "Arthur Dent")
-  doc.SetInfo(-1, "/Info*/Title:Text", "Musings on Life")
-  doc.SetInfo(-1, "/Info*/Subject:Text", "Philosophy")
-  doc.SetInfo(doc.Root, "/Metadata:Del", "")
-  doc.Save(Server.MapPath("docaddobject.pdf"))
-End Using
+doc.Save("docaddobject.pdf");
 ```
 

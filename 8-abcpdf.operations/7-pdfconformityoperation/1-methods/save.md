@@ -10,12 +10,6 @@ Write the conforming PDF document.
 void Save(Doc doc, string path)void Save(Doc doc, Stream stream)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Save(doc As Doc, path As String)Sub Save(doc As Doc, stream As Stream)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -36,8 +30,8 @@ Here we save a document in PDF/A-1b format.
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("mypics/Acrobat.pdf"));
-string path = Server.MapPath("pdfa_save.pdf");
+doc.Read("../mypics/Acrobat.pdf");
+string path = "pdfa_save.pdf";
 using (var theOperation = new PdfConformityOperation()) {
   theOperation.Conformance = PdfConformance.PdfA1b;
   theOperation.Save(doc, path);
@@ -48,27 +42,5 @@ using (var theOperation = new PdfConformityOperation()) {
       Console.WriteLine(theOperation.Errors[i]);
   }
 }
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("mypics/Acrobat.pdf"))
-  Dim thePath As String = Server.MapPath("pdfa_save.pdf")
-  Using theOperation As New PdfConformityOperation()
-    theOperation.Conformance = PdfConformance.PdfA1b
-    theOperation.Save(doc, thePath)
-
-    If theOperation.Errors.Count > 0 Then
-      Console.WriteLine("Errors:")
-      Dim i As Integer = 0
-      While i < theOperation.Errors.Count
-        Console.WriteLine(theOperation.Errors(i))
-        System.Threading.Interlocked.Increment(i)
-      End While
-    End If
-  End Using
-End Using
 ```
 

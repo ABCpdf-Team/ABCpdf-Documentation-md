@@ -36,23 +36,7 @@ for (int i = 1; i <= 8; i++) {
   doc.Pos.Y = i * 80;
   doc.AddText($"Pos = {doc.Pos}");
 }
-doc.Save(Server.MapPath("docpos.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.FontSize = 48
-  Dim i As Integer = 1
-  While i <= 8
-    doc.Pos.X = i * 40
-    doc.Pos.Y = i * 80
-    doc.AddText($"Pos = {doc.Pos}")
-    System.Math.Max(System.Threading.Interlocked.Increment(i),i - 1)
-  End While
-  doc.Save(Server.MapPath("docpos.pdf"))
-End Using
+doc.Save("docpos.pdf");
 ```
 
 ![](../../../images/pdf/docpos.pdf.png)

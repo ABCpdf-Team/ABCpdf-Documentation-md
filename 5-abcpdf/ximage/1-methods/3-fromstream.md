@@ -11,12 +11,6 @@ Creates an XImage from a Stream.
 static <a href="../default.htm">XImage</a> FromStream(Stream stream, <a href="../../xreadoptions/default.htm">XReadOptions</a> options)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromStream(stream As Stream, options As <a href="../../xreadoptions/default.htm">XReadOptions</a>) As <a href="../default.htm">XImage</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

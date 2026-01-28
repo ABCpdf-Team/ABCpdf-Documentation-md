@@ -10,12 +10,6 @@ Determines the index of a specific item.
 int IndexOf(<a href="../../field/default.htm">Field</a> value)
 ```
 
-[Visual Basic]
-
-```vb
-Function IndexOf(value As <a href="../../field/default.htm">Field</a>) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

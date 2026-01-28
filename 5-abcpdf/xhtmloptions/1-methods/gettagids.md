@@ -10,12 +10,6 @@ Gets an array of the HTML IDs of tagged visible items.
 string[] GetTagIDs(int id)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetTagIDs(id As Integer) As String()
-```
-
 ## Params
 
 | **Name** | **Description** |

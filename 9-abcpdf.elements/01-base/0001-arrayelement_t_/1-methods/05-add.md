@@ -8,12 +8,6 @@
 virtual void Add(T value)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Add(value As T) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

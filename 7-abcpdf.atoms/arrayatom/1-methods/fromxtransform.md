@@ -10,12 +10,6 @@ Create an ArrayAtom from a XTransform representation
 static <a href="../default.htm">ArrayAtom</a> FromXTransform(<a href="../../../5-abcpdf/xtransform/default.htm">XTransform</a> value)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromXTransform(value As <a href="../../../5-abcpdf/xtransform/default.htm">XTransform</a>) As <a href="../default.htm">ArrayAtom</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

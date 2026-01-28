@@ -10,12 +10,6 @@ Get a set of areas corresponding to a standard page layout.
 static List&lt;XRect&gt; GetPageLayout(XRect page, double marginV, double marginH, int columns)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Sub GetPageLayout(page As XRect, marginV As double, marginH As double, columns As int) As List&lt;XRect&gt;
-```
-
 ## Params
 
 | **Name** | **Description** |

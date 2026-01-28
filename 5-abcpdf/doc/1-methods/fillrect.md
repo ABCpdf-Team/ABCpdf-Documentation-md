@@ -10,12 +10,6 @@ Adds a painted rectangle to the current page.
 int FillRect()int FillRect(double radiusX, double radiusY)
 ```
 
-[Visual Basic]
-
-```vb
-Function FillRect() As IntegerFunction FillRect(radiusX As Double, radiusY As Double) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -45,18 +39,7 @@ using var doc = new Doc();
 doc.Rect.Inset(200, 100);
 doc.Color.Blue = 255;
 doc.FillRect();
-doc.Save(Server.MapPath("docfillrect.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Rect.Inset(200, 100)
-  doc.Color.Blue = 255
-  doc.FillRect()
-  doc.Save(Server.MapPath("docfillrect.pdf"))
-End Using
+doc.Save("docfillrect.pdf");
 ```
 
 ![](../../../images/pdf/docfillrect.pdf.png)

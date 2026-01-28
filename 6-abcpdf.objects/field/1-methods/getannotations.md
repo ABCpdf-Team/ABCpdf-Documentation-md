@@ -10,12 +10,6 @@ Gets all the Annotations referenced by this field or its children
 <a href="../../annotation/default.htm">Annotation</a>[] GetAnnotations()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable GetAnnotations() As <a href="../../annotation/default.htm">Annotation</a>()
-```
-
 ## Params
 
 | **Name** | **Description** |

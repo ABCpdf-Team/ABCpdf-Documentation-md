@@ -10,12 +10,6 @@ Adopt a specified Bookmark.
 void Adopt(<a href="../default.htm">Bookmark</a> value)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Adopt(value As <a href="../default.htm">Bookmark</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

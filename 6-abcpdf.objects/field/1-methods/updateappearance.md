@@ -10,12 +10,6 @@ Update the appearance of all the Annotations associated with this field
 void UpdateAppearance()
 ```
 
-[Visual Basic]
-
-```vb
-Sub UpdateAppearance()
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] bool CompressRunLength() bool CompressRunLength(bool force) [Visual Basic] Sub CompressRunLength() As Boolean Sub CompressRunLength(force As Boolean) As Boolean
+[C#] bool CompressRunLength() bool CompressRunLength(bool force)
 
 ## Params
 

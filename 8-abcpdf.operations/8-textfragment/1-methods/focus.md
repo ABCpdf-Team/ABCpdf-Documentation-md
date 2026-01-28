@@ -10,12 +10,6 @@ Prepare document for drawing at the fragment location.
 void Focus()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Focus()
-```
-
 ## Params
 
 | **Name** | **Description** |

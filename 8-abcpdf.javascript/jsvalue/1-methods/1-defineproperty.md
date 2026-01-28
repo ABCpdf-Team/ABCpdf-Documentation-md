@@ -10,12 +10,6 @@ Defines this object's own property.
 void DefineProperty(string name, object value)
 ```
 
-[Visual Basic]
-
-```vb
-Sub DefineProperty(name As String, value As Object)
-```
-
 ## Params
 
 | **Name** | **Description** |

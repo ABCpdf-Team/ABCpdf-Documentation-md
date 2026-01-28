@@ -10,12 +10,6 @@ Defines a list of this object's own properties.
 void DefineProperties(IEnumerable&lt;KeyValuePair&lt;string, object&gt;&gt; props)
 ```
 
-[Visual Basic]
-
-```vb
-Sub DefineProperties(props As IEnumerable(Of KeyValuePair(Of String, Object)))
-```
-
 ## Params
 
 | **Name** | **Description** |

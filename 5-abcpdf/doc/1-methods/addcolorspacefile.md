@@ -10,12 +10,6 @@ Adds an ICC based color space to the document.
 int AddColorSpaceFile(string path)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddColorSpaceFile(path As String) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -46,26 +40,11 @@ using var doc = new Doc();
 string text = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur.";
 doc.Rect.Inset(20, 40);
 doc.FontSize = 96;
-string path = Server.MapPath("../mypics/cmyk.icc");
+string path = "../mypics/cmyk.icc";
 doc.ColorSpace = doc.AddColorSpaceFile(path);
 doc.Color.String = "200 20 20 20";
 doc.AddText(text);
-doc.Save(Server.MapPath("docaddcolorspacefile.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Dim theText As String = "Gallia est omnis divisa in partes tres, quarum unam incolunt Belgae, aliam Aquitani, tertiam qui ipsorum lingua Celtae, nostra Galli appellantur."
-  doc.Rect.Inset(20, 40)
-  doc.FontSize = 96
-  Dim thePath As String = Server.MapPath("../mypics/cmyk.icc")
-  doc.ColorSpace = doc.AddColorSpaceFile(thePath)
-  doc.Color.String = "200 20 20 20"
-  doc.AddText(theText)
-  doc.Save(Server.MapPath("docaddcolorspacefile.pdf"))
-End Using
+doc.Save("docaddcolorspacefile.pdf");
 ```
 
 ![](../../../images/pdf/docaddcolorspacefile.pdf.png)

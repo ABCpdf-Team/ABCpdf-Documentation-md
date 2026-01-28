@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Whether to deactivate the WebBrowser. |
+|  | true | No | Whether to deactivate the WebBrowser. |
 
 ## Notes
 

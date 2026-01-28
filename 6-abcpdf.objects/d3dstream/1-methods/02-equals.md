@@ -8,12 +8,6 @@
 virtual bool Equals(<a href="../default.htm">D3DStream</a> other)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Equals(other As <a href="../default.htm">D3DStream</a>) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

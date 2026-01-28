@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `TextRenderingMode` | n/a | Yes | The text rendering mode used for drawing this text fragment. |
+|  | n/a | Yes | The text rendering mode used for drawing this text fragment. |
 
 ## Notes
 

@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] NumAtom() NumAtom(int num) NumAtom(long num) NumAtom(double real) [Visual Basic] Sub New() Sub New(num As Integer) NumAtom(num As long) Sub New(real As Double)
+[C#] NumAtom() NumAtom(int num) NumAtom(long num) NumAtom(double real)
 
 ## Params
 

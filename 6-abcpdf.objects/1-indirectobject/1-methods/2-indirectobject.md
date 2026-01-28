@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] IndirectObject() [Visual Basic] Sub New()
+[C#] IndirectObject()
 
 ## Params
 

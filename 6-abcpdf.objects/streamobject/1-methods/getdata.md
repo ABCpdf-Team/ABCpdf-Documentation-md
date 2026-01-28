@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] byte[] GetData() byte[] GetData(bool decompress) [Visual Basic] Function GetData() As Byte() Function GetData(decompress As Boolean) As Byte()
+[C#] byte[] GetData() byte[] GetData(bool decompress)
 
 ## Params
 

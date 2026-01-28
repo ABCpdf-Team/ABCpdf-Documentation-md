@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double` | 72.0 | No | The target resolution for the resampling of color images. |
+|  | 72.0 | No | The target resolution for the resampling of color images. |
 
 ## Notes
 

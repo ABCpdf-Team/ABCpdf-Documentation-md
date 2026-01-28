@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Whether to unembed complex Unicode based fonts where possible. |
+|  | true | No | Whether to unembed complex Unicode based fonts where possible. |
 
 ## Notes
 

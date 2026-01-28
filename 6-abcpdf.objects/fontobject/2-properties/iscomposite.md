@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | n/a | Yes | Whether the font is a complex composite font. |
+|  | n/a | Yes | Whether the font is a complex composite font. |
 
 ## Notes
 

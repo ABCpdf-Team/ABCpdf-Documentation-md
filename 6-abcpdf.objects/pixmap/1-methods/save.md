@@ -10,12 +10,6 @@ Saves the PixMap to stream attempting to preserve resolution, color space and de
 void Save(string path)void Save(Stream stream, string name)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Save(path As String)Sub Save(stream As Stream, name As String)
-```
-
 ## Params
 
 | **Name** | **Description** |

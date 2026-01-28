@@ -10,12 +10,6 @@ Vectorizes the text glyphs in the pages of a document.
 void Vectorize(Doc doc)void Vectorize(Pages pages)void Vectorize(Page page)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Vectorize(doc As Doc)Sub Vectorize(pages As Pages)Sub Vectorize(page As Page)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -48,21 +42,9 @@ Here we vectorize all the text in the document.
 static void VectorizeDocText1(string inDocName) {
   var op = new VectorizeTextOperation();
   using var doc = new Doc();
-  doc.Read(Server.MapPath(inDocName));
+  doc.Read(inDocName);
   op.Vectorize(doc);
-  doc.Save(Server.MapPath("VectorizedSample.pdf"));
+  doc.Save("VectorizedSample.pdf");
 }
-```
-
-[Visual Basic]
-
-```vb
-Private Shared Sub VectorizeDocText1(inDocName As String)
-  Dim vecOp As New VectorizeTextOperation()
-  Dim doc As New Doc()
-  doc.Read(Server.MapPath(inDocName))
-  vecOp.Vectorize(doc)
-  doc.Save(Server.MapPath("VectorizedSample.pdf"))
-End Sub
 ```
 

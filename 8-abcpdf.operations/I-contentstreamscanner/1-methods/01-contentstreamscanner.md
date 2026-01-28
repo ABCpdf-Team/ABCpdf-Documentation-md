@@ -8,12 +8,6 @@
 <a href="../default.htm">ContentStreamScanner</a>()<a href="../default.htm">ContentStreamScanner</a>(<a href="../default.htm">ContentStreamScanner</a> sibling)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">ContentStreamScanner</a>()<a href="../default.htm">ContentStreamScanner</a>(sibling As <a href="../default.htm">ContentStreamScanner</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

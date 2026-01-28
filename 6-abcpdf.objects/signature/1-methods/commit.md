@@ -10,12 +10,6 @@ Commit a previously signed signature to the document.
 void Commit()
 ```
 
-[Visual Basic]
-
-```vb
-Sub Commit()
-```
-
 ## Params
 
 | **Name** | **Description** |

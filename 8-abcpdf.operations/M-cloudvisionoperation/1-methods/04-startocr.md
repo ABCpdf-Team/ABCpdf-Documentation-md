@@ -10,12 +10,6 @@ Start OCR operation on the pages that have been added.
 void StartOcr()
 ```
 
-[Visual Basic]
-
-```vb
-Function StartOcr()
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -31,8 +25,8 @@ Here we read a TIFF into a Doc, OCR it and then save the PDF. The text in this d
 [C#]
 
 ```csharp
-string theSrc = Server.MapPath("mypics/multipage.tif");
-string theDst = Server.MapPath("CloudOCR.pdf");
+string theSrc = "../mypics/multipage.tif";
+string theDst = "CloudOCR.pdf";
 using (Doc doc = new Doc()) {
   doc.Read(theSrc);
 
@@ -43,21 +37,5 @@ using (Doc doc = new Doc()) {
   op.WaitAll();
   doc.Save(theDst);
 }
-```
-
-[Visual Basic]
-
-```vb
-Dim theSrc As String = Server.MapPath("mypics/multipage.tif")
-Dim theDst As String = Server.MapPath("CloudOCR.pdf")
-Using doc As New Doc()
-  doc.Read(theSrc)
-
-  Dim op As New CloudVisionOperation(doc)
-  op.AddPages()
-  op.ApiKey = "AIzAUlBcTPDwxUNn5uQvSHONpsTpAqVJHbfOa"<br>  op.StartOcr()<br>  op.WaitAll()
-
-  doc.Save(theDst)
-End Using
 ```
 

@@ -10,12 +10,6 @@ A hash code for the XColor
 override int GetHashCode()
 ```
 
-[Visual Basic]
-
-```vb
-Overrides Function GetHashCode() As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

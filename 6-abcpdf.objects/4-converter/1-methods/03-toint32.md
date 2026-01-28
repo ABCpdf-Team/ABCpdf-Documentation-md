@@ -10,12 +10,6 @@ Attempts to get an int from the specified entry in a DictAtom or ArrayAtom resol
 virtual int? ToInt32(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom, int index)virtual int? ToInt32(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom, string key)virtual int? ToInt32(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ToInt32(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, index As int) As Integer?Overridable Function ToInt32(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, key As string) As Integer?Overridable Function ToInt32(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>) As Integer?
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Remove the Bookmark at the specified location.
 void RemoveAt(int index)
 ```
 
-[Visual Basic]
-
-```vb
-Sub RemoveAt(index As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

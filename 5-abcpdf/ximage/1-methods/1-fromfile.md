@@ -10,12 +10,6 @@ Creates an XImage from a file path.
 static <a href="../default.htm">XImage</a> FromFile(string path, <a href="../../xreadoptions/default.htm">XReadOptions</a> options)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromFile(path As String, options As <a href="../../xreadoptions/default.htm">XReadOptions</a>) As <a href="../default.htm">XImage</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

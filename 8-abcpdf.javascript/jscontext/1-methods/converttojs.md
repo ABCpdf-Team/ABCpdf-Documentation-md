@@ -10,12 +10,6 @@ Gets a JavaScript value for the parameter value.
 JSValue ConvertToJS(bool v)JSValue ConvertToJS(double v)JSValue ConvertToJS(int v)JSValue ConvertToJS(long v)JSValue ConvertToJS(string v)JSValue ConvertToJS(Func&lt;JSCallInfo, object&gt; v)JSValue ConvertToJS(object v)
 ```
 
-[Visual Basic]
-
-```vb
-Function ConvertToJS(v As Boolean) As JSValueFunction ConvertToJS(v As Double) As JSValueFunction ConvertToJS(v As Integer) As JSValueFunction ConvertToJS(v As Long) As JSValueFunction ConvertToJS(v As String) As JSValueFunction ConvertToJS(v As Func(Of JSCallInfo, Object)) As JSValueFunction ConvertToJS(v As Object) As JSValue
-```
-
 ## Params
 
 | **Name** | **Description** |

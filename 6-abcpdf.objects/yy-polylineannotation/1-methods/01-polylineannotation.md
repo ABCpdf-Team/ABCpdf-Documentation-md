@@ -10,12 +10,6 @@ Add polyline annotation to the current page of the doc.
 <a href="../default.htm">PolylineAnnotation</a>(Doc doc, double[] vertices, XColor borderColor)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">PolylineAnnotation</a>(doc As Doc, vertices As Double(), borderColor As XColor)
-```
-
 ## Params
 
 | **Name** | **Description** |

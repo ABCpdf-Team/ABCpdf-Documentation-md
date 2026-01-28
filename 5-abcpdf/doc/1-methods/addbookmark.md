@@ -71,40 +71,7 @@ for (int i = 1; i < 4; i++) {
     }
   }
 }
-doc.Save(Server.MapPath("docaddbookmark.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.FontSize = 64
-  Dim i As Integer = 1
-  While i < 4
-    doc.Page = doc.AddPage()
-    Dim theSection As String = $"{i} Section"
-    doc.AddText(theSection)
-    doc.AddBookmark(theSection, True)
-    Dim j As Integer = 1
-    While j < 6
-      doc.Page = doc.AddPage()
-      Dim theChapter As String = $"{theSection}\{j} Chapter"
-      doc.AddText(theChapter)
-      doc.AddBookmark(theChapter, False)
-      Dim k As Integer = 1
-      While k < 7
-        doc.Page = doc.AddPage()
-        Dim theSubject As String = $"{theChapter}\{k} Subject"
-        doc.AddText(theSubject)
-        doc.AddBookmark(theSubject, True)
-        System.Math.Max(System.Threading.Interlocked.Increment(k),k - 1)
-      End While
-      System.Math.Max(System.Threading.Interlocked.Increment(j),j - 1)
-    End While
-    System.Math.Max(System.Threading.Interlocked.Increment(i),i - 1)
-  End While
-  doc.Save(Server.MapPath("docaddbookmark.pdf"))
-End Using
+doc.Save("docaddbookmark.pdf");
 ```
 
 ![](../../../images/pdf/docaddbookmark.gif)

@@ -10,12 +10,6 @@ Wait until the operation is completed.
 void WaitAll()
 ```
 
-[Visual Basic]
-
-```vb
-Function WaitAll()
-```
-
 ## Params
 
 | **Name** | **Description** |

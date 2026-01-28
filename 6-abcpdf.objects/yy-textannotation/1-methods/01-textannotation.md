@@ -10,12 +10,6 @@ Add text annotation to the current page of the doc.
 <a href="../default.htm">TextAnnotation</a>(Doc doc, XRect rect1, XRect rect2, string contents)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">TextAnnotation</a>(doc As Doc, rect1 As XRect, rect2 As XRect, contents As string)
-```
-
 ## Params
 
 | **Name** | **Description** |

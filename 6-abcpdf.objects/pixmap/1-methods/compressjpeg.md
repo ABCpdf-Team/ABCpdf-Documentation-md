@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void CompressJpeg(int quality) [Visual Basic] Sub CompressJpeg(quality As Integer)
+[C#] void CompressJpeg(int quality)
 
 may throw Exception()
 

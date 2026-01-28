@@ -10,12 +10,6 @@ Create an XRect from a standard PDF Rectangle ArrayAtom.
 static <a href="../default.htm">XRect</a> FromAtom(<a href="../../../6-abcpdf.objects/1-indirectobject/default.htm">IndirectObject</a> io, <a href="../../../7-abcpdf.atoms/arrayatom/default.htm">ArrayAtom</a> array)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromAtom(io As <a href="../../../6-abcpdf.objects/1-indirectobject/default.htm">IndirectObject</a>, array As <a href="../../../7-abcpdf.atoms/arrayatom/default.htm">ArrayAtom</a>) As <a href="../default.htm">XRect</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

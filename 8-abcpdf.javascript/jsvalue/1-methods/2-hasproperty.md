@@ -10,12 +10,6 @@ Determines whether this object has a property.
 bool HasProperty(string name)
 ```
 
-[Visual Basic]
-
-```vb
-Function HasProperty(name As String) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Create an Atom converter for a particular ObjectSoup.
 <a href="../default.htm">Converter</a>(<a href="../../2-objectsoup/default.htm">ObjectSoup</a> soup)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">Converter</a>(soup As <a href="../../2-objectsoup/default.htm">ObjectSoup</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

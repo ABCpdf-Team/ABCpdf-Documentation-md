@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] FlattenTransparencyOperation() [Visual Basic] Sub New()
+[C#] FlattenTransparencyOperation()
 
 ## Params
 

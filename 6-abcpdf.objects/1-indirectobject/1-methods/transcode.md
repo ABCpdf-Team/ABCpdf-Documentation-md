@@ -10,12 +10,6 @@ Transcodes and reloads the IndirectObject
 <a href="../default.htm">IndirectObject</a> Transcode()
 ```
 
-[Visual Basic]
-
-```vb
-Function Transcode() As <a href="../default.htm">IndirectObject</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

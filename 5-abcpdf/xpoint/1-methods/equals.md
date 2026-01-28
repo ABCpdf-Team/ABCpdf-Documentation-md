@@ -10,12 +10,6 @@ Test whether the two points are effectvely the same
 bool Equals(<a href="../default.htm">XPoint</a> other, double epsilon)bool Equals(<a href="../default.htm">XPoint</a> other)override bool Equals(object other)
 ```
 
-[Visual Basic]
-
-```vb
-Function Equals(other As <a href="../default.htm">XPoint</a>, epsilon As Double) As BooleanFunction Equals(other As <a href="../default.htm">XPoint</a>) As BooleanOverrides Function Equals(other As Object) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ ImageOperation Constructor.
 <a href="../default.htm">ImageOperation</a>(Doc doc)
 ```
 
-[Visual Basic]
-
-```vb
-Sub New(doc As Doc)
-```
-
 ## Params
 
 | **Name** | **Description** |

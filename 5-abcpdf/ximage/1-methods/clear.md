@@ -10,12 +10,6 @@ Clears the image.
 void Clear()void Clear(out <a href="../../xreadoptions/default.htm">XReadOptions</a> outOptions, out Stream outStream)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Clear()Sub Clear(&lt;Out&gt; ByRef outOption As <a href="../../xreadoptions/default.htm">XReadOptions</a>, &lt;Out&gt; ByRef outStream As Stream)
-```
-
 ## Params
 
 | **Name** | **Description** |

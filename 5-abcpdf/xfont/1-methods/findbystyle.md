@@ -10,12 +10,6 @@ Find a font from a specific family, with a given style.
 static <a href="../default.htm">XFont</a> FindByStyle(string family, FontWeight weight, bool italic)static <a href="../default.htm">XFont</a> FindByStyle(string family, int weight, bool italic)static <a href="../default.htm">XFont</a> FindByStyle(IEnumerable&lt;XFont&gt; fonts, int weight, int weightTolerance, bool italic)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FindByStyle(family As String, weight As FontWeight, italic As Boolean) As <a href="../default.htm">XFont</a>Shared Function FindByStyle(family As String, weight As Integer, italic As Boolean) As <a href="../default.htm">XFont</a>Shared Function FindByStyle(fonts As IEnumerable(Of XFont), weight As Integer, weightTolerance as Integer, italic As Boolean) As <a href="../default.htm">XFont</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

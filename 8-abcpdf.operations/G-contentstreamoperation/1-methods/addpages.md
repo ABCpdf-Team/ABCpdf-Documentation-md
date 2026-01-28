@@ -10,12 +10,6 @@ Add and scan selected pages from the document.
 void AddPages()void AddPages(int pageNumber)void AddPages(int startPageNumber, int endPageNumber)void AddPages(int pageNumber, StreamObject[] layers)
 ```
 
-[Visual Basic]
-
-```vb
-Sub AddPages()Sub AddPages(pageNumber As Integer)Sub AddPages(startPageNumber As Integer, endPageNumber As Integer)Sub AddPages(pageNumber As Integer, layers as StreamObject())
-```
-
 ## Params
 
 | **Name** | **Description** |

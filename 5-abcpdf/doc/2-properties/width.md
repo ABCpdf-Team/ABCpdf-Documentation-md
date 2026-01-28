@@ -12,7 +12,7 @@ The FrameRect method draws lines outside the rectangle you provide. So if you fr
 
 The following code adds two lines to a document. The first line has a width of ten points and the second has a width of twenty points.
 
-[C#] using var doc = new Doc(); doc.Width = 10; doc.AddLine(10, 10, 300, 300); doc.Width = 20; doc.AddLine(10, 300, 300, 10); doc.Save(Server.MapPath("docwidth.pdf")); [Visual Basic] Using doc As New Doc() doc.Width = 10 doc.AddLine(10, 10, 300, 300) doc.Width = 20 doc.AddLine(10, 300, 300, 10) doc.Save(Server.MapPath("docwidth.pdf")) End Using
+[C#] using var doc = new Doc(); doc.Width = 10; doc.AddLine(10, 10, 300, 300); doc.Width = 20; doc.AddLine(10, 300, 300, 10); doc.Save("docwidth.pdf");
 
 docwidth.pdf
 

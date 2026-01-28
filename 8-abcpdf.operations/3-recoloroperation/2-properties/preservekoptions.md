@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `BlackPreservation` | Intent | Yes | Determines how color transforms preserve black when recoloring to CMYK. |
+|  | Intent | Yes | Determines how color transforms preserve black when recoloring to CMYK. |
 
 ## Notes
 

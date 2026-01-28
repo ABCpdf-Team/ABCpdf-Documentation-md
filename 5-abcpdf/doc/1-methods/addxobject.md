@@ -10,12 +10,6 @@ Add a Form or Image XObject to the current page.
 int AddXObject(<a href="../../../6-abcpdf.objects/pixmap/default.htm">Objects.PixMap</a> pm)int AddXObject(<a href="../../../6-abcpdf.objects/formxobject/default.htm">Objects.FormXObject</a> pm)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddXObject(pm As <a href="../../../6-abcpdf.objects/pixmap/default.htm">Objects.PixMap</a>) As IntegerFunction AddXObject(pm As <a href="../../../6-abcpdf.objects/formxobject/default.htm">Objects.FormXObject</a>) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -44,26 +38,10 @@ doc.Transform.Rotate(20, 200, 200);
 doc.Color.SetRgb(200, 200, 255);
 doc.FillRect();
 var pm = new PixMap(doc.ObjectSoup);
-using var img = (Bitmap)Bitmap.FromFile(Server.MapPath("mypics/mypic.png"));
+using var img = (Bitmap)Bitmap.FromFile("../mypics/mypic.png");
 pm.SetBitmap(img, true);
 doc.AddXObject(pm);
-doc.Save(Server.MapPath("examplePixMapBitmap.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Rect.Inset(50, 50)
-  doc.Transform.Rotate(20, 200, 200)
-  doc.Color.SetRgb(200, 200, 255)
-  doc.FillRect()
-  Dim pm As New PixMap(doc.ObjectSoup)
-  Dim img As Bitmap = DirectCast(Bitmap.FromFile(Server.MapPath("mypics/mypic.png")), Bitmap)
-  pm.SetBitmap(img, True)
-  doc.AddXObject(pm)
-  doc.Save(Server.MapPath("examplePixMapBitmap.pdf"))
-End Using
+doc.Save("examplePixMapBitmap.pdf");
 ```
 
 ![](../../../images/pdf/examplePixMapBitmap.pdf.png)

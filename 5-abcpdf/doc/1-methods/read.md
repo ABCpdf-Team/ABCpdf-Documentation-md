@@ -10,12 +10,6 @@ Reads an existing document.
 void Read(string path)void Read(byte[] data)void Read(Stream stream)void Read(string path, string password)void Read(byte[] data, string password)void Read(Stream stream, string password)void Read(string path, XReadOptions options)void Read(byte[] data, XReadOptions options)void Read(Stream stream, XReadOptions options)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Read(path As String)Sub Read(data() As Byte)Sub Read(stream As Stream)Sub Read(path As String, password As String)Sub Read(data() As Byte, password As String)Sub Read(stream As Stream, password As String)Sub Read(path As String, options As XReadOptions)Sub Read(data() As Byte, options As XReadOptions)Sub Read(stream As Stream, options As XReadOptions)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -86,7 +80,7 @@ The following illustrates how one might add a large red number to every page of 
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("../mypics/sample.pdf"));
+doc.Read("../mypics/sample.pdf");
 doc.FontSize = 500;
 doc.Color.String = "255 0 0";
 doc.TextStyle.HPos = 0.5;
@@ -96,27 +90,7 @@ for (int i = 1; i <= count; i++) {
   doc.PageNumber = i;
   doc.AddText(i.ToString());
 }
-doc.Save(Server.MapPath("docread.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("../mypics/sample.pdf"))
-  doc.FontSize = 500
-  doc.Color.String = "255 0 0"
-  doc.TextStyle.HPos = 0.5
-  doc.TextStyle.VPos = 0.3
-  Dim theCount As Integer = doc.PageCount
-  Dim i As Integer = 1
-  While i <= theCount
-    doc.PageNumber = i
-    doc.AddText(i.ToString())
-    System.Math.Max(System.Threading.Interlocked.Increment(i),i - 1)
-  End While
-  doc.Save(Server.MapPath("docread.pdf"))
-End Using
+doc.Save("docread.pdf");
 ```
 
 ![](../../../images/pdf/docread.pdf.png)

@@ -10,12 +10,6 @@ Gets an array of the locations of tagged visible items.
 <a href="../../xrect/default.htm">XRect</a>[] GetTagRects(int id)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetTagRects(id As Integer) As <a href="../../xrect/default.htm">XRect</a>()
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -77,39 +71,7 @@ doc.FontSize = 64;
 doc.Color.String = "255 0 0";
 doc.AddText($"Tag ID \"{tagIds[0]}\":");
 // Save the document
-doc.Save(Server.MapPath("HtmlOptionsGetTagRects.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Rect.Inset(100, 100)
-  doc.Rect.Top = 700
-  doc.HtmlOptions.Engine = EngineType.Chrome123
-  doc.HtmlOptions.AddTags = True
-  ' The ABCGecko and MSHTML tagging format uses styles.
-  Dim html1 As String = "<!DOCTYPE html><html><head>" + "<style type='text/css'>" + ".tag-visible { abcpdf-tag-visible:true; outline: 1px solid transparent; font-size: 72pt; }" + "</style>" + "</head><body>" + "<p id='p1' class='tag-visible'>Gallia est omnis divisa in partes tres.</p>" + "</body></html>"
-  ' The ABCChrome tagging format uses attributes.
-  Dim html2 As String = "<!DOCTYPE html><html><head>" + "<style type='text/css'>" + "p { font-size: 72pt; }" + "</style>" + "</head><body>" + "<p id='p1' abcpdf-tag-visible>Gallia est omnis divisa in partes tres.</p>" + "</body></html>"
-  Dim html As String = If(doc.HtmlOptions.Engine <> EngineType.Chrome123, html1, html2)
-  Dim id As Integer = doc.AddImageHtml(html)
-  ' Frame location of the tagged element
-  Dim tagRects As XRect() = doc.HtmlOptions.GetTagRects(id)
-  For Each theRect As XRect In tagRects
-    doc.Rect.String = theRect.ToString()
-    doc.FrameRect()
-  Next
-  ' Output tag ID
-  Dim tagIds As String() = doc.HtmlOptions.GetTagIDs(id)
-  doc.Rect.String = doc.MediaBox.[String]
-  doc.Rect.Inset(20, 20)
-  doc.FontSize = 64
-  doc.Color.String = "255 0 0"
-  doc.AddText($"Tag ID ""{tagIds[0]}"":")
-  ' Save the document
-  doc.Save(Server.MapPath("HtmlOptionsGetTagRects.pdf"))
-End Using
+doc.Save("HtmlOptionsGetTagRects.pdf");
 ```
 
 ![](../../../images/pdf/HtmlOptionsGetTagRects.pdf.png)

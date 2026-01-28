@@ -10,12 +10,6 @@ Sets the font and font size to be used for text
 vitual void SetFont(<a href="../../fontobject/default.htm">FontObject</a> font, double size)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetFont(font As <a href="../../fontobject/default.htm">FontObject</a>, size As Double)
-```
-
 ## Params
 
 | **Name** | **Description** |

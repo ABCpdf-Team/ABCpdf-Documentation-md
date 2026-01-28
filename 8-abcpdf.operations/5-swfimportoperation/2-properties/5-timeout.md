@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `TimeSpan?` | null | No | Gets or sets the time-out for script execution. |
+|  | null | No | Gets or sets the time-out for script execution. |
 
 ## Notes
 

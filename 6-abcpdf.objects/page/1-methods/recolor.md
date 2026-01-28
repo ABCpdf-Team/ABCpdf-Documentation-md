@@ -10,12 +10,6 @@ Converts the page from one color space to another.
 void Recolor(<a href="../../colorspace/default.htm">ColorSpace</a> space, bool convertAnnotations)void Recolor(<a href="../../colorspace/default.htm">ColorSpace</a> space, bool convertAnnotations, out <a href="../../pixmap/default.htm">PixMap</a>[] recoloredPixMaps)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Recolor(space As <a href="../../colorspace/default.htm">ColorSpace</a>, convertAnnotations As Boolean)Sub Recolor(space As <a href="../../colorspace/default.htm">ColorSpace</a>, convertAnnotations As Boolean, &lt;Out&gt; ByRef recoloredPixMaps As <a href="../../pixmap/default.htm">PixMap</a>())
-```
-
 ## Params
 
 | **Name** | **Description** |

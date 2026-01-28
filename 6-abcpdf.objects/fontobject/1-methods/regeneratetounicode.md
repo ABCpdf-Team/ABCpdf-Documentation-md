@@ -10,12 +10,6 @@ Attempt to regenerate a ToUnicode map.
 bool RegenerateToUnicode()
 ```
 
-[Visual Basic]
-
-```vb
-Function RegenerateToUnicode() As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

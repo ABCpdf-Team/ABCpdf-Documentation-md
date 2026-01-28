@@ -10,12 +10,6 @@ Attempts to get a double from the specified entry in a DictAtom or ArrayAtom res
 virtual double? ToDouble(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom, int index)virtual double? ToDouble(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom, string key)virtual double? ToDouble(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ToDouble(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, index As int) As Double?Overridable Function ToDouble(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, key As string) As Double?Overridable Function ToDouble(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>) As Double?
-```
-
 ## Params
 
 | **Name** | **Description** |

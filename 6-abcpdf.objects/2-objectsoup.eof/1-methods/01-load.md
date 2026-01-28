@@ -10,12 +10,6 @@ Loads the file trailer data.
 void Load(<a href="../../2-objectsoup/default.htm">ObjectSoup</a> soup)
 ```
 
-[Visual Basic]
-
-```vb
-Function Load(soup As <a href="../../2-objectsoup/default.htm">ObjectSoup</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -35,7 +29,7 @@ The following code tests to see if any of the revisions in a document are hybrid
 ```csharp
 bool isHybrid = false;
 using var doc = new Doc();
-doc.Read(Server.MapPath("../mypics/sample.pdf"));
+doc.Read("../mypics/sample.pdf");
 using (var eof = new ObjectSoup.Eof()) {
   eof.Load(doc.ObjectSoup);
   var xref = eof.XRef;
@@ -48,26 +42,5 @@ using (var eof = new ObjectSoup.Eof()) {
   }
 }
 // do something with isHybrid
-```
-
-[Visual Basic]
-
-```vb
-Dim isHybrid As Boolean = False
-Using doc = New Doc()
-  doc.Read(Server.MapPath("../mypics/sample.pdf"))
-  Using eof = New ObjectSoup.Eof()
-    eof.Load(doc.ObjectSoup)
-    Dim xref = eof.XRef
-    While xref <> Nothing
-      If xref.Type = ObjectSoup.XRefType.Hybrid Then
-        isHybrid = True
-        Exit While
-      End If
-      xref = xref.Prev
-    End While
-    ' do something with isHybrid
-  End Using
-End Using
 ```
 

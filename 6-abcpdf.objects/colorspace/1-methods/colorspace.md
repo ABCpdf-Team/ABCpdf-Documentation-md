@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] ColorSpace(ObjectSoup soup) ColorSpace(ObjectSoup soup, ColorSpaceType space) [Visual Basic] Sub New(soup As ObjectSoup) Sub New(soup As ObjectSoup, space As ColorSpaceType)
+[C#] ColorSpace(ObjectSoup soup) ColorSpace(ObjectSoup soup, ColorSpaceType space)
 
 ## Params
 

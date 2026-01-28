@@ -10,12 +10,6 @@ Create an XColor from a set of  PDF  components in the generic ColorSpace color 
 static <a href="../default.htm">XColor</a> FromComponents(double value1)static <a href="../default.htm">XColor</a> FromComponents(double value1, double value2)static <a href="../default.htm">XColor</a> FromComponents(double value1, double value2, double value3)static <a href="../default.htm">XColor</a> FromComponents(double value1, double value2, double value3, double value4)
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FromComponents(value1 As Double) As <a href="../default.htm">XColor</a>Shared Function FromComponents(value1 As Double, value2 As Double) As <a href="../default.htm">XColor</a>Shared Function FromComponents(value1 As Double, value2 As Double, value3 As Double) As <a href="../default.htm">XColor</a>Shared Function FromComponents(value1 As Double, value2 As Double, value3 As Double, value4 As Double) As <a href="../default.htm">XColor</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

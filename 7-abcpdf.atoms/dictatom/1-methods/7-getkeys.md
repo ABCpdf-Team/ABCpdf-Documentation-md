@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] string[] GetKeys() [Visual Basic] Function GetKeys() As String()
+[C#] string[] GetKeys()
 
 ## Params
 

@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void RemoveAt(int index) [Visual Basic] Sub RemoveAt(index As Integer)
+[C#] void RemoveAt(int index)
 
 may throw NotSupportedException()
 

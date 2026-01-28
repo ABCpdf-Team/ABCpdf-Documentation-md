@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `double` | n/a | Yes | The horizontal resolution of the image in dots per inch. |
+|  | n/a | Yes | The horizontal resolution of the image in dots per inch. |
 
 ## Notes
 

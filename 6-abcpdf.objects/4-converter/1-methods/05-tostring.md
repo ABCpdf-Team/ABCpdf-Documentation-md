@@ -10,12 +10,6 @@ Attempts to get a string from the specified entry in a DictAtom or ArrayAtom res
 virtual string ToString(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom, int index)virtual string ToString(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom, string key)virtual string ToString(<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a> atom)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ToString(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, index As int) As stringOverridable Function ToString(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>, key As string) As stringOverridable Function ToString(atom As <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>) As string
-```
-
 ## Params
 
 | **Name** | **Description** |

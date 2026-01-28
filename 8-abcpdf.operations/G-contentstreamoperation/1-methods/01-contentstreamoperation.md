@@ -10,12 +10,6 @@ Contents constructor
 <a href="../default.htm">ContentStreamOperation</a>(Doc doc)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">ContentStreamOperation</a>(doc As Doc)
-```
-
 ## Params
 
 | **Name** | **Description** |

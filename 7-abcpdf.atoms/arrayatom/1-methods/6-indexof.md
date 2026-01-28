@@ -10,12 +10,6 @@ Determines the index of a specific Atom.
 int IndexOf(<a href="../../1-atom/default.htm">Atom</a> value)
 ```
 
-[Visual Basic]
-
-```vb
-Function IndexOf(value As <a href="../../1-atom/default.htm">Atom</a>) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |

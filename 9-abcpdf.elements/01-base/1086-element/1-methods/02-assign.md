@@ -8,12 +8,6 @@
 virtual bool Assign(IndirectObject obj)virtual bool Assign(<a href="../2-properties/03-atom.htm">Atom</a> host, IndirectObject atom)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function Assign(obj As IndirectObject) As BooleanOverridable Function Assign(host As <a href="../2-properties/03-atom.htm">Atom</a>, atom As IndirectObject) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

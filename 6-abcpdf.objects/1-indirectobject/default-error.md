@@ -1,0 +1,2 @@
+# IndirectObject Class
+

@@ -10,12 +10,6 @@ Load an image from stream.
 void SetStream(Stream stream)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetStream(stream As Stream)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -40,31 +34,13 @@ Here we read a TIFF file and present the data to the XImage object. We then add 
 
 ```csharp
 using var img = new XImage();
-string path = Server.MapPath("../mypics/mypic.jpg");
+string path = "../mypics/mypic.jpg";
 using var stream = File.OpenRead(path);
 img.SetStream(stream);
 using var doc = new Doc();
 doc.Rect.Inset(20, 20);
 doc.AddImageObject(img, false);
-doc.Save(Server.MapPath("imagesetstream.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Dim theImg As New XImage()
-Dim thePath As String
-thePath = Server.MapPath("../mypics/mypic.jpg")
-Dim theStream As Stream
-theStream = File.OpenRead(thePath)
-theImg.SetStream(theStream)
-theStream.Close()
-Dim doc As New Doc()
-doc.Rect.Inset(20, 20)
-doc.AddImageObject(theImg, False)
-theImg.Clear()
-doc.Save(Server.MapPath("imagesetstream.pdf"))
-doc.Clear()
+doc.Save("imagesetstream.pdf");
 ```
 
 ![](../../../images/pdf/imagesetfile.pdf.png)

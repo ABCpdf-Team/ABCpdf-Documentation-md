@@ -10,12 +10,6 @@ Set the transform.
 void SetTransform(double m11, double m12, double m21, double m22, double tx, double ty)void SetTransform(<a href="../default.htm">XTransform</a> transform)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetTransform(m11 As Double, m12 As Double, m21 As Double, m22 As Double, tx As Double, ty As Double)Sub SetTransform(transform As <a href="../default.htm">XTransform</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

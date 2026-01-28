@@ -10,12 +10,6 @@ Occurs after the JavaScript engine is initialized and before the specified JavaS
 event Func&lt;JSCallInfo, object&gt; SetUp;
 ```
 
-[Visual Basic]
-
-```vb
-Event SetUp As Func(Of JSCallInfo, Object)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -103,83 +97,5 @@ using (Doc doc = new Doc()) {
   doc.Form.RunJS("var f = this.getField(\"Text1\"); f.display = display.hidden;", options);
   doc.Save(Server.MapPath("hiddenfield.pdf"));
 }
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("../mypics/sample.pdf"))
-  Dim field As Field = doc.Form("CheckBox1")
-  Dim options As New JSOptions()
-  AddHandler options.SetUp, Function(arg As JSCallInfo)
-    Dim prototype As JSValue = arg.Context.GetFieldPrototype()
-    If Not prototype.HasProperty("display") Then
-      Dim desc As New JSAccessorDescriptor()
-      desc.Configurable = False
-      desc.Enumerable = True
-      desc.Get = Function(info As JSCallInfo)
-        Dim context As JSContext = info.Context
-        Dim id As Integer = info.This.GetDocObjectID()
-        If id = 0 Then
-          Return Nothing
-        End If
-        Dim annot As Annotation = CType(context.Doc.ObjectSoup(id), Annotation)
-        Dim flags As Annotation.AnnotationFlags = annot.Flags
-        If (flags And Annotation.AnnotationFlags.Hidden) <> 0 Then
-          Return 1 ' display.hidden
-        End If
-        Dim v As Integer = 0 ' display.visible
-        If (flags And Annotation.AnnotationFlags.Print) = 0 Then
-          v = v Or 2 ' display.noPrint
-        End If
-        If (flags And Annotation.AnnotationFlags.NoView) <> 0 Then
-          v = v Xor 2 Or 1 ' display.hidden, display.noView
-        End If
-        Return v
-      End Function
-      desc.Set = Function(info As JSCallInfo)
-        If info.ArgCount < 2 Then
-          Return Nothing
-        End If
-        Dim context As JSContext = info.Context
-        Dim id As Integer = info.This.GetDocObjectID()
-        If id = 0 Then
-          Return Nothing
-        End If
-        Dim annot As Annotation = CType(context.Doc.ObjectSoup(id), Annotation)
-        Dim flags As Annotation.AnnotationFlags = annot.Flags
-        Dim v As Integer = info.Args(1).GetValueInt()
-        Select Case v
-        Case 0 ' display.visible
-          flags = flags And Not Annotation.AnnotationFlags.Hidden _
-            And Not Annotation.AnnotationFlags.NoView _
-            Or Annotation.AnnotationFlags.Print
-        Case 1 ' display.hidden
-          flags = flags And Not Annotation.AnnotationFlags.NoView _
-            Or Annotation.AnnotationFlags.Print _
-            Or Annotation.AnnotationFlags.Hidden
-        Case 2 ' display.noPrint
-          flags = flags And Not Annotation.AnnotationFlags.Hidden _
-            And Not Annotation.AnnotationFlags.NoView _
-            And Not Annotation.AnnotationFlags.Print
-        Case 3 ' display.noView
-          flags = flags And Not Annotation.AnnotationFlags.Hidden _
-            Or Annotation.AnnotationFlags.Print _
-            Or Annotation.AnnotationFlags.NoView
-        Case Else
-          Return Nothing
-        End Select
-        annot.Flags = flags
-        Return Nothing
-      End Function
-      prototype.DefineProperty("display", desc)
-    End If
-    Return Nothing
-  End Function
-  options.LoadGlobals = True
-  doc.Form.RunJS("var f = this.getField(""Text1""); f.display = display.hidden;", options)
-  doc.Save(Server.MapPath("hiddenfield.pdf"))
-End Using
 ```
 

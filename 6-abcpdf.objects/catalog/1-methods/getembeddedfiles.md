@@ -10,12 +10,6 @@ Gets all the embedded files in this document
 IDictionary&lt;string, <a href="../../filespecification/default.htm">FileSpecification</a>&gt; GetEmbeddedFiles()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetEmbeddedFiles() As IDictionary&lt;string, <a href="../../filespecification/default.htm">FileSpecification</a>&gt;
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -44,7 +38,7 @@ The example below show how to extract all the files embedded in a PDF portfolio.
 using var doc = new Doc();
 var ro = new XReadOptions();
 ro.OpenPortfolios = false;
-doc.Read(Server.MapPath("Portfolio1.pdf"), ro);
+doc.Read("../Rez/Portfolio1.pdf", ro);
 var files = doc.ObjectSoup.Catalog.GetEmbeddedFiles();
 foreach (var pair in files) {
   var fileSpec = pair.Value;
@@ -56,26 +50,5 @@ foreach (var pair in files) {
     File.WriteAllBytes(path, file.GetData());
   }
 }
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  Dim ro As New XReadOptions()
-  ro.OpenPortfolios = False
-  doc.Read(Server.MapPath("Portfolio1.pdf"), ro)
-  Dim files = doc.ObjectSoup.Catalog.GetEmbeddedFiles()
-  For Each pair As var In files
-    Dim fileSpec As FileSpecification = pair.Value
-    fileSpec.Rationalize()
-    Dim file__1 As EmbeddedFile = fileSpec.EmbeddedFile
-    If (file__1 <> Nothing) AndAlso (file__1.Decompress()) Then
-      Dim name As String = "Portfolio_" + fileSpec.Uri
-      Dim path As String = name
-      File.WriteAllBytes(path, file__1.GetData())
-    End If
-  Next
-End Using
 ```
 

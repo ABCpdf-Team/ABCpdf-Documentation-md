@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] RefAtom() RefAtom(IndirectObject value) [Visual Basic] Sub New() Sub New(value As IndirectObject)
+[C#] RefAtom() RefAtom(IndirectObject value)
 
 ## Params
 

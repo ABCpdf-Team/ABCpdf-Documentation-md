@@ -10,12 +10,6 @@ Get a dictionary mapping the names of a particular type of resource to Atoms
 IDictionary&lt;string, <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>&gt; GetResourceMap(string type)IDictionary&lt;string, <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>&gt; GetResourceMap(string type, bool includeXObjects, bool includePatterns, ISet&lt;int&gt; skip, ISet&lt;<a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>&gt; set)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetResourceMap(type As String) As IDictionary(Of string, <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>)Function GetResourceMap(type As String, includeXObjects As Boolean, includePatterns As Boolean, skip As ISet{Of Integer}, set As System.Collections.Generic.ISet{Of <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>}) As IDictionary(Of string, <a href="../../../7-abcpdf.atoms/1-atom/default.htm">Atom</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Find all the fonts currently installed on the system.
 static <a href="../default.htm">XFont</a>[] FindAll()
 ```
 
-[Visual Basic]
-
-```vb
-Shared Function FindAll() As <a href="../default.htm">XFont</a>()
-```
-
 ## Params
 
 | **Name** | **Description** |

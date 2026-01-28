@@ -14,7 +14,7 @@ The default kerning method is based around the kerning tables in the TrueType fo
 
 The following shows how to insert a table of contents while disabling kerning.
 
-[C#] string text = File.ReadAllText(Server.MapPath("tableofcontents.txt")); text = text.Replace("\r", "<br>"); // make our carriage returns into breaks text = text.Replace(" ", " "); // make our indent at start of line into nbsp using var doc = new Doc(); doc.TextStyle.Size = 36; doc.TextStyle.Kerning = XTextStyle.KerningType.None; doc.Rect.Inset(10, 10); doc.Page = doc.AddPage(); doc.AddTextStyled(text.Replace(" ~", "<leader>.</leader>")); doc.Save(Server.MapPath("TableOfContentsWithLeaders.pdf")); [Visual Basic] Dim text As String = File.ReadAllText(Server.MapPath("tableofcontents.txt")) text = text.Replace(vbCr, "<br>") ' make our carriage returns into breaks text = text.Replace(" ", vbTab & vbTab & " ") ' make our indent at start of line into nbsp Using doc As New Doc() doc.TextStyle.Size = 36 doc.TextStyle.Kerning = XTextStyle.KerningType.None doc.Rect.Inset(10, 10) doc.Page = doc.AddPage() doc.AddTextStyled(text.Replace(" ~", "<leader>.</leader>")) doc.Save(Server.MapPath("TableOfContentsWithLeaders.pdf")) End Using
+[C#] string text = File.ReadAllText("../Rez/tableofcontents.txt"); text = text.Replace("\r", "<br>"); // make our carriage returns into breaks text = text.Replace(" ", " "); // make our indent at start of line into nbsp using var doc = new Doc(); doc.TextStyle.Size = 36; doc.TextStyle.Kerning = XTextStyle.KerningType.None; doc.Rect.Inset(10, 10); doc.Page = doc.AddPage(); doc.AddTextStyled(text.Replace(" ~", "<leader>.</leader>")); doc.Save("TableOfContentsWithLeaders.pdf");
 
 Using the following input text.
 

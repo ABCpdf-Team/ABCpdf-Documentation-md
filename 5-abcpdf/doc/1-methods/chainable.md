@@ -10,12 +10,6 @@ Determines if an object is chainable.
 bool Chainable(int id)
 ```
 
-[Visual Basic]
-
-```vb
-Function Chainable(id As Integer) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

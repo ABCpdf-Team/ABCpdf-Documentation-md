@@ -10,12 +10,6 @@ Removes the certificate object at the specified index.
 void RemoveAt(int index)
 ```
 
-[Visual Basic]
-
-```vb
-Sub RemoveAt(index As Integer)
-```
-
 ## Params
 
 | **Name** | **Description** |

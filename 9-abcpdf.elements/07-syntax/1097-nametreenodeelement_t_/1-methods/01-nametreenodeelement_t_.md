@@ -8,12 +8,6 @@
 <a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;()<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;(Atom atom, IndirectObject host)<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;(IndirectObject obj)<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;(<a href="../../../01-base/1086-element/default.htm">Element</a> relation, CreationOptions options)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;()<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;(atom As Atom, host As IndirectObject)<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;(obj As IndirectObject)<a href="../default.htm">NameTreeNodeElement</a>&lt;T&gt;(relation As <a href="../../../01-base/1086-element/default.htm">Element</a>, options As CreationOptions)
-```
-
 ## Params
 
 | **Name** | **Description** |

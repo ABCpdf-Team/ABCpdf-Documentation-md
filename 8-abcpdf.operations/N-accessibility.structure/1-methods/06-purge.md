@@ -10,12 +10,6 @@ The tagged structure of the document references items displayed on the page.
 void Purge(string[] removeEmptyTagsOfType)
 ```
 
-[Visual Basic]
-
-```vb
-Function Purge(removeEmptyTagsOfType() As string)
-```
-
 ## Params
 
 | **Name** | **Description** |

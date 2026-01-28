@@ -10,12 +10,6 @@ Set the file containing the 3D content.
 virtual void SetOBJ(string path)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function SetOBJ(path As string) As void
-```
-
 ## Params
 
 | **Name** | **Description** |

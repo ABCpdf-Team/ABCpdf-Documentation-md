@@ -10,12 +10,6 @@ Get the current Text Rendering Matrix (Trm).
 virtual <a href="../../../5-abcpdf/xtransform/default.htm">XTransform</a> GetTextRenderingMatrix(<a href="../../I-contentstreamscanner.graphicsstate/default.htm">GraphicsState</a> state)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function GetTextRenderingMatrix(state As <a href="../../I-contentstreamscanner.graphicsstate/default.htm">GraphicsState</a>) As <a href="../../../5-abcpdf/xtransform/default.htm">XTransform</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

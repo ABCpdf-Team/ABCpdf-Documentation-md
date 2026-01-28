@@ -10,12 +10,6 @@ Converts the image from one color space to another.
 void Recolor(<a href="../../colorspace/default.htm">ColorSpace</a> space)void Recolor(<a href="../../colorspace/default.htm">ColorSpace</a> space, RenderingIntent intent)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Recolor(space As <a href="../../colorspace/default.htm">ColorSpace</a>)Sub Recolor(space As <a href="../../colorspace/default.htm">ColorSpace</a>, intent As RenderingIntent)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -47,7 +41,7 @@ Here we change all the images in a document to CMYK.
 
 ```csharp
 using var doc = new Doc();
-doc.Read(Server.MapPath("../Rez/spaceshuttle.pdf"));
+doc.Read("../Rez/spaceshuttle.pdf");
 List<PixMap> theList = new List<PixMap>();
 // find all the PixMap objects in the soup
 foreach (IndirectObject obj in doc.ObjectSoup) {
@@ -57,42 +51,14 @@ foreach (IndirectObject obj in doc.ObjectSoup) {
 }
 // add our destination color space
 var cs = new ColorSpace(doc.ObjectSoup);
-cs.IccProfile = new IccProfile(doc.ObjectSoup, Server.MapPath("../Rez/abccmyk.icc"));
+cs.IccProfile = new IccProfile(doc.ObjectSoup, "../Rez/abccmyk.icc");
 // convert images to our color space
 for (int i = 0; i < theList.Count; i++) {
   var p = theList[i];
   p.Recolor(cs, RenderingIntent.Perceptual);
   p.CompressJpeg(75);
 }
-doc.Save(Server.MapPath("pixmaprecolor.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Read(Server.MapPath("../Rez/spaceshuttle.pdf"))
-  Dim theList As New List(Of PixMap)()
-  ' find all the PixMap objects in the soup
-  For Each obj As IndirectObject In doc.ObjectSoup
-    Dim p As PixMap = TryCast(obj, PixMap)
-    If p <> Nothing Then
-      theList.Add(p)
-    End If
-  Next
-  ' add our destination color space
-  Dim cs As New ColorSpace(doc.ObjectSoup)
-  cs.IccProfile = New IccProfile(doc.ObjectSoup, Server.MapPath("../Rez/abccmyk.icc"))
-  ' convert images to our color space
-  Dim i As Integer = 0
-  While i < theList.Count
-    Dim p As PixMap = theList(i)
-    p.Recolor(cs, RenderingIntent.Perceptual)
-    p.CompressJpeg(75)
-    System.Math.Max(System.Threading.Interlocked.Increment(i),i - 1)
-  End While
-  doc.Save(Server.MapPath("pixmaprecolor.pdf"))
-End Using
+doc.Save("pixmaprecolor.pdf");
 ```
 
 ![](../../../images/pdf/shuttle_p1.png)

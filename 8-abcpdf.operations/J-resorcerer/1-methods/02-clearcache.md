@@ -8,12 +8,6 @@
 virtual void ClearCache()
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function ClearCache() As void
-```
-
 ## Params
 
 | **Name** | **Description** |

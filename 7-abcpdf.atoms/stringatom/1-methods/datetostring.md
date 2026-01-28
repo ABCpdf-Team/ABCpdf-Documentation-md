@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] static string DateToString(DateTime dateTime) [Visual Basic] Shared Function DateToString(dateTime As DateTime) As String
+[C#] static string DateToString(DateTime dateTime)
 
 ## Params
 

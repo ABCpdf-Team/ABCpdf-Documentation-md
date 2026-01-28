@@ -10,12 +10,6 @@ Makes shared&nbsp;XForm fields unique.
 void MakeFieldsUnique()void&nbsp;MakeFieldsUnique(string token)
 ```
 
-[Visual Basic]
-
-```vb
-Sub MakeFieldsUnique()Sub&nbsp;MakeFieldsUnique(token As String)
-```
-
 ## Params
 
 | **Name** | **Description** |

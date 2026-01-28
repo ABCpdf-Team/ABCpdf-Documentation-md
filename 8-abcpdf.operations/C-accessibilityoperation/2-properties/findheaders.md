@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | false | No | Whether to detect and remove page headers. |
+|  | false | No | Whether to detect and remove page headers. |
 
 ## Notes
 

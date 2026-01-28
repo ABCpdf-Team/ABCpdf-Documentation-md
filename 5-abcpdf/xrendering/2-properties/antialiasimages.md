@@ -12,7 +12,7 @@ Whether the edges of images are anti-aliased is determined by the AntiAliasPolyg
 
 The following example shows the effect that this parameter has on PDF rendering.
 
-[C#] using var doc = new Doc(); doc.Read(Server.MapPath("../mypics/HyperX.pdf")); doc.Rect.Inset(200, 200); // Render document with AntiAliasImages = true (default) doc.Rendering.Save(Server.MapPath("RenderingAntiAliasImagesTrue.png")); // Render document with AntiAliasImages = false doc.Rendering.AntiAliasImages = false; // Save the image doc.Rendering.Save(Server.MapPath("RenderingAntiAliasImagesFalse.png")); [Visual Basic] Using doc As New Doc() doc.Read(Server.MapPath("../mypics/HyperX.pdf")) doc.Rect.Inset(200, 200) ' Render document with AntiAliasImages = true (default) doc.Rendering.Save(Server.MapPath("RenderingAntiAliasImagesTrue.png")) ' Render document with AntiAliasImages = false doc.Rendering.AntiAliasImages = False ' Save the image doc.Rendering.Save(Server.MapPath("RenderingAntiAliasImagesFalse.png")) End Using
+[C#] using var doc = new Doc(); doc.Read("../mypics/HyperX.pdf"); doc.Rect.Inset(200, 200); // Render document with AntiAliasImages = true (default) doc.Rendering.Save("RenderingAntiAliasImagesTrue.png"); // Render document with AntiAliasImages = false doc.Rendering.AntiAliasImages = false; // Save the image doc.Rendering.Save("RenderingAntiAliasImagesFalse.png");
 
 RenderingAntiAliasImagesTrue.png
 

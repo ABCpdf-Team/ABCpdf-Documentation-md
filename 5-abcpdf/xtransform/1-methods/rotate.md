@@ -10,12 +10,6 @@ Rotate about a locked anchor point (angle in degrees).
 void Rotate(double angle, double anchorX, double anchorY)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Rotate(angle As Double, anchorX As Double, anchorY As Double)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -45,26 +39,7 @@ for (int i = 1; i <= 8; i++) {
   doc.Transform.Rotate(angle, 302, 396);
   doc.AddText($"Rotated {angle}");
 }
-doc.Save(Server.MapPath("rotate.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.FontSize = 48
-  doc.TextStyle.Indent = 48
-  Dim i As Integer = 1
-  While i <= 8
-    Dim theAngle As Integer = i * 45
-    doc.Pos.String = "302 396"
-    doc.Transform.Reset()
-    doc.Transform.Rotate(theAngle, 302, 396)
-    doc.AddText($"Rotated {theAngle}")
-    System.Math.Max(System.Threading.Interlocked.Increment(i),i - 1)
-  End While
-  doc.Save(Server.MapPath("rotate.pdf"))
-End Using
+doc.Save("rotate.pdf");
 ```
 
 ![](../../../images/pdf/rotate.pdf.png)

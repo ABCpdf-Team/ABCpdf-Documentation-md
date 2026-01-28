@@ -10,12 +10,6 @@ Add text markup annotation to the current rect of the current page of the doc.
 <a href="../default.htm">TextMarkupAnnotation</a>(Doc doc, string quadPoints, TextMarkupType markupType, XColor color)<a href="../default.htm">TextMarkupAnnotation</a>(Doc doc, int id, TextMarkupType markupType, XColor color)<a href="../default.htm">TextMarkupAnnotation</a>(Doc doc, TextMarkupType markupType, XColor color)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">TextMarkupAnnotation</a>(doc As Doc, quadPoints As string, markupType As TextMarkupType, color As XColor)<a href="../default.htm">TextMarkupAnnotation</a>(doc As Doc, id As int, markupType As TextMarkupType, color As XColor)<a href="../default.htm">TextMarkupAnnotation</a>(doc As Doc, markupType As TextMarkupType, color As XColor)TextMarkupAnnotation(doc As Doc, id As int, markupType As TextMarkupType, color As XColor, TextMarkupAdjust adjust)TextMarkupAnnotation(doc As Doc, markupType As TextMarkupType, color As XColor, TextMarkupAdjust adjust)
-```
-
 ## Params
 
 | **Name** | **Description** |

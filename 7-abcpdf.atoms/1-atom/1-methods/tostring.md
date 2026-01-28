@@ -11,12 +11,6 @@ The string representation of the Atom as it would appear in a
 override string ToString()string ToString(string format)
 ```
 
-[Visual Basic]
-
-```vb
-Overrides Function ToString() As StringFunction ToString(format As String) As String
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -8,12 +8,6 @@
 virtual XRect SetRect(XRect rect)
 ```
 
-[Visual Basic]
-
-```vb
-Overridable Function SetRect(rect As XRect) As XRect
-```
-
 ## Params
 
 | **Name** | **Description** |

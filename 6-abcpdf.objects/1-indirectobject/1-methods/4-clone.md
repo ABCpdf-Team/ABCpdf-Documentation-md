@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] IndirectObject Clone() [Visual Basic] Function Clone() As IndirectObject
+[C#] IndirectObject Clone()
 
 ## Params
 

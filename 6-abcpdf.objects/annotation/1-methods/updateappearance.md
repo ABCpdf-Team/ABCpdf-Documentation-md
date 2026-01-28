@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] void UpdateAppearance() [Visual Basic] Sub UpdateAppearance()
+[C#] void UpdateAppearance()
 
 ## Params
 

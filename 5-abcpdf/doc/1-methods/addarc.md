@@ -10,12 +10,6 @@ Adds an arc to the current page.
 int AddArc(double as, double ae, double cx, double cy, double rx, double ry)int AddArc(double as, double ae, double cx, double cy, double rx, double ry, bool filled)
 ```
 
-[Visual Basic]
-
-```vb
-Function AddArc(as As Double, ae As Double, cx As Double, cy As Double, rx As Double, ry As Double) As IntegerFunction AddArc(as As Double, ae As Double, cx As Double, cy As Double, rx As Double, ry As Double, filled As Boolean) As Integer
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -48,18 +42,7 @@ using var doc = new Doc();
 doc.Width = 24;
 doc.Color.String = "120 0 0";
 doc.AddArc(0, 270, 300, 400, 200, 300);
-doc.Save(Server.MapPath("docaddarc.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Width = 24
-  doc.Color.String = "120 0 0"
-  doc.AddArc(0, 270, 300, 400, 200, 300)
-  doc.Save(Server.MapPath("docaddarc.pdf"))
-End Using
+doc.Save("docaddarc.pdf");
 ```
 
 ![](../../../images/pdf/docaddarc.pdf.png)

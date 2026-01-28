@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `long?` | n/a | No | Gets the stream length of the source object, if applicable. |
+|  | n/a | No | Gets the stream length of the source object, if applicable. |
 
 ## Notes
 

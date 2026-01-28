@@ -10,7 +10,7 @@ Flash (SWF) movies contain a number of frames. You can set the current frame usi
 
 ## Example
 
-[C#] using var img = new XImage(); using var doc = new Doc(); img.SetFile(Server.MapPath("../mypics/multipage.tif")); for (int i = 1; i <= img.FrameCount; i++) { img.Frame = i; doc.Page = doc.AddPage(); doc.AddImageObject(img, false); } doc.Save(Server.MapPath("imageframe.pdf")); [Visual Basic] Dim theImg As New XImage() Dim doc As New Doc() theImg.SetFile(Server.MapPath("../mypics/multipage.tif")) Dim i As Integer = 1 While i <= theImg.FrameCount theImg.Frame = i doc.Page = doc.AddPage() doc.AddImageObject(theImg, False) System.Math.Max(System.Threading.Interlocked.Increment(i),i - 1) End While theImg.Clear() doc.Save(Server.MapPath("imageframe.pdf")) doc.Clear()
+[C#] using var img = new XImage(); using var doc = new Doc(); img.SetFile("../mypics/multipage.tif"); for (int i = 1; i <= img.FrameCount; i++) { img.Frame = i; doc.Page = doc.AddPage(); doc.AddImageObject(img, false); } doc.Save("imageframe.pdf");
 
 imageframe.pdf - [Page 1]
 

@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] StringAtom() StringAtom(string value) [Visual Basic] Sub New() Sub New(value As String)
+[C#] StringAtom() StringAtom(string value)
 
 ## Params
 

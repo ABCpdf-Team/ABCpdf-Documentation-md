@@ -10,12 +10,6 @@ Gets a set of Fields that are descendents of this one.
 <a href="../default.htm">Field</a>[] GetKids(int maximumDepth)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetKids(maximumDepth As Integer) As <a href="../default.htm">Field</a>()
-```
-
 ## Params
 
 | **Name** | **Description** |

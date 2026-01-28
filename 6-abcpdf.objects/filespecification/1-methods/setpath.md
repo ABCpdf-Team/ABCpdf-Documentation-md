@@ -10,12 +10,6 @@ Set the path to the file for the specified platform
 string SetPath(string platform, string path)
 ```
 
-[Visual Basic]
-
-```vb
-Function SetPath(platform As String, path As String) As String
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,7 +10,7 @@ When you set this property a clone of the XColor you assign is created to avoid 
 
 In this example we show how to use the WhitePoint and BlackPoint with a calibrated RGB color space.
 
-[C#] using var doc = new Doc(); doc.Width = 80; doc.Rect.Inset(50, 50); var cs = new ColorSpace(doc.ObjectSoup, ColorSpaceType.CalRGB); cs.WhitePoint.SetComponents(0.9, 1.0, 1.1); cs.BlackPoint = XColor.FromComponents(0.1, 0.1, 0.1); doc.ColorSpace = cs.ID; doc.Color.SetComponents(0.9, 0.1, 0.1); // red doc.AddOval(true); doc.Save(Server.MapPath("examplecalrgbcolorspace.pdf")); [Visual Basic] Using doc As New Doc() doc.Width = 80 doc.Rect.Inset(50, 50) Dim cs As New ColorSpace(doc.ObjectSoup, ColorSpaceType.CalRGB) cs.WhitePoint.SetComponents(0.9, 1.0, 1.1) cs.BlackPoint = XColor.FromComponents(0.1, 0.1, 0.1) doc.ColorSpace = cs.ID doc.Color.SetComponents(0.9, 0.1, 0.1) ' red doc.AddOval(True) doc.Save(Server.MapPath("examplecalrgbcolorspace.pdf")) End Using
+[C#] using var doc = new Doc(); doc.Width = 80; doc.Rect.Inset(50, 50); var cs = new ColorSpace(doc.ObjectSoup, ColorSpaceType.CalRGB); cs.WhitePoint.SetComponents(0.9, 1.0, 1.1); cs.BlackPoint = XColor.FromComponents(0.1, 0.1, 0.1); doc.ColorSpace = cs.ID; doc.Color.SetComponents(0.9, 0.1, 0.1); // red doc.AddOval(true); doc.Save("examplecalrgbcolorspace.pdf");
 
 examplecalrgbcolorspace.pdf
 

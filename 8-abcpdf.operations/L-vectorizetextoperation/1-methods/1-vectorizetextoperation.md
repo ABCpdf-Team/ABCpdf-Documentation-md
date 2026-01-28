@@ -2,7 +2,7 @@
 
 ## Syntax
 
-[C#] VectorizeTextOperation() [Visual Basic] Sub New()
+[C#] VectorizeTextOperation()
 
 ## Params
 

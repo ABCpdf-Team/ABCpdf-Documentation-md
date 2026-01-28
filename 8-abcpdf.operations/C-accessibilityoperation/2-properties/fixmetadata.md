@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | true | No | Whether to attempt to fix or add metadata that may be required for accessibility. |
+|  | true | No | Whether to attempt to fix or add metadata that may be required for accessibility. |
 
 ## Notes
 

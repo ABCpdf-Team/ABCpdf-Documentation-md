@@ -10,12 +10,6 @@ Gets the Double value of this number.
 double GetNumberDouble()
 ```
 
-[Visual Basic]
-
-```vb
-Function GetNumberDouble() As Double
-```
-
 ## Params
 
 | **Name** | **Description** |

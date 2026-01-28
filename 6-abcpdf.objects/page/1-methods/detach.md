@@ -10,12 +10,6 @@ Detaches a content stream from the page.
 void Detach(<a href="../../streamobject/default.htm">StreamObject</a> layer)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Detach(layer As <a href="../../streamobject/default.htm">StreamObject</a>)
-```
-
 ## Params
 
 | **Name** | **Description** |

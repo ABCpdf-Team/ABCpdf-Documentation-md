@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `WritingModeType` | n/a | Yes | Gets the font writing mode. |
+|  | n/a | Yes | Gets the font writing mode. |
 
 ## Notes
 

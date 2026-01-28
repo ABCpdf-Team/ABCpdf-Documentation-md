@@ -10,12 +10,6 @@ Sets the content data for the page.
 <a href="../../streamobject/default.htm">StreamObject</a> SetContentData(byte[] buffer, bool compress)<a href="../../streamobject/default.htm">StreamObject</a> SetContentData(byte[] buffer, int index, int count, bool compress)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetContentData(buffer() As Byte, compress As bool) As <a href="../../streamobject/default.htm">StreamObject</a>Sub SetContentData(buffer() As Byte, index As int, count As int, compress As bool) As <a href="../../streamobject/default.htm">StreamObject</a>
-```
-
 ## Params
 
 | **Name** | **Description** |

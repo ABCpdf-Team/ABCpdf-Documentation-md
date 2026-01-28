@@ -10,12 +10,6 @@ Removes a Bookmark from the list.
 bool Remove(<a href="../default.htm">Bookmark</a> value)
 ```
 
-[Visual Basic]
-
-```vb
-Function Remove(value As <a href="../default.htm">Bookmark</a>) As Boolean
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Extract content from the current page in a specified format.
 string GetText(string type)string GetText(Page.TextType type, bool includeAnnotations)
 ```
 
-[Visual Basic]
-
-```vb
-Function GetText(type As String) As StringFunction GetText(type As Page.TextType, includeAnnotations As Boolean) As String
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ A string representation of the graphic style of the document
 override string ToString()
 ```
 
-[Visual Basic]
-
-```vb
-Overrides Function ToString() As String
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -1,0 +1,2 @@
+# SoundObjectStreamElement Class
+

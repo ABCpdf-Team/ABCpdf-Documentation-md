@@ -12,7 +12,7 @@ Setting this property will result in duplicate fields being renamed to allow the
 
 The ABCChrome engine does not support this property but it is not a difficult matter to emulate it using code of the following form.
 
-[C#] HashSet<string> names = new HashSet<string>(); List<Field> fields = new List<Field>(); foreach (Field field in theDoc.Form.Fields) { fields.Add(field); foreach (Field kid in field.GetKids(1000)) fields.Add(kid); } foreach (Field field in fields) { for (int i = 1; names.Contains(field.Name); i++) Atom.SetItem(field.Atom, "T", new StringAtom(field.PartialName + "_" + i.ToString())); names.Add(field.Name); } theDoc.Form.Refresh(); [Visual Basic] Dim names As HashSet(Of String) = New HashSet(Of String) Dim fields As List(Of Field) = New List(Of Field) For Each field As Field In theDoc.Form.Fields fields.Add(field) For Each kid As Field In field.GetKids(1000) fields.Add(kid) Next Next For Each field As Field In fields Dim i As Integer = 1 Do While names.Contains(field.Name) Atom.SetItem(field.Atom, "T", New StringAtom((field.PartialName + ("_" + i.ToString)))) i = (i + 1) Loop names.Add(field.Name) Next theDoc.Form.Refresh
+[C#] HashSet<string> names = new HashSet<string>(); List<Field> fields = new List<Field>(); foreach (Field field in theDoc.Form.Fields) { fields.Add(field); foreach (Field kid in field.GetKids(1000)) fields.Add(kid); } foreach (Field field in fields) { for (int i = 1; names.Contains(field.Name); i++) Atom.SetItem(field.Atom, "T", new StringAtom(field.PartialName + "_" + i.ToString())); names.Add(field.Name); } theDoc.Form.Refresh();
 
 ## Example
 

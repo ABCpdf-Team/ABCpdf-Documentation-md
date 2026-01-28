@@ -10,12 +10,6 @@ Path access rule constructor.
 <a href="../default.htm">PathRule</a>()<a href="../default.htm">PathRule</a>(string pattern, AccessType access)
 ```
 
-[Visual Basic]
-
-```vb
-<a href="../default.htm">PathRule</a>()<a href="../default.htm">PathRule</a>(string pattern, AccessType access)
-```
-
 ## Params
 
 | **Name** | **Description** |

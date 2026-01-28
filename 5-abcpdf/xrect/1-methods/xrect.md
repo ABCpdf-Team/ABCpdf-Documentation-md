@@ -10,12 +10,6 @@ XRect Constructor.
 XRect()XRect(string value)
 ```
 
-[Visual Basic]
-
-```vb
-Sub NewSub New(value As String)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -1,0 +1,2 @@
+# JSConstant Class
+

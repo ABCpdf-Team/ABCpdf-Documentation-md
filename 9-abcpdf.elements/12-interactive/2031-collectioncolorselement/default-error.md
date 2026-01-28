@@ -1,0 +1,2 @@
+# CollectionColorsElement Class
+

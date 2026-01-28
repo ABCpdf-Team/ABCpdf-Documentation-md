@@ -10,12 +10,6 @@ Convert a restricted selection of external links to internal links.
 int LinkDestinations(IEnumerable&lt;int&gt; ids)int LinkDestinations(IEnumerable&lt;int&gt; linkIDs, IEnumerable&lt;int&gt; destIDs, bool linkPages)
 ```
 
-[Visual Basic]
-
-```vb
-Sub LinkDestinations(ids As IEnumerable(Of Integer))Sub LinkDestinations(linkIDs As IEnumerable(Of Integer), destIDs As IEnumerable(Of Integer), linkPages As Boolean)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -48,14 +42,6 @@ This example shows how to import an HTML page which uses named destinations. We 
 using var doc = new Doc();
 doc.Rect.Inset(18, 18);
 doc.HtmlOptions.AddLinks = true;
-```
-
-[Visual Basic]
-
-```vb
-Using doc As New Doc()
-  doc.Rect.Inset(18, 18)
-  doc.HtmlOptions.AddLinks = True
 ```
 
 ![](../../../images/pdf/linkpages.pdf.png)

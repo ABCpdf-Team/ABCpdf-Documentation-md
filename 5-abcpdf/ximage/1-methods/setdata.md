@@ -10,12 +10,6 @@ Load an image from data.
 void SetData(byte[] data)
 ```
 
-[Visual Basic]
-
-```vb
-Sub SetData(data() As Byte)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -42,7 +36,7 @@ Here we read a TIFF file and present the data to the XImage object. We then add 
 using var img = new XImage();
 using var doc = new Doc();
 // read the data from a file
-string path = Server.MapPath("../mypics/mypic.jpg");
+string path = "../mypics/mypic.jpg";
 using var stream = File.OpenRead(path);
 byte[] theData = new byte[stream.Length];
 stream.Read(theData, 0, (int)stream.Length);
@@ -50,27 +44,7 @@ stream.Read(theData, 0, (int)stream.Length);
 img.SetData(theData);
 doc.Rect.Inset(20, 20);
 doc.AddImageObject(img, false);
-doc.Save(Server.MapPath("imagesetdata.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Dim theImg As New XImage()
-Dim doc As New Doc()
-' read the data from a file
-Dim thePath As String = Server.MapPath("../mypics/mypic.jpg")
-Dim theStream As FileStream = File.OpenRead(thePath)
-Dim theData As Byte() = New Byte(theStream.Length - 1) {}
-theStream.Read(theData, 0, DirectCast(theStream.Length, Integer))
-theStream.Close()
-' place the data into the image
-theImg.SetData(theData)
-doc.Rect.Inset(20, 20)
-doc.AddImageObject(theImg, False)
-theImg.Clear()
-doc.Save(Server.MapPath("imagesetdata.pdf"))
-doc.Clear()
+doc.Save("imagesetdata.pdf");
 ```
 
 ![](../../../images/pdf/imagesetdata.pdf.png)

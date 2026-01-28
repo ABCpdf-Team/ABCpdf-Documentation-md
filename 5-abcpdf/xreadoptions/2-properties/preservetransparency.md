@@ -2,7 +2,7 @@
 
 | **Type** | **Default** | **Read Only** | **Description** |
 | --- | --- | --- | --- |
-| [C#] <BR> `bool` | false | No | Gets or sets a value that indicates whether the transparency of raster images should be preserved. |
+|  | false | No | Gets or sets a value that indicates whether the transparency of raster images should be preserved. |
 
 ## Notes
 

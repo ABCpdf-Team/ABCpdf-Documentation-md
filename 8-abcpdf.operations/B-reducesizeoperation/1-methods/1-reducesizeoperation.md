@@ -10,12 +10,6 @@ ReduceSizeOperation Constructor.
 <a href="../default.htm">ReduceSizeOperation</a>(Doc doc)
 ```
 
-[Visual Basic]
-
-```vb
-Sub New(doc As Doc)
-```
-
 ## Params
 
 | **Name** | **Description** |

@@ -10,12 +10,6 @@ Imports selected frames of a Flash movie.
 void Import(string path)void Import(Stream stream, string url)
 ```
 
-[Visual Basic]
-
-```vb
-Sub Import(path As String)Sub Import(stream As Stream, url As String)
-```
-
 ## Params
 
 | **Name** | **Description** |
@@ -121,84 +115,10 @@ using (var operation = new SwfImportOperation()) {
     if (pixmap != null)
       pixmap.Compress();
   };
-  operation.Import(Server.MapPath("ABCpdf.swf"));
+  operation.Import("../Rez/ABCpdf.swf");
 }
-doc1.Save(Server.MapPath("swf1.pdf"));
-doc2.Save(Server.MapPath("swf2.pdf"));
-```
-
-[Visual Basic]
-
-```vb
-Dim doc1 As New Doc()
-Dim doc2 As New Doc()
-Using operation As New SwfImportOperation()
-  Const  fontSize As Integer = 20
-  Dim k As Integer = 0
-  Dim failed As Boolean = False
-  operation.ProcessingObject += Sub(sender As Object, e As ProcessingObjectEventArgs) Select Case e.Info.SourceType
-    Case ProcessingSourceType.MultiFrameImage
-      If failed OrElse k >= 24 Then
-        e.Info.FrameNumber = Nothing
-      Else
-        e.Info.FrameNumber = 1 + Convert.ToInt64(0.2 * k * e.Info.FrameRate.Value)
-      End If
-      e.Tag = ProcessingSourceType.MultiFrameImage
-      Exit Select
-    Case ProcessingSourceType.ImageFrame
-      If True Then
-        Dim op As SwfImportOperation = DirectCast(sender, SwfImportOperation)
-        op.Doc = If(op.Doc = doc1, doc2, doc1)
-        Const  distance As Integer = 20
-        Const  margin As Integer = 30
-        Dim width As Double = op.Doc.MediaBox.Width - 2 * margin
-        Dim height As Double = op.Doc.MediaBox.Height - 2 * margin
-        Dim scale As Double = Math.Min((width - distance) / (2 * e.Info.Width.Value), (height - 2 * distance - 3 * fontSize) / (3 * e.Info.Height.Value))
-
-        Dim p As Integer = k / 2
-        Dim rectWidth As Double = scale * e.Info.Width.Value
-        Dim rectHeight As Double = scale * e.Info.Height.Value
-        op.Doc.Rect.SetRect(margin + (width + distance) * (p Mod 2) / 2, margin + height - rectHeight - (height + 2 * distance) * (p / 2 Mod 3) / 3, rectWidth, rectHeight)
-        If p Mod 6 = 0 Then
-          op.Doc.Page = op.Doc.AddPage()
-        End If
-        If p >= 4 AndAlso p < 8 AndAlso e.Info.BackgroundColor <> Nothing Then
-          op.BackgroundRegion = Nothing
-          op.Doc.Color.String = e.Info.BackgroundColor.[String]
-          op.Doc.Color.Alpha = 127
-          op.Doc.AddOval(True)
-        End If
-      End If
-      Exit Select
-  End Select
-  operation.ProcessedObject += Sub(sender As Object, e As ProcessedObjectEventArgs) 
-  If Not e.Successful Then
-    failed = True
-    Return
-  End If
-  If TypeOf e.Tag Is ProcessingSourceType AndAlso DirectCast(e.Tag, ProcessingSourceType) = ProcessingSourceType.MultiFrameImage Then
-    Dim op As SwfImportOperation = DirectCast(sender, SwfImportOperation)
-    op.Doc.Color.Gray = 0
-    op.Doc.Color.Alpha = 255
-    op.Doc.FontSize = fontSize
-    op.Doc.TextStyle.HPos = 0.5
-    op.Doc.Rect.Top = op.Doc.Rect.Bottom
-    op.Doc.Rect.Bottom = op.Doc.MediaBox.Bottom
-    op.Doc.AddText(String.Format("{0} secs", 0.2 * k))
-    System.Threading.Interlocked.Increment(k)
-  End If
-  Dim pixmap As PixMap = TryCast(e.[Object], PixMap)
-  If pixmap <> Nothing Then
-    pixmap.Compress()
-  End If
-
-  End Sub
-  operation.Import(Server.MapPath("ABCpdf.swf"))
-End Using
-doc1.Save(Server.MapPath("swf1.pdf"))
-doc1.Clear()
-doc2.Save(Server.MapPath("swf2.pdf"))
-doc2.Clear()
+doc1.Save("swf1.pdf");
+doc2.Save("swf2.pdf");
 ```
 
 Also see example code in: [ProcessingInfo FrameNumber Property](2-processinginfo/2-properties/framenumber.md).
